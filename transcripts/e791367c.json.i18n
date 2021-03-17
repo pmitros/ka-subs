@@ -1,0 +1,897 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "So we've been doing a lot of drawing so far.",
+            "pl": "Więc do tej pory robiliśmy dużo rysowania.",
+            "ar": "لذلك كنا نفعل الكثير من الرسم حتى الآن."
+         },
+         "endTime": 2719,
+         "startTime": 236
+      },
+      {
+         "text": {
+            "en": "But we haven't talked about something as simple as say,",
+            "pl": "Ale nie rozmawialiśmy o czymś tak prostym, jak powiedzmy,",
+            "ar": "لكننا لم نتحدث عن شيء بسيط كما يقول"
+         },
+         "endTime": 5193,
+         "startTime": 2719
+      },
+      {
+         "text": {
+            "en": "writing your name; that's what this lesson is about, text.",
+            "pl": "pisząc swoje imię; o to chodzi w tej lekcji, tekst.",
+            "ar": "كتابة اسمك؛ هذا هو ما يدور حول هذا الدرس، النص."
+         },
+         "endTime": 7595,
+         "startTime": 5193
+      },
+      {
+         "text": {
+            "en": "So why might you want to use text?",
+            "pl": "Dlaczego więc chcesz użyć SMS-a?",
+            "ar": "فلماذا قد ترغب في استخدام النص؟"
+         },
+         "endTime": 10049,
+         "startTime": 7595
+      },
+      {
+         "text": {
+            "en": "Well maybe we want to show  the score in a game",
+            "pl": "Cóż, może chcemy pokazać wynik w grze",
+            "ar": "حسنا ربما نريد أن نعرض النتيجة في لعبة"
+         },
+         "endTime": 12303,
+         "startTime": 10049
+      },
+      {
+         "text": {
+            "en": "or have characters talk,  or just to make our name grow",
+            "pl": "lub mieć postacie mówić, lub po prostu, aby nasze imię rosło",
+            "ar": "أو لديك شخصيات تتحدث، أو لمجرد جعل اسمنا ينمو"
+         },
+         "endTime": 14739,
+         "startTime": 12303
+      },
+      {
+         "text": {
+            "en": "and shrink and change colors.",
+            "pl": "i kurczyć się i zmieniać kolory.",
+            "ar": "وتقلص وتغيير الألوان."
+         },
+         "endTime": 16305,
+         "startTime": 14739
+      },
+      {
+         "text": {
+            "en": "So let's go ahead and try and say \"hello.\"",
+            "pl": "Więc chodźmy i spróbujmy powiedzieć „cześć”.",
+            "ar": "لذلك دعونا نمضي قدما ونحاول ونقول «مرحبا»."
+         },
+         "endTime": 18654,
+         "startTime": 16305
+      },
+      {
+         "text": {
+            "en": "Say \"text(hello)\" and we have this weird error message that pops up,",
+            "pl": "Powiedz „text (hello)” i mamy ten dziwny komunikat o błędzie, który pojawia się,",
+            "ar": "قل «text (hello)» ولدينا رسالة الخطأ الغريبة التي تنبثق،"
+         },
+         "endTime": 24353,
+         "startTime": 18654
+      },
+      {
+         "text": {
+            "en": "saying that \"hello is not defined,\" what does that mean?",
+            "pl": "mówiąc, że „cześć nie jest zdefiniowana”, co to znaczy?",
+            "ar": "قائلا أن «مرحبا لم يتم تعريف»، ماذا يعني ذلك؟"
+         },
+         "endTime": 27424,
+         "startTime": 24353
+      },
+      {
+         "text": {
+            "en": "Well, the problem is that the program",
+            "pl": "Cóż, problem polega na tym, że program",
+            "ar": "حسنا، المشكلة هي أن البرنامج"
+         },
+         "endTime": 29431,
+         "startTime": 27424
+      },
+      {
+         "text": {
+            "en": "thinks that \"hello\" is a variable,",
+            "pl": "uważa, że „hello” jest zmienną,",
+            "ar": "يعتقد أن «مرحبا» هو متغير،"
+         },
+         "endTime": 31058,
+         "startTime": 29431
+      },
+      {
+         "text": {
+            "en": "and it kind of makes sense  from the program's perspective",
+            "pl": "i to w pewnym sensie ma sens z punktu widzenia programu",
+            "ar": "وهو نوع من المنطقي من وجهة نظر البرنامج"
+         },
+         "endTime": 33715,
+         "startTime": 31058
+      },
+      {
+         "text": {
+            "en": "because maybe \"hello\" could be a variable,  how would it know?",
+            "pl": "bo może „cześć” może być zmienną, skąd to wiedzieć?",
+            "ar": "لأنه ربما «مرحبا» يمكن أن يكون متغير، كيف يمكن أن نعرف؟"
+         },
+         "endTime": 36222,
+         "startTime": 33715
+      },
+      {
+         "text": {
+            "en": "So how do we tell our program that it's actually text?",
+            "pl": "Więc jak powiemy naszemu programowi, że to rzeczywiście tekst?",
+            "ar": "فكيف يمكننا أن نقول برنامجنا أنه في الواقع النص؟"
+         },
+         "endTime": 38991,
+         "startTime": 36222
+      },
+      {
+         "text": {
+            "en": "So that's easy, we just have to remember",
+            "pl": "Więc to proste, musimy tylko pamiętać",
+            "ar": "لذلك هذا سهل، علينا فقط أن نتذكر"
+         },
+         "endTime": 41350,
+         "startTime": 38991
+      },
+      {
+         "text": {
+            "en": "to put these quotations marks around it.",
+            "pl": "umieścić te cudzysłowy wokół niego.",
+            "ar": "لوضع علامات الاقتباسات هذه حوله."
+         },
+         "endTime": 43159,
+         "startTime": 41350
+      },
+      {
+         "text": {
+            "en": "And that says  that no, this is not a variable,",
+            "pl": "I to mówi, że nie, to nie jest zmienna,",
+            "ar": "وهذا يقول أنه لا، هذا ليس متغير،"
+         },
+         "endTime": 45083,
+         "startTime": 43159
+      },
+      {
+         "text": {
+            "en": "and in fact this is text",
+            "pl": "i w rzeczywistości jest to tekst",
+            "ar": "وفي الواقع هذا هو النص"
+         },
+         "endTime": 46457,
+         "startTime": 45083
+      },
+      {
+         "text": {
+            "en": "or we want you to display it as text,",
+            "pl": "lub chcemy, aby wyświetlić go jako tekst,",
+            "ar": "أو نريدك أن تعرضه كنص"
+         },
+         "endTime": 48153,
+         "startTime": 46457
+      },
+      {
+         "text": {
+            "en": "and you can remember this by thinking of a book,",
+            "pl": "i możesz to zapamiętać myśląc o książce,",
+            "ar": "ويمكنك تذكر هذا من خلال التفكير في كتاب،"
+         },
+         "endTime": 50226,
+         "startTime": 48153
+      },
+      {
+         "text": {
+            "en": "where all the characters talk,",
+            "pl": "gdzie wszystkie postacie mówią,",
+            "ar": "حيث تتحدث جميع الشخصيات،"
+         },
+         "endTime": 51739,
+         "startTime": 50226
+      },
+      {
+         "text": {
+            "en": "and there are quotes around what they are saying.",
+            "pl": "i są cytaty wokół tego, co mówią.",
+            "ar": "وهناك اقتباسات حول ما يقولونه."
+         },
+         "endTime": 53694,
+         "startTime": 51739
+      },
+      {
+         "text": {
+            "en": "And similarly, when you want  the program to say something,",
+            "pl": "I podobnie, kiedy chcesz, żeby program coś powiedział,",
+            "ar": "وبالمثل، عندما تريد البرنامج أن يقول شيئا،"
+         },
+         "endTime": 56162,
+         "startTime": 53694
+      },
+      {
+         "text": {
+            "en": "that text has to have  these qutoes around it.",
+            "pl": "że tekst musi mieć te cyty wokół niego.",
+            "ar": "هذا النص يجب أن يكون هذه الكوتو حولها."
+         },
+         "endTime": 58400,
+         "startTime": 56162
+      },
+      {
+         "text": {
+            "en": "And this is actually really important and easy to mess up.",
+            "pl": "A to jest naprawdę ważne i łatwe do zepsucia.",
+            "ar": "وهذا هو في الواقع مهم حقا وسهلة الفوضى."
+         },
+         "endTime": 60899,
+         "startTime": 58400
+      },
+      {
+         "text": {
+            "en": "So i'm just going to say it again, anytime you want to use text",
+            "pl": "Powtórzę to jeszcze raz, kiedy tylko zechcesz użyć SMS-a.",
+            "ar": "لذلك أنا ذاهب لمجرد أن أقول ذلك مرة أخرى، في أي وقت تريد استخدام النص"
+         },
+         "endTime": 63891,
+         "startTime": 60899
+      },
+      {
+         "text": {
+            "en": "in your program you always have to use",
+            "pl": "w swoim programie zawsze musisz użyć",
+            "ar": "في البرنامج الخاص بك لديك دائما لاستخدام"
+         },
+         "endTime": 65753,
+         "startTime": 63891
+      },
+      {
+         "text": {
+            "en": "these quotation marks around it.",
+            "pl": "te cudzysłowy wokół niego.",
+            "ar": "علامات الاقتباس هذه حوله."
+         },
+         "endTime": 67526,
+         "startTime": 65753
+      },
+      {
+         "text": {
+            "en": "Otherwise you're going to get some really weird error messages.",
+            "pl": "W przeciwnym razie dostaniesz kilka naprawdę dziwnych komunikatów o błędach.",
+            "ar": "وإلا كنت تسير للحصول على بعض رسائل الخطأ غريبة حقا."
+         },
+         "endTime": 70112,
+         "startTime": 67526
+      },
+      {
+         "text": {
+            "en": "And remember, if you do see those weird error messages,",
+            "pl": "I pamiętaj, jeśli widzisz te dziwne komunikaty o błędach,",
+            "ar": "وتذكر، إذا كنت ترى تلك الرسائل الخطأ الغريبة،"
+         },
+         "endTime": 72606,
+         "startTime": 70112
+      },
+      {
+         "text": {
+            "en": "just be sure to double check that you are remembering to use quotes.",
+            "pl": "po prostu upewnij się, aby dwukrotnie sprawdzić, czy pamiętasz używać cudzysłowów.",
+            "ar": "فقط تأكد من مضاعفة التحقق من أنك تتذكر استخدام علامات الاقتباس."
+         },
+         "endTime": 75359,
+         "startTime": 72606
+      },
+      {
+         "text": {
+            "en": "Great! so now we're using quotation marks,",
+            "pl": "Świetnie! więc teraz używamy cudzysłowów,",
+            "ar": "عظيم! حتى الآن نحن نستخدم علامات الاقتباس،"
+         },
+         "endTime": 77232,
+         "startTime": 75359
+      },
+      {
+         "text": {
+            "en": "and we don't get an error anymore.",
+            "pl": "i nie mamy już błędu.",
+            "ar": "ونحن لا تحصل على خطأ بعد الآن."
+         },
+         "endTime": 78755,
+         "startTime": 77232
+      },
+      {
+         "text": {
+            "en": "But you might have noticed that nothing is happening,",
+            "pl": "Ale może zauważyłeś, że nic się nie dzieje,",
+            "ar": "ولكن ربما لاحظت أن لا شيء يحدث،"
+         },
+         "endTime": 80928,
+         "startTime": 78755
+      },
+      {
+         "text": {
+            "en": "and it's still blank,",
+            "pl": "i wciąż jest pusta,",
+            "ar": "وانها لا تزال فارغة,"
+         },
+         "endTime": 82217,
+         "startTime": 80928
+      },
+      {
+         "text": {
+            "en": "but what is kind of strange is if we set a \"background,\"",
+            "pl": "Ale co jest trochę dziwne, jeśli ustawimy „tło”",
+            "ar": "ولكن ما هو نوع من الغريب هو إذا وضعنا «خلفية»،"
+         },
+         "endTime": 84890,
+         "startTime": 82217
+      },
+      {
+         "text": {
+            "en": "something, say just a red,  then we see that it is actually there.",
+            "pl": "coś, powiedzieć po prostu czerwony, to widzimy, że jest rzeczywiście tam.",
+            "ar": "شيء ما، ويقول مجرد أحمر، ثم نرى أنه في الواقع هناك."
+         },
+         "endTime": 89114,
+         "startTime": 84890
+      },
+      {
+         "text": {
+            "en": "It's just in white, so the problem is  if we think about it,",
+            "pl": "Jest po prostu w kolorze białym, więc problem polega na tym, że jeśli o tym pomyślimy,",
+            "ar": "انها فقط باللون الأبيض، لذلك المشكلة هي إذا فكرنا في ذلك،"
+         },
+         "endTime": 93120,
+         "startTime": 89114
+      },
+      {
+         "text": {
+            "en": "that we were writing white text,  onto a white background,",
+            "pl": "że pisaliśmy biały tekst, na białym tle,",
+            "ar": "أننا كنا نكتب نصًا أبيض، على خلفية بيضاء،"
+         },
+         "endTime": 96106,
+         "startTime": 93120
+      },
+      {
+         "text": {
+            "en": "and that's why we couldn't see it.",
+            "pl": "Dlatego nie mogliśmy tego dostrzec.",
+            "ar": "وهذا هو السبب في أننا لا يمكن أن نرى ذلك."
+         },
+         "endTime": 97952,
+         "startTime": 96106
+      },
+      {
+         "text": {
+            "en": "So that seems a little bit silly,  why were you writing",
+            "pl": "Więc to wydaje się trochę głupie, dlaczego piszesz",
+            "ar": "لذلك هذا يبدو سخيفا بعض الشيء، لماذا كنت تكتب"
+         },
+         "endTime": 100451,
+         "startTime": 97952
+      },
+      {
+         "text": {
+            "en": "white text onto white background?",
+            "pl": "biały tekst na białym tle?",
+            "ar": "نص أبيض على خلفية بيضاء؟"
+         },
+         "endTime": 102940,
+         "startTime": 100451
+      },
+      {
+         "text": {
+            "en": "Well, we could just change it,  because we learned how to set",
+            "pl": "Moglibyśmy to zmienić, bo nauczyliśmy się ustawiać",
+            "ar": "حسنا، يمكننا فقط تغييره، لأننا تعلمنا كيفية تعيين"
+         },
+         "endTime": 105893,
+         "startTime": 102940
+      },
+      {
+         "text": {
+            "en": "the fill of something.",
+            "pl": "wypełnienie czegoś.",
+            "ar": "ملء شيء ما."
+         },
+         "endTime": 107006,
+         "startTime": 105893
+      },
+      {
+         "text": {
+            "en": "And just like we can set the fill  of a rectangle or a line,",
+            "pl": "I tak jak możemy ustawić wypełnienie prostokąta lub linii,",
+            "ar": "ومثلما يمكننا تعيين ملء مستطيل أو خط،"
+         },
+         "endTime": 109891,
+         "startTime": 107006
+      },
+      {
+         "text": {
+            "en": "we can set the fill of text to anything",
+            "pl": "możemy ustawić wypełnienie tekstu na cokolwiek",
+            "ar": "يمكننا تعيين ملء النص إلى أي شيء"
+         },
+         "endTime": 111796,
+         "startTime": 109891
+      },
+      {
+         "text": {
+            "en": "just like before, and then there it is!",
+            "pl": "tak jak poprzednio, a potem jest!",
+            "ar": "تماما كما كان من قبل، ومن ثم هناك!"
+         },
+         "endTime": 114231,
+         "startTime": 111796
+      },
+      {
+         "text": {
+            "en": "It shows up without  needing the background,",
+            "pl": "Pojawia się bez potrzeby tła,",
+            "ar": "يظهر دون الحاجة إلى الخلفية،"
+         },
+         "endTime": 116410,
+         "startTime": 114231
+      },
+      {
+         "text": {
+            "en": "so let's look a little bit more to how this text thing is working.",
+            "pl": "więc przyjrzyjmy się trochę bardziej, jak ten tekst działa.",
+            "ar": "لذلك دعونا ننظر أكثر قليلا لكيفية عمل هذا الشيء النص."
+         },
+         "endTime": 120609,
+         "startTime": 116410
+      },
+      {
+         "text": {
+            "en": "The first part, is obvious enough,",
+            "pl": "Pierwsza część, jest wystarczająco oczywista,",
+            "ar": "الجزء الأول, واضح بما فيه الكفاية,"
+         },
+         "endTime": 122324,
+         "startTime": 120609
+      },
+      {
+         "text": {
+            "en": "it's just whatever text we want to write.",
+            "pl": "To tylko tekst, który chcemy napisać.",
+            "ar": "انها مجرد أي نص نريد أن نكتبه."
+         },
+         "endTime": 124419,
+         "startTime": 122324
+      },
+      {
+         "text": {
+            "en": "The next part, if we change it,",
+            "pl": "Następna część, jeśli ją zmienimy,",
+            "ar": "الجزء التالي، إذا قمنا بتغييره،"
+         },
+         "endTime": 126584,
+         "startTime": 124419
+      },
+      {
+         "text": {
+            "en": "we can see that it's basically just how far over,",
+            "pl": "Widzimy, że to jest w zasadzie jak daleko,",
+            "ar": "يمكننا أن نرى أنه في الأساس مدى أكثر من ذلك،"
+         },
+         "endTime": 128949,
+         "startTime": 126584
+      },
+      {
+         "text": {
+            "en": "and the next one is just how far up and down.",
+            "pl": "a następny jest jak daleko w górę iw dół.",
+            "ar": "والقادم هو مدى صعودا وهبوطا."
+         },
+         "endTime": 131776,
+         "startTime": 128949
+      },
+      {
+         "text": {
+            "en": "That probably looks really familiar from when we were just",
+            "pl": "To prawdopodobnie wygląda znajomo, kiedy byliśmy po prostu",
+            "ar": "ربما يبدو ذلك مألوفاً جداً عندما كنا فقط"
+         },
+         "endTime": 134822,
+         "startTime": 131776
+      },
+      {
+         "text": {
+            "en": "drawing rectangles.",
+            "pl": "rysowanie prostokątów.",
+            "ar": "رسم المستطيلات."
+         },
+         "endTime": 135868,
+         "startTime": 134822
+      },
+      {
+         "text": {
+            "en": "One thing that's a little bit tricky",
+            "pl": "Jedna rzecz, która jest trochę trudna",
+            "ar": "شيء واحد صعب بعض الشيء"
+         },
+         "endTime": 137620,
+         "startTime": 135868
+      },
+      {
+         "text": {
+            "en": "is that text has these two coordinates",
+            "pl": "jest to, że tekst ma te dwie współrzędne",
+            "ar": "هو أن النص يحتوي على هذين الإحداثيات"
+         },
+         "endTime": 139542,
+         "startTime": 137620
+      },
+      {
+         "text": {
+            "en": "specify the lower left part,  so this corner of the text.",
+            "pl": "określ lewą dolną część, więc ten narożnik tekstu.",
+            "ar": "حدد الجزء السفلي الأيسر، لذلك هذه الزاوية من النص."
+         },
+         "endTime": 144256,
+         "startTime": 139542
+      },
+      {
+         "text": {
+            "en": "While with rectangles it's the upper left, this corner.",
+            "pl": "Podczas gdy z prostokątami jest lewy górny, ten narożnik.",
+            "ar": "بينما مع المستطيلات انها أعلى اليسار، هذه الزاوية."
+         },
+         "endTime": 147222,
+         "startTime": 144256
+      },
+      {
+         "text": {
+            "en": "And that can seem like it was just designed to confuse you,",
+            "pl": "I to może wydawać się, że zostało zaprojektowane tak, by cię zmylić.",
+            "ar": "وهذا يمكن أن يبدو وكأنه صمم فقط لإرباك لك،"
+         },
+         "endTime": 150280,
+         "startTime": 147222
+      },
+      {
+         "text": {
+            "en": "but it's just something you kind of have to remember.",
+            "pl": "Ale to coś, o czym musisz pamiętać.",
+            "ar": "لكنه مجرد شيء يجب أن تتذكره"
+         },
+         "endTime": 152761,
+         "startTime": 150280
+      },
+      {
+         "text": {
+            "en": "And we can even experiment  and see it for ourselves,",
+            "pl": "I możemy nawet eksperymentować i zobaczyć to na własne oczy,",
+            "ar": "ويمكننا حتى تجربة ونرى ذلك لأنفسنا،"
+         },
+         "endTime": 154913,
+         "startTime": 152761
+      },
+      {
+         "text": {
+            "en": "by we can set this to say, \"height,\" and we can see that,",
+            "pl": "przez możemy ustawić to powiedzieć, „wysokość”, i widzimy, że,",
+            "ar": "يمكننا أن نحدد هذا ليقول، «الارتفاع»، ويمكننا أن نرى ذلك،"
+         },
+         "endTime": 159219,
+         "startTime": 154955
+      },
+      {
+         "text": {
+            "en": "yeah, it is setting the height to be this lower left coordinate.",
+            "pl": "Tak, ustawia wysokość na tę dolną lewą współrzędną.",
+            "ar": "نعم، هو وضع الارتفاع ليكون هذا الإحداثيات اليسرى السفلى."
+         },
+         "endTime": 162448,
+         "startTime": 159219
+      },
+      {
+         "text": {
+            "en": "Or we can set it to zero,",
+            "pl": "Albo możemy ustawić go na zero,",
+            "ar": "أو يمكننا وضعه إلى الصفر،"
+         },
+         "endTime": 166225,
+         "startTime": 164358
+      },
+      {
+         "text": {
+            "en": "and you think what should we expect then?",
+            "pl": "I myślisz, czego powinniśmy się spodziewać?",
+            "ar": "وأنت تعتقد ماذا يجب أن نتوقع بعد ذلك؟"
+         },
+         "endTime": 170002,
+         "startTime": 166225
+      },
+      {
+         "text": {
+            "en": "And we don't see it at all,  but if we slowly start increasing this,",
+            "pl": "I w ogóle tego nie widzimy, ale jeśli powoli zaczniemy to zwiększać,",
+            "ar": "ونحن لا نرى ذلك على الإطلاق، ولكن إذا بدأنا ببطء زيادة هذا،"
+         },
+         "endTime": 173391,
+         "startTime": 170002
+      },
+      {
+         "text": {
+            "en": "we can see that, yeah it is kind of just like peeking out there.",
+            "pl": "Widzimy to, tak, to jest tak jakby podglądać się tam.",
+            "ar": "يمكننا أن نرى ذلك، نعم هو نوع من تماما مثل نظرة نظرة على هناك."
+         },
+         "endTime": 176326,
+         "startTime": 173391
+      },
+      {
+         "text": {
+            "en": "Because again, that lower left coordinate is what we're specifying,",
+            "pl": "Bo znowu, ta dolna lewa współrzędna jest tym, co określamy.",
+            "ar": "لأنه مرة أخرى، أن الإحداثيات السفلية اليسرى هو ما نحدده،"
+         },
+         "endTime": 179782,
+         "startTime": 176326
+      },
+      {
+         "text": {
+            "en": "not the upper left.",
+            "pl": "Nie lewy górny.",
+            "ar": "ليس أعلى اليسار."
+         },
+         "endTime": 181754,
+         "startTime": 179782
+      },
+      {
+         "text": {
+            "en": "Okay, so enough of analyzing this text thing,",
+            "pl": "Ok, więc dość analizowania tego tekstu,",
+            "ar": "حسناً، يكفي تحليل هذا النص،"
+         },
+         "endTime": 185611,
+         "startTime": 181754
+      },
+      {
+         "text": {
+            "en": "let's go ahead and make it better.",
+            "pl": "Chodźmy i polepszmy to.",
+            "ar": "دعونا نمضي قدما وجعلها أفضل."
+         },
+         "endTime": 187278,
+         "startTime": 185611
+      },
+      {
+         "text": {
+            "en": "For example,  let's start to make it bigger,",
+            "pl": "Na przykład, zacznijmy go powiększać,",
+            "ar": "على سبيل المثال، لنبدأ في جعله أكبر،"
+         },
+         "endTime": 189514,
+         "startTime": 187278
+      },
+      {
+         "text": {
+            "en": "we can do that with \"textSize\"  which just tells the program",
+            "pl": "możemy to zrobić z „TextSize”, który po prostu mówi program",
+            "ar": "يمكننا أن نفعل ذلك مع «تكستسيزي» الذي يقول فقط البرنامج"
+         },
+         "endTime": 192435,
+         "startTime": 189514
+      },
+      {
+         "text": {
+            "en": "how big to draw the text.",
+            "pl": "jak duże narysować tekst.",
+            "ar": "كيف كبيرة لرسم النص."
+         },
+         "endTime": 193886,
+         "startTime": 192435
+      },
+      {
+         "text": {
+            "en": "And we can make it \"30,\" which is pretty big,",
+            "pl": "I możemy zrobić to „30”, co jest dość duże,",
+            "ar": "ويمكننا أن نجعلها «30»، وهي كبيرة جدًا،"
+         },
+         "endTime": 196099,
+         "startTime": 193886
+      },
+      {
+         "text": {
+            "en": "we can make it even bigger,",
+            "pl": "możemy sprawić, że będzie jeszcze większy,",
+            "ar": "يمكننا أن نجعله أكبر"
+         },
+         "endTime": 197688,
+         "startTime": 196099
+      },
+      {
+         "text": {
+            "en": "or we can make it really,  really, really, really small.",
+            "pl": "albo możemy sprawić, że będzie naprawdę, naprawdę, naprawdę, naprawdę mały.",
+            "ar": "أو يمكننا جعله حقا، حقا، حقا، حقا، صغيرة جدا."
+         },
+         "endTime": 200457,
+         "startTime": 197688
+      },
+      {
+         "text": {
+            "en": "Whatever we want, so let's go ahead and draw your name",
+            "pl": "Cokolwiek chcemy, więc chodźmy naprzód i narysujmy twoje imię",
+            "ar": "كل ما نريد، لذلك دعونا نمضي قدما ونرسم اسمك"
+         },
+         "endTime": 203034,
+         "startTime": 200457
+      },
+      {
+         "text": {
+            "en": "and maybe a little message about yourself underneath.",
+            "pl": "i może mała wiadomość o sobie pod spodem.",
+            "ar": "وربما رسالة صغيرة عن نفسك تحتها."
+         },
+         "endTime": 205641,
+         "startTime": 203034
+      },
+      {
+         "text": {
+            "en": "Since I don't know your name, I'm just going to draw my name.",
+            "pl": "Skoro nie znam twojego imienia, narysuję swoje imię.",
+            "ar": "بما أنني لا أعرف اسمك، سأقوم برسم اسمي"
+         },
+         "endTime": 208646,
+         "startTime": 205641
+      },
+      {
+         "text": {
+            "en": "You can switch it to yours in a moment.",
+            "pl": "Możesz przełączyć go na swój za chwilę.",
+            "ar": "يمكنك التبديل إلى لك في لحظة."
+         },
+         "endTime": 210871,
+         "startTime": 208646
+      },
+      {
+         "text": {
+            "en": "So using what we just learned,  we can say \"text(\"Sophia\")\"",
+            "pl": "Więc używając tego, czego właśnie się nauczyliśmy, możemy powiedzieć „tekst („Sophia”)”",
+            "ar": "وذلك باستخدام ما تعلمناه للتو، يمكننا أن نقول «النص («صوفيا»)»"
+         },
+         "endTime": 214264,
+         "startTime": 210871
+      },
+      {
+         "text": {
+            "en": "and there my name is.",
+            "pl": "i tam jest moje imię.",
+            "ar": "وها هو اسمي"
+         },
+         "endTime": 215887,
+         "startTime": 214264
+      },
+      {
+         "text": {
+            "en": "And then maybe want to put  a little message underneath,",
+            "pl": "A potem może chcesz umieścić małą wiadomość pod spodem,",
+            "ar": "ومن ثم ربما تريد أن تضع رسالة صغيرة تحتها،"
+         },
+         "endTime": 218135,
+         "startTime": 215887
+      },
+      {
+         "text": {
+            "en": "like, \"I like puppies and guitars and coding.\"",
+            "pl": "„Lubię szczenięta, gitary i kodowanie.”",
+            "ar": "مثل، «أنا أحب الجراء والقيتارات والترميز.»"
+         },
+         "endTime": 223493,
+         "startTime": 218135
+      },
+      {
+         "text": {
+            "en": "So that's great,  except that we obviously need",
+            "pl": "Więc to świetnie, z wyjątkiem tego, że oczywiście potrzebujemy",
+            "ar": "لذلك هذا عظيم، إلا أننا بحاجة بوضوح"
+         },
+         "endTime": 226709,
+         "startTime": 223493
+      },
+      {
+         "text": {
+            "en": "to change the positions  so they don't overlap.",
+            "pl": ", aby zmienić pozycje, aby się nie pokrywały.",
+            "ar": "لتغيير المواقف حتى لا تتداخل."
+         },
+         "endTime": 228945,
+         "startTime": 226709
+      },
+      {
+         "text": {
+            "en": "And oh no, no,  that's kind of a long string of text,",
+            "pl": "I o nie, nie, to jakiś długi ciąg tekstu,",
+            "ar": "و أوه لا، لا، هذا نوع من سلسلة طويلة من النص،"
+         },
+         "endTime": 231647,
+         "startTime": 228945
+      },
+      {
+         "text": {
+            "en": "so let's change it to be a smaller text size.",
+            "pl": "więc zmieńmy go na mniejszy rozmiar tekstu.",
+            "ar": "لذلك دعونا تغييره ليكون حجم النص أصغر."
+         },
+         "endTime": 235449,
+         "startTime": 231647
+      },
+      {
+         "text": {
+            "en": "And there we go, that's pretty good.",
+            "pl": "I tam idziemy, to całkiem niezłe.",
+            "ar": "وهناك نذهب، هذا جيد جدا."
+         },
+         "endTime": 238633,
+         "startTime": 236499
+      },
+      {
+         "text": {
+            "en": "Except, I don't know, it's kind of boring having",
+            "pl": "Poza tym, nie wiem, to trochę nudne mieć",
+            "ar": "ماعدا، أنا لا أعرف، انها نوع من مملة وجود"
+         },
+         "endTime": 240964,
+         "startTime": 238633
+      },
+      {
+         "text": {
+            "en": "them both be blue, so let's just change the \"fill,\"",
+            "pl": "oba są niebieskie, więc po prostu zmieńmy „wypełnić”",
+            "ar": "كلاهما يكون أزرق، لذلك دعونا فقط نغير «التعبئة»"
+         },
+         "endTime": 244393,
+         "startTime": 240964
+      },
+      {
+         "text": {
+            "en": "and let's make it maybe a nice,  hmm I don't know,",
+            "pl": "i zróbmy to może miłe, hmm nie wiem,",
+            "ar": "ودعونا نجعلها لطيفة، لا أعرف،"
+         },
+         "endTime": 246932,
+         "startTime": 244393
+      },
+      {
+         "text": {
+            "en": "maybe a nice, like, purple.",
+            "pl": "Może ładny, jak fioletowy.",
+            "ar": "ربما لطيفة، مثل، الأرجواني."
+         },
+         "endTime": 249804,
+         "startTime": 246932
+      },
+      {
+         "text": {
+            "en": "Alright, and there you go,  that's all there is",
+            "pl": "W porządku, i tam idziesz, to wszystko, co jest",
+            "ar": "حسنا، وها أنت ذا، هذا كل ما في الأمر"
+         },
+         "endTime": 253126,
+         "startTime": 249804
+      },
+      {
+         "text": {
+            "en": "to drawing text and changing  colors and changing size.",
+            "pl": ", aby rysować tekst i zmieniać kolory i rozmiar.",
+            "ar": "لرسم النص وتغيير الألوان وتغيير الحجم."
+         },
+         "endTime": 256099,
+         "startTime": 253126
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/gO3-RiU8Vbw/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759673815",
+   "title": "Terrific Text: Part One | Text and strings | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

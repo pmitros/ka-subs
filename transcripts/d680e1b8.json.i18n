@@ -1,0 +1,447 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Whoo hoo! Another animation. This time we've got a ball moving across the screen,",
+            "pl": "Whoo hoo! Kolejna animacja. Tym razem mamy piłkę poruszającą się po ekranie,",
+            "ar": "هوو هوو! الرسوم المتحركة أخرى. هذه المرة لدينا كرة تتحرك عبر الشاشة"
+         },
+         "endTime": 6313,
+         "startTime": 2757
+      },
+      {
+         "text": {
+            "en": "and you guys know how this is done.",
+            "pl": "A wy wiecie, jak to się robi.",
+            "ar": "وانتم يا رفاق تعلمون كيف يتم ذلك."
+         },
+         "endTime": 9502,
+         "startTime": 6390
+      },
+      {
+         "text": {
+            "en": "We've got a variable, \"x,\" that tells us the position of the ball, a variable \"speed\" that tells us how far the ball moves every time",
+            "pl": "Mamy zmienną, „x”, która mówi nam o pozycji piłki, zmienną „prędkość”, która mówi nam, jak daleko piłka porusza się za każdym razem",
+            "ar": "لدينا متغير، «x»، يخبرنا موقف الكرة، متغير «سرعة» يخبرنا إلى أي مدى تتحرك الكرة في كل مرة"
+         },
+         "endTime": 14126,
+         "startTime": 9502
+      },
+      {
+         "text": {
+            "en": "and a familiar draw loop where we're redrawing the background every time",
+            "pl": "i znaną pętlę rysowania, w której za każdym razem przerysowujemy tło",
+            "ar": "وحلقة رسم مألوفة حيث نقوم بإعادة رسم الخلفية في كل مرة"
+         },
+         "endTime": 17417,
+         "startTime": 14126
+      },
+      {
+         "text": {
+            "en": "setting fill colors and drawing the ellipse at position x, and every single time,",
+            "pl": "ustawianie kolorów wypełnienia i rysowanie elipsy w położeniu x i za każdym razem,",
+            "ar": "وضع ألوان التعبئة ورسم القطع الناقص في الموضع x، وفي كل مرة،"
+         },
+         "endTime": 23195,
+         "startTime": 17417
+      },
+      {
+         "text": {
+            "en": "we're going to change \"x\" to be the old value \"x,\" plus the variable \"speed.\" So if I make \"speed\" smaller,",
+            "pl": "mamy zamiar zmienić „x” być starą wartość „x”, plus zmienna „speed”. Więc jeśli sprawię, że „prędkość” będzie mniejsza,",
+            "ar": "سنقوم بتغيير «x» لتكون القيمة القديمة «x»، بالإضافة إلى المتغير «السرعة». لذا إذا جعلتُ «السرعة» أصغر"
+         },
+         "endTime": 26282,
+         "startTime": 23195
+      },
+      {
+         "text": {
+            "en": "you can see it moves slower. I can make it negative, so we move backwords, or I can make it zero, and the ball would stop moving.",
+            "pl": "widać, że porusza się wolniej. Mogę sprawić, że będzie negatywna, więc przesuniemy wstecz, albo zrobię to zero, a piłka przestanie się ruszać.",
+            "ar": "يمكنك أن ترى أنه يتحرك أبطأ. يمكنني أن أجعله سلبيًا، لذا نتحرك الكلمات الخلفية، أو يمكنني جعله صفرًا، وستتوقف الكرة عن الحركة."
+         },
+         "endTime": 38210,
+         "startTime": 26282
+      },
+      {
+         "text": {
+            "en": "But as long as speed is not zero,",
+            "pl": "Ale tak długo, jak prędkość nie jest zerowa,",
+            "ar": "لكن طالما أن السرعة ليست صفرًا،"
+         },
+         "endTime": 40481,
+         "startTime": 38210
+      },
+      {
+         "text": {
+            "en": "eventually the ball is going to go off the screen.",
+            "pl": "w końcu piłka zejdzie z ekranu.",
+            "ar": "في نهاية المطاف الكرة هو الذهاب الى تنفجر الشاشة."
+         },
+         "endTime": 43840,
+         "startTime": 40481
+      },
+      {
+         "text": {
+            "en": "And I can always press the restart button to bring it back, but you know, after awhile, that gets old.",
+            "pl": "Zawsze mogę nacisnąć przycisk restartu, żeby go przywrócić, ale wiesz, po pewnym czasie, to się starzeje.",
+            "ar": "ويمكنني دائما الضغط على زر إعادة التشغيل لإعادته، ولكن كما تعلمون، بعد فترة، أن يصبح القديم."
+         },
+         "endTime": 48180,
+         "startTime": 43840
+      },
+      {
+         "text": {
+            "en": "You restart, and restart...",
+            "pl": "Uruchom ponownie i uruchom ponownie...",
+            "ar": "إعادة تشغيل وإعادة تشغيل..."
+         },
+         "endTime": 52697,
+         "startTime": 48365
+      },
+      {
+         "text": {
+            "en": "So, how about this? When the ball reaches the right edge of the screen,",
+            "pl": "Więc, co powiesz na to? Kiedy piłka dociera do prawej krawędzi ekranu,",
+            "ar": "إذاً، ماذا عن هذا؟ عندما تصل الكرة إلى الحافة اليمنى من الشاشة،"
+         },
+         "endTime": 55738,
+         "startTime": 52697
+      },
+      {
+         "text": {
+            "en": "instead of going off the edge of the screen like it's doing now, I want it to turn around.",
+            "pl": "zamiast zejść z krawędzi ekranu, jak to robi teraz, chcę, aby się odwrócił.",
+            "ar": "بدلا من الخروج من حافة الشاشة كما يفعل الآن، أريد أن يستدير."
+         },
+         "endTime": 58429,
+         "startTime": 55738
+      },
+      {
+         "text": {
+            "en": "And, I know how to turn the ball around,I can just say, \"speed\" gets negative 5. If I make the speed negative, then the ball would go backwards.",
+            "pl": "I, Wiem, jak odwrócić piłkę, Mogę po prostu powiedzieć, „prędkość” dostaje ujemne 5. Jeśli sprawię, że prędkość będzie ujemna, wtedy piłka cofnie się.",
+            "ar": "وأنا أعرف كيفية تحويل الكرة حولها، أستطيع أن أقول، «سرعة» يحصل سلبي 5. إذا جعلت السرعة سلبية، ثم الكرة سوف تذهب إلى الوراء."
+         },
+         "endTime": 70325,
+         "startTime": 58429
+      },
+      {
+         "text": {
+            "en": "But here is the problem.",
+            "pl": "Ale tu jest problem.",
+            "ar": "ولكن هنا هي المشكلة."
+         },
+         "endTime": 72858,
+         "startTime": 70448
+      },
+      {
+         "text": {
+            "en": "I only want to change the speed if the ball has reached the right edge.",
+            "pl": "Chcę tylko zmienić prędkość, jeśli piłka osiągnie właściwą krawędź.",
+            "ar": "أريد فقط تغيير السرعة إذا وصلت الكرة إلى الحافة اليمنى."
+         },
+         "endTime": 78243,
+         "startTime": 72858
+      },
+      {
+         "text": {
+            "en": "Hmmm... so I think I already said it. I only want to change the speed IF the ball has reached the right edge.",
+            "pl": "Hmmm... myślę, że już to powiedziałem. Chcę tylko zmienić prędkość, jeśli piłka osiągnęła prawą krawędź.",
+            "ar": "لذا أعتقد أنني قلتها بالفعل أريد فقط تغيير السرعة إذا وصلت الكرة إلى الحافة اليمنى."
+         },
+         "endTime": 85919,
+         "startTime": 78243
+      },
+      {
+         "text": {
+            "en": "I think this calls for an \"if\" statement.",
+            "pl": "Myślę, że to wymaga oświadczenia „jeśli”.",
+            "ar": "أعتقد أن هذا يدعو إلى بيان «إذا»."
+         },
+         "endTime": 89633,
+         "startTime": 85919
+      },
+      {
+         "text": {
+            "en": "Up until now, we've only been giving the computer commands to run no matter what.",
+            "pl": "Do tej pory wydawaliśmy komendy komputerowe do uruchomienia bez względu na wszystko.",
+            "ar": "حتى الآن، لقد تم فقط إعطاء أوامر الكمبيوتر لتشغيل بغض النظر عن ما."
+         },
+         "endTime": 92810,
+         "startTime": 89633
+      },
+      {
+         "text": {
+            "en": "If statements are a way to say, \"Hey dude, I want you to run this code, but only under these specific circumstances.\"",
+            "pl": "Jeśli oświadczenia są sposobem na powiedzenie: „Hej koleś, chcę, żebyś uruchomił ten kod, ale tylko w tych szczególnych okolicznościach.”",
+            "ar": "إذا كانت العبارات وسيلة للقول، «يا صاح، أريدك أن تقوم بتشغيل هذا الرمز، ولكن فقط في ظل هذه الظروف المحددة.»"
+         },
+         "endTime": 99527,
+         "startTime": 92810
+      },
+      {
+         "text": {
+            "en": "\"So only change the speed if the ball has reached the right edge.\"",
+            "pl": "„Więc zmień prędkość tylko wtedy, gdy piłka osiągnęła prawą krawędź.”",
+            "ar": "«لذلك فقط قم بتغيير السرعة إذا وصلت الكرة إلى الحافة اليمنى.»"
+         },
+         "endTime": 102524,
+         "startTime": 99527
+      },
+      {
+         "text": {
+            "en": "And here's how it looks in code.",
+            "pl": "A oto jak to wygląda w kodzie.",
+            "ar": "وهنا كيف يبدو في التعليمات البرمجية."
+         },
+         "endTime": 105858,
+         "startTime": 102524
+      },
+      {
+         "text": {
+            "en": "All you do is type \"IF\" and then a pair of parentheses, and then a pair of brackets.",
+            "pl": "Wszystko, co robisz, to wpisać „IF”, a następnie parę nawiasów, a następnie parę nawiasów.",
+            "ar": "كل ما عليك القيام به هو اكتب «IF» ثم زوج من الأقواس، ثم زوج من الأقواس."
+         },
+         "endTime": 110947,
+         "startTime": 105858
+      },
+      {
+         "text": {
+            "en": "Inside the parentheses we're going to put the condition.",
+            "pl": "Wewnątrz nawiasów będziemy umieścić warunek.",
+            "ar": "داخل الأقواس ونحن في طريقنا لوضع الشرط."
+         },
+         "endTime": 114343,
+         "startTime": 110947
+      },
+      {
+         "text": {
+            "en": "Inside the brackets we're going to put the code to run.",
+            "pl": "Wewnątrz nawiasów będziemy umieścić kod do uruchomienia.",
+            "ar": "داخل الأقواس ونحن في طريقنا لوضع رمز لتشغيل."
+         },
+         "endTime": 117100,
+         "startTime": 114343
+      },
+      {
+         "text": {
+            "en": "So the way it works is, \"If this condition is true, then run this code. Otherwise, don't bother.\"",
+            "pl": "Tak to działa, „Jeśli ten warunek jest spełniony, uruchom ten kod. Inaczej, nie zawracaj sobie głowy.”",
+            "ar": "وبالتالي فإن الطريقة التي يعمل هي، «إذا كان هذا الشرط صحيحا، ثم تشغيل هذا الرمز. خلاف ذلك، لا تهتم.»"
+         },
+         "endTime": 123014,
+         "startTime": 117100
+      },
+      {
+         "text": {
+            "en": "So in our case, the condition is the ball reaching the right edge. How do we know if the ball has reached the right edge?",
+            "pl": "Tak więc w naszym przypadku warunkiem jest piłka osiągająca prawą krawędź. Skąd mamy wiedzieć, czy piłka osiągnęła prawą krawędź?",
+            "ar": "لذلك في حالتنا، الشرط هو الكرة التي تصل إلى الحافة اليمنى. كيف نعرف ما إذا كانت الكرة قد وصلت إلى الحافة اليمنى؟"
+         },
+         "endTime": 130393,
+         "startTime": 123014
+      },
+      {
+         "text": {
+            "en": "We've got this variable \"x\" that tells us where the ball is, and I know that the edge of the canvas is x position 400, so let's see.",
+            "pl": "Mamy tę zmienną „x”, która mówi nam, gdzie jest piłka, i wiem, że krawędź płótna jest x pozycja 400, więc zobaczmy.",
+            "ar": "لدينا هذا المتغير «x» الذي يخبرنا أين الكرة، وأنا أعلم أن حافة اللوحة هي x موقف 400، لذلك دعونا نرى."
+         },
+         "endTime": 142994,
+         "startTime": 130393
+      },
+      {
+         "text": {
+            "en": "When \"x\" is greater than 400, then we know that the ball has gone past the right edge a little bit.",
+            "pl": "Kiedy „x” jest większa niż 400, to wiemy, że piłka przeszła trochę obok prawej krawędzi.",
+            "ar": "عندما يكون «x» أكبر من 400، فإننا نعلم أن الكرة قد تجاوزت الحافة اليمنى قليلاً."
+         },
+         "endTime": 150459,
+         "startTime": 142994
+      },
+      {
+         "text": {
+            "en": "So let's see how that works.",
+            "pl": "Zobaczmy, jak to działa.",
+            "ar": "لذلك دعونا نرى كيف يعمل ذلك."
+         },
+         "endTime": 153037,
+         "startTime": 150459
+      },
+      {
+         "text": {
+            "en": "And the code to run, we already said before, we're just going to change speed. Speed gets negative five. We're going to press restart and see what happens.",
+            "pl": "I kod do uruchomienia, już mówiliśmy wcześniej, że po prostu zmienimy prędkość. Prędkość dostaje ujemną 5. Wciśniemy restart i zobaczymy, co się stanie.",
+            "ar": "ورمز لتشغيل، قلنا بالفعل من قبل، ونحن في طريقنا فقط لتغيير السرعة. سرعة يحصل سلبية خمسة. ونحن في طريقنا للضغط إعادة تشغيل ونرى ما يحدث."
+         },
+         "endTime": 165311,
+         "startTime": 153037
+      },
+      {
+         "text": {
+            "en": "So this time, when the ball reaches the right edge, it bounces! Yaaaay!",
+            "pl": "Więc tym razem, kiedy piłka osiągnie prawą krawędź, odbija się! Yaaaay!",
+            "ar": "حتى هذه المرة، عندما تصل الكرة إلى الحافة اليمنى، فإنه مستبعد! (يااي)!"
+         },
+         "endTime": 167518,
+         "startTime": 165311
+      },
+      {
+         "text": {
+            "en": "And then it keeps going off the screen.",
+            "pl": "A potem ciągle wyłącza ekran.",
+            "ar": "وبعد ذلك يستمر في الخروج من الشاشة."
+         },
+         "endTime": 170553,
+         "startTime": 167611
+      },
+      {
+         "text": {
+            "en": "But that's OK, because we can keep doing the same thing on the other side. So this time, we want to check if the ball has reached the left edge.",
+            "pl": "Ale to w porządku, bo możemy robić to samo po drugiej stronie. Tym razem chcemy sprawdzić, czy piłka osiągnęła lewą krawędź.",
+            "ar": "ولكن هذا موافق، لأننا يمكن أن تستمر في القيام بنفس الشيء على الجانب الآخر. حتى هذه المرة، ونحن نريد للتحقق مما إذا كانت الكرة قد وصلت إلى الحافة اليسرى."
+         },
+         "endTime": 172668,
+         "startTime": 170553
+      },
+      {
+         "text": {
+            "en": "And that's when x is less than zero, and what we want to do is make speed positive again, so speed gets 5.",
+            "pl": "I wtedy x jest mniejszy od zera, a to, co chcemy zrobić, to zwiększyć prędkość ponownie, więc prędkość dostaje 5.",
+            "ar": "وذلك عندما x هو أقل من الصفر، وما نريد القيام به هو جعل سرعة إيجابية مرة أخرى، حتى سرعة يحصل 5."
+         },
+         "endTime": 183047,
+         "startTime": 172668
+      },
+      {
+         "text": {
+            "en": "Alright, and then we're going to press restart, and this time...",
+            "pl": "W porządku, a potem wciśnimy restart, i tym razem...",
+            "ar": "حسنا، وبعد ذلك نحن ذاهبون للضغط إعادة تشغيل، وهذه المرة..."
+         },
+         "endTime": 188108,
+         "startTime": 183047
+      },
+      {
+         "text": {
+            "en": "boing...",
+            "pl": "Boing...",
+            "ar": "بوينغ..."
+         },
+         "endTime": 191715,
+         "startTime": 188108
+      },
+      {
+         "text": {
+            "en": "boing...",
+            "pl": "Boing...",
+            "ar": "بوينغ..."
+         },
+         "endTime": 193815,
+         "startTime": 191715
+      },
+      {
+         "text": {
+            "en": "boing...",
+            "pl": "Boing...",
+            "ar": "بوينغ..."
+         },
+         "endTime": 194422,
+         "startTime": 193815
+      },
+      {
+         "text": {
+            "en": "yay! It works.",
+            "pl": "hura! To działa.",
+            "ar": "ياي! إنه يعمل."
+         },
+         "endTime": 196686,
+         "startTime": 194499
+      },
+      {
+         "text": {
+            "en": "And I know we're checking to see if the ball has gone past the edges, but it feels like it's going a little too far past the edges.",
+            "pl": "I wiem, że sprawdzamy, czy piłka przeszła przez krawędzie, ale wydaje się, że idzie trochę za daleko poza krawędzie.",
+            "ar": "وأنا أعلم أننا نتحقق لمعرفة ما إذا كانت الكرة قد تجاوزت الحواف، ولكن يبدو وكأنه يذهب قليلا بعيدا جدا بعد الحواف."
+         },
+         "endTime": 201403,
+         "startTime": 196686
+      },
+      {
+         "text": {
+            "en": "And if you remember, these two parameters control where the center of the ellipse is drawn.",
+            "pl": "A jeśli pamiętasz, te dwa parametry kontrolują miejsce, w którym narysowany jest środek elipsy.",
+            "ar": "وإذا كنت تتذكر، تتحكم هاتان المعلمتان في مكان رسم مركز القطع الناقص."
+         },
+         "endTime": 205335,
+         "startTime": 201619
+      },
+      {
+         "text": {
+            "en": "So right now, by the time the center reaches the edge, half the ellipse has already gone past the edge.",
+            "pl": "Więc w tej chwili, gdy środek dotrze do krawędzi, połowa elipsy już przeszła przez krawędź.",
+            "ar": "حتى الآن، بحلول الوقت الذي يصل المركز إلى الحافة، نصف القطع الناقص قد ذهب بالفعل الماضي الحافة."
+         },
+         "endTime": 216897,
+         "startTime": 205550
+      },
+      {
+         "text": {
+            "en": "So if we want to fix that, we just stop the ellipse a little sooner. So if our edge is here, at 400, and we want to stop our ellipse when it gets here,",
+            "pl": "Więc jeśli chcemy to naprawić, zatrzymamy elipsę trochę wcześniej. Więc jeśli nasza krawędź jest tutaj, przy 400, i chcemy zatrzymać naszą elipsę, kiedy tu dotrze,",
+            "ar": "حتى إذا كنا نريد لإصلاح ذلك، ونحن مجرد وقف القطع الناقص قليلا عاجلا. حتى إذا كان لدينا حافة هنا، في 400، ونحن نريد لوقف القطع الناقص لدينا عندما يحصل هنا،"
+         },
+         "endTime": 227307,
+         "startTime": 216897
+      },
+      {
+         "text": {
+            "en": "and we can see from the function call that the ellipse has width 50, so that means from the center to the edge, that's going to be 25.",
+            "pl": "i widzimy z wywołania funkcji, że elipsa ma szerokość 50, więc oznacza to, że od środka do krawędzi, to będzie 25.",
+            "ar": "ويمكننا أن نرى من استدعاء وظيفة أن القطع الناقص له عرض 50، وهذا يعني من المركز إلى الحافة، وهذا سيكون 25."
+         },
+         "endTime": 238639,
+         "startTime": 227307
+      },
+      {
+         "text": {
+            "en": "So we want to stop it when the center reaches 375, because that's 400 minus 25.",
+            "pl": "Więc chcemy go zatrzymać, gdy centrum osiągnie 375, bo to 400 minus 25.",
+            "ar": "لذلك نريد إيقافه عندما يصل المركز إلى 375، لأن هذا 400 ناقص 25."
+         },
+         "endTime": 246868,
+         "startTime": 238639
+      },
+      {
+         "text": {
+            "en": "So instead of checking for x greater than 400, we're going to check for x greater than 375.",
+            "pl": "Więc zamiast sprawdzać x większy niż 400, mamy zamiar sprawdzić x większy niż 375.",
+            "ar": "وذلك بدلا من التحقق من X أكبر من 400، ونحن في طريقنا للتحقق من X أكبر من 375."
+         },
+         "endTime": 250980,
+         "startTime": 246868
+      },
+      {
+         "text": {
+            "en": "Instead of checking for x less than 0, I'll check for x less than 25.",
+            "pl": "Zamiast sprawdzać x mniej niż 0, sprawdzę dla x mniej niż 25.",
+            "ar": "بدلا من التحقق من x أقل من 0، وسوف تحقق من x أقل من 25."
+         },
+         "endTime": 255568,
+         "startTime": 250980
+      },
+      {
+         "text": {
+            "en": "And now it's perfect! Yay! Look at at that ball bounce.",
+            "pl": "A teraz jest idealny! Hura! Spójrz na to odbicie piłki.",
+            "ar": "والآن انها مثالية! ياي! انظروا إلى تلك الكرة ترتد."
+         },
+         "endTime": 259567,
+         "startTime": 255568
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/f80BDl8N-6c/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759702941",
+   "title": "If Statements | Logic and if Statements | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

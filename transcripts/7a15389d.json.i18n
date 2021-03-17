@@ -1,0 +1,564 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Now that you've learned the basics of loops, let's go ahead and walk through making an awesome loop drawing like this one,",
+            "pl": "Teraz, gdy nauczyłeś się podstaw pętli, chodźmy dalej i przejdźmy przez tworzenie niesamowitego rysunku pętli jak ten,",
+            "ar": "الآن بعد أن تعلمت أساسيات الحلقات، دعونا نمضي قدما ونسير من خلال صنع رسم حلقة رهيبة مثل هذا واحد،"
+         },
+         "endTime": 7073,
+         "startTime": 1434
+      },
+      {
+         "text": {
+            "en": "Balloon Hopper floating through a beautiful sky",
+            "pl": "Balon Hopper pływający po pięknym niebie",
+            "ar": "قادوس بالون يطفو في سماء جميلة"
+         },
+         "endTime": 9849,
+         "startTime": 7073
+      },
+      {
+         "text": {
+            "en": "As I go through writing the program from scratch, I want you to think to yourself about how you might do it on your own, because pretty soon, you will be.",
+            "pl": "Kiedy przechodzę przez pisanie programu od zera, chcę, żebyś pomyślała sobie o tym, jak możesz to zrobić na własną rękę, bo wkrótce będziesz.",
+            "ar": "كما أذهب من خلال كتابة البرنامج من الصفر، أريدك أن تفكر لنفسك في كيفية القيام بذلك بنفسك، لأنه قريبا جدا، سوف تكون."
+         },
+         "endTime": 16401,
+         "startTime": 9849
+      },
+      {
+         "text": {
+            "en": "So first, it always helps to break down your program into steps.",
+            "pl": "Więc po pierwsze, zawsze pomaga rozbić swój program na kroki.",
+            "ar": "لذلك أولا، فإنه يساعد دائما لكسر البرنامج الخاص بك إلى خطوات."
+         },
+         "endTime": 20207,
+         "startTime": 16401
+      },
+      {
+         "text": {
+            "en": "We'll start by drawing these balloons, which are just the same ellipse repeated over and over and over, and that sounds like a job for a loop.",
+            "pl": "Zaczniemy od narysowania tych balonów, które są po prostu tą samą elipsą powtarzane w kółko i w kółko, i to brzmi jak praca dla pętli.",
+            "ar": "سنبدأ برسم هذه البالونات، التي هي مجرد نفس القطع الناقص المتكرر مرارا وتكرارا، وهذا يبدو وكأنه وظيفة لحلقة."
+         },
+         "endTime": 27485,
+         "startTime": 20207
+      },
+      {
+         "text": {
+            "en": "Then, we'll take on these lines, and then finally we'll add Balloon Hopper herself.",
+            "pl": "Potem zajmiemy się tymi liniami, a potem w końcu sama dodamy Balloon Hopper.",
+            "ar": "ثم، سنأخذ على هذه الخطوط، ثم أخيرا سنضيف بالون هوبر نفسها."
+         },
+         "endTime": 33774,
+         "startTime": 27485
+      },
+      {
+         "text": {
+            "en": "All right, so here's a blank slate. Which can be pretty intimidating.",
+            "pl": "Dobra, więc tu jest pusta karta. Co może być dość onieśmielające.",
+            "ar": "كل الحق، حتى هنا لائحة فارغة. والتي يمكن أن تكون مخيفة جدا."
+         },
+         "endTime": 37963,
+         "startTime": 33774
+      },
+      {
+         "text": {
+            "en": "Sometimes, it helps to make things just a little bit more friendly by adding a background right away, just to get into the swing of things.",
+            "pl": "Czasami pomaga to zrobić trochę bardziej przyjazne, dodając tło od razu, po prostu dostać się do huśtawki rzeczy.",
+            "ar": "في بعض الأحيان، فإنه يساعد على جعل الأمور أكثر ودية قليلا عن طريق إضافة خلفية على الفور، فقط للوصول الى البديل من الأشياء."
+         },
+         "endTime": 43869,
+         "startTime": 37963
+      },
+      {
+         "text": {
+            "en": "Now, since we wanna draw a loop, your first thought should be those loop questions that we covered last time.",
+            "pl": "Teraz, skoro chcemy narysować pętlę, waszą pierwszą myślą powinny być te pytania, które omówiliśmy ostatnim razem.",
+            "ar": "الآن، بما أننا نريد رسم حلقة، فكرتك الأولى يجب أن تكون تلك الأسئلة حلقة التي قمنا بتغطيتها في المرة الأخيرة."
+         },
+         "endTime": 49933,
+         "startTime": 43869
+      },
+      {
+         "text": {
+            "en": "And we'll do them pretty quickly this time, so if you need a review, just revisit \"Intro to While Loops\".",
+            "pl": "Tym razem zrobimy to dość szybko, więc jeśli potrzebujesz recenzji, odwiedź „Intro to While Loops”.",
+            "ar": "وسنقوم بها بسرعة كبيرة هذه المرة، لذلك إذا كنت بحاجة إلى مراجعة، مجرد إعادة النظر في «مقدمة إلى حين الحلقات»."
+         },
+         "endTime": 56933,
+         "startTime": 49933
+      },
+      {
+         "text": {
+            "en": "Now, the first question: \"What do we want to repeat?\"",
+            "pl": "Teraz pierwsze pytanie: „Co chcemy powtórzyć?”",
+            "ar": "الآن، السؤال الأول: «ماذا نريد أن نكرر؟»"
+         },
+         "endTime": 61393,
+         "startTime": 56933
+      },
+      {
+         "text": {
+            "en": "So let's try drawing that first balloon. Because we wanna be repeating those balloons.",
+            "pl": "Spróbujmy narysować ten pierwszy balon. Bo chcemy powtarzać te balony.",
+            "ar": "لذلك دعونا نحاول رسم هذا البالون الأول. لأننا نريد تكرار تلك البالونات"
+         },
+         "endTime": 66441,
+         "startTime": 61393
+      },
+      {
+         "text": {
+            "en": "You can go ahead and do that, maybe like that, and well, you know, that's kind of small, it's not quite in the right place,",
+            "pl": "Możesz to zrobić, może w ten sposób, no wiesz, to trochę małe, nie jest całkiem we właściwym miejscu.",
+            "ar": "يمكنك المضي قدما وفعل ذلك، ربما من هذا القبيل، وأيضا، كما تعلمون، هذا نوع من صغيرة، انها ليست تماما في المكان الصحيح،"
+         },
+         "endTime": 75066,
+         "startTime": 66441
+      },
+      {
+         "text": {
+            "en": "so let's just try moving it a little bit.",
+            "pl": "Więc spróbujmy go trochę przesunąć.",
+            "ar": "لذلك دعونا مجرد محاولة تحريكه قليلا."
+         },
+         "endTime": 77169,
+         "startTime": 75066
+      },
+      {
+         "text": {
+            "en": "And this is just part of programming, where you try something, you realize it's not what you wanted, and then you try again and eventually you get closer and closer.",
+            "pl": "A to tylko część programowania, gdzie czegoś próbujesz, zdajesz sobie sprawę, że to nie jest to, czego chciałeś, a potem próbujesz ponownie i w końcu zbliżasz się do siebie.",
+            "ar": "وهذا هو مجرد جزء من البرمجة، حيث تحاول شيئا، كنت أدرك انها ليست ما تريد، ومن ثم حاولت مرة أخرى وفي نهاية المطاف تحصل على أقرب وأقرب."
+         },
+         "endTime": 85183,
+         "startTime": 77169
+      },
+      {
+         "text": {
+            "en": "Okay, now, we need to add color probably, right? So we didn't think of that when we were thinking about the steps, so we can just say that's part of drawing the balloon.",
+            "pl": "Okej, teraz, musimy dodać kolor prawdopodobnie, prawda? Więc nie myśleliśmy o tym, kiedy myśleliśmy o schodach, więc możemy powiedzieć, że to część rysowania balonu.",
+            "ar": "حسنا، الآن، نحن بحاجة لإضافة اللون على الأرجح، أليس كذلك؟ لذلك لم نفكر في ذلك عندما كنا نفكر في الخطوات، حتى نتمكن من القول فقط أن هذا جزء من رسم البالون."
+         },
+         "endTime": 93870,
+         "startTime": 85183
+      },
+      {
+         "text": {
+            "en": "All right? And next, we need to think about how exactly we want to be changing this balloon during our loop.",
+            "pl": "W porządku? A potem musimy zastanowić się, jak dokładnie chcemy zmienić ten balon podczas naszej pętli.",
+            "ar": "حسناً؟ وبعد ذلك، نحن بحاجة إلى التفكير في كيف بالضبط نريد أن يكون تغيير هذا البالون خلال حلقة لدينا."
+         },
+         "endTime": 100898,
+         "startTime": 93870
+      },
+      {
+         "text": {
+            "en": "Well, we want the balloon to be drawn across the screen, right? We want it to be drawn like here, and then here, and then here,",
+            "pl": "Chcemy, żeby balon został narysowany przez ekran, prawda? Chcemy, żeby to było rysowane tak jak tutaj, a potem tutaj,",
+            "ar": "حسنا، نريد أن يتم رسم البالون عبر الشاشة، أليس كذلك؟ نريد أن يتم رسمها مثل هنا، ومن ثم هنا، ثم هنا،"
+         },
+         "endTime": 107733,
+         "startTime": 100898
+      },
+      {
+         "text": {
+            "en": "so we want the computer to do it, because my drawing's really bad.",
+            "pl": "Więc chcemy, żeby komputer to zrobił, bo mój rysunek jest naprawdę zły.",
+            "ar": "لذلك نريد من الكمبيوتر أن يفعل ذلك، لأن الرسم بلدي سيئة حقا."
+         },
+         "endTime": 111013,
+         "startTime": 107733
+      },
+      {
+         "text": {
+            "en": "So we can fake that a little bit just by changing this first number, which as you remember controls the x-position: the position sideways.",
+            "pl": "Możemy to trochę udawać, zmieniając ten pierwszy numer, który, jak pamiętacie, kontroluje pozycję X: pozycję na boki.",
+            "ar": "حتى نتمكن من وهمية أن قليلا فقط عن طريق تغيير هذا الرقم الأول، والتي كما تتذكر تسيطر على x موقف: الموقف جانبية."
+         },
+         "endTime": 118391,
+         "startTime": 111013
+      },
+      {
+         "text": {
+            "en": "But, I mean like, that's pretty lame, right? Like that's not really like that cool picture we had before.",
+            "pl": "Ale, mam na myśli, że to dość kiepskie, prawda? Jakby to nie było takie fajne zdjęcie, które mieliśmy wcześniej.",
+            "ar": "ولكن، أعني مثل، هذا سخيف جدا، أليس كذلك؟ مثل هذا ليس حقا مثل تلك الصورة الرائعة التي كان لدينا من قبل."
+         },
+         "endTime": 122767,
+         "startTime": 118391
+      },
+      {
+         "text": {
+            "en": "So instead, let's say that we're going to call this x, for the x position, and we're going to make a variable that's about what it was before.",
+            "pl": "Więc zamiast tego, powiedzmy, że mamy zamiar nazwać to x, dla pozycji x, i mamy zamiar zrobić zmienną, która jest o tym, co było wcześniej.",
+            "ar": "لذلك بدلا من ذلك، دعونا نقول أننا ذاهبون إلى استدعاء هذا x، لموقف س، ونحن في طريقنا لجعل متغير هذا حول ما كان عليه من قبل."
+         },
+         "endTime": 131108,
+         "startTime": 122767
+      },
+      {
+         "text": {
+            "en": "And now, we're gonna be changing that variable inside of our loop, so we'll use a while loop,",
+            "pl": "A teraz będziemy zmieniać tę zmienną wewnątrz naszej pętli, więc użyjemy pętli while,",
+            "ar": "والآن، ونحن ستعمل يكون تغيير هذا المتغير داخل حلقة لدينا، لذلك سوف نستخدم حلقة في حين،"
+         },
+         "endTime": 135912,
+         "startTime": 131108
+      },
+      {
+         "text": {
+            "en": "and then inside that loop we'll say that x is going to change each time, maybe by, say, 20.",
+            "pl": "A potem wewnątrz tej pętli powiemy, że x będzie się zmieniać za każdym razem, może przez, powiedzmy, 20.",
+            "ar": "ثم داخل تلك الحلقة سنقول أن س هو الذهاب الى تغيير في كل مرة، ربما عن طريق، ويقول، 20."
+         },
+         "endTime": 142136,
+         "startTime": 135912
+      },
+      {
+         "text": {
+            "en": "If we just move that ellipse inside, being very careful, of course, not to move that variable declaration inside,",
+            "pl": "Jeśli po prostu przenieść tę elipsę do środka, będąc bardzo ostrożnym, oczywiście, aby nie przenieść tej zmiennej deklaracji wewnątrz,",
+            "ar": "إذا قمنا فقط بنقل هذا القطع الناقص في الداخل، بحذر شديد، بالطبع، عدم تحريك هذا الإعلان المتغير في الداخل،"
+         },
+         "endTime": 147398,
+         "startTime": 142136
+      },
+      {
+         "text": {
+            "en": "because then we'll just think about what would go wrong.",
+            "pl": "Bo wtedy pomyślimy o tym, co by poszło nie tak.",
+            "ar": "لأننا بعد ذلك سوف نفكر فقط في ما يمكن أن يحدث خطأ."
+         },
+         "endTime": 150209,
+         "startTime": 147398
+      },
+      {
+         "text": {
+            "en": "And it's actually worth trying on your own, if you're curious.",
+            "pl": "I warto spróbować na własną rękę, jeśli jesteś ciekawy.",
+            "ar": "وانها في الواقع يستحق المحاولة لوحدك، إذا كنت غريبة."
+         },
+         "endTime": 154375,
+         "startTime": 150209
+      },
+      {
+         "text": {
+            "en": "Okay, well, so, now our third loop question is \"How long do we wanna repeat?\"",
+            "pl": "Ok, więc teraz nasze trzecie pytanie brzmi: „Jak długo chcemy powtarzać?”",
+            "ar": "حسنا، حسنا، لذلك، الآن لدينا حلقة السؤال الثالث هو «كم من الوقت نريد أن نكرر؟»"
+         },
+         "endTime": 159392,
+         "startTime": 154375
+      },
+      {
+         "text": {
+            "en": "So we can think that maybe we wanna just keep going until we're basically run off the side of the screen",
+            "pl": "Więc możemy myśleć, że może chcemy iść dalej, dopóki nie uciekniemy z boku ekranu",
+            "ar": "لذلك يمكننا أن نعتقد أننا ربما نريد أن نستمر حتى نهرب بشكل أساسي من جانب الشاشة"
+         },
+         "endTime": 163818,
+         "startTime": 159392
+      },
+      {
+         "text": {
+            "en": "So maybe all the way until x is less than like 400.",
+            "pl": "Więc może aż X będzie mniej niż 400.",
+            "ar": "لذلك ربما على طول الطريق حتى س هو أقل من مثل 400."
+         },
+         "endTime": 166647,
+         "startTime": 163818
+      },
+      {
+         "text": {
+            "en": "So now this is cool cause somethings happening, right? But it's not really quite what we envisioned.",
+            "pl": "Więc teraz to jest fajne, bo coś się dzieje, prawda? Ale to nie jest to, co sobie wyobrażaliśmy.",
+            "ar": "حتى الآن هذا هو سبب رائع يحدث شيء ما، أليس كذلك؟ ولكن هذا ليس تماما ما تصورناه."
+         },
+         "endTime": 171163,
+         "startTime": 166647
+      },
+      {
+         "text": {
+            "en": "So just like before, you know, we just have to go through it and slowly improve it to get it to where we imagined.",
+            "pl": "Tak jak poprzednio, musimy przez to przejść i powoli go ulepszać, żeby dostać się tam, gdzie sobie wyobrażaliśmy.",
+            "ar": "لذلك تماما كما كان من قبل، كما تعلمون، علينا فقط أن نذهب من خلال ذلك وتحسينها ببطء للوصول إلى حيث تخيلنا."
+         },
+         "endTime": 175839,
+         "startTime": 171163
+      },
+      {
+         "text": {
+            "en": "So first, the ellipses are really squished together, so let's fix that.",
+            "pl": "Najpierw elipsy są naprawdę zgniatane razem, więc naprawimy to.",
+            "ar": "لذلك أولا، يتم سحق الحذف حقا معا، لذلك دعونا إصلاح ذلك."
+         },
+         "endTime": 179400,
+         "startTime": 175839
+      },
+      {
+         "text": {
+            "en": "Okay, so that's good to give them a little bit of breathing room.",
+            "pl": "Dobra, więc dobrze jest dać im trochę miejsca do oddychania.",
+            "ar": "حسناً، من الجيد أن نعطيهم بعض غرفة التنفس"
+         },
+         "endTime": 182409,
+         "startTime": 179400
+      },
+      {
+         "text": {
+            "en": "But you know, maybe they're still going a little bit too far off the side of the screen, so if we change the ending point, we can start disappearing",
+            "pl": "Ale wiesz, może nadal idą trochę za daleko od ekranu, więc jeśli zmienimy punkt końcowy, możemy zacząć znikać",
+            "ar": "ولكن تعلمون، ربما هم ما زالوا يذهبون قليلا بعيدا جدا عن جانب الشاشة، لذلك إذا قمنا بتغيير نقطة النهاية، يمكننا البدء في الاختفاء"
+         },
+         "endTime": 189317,
+         "startTime": 182409
+      },
+      {
+         "text": {
+            "en": "the ellipses that appear, you know, here, because we're saying you know as soon as x gets to like here maybe, stop drawing.",
+            "pl": "Elipsy, które się pojawiają, wiesz, tutaj, ponieważ mówimy, że wiesz, jak tylko X się tu polubi, może przestań rysować.",
+            "ar": "الحذف التي تظهر، كما تعلمون، هنا، لأننا نقول أنك تعرف حالما يحصل x على مثل هنا ربما، توقف عن الرسم."
+         },
+         "endTime": 196507,
+         "startTime": 189317
+      },
+      {
+         "text": {
+            "en": "And that's what this part of the while loop says.",
+            "pl": "I to właśnie mówi ta część pętli while.",
+            "ar": "وهذا ما يقول هذا الجزء من حلقة في حين."
+         },
+         "endTime": 199385,
+         "startTime": 196507
+      },
+      {
+         "text": {
+            "en": "Okay? And we can also say \"Well maybe we wanna change the ellipses a little bit,\" do we wanna move them all down,",
+            "pl": "Okej? Możemy też powiedzieć: „Cóż, może chcemy trochę zmienić elipsy”, czy chcemy przenieść je wszystkie w dół,",
+            "ar": "حسناً؟ ويمكننا أيضا أن نقول «حسنا ربما نريد تغيير الحذف قليلا»، هل نريد نقلهم جميعا إلى أسفل،"
+         },
+         "endTime": 204945,
+         "startTime": 199385
+      },
+      {
+         "text": {
+            "en": "do we want to, you know, change their size a little bit again, and the nice thing about the while loop is that we can do all of them all at the same time.",
+            "pl": "Czy chcemy, no wiesz, zmienić ich rozmiar trochę ponownie, i miłą rzeczą w pętli while jest to, że możemy zrobić wszystkie w tym samym czasie.",
+            "ar": "هل نريد، كما تعلمون، تغيير حجمها قليلا مرة أخرى، والشيء الجميل في حين حلقة هو أننا يمكن أن نفعل كل منهم في نفس الوقت."
+         },
+         "endTime": 214018,
+         "startTime": 204945
+      },
+      {
+         "text": {
+            "en": "All right. So perfect.",
+            "pl": "W porządku. Tak idealnie.",
+            "ar": "حسناً مثالية جدا."
+         },
+         "endTime": 216896,
+         "startTime": 214018
+      },
+      {
+         "text": {
+            "en": "Well, now looking at these balloons, it would be nice to put strings on them. If we like them, then we need to put strings on them,",
+            "pl": "Cóż, teraz patrząc na te balony, byłoby miło umieścić na nich sznurki. Jeśli je lubimy, to musimy umieścić na nich sznurki,",
+            "ar": "حسنا، الآن النظر إلى هذه البالونات، سيكون من الجميل أن تضع سلاسل عليها. إذا كنا نحبهم، ثم نحن بحاجة إلى وضع سلاسل عليها،"
+         },
+         "endTime": 222024,
+         "startTime": 216896
+      },
+      {
+         "text": {
+            "en": "otherwise they're gonna float away.",
+            "pl": "Inaczej odpłyną.",
+            "ar": "وإلا فإنها ستعمل تطفو بعيدا."
+         },
+         "endTime": 223892,
+         "startTime": 222024
+      },
+      {
+         "text": {
+            "en": "So we need a line for each one. We think that we wanna put that line starting at about the center of each of those balloons,",
+            "pl": "Więc potrzebujemy kolejki dla każdego z nich. Myślimy, że chcemy umieścić tę linię zaczynając od środka każdego z tych balonów,",
+            "ar": "لذلك نحن بحاجة إلى خط لكل واحد. نعتقد أننا نريد وضع هذا الخط بدءا من وسط كل من تلك البالونات،"
+         },
+         "endTime": 230573,
+         "startTime": 223892
+      },
+      {
+         "text": {
+            "en": "just to make it easy, and they're all coming down at kind of about the same point, maybe like that.",
+            "pl": "tylko po to, by to ułatwić, a oni wszyscy schodzą w pewnym sensie w tym samym punkcie, może w ten sposób.",
+            "ar": "فقط لجعل الأمر سهلاً، وكلهم ينزلون في نفس النقطة تقريباً، ربما من هذا القبيل."
+         },
+         "endTime": 235912,
+         "startTime": 230573
+      },
+      {
+         "text": {
+            "en": "So how can we make the program do that, instead of having to draw it?",
+            "pl": "Więc jak możemy sprawić, by program to zrobił, zamiast go rysować?",
+            "ar": "فكيف يمكننا أن نجعل البرنامج يفعل ذلك، بدلا من الاضطرار إلى رسمه؟"
+         },
+         "endTime": 239430,
+         "startTime": 235912
+      },
+      {
+         "text": {
+            "en": "So we can think of, if we wanna be repeating something, we definitely wanna put it inside this while loop, so let's go ahead and make that line",
+            "pl": "Więc możemy myśleć, jeśli chcemy coś powtarzać, zdecydowanie chcemy umieścić to w tej pętli while, więc chodźmy dalej i zrobić tę linię",
+            "ar": "حتى نتمكن من التفكير في، إذا كنا نريد أن يكون تكرار شيء، ونحن بالتأكيد نريد وضعه داخل هذا حين حلقة، لذلك دعونا المضي قدما وجعل هذا الخط"
+         },
+         "endTime": 245000,
+         "startTime": 239430
+      },
+      {
+         "text": {
+            "en": "And if we want it to be at that center of the ellipse, well then we need to have it start at these two coordinates, so we can do that.",
+            "pl": "A jeśli chcemy, żeby to było w środku elipsy, to musimy zacząć od tych dwóch współrzędnych, więc możemy to zrobić.",
+            "ar": "وإذا أردنا أن يكون في ذلك المركز من القطع الناقص، حسنا ثم نحن بحاجة إلى أن تبدأ في هذين الإحداثيين، حتى نتمكن من القيام بذلك."
+         },
+         "endTime": 250702,
+         "startTime": 245000
+      },
+      {
+         "text": {
+            "en": "And you can say well let's just have it end, you know, kind of wherever. At that was actually pretty close!",
+            "pl": "I możesz powiedzieć dobrze, niech to się skończy, no wiesz, gdziekolwiek. W tym było całkiem blisko!",
+            "ar": "ويمكنك أن تقول جيدا دعونا فقط يكون نهاية، كما تعلمون، نوع من أي مكان. في ذلك كان في الواقع قريبة جدا!"
+         },
+         "endTime": 256618,
+         "startTime": 250702
+      },
+      {
+         "text": {
+            "en": "But, again, it's not perfect - you might sense a theme - so we need to fix it. So first let's fix this ugly thing.",
+            "pl": "Ale znowu nie jest doskonały - możesz wyczuć motyw - więc musimy go naprawić. Więc najpierw naprawimy to brzydkie rzeczy.",
+            "ar": "ولكن، مرة أخرى، انها ليست مثالية - قد تشعر موضوع - لذلك نحن بحاجة إلى إصلاحه. لذلك دعونا أولا إصلاح هذا الشيء القبيح."
+         },
+         "endTime": 263655,
+         "startTime": 256618
+      },
+      {
+         "text": {
+            "en": "Which is that, the string that we drew is actually overlapping with our balloon, which isn't right at all.",
+            "pl": "To jest to, że sznur, który narysowaliśmy, pokrywa się z naszym balonem, co nie jest w porządku.",
+            "ar": "وهو أن، السلسلة التي رسمناها هي في الواقع متداخلة مع بالون لدينا، وهو ليس صحيحا على الإطلاق."
+         },
+         "endTime": 269813,
+         "startTime": 263655
+      },
+      {
+         "text": {
+            "en": "We really want that ellipse to be covering the line, which we can do just by changing that ordering.",
+            "pl": "Naprawdę chcemy, aby ta elipsa pokryła linię, co możemy zrobić tylko zmieniając kolejność.",
+            "ar": "نحن نريد حقا أن يكون القطع الناقص تغطي الخط، والذي يمكننا القيام به فقط عن طريق تغيير هذا الطلب."
+         },
+         "endTime": 275249,
+         "startTime": 269813
+      },
+      {
+         "text": {
+            "en": "You kinda see a lot of things you've learned are probably coming together here.",
+            "pl": "Widzicie, że wiele rzeczy, których się nauczyliście, prawdopodobnie zbliża się tu razem.",
+            "ar": "أنت ترى الكثير من الأشياء التي تعلمتها ربما تأتي معا هنا."
+         },
+         "endTime": 278764,
+         "startTime": 275249
+      },
+      {
+         "text": {
+            "en": "All right, so this is good, but maybe we wanna change the color of those lines, and how do we do that if we were really making this program on our own?",
+            "pl": "W porządku, więc to jest dobre, ale może chcemy zmienić kolor tych linii i jak to zrobić, jeśli naprawdę tworzyliśmy ten program na własną rękę?",
+            "ar": "كل الحق، لذلك هذا أمر جيد، ولكن ربما نريد تغيير لون تلك الخطوط، وكيف نفعل ذلك إذا كنا حقا جعل هذا البرنامج لوحدنا؟"
+         },
+         "endTime": 285315,
+         "startTime": 278764
+      },
+      {
+         "text": {
+            "en": "Well we'd go and look at the documentation.",
+            "pl": "Cóż, pójdziemy i przejrzymy dokumentację.",
+            "ar": "حسنا كنا نذهب وننظر في الوثائق."
+         },
+         "endTime": 287224,
+         "startTime": 285315
+      },
+      {
+         "text": {
+            "en": "Or we'd watch the documentation video if we didn't know how to do that.",
+            "pl": "Albo oglądalibyśmy film z dokumentacją, gdybyśmy nie wiedzieli, jak to zrobić.",
+            "ar": "أو سنشاهد فيديو التوثيق إذا لم نكن نعرف كيف نفعل ذلك."
+         },
+         "endTime": 290474,
+         "startTime": 287224
+      },
+      {
+         "text": {
+            "en": "So, we can go ahead and use stroke() to set the color of those lines,",
+            "pl": "Tak więc, możemy iść do przodu i użyć stroke (), aby ustawić kolor tych linii,",
+            "ar": "لذلك، يمكننا المضي قدما واستخدام السكتة الدماغية () لضبط لون تلك الخطوط،"
+         },
+         "endTime": 294924,
+         "startTime": 290474
+      },
+      {
+         "text": {
+            "en": "and maybe make them like, I dunno, maybe like, that color?",
+            "pl": "i może sprawić, że będą jak, nie wiem, może taki kolor?",
+            "ar": "وربما تجعلهم مثل، وأنا لا أعرف، ربما أحب، هذا اللون؟"
+         },
+         "endTime": 300253,
+         "startTime": 294924
+      },
+      {
+         "text": {
+            "en": "And it's beautiful! Now, last, all we need to do is draw Hopper. And that just requires putting her in as an image, like this,",
+            "pl": "I to jest piękne! Teraz, na koniec, wszystko co musimy zrobić, to narysować Hoppera. I to wymaga tylko umieszczenia jej jako obrazu, jak to,",
+            "ar": "وانها جميلة! الآن، أخيرا، كل ما علينا القيام به هو رسم هوبر. وهذا يتطلب فقط وضعها كصورة، مثل هذه"
+         },
+         "endTime": 310152,
+         "startTime": 300253
+      },
+      {
+         "text": {
+            "en": "and you can see the documentation for how I figured that out, and just moving her around so that, you know, she's kind of holding those ballons like that",
+            "pl": "i możesz zobaczyć dokumentację, jak to rozgryzłem, i po prostu ją przenosić, żeby, no wiesz, ona tak jakby trzymała te balony w ten sposób",
+            "ar": "ويمكنك أن ترى الوثائق عن كيفية معرفة ذلك، ومجرد نقلها حولها بحيث، كما تعلمون، انها نوع من تحمل تلك البالونات من هذا القبيل"
+         },
+         "endTime": 316536,
+         "startTime": 310152
+      },
+      {
+         "text": {
+            "en": "and floating through the sky.",
+            "pl": "i unosi się po niebie.",
+            "ar": "وتطفو في السماء."
+         },
+         "endTime": 318229,
+         "startTime": 316536
+      },
+      {
+         "text": {
+            "en": "And there you have it! We're done! You can try decorating the balloons, you know, you can think about maybe adding things to this loop to make those balloons a little bit cooler,",
+            "pl": "I tam masz to! Skończyliśmy! Możesz spróbować udekorować balony, wiesz, możesz pomyśleć o dodaniu rzeczy do tej pętli, żeby te balony były trochę chłodniejsze,",
+            "ar": "وهناك لديك! لقد انتهينا يمكنك محاولة تزيين البالونات، كما تعلمون، يمكنك التفكير في ربما إضافة أشياء إلى هذه الحلقة لجعل تلك البالونات أكثر برودة قليلا،"
+         },
+         "endTime": 326534,
+         "startTime": 318229
+      },
+      {
+         "text": {
+            "en": "and you can even use a loop in your next drawing.",
+            "pl": "i można nawet użyć pętli w następnym rysunku.",
+            "ar": "ويمكنك حتى استخدام حلقة في الرسم التالي."
+         },
+         "endTime": 330534,
+         "startTime": 326534
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/pfW18OL2hOo/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759745204",
+   "title": "More While Loops: Balloon Hopper | Looping | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

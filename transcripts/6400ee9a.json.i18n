@@ -1,0 +1,663 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Let's talk about loops. So I have a while loop here, and with just a few lines of code, I can write this message all the way down the screen.",
+            "pl": "Porozmawiajmy o pętlach. Więc mam pętlę while tutaj, i z zaledwie kilku wierszy kodu, mogę napisać tę wiadomość aż do dołu ekranu.",
+            "ar": "دعونا نتحدث عن الحلقات. لذلك لدي حلقة حين هنا، ومع بضعة أسطر من التعليمات البرمجية، يمكنني كتابة هذه الرسالة على طول الطريق أسفل الشاشة."
+         },
+         "endTime": 7260,
+         "startTime": 700
+      },
+      {
+         "text": {
+            "en": "If I go ahead and change the message like this, you know, to make it better",
+            "pl": "Jeśli pójdę dalej i zmienię wiadomość w ten sposób, wiesz, żeby było lepiej",
+            "ar": "إذا قمت بتغيير الرسالة مثل هذه، كما تعلمون، لجعلها أفضل"
+         },
+         "endTime": 10335,
+         "startTime": 7260
+      },
+      {
+         "text": {
+            "en": "all of them change.",
+            "pl": "Wszystkie się zmieniają.",
+            "ar": "كلهم يتغيرون"
+         },
+         "endTime": 11926,
+         "startTime": 10335
+      },
+      {
+         "text": {
+            "en": "So how is this working? Well, we can revisit this code in a moment",
+            "pl": "Więc jak to działa? Cóż, możemy ponownie odwiedzić ten kod za chwilę",
+            "ar": "إذن كيف يعمل هذا؟ حسنا، يمكننا إعادة النظر في هذا الرمز في لحظة"
+         },
+         "endTime": 15833,
+         "startTime": 11926
+      },
+      {
+         "text": {
+            "en": "But first let's take a step back and think about how we might write this program",
+            "pl": "Ale najpierw cofnijmy się i zastanówmy się, jak możemy napisać ten program",
+            "ar": "ولكن أولا دعونا نأخذ خطوة إلى الوراء والتفكير في كيف يمكن أن نكتب هذا البرنامج"
+         },
+         "endTime": 19422,
+         "startTime": 15833
+      },
+      {
+         "text": {
+            "en": "using only what we know so far without using loops.",
+            "pl": "używając tylko tego, co wiemy do tej pory bez użycia pętli.",
+            "ar": "فقط باستخدام ما نعرفه حتى الآن دون استخدام الحلقات."
+         },
+         "endTime": 22471,
+         "startTime": 19422
+      },
+      {
+         "text": {
+            "en": "So, to do that, we're really just gonna write a bunch of text over and over and over again right?",
+            "pl": "Więc, żeby to zrobić, naprawdę będziemy pisać kilka SMS-ów w kółko i w kółko, prawda?",
+            "ar": "لذلك، للقيام بذلك، ونحن حقا مجرد ستعمل كتابة مجموعة من الرسائل النصية مرارا وتكرارا مرارا وتكرارا أليس كذلك؟"
+         },
+         "endTime": 26751,
+         "startTime": 22471
+      },
+      {
+         "text": {
+            "en": "We're gonna say text, message, I'll put it in the first place, and now it's just a matter of repeating this",
+            "pl": "Powiemy SMS-a, wiadomość, włożę to na pierwszym miejscu, a teraz to tylko kwestia powtórzenia tego",
+            "ar": "سنقول رسالة، رسالة، سأضعها في المقام الأول، والآن هي مجرد مسألة تكرار هذا"
+         },
+         "endTime": 32590,
+         "startTime": 26751
+      },
+      {
+         "text": {
+            "en": "enough times so that eventually we get all the way to the bottom.",
+            "pl": "wystarczająco dużo razy, aby w końcu dostać się aż do dołu.",
+            "ar": "مرات كافية حتى نتمكن في نهاية المطاف من الحصول على طول الطريق إلى القاع."
+         },
+         "endTime": 36336,
+         "startTime": 32590
+      },
+      {
+         "text": {
+            "en": "And that's gonna take a lot of work, right?",
+            "pl": "I to zajmie dużo pracy, prawda?",
+            "ar": "وهذا سيستغرق الكثير من العمل، أليس كذلك؟"
+         },
+         "endTime": 38949,
+         "startTime": 36336
+      },
+      {
+         "text": {
+            "en": "Because the bottom is really far away. And it's even worse if you",
+            "pl": "Bo dno jest naprawdę daleko. I jest jeszcze gorzej, jeśli",
+            "ar": "لأن الجزء السفلي هو حقا بعيدا. وانها أسوأ إذا كنت"
+         },
+         "endTime": 42753,
+         "startTime": 38949
+      },
+      {
+         "text": {
+            "en": "then point out to me, hey, this wasn't actually 70, it needs to be closer, it needs to be at like",
+            "pl": "wtedy wskaż mi, hej, to nie było właściwie 70, musi być bliżej, to musi być jak",
+            "ar": "ثم نشير لي، مهلا، هذا لم يكن في الواقع 70، يجب أن يكون أقرب، يجب أن يكون في مثل"
+         },
+         "endTime": 46758,
+         "startTime": 42753
+      },
+      {
+         "text": {
+            "en": "60. And now that affects this one because it also needs to be smaller",
+            "pl": "60. A teraz to wpływa na ten jeden, ponieważ musi być również mniejszy",
+            "ar": "60. والآن هذا يؤثر على هذا لأنه يحتاج أيضا إلى أن يكون أصغر"
+         },
+         "endTime": 50709,
+         "startTime": 46758
+      },
+      {
+         "text": {
+            "en": "and all the way on, the more calls of text we have.",
+            "pl": "i aż dalej, tym więcej rozmów tekstowych mamy.",
+            "ar": "وعلى طول الطريق، والمزيد من المكالمات من النص لدينا."
+         },
+         "endTime": 55036,
+         "startTime": 50709
+      },
+      {
+         "text": {
+            "en": "And in fact, this way it's gonna take even longer to get to the bottom.",
+            "pl": "W ten sposób dotrzenie na dno potrwa jeszcze dłużej.",
+            "ar": "وفي الواقع، بهذه الطريقة سيستغرق الأمر وقتًا أطول للوصول إلى القاع."
+         },
+         "endTime": 58261,
+         "startTime": 55036
+      },
+      {
+         "text": {
+            "en": "So, this is really a pain, and thankfully we have loops to help us",
+            "pl": "Więc to jest naprawdę ból, i na szczęście mamy pętle, które nam pomogą",
+            "ar": "لذلك، هذا هو حقا ألم، والحمد لله لدينا حلقات لمساعدتنا"
+         },
+         "endTime": 62176,
+         "startTime": 58261
+      },
+      {
+         "text": {
+            "en": "From now on, any time you see repetitive code like this, your first thought should be",
+            "pl": "Od teraz, za każdym razem, gdy zobaczysz powtarzalny kod jak ten, twoja pierwsza myśl powinna być",
+            "ar": "من الآن فصاعدا، في أي وقت ترى فيه رمز متكرر مثل هذا، يجب أن يكون فكرتك الأولى"
+         },
+         "endTime": 66210,
+         "startTime": 62176
+      },
+      {
+         "text": {
+            "en": "\"Could I use a loop?\" A loop will let us repeat this piece of code over and over and",
+            "pl": "„Czy mogę użyć pętli?” Pętla pozwoli nam powtórzyć ten kawałek kodu w kółko i w kółko",
+            "ar": "«هل يمكنني استخدام حلقة؟» وهناك حلقة تسمح لنا تكرار هذه القطعة من التعليمات البرمجية مرارا وتكرارا و"
+         },
+         "endTime": 70087,
+         "startTime": 66210
+      },
+      {
+         "text": {
+            "en": "over again, making just little changes each time. So here's",
+            "pl": "ponownie, co tylko małe zmiany za każdym razem. Więc oto",
+            "ar": "مرة أخرى، إجراء تغييرات طفيفة فقط في كل مرة. حتى هنا"
+         },
+         "endTime": 74251,
+         "startTime": 70087
+      },
+      {
+         "text": {
+            "en": "how we would rewrite this code with a loop. To get started, we need to type \"while\",",
+            "pl": "jak chcielibyśmy przepisać ten kod z pętlą. Aby rozpocząć, musimy wpisać „while”,",
+            "ar": "كيف يمكننا إعادة كتابة هذا الرمز مع حلقة. للبدء، نحن بحاجة إلى كتابة «بينما»،"
+         },
+         "endTime": 77868,
+         "startTime": 74251
+      },
+      {
+         "text": {
+            "en": "the parentheses, and the curly braces. We're gonna get this message, but",
+            "pl": "nawiasy i nawiasy klamrowe. Odzyskamy tę wiadomość, ale",
+            "ar": "الأقواس، والأقواس مجعد. نحن ستعمل الحصول على هذه الرسالة، ولكن"
+         },
+         "endTime": 82089,
+         "startTime": 77868
+      },
+      {
+         "text": {
+            "en": "it's just because we're not done yet. Don't worry, it'll go away when we finish.",
+            "pl": "To dlatego, że jeszcze nie skończyliśmy. Nie martw się, odejdzie, kiedy skończymy.",
+            "ar": "إنه فقط لأننا لم ننتهي بعد لا تقلق، سوف تختفي عندما ننتهي."
+         },
+         "endTime": 86301,
+         "startTime": 82089
+      },
+      {
+         "text": {
+            "en": "So every time you write a loop you need to answer three key questions.",
+            "pl": "Więc za każdym razem, gdy piszesz pętlę, musisz odpowiedzieć na trzy kluczowe pytania.",
+            "ar": "لذلك في كل مرة تكتب فيها حلقة تحتاج إلى الإجابة على ثلاثة أسئلة رئيسية."
+         },
+         "endTime": 90810,
+         "startTime": 86301
+      },
+      {
+         "text": {
+            "en": "And here they are: so,",
+            "pl": "I oto one: tak,",
+            "ar": "وهنا هم: لذلك،"
+         },
+         "endTime": 93370,
+         "startTime": 90825
+      },
+      {
+         "text": {
+            "en": "the first question is, \"What do I want to repeat?\" And",
+            "pl": "Pierwsze pytanie brzmi: „Co chcę powtórzyć?” I",
+            "ar": "السؤال الأول هو، «ماذا أريد أن أكرر؟» و"
+         },
+         "endTime": 97371,
+         "startTime": 93370
+      },
+      {
+         "text": {
+            "en": "whatever we want to repeat needs to go in-between these curlies.",
+            "pl": "Cokolwiek chcemy powtórzyć, musi przejść między tymi curlies.",
+            "ar": "كل ما نريد أن نكرر يحتاج إلى الذهاب بين هذه الكعبق."
+         },
+         "endTime": 101466,
+         "startTime": 97371
+      },
+      {
+         "text": {
+            "en": "So we want to repeat the \"text\" call in this case, so go ahead and put that in here.",
+            "pl": "Chcemy więc powtórzyć wezwanie „tekstowe” w tym przypadku, więc śmiało i umieść to tutaj.",
+            "ar": "لذلك نحن نريد أن نكرر دعوة «النص» في هذه الحالة، لذلك المضي قدما ووضع ذلك في هنا."
+         },
+         "endTime": 106198,
+         "startTime": 101466
+      },
+      {
+         "text": {
+            "en": "But it's a little bit silly, right? Because right now we're just gonna be repeating",
+            "pl": "Ale to trochę głupie, prawda? Bo teraz będziemy się powtarzać",
+            "ar": "لكنه سخيف بعض الشيء، أليس كذلك؟ لأننا الآن سوف نكرر"
+         },
+         "endTime": 109571,
+         "startTime": 106198
+      },
+      {
+         "text": {
+            "en": "the same call of text over and over, which is not really any good right, we need something to be",
+            "pl": "to samo wezwanie tekstu w kółko, co nie jest tak naprawdę dobre prawo, musimy coś być",
+            "ar": "نفس الدعوة من النص مرارا وتكرارا، والتي ليست حقا أي حق جيد، نحن بحاجة إلى شيء ليكون"
+         },
+         "endTime": 113477,
+         "startTime": 109571
+      },
+      {
+         "text": {
+            "en": "changing. That brings us to question two, which is \"What do I want to change each time?\"",
+            "pl": "zmienia się. To skłania nas do pytania drugiego, czyli „Co chcę zmienić za każdym razem?”",
+            "ar": "تغيير. وهذا يقودنا إلى السؤال الثاني، وهو «ماذا أريد أن أغير في كل مرة؟»"
+         },
+         "endTime": 117710,
+         "startTime": 113477
+      },
+      {
+         "text": {
+            "en": "So we want to change this \"y\" position, right? We want it to become 60 and then we want it",
+            "pl": "Więc chcemy zmienić tę pozycję „y”, prawda? Chcemy, żeby stało się 60, a potem chcemy",
+            "ar": "لذلك نحن نريد تغيير هذا الموقف «y»، أليس كذلك؟ نريدها أن تصبح 60 ثم نريدها"
+         },
+         "endTime": 121423,
+         "startTime": 117710
+      },
+      {
+         "text": {
+            "en": "to become 80. So we'll make that into a variable instead.",
+            "pl": ", aby stać się 80. Więc uczynimy, że w zmiennej zamiast.",
+            "ar": "لتصبح 80. ولذا فإننا سوف تجعل ذلك إلى متغير بدلا من ذلك."
+         },
+         "endTime": 125503,
+         "startTime": 121423
+      },
+      {
+         "text": {
+            "en": "Called y, because it's the y position. So we'll go ahead and declare a variable",
+            "pl": "Nazywa się Y, ponieważ jest to pozycja y. Więc pójdziemy do przodu i zadeklarować zmienną",
+            "ar": "دعا ذ، لأنه هو موقف y. لذلك سنمضي قدما ونعلن متغير"
+         },
+         "endTime": 129476,
+         "startTime": 125503
+      },
+      {
+         "text": {
+            "en": "up here. I'll start it at 40. And now, finally, we just need to",
+            "pl": "tu na górze. Zacznę od 40. A teraz, w końcu, po prostu musimy",
+            "ar": "في الأعلى هنا. سأبدأ في 40 والآن، أخيرا، نحن بحاجة فقط ل"
+         },
+         "endTime": 133376,
+         "startTime": 129476
+      },
+      {
+         "text": {
+            "en": "be changing y. We can do that down here, we can say \"y gets y +",
+            "pl": "Możemy to zrobić tutaj, możemy powiedzieć „y dostaje y +",
+            "ar": "يمكننا أن نفعل ذلك هنا، يمكننا أن نقول «y يحصل"
+         },
+         "endTime": 137205,
+         "startTime": 133376
+      },
+      {
+         "text": {
+            "en": "\"20\" and it will be getting bigger every time. And in fact, we can use",
+            "pl": "„20\" i będzie coraz większy za każdym razem. I w rzeczywistości, możemy użyć",
+            "ar": "«20\" وسوف يكون الحصول على أكبر في كل مرة. وفي الواقع، يمكننا استخدام"
+         },
+         "endTime": 141088,
+         "startTime": 137205
+      },
+      {
+         "text": {
+            "en": "our lesson from incrementing shortcuts here. We can just go ahead",
+            "pl": "naszej lekcji z przyrostu skrótów tutaj. Możemy po prostu iść śmiało",
+            "ar": "درسنا من زيادة الاختصارات هنا. يمكننا أن نمضي قدماً"
+         },
+         "endTime": 144745,
+         "startTime": 141088
+      },
+      {
+         "text": {
+            "en": "and use the shortcut. So, this is fantastic, and we only",
+            "pl": "i użyj skrótu. Więc to jest fantastyczne, a my tylko",
+            "ar": "واستخدم الاختصار. لذلك، هذا رائع، ونحن فقط"
+         },
+         "endTime": 149092,
+         "startTime": 144745
+      },
+      {
+         "text": {
+            "en": "need to do question three now, which is \"How long should we be repeating this?\"",
+            "pl": "trzeba zrobić pytanie trzy teraz, czyli „Jak długo powinniśmy to powtarzać?”",
+            "ar": "بحاجة إلى القيام بالسؤال الثالث الآن، وهو «كم من الوقت يجب أن نكرر هذا؟»"
+         },
+         "endTime": 152705,
+         "startTime": 149092
+      },
+      {
+         "text": {
+            "en": "Well we want to do this over and over and over again, but we don't really want to do it forever, right?",
+            "pl": "Chcemy to robić w kółko i w kółko, ale nie chcemy tego robić wiecznie, prawda?",
+            "ar": "حسنا نحن نريد أن نفعل هذا مرارا وتكرارا، ولكن نحن لا نريد حقا أن نفعل ذلك إلى الأبد، أليس كذلك؟"
+         },
+         "endTime": 156531,
+         "startTime": 152705
+      },
+      {
+         "text": {
+            "en": "If we do it forever, first, that's a really long time to wait, and second, it might even crash your browser.",
+            "pl": "Jeśli zrobimy to na zawsze, po pierwsze, to bardzo długo czekać, a po drugie, może nawet zawiesić przeglądarkę.",
+            "ar": "إذا فعلنا ذلك إلى الأبد، أولا، هذا هو وقت طويل حقا للانتظار، وثانيا، فإنه قد حتى تعطل المتصفح الخاص بك."
+         },
+         "endTime": 161252,
+         "startTime": 156531
+      },
+      {
+         "text": {
+            "en": "But hopefully not. So really, we only",
+            "pl": "Ale miejmy nadzieję, że nie. Tak naprawdę, my tylko",
+            "ar": "لكن على أمل أن لا لذلك حقا، نحن فقط"
+         },
+         "endTime": 164471,
+         "startTime": 161252
+      },
+      {
+         "text": {
+            "en": "want to do this until we get to the bottom of the page, right? Which means we wanna do it",
+            "pl": "chcesz to zrobić, dopóki nie dotrzemy do końca strony, prawda? Co oznacza, że chcemy to zrobić",
+            "ar": "تريد أن تفعل ذلك حتى نصل إلى أسفل الصفحة، أليس كذلك؟ مما يعني أننا نريد أن نفعل ذلك"
+         },
+         "endTime": 168371,
+         "startTime": 164471
+      },
+      {
+         "text": {
+            "en": "as long as y is less than 400. So we just put that in here, and there",
+            "pl": "tak długo, jak y jest mniejsza niż 400. Więc umieściliśmy to tutaj i tam",
+            "ar": "طالما ذ هو أقل من 400. لذلك نحن فقط وضعت أن في هنا، وهناك"
+         },
+         "endTime": 172469,
+         "startTime": 168371
+      },
+      {
+         "text": {
+            "en": "we have it! We have this message being written all the way down the screen.",
+            "pl": "Mamy to! Mamy tę wiadomość napisaną całą drogę w dół ekranu.",
+            "ar": "لدينا ذلك! لدينا هذه الرسالة مكتوبة على طول الطريق أسفل الشاشة."
+         },
+         "endTime": 176426,
+         "startTime": 172469
+      },
+      {
+         "text": {
+            "en": "And you can see that this is way simpler than our previous approach, which, you know,",
+            "pl": "I widać, że jest to o wiele prostsze niż nasze poprzednie podejście, które, no wiesz,",
+            "ar": "ويمكنكم أن تروا أن هذا أبسط بكثير من نهجنا السابق، والذي، كما تعلمون،"
+         },
+         "endTime": 179920,
+         "startTime": 176426
+      },
+      {
+         "text": {
+            "en": "took us about as long to write, but we weren't even a quarter of the way finished.",
+            "pl": "Napisanie zajęło nam tak długo, ale nie skończyliśmy nawet jednej czwartej drogi.",
+            "ar": "أخذنا حوالي وقت طويل للكتابة، لكننا لم نكن حتى ربع الطريق انتهى."
+         },
+         "endTime": 184175,
+         "startTime": 179920
+      },
+      {
+         "text": {
+            "en": "So we can get rid of that, and there we have our program.",
+            "pl": "Więc możemy się tego pozbyć, a tam mamy nasz program.",
+            "ar": "حتى نتمكن من التخلص من ذلك، وهناك لدينا برنامجنا."
+         },
+         "endTime": 188090,
+         "startTime": 184175
+      },
+      {
+         "text": {
+            "en": "Now, let's try to get a better understanding of what's going on. To do that, I'm going",
+            "pl": "Spróbujmy lepiej zrozumieć, co się dzieje. Aby to zrobić, idę",
+            "ar": "الآن، دعونا نحاول الحصول على فهم أفضل لما يحدث. للقيام بذلك، أنا ذاهب"
+         },
+         "endTime": 191711,
+         "startTime": 188090
+      },
+      {
+         "text": {
+            "en": "to print out y each time. I'm gonna say \"y is now\" and then down here",
+            "pl": ", aby wydrukować y za każdym razem. Powiem „y jest teraz”, a potem tutaj na dole.",
+            "ar": "لطباعة y في كل مرة. سأقول «لقد أصبحت الآن» ثم هنا"
+         },
+         "endTime": 195634,
+         "startTime": 191711
+      },
+      {
+         "text": {
+            "en": "I'll just tack y onto the end of the message so we can see it.",
+            "pl": "Włączę cię na koniec wiadomości, żebyśmy mogli ją zobaczyć.",
+            "ar": "سأقوم فقط بضرب نهاية الرسالة حتى نتمكن من رؤيتها"
+         },
+         "endTime": 199410,
+         "startTime": 195634
+      },
+      {
+         "text": {
+            "en": "So at the moment, the value is changing by 20, and we can change",
+            "pl": "Tak więc w tej chwili wartość zmienia się o 20, a my możemy zmienić",
+            "ar": "لذلك في الوقت الحالي، تتغير القيمة بمقدار 20، ويمكننا أن نغير"
+         },
+         "endTime": 203343,
+         "startTime": 199410
+      },
+      {
+         "text": {
+            "en": "that just by changing this variable here. Or you can make it, you know, like,",
+            "pl": "że po prostu zmieniając tę zmienną tutaj. Albo możesz to zrobić, no wiesz,",
+            "ar": "ذلك فقط عن طريق تغيير هذا المتغير هنا. أو يمكنك أن تجعل، كما تعلمون، مثل،"
+         },
+         "endTime": 207257,
+         "startTime": 203343
+      },
+      {
+         "text": {
+            "en": "50. And now, now they're changing by 50. Similarly,",
+            "pl": "50. A teraz zmieniają się o 50. Podobnie,",
+            "ar": "50. والآن، هم الآن يتغيرون بمقدار 50. و بالمثل,"
+         },
+         "endTime": 211426,
+         "startTime": 207257
+      },
+      {
+         "text": {
+            "en": "you can go ahead and play with these other values and have them change. And",
+            "pl": "można iść do przodu i grać z tymi innymi wartościami i ich zmienić. I",
+            "ar": "يمكنك المضي قدما واللعب مع هذه القيم الأخرى ويكون لهم تغيير. و"
+         },
+         "endTime": 215578,
+         "startTime": 211426
+      },
+      {
+         "text": {
+            "en": "you can see how that affects, you know, where the program stops.",
+            "pl": "Możesz zobaczyć, jak to wpływa, wiesz, gdzie program się zatrzymuje.",
+            "ar": "يمكنك أن ترى كيف يؤثر ذلك، كما تعلمون، حيث يتوقف البرنامج."
+         },
+         "endTime": 219201,
+         "startTime": 215578
+      },
+      {
+         "text": {
+            "en": "So, to understand this, you can think of it sort of",
+            "pl": "Więc, aby to zrozumieć, można myśleć o tym coś w rodzaju",
+            "ar": "لذلك، لفهم هذا، يمكنك التفكير في الأمر نوعا ما"
+         },
+         "endTime": 224007,
+         "startTime": 219201
+      },
+      {
+         "text": {
+            "en": "like an \"if\" statement actually. We have our boolean expression in here",
+            "pl": "jak „if” oświadczenie faktycznie. Mamy tutaj naszą logiczną ekspresję",
+            "ar": "مثل عبارة «إذا» في الواقع. لدينا تعبيرنا المنطقي هنا"
+         },
+         "endTime": 227342,
+         "startTime": 224007
+      },
+      {
+         "text": {
+            "en": "just like you learned. And then, we do the body of the, um, the statement",
+            "pl": "Tak jak się nauczyłeś. A potem, robimy ciało, um, oświadczenie",
+            "ar": "تماما كما تعلمت. وبعد ذلك، نقوم بعمل جسد، أم، البيان"
+         },
+         "endTime": 232009,
+         "startTime": 227342
+      },
+      {
+         "text": {
+            "en": "this part, only if the boolean is true, and otherwise we just jump to",
+            "pl": "tej części, tylko wtedy, gdy wartość logiczna jest prawdziwa, a poza tym po prostu przejść do",
+            "ar": "هذا الجزء، إلا إذا كان منطقي هو الصحيح، وإلا فإننا مجرد القفز إلى"
+         },
+         "endTime": 235469,
+         "startTime": 232009
+      },
+      {
+         "text": {
+            "en": "the end. But what's interesting is that with a while loop we actually",
+            "pl": "Koniec. Ale co ciekawe jest to, że z pętlą while faktycznie",
+            "ar": "النهاية. ولكن ما هو مثير للاهتمام هو أنه مع حلقة حين نحن في الواقع"
+         },
+         "endTime": 239093,
+         "startTime": 235469
+      },
+      {
+         "text": {
+            "en": "have this secret thing going on at the bottom which says \"go back to the start\"",
+            "pl": "mieć tę tajną rzecz dzieje się na dole, która mówi „wrócić do początku”",
+            "ar": "يكون هذا الشيء السري يحدث في الجزء السفلي الذي يقول «العودة إلى البداية»"
+         },
+         "endTime": 243864,
+         "startTime": 239093
+      },
+      {
+         "text": {
+            "en": "\"of the loop\". And what this secret instruction means",
+            "pl": "„pętli”. A co oznacza ta tajna instrukcja",
+            "ar": "«من الحلقة». وماذا تعني هذه التعليمات السرية"
+         },
+         "endTime": 247202,
+         "startTime": 243864
+      },
+      {
+         "text": {
+            "en": "is that instead of leaving and just keeping on going, like with an \"if\"",
+            "pl": "jest to, że zamiast wychodzić i po prostu nadal trwa, jak z „jeśli”",
+            "ar": "هو أنه بدلا من المغادرة و مجرد الاستمرار, كما هو الحال مع «إذا»"
+         },
+         "endTime": 251071,
+         "startTime": 247202
+      },
+      {
+         "text": {
+            "en": "statement, every time we do the loop body we're going to go back and check",
+            "pl": "oświadczenie, za każdym razem, gdy robimy ciało pętli mamy zamiar wrócić i sprawdzić",
+            "ar": "بيان، في كل مرة نفعل الجسم حلقة ونحن في طريقنا للعودة والتحقق"
+         },
+         "endTime": 255032,
+         "startTime": 251071
+      },
+      {
+         "text": {
+            "en": "if the condition is still true. And if it is, we're just going to repeat one",
+            "pl": "jeśli warunek jest nadal prawdziwy. A jeśli tak, to po prostu powtórzmy jeden",
+            "ar": "إذا كان الشرط لا يزال صحيحا. وإذا كان كذلك، نحن ذاهبون فقط لتكرار واحد"
+         },
+         "endTime": 259204,
+         "startTime": 255032
+      },
+      {
+         "text": {
+            "en": "more time. And just like you might have guessed, the second time we repeat, we're gonna do the same thing...",
+            "pl": "więcej czasu. I tak jak mogłeś się domyślić, za drugim razem, zrobimy to samo...",
+            "ar": "المزيد من الوقت. وكما كنت قد خمنت، في المرة الثانية التي نكرر فيها، سنقوم بنفس الشيء..."
+         },
+         "endTime": 263238,
+         "startTime": 259204
+      },
+      {
+         "text": {
+            "en": "we're gonna check hey, you know, go back to the start. Is y still less than",
+            "pl": "Sprawdzimy hej, wiesz, wrócimy do początku. Czy y nadal mniej niż",
+            "ar": "نحن ستعمل تحقق مهلا، كما تعلمون، نعود إلى البداية. هل ذ لا يزال أقل من"
+         },
+         "endTime": 267086,
+         "startTime": 263238
+      },
+      {
+         "text": {
+            "en": "279? And if it is, we'll repeat one more time and keep checking.",
+            "pl": "279? A jeśli tak, powtórzymy jeszcze raz i będziemy sprawdzać.",
+            "ar": "279؟ وإذا كان كذلك، سنكرر مرة أخرى ونستمر في التحقق."
+         },
+         "endTime": 271565,
+         "startTime": 267086
+      },
+      {
+         "text": {
+            "en": "And if it's not, we go back to the start here. And finally,",
+            "pl": "A jeśli nie, wracamy do startu tutaj. I w końcu,",
+            "ar": "وإذا لم يكن كذلك، نعود إلى البداية هنا. وأخيرا،"
+         },
+         "endTime": 274591,
+         "startTime": 271565
+      },
+      {
+         "text": {
+            "en": "we'll get to escape and keep going with our program.",
+            "pl": "Uciekniemy i będziemy kontynuować nasz program.",
+            "ar": "سنهرب ونستمر في برنامجنا"
+         },
+         "endTime": 278478,
+         "startTime": 274591
+      },
+      {
+         "text": {
+            "en": "So great, there are a lot more interesting ways of using loops we're going to learn about soon, but",
+            "pl": "Tak świetnie, istnieje wiele ciekawszych sposobów korzystania z pętli, o których wkrótce dowiemy się, ale",
+            "ar": "عظيم جدا، وهناك الكثير من الطرق أكثر إثارة للاهتمام لاستخدام الحلقات ونحن في طريقنا لمعرفة حول قريبا، ولكن"
+         },
+         "endTime": 282703,
+         "startTime": 278478
+      },
+      {
+         "text": {
+            "en": "for now, you are off to an excellent start.",
+            "pl": "Na razie, jesteś na doskonały początek.",
+            "ar": "في الوقت الحالي، أنت في بداية ممتازة."
+         },
+         "endTime": 286703,
+         "startTime": 282703
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/GRenY7Danbc/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759738997",
+   "title": "Intro to While Loops | Looping | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

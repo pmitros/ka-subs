@@ -1,0 +1,1059 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- [Voiceover] Today I want to talk about",
+            "pl": "- [Voiceover] Dzisiaj chcę porozmawiać o",
+            "ar": "- اليوم أريد أن أتحدث عن"
+         },
+         "endTime": 2228,
+         "startTime": 1050
+      },
+      {
+         "text": {
+            "en": "making your code easier to read.",
+            "pl": "dzięki czemu kod jest łatwiejszy do odczytania.",
+            "ar": "مما يجعل التعليمات البرمجية أسهل للقراءة."
+         },
+         "endTime": 4307,
+         "startTime": 2228
+      },
+      {
+         "text": {
+            "en": "First let's talk about what it means",
+            "pl": "Najpierw porozmawiajmy o tym, co to znaczy",
+            "ar": "أولا دعونا نتحدث عن ما يعنيه"
+         },
+         "endTime": 5851,
+         "startTime": 4307
+      },
+      {
+         "text": {
+            "en": "to make a human language easier to read.",
+            "pl": "aby uczynić ludzki język łatwiejszym do odczytania.",
+            "ar": "لجعل لغة الإنسان أسهل في القراءة."
+         },
+         "endTime": 8080,
+         "startTime": 5851
+      },
+      {
+         "text": {
+            "en": "The languages that we speak every day",
+            "pl": "Języki, o których mówimy każdego dnia",
+            "ar": "اللغات التي نتكلم بها كل يوم"
+         },
+         "endTime": 9600,
+         "startTime": 8080
+      },
+      {
+         "text": {
+            "en": "have lots of rules, but they also have",
+            "pl": "mają wiele zasad, ale mają również",
+            "ar": "لديها الكثير من القواعد، ولكن لديهم أيضا"
+         },
+         "endTime": 11191,
+         "startTime": 9600
+      },
+      {
+         "text": {
+            "en": "lots of flexibility,",
+            "pl": "dużo elastyczności,",
+            "ar": "الكثير من المرونة،"
+         },
+         "endTime": 12364,
+         "startTime": 11191
+      },
+      {
+         "text": {
+            "en": "especially when we write them down.",
+            "pl": "Zwłaszcza, gdy je zapisujemy.",
+            "ar": "خاصة عندما نكتبها."
+         },
+         "endTime": 14140,
+         "startTime": 12364
+      },
+      {
+         "text": {
+            "en": "Like if I'm being really lazy one day,",
+            "pl": "Jakbym pewnego dnia był naprawdę leniwy,",
+            "ar": "مثل إذا كنت كسول حقا في يوم من الأيام"
+         },
+         "endTime": 16163,
+         "startTime": 14140
+      },
+      {
+         "text": {
+            "en": "I could write this.",
+            "pl": "Mógłbym to napisać.",
+            "ar": "يمكنني كتابة هذا"
+         },
+         "endTime": 17481,
+         "startTime": 16163
+      },
+      {
+         "text": {
+            "en": "Now you can read that sentence",
+            "pl": "Teraz możesz przeczytać to zdanie",
+            "ar": "الآن يمكنك قراءة تلك الجملة"
+         },
+         "endTime": 19863,
+         "startTime": 18028
+      },
+      {
+         "text": {
+            "en": "and eventually figure it out,",
+            "pl": "i w końcu to rozgryźć,",
+            "ar": "وفي نهاية المطاف معرفة ذلك،"
+         },
+         "endTime": 23287,
+         "startTime": 19863
+      },
+      {
+         "text": {
+            "en": "but you have to figure out where the periods",
+            "pl": "ale trzeba dowiedzieć się, gdzie okresy",
+            "ar": "ولكن عليك أن تعرف أين الفترات"
+         },
+         "endTime": 24611,
+         "startTime": 23287
+      },
+      {
+         "text": {
+            "en": "go and it takes time.",
+            "pl": "idź i to wymaga czasu.",
+            "ar": "الذهاب ويستغرق وقتا."
+         },
+         "endTime": 26642,
+         "startTime": 24611
+      },
+      {
+         "text": {
+            "en": "Now what would happen if we cleaned it up a bit?",
+            "pl": "Co by się stało, gdybyśmy to trochę posprzątali?",
+            "ar": "الآن ماذا سيحدث لو قمنا بتنظيفه قليلاً؟"
+         },
+         "endTime": 29149,
+         "startTime": 26642
+      },
+      {
+         "text": {
+            "en": "Ta-da.",
+            "pl": "Ta-da.",
+            "ar": "تا-دا"
+         },
+         "endTime": 30890,
+         "startTime": 29847
+      },
+      {
+         "text": {
+            "en": "Okay, so you agree that that's a lot easier",
+            "pl": "Ok, więc zgadzasz się, że to o wiele łatwiejsze",
+            "ar": "حسنا، إذا أنت توافق على أن هذا أسهل بكثير"
+         },
+         "endTime": 34394,
+         "startTime": 31178
+      },
+      {
+         "text": {
+            "en": "to understand, right?",
+            "pl": "zrozumieć, prawda?",
+            "ar": "لفهم، أليس كذلك؟"
+         },
+         "endTime": 35777,
+         "startTime": 34394
+      },
+      {
+         "text": {
+            "en": "Now imagine if everybody wrote like",
+            "pl": "Teraz wyobraź sobie, że wszyscy piszą jak",
+            "ar": "الآن تخيل لو كتب الجميع مثل"
+         },
+         "endTime": 37854,
+         "startTime": 35777
+      },
+      {
+         "text": {
+            "en": "this first sentence and we constantly had",
+            "pl": "to pierwsze zdanie i ciągle mieliśmy",
+            "ar": "هذه الجملة الأولى وكان لدينا باستمرار"
+         },
+         "endTime": 39978,
+         "startTime": 37854
+      },
+      {
+         "text": {
+            "en": "to read everything multiple times",
+            "pl": "aby przeczytać wszystko wiele razy",
+            "ar": "لقراءة كل شيء عدة مرات"
+         },
+         "endTime": 41661,
+         "startTime": 39978
+      },
+      {
+         "text": {
+            "en": "just to figure out how it flowed.",
+            "pl": "tylko dowiedzieć się, jak to płynęło.",
+            "ar": "فقط لمعرفة كيف تدفقت."
+         },
+         "endTime": 43820,
+         "startTime": 41661
+      },
+      {
+         "text": {
+            "en": "It'd be really painful, right?",
+            "pl": "To byłoby naprawdę bolesne, prawda?",
+            "ar": "سيكون مؤلماً حقاً، أليس كذلك؟"
+         },
+         "endTime": 45934,
+         "startTime": 43820
+      },
+      {
+         "text": {
+            "en": "It's the same thing with programming languages.",
+            "pl": "Tak samo jest z językami programowania.",
+            "ar": "انها نفس الشيء مع لغات البرمجة."
+         },
+         "endTime": 48000,
+         "startTime": 45934
+      },
+      {
+         "text": {
+            "en": "They have a lot of rules and they're",
+            "pl": "Mają wiele zasad i są",
+            "ar": "لديهم الكثير من القواعد وهم"
+         },
+         "endTime": 49974,
+         "startTime": 48000
+      },
+      {
+         "text": {
+            "en": "more strict than human languages,",
+            "pl": "bardziej surowe niż języki ludzkie,",
+            "ar": "أكثر صرامة من اللغات البشرية،"
+         },
+         "endTime": 51320,
+         "startTime": 49974
+      },
+      {
+         "text": {
+            "en": "but they can also be written in confusing ways.",
+            "pl": "ale mogą być również napisane w mylące sposoby.",
+            "ar": "ولكن يمكن أيضا أن تكون مكتوبة بطرق مربكة."
+         },
+         "endTime": 54002,
+         "startTime": 51320
+      },
+      {
+         "text": {
+            "en": "For example, this code here is valid code",
+            "pl": "Na przykład, ten kod tutaj jest poprawny kod",
+            "ar": "على سبيل المثال، هذا الرمز هنا رمز صالح"
+         },
+         "endTime": 58518,
+         "startTime": 54002
+      },
+      {
+         "text": {
+            "en": "and it runs and it's a cool program,",
+            "pl": "i działa i jest to fajny program,",
+            "ar": "وهو يعمل وهو برنامج رائع،"
+         },
+         "endTime": 60619,
+         "startTime": 58518
+      },
+      {
+         "text": {
+            "en": "but man, it's really hard to read as a human.",
+            "pl": "Ale człowieku, naprawdę trudno jest czytać jako człowiek.",
+            "ar": "لكن يا رجل، من الصعب قراءته كإنسان."
+         },
+         "endTime": 64102,
+         "startTime": 60619
+      },
+      {
+         "text": {
+            "en": "So what would you do to make it easier to read?",
+            "pl": "Więc co byś zrobił, aby ułatwić czytanie?",
+            "ar": "فماذا ستفعل لجعل الأمر أسهل للقراءة؟"
+         },
+         "endTime": 66863,
+         "startTime": 64102
+      },
+      {
+         "text": {
+            "en": "A few things.",
+            "pl": "Kilka rzeczy.",
+            "ar": "بعض الأشياء."
+         },
+         "endTime": 68045,
+         "startTime": 66863
+      },
+      {
+         "text": {
+            "en": "The first thing we'd do is we'd move",
+            "pl": "Pierwszą rzeczą, którą byśmy zrobili, jest przeniesienie się",
+            "ar": "أول شيء نفعله هو أننا سنتحرك"
+         },
+         "endTime": 69611,
+         "startTime": 68045
+      },
+      {
+         "text": {
+            "en": "every statement onto its own line.",
+            "pl": "każde oświadczenie na własnej linii.",
+            "ar": "كل بيان على خطها الخاص."
+         },
+         "endTime": 71784,
+         "startTime": 69611
+      },
+      {
+         "text": {
+            "en": "Like this.",
+            "pl": "Tak jak to.",
+            "ar": "مثل هذا."
+         },
+         "endTime": 73411,
+         "startTime": 72153
+      },
+      {
+         "text": {
+            "en": "Now that makes it a little easier to read,",
+            "pl": "Teraz to sprawia, że jest trochę łatwiejsze do odczytania,",
+            "ar": "الآن هذا يجعل من السهل قليلا للقراءة،"
+         },
+         "endTime": 75431,
+         "startTime": 73411
+      },
+      {
+         "text": {
+            "en": "but there's still a lot more we can do.",
+            "pl": "Ale jest jeszcze wiele więcej, co możemy zrobić.",
+            "ar": "ولكن لا يزال هناك الكثير مما يمكننا القيام به."
+         },
+         "endTime": 77753,
+         "startTime": 75431
+      },
+      {
+         "text": {
+            "en": "So the next thing we want to do",
+            "pl": "Więc następną rzeczą, którą chcemy zrobić",
+            "ar": "لذا فإن الشيء التالي الذي نريد القيام به"
+         },
+         "endTime": 78890,
+         "startTime": 77753
+      },
+      {
+         "text": {
+            "en": "is indent the code properly.",
+            "pl": "jest wcięcie kodu prawidłowo.",
+            "ar": "هو المسافة البادئة رمز بشكل صحيح."
+         },
+         "endTime": 81177,
+         "startTime": 78890
+      },
+      {
+         "text": {
+            "en": "Now in human languages like English,",
+            "pl": "Teraz w ludzkich językach, takich jak angielski,",
+            "ar": "الآن في اللغات البشرية مثل الإنجليزية،"
+         },
+         "endTime": 82710,
+         "startTime": 81177
+      },
+      {
+         "text": {
+            "en": "we indent to help us understand",
+            "pl": "wcinamy, aby pomóc nam zrozumieć",
+            "ar": "نحن المسافة البادئة لمساعدتنا على فهم"
+         },
+         "endTime": 84068,
+         "startTime": 82710
+      },
+      {
+         "text": {
+            "en": "the structure of writing.",
+            "pl": "struktura pisania.",
+            "ar": "هيكل الكتابة."
+         },
+         "endTime": 85217,
+         "startTime": 84068
+      },
+      {
+         "text": {
+            "en": "Like when we indent the first sentence",
+            "pl": "Jak wtedy, gdy wcinamy pierwsze zdanie",
+            "ar": "مثل عندما نبادئة الجملة الأولى"
+         },
+         "endTime": 86310,
+         "startTime": 85217
+      },
+      {
+         "text": {
+            "en": "of a paragraph or indent a quote.",
+            "pl": "akapitu lub wcięcia cytatu.",
+            "ar": "من فقرة أو بادئة اقتباس."
+         },
+         "endTime": 88457,
+         "startTime": 86310
+      },
+      {
+         "text": {
+            "en": "It's the same thing with code.",
+            "pl": "To samo z kodem.",
+            "ar": "انها نفس الشيء مع التعليمات البرمجية."
+         },
+         "endTime": 89769,
+         "startTime": 88457
+      },
+      {
+         "text": {
+            "en": "We indent in order to show the structure of the code.",
+            "pl": "Wcinamy w celu pokazania struktury kodu.",
+            "ar": "نحن المسافة البادئة من أجل إظهار هيكل التعليمات البرمجية."
+         },
+         "endTime": 91951,
+         "startTime": 89769
+      },
+      {
+         "text": {
+            "en": "Let me see.",
+            "pl": "Daj mi zobaczyć.",
+            "ar": "دعني أرى"
+         },
+         "endTime": 93823,
+         "startTime": 92566
+      },
+      {
+         "text": {
+            "en": "Okay, so let's go through this",
+            "pl": "Ok, więc przejdźmy przez to",
+            "ar": "حسنا، لذلك دعونا نذهب من خلال هذا"
+         },
+         "endTime": 96079,
+         "startTime": 93823
+      },
+      {
+         "text": {
+            "en": "and see how indentation helps",
+            "pl": "i zobacz, jak pomaga wcięcie",
+            "ar": "ونرى كيف يساعد المسافة البادئة"
+         },
+         "endTime": 97663,
+         "startTime": 96079
+      },
+      {
+         "text": {
+            "en": "to understand the structure.",
+            "pl": ", aby zrozumieć strukturę.",
+            "ar": "لفهم الهيكل."
+         },
+         "endTime": 99242,
+         "startTime": 97663
+      },
+      {
+         "text": {
+            "en": "When we talk about structure,",
+            "pl": "Kiedy mówimy o strukturze,",
+            "ar": "عندما نتحدث عن الهيكل،"
+         },
+         "endTime": 100089,
+         "startTime": 99242
+      },
+      {
+         "text": {
+            "en": "we mean functions, and for, and ifs.",
+            "pl": "mamy na myśli funkcje, i dla, i IFS.",
+            "ar": "نعني وظائف، ومن أجل، و IFS."
+         },
+         "endTime": 102249,
+         "startTime": 100089
+      },
+      {
+         "text": {
+            "en": "So here inside this function you can see",
+            "pl": "Więc tutaj wewnątrz tej funkcji można zobaczyć",
+            "ar": "حتى هنا داخل هذه الوظيفة يمكنك ان ترى"
+         },
+         "endTime": 105429,
+         "startTime": 102249
+      },
+      {
+         "text": {
+            "en": "that we indent the first statement",
+            "pl": "że wcinamy pierwsze oświadczenie",
+            "ar": "أن نبادئة البيان الأول"
+         },
+         "endTime": 107728,
+         "startTime": 105429
+      },
+      {
+         "text": {
+            "en": "inside this function because we want to show",
+            "pl": "wewnątrz tej funkcji, ponieważ chcemy pokazać",
+            "ar": "داخل هذه الوظيفة لأننا نريد أن تظهر"
+         },
+         "endTime": 109505,
+         "startTime": 107728
+      },
+      {
+         "text": {
+            "en": "that it's inside this function.",
+            "pl": "że jest wewnątrz tej funkcji.",
+            "ar": "أنه داخل هذه الوظيفة."
+         },
+         "endTime": 111129,
+         "startTime": 109505
+      },
+      {
+         "text": {
+            "en": "It's like a child of this function.",
+            "pl": "To jak dziecko tej funkcji.",
+            "ar": "انها مثل طفل من هذه الوظيفة."
+         },
+         "endTime": 112523,
+         "startTime": 111129
+      },
+      {
+         "text": {
+            "en": "It's only going to be called if this function's called.",
+            "pl": "Zostanie wywołana tylko wtedy, gdy ta funkcja jest wywoływana.",
+            "ar": "انها لن يتم استدعاؤها إلا إذا كانت هذه الوظيفة تسمى."
+         },
+         "endTime": 115513,
+         "startTime": 112523
+      },
+      {
+         "text": {
+            "en": "All right.",
+            "pl": "W porządku.",
+            "ar": "حسناً"
+         },
+         "endTime": 116388,
+         "startTime": 115513
+      },
+      {
+         "text": {
+            "en": "And then we have this for loop",
+            "pl": "A potem mamy to dla pętli",
+            "ar": "ثم لدينا هذا لحلقة"
+         },
+         "endTime": 118047,
+         "startTime": 116388
+      },
+      {
+         "text": {
+            "en": "and everything inside an for loop",
+            "pl": "i wszystko wewnątrz pętli for",
+            "ar": "وكل شيء داخل حلقة"
+         },
+         "endTime": 120318,
+         "startTime": 118047
+      },
+      {
+         "text": {
+            "en": "is indented twice because we're trying to show",
+            "pl": "jest wcięty dwa razy, ponieważ staramy się pokazać",
+            "ar": "هو بادئة مرتين لأننا نحاول أن تظهر"
+         },
+         "endTime": 122248,
+         "startTime": 120318
+      },
+      {
+         "text": {
+            "en": "that this is all inside the for loop.",
+            "pl": "że to wszystko jest wewnątrz pętli for.",
+            "ar": "أن هذا كله داخل حلقة للحلقة."
+         },
+         "endTime": 124775,
+         "startTime": 122248
+      },
+      {
+         "text": {
+            "en": "It's all shown under the for loop.",
+            "pl": "Wszystko jest pokazane pod pętlą for.",
+            "ar": "كل شيء يظهر تحت لحلقة."
+         },
+         "endTime": 126001,
+         "startTime": 124775
+      },
+      {
+         "text": {
+            "en": "It's only going to be executed",
+            "pl": "To będzie tylko stracone.",
+            "ar": "انها فقط سوف يتم تنفيذها"
+         },
+         "endTime": 127197,
+         "startTime": 126001
+      },
+      {
+         "text": {
+            "en": "when we go through the for loop.",
+            "pl": "kiedy przejdziemy przez pętlę for.",
+            "ar": "عندما نذهب من خلال حلقة ل."
+         },
+         "endTime": 128799,
+         "startTime": 127197
+      },
+      {
+         "text": {
+            "en": "And then finally inside the if,",
+            "pl": "A potem w końcu wewnątrz if,",
+            "ar": "وبعد ذلك أخيرا داخل إذا،"
+         },
+         "endTime": 130900,
+         "startTime": 128799
+      },
+      {
+         "text": {
+            "en": "we indent things three times",
+            "pl": "wcinamy rzeczy trzy razy",
+            "ar": "نحن مسافة بادئة الأشياء ثلاث مرات"
+         },
+         "endTime": 133257,
+         "startTime": 130900
+      },
+      {
+         "text": {
+            "en": "because we're trying to show that they're",
+            "pl": "ponieważ staramy się pokazać, że są",
+            "ar": "لأننا نحاول أن نظهر أنهم"
+         },
+         "endTime": 134667,
+         "startTime": 133257
+      },
+      {
+         "text": {
+            "en": "a child of the if blocks.",
+            "pl": "dziecko bloki if.",
+            "ar": "طفل من كتل إذا."
+         },
+         "endTime": 136584,
+         "startTime": 134667
+      },
+      {
+         "text": {
+            "en": "They're only going to be executed",
+            "pl": "Zostaną tylko straceni",
+            "ar": "انهم فقط ذاهبون ليتم إعدامهم"
+         },
+         "endTime": 137583,
+         "startTime": 136584
+      },
+      {
+         "text": {
+            "en": "if this if condition is true.",
+            "pl": "jeśli to, jeśli warunek jest spełniony.",
+            "ar": "إذا كان هذا إذا كان الشرط صحيحًا."
+         },
+         "endTime": 140044,
+         "startTime": 137583
+      },
+      {
+         "text": {
+            "en": "So by using indentation, we can really understand",
+            "pl": "Tak więc za pomocą wcięcia, możemy naprawdę zrozumieć",
+            "ar": "لذلك باستخدام المسافة البادئة، يمكننا أن نفهم حقا"
+         },
+         "endTime": 142924,
+         "startTime": 140044
+      },
+      {
+         "text": {
+            "en": "the structure of the program better.",
+            "pl": "struktura programu lepiej.",
+            "ar": "هيكل البرنامج بشكل أفضل."
+         },
+         "endTime": 144781,
+         "startTime": 142924
+      },
+      {
+         "text": {
+            "en": "Now the cool thing is that your editor",
+            "pl": "Teraz fajne jest to, że twój redaktor",
+            "ar": "الآن الشيء الرائع هو أن المحرر الخاص بك"
+         },
+         "endTime": 146522,
+         "startTime": 144781
+      },
+      {
+         "text": {
+            "en": "will help you with indentation.",
+            "pl": "pomoże ci w wcięciu.",
+            "ar": "سوف تساعدك مع المسافة البادئة."
+         },
+         "endTime": 148619,
+         "startTime": 146522
+      },
+      {
+         "text": {
+            "en": "So if I go and put this on this line",
+            "pl": "Więc jeśli pójdę i postawię to na linii",
+            "ar": "حتى إذا ذهبت ووضع هذا على هذا الخط"
+         },
+         "endTime": 151514,
+         "startTime": 148619
+      },
+      {
+         "text": {
+            "en": "and then I just press enter,",
+            "pl": "a potem po prostu wciskam enter,",
+            "ar": "ثم أنا فقط اضغط على إنتر،"
+         },
+         "endTime": 153654,
+         "startTime": 151514
+      },
+      {
+         "text": {
+            "en": "you see how it just automatically goes",
+            "pl": "widzisz, jak to po prostu idzie automatycznie",
+            "ar": "ترى كيف يذهب فقط تلقائيا"
+         },
+         "endTime": 155454,
+         "startTime": 153654
+      },
+      {
+         "text": {
+            "en": "and is indented one thing,",
+            "pl": "i jest wcięta jedna rzecz,",
+            "ar": "وهو بادئة شيء واحد،"
+         },
+         "endTime": 157253,
+         "startTime": 155454
+      },
+      {
+         "text": {
+            "en": "just like we wanted.",
+            "pl": "Tak jak chcieliśmy.",
+            "ar": "تماما كما أردنا"
+         },
+         "endTime": 158611,
+         "startTime": 157253
+      },
+      {
+         "text": {
+            "en": "So as long as the editor is working correctly,",
+            "pl": "Tak długo, jak edytor działa poprawnie,",
+            "ar": "طالما أن المحرر يعمل بشكل صحيح"
+         },
+         "endTime": 161119,
+         "startTime": 158611
+      },
+      {
+         "text": {
+            "en": "you should actually have correctly indented code.",
+            "pl": "powinieneś mieć poprawnie wcięty kod.",
+            "ar": "يجب أن يكون لديك بالفعل رمز بادئة بشكل صحيح."
+         },
+         "endTime": 163718,
+         "startTime": 161119
+      },
+      {
+         "text": {
+            "en": "So that's pretty cool.",
+            "pl": "Więc to całkiem fajne.",
+            "ar": "لذلك هذا رائع جدا."
+         },
+         "endTime": 165449,
+         "startTime": 163718
+      },
+      {
+         "text": {
+            "en": "All right, so our program looks pretty good now,",
+            "pl": "W porządku, więc nasz program wygląda całkiem nieźle.",
+            "ar": "حسناً، برنامجنا يبدو جيداً الآن"
+         },
+         "endTime": 167899,
+         "startTime": 165449
+      },
+      {
+         "text": {
+            "en": "but there's still more we can do",
+            "pl": "ale jest jeszcze więcej, co możemy zrobić",
+            "ar": "ولكن لا يزال هناك المزيد يمكننا القيام به"
+         },
+         "endTime": 169234,
+         "startTime": 167899
+      },
+      {
+         "text": {
+            "en": "to improve readability.",
+            "pl": "w celu poprawy czytelności.",
+            "ar": "لتحسين قابلية القراءة."
+         },
+         "endTime": 171090,
+         "startTime": 169234
+      },
+      {
+         "text": {
+            "en": "I'll give you a hint by showing",
+            "pl": "Dam ci wskazówkę pokazując",
+            "ar": "سأعطيك تلميحا من خلال إظهار"
+         },
+         "endTime": 172844,
+         "startTime": 171090
+      },
+      {
+         "text": {
+            "en": "this English sentence before and after.",
+            "pl": "to angielskie zdanie przed i po.",
+            "ar": "هذه الجملة الإنكليزية قبل وبعد."
+         },
+         "endTime": 175893,
+         "startTime": 172844
+      },
+      {
+         "text": {
+            "en": "See these two sentences?",
+            "pl": "Widzisz te dwa zdania?",
+            "ar": "أترى هاتين الجملتين؟"
+         },
+         "endTime": 177459,
+         "startTime": 175893
+      },
+      {
+         "text": {
+            "en": "They're really similar, the only thing",
+            "pl": "Są bardzo podobne, jedyna rzecz",
+            "ar": "انهم متشابهون حقا، الشيء الوحيد"
+         },
+         "endTime": 179730,
+         "startTime": 178212
+      },
+      {
+         "text": {
+            "en": "that's different is that we added some white space",
+            "pl": "to co innego jest to, że dodaliśmy trochę białej spacji",
+            "ar": "هذا مختلف هو أننا أضفنا بعض المساحة البيضاء"
+         },
+         "endTime": 181742,
+         "startTime": 179730
+      },
+      {
+         "text": {
+            "en": "in between punctuation and letters.",
+            "pl": "pomiędzy interpunkcją a literami.",
+            "ar": "بين علامات الترقيم والحروف."
+         },
+         "endTime": 183996,
+         "startTime": 181742
+      },
+      {
+         "text": {
+            "en": "That little bit of white space",
+            "pl": "Ta mała odrobina białej spacji",
+            "ar": "هذا القليل من الفضاء الأبيض"
+         },
+         "endTime": 185272,
+         "startTime": 183996
+      },
+      {
+         "text": {
+            "en": "actually made it a lot more readable.",
+            "pl": "rzeczywiście uczynił go o wiele bardziej czytelny.",
+            "ar": "في الواقع جعلها أكثر قابلية للقراءة."
+         },
+         "endTime": 187442,
+         "startTime": 185272
+      },
+      {
+         "text": {
+            "en": "So once again, it's the same thing with our code.",
+            "pl": "Więc po raz kolejny, to samo z naszym kodeksem.",
+            "ar": "لذلك مرة أخرى، انها نفس الشيء مع التعليمات البرمجية لدينا."
+         },
+         "endTime": 190299,
+         "startTime": 187442
+      },
+      {
+         "text": {
+            "en": "If we just add white space at good points,",
+            "pl": "Jeśli tylko dodamy białą przestrzeń w dobrych punktach,",
+            "ar": "إذا أضفنا فقط مساحة بيضاء في نقاط جيدة،"
+         },
+         "endTime": 193340,
+         "startTime": 190299
+      },
+      {
+         "text": {
+            "en": "our code becomes more readable.",
+            "pl": "nasz kod staje się bardziej czytelny.",
+            "ar": "يصبح رمزنا أكثر قابلية للقراءة."
+         },
+         "endTime": 195499,
+         "startTime": 193340
+      },
+      {
+         "text": {
+            "en": "So here it is with white space.",
+            "pl": "Więc tutaj jest z białą spacją.",
+            "ar": "حتى هنا هو مع الفضاء الأبيض."
+         },
+         "endTime": 197695,
+         "startTime": 195499
+      },
+      {
+         "text": {
+            "en": "So we added space in between all our",
+            "pl": "Więc dodaliśmy przestrzeń pomiędzy wszystkimi naszymi",
+            "ar": "لذلك أضفنا مساحة بين كل ما لدينا"
+         },
+         "endTime": 199517,
+         "startTime": 197695
+      },
+      {
+         "text": {
+            "en": "function arguments, we added space on either side",
+            "pl": "argumenty funkcji, dodaliśmy przestrzeń po obu stronach",
+            "ar": "الحجج وظيفة، أضفنا مساحة على جانبي"
+         },
+         "endTime": 203452,
+         "startTime": 199517
+      },
+      {
+         "text": {
+            "en": "of the equals sign when we were assigning",
+            "pl": "znaku równości, kiedy przypisujemy",
+            "ar": "من علامة يساوي عندما كنا تعيين"
+         },
+         "endTime": 205460,
+         "startTime": 203452
+      },
+      {
+         "text": {
+            "en": "variables to things, and we added space",
+            "pl": "zmiennych do rzeczy, a my dodaliśmy przestrzeń",
+            "ar": "المتغيرات إلى الأشياء، ونحن أضفنا مساحة"
+         },
+         "endTime": 208827,
+         "startTime": 205460
+      },
+      {
+         "text": {
+            "en": "around operators like less than,",
+            "pl": "wokół operatorów takich jak mniej niż,",
+            "ar": "حول المشغلين مثل أقل من،"
+         },
+         "endTime": 210721,
+         "startTime": 208827
+      },
+      {
+         "text": {
+            "en": "and greater than, and times,",
+            "pl": "i większe niż, i czasy,",
+            "ar": "وأكبر من، وأوقات،"
+         },
+         "endTime": 213088,
+         "startTime": 210721
+      },
+      {
+         "text": {
+            "en": "and we also added space before our curly brackets.",
+            "pl": ", a także dodaliśmy przestrzeń przed naszymi nawiasami kręconymi.",
+            "ar": "وأضفنا أيضا مساحة قبل أقواس لدينا مجعد."
+         },
+         "endTime": 217164,
+         "startTime": 213088
+      },
+      {
+         "text": {
+            "en": "And that's it.",
+            "pl": "I to jest to.",
+            "ar": "وهذا كل شيء."
+         },
+         "endTime": 219179,
+         "startTime": 218102
+      },
+      {
+         "text": {
+            "en": "So now when you look at our code,",
+            "pl": "Więc teraz, kiedy spojrzysz na nasz kod,",
+            "ar": "حتى الآن عندما تنظر إلى التعليمات البرمجية لدينا،"
+         },
+         "endTime": 221083,
+         "startTime": 219179
+      },
+      {
+         "text": {
+            "en": "I hope you agree it's quite beautiful",
+            "pl": "Mam nadzieję, że zgadzasz się, że to całkiem piękne",
+            "ar": "اتمنى ان توافق انها جميلة جدا"
+         },
+         "endTime": 222626,
+         "startTime": 221083
+      },
+      {
+         "text": {
+            "en": "and it's really much easier to understand,",
+            "pl": "i jest to o wiele łatwiejsze do zrozumienia,",
+            "ar": "وانها حقا أسهل بكثير لفهم،"
+         },
+         "endTime": 225988,
+         "startTime": 222626
+      },
+      {
+         "text": {
+            "en": "and you don't have to read through it",
+            "pl": "i nie musisz przez to czytać",
+            "ar": "وليس عليك أن تقرأ من خلاله"
+         },
+         "endTime": 227336,
+         "startTime": 225988
+      },
+      {
+         "text": {
+            "en": "quite as many times, right?",
+            "pl": "tyle razy, prawda?",
+            "ar": "العديد من المرات، أليس كذلك؟"
+         },
+         "endTime": 229135,
+         "startTime": 227336
+      },
+      {
+         "text": {
+            "en": "And hey, what I've learned is that cleaning code",
+            "pl": "I hej, nauczyłem się tego kodu do czyszczenia",
+            "ar": "مهلا، ما تعلمته هو أن رمز التنظيف"
+         },
+         "endTime": 231638,
+         "startTime": 229135
+      },
+      {
+         "text": {
+            "en": "is actually a lot more fun and easier",
+            "pl": "jest w rzeczywistości o wiele więcej zabawy i łatwiejsze",
+            "ar": "هو في الواقع الكثير أكثر متعة وأسهل"
+         },
+         "endTime": 233565,
+         "startTime": 231638
+      },
+      {
+         "text": {
+            "en": "than cleaning the room and it doesn't get dirty again.",
+            "pl": "niż sprzątanie pokoju i nie brudzi się ponownie.",
+            "ar": "من تنظيف الغرفة وأنها لا تتسخ مرة أخرى."
+         },
+         "endTime": 236038,
+         "startTime": 233565
+      },
+      {
+         "text": {
+            "en": "So it's pretty cool and you should",
+            "pl": "Więc to jest całkiem fajne i powinieneś",
+            "ar": "لذلك انها باردة جدا ويجب عليك"
+         },
+         "endTime": 237721,
+         "startTime": 236038
+      },
+      {
+         "text": {
+            "en": "try it out with your programs.",
+            "pl": "wypróbuj go ze swoimi programami.",
+            "ar": "جربه مع برامجك."
+         },
+         "endTime": 239444,
+         "startTime": 237721
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/_u-fqfr86Ro/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759761872",
+   "title": "Readable Code | Writing clean code | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

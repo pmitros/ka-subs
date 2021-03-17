@@ -1,0 +1,726 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- [Voiceover] So we already made this super-cool",
+            "pl": "- [Voiceover] Więc już zrobiliśmy to super fajne",
+            "ar": "- [Voiceover] لذلك نحن بالفعل جعلت هذا فائقة باردة"
+         },
+         "endTime": 3407,
+         "startTime": 1735
+      },
+      {
+         "text": {
+            "en": "variable for Winston's eye size, which has been",
+            "pl": "zmienna dla rozmiaru oka Winstona, który został",
+            "ar": "متغير لحجم عين ونستون، الذي كان"
+         },
+         "endTime": 5601,
+         "startTime": 3407
+      },
+      {
+         "text": {
+            "en": "really helpful because it saves us a lot of typing",
+            "pl": "bardzo pomocne, ponieważ oszczędza nam dużo pisania",
+            "ar": "مفيدة حقا لأنه يوفر لنا الكثير من الكتابة"
+         },
+         "endTime": 7854,
+         "startTime": 5601
+      },
+      {
+         "text": {
+            "en": "when we want to change the size of Winston's eyes.",
+            "pl": "kiedy chcemy zmienić rozmiar oczu Winstona.",
+            "ar": "عندما نريد تغيير حجم عيون وينستون."
+         },
+         "endTime": 10222,
+         "startTime": 7854
+      },
+      {
+         "text": {
+            "en": "Remember, before we had to type the same number",
+            "pl": "Pamiętaj, zanim musieliśmy wpisać ten sam numer",
+            "ar": "تذكر، قبل أن نضطر لكتابة نفس الرقم"
+         },
+         "endTime": 12266,
+         "startTime": 10222
+      },
+      {
+         "text": {
+            "en": "four times whenever we wanted to",
+            "pl": "cztery razy, kiedy chcieliśmy",
+            "ar": "أربع مرات كلما أردنا"
+         },
+         "endTime": 14181,
+         "startTime": 12266
+      },
+      {
+         "text": {
+            "en": "change the size of his eyes.",
+            "pl": "zmienić rozmiar jego oczu.",
+            "ar": "تغيير حجم عينيه."
+         },
+         "endTime": 15981,
+         "startTime": 14181
+      },
+      {
+         "text": {
+            "en": "But can we use variables to replace numbers",
+            "pl": "Ale możemy użyć zmiennych do zastąpienia liczb",
+            "ar": "ولكن هل يمكننا استخدام المتغيرات لتحل محل الأرقام"
+         },
+         "endTime": 17815,
+         "startTime": 15981
+      },
+      {
+         "text": {
+            "en": "when they're not all the same?",
+            "pl": "kiedy nie wszystkie są takie same?",
+            "ar": "عندما لا يكونوا متشابهين؟"
+         },
+         "endTime": 19278,
+         "startTime": 17815
+      },
+      {
+         "text": {
+            "en": "Like, what if I wanted to move Winston over a little bit?",
+            "pl": "A gdybym chciał trochę przenieść Winstona?",
+            "ar": "ماذا لو أردت نقل (وينستون) قليلاً؟"
+         },
+         "endTime": 21693,
+         "startTime": 19278
+      },
+      {
+         "text": {
+            "en": "I could change each of these x coordinates but",
+            "pl": "Mogę zmienić każdy z tych współrzędnych X, ale",
+            "ar": "يمكنني تغيير كل من هذه الإحداثيات x ولكن"
+         },
+         "endTime": 23864,
+         "startTime": 21693
+      },
+      {
+         "text": {
+            "en": "they're not all the same anyway so I can't",
+            "pl": "i tak nie są takie same, więc nie mogę",
+            "ar": "انهم ليسوا كل نفس على أي حال لذلك أنا لا يمكن"
+         },
+         "endTime": 26013,
+         "startTime": 23864
+      },
+      {
+         "text": {
+            "en": "just replace them all with some variable.",
+            "pl": "wystarczy wymienić je wszystkie z jakąś zmienną.",
+            "ar": "مجرد استبدال كل منهم مع بعض المتغيرات."
+         },
+         "endTime": 27904,
+         "startTime": 26013
+      },
+      {
+         "text": {
+            "en": "But wait.",
+            "pl": "Ale poczekaj.",
+            "ar": "ولكن الانتظار."
+         },
+         "endTime": 29158,
+         "startTime": 27904
+      },
+      {
+         "text": {
+            "en": "Once I assign a number to a variable",
+            "pl": "Po przypisaniu liczby do zmiennej",
+            "ar": "بمجرد تعيين رقم إلى متغير"
+         },
+         "endTime": 30830,
+         "startTime": 29158
+      },
+      {
+         "text": {
+            "en": "I can use that variable exactly as if",
+            "pl": "Mogę użyć tej zmiennej dokładnie tak, jakby",
+            "ar": "يمكنني استخدام هذا المتغير تمامًا كما لو"
+         },
+         "endTime": 32792,
+         "startTime": 30830
+      },
+      {
+         "text": {
+            "en": "it were that number.",
+            "pl": "To był ten numer.",
+            "ar": "كان ذلك الرقم"
+         },
+         "endTime": 33976,
+         "startTime": 32792
+      },
+      {
+         "text": {
+            "en": "Which means, I can use variables in math expressions.",
+            "pl": "Co oznacza, że mogę używać zmiennych w wyrażeniach matematycznych.",
+            "ar": "مما يعني، يمكنني استخدام المتغيرات في تعبيرات الرياضيات."
+         },
+         "endTime": 37239,
+         "startTime": 33976
+      },
+      {
+         "text": {
+            "en": "So how about this?",
+            "pl": "Więc co powiesz na to?",
+            "ar": "إذاً ماذا عن هذا؟"
+         },
+         "endTime": 38260,
+         "startTime": 37239
+      },
+      {
+         "text": {
+            "en": "Let's make a variable for the x position of Winston.",
+            "pl": "Zróbmy zmienną dla pozycji x Winston.",
+            "ar": "دعونا جعل متغير لموقف x من وينستون."
+         },
+         "endTime": 40954,
+         "startTime": 38260
+      },
+      {
+         "text": {
+            "en": "Call it var x, simple enough.",
+            "pl": "Nazwij to var x, dość proste.",
+            "ar": "نسميها فار س، بسيطة بما فيه الكفاية."
+         },
+         "endTime": 44656,
+         "startTime": 40954
+      },
+      {
+         "text": {
+            "en": "Okay, now let's give it the value of the",
+            "pl": "Dobra, teraz nadajmy mu wartość",
+            "ar": "حسنا، الآن دعونا نعطيه قيمة"
+         },
+         "endTime": 46132,
+         "startTime": 44656
+      },
+      {
+         "text": {
+            "en": "x coordinate of Winston's face.",
+            "pl": "x współrzędna twarzy Winstona.",
+            "ar": "س تنسيق وجه وينستون."
+         },
+         "endTime": 48059,
+         "startTime": 46132
+      },
+      {
+         "text": {
+            "en": "So his face is being drawn at x coordinate 200.",
+            "pl": "Więc jego twarz jest rysowana na współrzędnych X 200.",
+            "ar": "لذلك يتم رسم وجهه في x تنسيق 200."
+         },
+         "endTime": 51403,
+         "startTime": 48059
+      },
+      {
+         "text": {
+            "en": "So we're going to say var x gets 200.",
+            "pl": "Więc mamy zamiar powiedzieć var x dostaje 200.",
+            "ar": "لذلك نحن ذاهبون الى القول فار س يحصل 200."
+         },
+         "endTime": 55332,
+         "startTime": 51403
+      },
+      {
+         "text": {
+            "en": "Now I can replace this number with my new",
+            "pl": "Teraz mogę zastąpić ten numer moim nowym",
+            "ar": "الآن يمكنني استبدال هذا الرقم مع بلدي الجديد"
+         },
+         "endTime": 57636,
+         "startTime": 55332
+      },
+      {
+         "text": {
+            "en": "variable x and when I change the value of x",
+            "pl": "zmienna x i kiedy zmienić wartość x",
+            "ar": "متغير x وعندما أقوم بتغيير قيمة x"
+         },
+         "endTime": 60283,
+         "startTime": 57636
+      },
+      {
+         "text": {
+            "en": "it moves Winston's face",
+            "pl": "porusza twarz Winstona",
+            "ar": "إنه يحرك وجه وينستون"
+         },
+         "endTime": 62454,
+         "startTime": 60283
+      },
+      {
+         "text": {
+            "en": "but without his eyes or his mouth.",
+            "pl": "Ale bez jego oczu i ust.",
+            "ar": "ولكن من دون عينيه أو فمه."
+         },
+         "endTime": 65153,
+         "startTime": 62454
+      },
+      {
+         "text": {
+            "en": "So to fix that, we're gonna define the position of",
+            "pl": "Więc, aby to naprawić, będziemy zdefiniować pozycję",
+            "ar": "لذلك لإصلاح ذلك، ونحن ستعمل تحديد موقف"
+         },
+         "endTime": 68624,
+         "startTime": 65153
+      },
+      {
+         "text": {
+            "en": "his eyes and his mouth relative to the position of his face.",
+            "pl": "jego oczy i usta w stosunku do pozycji jego twarzy.",
+            "ar": "عينيه وفمه بالنسبة لموقف وجهه."
+         },
+         "endTime": 73624,
+         "startTime": 68624
+      },
+      {
+         "text": {
+            "en": "So the x coordinates are going to be the centers",
+            "pl": "Więc współrzędne x będą centrami",
+            "ar": "وبالتالي فإن الإحداثيات x ستكون المراكز"
+         },
+         "endTime": 76786,
+         "startTime": 74174
+      },
+      {
+         "text": {
+            "en": "of all the ellipses, so his face is being drawn at,",
+            "pl": "wszystkich elips, więc jego twarz jest rysowana,",
+            "ar": "من كل الحذف، لذلك يتم رسم وجهه في،"
+         },
+         "endTime": 80617,
+         "startTime": 76786
+      },
+      {
+         "text": {
+            "en": "that's 200, and let's do his left eye first.",
+            "pl": "To 200, a najpierw zróbmy jego lewe oko.",
+            "ar": "هذا 200، ودعونا نقوم بعينه اليسرى أولاً."
+         },
+         "endTime": 84658,
+         "startTime": 80617
+      },
+      {
+         "text": {
+            "en": "So this ellipse is his left eye and we can see",
+            "pl": "Więc ta elipsa to jego lewe oko i widzimy",
+            "ar": "لذلك هذا القطع الناقص هو عينه اليسرى ويمكننا أن نرى"
+         },
+         "endTime": 86492,
+         "startTime": 84658
+      },
+      {
+         "text": {
+            "en": "that it's being drawn at 150,",
+            "pl": "że jest rysowany na 150,",
+            "ar": "أن يتم رسمها في 150،"
+         },
+         "endTime": 89557,
+         "startTime": 86492
+      },
+      {
+         "text": {
+            "en": "so right here, that is 150.",
+            "pl": "Więc tutaj, to jest 150.",
+            "ar": "حتى هنا، وهذا هو 150."
+         },
+         "endTime": 93388,
+         "startTime": 89557
+      },
+      {
+         "text": {
+            "en": "And I know that 150 is 50 less than 200.",
+            "pl": "I wiem, że 150 to 50 mniej niż 200.",
+            "ar": "وأنا أعلم أن 150 هو 50 أقل من 200."
+         },
+         "endTime": 97556,
+         "startTime": 93388
+      },
+      {
+         "text": {
+            "en": "So his left eye should be wherever his face is minus 50.",
+            "pl": "Więc jego lewe oko powinno być tam, gdzie jego twarz jest minus 50.",
+            "ar": "لذلك يجب أن تكون عينه اليسرى أينما كان وجهه ناقص 50."
+         },
+         "endTime": 102556,
+         "startTime": 97556
+      },
+      {
+         "text": {
+            "en": "So it's going to be x, which is the position of his face,",
+            "pl": "Więc to będzie X, który jest pozycją jego twarzy,",
+            "ar": "لذلك سيكون x، وهو موقف وجهه،"
+         },
+         "endTime": 105439,
+         "startTime": 102653
+      },
+      {
+         "text": {
+            "en": "minus 50.",
+            "pl": "minus 50.",
+            "ar": "ناقص 50."
+         },
+         "endTime": 107970,
+         "startTime": 105439
+      },
+      {
+         "text": {
+            "en": "And now if I change the value of his x coordinate,",
+            "pl": "A teraz, jeśli zmienię wartość jego współrzędnej X,",
+            "ar": "والآن إذا قمت بتغيير قيمة إحداثيات x له،"
+         },
+         "endTime": 110407,
+         "startTime": 107970
+      },
+      {
+         "text": {
+            "en": "his eye moves along with his face.",
+            "pl": "jego oko porusza się wraz z jego twarzą.",
+            "ar": "عينه تتحرك جنبا إلى جنب مع وجهه."
+         },
+         "endTime": 113230,
+         "startTime": 110407
+      },
+      {
+         "text": {
+            "en": "Let's do the other ones.",
+            "pl": "Zróbmy pozostałe.",
+            "ar": "دعونا نفعل الأخرى."
+         },
+         "endTime": 114495,
+         "startTime": 113230
+      },
+      {
+         "text": {
+            "en": "So his right eye is being drawn at 300, I can see,",
+            "pl": "Więc jego prawe oko jest rysowane na 300, widzę,",
+            "ar": "لذا عينه اليمنى يتم رسمها في 300، أستطيع أن أرى،"
+         },
+         "endTime": 118048,
+         "startTime": 114495
+      },
+      {
+         "text": {
+            "en": "so this over here is 300.",
+            "pl": "Więc to tutaj jest 300.",
+            "ar": "لذلك هذا أكثر من هنا هو 300."
+         },
+         "endTime": 121438,
+         "startTime": 118048
+      },
+      {
+         "text": {
+            "en": "And 300, I know, is 100 more than 200.",
+            "pl": "I 300, wiem, to 100 więcej niż 200.",
+            "ar": "و 300، وأنا أعلم، هو 100 أكثر من 200."
+         },
+         "endTime": 125885,
+         "startTime": 121438
+      },
+      {
+         "text": {
+            "en": "So his right eye should be wherever his face is plus 100.",
+            "pl": "Więc jego prawe oko powinno być wszędzie tam, gdzie jest jego twarz plus 100.",
+            "ar": "لذا يجب أن تكون عينه اليمنى أينما كان وجهه زائد 100."
+         },
+         "endTime": 130053,
+         "startTime": 125885
+      },
+      {
+         "text": {
+            "en": "So that's x plus 100.",
+            "pl": "Więc to jest x plus 100.",
+            "ar": "لذلك هذا س زائد 100."
+         },
+         "endTime": 132746,
+         "startTime": 130053
+      },
+      {
+         "text": {
+            "en": "And now we just have his mouth.",
+            "pl": "A teraz mamy jego usta.",
+            "ar": "والآن لدينا فمه"
+         },
+         "endTime": 134255,
+         "startTime": 132746
+      },
+      {
+         "text": {
+            "en": "So his mouth is being drawn at 250.",
+            "pl": "Więc jego usta są rysowane na 250.",
+            "ar": "لذلك يتم رسم فمه في 250."
+         },
+         "endTime": 136786,
+         "startTime": 134255
+      },
+      {
+         "text": {
+            "en": "It's over here, we got 250",
+            "pl": "Jest tutaj, mamy 250",
+            "ar": "إنه هنا، لدينا 250"
+         },
+         "endTime": 139252,
+         "startTime": 136786
+      },
+      {
+         "text": {
+            "en": "and 250 is 200 plus 50.",
+            "pl": "i 250 to 200 plus 50.",
+            "ar": "و 250 هو 200 زائد 50."
+         },
+         "endTime": 143082,
+         "startTime": 139252
+      },
+      {
+         "text": {
+            "en": "So it's going to be wherever, ooh that's a five,",
+            "pl": "Więc to będzie gdziekolwiek, ooh to jest piątka,",
+            "ar": "لذلك سيكون في أي مكان، أوه هذا هو خمسة،"
+         },
+         "endTime": 146132,
+         "startTime": 143082
+      },
+      {
+         "text": {
+            "en": "wherever his face is, x plus 50.",
+            "pl": "gdziekolwiek jest jego twarz, x plus 50.",
+            "ar": "أينما كان وجهه، س زائد 50."
+         },
+         "endTime": 151032,
+         "startTime": 146132
+      },
+      {
+         "text": {
+            "en": "And now, I'm going to get rid of these scribbles,",
+            "pl": "A teraz pozbędę się tych bazgrołów,",
+            "ar": "والآن، أنا ذاهب للتخلص من هذه الشخبطة،"
+         },
+         "endTime": 153238,
+         "startTime": 151032
+      },
+      {
+         "text": {
+            "en": "whenever I change the value of x, it moves his whole face.",
+            "pl": "ilekroć zmieniam wartość x, porusza całą jego twarz.",
+            "ar": "كلما قمت بتغيير قيمة x، فإنه يتحرك وجهه كله."
+         },
+         "endTime": 158126,
+         "startTime": 153238
+      },
+      {
+         "text": {
+            "en": "Yay!",
+            "pl": "Hura!",
+            "ar": "ياي!"
+         },
+         "endTime": 159600,
+         "startTime": 158126
+      },
+      {
+         "text": {
+            "en": "Now before you go you should know a couple",
+            "pl": "Zanim pójdziesz, powinieneś znać parę",
+            "ar": "الآن قبل أن تذهب يجب أن تعرف زوجين"
+         },
+         "endTime": 161109,
+         "startTime": 159600
+      },
+      {
+         "text": {
+            "en": "more things about variables.",
+            "pl": "więcej rzeczy o zmiennych.",
+            "ar": "المزيد من الأشياء حول المتغيرات."
+         },
+         "endTime": 162735,
+         "startTime": 161109
+      },
+      {
+         "text": {
+            "en": "Once you create a variable using var x",
+            "pl": "Po utworzeniu zmiennej przy użyciu var x",
+            "ar": "بمجرد إنشاء متغير باستخدام var x"
+         },
+         "endTime": 165893,
+         "startTime": 162735
+      },
+      {
+         "text": {
+            "en": "you're gonna assign a value to it",
+            "pl": "przypiszesz mu wartość",
+            "ar": "كنت ستعمل تعيين قيمة لذلك"
+         },
+         "endTime": 167077,
+         "startTime": 165893
+      },
+      {
+         "text": {
+            "en": "as many times as you want.",
+            "pl": "tyle razy, ile chcesz.",
+            "ar": "عدة مرات كما تريد."
+         },
+         "endTime": 168586,
+         "startTime": 167077
+      },
+      {
+         "text": {
+            "en": "So after giving x the value of 198 I could say",
+            "pl": "Więc po podaniu x wartości 198 mogę powiedzieć",
+            "ar": "حتى بعد إعطاء x قيمة 198 أستطيع أن أقول"
+         },
+         "endTime": 173068,
+         "startTime": 168586
+      },
+      {
+         "text": {
+            "en": "x gets 300, or",
+            "pl": "x otrzymuje 300, lub",
+            "ar": "س يحصل على 300، أو"
+         },
+         "endTime": 175822,
+         "startTime": 173068
+      },
+      {
+         "text": {
+            "en": "x gets 150.",
+            "pl": "x otrzymuje 150.",
+            "ar": "س يحصل 150."
+         },
+         "endTime": 179468,
+         "startTime": 175822
+      },
+      {
+         "text": {
+            "en": "And from then on, the computer would treat x",
+            "pl": "I od tego czasu, komputer traktuje x",
+            "ar": "ومنذ ذلك الحين، فإن الكمبيوتر علاج س"
+         },
+         "endTime": 181267,
+         "startTime": 179468
+      },
+      {
+         "text": {
+            "en": "as if it were, whatever we last assigned it,",
+            "pl": "Jakby było, cokolwiek ostatnio mu przydzieliliśmy,",
+            "ar": "كما لو كان, أيا كان آخر ما أسندناه إليه,"
+         },
+         "endTime": 183681,
+         "startTime": 181267
+      },
+      {
+         "text": {
+            "en": "so in this case, 150.",
+            "pl": "więc w tym przypadku 150.",
+            "ar": "حتى في هذه الحالة، 150."
+         },
+         "endTime": 185353,
+         "startTime": 183681
+      },
+      {
+         "text": {
+            "en": "But you only need to type var once per variable.",
+            "pl": "Ale trzeba tylko wpisać var raz na zmienną.",
+            "ar": "ولكنك تحتاج فقط إلى كتابة var مرة واحدة لكل متغير."
+         },
+         "endTime": 188534,
+         "startTime": 185353
+      },
+      {
+         "text": {
+            "en": "If, over here, I had typed var x gets 150 instead,",
+            "pl": "Jeśli, tutaj, miałem wpisane var x dostaje 150 zamiast,",
+            "ar": "إذا، أكثر من هنا، كنت قد كتبته فار x يحصل 150 بدلا من ذلك،"
+         },
+         "endTime": 192783,
+         "startTime": 188534
+      },
+      {
+         "text": {
+            "en": "that would have made a brand new variable named x",
+            "pl": "które zrobiłyby zupełnie nową zmienną o nazwie x",
+            "ar": "التي من شأنها أن تجعل متغير العلامة التجارية الجديدة اسمه x"
+         },
+         "endTime": 195605,
+         "startTime": 192783
+      },
+      {
+         "text": {
+            "en": "completely destroying the old variable x in the process.",
+            "pl": "całkowicie niszcząc starą zmienną x w procesie.",
+            "ar": "تدمير تماما المتغير القديم x في هذه العملية."
+         },
+         "endTime": 198496,
+         "startTime": 195605
+      },
+      {
+         "text": {
+            "en": "So all of these variables are gone in the dumpster.",
+            "pl": "Więc wszystkie te zmienne zniknęły w śmietniku.",
+            "ar": "لذلك ذهبت كل هذه المتغيرات في القمامة."
+         },
+         "endTime": 201270,
+         "startTime": 198496
+      },
+      {
+         "text": {
+            "en": "And then afterwards, the computer would",
+            "pl": "A potem, komputer",
+            "ar": "وبعد ذلك، فإن الكمبيوتر"
+         },
+         "endTime": 202736,
+         "startTime": 201270
+      },
+      {
+         "text": {
+            "en": "only use the new variable.",
+            "pl": "używać tylko nowej zmiennej.",
+            "ar": "استخدم المتغير الجديد فقط."
+         },
+         "endTime": 204335,
+         "startTime": 202736
+      },
+      {
+         "text": {
+            "en": "Sometimes you can do this kind of thing",
+            "pl": "Czasami możesz robić takie rzeczy",
+            "ar": "في بعض الأحيان يمكنك أن تفعل هذا النوع من الأشياء"
+         },
+         "endTime": 205812,
+         "startTime": 204335
+      },
+      {
+         "text": {
+            "en": "without horrible things happening to you,",
+            "pl": "bez strasznych rzeczy, które ci się przytrafiają,",
+            "ar": "دون أن تحدث لك أشياء فظيعة"
+         },
+         "endTime": 207890,
+         "startTime": 205812
+      },
+      {
+         "text": {
+            "en": "but I wouldn't advise it.",
+            "pl": "ale nie radziłbym tego.",
+            "ar": "لكنني لن أنصح بذلك"
+         },
+         "endTime": 209773,
+         "startTime": 207890
+      },
+      {
+         "text": {
+            "en": "Now we're just gonna do it once, var x gets 150.",
+            "pl": "Teraz zrobimy to tylko raz, var x dostaje 150.",
+            "ar": "الآن نحن فقط ستعمل القيام بذلك مرة واحدة، فار س يحصل 150."
+         },
+         "endTime": 213200,
+         "startTime": 209773
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/wrtJ-KI6lL0/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759604203",
+   "title": "More on Variables | Variables | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

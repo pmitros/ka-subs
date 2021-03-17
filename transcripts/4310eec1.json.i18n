@@ -1,0 +1,924 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Now let's talk about something  you've been using",
+            "pl": "Porozmawiajmy teraz o czymś, czego używasz.",
+            "ar": "الآن دعونا نتحدث عن شيء كنت تستخدمه"
+         },
+         "endTime": 3649,
+         "startTime": 1383
+      },
+      {
+         "text": {
+            "en": "this whole time: Functions.",
+            "pl": "Cały ten czas: Funkcje.",
+            "ar": "هذا الوقت كله: وظائف."
+         },
+         "endTime": 5685,
+         "startTime": 3649
+      },
+      {
+         "text": {
+            "en": "Whenever you've used commands  like rect() or fill() or text(),",
+            "pl": "Za każdym razem, gdy używane są polecenia, takie jak rect (), fill () lub text (),",
+            "ar": "كلما استخدمت أوامر مثل rect () أو fill () أو text ()،"
+         },
+         "endTime": 9140,
+         "startTime": 5685
+      },
+      {
+         "text": {
+            "en": "you've been calling functions,  and those functions have drawn",
+            "pl": "zostały wywołane funkcje, a te funkcje zostały narysowane",
+            "ar": "كنت قد تم استدعاء وظائف، وقد رسمها تلك الوظائف"
+         },
+         "endTime": 12376,
+         "startTime": 9140
+      },
+      {
+         "text": {
+            "en": "what you've told them to do.",
+            "pl": "To, co im kazałeś.",
+            "ar": "ما أخبرتهم أن يفعلوه"
+         },
+         "endTime": 15132,
+         "startTime": 12376
+      },
+      {
+         "text": {
+            "en": "What is a function really?",
+            "pl": "Czym jest naprawdę funkcja?",
+            "ar": "ما هي وظيفة حقا؟"
+         },
+         "endTime": 16806,
+         "startTime": 15132
+      },
+      {
+         "text": {
+            "en": "It's a collection of code that we've grouped together",
+            "pl": "To zbiór kodu, który zgrupowaliśmy razem",
+            "ar": "انها مجموعة من التعليمات البرمجية التي قمنا بتجميعها معا"
+         },
+         "endTime": 19483,
+         "startTime": 16806
+      },
+      {
+         "text": {
+            "en": "and given a name because we want to be able",
+            "pl": "i nadano nazwę, ponieważ chcemy być w stanie",
+            "ar": "وأعطى اسما لاننا بدنا نكون قادرين"
+         },
+         "endTime": 21240,
+         "startTime": 19483
+      },
+      {
+         "text": {
+            "en": "to use that bit  of functionality many times.",
+            "pl": ", aby korzystać z tej funkcji wiele razy.",
+            "ar": "لاستخدام هذا الشيء من وظائف عدة مرات."
+         },
+         "endTime": 23168,
+         "startTime": 21240
+      },
+      {
+         "text": {
+            "en": "Think about rect()?  What does a rect() do?",
+            "pl": "Pomyśl o rect ()? Co robi rect ()?",
+            "ar": "التفكير في المستقيم ()؟ ماذا يفعل المستقيم ()؟"
+         },
+         "endTime": 25981,
+         "startTime": 23368
+      },
+      {
+         "text": {
+            "en": "It just draws four lines, right?",
+            "pl": "To tylko rysuje cztery linie, prawda?",
+            "ar": "انها مجرد رسم أربعة أسطر، أليس كذلك؟"
+         },
+         "endTime": 28551,
+         "startTime": 25981
+      },
+      {
+         "text": {
+            "en": "We could just do that  using our line() function, right?",
+            "pl": "Moglibyśmy to zrobić za pomocą naszej funkcji line (), prawda?",
+            "ar": "يمكننا فقط أن نفعل ذلك باستخدام لدينا خط () وظيفة، أليس كذلك؟"
+         },
+         "endTime": 31141,
+         "startTime": 28551
+      },
+      {
+         "text": {
+            "en": "And here we have  what looks like a rectangle.",
+            "pl": "A tutaj mamy to, co wygląda jak prostokąt.",
+            "ar": "وهنا لدينا ما يشبه المستطيل."
+         },
+         "endTime": 33847,
+         "startTime": 31141
+      },
+      {
+         "text": {
+            "en": "But we realize that we  kind of want to be able",
+            "pl": "Ale zdajemy sobie sprawę, że chcemy być w stanie",
+            "ar": "لكننا ندرك أننا نريد نوعا ما أن نكون قادرين"
+         },
+         "endTime": 36751,
+         "startTime": 33847
+      },
+      {
+         "text": {
+            "en": "to draw a rectangle a lot of times,",
+            "pl": "narysować prostokąt wiele razy,",
+            "ar": "لرسم مستطيل الكثير من المرات،"
+         },
+         "endTime": 39322,
+         "startTime": 36751
+      },
+      {
+         "text": {
+            "en": "and it would be really annoying",
+            "pl": "i byłoby to naprawdę irytujące",
+            "ar": "وسيكون مزعج حقا"
+         },
+         "endTime": 40773,
+         "startTime": 39322
+      },
+      {
+         "text": {
+            "en": "to do the math every time to try and figure out",
+            "pl": "zrobić matematykę za każdym razem, aby spróbować dowiedzieć się",
+            "ar": "للقيام الرياضيات في كل مرة لمحاولة معرفة"
+         },
+         "endTime": 42784,
+         "startTime": 40773
+      },
+      {
+         "text": {
+            "en": "how to draw a line from one corner to the next",
+            "pl": "jak narysować linię od jednego rogu do drugiego",
+            "ar": "كيفية رسم خط من زاوية واحدة إلى أخرى"
+         },
+         "endTime": 44282,
+         "startTime": 42784
+      },
+      {
+         "text": {
+            "en": "and next and next.",
+            "pl": "i następny i następny.",
+            "ar": "و التالي و التالي."
+         },
+         "endTime": 45818,
+         "startTime": 44282
+      },
+      {
+         "text": {
+            "en": "So instead, we just made  a rect() function,",
+            "pl": "Zamiast tego, po prostu wykonaliśmy funkcję rect (),",
+            "ar": "لذلك بدلا من ذلك، قدمنا للتو وظيفة rect ()،"
+         },
+         "endTime": 48538,
+         "startTime": 45818
+      },
+      {
+         "text": {
+            "en": "and that function does exactly  the same thing",
+            "pl": "i ta funkcja robi dokładnie to samo",
+            "ar": "وهذه الوظيفة تفعل بالضبط نفس الشيء"
+         },
+         "endTime": 50858,
+         "startTime": 48538
+      },
+      {
+         "text": {
+            "en": "that those four lines of code did, but in much less code.",
+            "pl": "że te cztery linie kodu nie, ale w znacznie mniejszym kodzie.",
+            "ar": "أن هذه الأسطر الأربعة من التعليمات البرمجية فعلت، ولكن في أقل بكثير من التعليمات البرمجية."
+         },
+         "endTime": 55148,
+         "startTime": 50858
+      },
+      {
+         "text": {
+            "en": "So that's pretty cool,  and rect() is one of those functions",
+            "pl": "Więc to całkiem fajne, a rect () jest jedną z tych funkcji",
+            "ar": "لذلك هذا رائع، و rect () هي واحدة من تلك الوظائف"
+         },
+         "endTime": 58399,
+         "startTime": 55148
+      },
+      {
+         "text": {
+            "en": "that we've made available for ALL programs",
+            "pl": "które udostępniliśmy dla WSZYSTkich programów",
+            "ar": "التي جعلناها متاحة لجميع البرامج"
+         },
+         "endTime": 60519,
+         "startTime": 58399
+      },
+      {
+         "text": {
+            "en": "to use here on Khan Academy.",
+            "pl": "użyć tutaj na Khan Academy.",
+            "ar": "لاستخدامها هنا في أكاديمية خان."
+         },
+         "endTime": 62729,
+         "startTime": 60519
+      },
+      {
+         "text": {
+            "en": "But - you can also make up  your own functions",
+            "pl": "Ale - możesz również tworzyć własne funkcje",
+            "ar": "ولكن - يمكنك أيضًا تكوين وظائفك الخاصة"
+         },
+         "endTime": 65339,
+         "startTime": 62729
+      },
+      {
+         "text": {
+            "en": "to use in each of your programs.",
+            "pl": "do użycia w każdym z programów.",
+            "ar": "لاستخدامها في كل من البرامج الخاصة بك."
+         },
+         "endTime": 68409,
+         "startTime": 65339
+      },
+      {
+         "text": {
+            "en": "For example - let's say  we are making a program",
+            "pl": "Na przykład - powiedzmy, że robimy program",
+            "ar": "على سبيل المثال - لنفترض أننا نقوم بعمل برنامج"
+         },
+         "endTime": 71430,
+         "startTime": 68409
+      },
+      {
+         "text": {
+            "en": "and we want to draw Winston multiple times -",
+            "pl": "i chcemy kilkakrotnie narysować Winstona -",
+            "ar": "ونريد أن نرسم ونستون عدة مرات -"
+         },
+         "endTime": 74434,
+         "startTime": 71430
+      },
+      {
+         "text": {
+            "en": "maybe cause we're going to tell the life story of Winston",
+            "pl": "Może dlatego, że opowiemy historię życia Winstona",
+            "ar": "ربما لأننا سنروي قصة حياة وينستون"
+         },
+         "endTime": 77017,
+         "startTime": 74434
+      },
+      {
+         "text": {
+            "en": "and show him at every age in his life.",
+            "pl": "i pokazać mu w każdym wieku w jego życiu.",
+            "ar": "وتبين له في كل عمر في حياته."
+         },
+         "endTime": 80190,
+         "startTime": 77017
+      },
+      {
+         "text": {
+            "en": "So, here's what our Winston  drawing code might start off as:",
+            "pl": "Oto, co nasz kod rysunkowy Winston może zacząć od:",
+            "ar": "لذلك، وهنا ما لدينا وينستون رمز الرسم قد تبدأ على النحو التالي:"
+         },
+         "endTime": 84243,
+         "startTime": 80190
+      },
+      {
+         "text": {
+            "en": "We have 'faceX'  and 'faceY' variables",
+            "pl": "Mamy zmienne „FaceX” i „facEy”",
+            "ar": "لدينا متغيرات «FaceX» و «Facey»"
+         },
+         "endTime": 87106,
+         "startTime": 84243
+      },
+      {
+         "text": {
+            "en": "to store the center of the face,",
+            "pl": "do przechowywania środka twarzy,",
+            "ar": "لتخزين مركز الوجه،"
+         },
+         "endTime": 89029,
+         "startTime": 87106
+      },
+      {
+         "text": {
+            "en": "and then we draw the eyes and the mouth",
+            "pl": "a następnie rysujemy oczy i usta",
+            "ar": "ثم نرسم العينين والفم"
+         },
+         "endTime": 91243,
+         "startTime": 89029
+      },
+      {
+         "text": {
+            "en": "relative to those variables.",
+            "pl": "w stosunku do tych zmiennych.",
+            "ar": "بالنسبة لتلك المتغيرات."
+         },
+         "endTime": 93039,
+         "startTime": 91243
+      },
+      {
+         "text": {
+            "en": "Right now the program  sees the code,",
+            "pl": "W tej chwili program widzi kod,",
+            "ar": "الآن يرى البرنامج الرمز،"
+         },
+         "endTime": 94732,
+         "startTime": 93039
+      },
+      {
+         "text": {
+            "en": "and it's not inside any function, so it just runs it,",
+            "pl": "i nie jest wewnątrz żadnej funkcji, więc po prostu go uruchamia,",
+            "ar": "وانها ليست داخل أي وظيفة، لذلك تشغيله فقط،"
+         },
+         "endTime": 97325,
+         "startTime": 94732
+      },
+      {
+         "text": {
+            "en": "and it only runs it once.",
+            "pl": "i uruchamia go tylko raz.",
+            "ar": "وهو يشغله مرة واحدة فقط."
+         },
+         "endTime": 99739,
+         "startTime": 97325
+      },
+      {
+         "text": {
+            "en": "OK, let's turn this into a function.",
+            "pl": "OK, zamieńmy to w funkcję.",
+            "ar": "حسنا، دعونا تحويل هذا إلى وظيفة."
+         },
+         "endTime": 103717,
+         "startTime": 99739
+      },
+      {
+         "text": {
+            "en": "To do that, we do it  very similarly to the way",
+            "pl": "Aby to zrobić, robimy to bardzo podobnie do sposobu",
+            "ar": "للقيام بذلك، ونحن نفعل ذلك على نحو مشابه جدا للطريقة"
+         },
+         "endTime": 106439,
+         "startTime": 103717
+      },
+      {
+         "text": {
+            "en": "we declare a variable, because that's actually",
+            "pl": "deklarujemy zmienną, ponieważ jest to rzeczywiście",
+            "ar": "نعلن متغير، لأن هذا في الواقع"
+         },
+         "endTime": 108487,
+         "startTime": 106439
+      },
+      {
+         "text": {
+            "en": "what we are doing.",
+            "pl": "to, co robimy.",
+            "ar": "ما نقوم به."
+         },
+         "endTime": 110245,
+         "startTime": 108487
+      },
+      {
+         "text": {
+            "en": "So we say 'var drawWinston'.",
+            "pl": "Więc mówimy „var DrawWinston”.",
+            "ar": "لذلك نقول «فار دراوينستون»."
+         },
+         "endTime": 112077,
+         "startTime": 110245
+      },
+      {
+         "text": {
+            "en": "We give it a nice name, very descriptive,",
+            "pl": "Dajemy mu ładne imię, bardzo opisowy,",
+            "ar": "نعطيها اسم جميل، وصفي جدا،"
+         },
+         "endTime": 114551,
+         "startTime": 112077
+      },
+      {
+         "text": {
+            "en": "and then '=', but here, instead of writing a number or a string,",
+            "pl": "a następnie „=”, ale tutaj, zamiast pisać liczbę lub ciąg znaków,",
+            "ar": "ثم '='، ولكن هنا، بدلاً من كتابة رقم أو سلسلة،"
+         },
+         "endTime": 119037,
+         "startTime": 114551
+      },
+      {
+         "text": {
+            "en": "we're going to write 'function' (make sure you spell it right)",
+            "pl": "będziemy pisać 'function' (upewnij się, że pisze to dobrze)",
+            "ar": "نحن ذاهبون لكتابة «وظيفة» (تأكد من تهجئة ذلك الحق)"
+         },
+         "endTime": 122721,
+         "startTime": 119037
+      },
+      {
+         "text": {
+            "en": "and then empty parentheses '()'  and then an open curly '{'",
+            "pl": ", a następnie puste nawiasy '()', a następnie otwarte kędzierzawe '{'",
+            "ar": "ثم فارغة الأقواس '()' ثم فتح مجعد '{'"
+         },
+         "endTime": 128357,
+         "startTime": 122721
+      },
+      {
+         "text": {
+            "en": "and then a close curly '}'  and our semicolon ';'",
+            "pl": "a następnie bliski kędzierzawy '}' i nasz średnik ';'",
+            "ar": "ثم مجعد قريب '}' والفاصلة المنقوطة لدينا '؛'"
+         },
+         "endTime": 131563,
+         "startTime": 128357
+      },
+      {
+         "text": {
+            "en": "OK so what we need to do is put everything",
+            "pl": "OK, więc to, co musimy zrobić, to umieścić wszystko",
+            "ar": "طيب لذلك ما نحن بحاجة إلى القيام به هو وضع كل شيء"
+         },
+         "endTime": 134490,
+         "startTime": 131563
+      },
+      {
+         "text": {
+            "en": "that we want inside our function in between the start and end curly.",
+            "pl": "że chcemy wewnątrz naszej funkcji pomiędzy początkiem i końcem kręcone.",
+            "ar": "التي نريدها داخل وظيفتنا في ما بين بداية ونهاية مجعد."
+         },
+         "endTime": 139454,
+         "startTime": 134490
+      },
+      {
+         "text": {
+            "en": "So we're going to take  all this code here,",
+            "pl": "Więc weźmiemy cały ten kod tutaj,",
+            "ar": "لذلك نحن ذاهبون لاتخاذ كل هذا الرمز هنا،"
+         },
+         "endTime": 142130,
+         "startTime": 139454
+      },
+      {
+         "text": {
+            "en": "put it in our function (indent it nicely), and Ta Da!",
+            "pl": "umieścić go w naszej funkcji (wcięcie to ładnie), a Ta Da!",
+            "ar": "وضعه في وظيفتنا (المسافة البادئة بشكل جيد)، وتا دا!"
+         },
+         "endTime": 146816,
+         "startTime": 142130
+      },
+      {
+         "text": {
+            "en": "So now what we have  is we have this variable",
+            "pl": "Więc teraz, co mamy, to mamy tę zmienną",
+            "ar": "حتى الآن ما لدينا هو لدينا هذا المتغير"
+         },
+         "endTime": 148970,
+         "startTime": 146816
+      },
+      {
+         "text": {
+            "en": "that is storing a function - so basically we've given",
+            "pl": "że jest przechowywanie funkcji - więc w zasadzie daliśmy",
+            "ar": "هذا هو تخزين وظيفة - لذلك أساسا قدمنا"
+         },
+         "endTime": 152379,
+         "startTime": 148970
+      },
+      {
+         "text": {
+            "en": "a label to this block of code, so that we'd be able to tell",
+            "pl": "etykietę do tego bloku kodu, tak, że będziemy w stanie powiedzieć",
+            "ar": "تسمية لهذه الكتلة من التعليمات البرمجية، حتى نتمكن من معرفة"
+         },
+         "endTime": 155759,
+         "startTime": 152379
+      },
+      {
+         "text": {
+            "en": "our program at any time,",
+            "pl": "nasz program w dowolnym momencie,",
+            "ar": "برنامجنا في أي وقت،"
+         },
+         "endTime": 157859,
+         "startTime": 155759
+      },
+      {
+         "text": {
+            "en": "\"Hey, find that block of code with that label and run it!\"",
+            "pl": "„Hej, znajdź ten blok kodu z tą etykietą i uruchom go!”",
+            "ar": "«مهلا، تجد أن كتلة من التعليمات البرمجية مع هذا التسمية وتشغيله!»"
+         },
+         "endTime": 160765,
+         "startTime": 157859
+      },
+      {
+         "text": {
+            "en": "We we're making this bit of code reusable.",
+            "pl": "Robimy ten kawałek kodu wielokrotnego użytku.",
+            "ar": "نحن نجعل هذا الشيء من التعليمات البرمجية قابلة لإعادة الاستخدام."
+         },
+         "endTime": 163551,
+         "startTime": 160765
+      },
+      {
+         "text": {
+            "en": "But now notice, that we have  no Winston anymore!",
+            "pl": "Ale teraz zauważ, że nie mamy już Winstona!",
+            "ar": "ولكن لاحظ الآن، أنه ليس لدينا وينستون بعد الآن!"
+         },
+         "endTime": 166535,
+         "startTime": 163551
+      },
+      {
+         "text": {
+            "en": "We've lost Winston! Where did he go?",
+            "pl": "Straciliśmy Winstona! Gdzie on poszedł?",
+            "ar": "لقد فقدنا (وينستون)! أين ذهب؟"
+         },
+         "endTime": 169357,
+         "startTime": 166535
+      },
+      {
+         "text": {
+            "en": "OK - so what happened is  that once we put this inside a function,",
+            "pl": "OK - więc co się stało jest to, że kiedy umieścimy to wewnątrz funkcji,",
+            "ar": "حسنا - ما حدث هو أنه بمجرد أن نضع هذا داخل وظيفة،"
+         },
+         "endTime": 173025,
+         "startTime": 169357
+      },
+      {
+         "text": {
+            "en": "we told our program  \"hey here's a bunch of code",
+            "pl": "Powiedzieliśmy naszemu programowi „Hej, tu jest kilka kodu",
+            "ar": "قلنا برنامجنا «يا هنا حفنة من التعليمات البرمجية"
+         },
+         "endTime": 175907,
+         "startTime": 173025
+      },
+      {
+         "text": {
+            "en": "that I want to be able  to run later,",
+            "pl": "że chcę być w stanie uruchomić później,",
+            "ar": "التي أريد أن أكون قادرة على تشغيل في وقت لاحق،"
+         },
+         "endTime": 177842,
+         "startTime": 175907
+      },
+      {
+         "text": {
+            "en": "but only when I TELL you to run it\"",
+            "pl": "ale tylko wtedy, gdy mówię ci, żebyś go uruchomił”",
+            "ar": "ولكن فقط عندما أقول لك لتشغيله»"
+         },
+         "endTime": 180807,
+         "startTime": 177842
+      },
+      {
+         "text": {
+            "en": "So we have to tell it to run the code,  which means we need",
+            "pl": "Więc musimy powiedzieć, aby uruchomić kod, co oznacza, że potrzebujemy",
+            "ar": "لذلك علينا أن نقول ذلك لتشغيل التعليمات البرمجية، مما يعني أننا بحاجة"
+         },
+         "endTime": 184288,
+         "startTime": 180807
+      },
+      {
+         "text": {
+            "en": "to 'call' the function - just like we do with ellipse() and rect() and line().",
+            "pl": "do „wywołania” funkcji - tak jak robimy z elipsy () i rect () i line ().",
+            "ar": "ل «استدعاء» الدالة - تماما كما نفعل مع القطع الناقص () و rect () و line ()."
+         },
+         "endTime": 189110,
+         "startTime": 184288
+      },
+      {
+         "text": {
+            "en": "So we just write the function name ('drawWinston')",
+            "pl": "Więc po prostu napisać nazwę funkcji ('drawWinston')",
+            "ar": "لذلك نحن مجرد كتابة اسم الوظيفة ('دراوينستون')"
+         },
+         "endTime": 193753,
+         "startTime": 189400
+      },
+      {
+         "text": {
+            "en": "followed by our start  and end parentheses '()'",
+            "pl": "po których następują nawiasy początkowe i końcowe '()'",
+            "ar": "تليها أقواس البداية والنهاية '()'"
+         },
+         "endTime": 196376,
+         "startTime": 193753
+      },
+      {
+         "text": {
+            "en": "and, of course, our semicolon,  and Ta Da -",
+            "pl": "i, oczywiście, nasz średnik, a Ta Da -",
+            "ar": "وبطبيعة الحال، لدينا فاصلة منقوطة، وتا دا -"
+         },
+         "endTime": 198959,
+         "startTime": 196376
+      },
+      {
+         "text": {
+            "en": "We have a Winston!",
+            "pl": "Mamy Winstona!",
+            "ar": "لدينا وينستون"
+         },
+         "endTime": 200942,
+         "startTime": 198959
+      },
+      {
+         "text": {
+            "en": "OK! So I think it's cool,  but you might not think it's cool",
+            "pl": "OK! Więc myślę, że to fajne, ale może nie myślisz, że to fajne",
+            "ar": "حسنا! لذا أعتقد أنه رائع، لكنك قد لا تعتقد أنه رائع"
+         },
+         "endTime": 204237,
+         "startTime": 200942
+      },
+      {
+         "text": {
+            "en": "because all we've done is made  our program do exactly",
+            "pl": "ponieważ wszystko, co zrobiliśmy, to sprawiliśmy, że nasz program robi dokładnie",
+            "ar": "لأن كل ما فعلناه هو جعل برنامجنا يفعل بالضبط"
+         },
+         "endTime": 207373,
+         "startTime": 204237
+      },
+      {
+         "text": {
+            "en": "what it did before.  Kinda silly huh?",
+            "pl": "co to robiło wcześniej. Trochę głupie, co?",
+            "ar": "ما فعلته من قبل. سخيف نوعا ما هاه؟"
+         },
+         "endTime": 210239,
+         "startTime": 207373
+      },
+      {
+         "text": {
+            "en": "The whole point of functions  is we can reuse them.",
+            "pl": "Całe funkcje są takie, że możemy je ponownie wykorzystać.",
+            "ar": "بيت القصيد من الوظائف هو أننا يمكن إعادة استخدامها."
+         },
+         "endTime": 212920,
+         "startTime": 210239
+      },
+      {
+         "text": {
+            "en": "So let's do that now.",
+            "pl": "Więc zróbmy to teraz.",
+            "ar": "لذلك دعونا نفعل ذلك الآن."
+         },
+         "endTime": 214957,
+         "startTime": 212920
+      },
+      {
+         "text": {
+            "en": "We can just copy and paste this function  called \"ta da!\" \"ta da!\" over and over.",
+            "pl": "Możemy po prostu skopiować i wkleić tę funkcję o nazwie „ta da!” „ta da!” W kółko.",
+            "ar": "يمكننا فقط نسخ ولصق هذه الوظيفة تسمى «تا دا!» «تا دا!» مرارا وتكرارا."
+         },
+         "endTime": 221162,
+         "startTime": 214957
+      },
+      {
+         "text": {
+            "en": "Hmmm, but it looks the same -  - well - it worked -",
+            "pl": "Hmmm, ale wygląda tak samo - cóż - zadziałało -",
+            "ar": "هممم، ولكن يبدو نفسه - - حسنا - عملت -"
+         },
+         "endTime": 226572,
+         "startTime": 221162
+      },
+      {
+         "text": {
+            "en": "it's drawing multiple Winstons,  but the problem",
+            "pl": "to rysunek wielu Winstons, ale problem",
+            "ar": "انها رسم وينستونز متعددة، ولكن المشكلة"
+         },
+         "endTime": 228998,
+         "startTime": 226572
+      },
+      {
+         "text": {
+            "en": "is they're all in the same place.",
+            "pl": "Wszyscy są w tym samym miejscu.",
+            "ar": "أنهم جميعا في نفس المكان"
+         },
+         "endTime": 231474,
+         "startTime": 228998
+      },
+      {
+         "text": {
+            "en": "If we had x-ray vision, we could x-ray the canvas",
+            "pl": "Gdybyśmy mieli wzrok rentgenowski, moglibyśmy prześwietlić płótno",
+            "ar": "إذا كان لدينا رؤية الأشعة السينية، يمكننا الأشعة السينية قماش"
+         },
+         "endTime": 234428,
+         "startTime": 231474
+      },
+      {
+         "text": {
+            "en": "and see three Winstons,  but I don't have x-ray vision.",
+            "pl": "i zobaczyć trzech Winstonów, ale nie mam wizji rentgenowskiej.",
+            "ar": "ونرى ثلاثة وينستونز، ولكن ليس لدي رؤية الأشعة السينية."
+         },
+         "endTime": 237631,
+         "startTime": 234428
+      },
+      {
+         "text": {
+            "en": "(I don't know about you).",
+            "pl": "(Nie wiem jak ty).",
+            "ar": "(أنا لا أعرف عنك)."
+         },
+         "endTime": 240334,
+         "startTime": 237631
+      },
+      {
+         "text": {
+            "en": "But, we can make a small change  to our function",
+            "pl": "Ale możemy dokonać niewielkiej zmiany w naszej funkcji",
+            "ar": "ولكن، يمكننا إجراء تغيير صغير على وظيفتنا"
+         },
+         "endTime": 243440,
+         "startTime": 240334
+      },
+      {
+         "text": {
+            "en": "that WILL make it obvious.",
+            "pl": "że będzie to oczywiste.",
+            "ar": "و هذا سيجعل الأمر و اضحا."
+         },
+         "endTime": 245486,
+         "startTime": 243440
+      },
+      {
+         "text": {
+            "en": "So you see faceX and faceY -  they're always 202 and 208?",
+            "pl": "Więc widzisz FaceX i FaceEy - zawsze są 202 i 208?",
+            "ar": "لذلك ترى FaceX و Facey - انهم دائما 202 و 208؟"
+         },
+         "endTime": 248825,
+         "startTime": 245486
+      },
+      {
+         "text": {
+            "en": "We can change this  to using the random() function -",
+            "pl": "Możemy to zmienić za pomocą funkcji random () -",
+            "ar": "يمكننا تغيير هذا إلى استخدام وظيفة random () -"
+         },
+         "endTime": 251587,
+         "startTime": 248825
+      },
+      {
+         "text": {
+            "en": "- let's say like random() from 50 to 350  and it'll generate",
+            "pl": "- powiedzmy jak random () od 50 do 350 i będzie generować",
+            "ar": "- دعنا نقول مثل عشوائي () من 50 إلى 350 وأنها سوف تولد"
+         },
+         "endTime": 254849,
+         "startTime": 251587
+      },
+      {
+         "text": {
+            "en": "a random number between those two -  and we can do the same thing for here -",
+            "pl": "losową liczbę między tymi dwoma - i możemy zrobić to samo dla tutaj -",
+            "ar": "وهو رقم عشوائي بين هذين الاثنين - و يمكننا أن نفعل الشيء نفسه هنا -"
+         },
+         "endTime": 259183,
+         "startTime": 254849
+      },
+      {
+         "text": {
+            "en": "and so every time this function is called, it generates this new random number,",
+            "pl": "i tak za każdym razem, gdy ta funkcja jest wywoływana, generuje tę nową liczbę losową,",
+            "ar": "وهكذا في كل مرة تسمى هذه الوظيفة، فإنه يولد هذا الرقم العشوائي الجديد،"
+         },
+         "endTime": 263023,
+         "startTime": 259183
+      },
+      {
+         "text": {
+            "en": "and if we push restart,  we can keep getting random Winstons.",
+            "pl": "A jeśli wciśnimy restart, będziemy mogli dostawać losowych Winstonów.",
+            "ar": "وإذا دفعنا إعادة التشغيل، يمكننا الاستمرار في الحصول على Winstons عشوائي."
+         },
+         "endTime": 266566,
+         "startTime": 263023
+      },
+      {
+         "text": {
+            "en": "So cool!  Whoo!!",
+            "pl": "Tak fajnie! Whoo!",
+            "ar": "بارد جدا! ووو!!"
+         },
+         "endTime": 269359,
+         "startTime": 266566
+      },
+      {
+         "text": {
+            "en": "Alright - so I think this is cool  because it would have been",
+            "pl": "W porządku - więc myślę, że to jest fajne, bo byłoby",
+            "ar": "حسنا - لذلك أعتقد أن هذا هو بارد لأنه كان يمكن أن يكون"
+         },
+         "endTime": 272095,
+         "startTime": 269359
+      },
+      {
+         "text": {
+            "en": "a lot of code to write this  if we didn't have it in a function.",
+            "pl": "dużo kodu napisać to, jeśli nie mamy go w funkcji.",
+            "ar": "الكثير من التعليمات البرمجية لكتابة هذا إذا لم يكن لدينا في وظيفة."
+         },
+         "endTime": 274916,
+         "startTime": 272095
+      },
+      {
+         "text": {
+            "en": "It would have been three times the amount of code.",
+            "pl": "To byłaby trzy razy większa od ilości kodu.",
+            "ar": "كان يمكن أن يكون ثلاثة أضعاف مقدار التعليمات البرمجية."
+         },
+         "endTime": 278317,
+         "startTime": 274916
+      },
+      {
+         "text": {
+            "en": "But it's still not AS useful  as it could be,",
+            "pl": "Ale to wciąż nie jest tak przydatne, jak mogłoby być,",
+            "ar": "لكنه لا يزال غير مفيد كما يمكن أن يكون،"
+         },
+         "endTime": 280960,
+         "startTime": 278317
+      },
+      {
+         "text": {
+            "en": "because we probably  don't want random Winstons.",
+            "pl": "Bo prawdopodobnie nie chcemy przypadkowych Winstonów.",
+            "ar": "لأننا ربما لا نريد Winstons عشوائي."
+         },
+         "endTime": 283796,
+         "startTime": 280960
+      },
+      {
+         "text": {
+            "en": "We probably want to be able  to position a Winston",
+            "pl": "Prawdopodobnie chcemy być w stanie ustawić Winstona",
+            "ar": "ربما نريد أن نكون قادرين على وضع وينستون"
+         },
+         "endTime": 285736,
+         "startTime": 283796
+      },
+      {
+         "text": {
+            "en": "at specific points on the screen.",
+            "pl": "w określonych punktach na ekranie.",
+            "ar": "في نقاط محددة على الشاشة."
+         },
+         "endTime": 287846,
+         "startTime": 285736
+      },
+      {
+         "text": {
+            "en": "So stay tuned, 'cause we'll talk  about how pass parameters",
+            "pl": "Więc zostań nastrojony, bo porozmawiamy o tym, jak przechodzą parametry",
+            "ar": "حتى لا تنزعج، لأننا سنتحدث عن كيفية تمرير المعلمات"
+         },
+         "endTime": 289943,
+         "startTime": 287846
+      },
+      {
+         "text": {
+            "en": "to our functions next, and then you'll be able",
+            "pl": "do naszych funkcji, a następnie będziesz w stanie",
+            "ar": "إلى وظائفنا القادمة، وبعد ذلك عليك أن تكون قادرا"
+         },
+         "endTime": 292483,
+         "startTime": 289943
+      },
+      {
+         "text": {
+            "en": "to do exactly that.",
+            "pl": "aby dokładnie to zrobić.",
+            "ar": "للقيام بذلك بالضبط."
+         },
+         "endTime": 296000,
+         "startTime": 292000
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/5tmtBjdw62w/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759683238",
+   "title": "Functions | Functions | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

@@ -1,0 +1,465 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "In the last talk-through, we learned how to make an object type to represent our two Winston-like objects",
+            "pl": "W ostatnim rozmowach, dowiedzieliśmy się, jak zrobić typ obiektu do reprezentowania naszych dwóch obiektów podobnych do Winstona",
+            "ar": "في الحديث الأخير، تعلمنا كيفية جعل نوع كائن لتمثيل كائنين شبيهين وينستون"
+         },
+         "endTime": 6234,
+         "startTime": 780
+      },
+      {
+         "text": {
+            "en": "and then initialize them with the constructors.",
+            "pl": ", a następnie zainicjować je z konstruktorami.",
+            "ar": "ومن ثم تهيئة لهم مع الصانعين."
+         },
+         "endTime": 9234,
+         "startTime": 6234
+      },
+      {
+         "text": {
+            "en": "Now, an object type doesn't just have to be associated with properties",
+            "pl": "Teraz typ obiektu nie tylko muszą być związane z właściwościami",
+            "ar": "الآن، لا يجب أن يرتبط نوع الكائن بالخصائص"
+         },
+         "endTime": 13472,
+         "startTime": 9234
+      },
+      {
+         "text": {
+            "en": "It can also be associated with functionality. Think about the world and all the object types in it",
+            "pl": "Może być również związany z funkcjonalnością. Pomyśl o świecie i wszystkich typach obiektów w nim",
+            "ar": "ويمكن أيضا أن تترافق مع وظيفة. فكر في العالم وجميع أنواع الكائنات فيه"
+         },
+         "endTime": 18806,
+         "startTime": 13472
+      },
+      {
+         "text": {
+            "en": "like us humans. We all have height and age, but we also have things we can do like sleep, and eat, and program.",
+            "pl": "jak my, ludzie. Wszyscy mamy wzrost i wiek, ale mamy też rzeczy, które możemy zrobić, jak spać, jeść i programować.",
+            "ar": "مثلنا البشر لدينا جميعا الطول والعمر، ولكن لدينا أيضا أشياء يمكننا القيام بها مثل النوم، وتناول الطعام، وبرنامج."
+         },
+         "endTime": 26287,
+         "startTime": 18806
+      },
+      {
+         "text": {
+            "en": "And we wanna be able to associate those functions with those object types.",
+            "pl": "I chcemy być w stanie powiązać te funkcje z tymi typami obiektów.",
+            "ar": "ونحن نريد أن تكون قادرة على ربط تلك الوظائف مع تلك الأنواع الكائنات."
+         },
+         "endTime": 30939,
+         "startTime": 26287
+      },
+      {
+         "text": {
+            "en": "In this program, which is just where we left off from last time, we've a funciton here,",
+            "pl": "W tym programie, który właśnie skończyliśmy od ostatniego razu, mamy tu funciton,",
+            "ar": "في هذا البرنامج، الذي هو فقط حيث توقفنا من آخر مرة، لدينا funciton هنا،"
+         },
+         "endTime": 35949,
+         "startTime": 30939
+      },
+      {
+         "text": {
+            "en": "drawWinston, that we call on both Winston objects. Wouldn't it be neat if we could just attach that",
+            "pl": "DrawWinston, że wzywamy zarówno obiektów Winston. Czy nie byłoby schludnie, gdybyśmy mogli to po prostu dołączyć.",
+            "ar": "DrawWinston, أن ندعو كل من الكائنات وينستون. ألن يكون أنيق إذا استطعنا أن نعلق ذلك"
+         },
+         "endTime": 43066,
+         "startTime": 35949
+      },
+      {
+         "text": {
+            "en": "to the Winston object type? Well we can, and it's easy to do.",
+            "pl": "do typu obiektu Winston? Cóż, możemy, i to jest łatwe do zrobienia.",
+            "ar": "إلى نوع كائن وينستون؟ حسنا يمكننا، وأنه من السهل القيام به."
+         },
+         "endTime": 48569,
+         "startTime": 43066
+      },
+      {
+         "text": {
+            "en": "So underneath our constructor, we're gonna write Winston -- capital W -- dot prototype,",
+            "pl": "Więc pod naszym konstruktorem napiszemy Winstona — kapitał W — prototyp kropki,",
+            "ar": "لذا تحت منشئنا، سنكتب ونستون — رأس المال دبليو — نموذج نقطة،"
+         },
+         "endTime": 55725,
+         "startTime": 48569
+      },
+      {
+         "text": {
+            "en": "and the prototype, that's a new word that you probably haven't seen before.",
+            "pl": "A prototyp, to nowe słowo, którego prawdopodobnie wcześniej nie widziałaś.",
+            "ar": "والنموذج الأولي، هذه كلمة جديدة ربما لم تراها من قبل."
+         },
+         "endTime": 59232,
+         "startTime": 55725
+      },
+      {
+         "text": {
+            "en": "And the prototype is this property of an object that we can attach functions to",
+            "pl": "A prototyp jest tą własnością obiektu, do którego możemy dołączyć funkcje",
+            "ar": "والنموذج الأولي هو هذه الخاصية لكائن يمكننا إرفاق وظائف ل"
+         },
+         "endTime": 65881,
+         "startTime": 59232
+      },
+      {
+         "text": {
+            "en": "and it will mean that every object that's an instance of that will then have those functions on them.",
+            "pl": "i będzie to oznaczać, że każdy obiekt, który jest instancją, będzie miał na sobie te funkcje.",
+            "ar": "وهذا يعني أن كل كائن هذا مثيل من ذلك سيكون عندئذٍ تلك الوظائف عليها."
+         },
+         "endTime": 73309,
+         "startTime": 65881
+      },
+      {
+         "text": {
+            "en": "So we can say dot prototype and then dot, and then the function name, so we say draw,",
+            "pl": "Więc możemy powiedzieć kropka prototyp, a następnie kropka, a następnie nazwa funkcji, więc mówimy rysować,",
+            "ar": "لذلك يمكننا أن نقول نقطة النموذج ثم نقطة، ثم اسم وظيفة، لذلك نقول رسم،"
+         },
+         "endTime": 79612,
+         "startTime": 73309
+      },
+      {
+         "text": {
+            "en": "equals, and then we can go and take our drawWinston code and we can just put it",
+            "pl": "równa się, a potem możemy iść i wziąć nasz kod DrawWinston i możemy po prostu umieścić",
+            "ar": "يساوي، وبعد ذلك يمكننا الذهاب واتخاذ لدينا رمز دراوينستون ويمكننا فقط وضعه"
+         },
+         "endTime": 85606,
+         "startTime": 79612
+      },
+      {
+         "text": {
+            "en": "move it inside here. All right so now what we've done here is we've attached a draw function",
+            "pl": "Przenieś to do środka. W porządku, więc teraz to, co zrobiliśmy tutaj jest dołączony funkcja rysowania",
+            "ar": "حركها إلى الداخل هنا. كل الحق حتى الآن ما قمنا به هنا هو أننا قد تعلق وظيفة رسم"
+         },
+         "endTime": 92951,
+         "startTime": 85606
+      },
+      {
+         "text": {
+            "en": "to our Winston prototype. And that means that we should be able to call draw() on any Winston-type object",
+            "pl": "do naszego prototypu Winstona. A to oznacza, że powinniśmy być w stanie wywołać draw () na dowolnym obiekcie typu Winston",
+            "ar": "إلى نموذجنا (وينستون) وهذا يعني أننا يجب أن نكون قادرين على استدعاء draw () على أي كائن من نوع Winston"
+         },
+         "endTime": 100008,
+         "startTime": 92951
+      },
+      {
+         "text": {
+            "en": "all right so we should be able to call draw() on winstonTeen or winstonAdult.",
+            "pl": "W porządku, więc powinniśmy być w stanie wywołać remis () na Winstonteen lub WinstonAdult.",
+            "ar": "كل الحق لذلك يجب أن نكون قادرين على استدعاء التعادل () على وينستونتين أو وينستونالكبار."
+         },
+         "endTime": 105411,
+         "startTime": 100008
+      },
+      {
+         "text": {
+            "en": "And when we have a function like this, that we can call on an object,",
+            "pl": "A kiedy mamy taką funkcję, że możemy wywołać obiekt,",
+            "ar": "وعندما يكون لدينا وظيفة من هذا القبيل، أننا يمكن أن ندعو على كائن،"
+         },
+         "endTime": 109569,
+         "startTime": 105411
+      },
+      {
+         "text": {
+            "en": "we actually call that a \"method,\" so you might hear me say \"method\" now.",
+            "pl": "nazywamy to „metodą”, więc możesz usłyszeć, jak mówię „metoda” teraz.",
+            "ar": "نحن في الواقع نسمي ذلك «طريقة»، لذلك قد تسمعني أقول «طريقة» الآن."
+         },
+         "endTime": 114833,
+         "startTime": 109569
+      },
+      {
+         "text": {
+            "en": "So let's say this is \"the draw method.\" Okay.",
+            "pl": "Powiedzmy, że jest to „metoda rysowania”. Okej.",
+            "ar": "لذلك دعونا نقول هذا هو «طريقة السحب». حسناً"
+         },
+         "endTime": 118272,
+         "startTime": 114833
+      },
+      {
+         "text": {
+            "en": "So now we'll delete this, and we'll delete this, and now we're gonna see, can we call draw()?",
+            "pl": "Więc teraz usuniemy to, i usuniemy to, a teraz zobaczymy, czy możemy nazwać draw ()?",
+            "ar": "حتى الآن سنقوم حذف هذا، ونحن سوف حذف هذا، والآن نحن ستعمل نرى، يمكننا استدعاء رسم ()؟"
+         },
+         "endTime": 124103,
+         "startTime": 118272
+      },
+      {
+         "text": {
+            "en": "winstonTeen.draw()",
+            "pl": "Winstonteen.draw ()",
+            "ar": "وينستون. رسم ()"
+         },
+         "endTime": 127069,
+         "startTime": 124103
+      },
+      {
+         "text": {
+            "en": "Okay. We have an error, we've had this error sticking out here, so it says \"winstObject is not defined\"",
+            "pl": "Okej. Mamy błąd, mieliśmy ten błąd wystający tutaj, więc mówi „WinstObject nie jest zdefiniowany”",
+            "ar": "حسناً لدينا خطأ، لقد كان هذا الخطأ التمسك هنا، لذلك يقول «لم يتم تعريف وينستوبجيكت»"
+         },
+         "endTime": 133697,
+         "startTime": 127069
+      },
+      {
+         "text": {
+            "en": "Okay. So, before, we were passing this argument into drawWinston, which was the Winston object",
+            "pl": "Okej. Przedtem przekazywaliśmy ten argument do DrawWinston, który był obiektem Winston",
+            "ar": "حسناً لذا، من قبل، كنا نمر هذه الحجة إلى DrawWinston، الذي كان كائن وينستون"
+         },
+         "endTime": 140530,
+         "startTime": 133697
+      },
+      {
+         "text": {
+            "en": "but now we're not passing it any more. Um, so, we could change this to pass it",
+            "pl": "Ale teraz już jej nie przekazujemy. Um, więc możemy to zmienić, żeby to przekazać",
+            "ar": "ولكن الآن نحن لا نمررها أكثر من ذلك. لذا، يمكننا تغيير هذا لتمريره"
+         },
+         "endTime": 146462,
+         "startTime": 140530
+      },
+      {
+         "text": {
+            "en": "and then, let's see, what would we pass here? We'd have to pass winstonTeen. Okay.",
+            "pl": "A potem, zobaczmy, co byśmy tu przeszli? Musielibyśmy przejść przez Winstonteen. Okej.",
+            "ar": "وبعد ذلك، دعونا نرى، ماذا سنمر هنا؟ يجب أن نمرر وينستونتين حسناً"
+         },
+         "endTime": 150819,
+         "startTime": 146462
+      },
+      {
+         "text": {
+            "en": "That worked, but that seems also really silly. I'm already calling draw on the object itself.",
+            "pl": "To zadziałało, ale to też wydaje się głupie. Już dzwonię do rysowania samego obiektu.",
+            "ar": "هذا نجح، ولكن هذا يبدو سخيفًا أيضًا. أنا بالفعل استدعاء رسم على الكائن نفسه."
+         },
+         "endTime": 158441,
+         "startTime": 150819
+      },
+      {
+         "text": {
+            "en": "I shouldn't have to pass in the object as well. That seems redundant.",
+            "pl": "Nie powinienem też wchodzić do obiektu. To wydaje się zbędne.",
+            "ar": "لا ينبغي أن أضطر لتمرير في الكائن كذلك. هذا يبدو زائدا عن الحاجة."
+         },
+         "endTime": 163965,
+         "startTime": 158441
+      },
+      {
+         "text": {
+            "en": "And that's true, we shouldn't have to do that, so let's delete this here, and now let's think.",
+            "pl": "I to prawda, nie powinniśmy tego robić, więc skasujmy to tutaj, a teraz pomyślmy.",
+            "ar": "وهذا صحيح، لا ينبغي لنا أن نفعل ذلك، لذلك دعونا حذف هذا هنا، والآن دعونا نفكر."
+         },
+         "endTime": 168465,
+         "startTime": 163965
+      },
+      {
+         "text": {
+            "en": "If we're inside the object, what could we use to access the properties of the object?",
+            "pl": "Jeśli jesteśmy wewnątrz obiektu, co możemy użyć, aby uzyskać dostęp do właściwości obiektu?",
+            "ar": "إذا كنا داخل الكائن، ما الذي يمكن أن نستخدمه للوصول إلى خصائص الكائن؟"
+         },
+         "endTime": 174404,
+         "startTime": 168465
+      },
+      {
+         "text": {
+            "en": "Well, you might look up at our constructor, and remember that special keyword \"this\" and think \"ahh\"",
+            "pl": "Cóż, możesz spojrzeć na naszego konstruktora i pamiętać, że specjalne słowo kluczowe „to” i pomyśleć „ahh”",
+            "ar": "حسنا، قد تبحث عن منشئ لدينا، وتذكر أن الكلمة الرئيسية الخاصة «هذا» والتفكير «آه»"
+         },
+         "endTime": 180374,
+         "startTime": 174404
+      },
+      {
+         "text": {
+            "en": "\"What if we just change this, to this!\" [laughter] So we change winstObject to \"this\".",
+            "pl": "„Co jeśli po prostu zmienimy to, na to!” [śmiech] Więc zmieniamy WinstObject na „to”.",
+            "ar": "«ماذا لو قمنا فقط بتغيير هذا، إلى هذا!» [ضحك] لذلك نحن تغيير وينستوبجيكت إلى «هذا»."
+         },
+         "endTime": 188573,
+         "startTime": 180374
+      },
+      {
+         "text": {
+            "en": "Because we're inside the object right now. This function is being evaluated",
+            "pl": "Bo jesteśmy teraz wewnątrz obiektu. Ta funkcja jest oceniana",
+            "ar": "لأننا داخل الكائن الآن ويجري تقييم هذه الوظيفة"
+         },
+         "endTime": 192951,
+         "startTime": 188573
+      },
+      {
+         "text": {
+            "en": "on the object, so the \"this\" will refer to that current object.",
+            "pl": "na obiekcie, więc „to” będzie odnosić się do tego bieżącego obiektu.",
+            "ar": "على الكائن، وبالتالي فإن «هذا» سيشير إلى هذا الكائن الحالي."
+         },
+         "endTime": 196861,
+         "startTime": 192951
+      },
+      {
+         "text": {
+            "en": "And so that way we can just say \"this\" and we'll get access to all the properties of this current object.",
+            "pl": "I w ten sposób możemy po prostu powiedzieć „to” i uzyskamy dostęp do wszystkich właściwości tego bieżącego obiektu.",
+            "ar": "وبهذه الطريقة يمكننا أن نقول فقط «هذا» ونحن سوف تحصل على الوصول إلى جميع خصائص هذا الكائن الحالي."
+         },
+         "endTime": 203271,
+         "startTime": 196861
+      },
+      {
+         "text": {
+            "en": "And that totally works, see? Isn't that cool?",
+            "pl": "I to całkowicie działa, widzisz? Czy to nie fajne?",
+            "ar": "وهذا يعمل تماما، أترى؟ أليس هذا رائعاً؟"
+         },
+         "endTime": 206720,
+         "startTime": 203271
+      },
+      {
+         "text": {
+            "en": "So now we can then say winstonAdult.draw()",
+            "pl": "Więc teraz możemy powiedzieć WinstonAdult.draw ()",
+            "ar": "حتى الآن يمكننا أن نقول ثم Winstonadult.draw ()"
+         },
+         "endTime": 211907,
+         "startTime": 206720
+      },
+      {
+         "text": {
+            "en": "Tada! And it will access the properties of winstonAdult because that's the object it's being called on.",
+            "pl": "Tada! I będzie uzyskać dostęp do właściwości WinStonAdult, ponieważ jest to obiekt, który jest wywoływany.",
+            "ar": "(تادا)! وسوف تصل إلى خصائص WinstonAdult لأن هذا هو الكائن الذي يتم استدعاؤه."
+         },
+         "endTime": 218271,
+         "startTime": 211907
+      },
+      {
+         "text": {
+            "en": "So that's what's really cool about this \"this\" keyword, even though it can be kinda confusing to say sometimes.",
+            "pl": "Więc to, co jest naprawdę fajne w tym „tym” słowie kluczowym, choć może to być trochę mylące, aby powiedzieć czasami.",
+            "ar": "لذلك هذا ما هو رائع حقا حول هذه الكلمة «هذا»، على الرغم من أنه يمكن أن يكون مربكا كيندا أن أقول في بعض الأحيان."
+         },
+         "endTime": 225752,
+         "startTime": 218271
+      },
+      {
+         "text": {
+            "en": "All right, so, that was a lot of fun, so let's add another method. Okay, so, what else might Winston do?",
+            "pl": "W porządku, więc, to było dużo zabawy, więc dodajmy inną metodę. Dobra, więc co jeszcze może zrobić Winston?",
+            "ar": "كل الحق، لذلك، كان ذلك الكثير من المرح، لذلك دعونا إضافة طريقة أخرى. حسناً، ماذا قد يفعل (وينستون) أيضاً؟"
+         },
+         "endTime": 232028,
+         "startTime": 225752
+      },
+      {
+         "text": {
+            "en": "Maybe he'll talk. So we'll make a Winston.prototype.talk, so we can attach as many methods as we want to the prototype.",
+            "pl": "Może będzie mówił. Więc zrobimy winston.Prototype.Talk, więc możemy dołączyć jak najwięcej metod, jak chcemy do prototypu.",
+            "ar": "ربما سيتحدث لذلك سنقوم بعمل Winston.Prototype.Talk، حتى نتمكن من إرفاق العديد من الطرق كما نريد إلى النموذج الأولي."
+         },
+         "endTime": 241078,
+         "startTime": 232028
+      },
+      {
+         "text": {
+            "en": "So we'll say \"I'm Winston!\"",
+            "pl": "Więc powiemy „Jestem Winston!”",
+            "ar": "لذلك سنقول «أنا وينستون!»"
+         },
+         "endTime": 245241,
+         "startTime": 241078
+      },
+      {
+         "text": {
+            "en": "And then we'll just say this.x+20, and this.y+150.",
+            "pl": "A potem powiemy to.x+20 i to.y+150.",
+            "ar": "وبعد ذلك سوف نقول فقط هذا.x+20، وهذا+150."
+         },
+         "endTime": 253181,
+         "startTime": 245241
+      },
+      {
+         "text": {
+            "en": "And then, y'know, nothing happened, but of course that's because I didn't actually call that function yet.",
+            "pl": "I wtedy, wiesz, nic się nie stało, ale oczywiście to dlatego, że jeszcze nie nazwałem tej funkcji.",
+            "ar": "وبعد ذلك، تعلمون، لم يحدث شيء، ولكن بالطبع هذا لأنني لم أكن في الواقع استدعاء هذه الوظيفة حتى الآن."
+         },
+         "endTime": 259733,
+         "startTime": 253181
+      },
+      {
+         "text": {
+            "en": "So, let's make the teen talk, winstonTeen.talk() [inaudible] talk all the time okay",
+            "pl": "Więc, niech nastolatek mówić, winstonteen.Talk () [niesłyszalny] rozmawiać cały czas w porządku",
+            "ar": "لذلك، دعونا جعل الحديث في سن المراهقة، Winstonteen.talk () [غير مسموع] الحديث في كل وقت بخير"
+         },
+         "endTime": 265068,
+         "startTime": 259733
+      },
+      {
+         "text": {
+            "en": "I'm Winston, tada! And then winstonAdult.talk()",
+            "pl": "Jestem Winston, Tada! A potem WinstonAdult.talk ()",
+            "ar": "أنا (وينستون) ثم وينستون أدولت.توك ()"
+         },
+         "endTime": 270479,
+         "startTime": 265068
+      },
+      {
+         "text": {
+            "en": "Tada! All right, so now we have this Winston object type that has properties: nickname,",
+            "pl": "Tada! Dobra, więc teraz mamy ten typ obiektu Winston, który ma właściwości: pseudonim,",
+            "ar": "(تادا)! كل الحق، وحتى الآن لدينا هذا النوع الكائن وينستون التي لديها خصائص: لقب،"
+         },
+         "endTime": 276828,
+         "startTime": 270479
+      },
+      {
+         "text": {
+            "en": "age, x, y; and it has functionality: behaviors, methods; that act differently depending on the properties",
+            "pl": "wiek, x, y; i ma funkcjonalność: zachowania, metody; które działają inaczej w zależności od właściwości",
+            "ar": "العمر، س، ص؛ ولها وظائف: السلوكيات والأساليب؛ التي تعمل بشكل مختلف اعتمادا على الخصائص"
+         },
+         "endTime": 285026,
+         "startTime": 276828
+      },
+      {
+         "text": {
+            "en": "and we can create as many instances of Winstons as we want and call any of these methods on it.",
+            "pl": "i możemy stworzyć jak najwięcej instancji Winstons, jak chcemy i wywołać jedną z tych metod na nim.",
+            "ar": "ويمكننا إنشاء العديد من حالات Winstons كما نريد وندعو أي من هذه الأساليب على ذلك."
+         },
+         "endTime": 290999,
+         "startTime": 285026
+      },
+      {
+         "text": {
+            "en": "Pretty cool, huh?",
+            "pl": "Całkiem fajne, co?",
+            "ar": "رائع جداً، أليس كذلك؟"
+         },
+         "endTime": 294000,
+         "startTime": 290999
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/FrR8evjLujA/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759812449",
+   "title": "Object Methods | Object-Oriented Design | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

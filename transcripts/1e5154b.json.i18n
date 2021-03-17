@@ -1,0 +1,402 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Here's a function you might not know about: random.",
+            "pl": "Oto funkcja, o której możesz nie wiedzieć: losowa.",
+            "ar": "إليك وظيفة قد لا تعرفها: عشوائية."
+         },
+         "endTime": 4384,
+         "startTime": 1837
+      },
+      {
+         "text": {
+            "en": "It takes in two parameters: a lower bound and an upper bound and it gives you back a random number somewhere between those two bounds.",
+            "pl": "Zajmuje dwa parametry: dolna granica i górna granica i daje z powrotem losową liczbę gdzieś pomiędzy tymi dwoma granicami.",
+            "ar": "يستغرق الأمر في معلمتين: الحد الأدنى والحد الأعلى ويعطيك رقم عشوائي في مكان ما بين هذين الحدين."
+         },
+         "endTime": 10587,
+         "startTime": 4384
+      },
+      {
+         "text": {
+            "en": "So here this variable number will be somewhere between zero and one. And then we're going to draw that number to the canvas using this text function.",
+            "pl": "Więc tutaj ta liczba zmienna będzie gdzieś między zerem a jednym. A potem mamy zamiar narysować tę liczbę na płótnie za pomocą tej funkcji tekstowej.",
+            "ar": "حتى هنا هذا الرقم المتغير سيكون في مكان ما بين الصفر واحد. وبعد ذلك نحن ذاهبون لرسم هذا الرقم إلى قماش باستخدام هذه الدالة النص."
+         },
+         "endTime": 18582,
+         "startTime": 10587
+      },
+      {
+         "text": {
+            "en": "Those last two parameters are for the x and y coordinates of the text and we use textSize and fill to set the fill and the color of the text.",
+            "pl": "Te dwa ostatnie parametry są dla współrzędnych x i y tekstu i używamy TextSize i wypełnić, aby ustawić wypełnienie i kolor tekstu.",
+            "ar": "هذان المعلمتان الأخيرتان هما إحداثيات x و y للنص ونستخدم TextSize والتعبئة لتعيين التعبئة ولون النص."
+         },
+         "endTime": 26048,
+         "startTime": 18582
+      },
+      {
+         "text": {
+            "en": "So if I press restart a couple of times you can see the random numbers being generated.",
+            "pl": "Więc jeśli nacisnę ponownie kilka razy, możesz zobaczyć losowe liczby są generowane.",
+            "ar": "حتى إذا كنت اضغط إعادة تشغيل بضع مرات يمكنك أن ترى الأرقام العشوائية التي يتم إنشاؤها."
+         },
+         "endTime": 30585,
+         "startTime": 26048
+      },
+      {
+         "text": {
+            "en": "And you'll see that the precision of these numbers is to three decimal places.",
+            "pl": "I zobaczycie, że precyzja tych liczb jest do trzech miejsc po przecinku.",
+            "ar": "وسترى أن دقة هذه الأرقام هي إلى ثلاث منازل عشرية."
+         },
+         "endTime": 34162,
+         "startTime": 30585
+      },
+      {
+         "text": {
+            "en": "So here's a question: What if I only wanted to generate a number that's either zero or one?",
+            "pl": "Oto pytanie: Co jeśli chcę tylko wygenerować liczbę, która jest albo zero, albo jeden?",
+            "ar": "إذن هنا سؤال: ماذا لو أردت فقط إنشاء رقم إما صفر أو واحد؟"
+         },
+         "endTime": 38685,
+         "startTime": 34162
+      },
+      {
+         "text": {
+            "en": "Well, we can use this other function called round, and this takes in a number that can have as many decimals as you want, and it rounds it to the nearest integer.",
+            "pl": "Cóż, możemy użyć tej innej funkcji o nazwie runda, a to trwa w liczbie, która może mieć tyle miejsc po przecinku, jak chcesz, i zaokrągla go do najbliższej liczby całkowitej.",
+            "ar": "حسنا، يمكننا استخدام هذه الوظيفة الأخرى تسمى الجولة، وهذا يأخذ في عدد التي يمكن أن يكون لها العديد من الكسور العشرية كما تريد، وأنها تقريب إلى أقرب عدد صحيح."
+         },
+         "endTime": 48393,
+         "startTime": 38685
+      },
+      {
+         "text": {
+            "en": "So I'm just going to go ahead and make a new variable called \"integer\"",
+            "pl": "Więc mam zamiar iść do przodu i zrobić nową zmienną o nazwie „liczba całkowita”",
+            "ar": "لذلك أنا ذاهب فقط للمضي قدما وجعل متغير جديد يسمى «عدد صحيح»"
+         },
+         "endTime": 52158,
+         "startTime": 48393
+      },
+      {
+         "text": {
+            "en": "and assign it whatever round gives us. And we can also draw that \"integer\" to the screen with our handy-dandy text function.",
+            "pl": "i przypisać go cokolwiek okrągły daje nam. Możemy również narysować tę „liczbę całkowitą” na ekranie za pomocą naszej poręcznej funkcji tekstowej.",
+            "ar": "وتعيينها مهما كانت الجولة التي تعطينا. ويمكننا أيضا رسم هذا «عدد صحيح» إلى الشاشة مع لدينا وظيفة النص اليدي داندي."
+         },
+         "endTime": 58713,
+         "startTime": 52158
+      },
+      {
+         "text": {
+            "en": "So text \"integer\"...we'll put it maybe at 160 and 350. Nice. So this shows us that round of 0.2314 rounds down to zero.",
+            "pl": "Więc tekst „liczba całkowita”... umieścimy go może na 160 i 350. Ładne. To pokazuje nam, że runda 0.2314 zaokrągla się do zera.",
+            "ar": "حتى النص «عدد صحيح»... سنقوم وضعه ربما في 160 و 350. جميل لذلك هذا يبين لنا أن جولة من 0.2314 جولات وصولا الى الصفر."
+         },
+         "endTime": 72395,
+         "startTime": 58713
+      },
+      {
+         "text": {
+            "en": "And if I put in something like 4.6, that would round me up to 5. Neat.",
+            "pl": "A jeśli włożyłbym coś takiego jak 4.6, to dookoła mnie do 5. Zgrabne.",
+            "ar": "وإذا وضعت في شيء من هذا القبيل 4.6، التي من شأنها أن تقريب لي ما يصل إلى 5. أنيق."
+         },
+         "endTime": 78307,
+         "startTime": 72395
+      },
+      {
+         "text": {
+            "en": "So if I wanted to randomly generate a 0 or a 1, I could take this random decimal that we're generating that falls between 0 and 1 and stick it right into that round function.",
+            "pl": "Więc jeśli chciałem losowo wygenerować 0 lub 1, Mogę wziąć ten losowy dziesiętny, że jesteśmy generowania, który mieści się między 0 i 1 i trzymać go prosto do tej funkcji rundy.",
+            "ar": "حتى إذا أردت أن تولد عشوائيا 0 أو 1، وأنا يمكن أن تأخذ هذه العشرية العشرية التي نحن توليد التي تقع بين 0 و 1 والعصا الحق في أن وظيفة مستديرة."
+         },
+         "endTime": 90866,
+         "startTime": 78307
+      },
+      {
+         "text": {
+            "en": "So just like this: I'm going to grab this number and plop it down here.",
+            "pl": "Tak po prostu: wezmę ten numer i wyślę go tutaj.",
+            "ar": "لذلك تماما مثل هذا: انا ذاهب لانتزاع هذا الرقم و بلوب عليه هنا."
+         },
+         "endTime": 96271,
+         "startTime": 90866
+      },
+      {
+         "text": {
+            "en": "And now you can see that whenever we generate a number that is less than 0.5 it gets rounded down to 0",
+            "pl": "A teraz widać, że gdy generujemy liczbę, która jest mniejsza niż 0,5, dostaje zaokrąglone w dół do 0",
+            "ar": "والآن يمكنك أن ترى أنه كلما كنا توليد عدد أقل من 0.5 فإنه يحصل تقريب وصولا الى 0"
+         },
+         "endTime": 101543,
+         "startTime": 96271
+      },
+      {
+         "text": {
+            "en": "And whenever we generate a number that is greater than or equal to 0.5 it gets rounded up to 1.",
+            "pl": "I gdy generujemy liczbę, która jest większa lub równa 0,5, dostaje zaokrąglone w górę do 1.",
+            "ar": "وكلما كنا توليد عدد أكبر من أو يساوي 0.5 فإنه يحصل تقريب تصل إلى 1."
+         },
+         "endTime": 107597,
+         "startTime": 101543
+      },
+      {
+         "text": {
+            "en": "And maybe you can start to see the beginning of some sort of coin-flip game here where if you flip a zero, your friend gives you a dollar.",
+            "pl": "I może zaczniesz widzieć początek jakiejś gry na monety, gdzie jeśli rzucisz zero, twój przyjaciel da ci dolara.",
+            "ar": "وربما يمكنك البدء في رؤية بداية نوع من لعبة عملة الوجه هنا حيث إذا كنت الوجه الصفر، صديقك يعطيك دولار."
+         },
+         "endTime": 115248,
+         "startTime": 107597
+      },
+      {
+         "text": {
+            "en": "And if you flip a one your friend gives you ten dollars. Great game, right?",
+            "pl": "A jeśli rzucisz jedną, twój przyjaciel da ci 10 dolarów. Świetna gra, prawda?",
+            "ar": "وإذا قلبت واحدة صديقك يعطيك عشرة دولارات. لعبة رائعة، أليس كذلك؟"
+         },
+         "endTime": 118824,
+         "startTime": 115248
+      },
+      {
+         "text": {
+            "en": "In fact, let's go ahead and illustrate this coin-flipping game with some super realistic coins that just happen to look like really boring ellipses.",
+            "pl": "W rzeczywistości, chodźmy naprzód i zilustrować tę grę monety z niektórych super realistycznych monet, które po prostu zdarzają się wyglądać naprawdę nudne elipsy.",
+            "ar": "في الواقع، دعونا المضي قدما وتوضيح هذه اللعبة عملة التقليب مع بعض القطع النقدية السوبر واقعية التي يحدث فقط لتبدو وكأنها الحذف مملة حقا."
+         },
+         "endTime": 126608,
+         "startTime": 118824
+      },
+      {
+         "text": {
+            "en": "Just like this: I'm going to draw an ellipse in the middle of our canvas and that's going to be our coin. Ooh it's covering the text, let's scoot that up a bit. Great.",
+            "pl": "Właśnie tak: narysuję elipsę na środku naszego płótna i to będzie nasza moneta. Ooh to zakrywa tekst, zróbmy to trochę. Świetnie.",
+            "ar": "تماما مثل هذا: أنا ذاهب لرسم القطع الناقص في منتصف قماش لدينا وهذا سيكون لدينا عملة. أوه انها تغطي النص، دعونا نسخر أن تصل قليلا. عظيم"
+         },
+         "endTime": 137654,
+         "startTime": 126608
+      },
+      {
+         "text": {
+            "en": "And, I have this idea where if I flip a zero, I'm going to show the purple side of the coin, so to make the coin purple I can just fill it with some purple.",
+            "pl": "I, Mam pomysł, gdzie jeśli rzucę zero, mam zamiar pokazać fioletową stronę monety, tak aby moneta fioletowy mogę po prostu wypełnić go z niektórych fioletowy.",
+            "ar": "ولدي هذه الفكرة حيث إذا كنت الوجه الصفر، وأنا ذاهب لإظهار الجانب الأرجواني للعملة، لذلك لجعل عملة الأرجواني يمكنني فقط ملء مع بعض الأرجواني."
+         },
+         "endTime": 148589,
+         "startTime": 137654
+      },
+      {
+         "text": {
+            "en": "And if I flip a one, I'll show the...umm...yellow side of the coin. So it'll be a purple and yellow-sided coin.",
+            "pl": "A jeśli rzucę jedną, pokażę... umm... żółtą stronę medalu. Więc to będzie fioletowa i żółto-stronna moneta.",
+            "ar": "وإذا قلبت واحدة، سأريك الجانب الأصفر للعملة المعدنية. لذلك سوف تكون عملة أرجوانية وصففة-جانب."
+         },
+         "endTime": 155888,
+         "startTime": 148589
+      },
+      {
+         "text": {
+            "en": "And luckily, with our impressive knowledge of if-statements this is super easy.",
+            "pl": "I na szczęście, z naszą imponującą wiedzą o jeśli-stwierdzeniach jest to bardzo proste.",
+            "ar": "ولحسن الحظ, مع معرفتنا المثيرة للإعجاب من إذا البيانات هذا هو السوبر سهلة."
+         },
+         "endTime": 159093,
+         "startTime": 155888
+      },
+      {
+         "text": {
+            "en": "So we can just say if \"integer\" equals zero, so remember we use three equals signs to check for equality, then we will fill the ellipse purple.",
+            "pl": "Więc możemy po prostu powiedzieć, czy „liczba całkowita” równa się zero, więc pamiętaj, że używamy trzech równa się znaki, aby sprawdzić równość, to będziemy wypełnić elipsę fioletowy.",
+            "ar": "لذلك يمكننا أن نقول فقط إذا كان «عدد صحيح» يساوي الصفر، لذلك تذكر أننا نستخدم ثلاثة يساوي علامات للتحقق من المساواة، ثم سنقوم ملء القطع الناقص الأرجواني."
+         },
+         "endTime": 173631,
+         "startTime": 159093
+      },
+      {
+         "text": {
+            "en": "And then if \"integer\" is equal to one, we have a different fill function and we'll make that one yellow.",
+            "pl": "A potem, jeśli „liczba całkowita” jest równa jednej, mamy inną funkcję wypełnienia i zrobimy, że jeden żółty.",
+            "ar": "ثم إذا كان «عدد صحيح» يساوي واحد، لدينا وظيفة ملء مختلفة وسنجعل ذلك واحد أصفر."
+         },
+         "endTime": 186302,
+         "startTime": 173631
+      },
+      {
+         "text": {
+            "en": "Great. And it works! Woo hoo! But let's think about this for a second. Integer here will only ever be zero or one, right? We designed it that way.",
+            "pl": "Świetnie. I to działa! Woo hoo! Ale pomyślmy o tym przez chwilę. Liczba całkowita tutaj zawsze będzie zero lub jeden, prawda? Tak to zaprojektowaliśmy.",
+            "ar": "عظيم وهو يعمل! وو هوو! ولكن دعونا نفكر في هذا لمدة ثانية. عدد صحيح هنا لن يكون إلا من أي وقت مضى صفر أو واحد، أليس كذلك؟ لقد صممنا الأمر بهذه الطريقة."
+         },
+         "endTime": 196108,
+         "startTime": 186302
+      },
+      {
+         "text": {
+            "en": "So that means that either this statement will be true",
+            "pl": "Oznacza to, że albo to stwierdzenie będzie prawdziwe",
+            "ar": "وهذا يعني أن إما هذا البيان سيكون صحيحا"
+         },
+         "endTime": 199042,
+         "startTime": 196108
+      },
+      {
+         "text": {
+            "en": "Or this statement will be true",
+            "pl": "Albo to stwierdzenie będzie prawdziwe",
+            "ar": "أو هذا البيان سيكون صحيحا"
+         },
+         "endTime": 201460,
+         "startTime": 199042
+      },
+      {
+         "text": {
+            "en": "Always.",
+            "pl": "Zawsze.",
+            "ar": "دائماً"
+         },
+         "endTime": 202554,
+         "startTime": 201460
+      },
+      {
+         "text": {
+            "en": "We've covered every possible case here, which means that we can start thinking about our decision making a little differently.",
+            "pl": "Zajmowaliśmy się każdą możliwą sprawą, co oznacza, że możemy zacząć myśleć o podejmowaniu decyzji nieco inaczej.",
+            "ar": "لقد غطينا كل حالة ممكنة هنا، مما يعني أنه يمكننا البدء في التفكير في اتخاذ قرارنا بشكل مختلف قليلاً."
+         },
+         "endTime": 207650,
+         "startTime": 202554
+      },
+      {
+         "text": {
+            "en": "That is, if \"integer\" is equal to zero, we will fill it purple, otherwise, we'll fill yellow.",
+            "pl": "Oznacza to, że jeśli „liczba całkowita” jest równa zeru, wypełnimy ją fioletowo, w przeciwnym razie wypełnimy żółty.",
+            "ar": "وهذا هو، إذا كان «عدد صحيح» يساوي الصفر، ونحن سوف ملء الأرجواني، وإلا، ونحن سوف ملء الأصفر."
+         },
+         "endTime": 215928,
+         "startTime": 207650
+      },
+      {
+         "text": {
+            "en": "So do you see how we don't have to say anything about \"integer\" being one in that second case?",
+            "pl": "Więc widzisz, że nie musimy nic mówić o „liczbie całkowitej” jest jednym w tym drugim przypadku?",
+            "ar": "لذلك هل ترى كيف ليس علينا أن نقول أي شيء عن «عدد صحيح» كونها واحدة في هذه الحالة الثانية؟"
+         },
+         "endTime": 220789,
+         "startTime": 215928
+      },
+      {
+         "text": {
+            "en": "All we have to say is if \"integer\" is zero, do this; otherwise, do that.",
+            "pl": "Wszystko, co musimy powiedzieć, to jeśli „liczba całkowita” wynosi zero, zrób to; w przeciwnym razie zrób to.",
+            "ar": "كل ما علينا قوله هو إذا كان «عدد صحيح» هو صفر، افعل ذلك؛ خلاف ذلك، افعل ذلك."
+         },
+         "endTime": 225255,
+         "startTime": 220789
+      },
+      {
+         "text": {
+            "en": "And in programming, the way we say \"otherwise\" is \"else.\"",
+            "pl": "A w programowaniu sposób, w jaki mówimy „inaczej” jest „inaczej”.",
+            "ar": "وفي البرمجة، الطريقة التي نقول بها «خلاف ذلك» هي «آخر»."
+         },
+         "endTime": 228263,
+         "startTime": 225255
+      },
+      {
+         "text": {
+            "en": "So watch this: I'm just going to replace this second if-condition with the word \"else\"",
+            "pl": "Więc patrzcie na to: Zamierzam zastąpić ten drugi warunek słowem „else”",
+            "ar": "حتى مشاهدة هذا: أنا ذاهب فقط لتحل محل هذا الثاني إذا الشرط مع كلمة «آخر»"
+         },
+         "endTime": 233521,
+         "startTime": 228263
+      },
+      {
+         "text": {
+            "en": "And what this means is that if the stuff inside these parenthesis is true, then run the code in these brackets.",
+            "pl": "Oznacza to, że jeśli rzeczy wewnątrz tych nawiasów są prawdziwe, uruchom kod w tych nawiasach.",
+            "ar": "وما يعنيه هذا هو أنه إذا كانت الاشياء داخل هذه الأقواس صحيح، ثم تشغيل التعليمات البرمجية في هذه الأقواس."
+         },
+         "endTime": 239872,
+         "startTime": 233521
+      },
+      {
+         "text": {
+            "en": "Otherwise, run the code in these brackets.",
+            "pl": "W przeciwnym razie uruchom kod w tych nawiasach.",
+            "ar": "خلاف ذلك، قم بتشغيل التعليمات البرمجية في هذه الأقواس."
+         },
+         "endTime": 243221,
+         "startTime": 239872
+      },
+      {
+         "text": {
+            "en": "And sometimes we'll even put the \"else\" on the same line as that closing bracket just to remind ourselves that these two blocks of code are very, very connected.",
+            "pl": "Czasami nawet umieścimy „jeszcze” na tej samej linii co ten nawias zamykający, aby przypomnieć sobie, że te dwa bloki kodu są bardzo, bardzo połączone.",
+            "ar": "وأحيانا سنقوم حتى وضع «آخر» على نفس السطر كما أن قوس إغلاق فقط لتذكير أنفسنا بأن هاتين الكتلتين من التعليمات البرمجية هي جدا، متصلة جدا."
+         },
+         "endTime": 250490,
+         "startTime": 243237
+      },
+      {
+         "text": {
+            "en": "You can't have an \"else\" block unless you just had an \"if\" block. Got it?",
+            "pl": "Nie możesz mieć bloku „else”, chyba że po prostu miał blok „if”. Masz to?",
+            "ar": "لا يمكنك الحصول على كتلة «آخر» إلا إذا كان لديك كتلة «إذا». حصلت عليه؟"
+         },
+         "endTime": 255551,
+         "startTime": 250490
+      },
+      {
+         "text": {
+            "en": "And this will also help you remember to not put something in between the two blocks like \"var y equals 0,\" and that would just break everything! So don't do that.",
+            "pl": "A to również pomoże Ci pamiętać, aby nie umieścić coś pomiędzy dwoma blokami jak „var y równa się 0”, a to po prostu złamać wszystko! Więc nie rób tego.",
+            "ar": "وهذا سوف تساعدك أيضا على تذكر أن لا تضع شيئا بين الكتلتين مثل «فار y يساوي 0،» والتي من شأنها أن مجرد كسر كل شيء! لذلك لا تفعل ذلك."
+         },
+         "endTime": 267071,
+         "startTime": 255551
+      },
+      {
+         "text": {
+            "en": "Great. So now we know about if-else which is really good when we are deciding between two possible things to do.",
+            "pl": "Świetnie. Więc teraz wiemy o jeśli-jeszcze, co jest naprawdę dobre, gdy decydujemy między dwiema możliwymi rzeczami do zrobienia.",
+            "ar": "عظيم حتى الآن نحن نعرف عن if-else وهو أمر جيد حقا عندما نقرر بين اثنين من الأشياء الممكنة القيام به."
+         },
+         "endTime": 272900,
+         "startTime": 267071
+      },
+      {
+         "text": {
+            "en": "But what if we have more?",
+            "pl": "Ale co, jeśli mamy więcej?",
+            "ar": "ولكن ماذا لو كان لدينا المزيد؟"
+         },
+         "endTime": 274738,
+         "startTime": 272900
+      },
+      {
+         "text": {
+            "en": "What if I generated an integer between zero and two and then I had three possibilities: zero, one, or two? What then?",
+            "pl": "Co zrobić, jeśli wygenerowałem liczbę całkowitą od zera do dwóch i wtedy miałem trzy możliwości: zero, jeden lub dwa? Co wtedy?",
+            "ar": "ماذا لو قمت بإنشاء عدد صحيح بين صفر واثنان ثم كان لدي ثلاثة احتمالات: صفر، واحد، أو اثنين؟ ماذا بعد ذلك؟"
+         },
+         "endTime": 280948,
+         "startTime": 274738
+      },
+      {
+         "text": {
+            "en": "Duh duh duh! To be continued.",
+            "pl": "Duh duh duh! Kontynuować.",
+            "ar": "دوه دوه دوه! أن تستمر."
+         },
+         "endTime": 284948,
+         "startTime": 280948
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/KekbivcYN5c/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759721590",
+   "title": "If/Else - Part 1 | Logic and if Statements | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

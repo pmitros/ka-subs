@@ -1,0 +1,1014 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- [Voiceover] I'd like to introduce you",
+            "pl": "- [Voiceover] Chciałbym cię przedstawić",
+            "ar": "- [Voiceover] أود أن أقدمك"
+         },
+         "endTime": 2162,
+         "startTime": 830
+      },
+      {
+         "text": {
+            "en": "to my good friend, Winston.",
+            "pl": "Mojemu przyjacielowi, Winstonowi.",
+            "ar": "لصديقي العزيز، وينستون."
+         },
+         "endTime": 4226,
+         "startTime": 2162
+      },
+      {
+         "text": {
+            "en": "He's a bit sad today,",
+            "pl": "Jest dziś trochę smutny,",
+            "ar": "إنه حزين بعض الشيء اليوم"
+         },
+         "endTime": 5171,
+         "startTime": 4226
+      },
+      {
+         "text": {
+            "en": "because he's been drawn in black and white,",
+            "pl": "ponieważ został narysowany w czerni i bieli,",
+            "ar": "لأنه تم رسمه باللونين الأسود والأبيض"
+         },
+         "endTime": 7231,
+         "startTime": 5171
+      },
+      {
+         "text": {
+            "en": "and he thinks that's boring.",
+            "pl": "i uważa, że to nudne.",
+            "ar": "وهو يعتقد أن هذا ممل"
+         },
+         "endTime": 9314,
+         "startTime": 7231
+      },
+      {
+         "text": {
+            "en": "Winston is black and white",
+            "pl": "Winston jest czarno-biały",
+            "ar": "وينستون أبيض وأسود"
+         },
+         "endTime": 10998,
+         "startTime": 9314
+      },
+      {
+         "text": {
+            "en": "because black is a default color for outlines,",
+            "pl": "ponieważ kolor czarny jest kolorem domyślnym dla konturów,",
+            "ar": "لأن الأسود هو لون افتراضي للخطوط العريضة،"
+         },
+         "endTime": 13806,
+         "startTime": 10998
+      },
+      {
+         "text": {
+            "en": "and white is a default color for filling in shapes.",
+            "pl": "i biały jest domyślnym kolorem do wypełniania kształtów.",
+            "ar": "والأبيض هو اللون الافتراضي لملء الأشكال."
+         },
+         "endTime": 17121,
+         "startTime": 13807
+      },
+      {
+         "text": {
+            "en": "We're going to change those colors with code.",
+            "pl": "Zmienimy te kolory kodem.",
+            "ar": "ونحن في طريقنا لتغيير تلك الألوان مع التعليمات البرمجية."
+         },
+         "endTime": 20191,
+         "startTime": 17121
+      },
+      {
+         "text": {
+            "en": "First, let's start with coloring in the background.",
+            "pl": "Najpierw zacznijmy od kolorowania w tle.",
+            "ar": "أولا، دعونا نبدأ مع التلوين في الخلفية."
+         },
+         "endTime": 23962,
+         "startTime": 20191
+      },
+      {
+         "text": {
+            "en": "I can do that by typing 'background' up here,",
+            "pl": "Mogę to zrobić, wpisując tutaj „tło”.",
+            "ar": "يمكنني القيام بذلك عن طريق كتابة «الخلفية» هنا،"
+         },
+         "endTime": 28320,
+         "startTime": 23963
+      },
+      {
+         "text": {
+            "en": "and it autocompletes the command for me,",
+            "pl": "i automatycznie uzupełnia polecenie dla mnie,",
+            "ar": "ويكمل الأمر بالنسبة لي تلقائيًا،"
+         },
+         "endTime": 30820,
+         "startTime": 28320
+      },
+      {
+         "text": {
+            "en": "and my background is red.",
+            "pl": "a moje tło jest czerwone.",
+            "ar": "وخلفيتي حمراء."
+         },
+         "endTime": 33245,
+         "startTime": 30820
+      },
+      {
+         "text": {
+            "en": "All the coloring commands are autocompleted on Khan Academy,",
+            "pl": "Wszystkie polecenia kolorowania są automatycznie uzupełniane na Khan Academy,",
+            "ar": "جميع أوامر التلوين مكتملة تلقائيًا في أكاديمية خان"
+         },
+         "endTime": 36797,
+         "startTime": 33245
+      },
+      {
+         "text": {
+            "en": "because these three parameters are hard",
+            "pl": "ponieważ te trzy parametry są trudne",
+            "ar": "لأن هذه المعلمات الثلاثة صعبة"
+         },
+         "endTime": 39291,
+         "startTime": 36797
+      },
+      {
+         "text": {
+            "en": "to figure out yourself.",
+            "pl": ", aby dowiedzieć się sam.",
+            "ar": "لمعرفة نفسك."
+         },
+         "endTime": 41331,
+         "startTime": 39292
+      },
+      {
+         "text": {
+            "en": "You see, we need some way to describe a color to a computer,",
+            "pl": "Widzisz, potrzebujemy jakiegoś sposobu, by opisać kolor komputerowi.",
+            "ar": "كما ترى، نحن بحاجة إلى طريقة لوصف لون إلى جهاز كمبيوتر،"
+         },
+         "endTime": 44774,
+         "startTime": 41331
+      },
+      {
+         "text": {
+            "en": "because computers don't see colors the way that humans do.",
+            "pl": "Ponieważ komputery nie widzą kolorów tak, jak ludzie.",
+            "ar": "لأن الحواسيب لا ترى الألوان كما يفعل البشر"
+         },
+         "endTime": 48464,
+         "startTime": 44774
+      },
+      {
+         "text": {
+            "en": "Here, we're using something called RGB colors.",
+            "pl": "Tutaj używamy czegoś, co nazywa się kolorami RGB.",
+            "ar": "هنا، نحن نستخدم شيئا يسمى ألوان RGB."
+         },
+         "endTime": 52585,
+         "startTime": 48464
+      },
+      {
+         "text": {
+            "en": "The first parameter is how red the color is.",
+            "pl": "Pierwszym parametrem jest to, jak czerwony jest kolor.",
+            "ar": "المعلمة الأولى هي كيف أحمر اللون."
+         },
+         "endTime": 56710,
+         "startTime": 52585
+      },
+      {
+         "text": {
+            "en": "The second is how green it is.",
+            "pl": "Drugim jest to, jak zielony jest.",
+            "ar": "والثاني هو كيف الأخضر هو."
+         },
+         "endTime": 58671,
+         "startTime": 56710
+      },
+      {
+         "text": {
+            "en": "And the third is how blue it is.",
+            "pl": "Trzeci to, jak niebieski jest.",
+            "ar": "والثالث هو كم هو الأزرق."
+         },
+         "endTime": 61446,
+         "startTime": 58671
+      },
+      {
+         "text": {
+            "en": "In this one, we're using 255 for red,",
+            "pl": "W tym, używamy 255 dla czerwonego,",
+            "ar": "في هذا واحد، نحن نستخدم 255 للأحمر،"
+         },
+         "endTime": 64730,
+         "startTime": 61446
+      },
+      {
+         "text": {
+            "en": "which is the most red it can be,",
+            "pl": "który jest najbardziej czerwony może być,",
+            "ar": "الذي هو الأكثر الأحمر يمكن أن يكون،"
+         },
+         "endTime": 66705,
+         "startTime": 64730
+      },
+      {
+         "text": {
+            "en": "and zero for green and blue,",
+            "pl": "i zero dla zielonego i niebieskiego,",
+            "ar": "وصفر للأخضر والأزرق،"
+         },
+         "endTime": 68899,
+         "startTime": 66705
+      },
+      {
+         "text": {
+            "en": "which are the lowest they can be.",
+            "pl": "które są najniższe mogą być.",
+            "ar": "وهي أدنى ما يمكن أن تكون عليه."
+         },
+         "endTime": 71263,
+         "startTime": 68899
+      },
+      {
+         "text": {
+            "en": "And that is why our background looks red.",
+            "pl": "I dlatego nasze tło wygląda na czerwone.",
+            "ar": "وهذا هو السبب في خلفيتنا تبدو حمراء."
+         },
+         "endTime": 73677,
+         "startTime": 71263
+      },
+      {
+         "text": {
+            "en": "I wanna make this a light blue instead, though.",
+            "pl": "Zamiast tego chcę, żeby to było jasnoniebieskie.",
+            "ar": "أريد أن أجعل هذا أزرق فاتح بدلاً من ذلك"
+         },
+         "endTime": 78192,
+         "startTime": 74987
+      },
+      {
+         "text": {
+            "en": "I could try to figure out exactly how much",
+            "pl": "Mógłbym spróbować dowiedzieć się dokładnie, ile",
+            "ar": "أنا يمكن أن أحاول معرفة بالضبط كم"
+         },
+         "endTime": 80101,
+         "startTime": 78192
+      },
+      {
+         "text": {
+            "en": "each number should be.",
+            "pl": "każdy numer powinien być.",
+            "ar": "يجب أن يكون كل رقم."
+         },
+         "endTime": 81749,
+         "startTime": 80101
+      },
+      {
+         "text": {
+            "en": "Or I could take a much easier approach.",
+            "pl": "Albo mogę podjąć o wiele łatwiejsze podejście.",
+            "ar": "أو يمكنني اتخاذ نهج أسهل بكثير."
+         },
+         "endTime": 84917,
+         "startTime": 81749
+      },
+      {
+         "text": {
+            "en": "I can just click on the numbers,",
+            "pl": "Mogę po prostu kliknąć na numery,",
+            "ar": "يمكنني فقط الضغط على الأرقام،"
+         },
+         "endTime": 87700,
+         "startTime": 84918
+      },
+      {
+         "text": {
+            "en": "and use the color picker that pops up,",
+            "pl": "i użyj próbnika kolorów, który wyskakuje,",
+            "ar": "واستخدام منتقي الألوان التي للملوثات العضوية الثابتة،"
+         },
+         "endTime": 88993,
+         "startTime": 87700
+      },
+      {
+         "text": {
+            "en": "and then drag around",
+            "pl": ", a następnie przeciągnij",
+            "ar": "ثم اسحب حولها"
+         },
+         "endTime": 90723,
+         "startTime": 88993
+      },
+      {
+         "text": {
+            "en": "until I find a color I like. Perfect.",
+            "pl": "dopóki nie znajdę koloru, który mi się podoba. Idealne.",
+            "ar": "حتى أجد لونًا يعجبني. الكمال."
+         },
+         "endTime": 93672,
+         "startTime": 90723
+      },
+      {
+         "text": {
+            "en": "Now, it's important to understand",
+            "pl": "Teraz, ważne jest, aby zrozumieć",
+            "ar": "الآن، من المهم أن نفهم"
+         },
+         "endTime": 97300,
+         "startTime": 95102
+      },
+      {
+         "text": {
+            "en": "what this background function is really doing.",
+            "pl": "co ta funkcja tła naprawdę robi.",
+            "ar": "ما تقوم به وظيفة الخلفية هذه حقًا."
+         },
+         "endTime": 99777,
+         "startTime": 97300
+      },
+      {
+         "text": {
+            "en": "It's just drawing a big colored square",
+            "pl": "To tylko rysowanie dużego, kolorowego kwadratu",
+            "ar": "انها مجرد رسم مربع ملون كبير"
+         },
+         "endTime": 103630,
+         "startTime": 99778
+      },
+      {
+         "text": {
+            "en": "over the entire canvas.",
+            "pl": "na całym płótnie.",
+            "ar": "على قماش كامل."
+         },
+         "endTime": 105720,
+         "startTime": 103630
+      },
+      {
+         "text": {
+            "en": "If I take this out,",
+            "pl": "Jeśli to wyjmę,",
+            "ar": "إذا أخرجتُ هذا"
+         },
+         "endTime": 106905,
+         "startTime": 105720
+      },
+      {
+         "text": {
+            "en": "and I move it to the end here,",
+            "pl": "i przenoszę go do końca tutaj,",
+            "ar": "وأنا نقلها إلى النهاية هنا،"
+         },
+         "endTime": 109599,
+         "startTime": 106905
+      },
+      {
+         "text": {
+            "en": "then it draws that square over everything,",
+            "pl": "wtedy rysuje ten kwadrat nad wszystkim,",
+            "ar": "ثم يرسم هذا المربع على كل شيء،"
+         },
+         "endTime": 113290,
+         "startTime": 109599
+      },
+      {
+         "text": {
+            "en": "and it looks like they've disappeared.",
+            "pl": "I wygląda na to, że zniknęli.",
+            "ar": "ويبدو أنهم اختفوا"
+         },
+         "endTime": 115485,
+         "startTime": 113290
+      },
+      {
+         "text": {
+            "en": "That's why it's really important",
+            "pl": "Dlatego jest to naprawdę ważne.",
+            "ar": "هذا هو السبب في أنه من المهم حقا"
+         },
+         "endTime": 117435,
+         "startTime": 115485
+      },
+      {
+         "text": {
+            "en": "that the 'background' function is up",
+            "pl": "że funkcja „tła” jest w górę",
+            "ar": "أن وظيفة «الخلفية» متروك"
+         },
+         "endTime": 120249,
+         "startTime": 117435
+      },
+      {
+         "text": {
+            "en": "at the top of our program.",
+            "pl": "w górnej części naszego programu.",
+            "ar": "في الجزء العلوي من برنامجنا."
+         },
+         "endTime": 122250,
+         "startTime": 120249
+      },
+      {
+         "text": {
+            "en": "Now, let's color his face.",
+            "pl": "Teraz pomalujmy jego twarz.",
+            "ar": "الآن، دعونا نلوّن وجهه"
+         },
+         "endTime": 124505,
+         "startTime": 122251
+      },
+      {
+         "text": {
+            "en": "Remember that the default color of our shapes is white.",
+            "pl": "Pamiętaj, że domyślnym kolorem naszych kształtów jest biały.",
+            "ar": "تذكر أن اللون الافتراضي لأشكالنا أبيض."
+         },
+         "endTime": 127952,
+         "startTime": 124505
+      },
+      {
+         "text": {
+            "en": "To change that, we need to use the 'fill' command.",
+            "pl": "Aby to zmienić, musimy użyć polecenia „fill”.",
+            "ar": "لتغيير ذلك، نحتاج إلى استخدام الأمر «fill»."
+         },
+         "endTime": 132387,
+         "startTime": 127953
+      },
+      {
+         "text": {
+            "en": "I'll type it right here.",
+            "pl": "Wpiszę to tutaj.",
+            "ar": "سأكتبها هنا"
+         },
+         "endTime": 134430,
+         "startTime": 132387
+      },
+      {
+         "text": {
+            "en": "And once again, it defaults to red.",
+            "pl": "I po raz kolejny, domyślnie jest czerwony.",
+            "ar": "ومرة أخرى، فإنه افتراضيا إلى الأحمر."
+         },
+         "endTime": 137660,
+         "startTime": 134430
+      },
+      {
+         "text": {
+            "en": "Notice, it didn't just make his face red.",
+            "pl": "Zauważ, że to nie tylko sprawiło, że jego twarz była czerwona.",
+            "ar": "لاحظ أنه لم يجعل وجهه أحمر"
+         },
+         "endTime": 140150,
+         "startTime": 137660
+      },
+      {
+         "text": {
+            "en": "It also made every other shape red.",
+            "pl": "Sprawił również, że każdy inny kształt jest czerwony.",
+            "ar": "كما أنها جعلت كل شكل آخر أحمر."
+         },
+         "endTime": 142625,
+         "startTime": 140150
+      },
+      {
+         "text": {
+            "en": "That's because the 'fill' function basically means",
+            "pl": "To dlatego, że funkcja „wypełnić” w zasadzie oznacza",
+            "ar": "هذا لأن وظيفة «التعبئة» تعني بشكل أساسي"
+         },
+         "endTime": 145425,
+         "startTime": 142625
+      },
+      {
+         "text": {
+            "en": "use this fill color for every shape",
+            "pl": "użyj tego koloru wypełnienia dla każdego kształtu",
+            "ar": "استخدم لون التعبئة هذا لكل شكل"
+         },
+         "endTime": 148313,
+         "startTime": 145425
+      },
+      {
+         "text": {
+            "en": "that comes after this command.",
+            "pl": "który przychodzi po tym poleceniu.",
+            "ar": "الذي يأتي بعد هذا الأمر."
+         },
+         "endTime": 151239,
+         "startTime": 148313
+      },
+      {
+         "text": {
+            "en": "Well, I'm going to start by changing this to yellow.",
+            "pl": "Zacznę od zmiany tego na żółty.",
+            "ar": "حسناً، سأبدأ بتغيير هذا إلى اللون الأصفر"
+         },
+         "endTime": 155480,
+         "startTime": 151240
+      },
+      {
+         "text": {
+            "en": "And now, in order to make the eyes",
+            "pl": "A teraz, aby oczy",
+            "ar": "والآن، من أجل جعل العيون"
+         },
+         "endTime": 158381,
+         "startTime": 155480
+      },
+      {
+         "text": {
+            "en": "and the mouth different colors,",
+            "pl": "i usta różne kolory,",
+            "ar": "والفم ألوان مختلفة،"
+         },
+         "endTime": 159670,
+         "startTime": 158382
+      },
+      {
+         "text": {
+            "en": "I'll just use 'fill' again.",
+            "pl": "Użyję jeszcze raz „wypełnienia”.",
+            "ar": "سأستخدم فقط «تعبئة» مرة أخرى."
+         },
+         "endTime": 161622,
+         "startTime": 159670
+      },
+      {
+         "text": {
+            "en": "So to do his eyes, I'm going to type 'fill'",
+            "pl": "Więc aby zrobić jego oczy, mam zamiar wpisać „wypełnić”",
+            "ar": "لذلك للقيام عينيه، وأنا ذاهب لكتابة 'ملء'"
+         },
+         "endTime": 164639,
+         "startTime": 161622
+      },
+      {
+         "text": {
+            "en": "before the two ellipses for his eyes.",
+            "pl": "przed dwoma elipsami dla oczu.",
+            "ar": "قبل الحذف اثنين لعينيه."
+         },
+         "endTime": 167808,
+         "startTime": 164639
+      },
+      {
+         "text": {
+            "en": "Ooh. He looks a little bit like a demon right now.",
+            "pl": "Ooh. Wygląda teraz trochę jak demon.",
+            "ar": "أوه. انه يبدو قليلا مثل شيطان في الوقت الراهن."
+         },
+         "endTime": 171360,
+         "startTime": 167808
+      },
+      {
+         "text": {
+            "en": "So we're going to change that to black. Okay.",
+            "pl": "Więc zmienimy to na czarne. Okej.",
+            "ar": "لذلك نحن ذاهبون لتغيير ذلك إلى الأسود. حسناً"
+         },
+         "endTime": 175307,
+         "startTime": 171360
+      },
+      {
+         "text": {
+            "en": "Now to do his mouth, I'll type 'fill'",
+            "pl": "Teraz, aby zrobić jego usta, wpiszę „wypełnić”",
+            "ar": "الآن للقيام بفمه، وأنا اكتب «ملء»"
+         },
+         "endTime": 179810,
+         "startTime": 175307
+      },
+      {
+         "text": {
+            "en": "before the ellipse for his mouth.",
+            "pl": "przed elipsą do ust.",
+            "ar": "قبل القطع الناقص لفمه."
+         },
+         "endTime": 181310,
+         "startTime": 179810
+      },
+      {
+         "text": {
+            "en": "And I'll keep it as red,",
+            "pl": "I zatrzymam ją jako czerwoną,",
+            "ar": "وسأبقيه كأحمر"
+         },
+         "endTime": 183642,
+         "startTime": 181310
+      },
+      {
+         "text": {
+            "en": "because, hey, it's a mouth.",
+            "pl": "Bo, hej, to usta.",
+            "ar": "لأنه، مهلا، انه فم."
+         },
+         "endTime": 185791,
+         "startTime": 183642
+      },
+      {
+         "text": {
+            "en": "Okay. Now that it looks like a bright and sunny day,",
+            "pl": "Okej. Teraz, gdy wygląda jak jasny i słoneczny dzień,",
+            "ar": "حسناً الآن بعد أن يبدو وكأنه يوم مشرق ومشمس،"
+         },
+         "endTime": 189796,
+         "startTime": 185791
+      },
+      {
+         "text": {
+            "en": "Winston might want to go running.",
+            "pl": "Winston może chcieć biec.",
+            "ar": "(وينستون) قد يرغب بالركض"
+         },
+         "endTime": 192209,
+         "startTime": 189796
+      },
+      {
+         "text": {
+            "en": "Let's give him a headband",
+            "pl": "Dajmy mu opaskę na głowę.",
+            "ar": "دعونا نعطيه عقال"
+         },
+         "endTime": 194730,
+         "startTime": 192210
+      },
+      {
+         "text": {
+            "en": "to soak up all the sweat.",
+            "pl": ", aby wchłonąć cały pot.",
+            "ar": "لامتصاص كل العرق."
+         },
+         "endTime": 197399,
+         "startTime": 194730
+      },
+      {
+         "text": {
+            "en": "I'll use the 'line' function",
+            "pl": "Użyję funkcji „line”",
+            "ar": "سأستخدم وظيفة «الخط»"
+         },
+         "endTime": 200420,
+         "startTime": 198660
+      },
+      {
+         "text": {
+            "en": "to draw a line across his forehead.",
+            "pl": "narysować linię na czole.",
+            "ar": "لرسم خط عبر جبهته."
+         },
+         "endTime": 203896,
+         "startTime": 200420
+      },
+      {
+         "text": {
+            "en": "And I already know some good coordinates for that. Nice.",
+            "pl": "I już znam kilka dobrych współrzędnych. Ładne.",
+            "ar": "وأنا أعرف بالفعل بعض الإحداثيات الجيدة لذلك. جميل"
+         },
+         "endTime": 208332,
+         "startTime": 203896
+      },
+      {
+         "text": {
+            "en": "I want this headband to be a lot thicker,",
+            "pl": "Chcę, żeby ta opaska była o wiele grubsza,",
+            "ar": "أريد أن تكون عصابة الرأس هذه أكثر سمكا"
+         },
+         "endTime": 212100,
+         "startTime": 209772
+      },
+      {
+         "text": {
+            "en": "because he's going to sweat a lot.",
+            "pl": "bo będzie się dużo pocić.",
+            "ar": "لأنه سيتعرق كثيراً"
+         },
+         "endTime": 214631,
+         "startTime": 212100
+      },
+      {
+         "text": {
+            "en": "For that, I'll use a new command, 'strokeWeight.'",
+            "pl": "W tym celu użyję nowego polecenia, „StrokeWeight”.",
+            "ar": "لذلك، سأستخدم أمرًا جديدًا، «StrokeWeight»."
+         },
+         "endTime": 219207,
+         "startTime": 214631
+      },
+      {
+         "text": {
+            "en": "And I need a pass at a number to say how thick",
+            "pl": "I potrzebuję przepustkę na numer, aby powiedzieć, jak gruba",
+            "ar": "وأنا بحاجة إلى تمريرة في عدد لأقول كم سميكة"
+         },
+         "endTime": 222636,
+         "startTime": 219877
+      },
+      {
+         "text": {
+            "en": "we want this line to be.",
+            "pl": "Chcemy, żeby ta linia była.",
+            "ar": "نريد أن يكون هذا الخط."
+         },
+         "endTime": 224833,
+         "startTime": 222636
+      },
+      {
+         "text": {
+            "en": "Let's try 20.",
+            "pl": "Spróbujmy 20.",
+            "ar": "دعونا نحاول 20."
+         },
+         "endTime": 226831,
+         "startTime": 224833
+      },
+      {
+         "text": {
+            "en": "It's pretty good,",
+            "pl": "Całkiem nieźle.",
+            "ar": "انها جيدة جدا،"
+         },
+         "endTime": 228239,
+         "startTime": 226831
+      },
+      {
+         "text": {
+            "en": "but I'm just gonna make it a little bigger. Okay. Good.",
+            "pl": "Ale zrobię to trochę większe. Okej. Dobre.",
+            "ar": "لكنني سأجعله أكبر قليلاً حسناً جيد"
+         },
+         "endTime": 231667,
+         "startTime": 228240
+      },
+      {
+         "text": {
+            "en": "Of course, I want this headband to be more colorful.",
+            "pl": "Oczywiście chcę, aby ta opaska była bardziej kolorowa.",
+            "ar": "بالطبع، أريد أن تكون عصابة الرأس هذه أكثر سخونة."
+         },
+         "endTime": 235470,
+         "startTime": 232690
+      },
+      {
+         "text": {
+            "en": "Cuz you know, black, not so great.",
+            "pl": "Bo wiesz, czarny, nie tak wielki.",
+            "ar": "لأنك تعرف، أسود، ليس عظيم جدا."
+         },
+         "endTime": 237884,
+         "startTime": 235470
+      },
+      {
+         "text": {
+            "en": "To color the headband, I have to use",
+            "pl": "Aby pokolorować pałąk, muszę użyć",
+            "ar": "لتلوين عقال، لا بد لي من استخدام"
+         },
+         "endTime": 240345,
+         "startTime": 237884
+      },
+      {
+         "text": {
+            "en": "another new command, 'stroke.'",
+            "pl": "kolejne nowe polecenie, „obrys”.",
+            "ar": "أمر جديد آخر، «السكتة الدماغية»."
+         },
+         "endTime": 243725,
+         "startTime": 240346
+      },
+      {
+         "text": {
+            "en": "And let me change that to that color.",
+            "pl": "I pozwól, że zmienię to na ten kolor.",
+            "ar": "واسمحوا لي أن أغير ذلك إلى ذلك اللون."
+         },
+         "endTime": 249981,
+         "startTime": 245375
+      },
+      {
+         "text": {
+            "en": "That looks good.",
+            "pl": "To wygląda dobrze.",
+            "ar": "هذا يبدو جيداً"
+         },
+         "endTime": 251433,
+         "startTime": 249981
+      },
+      {
+         "text": {
+            "en": "The 'stroke' command",
+            "pl": "Polecenie „obrys”",
+            "ar": "أمر «السكتة الدماغية»"
+         },
+         "endTime": 253230,
+         "startTime": 251433
+      },
+      {
+         "text": {
+            "en": "is a way that we color the outlines of shapes",
+            "pl": "to sposób, w jaki pokolorowamy kontury kształtów",
+            "ar": "هي الطريقة التي نلوين الخطوط العريضة للأشكال"
+         },
+         "endTime": 257295,
+         "startTime": 253230
+      },
+      {
+         "text": {
+            "en": "and the way that we set the colors for lines.",
+            "pl": "i sposób, w jaki ustawiamy kolory linii.",
+            "ar": "والطريقة التي وضعنا بها الألوان للخطوط."
+         },
+         "endTime": 260700,
+         "startTime": 257295
+      },
+      {
+         "text": {
+            "en": "That's different from 'fill,'",
+            "pl": "To różni się od 'wypełnienia, '",
+            "ar": "هذا يختلف عن «ملء»"
+         },
+         "endTime": 262241,
+         "startTime": 260700
+      },
+      {
+         "text": {
+            "en": "while fills the inside of a shape with color.",
+            "pl": "podczas gdy wypełnia wnętrze kształtu kolorem.",
+            "ar": "بينما يملأ داخل شكل مع اللون."
+         },
+         "endTime": 264945,
+         "startTime": 262241
+      },
+      {
+         "text": {
+            "en": "A line doesn't really have an inside.",
+            "pl": "Linia tak naprawdę nie ma wewnątrz.",
+            "ar": "خط لا يملك حقا داخل."
+         },
+         "endTime": 268570,
+         "startTime": 264945
+      },
+      {
+         "text": {
+            "en": "So 'fill' will never affect a line.",
+            "pl": "Tak więc „wypełnienie” nigdy nie wpłynie na linię.",
+            "ar": "لذلك «ملء» لن يؤثر أبدا على خط."
+         },
+         "endTime": 270891,
+         "startTime": 268570
+      },
+      {
+         "text": {
+            "en": "We also have a function that we can use",
+            "pl": "Mamy również funkcję, którą możemy użyć",
+            "ar": "لدينا أيضا وظيفة يمكننا استخدامها"
+         },
+         "endTime": 273796,
+         "startTime": 271981
+      },
+      {
+         "text": {
+            "en": "to turn off outlines entirely.",
+            "pl": ", aby całkowicie wyłączyć kontury.",
+            "ar": "لإيقاف الخطوط العريضة تماما."
+         },
+         "endTime": 275856,
+         "startTime": 273797
+      },
+      {
+         "text": {
+            "en": "I'll type that up here, 'noStroke.'",
+            "pl": "Wpiszę to tutaj, „NoStroke”.",
+            "ar": "سأكتبها هنا، «نوستروك»."
+         },
+         "endTime": 279629,
+         "startTime": 276946
+      },
+      {
+         "text": {
+            "en": "Notice we now have no outlines",
+            "pl": "Zauważ, że teraz nie mamy żadnych konturów",
+            "ar": "لاحظ أنه ليس لدينا الآن الخطوط العريضة"
+         },
+         "endTime": 283238,
+         "startTime": 280989
+      },
+      {
+         "text": {
+            "en": "around our face, our eyes, and our mouth.",
+            "pl": "wokół naszej twarzy, oczu i ust.",
+            "ar": "حول وجهنا، أعيننا، وفمنا."
+         },
+         "endTime": 286350,
+         "startTime": 283238
+      },
+      {
+         "text": {
+            "en": "We can still see our headband,",
+            "pl": "Wciąż widzimy naszą opaskę na głowę,",
+            "ar": "ما زلنا نرى عقال لدينا،"
+         },
+         "endTime": 288583,
+         "startTime": 286350
+      },
+      {
+         "text": {
+            "en": "because we have got that 'stroke' command right before it.",
+            "pl": "ponieważ mamy to polecenie „skok” tuż przed nim.",
+            "ar": "لأننا حصلنا على أمر «السكتة الدماغية» قبل ذلك مباشرة."
+         },
+         "endTime": 291157,
+         "startTime": 288583
+      },
+      {
+         "text": {
+            "en": "And 'stroke' basically turns 'noStroke' off",
+            "pl": "A 'skok' w zasadzie wyłącza 'NoStroke'",
+            "ar": "و «السكتة الدماغية» يتحول أساسا «نوستروك» قبالة"
+         },
+         "endTime": 295765,
+         "startTime": 291157
+      },
+      {
+         "text": {
+            "en": "once the program sees it.",
+            "pl": "gdy program go zobaczy.",
+            "ar": "بمجرد أن يراها البرنامج."
+         },
+         "endTime": 297822,
+         "startTime": 295765
+      },
+      {
+         "text": {
+            "en": "Okay. So that's what you need to know color your drawings.",
+            "pl": "Okej. Więc to jest to, co musisz wiedzieć, pokolorować swoje rysunki.",
+            "ar": "حسناً لذلك هذا ما تحتاج إلى معرفته لون الرسومات الخاصة بك."
+         },
+         "endTime": 301419,
+         "startTime": 297822
+      },
+      {
+         "text": {
+            "en": "The important thing is to make sure",
+            "pl": "Ważne jest, aby upewnić się, że",
+            "ar": "الشيء المهم هو التأكد"
+         },
+         "endTime": 303972,
+         "startTime": 301419
+      },
+      {
+         "text": {
+            "en": "that you pay attention to the order of your commands.",
+            "pl": ", że zwracasz uwagę na kolejność poleceń.",
+            "ar": "أن تولي اهتماما لترتيب الأوامر الخاصة بك."
+         },
+         "endTime": 306933,
+         "startTime": 303972
+      },
+      {
+         "text": {
+            "en": "So you should always set the color",
+            "pl": "Więc należy zawsze ustawić kolor",
+            "ar": "لذلك يجب عليك دائما تعيين اللون"
+         },
+         "endTime": 309209,
+         "startTime": 306933
+      },
+      {
+         "text": {
+            "en": "before you draw the shapes that you want to be",
+            "pl": "przed narysowaniem kształtów, które chcesz być",
+            "ar": "قبل أن ترسم الأشكال التي تريد أن تكون"
+         },
+         "endTime": 312494,
+         "startTime": 309209
+      },
+      {
+         "text": {
+            "en": "colored with that color.",
+            "pl": "kolorowe tym kolorem.",
+            "ar": "الملونة مع هذا اللون."
+         },
+         "endTime": 314687,
+         "startTime": 312494
+      },
+      {
+         "text": {
+            "en": "Now, go make the world a more colorful place.",
+            "pl": "Teraz idź uczynić świat bardziej kolorowym miejscem.",
+            "ar": "الآن، اذهب لجعل العالم مكانا أكثر سخونة."
+         },
+         "endTime": 317927,
+         "startTime": 314687
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/xNRV1l0d1Ug/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759570774",
+   "title": "Coloring with code | Coloring | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

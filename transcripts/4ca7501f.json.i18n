@@ -1,0 +1,591 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "We're back with a program that prints out my array of friends.",
+            "pl": "Wróciliśmy z programem, który wydrukuje moją koleżankę przyjaciół.",
+            "ar": "لقد عدنا مع برنامج يطبع مجموعة أصدقائي"
+         },
+         "endTime": 4238,
+         "startTime": 1273
+      },
+      {
+         "text": {
+            "en": "But there's something that really annoys me about it.",
+            "pl": "Ale jest coś, co mnie w tym wkurza.",
+            "ar": "ولكن هناك شيء يزعجني حقا حول هذا الموضوع."
+         },
+         "endTime": 7007,
+         "startTime": 4238
+      },
+      {
+         "text": {
+            "en": "Every time I add a new friend to the array, I have to add a new text command down here.",
+            "pl": "Za każdym razem, gdy dodaję nowego znajomego do tablicy, muszę dodać nowe polecenie tekstowe tutaj.",
+            "ar": "في كل مرة أضيف صديق جديد إلى الصفيف، لا بد لي من إضافة أمر نص جديد هنا."
+         },
+         "endTime": 11295,
+         "startTime": 7007
+      },
+      {
+         "text": {
+            "en": "So let's say I add Winston.",
+            "pl": "Powiedzmy, że dodam Winstona.",
+            "ar": "لذلك دعونا نقول أنني أضيف وينستون."
+         },
+         "endTime": 13378,
+         "startTime": 11295
+      },
+      {
+         "text": {
+            "en": "Well, he doesn't automatically show up.",
+            "pl": "Cóż, on się nie zjawia.",
+            "ar": "حسنا، هو لا يظهر تلقائيا."
+         },
+         "endTime": 15211,
+         "startTime": 13378
+      },
+      {
+         "text": {
+            "en": "If I want him to show up, I have to go and say 'text(myFriends[3]', and then change the y position and then we see Winston.",
+            "pl": "Jeśli chcę, żeby się pokazał, muszę iść i powiedzieć „tekst (MyFriends [3]”, a następnie zmienić pozycję y, a następnie widzimy Winstona.",
+            "ar": "إذا كنت أريد له أن تظهر، لا بد لي من الذهاب ويقول 'النص (MyFriends [3] '، ومن ثم تغيير موقف y ومن ثم نرى وينستون."
+         },
+         "endTime": 20775,
+         "startTime": 15211
+      },
+      {
+         "text": {
+            "en": "So that's way too much work.",
+            "pl": "Więc to za dużo pracy.",
+            "ar": "لذلك هذا هو الطريق الكثير من العمل."
+         },
+         "endTime": 25414,
+         "startTime": 23630
+      },
+      {
+         "text": {
+            "en": "I just want it so that every time I add someone else to the array, it does the text command automatically.",
+            "pl": "Chcę go po prostu tak, że za każdym razem, gdy dodam kogoś innego do tablicy, robi to polecenie tekstowe automatycznie.",
+            "ar": "أريد فقط ذلك بحيث في كل مرة أقوم بإضافة شخص آخر إلى المصفوفة، يقوم الأمر text تلقائيًا."
+         },
+         "endTime": 30767,
+         "startTime": 25522
+      },
+      {
+         "text": {
+            "en": "Well, do you remember when we learned loops?",
+            "pl": "Pamiętasz, jak nauczyliśmy się pętli?",
+            "ar": "حسنا، هل تتذكر عندما تعلمنا الحلقات؟"
+         },
+         "endTime": 34736,
+         "startTime": 31937
+      },
+      {
+         "text": {
+            "en": "Loops were a great way to repeat the same bit of code many times in a row.",
+            "pl": "Pętle były świetnym sposobem, aby powtórzyć ten sam bit kodu wiele razy z rzędu.",
+            "ar": "كانت الحلقات طريقة رائعة لتكرار نفس الشيء من التعليمات البرمجية عدة مرات متتالية."
+         },
+         "endTime": 38378,
+         "startTime": 34736
+      },
+      {
+         "text": {
+            "en": "Like, if we wanted to have a bunch of trees in a row or a bunch of balloons.",
+            "pl": "Na przykład, gdybyśmy chcieli mieć kilka drzew z rzędu albo kilka balonów.",
+            "ar": "مثل، إذا أردنا أن يكون لدينا حفنة من الأشجار على التوالي أو حفنة من البالونات."
+         },
+         "endTime": 43273,
+         "startTime": 38378
+      },
+      {
+         "text": {
+            "en": "Well, as it turns out, loops are also a great way to run a bit of code on each element in an array.",
+            "pl": "Cóż, jak się okazuje, pętle są również świetnym sposobem na uruchomienie trochę kodu na każdym elemencie tablicy.",
+            "ar": "حسنا، كما اتضح، الحلقات هي أيضا وسيلة رائعة لتشغيل قليلا من التعليمات البرمجية على كل عنصر في صفيف."
+         },
+         "endTime": 49628,
+         "startTime": 43273
+      },
+      {
+         "text": {
+            "en": "In fact, you'll use a loop almost every time you use an array. They work really well together.",
+            "pl": "W rzeczywistości, będziesz używać pętli prawie za każdym razem, gdy używasz tablicy. Świetnie ze sobą pracują.",
+            "ar": "في الواقع، ستستخدم حلقة تقريبًا في كل مرة تستخدم فيها صفيف. انهم يعملون معا بشكل جيد حقا."
+         },
+         "endTime": 57378,
+         "startTime": 49628
+      },
+      {
+         "text": {
+            "en": "So lets use a loop to display my friends' names, instead of having all these text commands, to show you what I mean.",
+            "pl": "Więc pozwala użyć pętli, aby wyświetlić nazwiska moich znajomych, zamiast mieć wszystkie te polecenia tekstowe, aby pokazać, co mam na myśli.",
+            "ar": "لذلك يتيح استخدام حلقة لعرض أسماء أصدقائي، بدلا من وجود كل هذه الأوامر النصية، لتظهر لك ما أعنيه."
+         },
+         "endTime": 63736,
+         "startTime": 57378
+      },
+      {
+         "text": {
+            "en": "So well start with the three questions we always ask ourselves when we're making a loop.",
+            "pl": "Zacznij od trzech pytań, które zawsze sobie zadajemy, kiedy robimy pętlę.",
+            "ar": "حتى تبدأ بشكل جيد مع الأسئلة الثلاثة التي نسأل أنفسنا دائما عندما نحن جعل حلقة."
+         },
+         "endTime": 67795,
+         "startTime": 63736
+      },
+      {
+         "text": {
+            "en": "First, what do I want to repeat? Well, look up here. What's repeated? The text command.",
+            "pl": "Po pierwsze, co chcę powtórzyć? Cóż, spójrz tutaj. Co się powtarza? Polecenie tekstowe.",
+            "ar": "أولا، ماذا أريد أن أكرر؟ حسنا، انظر هنا ما الذي يتكرر؟ أمر النص."
+         },
+         "endTime": 73438,
+         "startTime": 67795
+      },
+      {
+         "text": {
+            "en": "What do I want to change each time? Well, let me just look and see what's different. The y position and the current index, right? So the friend num and the y position.",
+            "pl": "Co chcę zmienić za każdym razem? Pozwól, że popatrzę i zobaczę, co jest inne. Pozycja y i aktualny indeks, prawda? Więc przyjaciel num i pozycja y.",
+            "ar": "ما الذي أريد تغييره في كل مرة؟ حسنا، اسمحوا لي فقط انظر ونرى ما هو مختلف. موقف y والفهرس الحالي، أليس كذلك؟ وبالتالي فإن صديق الأسطوانات وموقف y."
+         },
+         "endTime": 86069,
+         "startTime": 73438
+      },
+      {
+         "text": {
+            "en": "And how long should we repeat? Well, we keep going until there are no more friends.",
+            "pl": "I jak długo mamy powtarzać? Cóż, idziemy do czasu, aż nie będzie więcej przyjaciół.",
+            "ar": "وكم من الوقت يجب أن نكرر؟ حسنا، نحن نستمر حتى لا يكون هناك المزيد من الأصدقاء."
+         },
+         "endTime": 93570,
+         "startTime": 86069
+      },
+      {
+         "text": {
+            "en": "So now we know what we want, and we can make our loop.",
+            "pl": "Więc teraz wiemy, czego chcemy i możemy zrobić naszą pętlę.",
+            "ar": "حتى الآن نحن نعرف ما نريد، ويمكننا أن نجعل حلقة لدينا."
+         },
+         "endTime": 97440,
+         "startTime": 93570
+      },
+      {
+         "text": {
+            "en": "We start off with a counter variable to keep track of where we are in the loop. So we'll say 'var friendNum = 0;'",
+            "pl": "Zaczynamy od zmiennej licznika śledzić, gdzie jesteśmy w pętli. Więc powiemy „var FriendNum = 0;”",
+            "ar": "نبدأ مع متغير العداد لتتبع أين نحن في الحلقة. لذلك سنقول 'فار فريندنوم = 0؛ '"
+         },
+         "endTime": 104378,
+         "startTime": 97440
+      },
+      {
+         "text": {
+            "en": "We're going to start with zero because remember that 0 is the first element in the array, not 1.",
+            "pl": "Mamy zamiar zacząć od zera, ponieważ należy pamiętać, że 0 jest pierwszym elementem w tablicy, a nie 1.",
+            "ar": "ونحن في طريقنا لتبدأ مع الصفر لتذكر أن 0 هو العنصر الأول في مجموعة، وليس 1."
+         },
+         "endTime": 110471,
+         "startTime": 104378
+      },
+      {
+         "text": {
+            "en": "Then we have our while loop. So we'll say 'while(friendNum < my friends.length)'.",
+            "pl": "Wtedy mamy naszą pętlę while. Więc powiemy „while (FriendNum < moi przyjaciele. length)”.",
+            "ar": "ثم لدينا حلقة في حين. لذلك سنقول «في حين (فريندنوم <friendnum بلدي. طول) '."
+         },
+         "endTime": 117766,
+         "startTime": 110548
+      },
+      {
+         "text": {
+            "en": "So we're gonna compare the current counter variable to the total number of things in the array.",
+            "pl": "Więc mamy zamiar porównać bieżącą zmienną licznika do całkowitej liczby rzeczy w tablicy.",
+            "ar": "لذلك نحن ستعمل مقارنة متغير العداد الحالي إلى العدد الإجمالي للأشياء في مجموعة."
+         },
+         "endTime": 124462,
+         "startTime": 117766
+      },
+      {
+         "text": {
+            "en": "Inside the loop, that's where we use our text command.",
+            "pl": "Wewnątrz pętli, to gdzie używamy naszego polecenia tekstowego.",
+            "ar": "داخل الحلقة، حيث نستخدم أمر النص الخاص بنا."
+         },
+         "endTime": 127868,
+         "startTime": 124462
+      },
+      {
+         "text": {
+            "en": "So we say, 'text(myFriends[' - and then here, instead of a number, we're gonna put 'friendNum' because friendNum represents the current number.",
+            "pl": "Więc mówimy, „tekst (MyFriends ['- a następnie tutaj, zamiast liczby, będziemy umieścić „FriendNum”, ponieważ FriendNum reprezentuje aktualną liczbę.",
+            "ar": "لذلك نقول، «النص (MyFriendnum ['- ثم هنا، بدلا من عدد، ونحن ستعمل وضع «فريندنوم» لأن FriendNum يمثل الرقم الحالي."
+         },
+         "endTime": 133460,
+         "startTime": 128068
+      },
+      {
+         "text": {
+            "en": "And then we'll just put one position for now.",
+            "pl": "A potem na razie postawimy jedną pozycję.",
+            "ar": "وبعد ذلك سنضع موقعاً واحداً في الوقت الراهن"
+         },
+         "endTime": 137961,
+         "startTime": 133460
+      },
+      {
+         "text": {
+            "en": "This has given us a little infinite loop error because we haven't actually changed anything about friendNum.",
+            "pl": "To dało nam trochę nieskończony błąd pętli, ponieważ nie zmieniliśmy nic o FriendNum.",
+            "ar": "وقد أعطانا هذا خطأ حلقة لانهائية قليلا لأننا لم تغير في الواقع أي شيء عن FriendNum."
+         },
+         "endTime": 145710,
+         "startTime": 137961
+      },
+      {
+         "text": {
+            "en": "Remember, we need to increment friendNum each time, otherwise the loop will go on forever because that condition's always true.",
+            "pl": "Pamiętaj, że musimy zwiększać FriendNum za każdym razem, w przeciwnym razie pętla będzie trwać wiecznie, ponieważ warunek ten jest zawsze prawdziwy.",
+            "ar": "تذكر، نحن بحاجة إلى زيادة FriendNum في كل مرة، وإلا فإن الحلقة ستستمر إلى الأبد لأن هذا الشرط صحيح دائمًا."
+         },
+         "endTime": 150230,
+         "startTime": 145710
+      },
+      {
+         "text": {
+            "en": "I see something happened. Let me comment out the old code so I can really see what's happened.",
+            "pl": "Widzę, że coś się stało. Pozwól mi skomentować stary kod, żebym mógł zobaczyć, co się stało.",
+            "ar": "أرى شيئاً ما حدث اسمحوا لي أن أعلق على التعليمات البرمجية القديمة حتى أتمكن من رؤية حقا ما حدث."
+         },
+         "endTime": 159271,
+         "startTime": 154750
+      },
+      {
+         "text": {
+            "en": "What we have is we've showed all the names, but they're all on top of each other.",
+            "pl": "Pokazaliśmy wszystkie nazwiska, ale wszystkie są na sobie.",
+            "ar": "ما لدينا هو أننا قد أظهرنا كل الأسماء، لكنها كلها على رأس بعضها البعض."
+         },
+         "endTime": 163607,
+         "startTime": 159271
+      },
+      {
+         "text": {
+            "en": "So, we need to change our y position.",
+            "pl": "Musimy więc zmienić naszą pozycję y.",
+            "ar": "لذلك، نحن بحاجة إلى تغيير موقفنا ذ."
+         },
+         "endTime": 165706,
+         "startTime": 163607
+      },
+      {
+         "text": {
+            "en": "Let's just say 'friendNum*30'.",
+            "pl": "Powiedzmy „FriendNum*30”.",
+            "ar": "دعنا فقط نقول 'الصديق* 30'."
+         },
+         "endTime": 170211,
+         "startTime": 165706
+      },
+      {
+         "text": {
+            "en": "Ok that's good but Sophia's off the screen and Sophia's not going to be very happy if she finds that out.",
+            "pl": "Dobrze, ale Sophia jest poza ekranem, a Sophia nie będzie szczęśliwa, jeśli się o tym dowie.",
+            "ar": "حسنا هذا جيد ولكن صوفيا خارج الشاشة وصوفيا لن تكون سعيدة جدا إذا اكتشفت ذلك."
+         },
+         "endTime": 175129,
+         "startTime": 170211
+      },
+      {
+         "text": {
+            "en": "So, let's just add 30 to that. So now they're all offset by 30.",
+            "pl": "Więc dodajmy do tego 30. Więc teraz wszystkie są przesunięte o 30.",
+            "ar": "لذلك، دعونا فقط إضافة 30 إلى ذلك. حتى الآن انهم جميعا تعويض من قبل 30."
+         },
+         "endTime": 179628,
+         "startTime": 175129
+      },
+      {
+         "text": {
+            "en": "Beautiful! So now you see we have a loop displaying our array.",
+            "pl": "Piękne! Więc teraz widzisz mamy pętlę wyświetlającą naszą tablicę.",
+            "ar": "جميلة! حتى الآن ترى لدينا حلقة عرض مجموعة لدينا."
+         },
+         "endTime": 184294,
+         "startTime": 179628
+      },
+      {
+         "text": {
+            "en": "And that means if we add more people like OhNoesGuy, or maybe even Sal, if I just add him to the array then Sal will be my friend. Awesome! Now he's my buddy.",
+            "pl": "A to oznacza, że jeśli dodamy więcej ludzi takich jak OhnoesGuy, a może nawet Sal, jeśli dodam go do tablicy, to Sal będzie moim przyjacielem. Niesamowite Teraz jest moim kumplem.",
+            "ar": "وهذا يعني إذا أضفنا المزيد من الناس مثل OhnoesGuy، أو ربما حتى سال، إذا أنا فقط إضافته إلى مجموعة ثم سال سيكون صديقي. رائع! الآن هو صديقي"
+         },
+         "endTime": 193569,
+         "startTime": 184294
+      },
+      {
+         "text": {
+            "en": "An you see that it just automatically shows the new friends because it's always going through the whole array.",
+            "pl": "Widać, że to po prostu automatycznie pokazuje nowych przyjaciół, bo to zawsze przechodzi przez całą tablicę.",
+            "ar": "ترى أنه فقط يظهر تلقائيا أصدقاء جدد لأنه يمر دائما من خلال مجموعة كاملة."
+         },
+         "endTime": 201271,
+         "startTime": 193569
+      },
+      {
+         "text": {
+            "en": "So we can delete our old code. We don't need that anymore.",
+            "pl": "Więc możemy usunąć nasz stary kod. Już tego nie potrzebujemy.",
+            "ar": "حتى نتمكن من حذف التعليمات البرمجية القديمة لدينا. نحن لسنا بحاجة لذلك بعد الآن."
+         },
+         "endTime": 204296,
+         "startTime": 201271
+      },
+      {
+         "text": {
+            "en": "And let's just go through this code here and review what it does.",
+            "pl": "I po prostu przejrzyjmy ten kod tutaj i przejrzyjmy, co robi.",
+            "ar": "ودعونا نذهب فقط من خلال هذا الرمز هنا ومراجعة ما يفعله."
+         },
+         "endTime": 208237,
+         "startTime": 204296
+      },
+      {
+         "text": {
+            "en": "So we start off with friendNum equal to zero.",
+            "pl": "Więc zaczynamy od FriendNum równej zeru.",
+            "ar": "لذلك نبدأ مع FriendNum يساوي الصفر."
+         },
+         "endTime": 211628,
+         "startTime": 208237
+      },
+      {
+         "text": {
+            "en": "We check to see if friendNum is less than the current length.",
+            "pl": "Sprawdzamy, czy FriendNum jest mniejsza niż bieżąca długość.",
+            "ar": "نتحقق لمعرفة ما إذا كان FriendNum أقل من الطول الحالي."
+         },
+         "endTime": 214673,
+         "startTime": 211628
+      },
+      {
+         "text": {
+            "en": "So you imagine zero is less than six. That's true.",
+            "pl": "Więc wyobrażasz sobie, że zero to mniej niż sześć. To prawda.",
+            "ar": "لذلك أنت تتخيل صفر أقل من ستة. هذا صحيح"
+         },
+         "endTime": 217841,
+         "startTime": 214673
+      },
+      {
+         "text": {
+            "en": "So then we go inside here and we say text, my freinds friendNum.",
+            "pl": "Więc wchodzimy do środka i mówimy SMS, mój freinds FriendNum.",
+            "ar": "حتى ذلك الحين نذهب داخل هنا ونقول النص، بلدي freinds Friendnum."
+         },
+         "endTime": 221712,
+         "startTime": 217841
+      },
+      {
+         "text": {
+            "en": "So that'll become zero, the first time.",
+            "pl": "Więc to stanie się zerem, za pierwszym razem.",
+            "ar": "لذلك سوف تصبح صفر، في المرة الأولى."
+         },
+         "endTime": 224294,
+         "startTime": 221712
+      },
+      {
+         "text": {
+            "en": "And then 30 plus zero times 30.",
+            "pl": "A potem 30 plus zero razy 30.",
+            "ar": "ثم 30 زائد صفر مرة 30."
+         },
+         "endTime": 227295,
+         "startTime": 224294
+      },
+      {
+         "text": {
+            "en": "So it displays Sophia at 10 and 30. That's what it does.",
+            "pl": "Więc pokazuje Sophię o 10 i 30. To jest to, co robi.",
+            "ar": "لذلك يعرض صوفيا في 10 و 30. هذا ما يفعله"
+         },
+         "endTime": 233712,
+         "startTime": 227295
+      },
+      {
+         "text": {
+            "en": "And then friendNum++. So then it becomes 1.",
+            "pl": "A potem FriendNum++. Więc staje się 1.",
+            "ar": "ثم صديق++. حتى ذلك الحين يصبح 1."
+         },
+         "endTime": 236295,
+         "startTime": 233712
+      },
+      {
+         "text": {
+            "en": "And then it goes back around and says, \"Ok, is 1 less than myFriends.length? Yeah, it is.\"",
+            "pl": "A potem wraca i mówi: „Ok, jest o 1 mniej niż moi przyjaciół.Długość? Tak, jest.”",
+            "ar": "ثم يذهب مرة أخرى ويقول، «حسنا، هو 1 أقل من myFriends.length؟ نعم، هو كذلك.»"
+         },
+         "endTime": 240268,
+         "startTime": 236295
+      },
+      {
+         "text": {
+            "en": "And it keeps going, keeps going, keeps going.",
+            "pl": "I ciągle trwa, ciągle trwa, ciągle trwa.",
+            "ar": "ويستمر ذلك، يستمر، يستمر، يستمر."
+         },
+         "endTime": 242396,
+         "startTime": 240361
+      },
+      {
+         "text": {
+            "en": "And then finally we get to Sal. Remember, Sal is actually the sixth element in the array, but he's index 5, since we start at zero.",
+            "pl": "I w końcu dotrzemy do Sala. Pamiętaj, Sal jest rzeczywiście szóstym elementem tablicy, ale on jest indeks 5, ponieważ zaczynamy od zera.",
+            "ar": "ثم نصل أخيراً إلى (سال) تذكر، سال هو في الواقع العنصر السادس في مجموعة، لكنه مؤشر 5، منذ أن نبدأ من الصفر."
+         },
+         "endTime": 250957,
+         "startTime": 242488
+      },
+      {
+         "text": {
+            "en": "So, is five less than six? Yes.",
+            "pl": "Pięć jest mniej niż sześć? Tak.",
+            "ar": "إذن، هل خمسة أقل من ستة؟ نعم"
+         },
+         "endTime": 253296,
+         "startTime": 251034
+      },
+      {
+         "text": {
+            "en": "So it diplays myFriends five.",
+            "pl": "Więc to digra Moi Przyjaciele pięć.",
+            "ar": "لذلك فإنه ديبلس MyFriends خمسة."
+         },
+         "endTime": 255462,
+         "startTime": 253296
+      },
+      {
+         "text": {
+            "en": "And then it becomes six and we say, \"Is six less than six?\" No. It's equal.",
+            "pl": "A potem staje się sześć i mówimy: „Czy sześć jest mniej niż sześć?” Nie. Jest równy.",
+            "ar": "ثم يصبح ستة ونقول، «هل ستة أقل من ستة؟» لا. إنه متساوٍ"
+         },
+         "endTime": 261628,
+         "startTime": 255462
+      },
+      {
+         "text": {
+            "en": "So this'll be false. So it will never display the sixth element,",
+            "pl": "Więc to będzie fałszywe. Więc nigdy nie wyświetli szósty element,",
+            "ar": "لذلك سيكون هذا كاذبة. لذلك لن يعرض العنصر السادس،"
+         },
+         "endTime": 265440,
+         "startTime": 261628
+      },
+      {
+         "text": {
+            "en": "which is good because there is nothing in index six.",
+            "pl": "co jest dobre, ponieważ nie ma nic w indeksie szóstym.",
+            "ar": "وهو أمر جيد لأنه لا يوجد شيء في المؤشر ستة."
+         },
+         "endTime": 269272,
+         "startTime": 265440
+      },
+      {
+         "text": {
+            "en": "There's a sixth element, but nothing in index six.",
+            "pl": "Jest szósty element, ale nic w indeksie szóstym.",
+            "ar": "هناك عنصر سادس، ولكن لا شيء في المؤشر ستة."
+         },
+         "endTime": 272772,
+         "startTime": 269272
+      },
+      {
+         "text": {
+            "en": "it can be really confusing, the fact that it's zero and one and doing all that but you'll get the hang of it.",
+            "pl": "To może być naprawdę mylące, fakt, że jest zero i jeden i robi to wszystko, ale dostaniesz to powiesić.",
+            "ar": "يمكن أن يكون مربكًا حقًا، حقيقة أنه صفر واحد ويفعل كل ذلك ولكنك ستحصل على تعليق منه."
+         },
+         "endTime": 278570,
+         "startTime": 272772
+      },
+      {
+         "text": {
+            "en": "All right, so that's our loop.",
+            "pl": "W porządku, więc to nasza pętla.",
+            "ar": "كل الحق، لذلك هذا هو حلقة لدينا."
+         },
+         "endTime": 281402,
+         "startTime": 278570
+      },
+      {
+         "text": {
+            "en": "Now, if you want to, you can actually use a for loop as well if you prefer for loops.",
+            "pl": "Teraz, jeśli chcesz, można rzeczywiście użyć pętli for, jak również jeśli wolisz pętle.",
+            "ar": "الآن، إذا كنت ترغب في ذلك، يمكنك فعلا استخدام لحلقة وكذلك إذا كنت تفضل الحلقات."
+         },
+         "endTime": 285045,
+         "startTime": 281402
+      },
+      {
+         "text": {
+            "en": "For for loops, we'll just say, 'for,' and then, 'var friendNum = 0;' and then we have our condition",
+            "pl": "Dla pętli, będziemy po prostu powiedzieć, „dla”, a następnie „var FriendNum = 0;”, a następnie mamy nasz stan",
+            "ar": "بالنسبة للحلقات، سنقول فقط، «لـ،» ثم «فار فريندنوم = 0؛» ثم لدينا حالتنا"
+         },
+         "endTime": 292212,
+         "startTime": 285045
+      },
+      {
+         "text": {
+            "en": "'friendNum < myFriends.length'",
+            "pl": "'FriendNum < Mojprzyjaciół.długość'",
+            "ar": "«فريندنوم < myFriends.Length»"
+         },
+         "endTime": 297237,
+         "startTime": 292212
+      },
+      {
+         "text": {
+            "en": "and then our increment: 'friendNum++'",
+            "pl": "a następnie nasz przyrost: 'FriendNum++'",
+            "ar": "ثم لدينا زيادة: 'فريندنوم++'"
+         },
+         "endTime": 301672,
+         "startTime": 297237
+      },
+      {
+         "text": {
+            "en": "and then inside the for loop, we can just put just this line of code here.",
+            "pl": "a następnie wewnątrz pętli for, możemy po prostu umieścić tylko tę linię kodu tutaj.",
+            "ar": "ثم داخل للحلقة، يمكننا فقط وضع هذا السطر من التعليمات البرمجية هنا."
+         },
+         "endTime": 306711,
+         "startTime": 301672
+      },
+      {
+         "text": {
+            "en": "and i'll just change the x so that you can see",
+            "pl": "a ja po prostu zmienię x, żebyś mógł zobaczyć",
+            "ar": "وسوف مجرد تغيير x بحيث يمكنك أن ترى"
+         },
+         "endTime": 309711,
+         "startTime": 306711
+      },
+      {
+         "text": {
+            "en": "it does exactly the same thing. So it's up to you which one you use, but the point is to use a loop with your arrays because it will make you so powerful.",
+            "pl": "robi dokładnie to samo. Więc to do ciebie, którego używasz, ale chodzi o to, aby użyć pętli z tablicami, ponieważ to sprawi, że będziesz tak potężny.",
+            "ar": "فإنه يفعل بالضبط نفس الشيء. لذلك الأمر متروك لك أي واحد تستخدمه، ولكن النقطة هي استخدام حلقة مع المصفوفات الخاصة بك لأنها سوف تجعلك قوية جدا."
+         },
+         "endTime": 313711,
+         "startTime": 309711
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/s62gN0U1KKE/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759774205",
+   "title": "Looping through Arrays | Arrays | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

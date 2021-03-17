@@ -1,0 +1,1977 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "We're back with Winston.",
+            "pl": "Wróciliśmy do Winstona.",
+            "ar": "لقد عدنا مع (وينستون)"
+         },
+         "endTime": 2246,
+         "startTime": 0
+      },
+      {
+         "text": {
+            "en": "We now have both an x and a y variable for",
+            "pl": "Mamy teraz zarówno zmienną x i y dla",
+            "ar": "لدينا الآن كل من x و y متغير ل"
+         },
+         "endTime": 5743,
+         "startTime": 2417
+      },
+      {
+         "text": {
+            "en": "Winston's position.",
+            "pl": "Pozycja Winstona.",
+            "ar": "موقف (وينستون)"
+         },
+         "endTime": 7257,
+         "startTime": 5801
+      },
+      {
+         "text": {
+            "en": "So we can move him sideways",
+            "pl": "Więc możemy go przesunąć na boki",
+            "ar": "حتى نتمكن من تحريكه جانباً"
+         },
+         "endTime": 9240,
+         "startTime": 7397
+      },
+      {
+         "text": {
+            "en": "Up and down, woo!",
+            "pl": "W górę i w dół, woo!",
+            "ar": "صعودا وهبوطا، وو!"
+         },
+         "endTime": 11741,
+         "startTime": 10075
+      },
+      {
+         "text": {
+            "en": "Very nice.",
+            "pl": "Bardzo ładne.",
+            "ar": "جميل جداً"
+         },
+         "endTime": 13328,
+         "startTime": 12088
+      },
+      {
+         "text": {
+            "en": "Now, let's reset these variables",
+            "pl": "Teraz zresetujmy te zmienne",
+            "ar": "الآن، دعونا إعادة تعيين هذه المتغيرات"
+         },
+         "endTime": 15866,
+         "startTime": 13680
+      },
+      {
+         "text": {
+            "en": "with 200 and 200",
+            "pl": "z 200 i 200",
+            "ar": "مع 200 و 200"
+         },
+         "endTime": 19227,
+         "startTime": 16056
+      },
+      {
+         "text": {
+            "en": "and review how this program works.",
+            "pl": "i sprawdź, jak działa ten program.",
+            "ar": "و استعراض كيفية عمل هذا البرنامج."
+         },
+         "endTime": 21995,
+         "startTime": 19315
+      },
+      {
+         "text": {
+            "en": "So starting here, we've got an eyeSize variable.",
+            "pl": "Więc zaczynając tutaj, mamy zmienną EyeSize.",
+            "ar": "لذلك بدءا من هنا، لدينا متغير EyeSize."
+         },
+         "endTime": 25763,
+         "startTime": 22553
+      },
+      {
+         "text": {
+            "en": "It's being used to control the eye size,",
+            "pl": "Używa się go do kontrolowania rozmiaru oczu.",
+            "ar": "يتم استخدامه للسيطرة على حجم العين،"
+         },
+         "endTime": 27813,
+         "startTime": 25763
+      },
+      {
+         "text": {
+            "en": "because the eyes are all 40 pixels wide",
+            "pl": "ponieważ oczy mają szerokość 40 pikseli",
+            "ar": "لأن العيون كلها 40 بكسل واسعة"
+         },
+         "endTime": 29766,
+         "startTime": 27815
+      },
+      {
+         "text": {
+            "en": "and 40 pixels tall.",
+            "pl": "i 40 pikseli wysokości.",
+            "ar": "و 40 بكسل طويل القامة."
+         },
+         "endTime": 32426,
+         "startTime": 29766
+      },
+      {
+         "text": {
+            "en": "And then we have these x and y variables,",
+            "pl": "A potem mamy te zmienne x i y,",
+            "ar": "وبعد ذلك لدينا هذه المتغيرات س و y،"
+         },
+         "endTime": 35437,
+         "startTime": 32470
+      },
+      {
+         "text": {
+            "en": "and those position the center of the face.",
+            "pl": "i te pozycjonują środek twarzy.",
+            "ar": "وهؤلاء وضع مركز الوجه."
+         },
+         "endTime": 39127,
+         "startTime": 35437
+      },
+      {
+         "text": {
+            "en": "And you can see them used",
+            "pl": "I można zobaczyć, jak są używane",
+            "ar": "ويمكنك أن ترى لهم تستخدم"
+         },
+         "endTime": 41113,
+         "startTime": 39843
+      },
+      {
+         "text": {
+            "en": "in this ellipse command here",
+            "pl": "w tym poleceniu elipsy tutaj",
+            "ar": "في هذا الأمر القطع الناقص هنا"
+         },
+         "endTime": 42729,
+         "startTime": 41113
+      },
+      {
+         "text": {
+            "en": "that draws the big yellow circle.",
+            "pl": "który rysuje duże żółte kółko.",
+            "ar": "التي توجه الدائرة الصفراء الكبيرة."
+         },
+         "endTime": 44579,
+         "startTime": 42729
+      },
+      {
+         "text": {
+            "en": "And then down here,",
+            "pl": "A potem tutaj,",
+            "ar": "ومن ثم إلى هنا"
+         },
+         "endTime": 47422,
+         "startTime": 45921
+      },
+      {
+         "text": {
+            "en": "for the eyes,",
+            "pl": "dla oczu,",
+            "ar": "للعيون،"
+         },
+         "endTime": 48617,
+         "startTime": 47422
+      },
+      {
+         "text": {
+            "en": "the x and y are used again.",
+            "pl": "x i y są używane ponownie.",
+            "ar": "يتم استخدام x و y مرة أخرى."
+         },
+         "endTime": 50427,
+         "startTime": 48617
+      },
+      {
+         "text": {
+            "en": "And here,",
+            "pl": "A tutaj,",
+            "ar": "وهنا،"
+         },
+         "endTime": 51951,
+         "startTime": 50731
+      },
+      {
+         "text": {
+            "en": "the eyes are positioned",
+            "pl": "oczy są ustawione",
+            "ar": "يتم وضع العينين"
+         },
+         "endTime": 53669,
+         "startTime": 52009
+      },
+      {
+         "text": {
+            "en": "relative to the center of the face.",
+            "pl": "w stosunku do środka twarzy.",
+            "ar": "بالنسبة إلى مركز الوجه."
+         },
+         "endTime": 55778,
+         "startTime": 54048
+      },
+      {
+         "text": {
+            "en": "So maybe this one is",
+            "pl": "Więc może ten jest",
+            "ar": "لذلك ربما هذا واحد"
+         },
+         "endTime": 57877,
+         "startTime": 55787
+      },
+      {
+         "text": {
+            "en": "fifty pixels",
+            "pl": "pięćdziesięciu pikseli",
+            "ar": "خمسين بكسل"
+         },
+         "endTime": 58996,
+         "startTime": 58026
+      },
+      {
+         "text": {
+            "en": "to the left of the center",
+            "pl": "na lewo od środka",
+            "ar": "إلى يسار المركز"
+         },
+         "endTime": 60933,
+         "startTime": 59293
+      },
+      {
+         "text": {
+            "en": "and this one is a hundred pixels",
+            "pl": "a ten jest sto pikseli",
+            "ar": "وهذا واحد هو مائة بكسل"
+         },
+         "endTime": 63428,
+         "startTime": 61528
+      },
+      {
+         "text": {
+            "en": "to the right of the center.",
+            "pl": "na prawo od środka.",
+            "ar": "إلى يمين المركز."
+         },
+         "endTime": 65004,
+         "startTime": 63455
+      },
+      {
+         "text": {
+            "en": "OK. So pretty cool",
+            "pl": "OKEJ. Tak całkiem fajnie",
+            "ar": "حسنا. رائع جدا"
+         },
+         "endTime": 67829,
+         "startTime": 65149
+      },
+      {
+         "text": {
+            "en": "and that's why we're able",
+            "pl": "i dlatego jesteśmy w stanie",
+            "ar": "وهذا هو السبب في أننا قادرون"
+         },
+         "endTime": 69365,
+         "startTime": 67865
+      },
+      {
+         "text": {
+            "en": "to move Winston up and down",
+            "pl": "aby przenieść Winstona w górę i w dół",
+            "ar": "لنقل وينستون صعودا وهبوطا"
+         },
+         "endTime": 71195,
+         "startTime": 69395
+      },
+      {
+         "text": {
+            "en": "Now, I want to be able to control",
+            "pl": "Teraz, chcę być w stanie kontrolować",
+            "ar": "الآن، أريد أن أكون قادرة على السيطرة"
+         },
+         "endTime": 73192,
+         "startTime": 71236
+      },
+      {
+         "text": {
+            "en": "more things about Winston's face",
+            "pl": "więcej rzeczy o twarzy Winstona",
+            "ar": "المزيد من الأشياء عن وجه ونستون"
+         },
+         "endTime": 75202,
+         "startTime": 73212
+      },
+      {
+         "text": {
+            "en": "with variables",
+            "pl": "ze zmiennymi",
+            "ar": "مع المتغيرات"
+         },
+         "endTime": 76662,
+         "startTime": 75202
+      },
+      {
+         "text": {
+            "en": "so I want to figure out",
+            "pl": "więc chcę się dowiedzieć",
+            "ar": "لذلك أريد معرفة"
+         },
+         "endTime": 77912,
+         "startTime": 76662
+      },
+      {
+         "text": {
+            "en": "what else in the program",
+            "pl": "co jeszcze w programie",
+            "ar": "ماذا في البرنامج"
+         },
+         "endTime": 79339,
+         "startTime": 77912
+      },
+      {
+         "text": {
+            "en": "we can store as variables",
+            "pl": "możemy przechowywać jako zmienne",
+            "ar": "يمكننا تخزين المتغيرات"
+         },
+         "endTime": 80669,
+         "startTime": 79339
+      },
+      {
+         "text": {
+            "en": "to do that",
+            "pl": "aby to zrobić",
+            "ar": "للقيام بذلك"
+         },
+         "endTime": 81449,
+         "startTime": 80669
+      },
+      {
+         "text": {
+            "en": "I'm going to go through",
+            "pl": "Zamierzam przejść przez",
+            "ar": "أنا ذاهب للذهاب من خلال"
+         },
+         "endTime": 82638,
+         "startTime": 81449
+      },
+      {
+         "text": {
+            "en": "each line of code",
+            "pl": "każdy wiersz kodu",
+            "ar": "كل سطر من التعليمات البرمجية"
+         },
+         "endTime": 83608,
+         "startTime": 82638
+      },
+      {
+         "text": {
+            "en": "and look for what we call",
+            "pl": "i poszukaj tego, co nazywamy",
+            "ar": "ونبحث عن ما نسميه"
+         },
+         "endTime": 85122,
+         "startTime": 83622
+      },
+      {
+         "text": {
+            "en": "hard-coded numbers",
+            "pl": "numery zakodowane na stałe",
+            "ar": "أرقام مرمزة"
+         },
+         "endTime": 87447,
+         "startTime": 85157
+      },
+      {
+         "text": {
+            "en": "those are numbers that are",
+            "pl": "są to liczby, które są",
+            "ar": "تلك هي الأرقام التي"
+         },
+         "endTime": 89308,
+         "startTime": 87658
+      },
+      {
+         "text": {
+            "en": "just literal numbers",
+            "pl": "tylko liczby dosłowne",
+            "ar": "أرقام حرفية فقط"
+         },
+         "endTime": 90648,
+         "startTime": 89388
+      },
+      {
+         "text": {
+            "en": "not variables or dependant on variables",
+            "pl": "nie zmienne lub zależne od zmiennych",
+            "ar": "لا المتغيرات أو تعتمد على المتغيرات"
+         },
+         "endTime": 93413,
+         "startTime": 90723
+      },
+      {
+         "text": {
+            "en": "so lets start here",
+            "pl": "więc zacznijmy tutaj",
+            "ar": "لذلك دعونا نبدأ هنا"
+         },
+         "endTime": 95377,
+         "startTime": 94277
+      },
+      {
+         "text": {
+            "en": "in the first ellipse call",
+            "pl": "w pierwszym wywołaniu elipsy",
+            "ar": "في أول مكالمة القطع الناقص"
+         },
+         "endTime": 97002,
+         "startTime": 95432
+      },
+      {
+         "text": {
+            "en": "we have 300 and 300",
+            "pl": "mamy 300 i 300",
+            "ar": "لدينا 300 و 300"
+         },
+         "endTime": 99222,
+         "startTime": 97832
+      },
+      {
+         "text": {
+            "en": "for the width and height",
+            "pl": "dla szerokości i wysokości",
+            "ar": "للعرض والارتفاع"
+         },
+         "endTime": 101062,
+         "startTime": 99262
+      },
+      {
+         "text": {
+            "en": "those are just literal numbers",
+            "pl": "są to tylko liczby dosłowne",
+            "ar": "تلك هي مجرد أرقام حرفية"
+         },
+         "endTime": 103794,
+         "startTime": 101584
+      },
+      {
+         "text": {
+            "en": "so lets make a variable",
+            "pl": "więc pozwala zrobić zmienną",
+            "ar": "لذلك يتيح جعل متغير"
+         },
+         "endTime": 105114,
+         "startTime": 103794
+      },
+      {
+         "text": {
+            "en": "for those instead",
+            "pl": "dla tych, zamiast",
+            "ar": "لأولئك بدلا من ذلك"
+         },
+         "endTime": 106214,
+         "startTime": 105114
+      },
+      {
+         "text": {
+            "en": "called faceSize",
+            "pl": "o nazwie FaceSize",
+            "ar": "دعا فاسيزي"
+         },
+         "endTime": 107754,
+         "startTime": 106214
+      },
+      {
+         "text": {
+            "en": "and have it store 300",
+            "pl": "i mieć go przechowywać 300",
+            "ar": "وجعلها تخزن 300"
+         },
+         "endTime": 110291,
+         "startTime": 108791
+      },
+      {
+         "text": {
+            "en": "now we'll just write faceSize,",
+            "pl": "teraz po prostu napiszemy FaceSize,",
+            "ar": "الآن سنقوم فقط كتابة FaceSize،"
+         },
+         "endTime": 113201,
+         "startTime": 110291
+      },
+      {
+         "text": {
+            "en": "faceSize",
+            "pl": "FaceSize",
+            "ar": "فيس سيزي"
+         },
+         "endTime": 115259,
+         "startTime": 113709
+      },
+      {
+         "text": {
+            "en": "OK So keep going",
+            "pl": "OK, więc nie przestawaj",
+            "ar": "حسنا لذلك استمر في الذهاب"
+         },
+         "endTime": 116794,
+         "startTime": 115514
+      },
+      {
+         "text": {
+            "en": "and skip colours",
+            "pl": "i pomiń kolory",
+            "ar": "وتخطي الألوان"
+         },
+         "endTime": 118108,
+         "startTime": 116868
+      },
+      {
+         "text": {
+            "en": "now the ellipse commands are either --",
+            "pl": "teraz polecenia elipsy są albo -",
+            "ar": "الآن أوامر القطع الناقص إما —"
+         },
+         "endTime": 120076,
+         "startTime": 118156
+      },
+      {
+         "text": {
+            "en": "they're all variables or",
+            "pl": "wszystkie są zmienne lub",
+            "ar": "انهم جميعا المتغيرات أو"
+         },
+         "endTime": 121504,
+         "startTime": 120104
+      },
+      {
+         "text": {
+            "en": "dependant on variables",
+            "pl": "zależne od zmiennych",
+            "ar": "تعتمد على المتغيرات"
+         },
+         "endTime": 122704,
+         "startTime": 121544
+      },
+      {
+         "text": {
+            "en": "so I'm going to leave them",
+            "pl": "Więc zostawię ich",
+            "ar": "لذلك انا ذاهب الى ترك لهم"
+         },
+         "endTime": 123896,
+         "startTime": 122726
+      },
+      {
+         "text": {
+            "en": "like this for now",
+            "pl": "jak to na razie",
+            "ar": "مثل هذا في الوقت الراهن"
+         },
+         "endTime": 124846,
+         "startTime": 123896
+      },
+      {
+         "text": {
+            "en": "and then the mouth command",
+            "pl": "a następnie polecenie „mouth”",
+            "ar": "ثم أمر الفم"
+         },
+         "endTime": 126729,
+         "startTime": 124859
+      },
+      {
+         "text": {
+            "en": "those are dependant on x and y",
+            "pl": "te są zależne od x i y",
+            "ar": "تلك تعتمد على x و y"
+         },
+         "endTime": 129339,
+         "startTime": 127419
+      },
+      {
+         "text": {
+            "en": "but these here",
+            "pl": "ale te tutaj",
+            "ar": "ولكن هذه هنا"
+         },
+         "endTime": 130369,
+         "startTime": 129339
+      },
+      {
+         "text": {
+            "en": "are just literal numbers",
+            "pl": "to tylko liczby dosłowne",
+            "ar": "هي مجرد أرقام حرفية"
+         },
+         "endTime": 131947,
+         "startTime": 130417
+      },
+      {
+         "text": {
+            "en": "150 and 150",
+            "pl": "150 i 150",
+            "ar": "150 و 150"
+         },
+         "endTime": 134669,
+         "startTime": 132899
+      },
+      {
+         "text": {
+            "en": "so we're going to say",
+            "pl": "więc zamierzamy powiedzieć",
+            "ar": "لذلك نحن ذاهبون إلى القول"
+         },
+         "endTime": 136139,
+         "startTime": 134799
+      },
+      {
+         "text": {
+            "en": "mouthSize that's a good name",
+            "pl": "MouthSize to dobre imię",
+            "ar": "حجم الفم هذا اسم جيد"
+         },
+         "endTime": 138953,
+         "startTime": 136223
+      },
+      {
+         "text": {
+            "en": "equals 150",
+            "pl": "równa się 150",
+            "ar": "يساوي 150"
+         },
+         "endTime": 140476,
+         "startTime": 139026
+      },
+      {
+         "text": {
+            "en": "we'll replace this with mouthSize",
+            "pl": "zastąpimy to MouthSize",
+            "ar": "سنقوم باستبدال هذا مع حجم الفم"
+         },
+         "endTime": 145264,
+         "startTime": 142464
+      },
+      {
+         "text": {
+            "en": "and mouthSize",
+            "pl": "i MouthSize",
+            "ar": "و حجم الفم"
+         },
+         "endTime": 147481,
+         "startTime": 145301
+      },
+      {
+         "text": {
+            "en": "alright so now",
+            "pl": "W porządku, więc teraz",
+            "ar": "حسنا حتى الآن"
+         },
+         "endTime": 148816,
+         "startTime": 147556
+      },
+      {
+         "text": {
+            "en": "we have the sizes of the shapes",
+            "pl": "mamy rozmiary kształtów",
+            "ar": "لدينا أحجام الأشكال"
+         },
+         "endTime": 150751,
+         "startTime": 148861
+      },
+      {
+         "text": {
+            "en": "stored as variables at the top",
+            "pl": "przechowywane jako zmienne na górze",
+            "ar": "المخزنة كمتغيرات في الجزء العلوي"
+         },
+         "endTime": 152725,
+         "startTime": 150825
+      },
+      {
+         "text": {
+            "en": "that means that its really easy",
+            "pl": "co oznacza, że jego naprawdę łatwe",
+            "ar": "وهذا يعني أن من السهل حقا"
+         },
+         "endTime": 154543,
+         "startTime": 152773
+      },
+      {
+         "text": {
+            "en": "for us to change the sizes",
+            "pl": "dla nas, aby zmienić rozmiary",
+            "ar": "بالنسبة لنا لتغيير الأحجام"
+         },
+         "endTime": 156093,
+         "startTime": 154543
+      },
+      {
+         "text": {
+            "en": "like this like",
+            "pl": "tak jak to",
+            "ar": "مثل هذا مثل"
+         },
+         "endTime": 156933,
+         "startTime": 156103
+      },
+      {
+         "text": {
+            "en": "Wooo Winston's hungry",
+            "pl": "Wooo Winston jest głodny",
+            "ar": "ووو وينستون جائع"
+         },
+         "endTime": 159163,
+         "startTime": 156933
+      },
+      {
+         "text": {
+            "en": "and then maybe like, you know,",
+            "pl": "a potem może, no wiesz,",
+            "ar": "ومن ثم ربما مثل، كما تعلمون،"
+         },
+         "endTime": 161157,
+         "startTime": 159257
+      },
+      {
+         "text": {
+            "en": "Winston's got hungry and",
+            "pl": "Winston jest głodny i",
+            "ar": "وينستون أصبح جائعا و"
+         },
+         "endTime": 162747,
+         "startTime": 161157
+      },
+      {
+         "text": {
+            "en": "then he eats lots of donuts",
+            "pl": "potem zjada mnóstwo pączków",
+            "ar": "ثم يأكل الكثير من الكعك"
+         },
+         "endTime": 164291,
+         "startTime": 162761
+      },
+      {
+         "text": {
+            "en": "and then he gets super big",
+            "pl": "a potem robi się super duży",
+            "ar": "وبعد ذلك يحصل على سوبر كبيرة"
+         },
+         "endTime": 165931,
+         "startTime": 164291
+      },
+      {
+         "text": {
+            "en": "alright",
+            "pl": "w porządku",
+            "ar": "حسناَ"
+         },
+         "endTime": 167532,
+         "startTime": 165962
+      },
+      {
+         "text": {
+            "en": "but there is something",
+            "pl": "ale jest coś",
+            "ar": "ولكن هناك شيء"
+         },
+         "endTime": 168982,
+         "startTime": 167542
+      },
+      {
+         "text": {
+            "en": "I don't like about the program right now",
+            "pl": "Nie podoba mi się teraz program",
+            "ar": "أنا لا أحب في البرنامج الآن"
+         },
+         "endTime": 171347,
+         "startTime": 169037
+      },
+      {
+         "text": {
+            "en": "So if I make the face size really small",
+            "pl": "Więc jeśli sprawię, że rozmiar twarzy jest bardzo mały",
+            "ar": "حتى إذا كنت جعل حجم الوجه صغيرة حقا"
+         },
+         "endTime": 179303,
+         "startTime": 171863
+      },
+      {
+         "text": {
+            "en": "it starts to look funny",
+            "pl": "zaczyna wyglądać zabawnie",
+            "ar": "يبدأ لتبدو مضحكة"
+         },
+         "endTime": 181064,
+         "startTime": 179404
+      },
+      {
+         "text": {
+            "en": "because the eyes and the mouth",
+            "pl": "ponieważ oczy i usta",
+            "ar": "لأن العينين والفم"
+         },
+         "endTime": 183006,
+         "startTime": 181076
+      },
+      {
+         "text": {
+            "en": "are sticking out of the face",
+            "pl": "wystają z twarzy",
+            "ar": "يخرجون من الوجه"
+         },
+         "endTime": 184667,
+         "startTime": 183017
+      },
+      {
+         "text": {
+            "en": "and at certain points it doesn't even",
+            "pl": "i w pewnych punktach nawet nie",
+            "ar": "وفي بعض النقاط لا حتى"
+         },
+         "endTime": 186717,
+         "startTime": 184667
+      },
+      {
+         "text": {
+            "en": "really look like they're connected",
+            "pl": "naprawdę wyglądają jakby byli połączeni",
+            "ar": "تبدو حقا مثل انهم متصلين"
+         },
+         "endTime": 187887,
+         "startTime": 186717
+      },
+      {
+         "text": {
+            "en": "to that face",
+            "pl": "do tej twarzy",
+            "ar": "إلى هذا الوجه"
+         },
+         "endTime": 188667,
+         "startTime": 187887
+      },
+      {
+         "text": {
+            "en": "or its not really a face any more, is it?",
+            "pl": "czy to już nie jest twarzą, prawda?",
+            "ar": "أو أنها ليست حقا وجه أي أكثر من ذلك، أليس كذلك؟"
+         },
+         "endTime": 190707,
+         "startTime": 188667
+      },
+      {
+         "text": {
+            "en": "So what I really want to happen",
+            "pl": "Więc to, co naprawdę chcę się stać",
+            "ar": "لذلك ما أريد حقا أن يحدث"
+         },
+         "endTime": 193959,
+         "startTime": 191629
+      },
+      {
+         "text": {
+            "en": "is that when I change faceSize",
+            "pl": "jest to, że kiedy zmieniam FaceSize",
+            "ar": "هو أنه عندما أغير فيس سيزي"
+         },
+         "endTime": 196309,
+         "startTime": 193959
+      },
+      {
+         "text": {
+            "en": "I want the eyes and the mouth --",
+            "pl": "Chcę mieć oczy i usta...",
+            "ar": "أريد العينين والفم —"
+         },
+         "endTime": 198299,
+         "startTime": 196309
+      },
+      {
+         "text": {
+            "en": "I want their size to change along with it",
+            "pl": "Chcę, aby ich rozmiar zmieniał się wraz z nim",
+            "ar": "أريد حجمها لتغيير جنبا إلى جنب معها"
+         },
+         "endTime": 201584,
+         "startTime": 198354
+      },
+      {
+         "text": {
+            "en": "so if I make faceSize be half the size",
+            "pl": "więc jeśli sprawię, że FaceSize będzie o połowę mniejszy",
+            "ar": "حتى إذا كنت جعل FaceSize يكون نصف حجم"
+         },
+         "endTime": 203994,
+         "startTime": 201584
+      },
+      {
+         "text": {
+            "en": "I want the mouth to be half the size too",
+            "pl": "Chcę, żeby usta były o połowę mniejsze.",
+            "ar": "أريد أن يكون الفم نصف الحجم أيضا"
+         },
+         "endTime": 207454,
+         "startTime": 204144
+      },
+      {
+         "text": {
+            "en": "so that means that",
+            "pl": "więc to oznacza, że",
+            "ar": "وهذا يعني أن"
+         },
+         "endTime": 209044,
+         "startTime": 207454
+      },
+      {
+         "text": {
+            "en": "I want to calculate mouthSize and eyeSize",
+            "pl": "Chcę obliczyć MouthSize i EyeSize",
+            "ar": "أريد حساب حجم الفم و إيسيزي"
+         },
+         "endTime": 212589,
+         "startTime": 209519
+      },
+      {
+         "text": {
+            "en": "as fractions of faceSize",
+            "pl": "jako ułamki FaceSize",
+            "ar": "ككسور من فاسيزيزي"
+         },
+         "endTime": 215929,
+         "startTime": 212589
+      },
+      {
+         "text": {
+            "en": "alright lets reset these variables",
+            "pl": "w porządku pozwala zresetować te zmienne",
+            "ar": "حسنا يتيح إعادة تعيين هذه المتغيرات"
+         },
+         "endTime": 219790,
+         "startTime": 216690
+      },
+      {
+         "text": {
+            "en": "and I'll show you what I mean",
+            "pl": "i pokażę ci, co mam na myśli",
+            "ar": "وأنا سوف تظهر لك ما أعنيه"
+         },
+         "endTime": 222060,
+         "startTime": 219790
+      },
+      {
+         "text": {
+            "en": "Let's start with mouthSize",
+            "pl": "Zacznijmy od MouthSize",
+            "ar": "دعونا نبدأ مع حجم الفم"
+         },
+         "endTime": 224221,
+         "startTime": 222061
+      },
+      {
+         "text": {
+            "en": "so right now",
+            "pl": "więc teraz",
+            "ar": "حتى الآن"
+         },
+         "endTime": 225141,
+         "startTime": 224221
+      },
+      {
+         "text": {
+            "en": "faceSize is 300 and mouthSize is 150",
+            "pl": "FaceSize jest 300 i MouthSize jest 150",
+            "ar": "حجم الوجه هو 300 وحجم الفم هو 150"
+         },
+         "endTime": 229512,
+         "startTime": 225172
+      },
+      {
+         "text": {
+            "en": "so if we think of about them",
+            "pl": "więc jeśli pomyślimy o nich",
+            "ar": "حتى إذا كنا نفكر في لهم"
+         },
+         "endTime": 231727,
+         "startTime": 230187
+      },
+      {
+         "text": {
+            "en": "relative to each other",
+            "pl": "względem siebie",
+            "ar": "بالنسبة لبعضها البعض"
+         },
+         "endTime": 233007,
+         "startTime": 231727
+      },
+      {
+         "text": {
+            "en": "we'd say that faceSize is twice as big",
+            "pl": "powiedzielibyśmy, że FaceSize jest dwa razy większy",
+            "ar": "كنا نقول أن فيس سيزي هو ضعف كبير"
+         },
+         "endTime": 235907,
+         "startTime": 233007
+      },
+      {
+         "text": {
+            "en": "as mouthSize",
+            "pl": "jako MouthSize",
+            "ar": "كما الفم"
+         },
+         "endTime": 237577,
+         "startTime": 235907
+      },
+      {
+         "text": {
+            "en": "or that mouthSize is half the size",
+            "pl": "lub że MouthSize jest o połowę mniejsza",
+            "ar": "أو أن حجم الفم هو نصف الحجم"
+         },
+         "endTime": 240137,
+         "startTime": 237577
+      },
+      {
+         "text": {
+            "en": "of faceSize",
+            "pl": "FaceSize",
+            "ar": "من فيس سيزي"
+         },
+         "endTime": 241357,
+         "startTime": 240137
+      },
+      {
+         "text": {
+            "en": "and we can write that in code like this",
+            "pl": "i możemy napisać to w kodzie takim jak ten",
+            "ar": "ويمكننا أن نكتب ذلك في التعليمات البرمجية مثل هذا"
+         },
+         "endTime": 243872,
+         "startTime": 241432
+      },
+      {
+         "text": {
+            "en": "one half times faceSize",
+            "pl": "pół razy FaceSize",
+            "ar": "نصف مرة الوجهسيزي"
+         },
+         "endTime": 248063,
+         "startTime": 244063
+      },
+      {
+         "text": {
+            "en": "ok so this line of code says",
+            "pl": "ok, więc ta linia kodu mówi",
+            "ar": "موافق لذلك يقول هذا السطر من التعليمات البرمجية"
+         },
+         "endTime": 249703,
+         "startTime": 248133
+      },
+      {
+         "text": {
+            "en": "that we take the value of faceSize",
+            "pl": "że bierzemy wartość FaceSize",
+            "ar": "أن نأخذ قيمة FaceSize"
+         },
+         "endTime": 251873,
+         "startTime": 249703
+      },
+      {
+         "text": {
+            "en": "multiply it by a half",
+            "pl": "pomnożyć przez pół",
+            "ar": "اضربها بمقدار النصف"
+         },
+         "endTime": 253113,
+         "startTime": 251873
+      },
+      {
+         "text": {
+            "en": "and store that in mouthSize",
+            "pl": "i przechowywać w MouthSize",
+            "ar": "وتخزينها في حجم الفم"
+         },
+         "endTime": 255393,
+         "startTime": 253113
+      },
+      {
+         "text": {
+            "en": "so that if we change this here",
+            "pl": "tak, że jeśli zmienimy to tutaj",
+            "ar": "بحيث إذا قمنا بتغيير هذا هنا"
+         },
+         "endTime": 257494,
+         "startTime": 255674
+      },
+      {
+         "text": {
+            "en": "it would figure out what half of that was",
+            "pl": "by dowiedzieć się, jaka połowa z tego była",
+            "ar": "فإنه سيكتشف ما هو نصف ذلك"
+         },
+         "endTime": 260260,
+         "startTime": 258029
+      },
+      {
+         "text": {
+            "en": "and that would become mouthSize",
+            "pl": "i że stanie się MouthSize",
+            "ar": "والتي من شأنها أن تصبح الفم"
+         },
+         "endTime": 262353,
+         "startTime": 260273
+      },
+      {
+         "text": {
+            "en": "Perfect! That's what we want",
+            "pl": "Idealne! To jest to, czego chcemy",
+            "ar": "الكمال! هذا ما نريده"
+         },
+         "endTime": 264073,
+         "startTime": 262353
+      },
+      {
+         "text": {
+            "en": "So now eyeSize",
+            "pl": "Więc teraz EyeSize",
+            "ar": "حتى الآن إيسيزي"
+         },
+         "endTime": 266948,
+         "startTime": 264848
+      },
+      {
+         "text": {
+            "en": "so faceSize is 300",
+            "pl": "więc FaceSize to 300",
+            "ar": "لذلك فيس سيزي هو 300"
+         },
+         "endTime": 268908,
+         "startTime": 267268
+      },
+      {
+         "text": {
+            "en": "and eyeSize is 40",
+            "pl": "a EyeSize to 40",
+            "ar": "و إيسيز هو 40"
+         },
+         "endTime": 271039,
+         "startTime": 269168
+      },
+      {
+         "text": {
+            "en": "so we need it to be",
+            "pl": "więc musimy to być",
+            "ar": "لذلك نحن بحاجة إلى أن يكون"
+         },
+         "endTime": 273219,
+         "startTime": 271039
+      },
+      {
+         "text": {
+            "en": "40 three hundreths of faceSize",
+            "pl": "40 trzy setne FaceSize",
+            "ar": "40 ثلاثمائة من الوجهالحجم"
+         },
+         "endTime": 276639,
+         "startTime": 273219
+      },
+      {
+         "text": {
+            "en": "which is really, well lets see",
+            "pl": "który jest naprawdę, dobrze pozwala zobaczyć",
+            "ar": "وهو حقا، حسنا دعونا نرى"
+         },
+         "endTime": 279459,
+         "startTime": 276639
+      },
+      {
+         "text": {
+            "en": "four over 30 which we can",
+            "pl": "cztery ponad 30, które możemy",
+            "ar": "أربعة أكثر من 30 التي يمكننا"
+         },
+         "endTime": 281138,
+         "startTime": 279459
+      },
+      {
+         "text": {
+            "en": "simplify down to two over 15",
+            "pl": "uprościć w dół do dwóch powyżej 15",
+            "ar": "تبسيط وصولا الى اثنين أكثر من 15"
+         },
+         "endTime": 283768,
+         "startTime": 281138
+      },
+      {
+         "text": {
+            "en": "so we're going to say",
+            "pl": "więc zamierzamy powiedzieć",
+            "ar": "لذلك نحن ذاهبون إلى القول"
+         },
+         "endTime": 285605,
+         "startTime": 284295
+      },
+      {
+         "text": {
+            "en": "two over fifteen times faceSize",
+            "pl": "dwa ponad piętnaście razy FaceSize",
+            "ar": "اثنين أكثر من خمسة عشر مرة الوجهالحجم"
+         },
+         "endTime": 289609,
+         "startTime": 285609
+      },
+      {
+         "text": {
+            "en": "by the way",
+            "pl": "Nawiasem mówiąc",
+            "ar": "بالمناسبة"
+         },
+         "endTime": 290911,
+         "startTime": 290111
+      },
+      {
+         "text": {
+            "en": "if you're new to fractions",
+            "pl": "jeśli jesteś nowy w ułamkach",
+            "ar": "إذا كنت جديدًا على الكسور"
+         },
+         "endTime": 292459,
+         "startTime": 290949
+      },
+      {
+         "text": {
+            "en": "and that math is tricky for you",
+            "pl": "i że matematyka jest dla ciebie trudna",
+            "ar": "وأن الرياضيات صعبة بالنسبة لك"
+         },
+         "endTime": 294279,
+         "startTime": 292459
+      },
+      {
+         "text": {
+            "en": "you can learn more about fractions",
+            "pl": "możesz dowiedzieć się więcej o ułamkach",
+            "ar": "يمكنك معرفة المزيد عن الكسور"
+         },
+         "endTime": 296422,
+         "startTime": 294352
+      },
+      {
+         "text": {
+            "en": "on khanacademy",
+            "pl": "na khanacademy",
+            "ar": "على خاناكاديمى"
+         },
+         "endTime": 297562,
+         "startTime": 296422
+      },
+      {
+         "text": {
+            "en": "and come back here when you're",
+            "pl": "i wracaj tu, kiedy będziesz",
+            "ar": "وتعود إلى هنا عندما تكونين"
+         },
+         "endTime": 299562,
+         "startTime": 297562
+      },
+      {
+         "text": {
+            "en": "feeling ready",
+            "pl": "uczucie gotowości",
+            "ar": "شعور جاهز"
+         },
+         "endTime": 300442,
+         "startTime": 299562
+      },
+      {
+         "text": {
+            "en": "here, you just go there",
+            "pl": "Tutaj, po prostu tam idź.",
+            "ar": "هنا، أنت فقط اذهب إلى هناك"
+         },
+         "endTime": 301912,
+         "startTime": 300442
+      },
+      {
+         "text": {
+            "en": "ok",
+            "pl": "okej",
+            "ar": "طيب"
+         },
+         "endTime": 303532,
+         "startTime": 302752
+      },
+      {
+         "text": {
+            "en": "so lets try resizing the face again",
+            "pl": "więc spróbujemy ponownie zmienić rozmiar twarzy",
+            "ar": "لذلك دعونا نحاول تغيير حجم الوجه مرة أخرى"
+         },
+         "endTime": 306442,
+         "startTime": 303532
+      },
+      {
+         "text": {
+            "en": "Haha! Check it out",
+            "pl": "Haha! Sprawdź to",
+            "ar": "هاها! تحقق من ذلك"
+         },
+         "endTime": 308155,
+         "startTime": 306925
+      },
+      {
+         "text": {
+            "en": "the mouth and the eyes resize",
+            "pl": "usta i oczy zmieniają rozmiar",
+            "ar": "الفم والعيون تغيير حجم"
+         },
+         "endTime": 310015,
+         "startTime": 308155
+      },
+      {
+         "text": {
+            "en": "proportionally to the face",
+            "pl": "proporcjonalnie do twarzy",
+            "ar": "بشكل متناسب مع الوجه"
+         },
+         "endTime": 311655,
+         "startTime": 310015
+      },
+      {
+         "text": {
+            "en": "but you probably noticed",
+            "pl": "ale pewnie zauważyłeś",
+            "ar": "ولكن ربما كنت لاحظت"
+         },
+         "endTime": 313495,
+         "startTime": 311975
+      },
+      {
+         "text": {
+            "en": "something is wrong",
+            "pl": "coś jest nie tak.",
+            "ar": "شيء خاطئ"
+         },
+         "endTime": 314875,
+         "startTime": 313495
+      },
+      {
+         "text": {
+            "en": "the eyes and the mouth",
+            "pl": "oczy i usta",
+            "ar": "العيون والفم"
+         },
+         "endTime": 316565,
+         "startTime": 314875
+      },
+      {
+         "text": {
+            "en": "are still sticking out of the face",
+            "pl": "wciąż wystają z twarzy",
+            "ar": "لا تزال تخرج من الوجه"
+         },
+         "endTime": 319162,
+         "startTime": 316572
+      },
+      {
+         "text": {
+            "en": "even though they are",
+            "pl": "mimo, że są",
+            "ar": "على الرغم من أنها"
+         },
+         "endTime": 320502,
+         "startTime": 319162
+      },
+      {
+         "text": {
+            "en": "much more appropriately sized",
+            "pl": "o wiele bardziej odpowiedni rozmiar",
+            "ar": "أكثر ملاءمة الحجم"
+         },
+         "endTime": 322612,
+         "startTime": 320502
+      },
+      {
+         "text": {
+            "en": "That is because we still have",
+            "pl": "To dlatego, że wciąż mamy",
+            "ar": "هذا لأننا ما زلنا نملك"
+         },
+         "endTime": 324906,
+         "startTime": 323206
+      },
+      {
+         "text": {
+            "en": "some hard-coded numbers",
+            "pl": "niektóre numery zakodowane",
+            "ar": "بعض الأرقام المرمزة"
+         },
+         "endTime": 326626,
+         "startTime": 324906
+      },
+      {
+         "text": {
+            "en": "in our ellipse commands",
+            "pl": "w poleceniach elipsy",
+            "ar": "في أوامر القطع الناقص لدينا"
+         },
+         "endTime": 328396,
+         "startTime": 326626
+      },
+      {
+         "text": {
+            "en": "some numbers that should actually",
+            "pl": "niektóre numery, które powinny faktycznie",
+            "ar": "بعض الأرقام التي ينبغي فعلا"
+         },
+         "endTime": 330376,
+         "startTime": 328396
+      },
+      {
+         "text": {
+            "en": "be fractions of variables instead",
+            "pl": "być ułamkami zmiennych zamiast",
+            "ar": "تكون كسور من المتغيرات بدلا من ذلك"
+         },
+         "endTime": 332656,
+         "startTime": 330376
+      },
+      {
+         "text": {
+            "en": "here, I'll show you",
+            "pl": "Tutaj, pokażę ci",
+            "ar": "هنا، أنا سوف تظهر لك"
+         },
+         "endTime": 334578,
+         "startTime": 333148
+      },
+      {
+         "text": {
+            "en": "So for the eye ellipse we have",
+            "pl": "Więc dla elipsy oczu mamy",
+            "ar": "لذلك بالنسبة للعين القطع الناقص لدينا"
+         },
+         "endTime": 337799,
+         "startTime": 334669
+      },
+      {
+         "text": {
+            "en": "x minus 50 for the x position",
+            "pl": "x minus 50 dla pozycji x",
+            "ar": "س ناقص 50 لموقف س"
+         },
+         "endTime": 340819,
+         "startTime": 337799
+      },
+      {
+         "text": {
+            "en": "so this means it's always x minus 50",
+            "pl": "więc oznacza to, że zawsze jest x minus 50",
+            "ar": "لذلك هذا يعني انها دائما س ناقص 50"
+         },
+         "endTime": 343278,
+         "startTime": 340838
+      },
+      {
+         "text": {
+            "en": "even if we make our faceSize",
+            "pl": "nawet jeśli tworzymy nasz FaceSize",
+            "ar": "حتى لو جعلنا وجهنا"
+         },
+         "endTime": 345133,
+         "startTime": 343443
+      },
+      {
+         "text": {
+            "en": "smaller than 50 pixels",
+            "pl": "mniejszy niż 50 pikseli",
+            "ar": "أصغر من 50 بكسل"
+         },
+         "endTime": 346843,
+         "startTime": 345133
+      },
+      {
+         "text": {
+            "en": "and that definitely doesn't make sense",
+            "pl": "i to na pewno nie ma sensu",
+            "ar": "وهذا بالتأكيد لا معنى له"
+         },
+         "endTime": 348063,
+         "startTime": 346843
+      },
+      {
+         "text": {
+            "en": "because that means that the left eye",
+            "pl": "ponieważ oznacza to, że lewe oko",
+            "ar": "لأن هذا يعني أن العين اليسرى"
+         },
+         "endTime": 349783,
+         "startTime": 348063
+      },
+      {
+         "text": {
+            "en": "is going to be",
+            "pl": "będzie",
+            "ar": "سوف يكون"
+         },
+         "endTime": 350461,
+         "startTime": 349783
+      },
+      {
+         "text": {
+            "en": "not even in the face anymore",
+            "pl": "nawet nie w twarz",
+            "ar": "ولا حتى في الوجه بعد الآن"
+         },
+         "endTime": 352161,
+         "startTime": 350461
+      },
+      {
+         "text": {
+            "en": "so it should be x minus some fraction",
+            "pl": "więc powinno być x minus jakiś ułamek",
+            "ar": "لذلك يجب أن يكون س ناقص بعض الكسر"
+         },
+         "endTime": 355218,
+         "startTime": 352441
+      },
+      {
+         "text": {
+            "en": "the size of our face",
+            "pl": "rozmiar naszej twarzy",
+            "ar": "حجم وجهنا"
+         },
+         "endTime": 357258,
+         "startTime": 355218
+      },
+      {
+         "text": {
+            "en": "and we can figure out the fraction",
+            "pl": "i możemy dowiedzieć się ułamek",
+            "ar": "ويمكننا معرفة الكسر"
+         },
+         "endTime": 359218,
+         "startTime": 357278
+      },
+      {
+         "text": {
+            "en": "the same way",
+            "pl": "w ten sam sposób",
+            "ar": "بنفس الطريقة"
+         },
+         "endTime": 360148,
+         "startTime": 359218
+      },
+      {
+         "text": {
+            "en": "50 relative to the original 300",
+            "pl": "50 w stosunku do oryginału 300",
+            "ar": "50 بالنسبة إلى 300 الأصلي"
+         },
+         "endTime": 363898,
+         "startTime": 360148
+      },
+      {
+         "text": {
+            "en": "so 50 over 300, five over 30, one over six",
+            "pl": "50 ponad 300, pięć na 30, jeden na sześć",
+            "ar": "حتى 50 أكثر من 300، خمسة أكثر من 30، واحد على ستة"
+         },
+         "endTime": 367898,
+         "startTime": 363898
+      },
+      {
+         "text": {
+            "en": "so one over six times faceSize",
+            "pl": "więc jeden ponad sześć razy FaceSize",
+            "ar": "حتى واحد أكثر من ست مرات فيس سيزي"
+         },
+         "endTime": 371952,
+         "startTime": 368582
+      },
+      {
+         "text": {
+            "en": "and we see another 50 here",
+            "pl": "i widzimy tu kolejne 50",
+            "ar": "ونرى 50 آخر هنا"
+         },
+         "endTime": 374110,
+         "startTime": 372440
+      },
+      {
+         "text": {
+            "en": "so we can do the same thing",
+            "pl": "więc możemy zrobić to samo",
+            "ar": "حتى نتمكن من القيام بنفس الشيء"
+         },
+         "endTime": 376060,
+         "startTime": 374400
+      },
+      {
+         "text": {
+            "en": "the same expression",
+            "pl": "to samo wyrażenie",
+            "ar": "نفس التعبير"
+         },
+         "endTime": 377360,
+         "startTime": 376060
+      },
+      {
+         "text": {
+            "en": "here we have 100 over 300",
+            "pl": "tutaj mamy 100 ponad 300",
+            "ar": "هنا لدينا 100 أكثر من 300"
+         },
+         "endTime": 379140,
+         "startTime": 377360
+      },
+      {
+         "text": {
+            "en": "that's going to be",
+            "pl": "to będzie",
+            "ar": "هذا سيكون"
+         },
+         "endTime": 380690,
+         "startTime": 379460
+      },
+      {
+         "text": {
+            "en": "one third times faceSize",
+            "pl": "jedna trzecia razy FaceSize",
+            "ar": "ثلث مرات فيس سيزي"
+         },
+         "endTime": 383220,
+         "startTime": 380710
+      },
+      {
+         "text": {
+            "en": "this one is 60",
+            "pl": "Ten jest 60",
+            "ar": "هذا واحد هو 60"
+         },
+         "endTime": 384720,
+         "startTime": 383220
+      },
+      {
+         "text": {
+            "en": "so that'll end up being",
+            "pl": "tak, że skończy się to",
+            "ar": "بحيث سوف ينتهي الأمر"
+         },
+         "endTime": 386080,
+         "startTime": 384720
+      },
+      {
+         "text": {
+            "en": "one fifth times faceSize",
+            "pl": "jedna piąta razy FaceSize",
+            "ar": "خمس مرات فيس سيزي"
+         },
+         "endTime": 388897,
+         "startTime": 386080
+      },
+      {
+         "text": {
+            "en": "and here this is another 50",
+            "pl": "a tu jest kolejne 50",
+            "ar": "وهنا هذا هو 50 آخر"
+         },
+         "endTime": 392087,
+         "startTime": 389267
+      },
+      {
+         "text": {
+            "en": "so its one sixth again",
+            "pl": "więc jego jedna szósta ponownie",
+            "ar": "لذلك سدس واحد مرة أخرى"
+         },
+         "endTime": 394457,
+         "startTime": 392087
+      },
+      {
+         "text": {
+            "en": "and then 40",
+            "pl": "a następnie 40",
+            "ar": "ثم 40"
+         },
+         "endTime": 395727,
+         "startTime": 394457
+      },
+      {
+         "text": {
+            "en": "that's what we figured out up here",
+            "pl": "To jest to, co odkryliśmy tutaj",
+            "ar": "هذا ما اكتشفناه هنا"
+         },
+         "endTime": 398257,
+         "startTime": 395727
+      },
+      {
+         "text": {
+            "en": "two over 15",
+            "pl": "dwa powyżej 15",
+            "ar": "اثنين أكثر من 15"
+         },
+         "endTime": 399507,
+         "startTime": 398257
+      },
+      {
+         "text": {
+            "en": "so two over 15 times faceSize",
+            "pl": "więc dwa ponad 15 razy FaceSize",
+            "ar": "حتى اثنين أكثر من 15 مرة فيس سيزي"
+         },
+         "endTime": 404937,
+         "startTime": 399507
+      },
+      {
+         "text": {
+            "en": "alright so lets try again",
+            "pl": "Dobra, więc spróbujmy jeszcze raz",
+            "ar": "حسنا لذلك دعونا نحاول مرة أخرى"
+         },
+         "endTime": 408117,
+         "startTime": 405347
+      },
+      {
+         "text": {
+            "en": "Oh, look at that!",
+            "pl": "Oh, spójrz na to!",
+            "ar": "أوه، انظر إلى ذلك!"
+         },
+         "endTime": 409477,
+         "startTime": 408117
+      },
+      {
+         "text": {
+            "en": "Look at it. That's beautiful",
+            "pl": "Spójrz na to. To jest piękne.",
+            "ar": "انظري إليها هذا جميل"
+         },
+         "endTime": 411257,
+         "startTime": 409477
+      },
+      {
+         "text": {
+            "en": "so good",
+            "pl": "tak dobrze",
+            "ar": "جيد جدا"
+         },
+         "endTime": 412048,
+         "startTime": 411268
+      },
+      {
+         "text": {
+            "en": "alright so let's review",
+            "pl": "w porządku, więc przejrzyjmy",
+            "ar": "حسنا لذلك دعونا مراجعة"
+         },
+         "endTime": 414587,
+         "startTime": 412617
+      },
+      {
+         "text": {
+            "en": "We created this variable",
+            "pl": "Stworzyliśmy tę zmienną",
+            "ar": "أنشأنا هذا المتغير"
+         },
+         "endTime": 416117,
+         "startTime": 414587
+      },
+      {
+         "text": {
+            "en": "that stored the size of the face",
+            "pl": ", które przechowują rozmiar twarzy",
+            "ar": "التي تخزن حجم الوجه"
+         },
+         "endTime": 417950,
+         "startTime": 416130
+      },
+      {
+         "text": {
+            "en": "and it just stores a number",
+            "pl": "i po prostu przechowuje liczbę",
+            "ar": "وأنه يخزن فقط عدد"
+         },
+         "endTime": 419630,
+         "startTime": 417950
+      },
+      {
+         "text": {
+            "en": "then we have these mouthSize",
+            "pl": "to mamy te MouthSize",
+            "ar": "ثم لدينا هذه الفم"
+         },
+         "endTime": 421510,
+         "startTime": 419630
+      },
+      {
+         "text": {
+            "en": "and eyeSize variables",
+            "pl": "i EyeSize zmienne",
+            "ar": "ومتغيرات إيسيزي"
+         },
+         "endTime": 423350,
+         "startTime": 421510
+      },
+      {
+         "text": {
+            "en": "and we calculate them based as fractions",
+            "pl": "i obliczamy je w oparciu o ułamki",
+            "ar": "ونحن نحسب لهم على أساس كسور"
+         },
+         "endTime": 425710,
+         "startTime": 423350
+      },
+      {
+         "text": {
+            "en": "of faceSize",
+            "pl": "FaceSize",
+            "ar": "من فيس سيزي"
+         },
+         "endTime": 426790,
+         "startTime": 425710
+      },
+      {
+         "text": {
+            "en": "to make sure that",
+            "pl": ", aby upewnić się, że",
+            "ar": "للتأكد من أن"
+         },
+         "endTime": 427770,
+         "startTime": 426790
+      },
+      {
+         "text": {
+            "en": "their values always changed",
+            "pl": "ich wartości zawsze się zmieniały",
+            "ar": "قيمهم تغيرت دائما"
+         },
+         "endTime": 429500,
+         "startTime": 427770
+      },
+      {
+         "text": {
+            "en": "based on what we start this one off as",
+            "pl": "w oparciu o to, co zaczynamy ten jako",
+            "ar": "بناء على ما نبدأ هذا واحد كما"
+         },
+         "endTime": 432360,
+         "startTime": 429500
+      },
+      {
+         "text": {
+            "en": "then all of the offsets are calculated",
+            "pl": "wtedy wszystkie odsunięcia są obliczane",
+            "ar": "ثم يتم حساب كل من الإزاحة"
+         },
+         "endTime": 435104,
+         "startTime": 432514
+      },
+      {
+         "text": {
+            "en": "based on faceSize too",
+            "pl": "również na podstawie FaceSize",
+            "ar": "على أساس فاسيزي أيضا"
+         },
+         "endTime": 436894,
+         "startTime": 435104
+      },
+      {
+         "text": {
+            "en": "to make sure the position",
+            "pl": "aby upewnić się, że pozycja",
+            "ar": "للتأكد من الموقف"
+         },
+         "endTime": 438454,
+         "startTime": 436894
+      },
+      {
+         "text": {
+            "en": "inside the face changes",
+            "pl": "wewnątrz twarzy zmienia",
+            "ar": "داخل التغييرات الوجه"
+         },
+         "endTime": 439884,
+         "startTime": 438454
+      },
+      {
+         "text": {
+            "en": "if faceSize changes",
+            "pl": "jeśli FaceSize się zmieni",
+            "ar": "إذا تغير فيس سيزي"
+         },
+         "endTime": 442064,
+         "startTime": 439884
+      },
+      {
+         "text": {
+            "en": "Whoo! Alright.",
+            "pl": "Whoo! W porządku.",
+            "ar": "ووو! حسناً"
+         },
+         "endTime": 443014,
+         "startTime": 442064
+      },
+      {
+         "text": {
+            "en": "So now that we really understand",
+            "pl": "Więc teraz, gdy naprawdę rozumiemy",
+            "ar": "حتى الآن ونحن نفهم حقا"
+         },
+         "endTime": 444614,
+         "startTime": 443014
+      },
+      {
+         "text": {
+            "en": "how to make variables",
+            "pl": "jak tworzyć zmienne",
+            "ar": "كيفية جعل المتغيرات"
+         },
+         "endTime": 445725,
+         "startTime": 444614
+      },
+      {
+         "text": {
+            "en": "dependant on the values of other variables",
+            "pl": "zależne od wartości innych zmiennych",
+            "ar": "تعتمد على قيم المتغيرات الأخرى"
+         },
+         "endTime": 447865,
+         "startTime": 445725
+      },
+      {
+         "text": {
+            "en": "we can do so much more with our programmes",
+            "pl": "możemy zrobić o wiele więcej dzięki naszym programom",
+            "ar": "يمكننا أن نفعل أكثر من ذلك بكثير مع برامجنا"
+         },
+         "endTime": 450375,
+         "startTime": 447865
+      },
+      {
+         "text": {
+            "en": "let's celebrate by making Winston",
+            "pl": "świętujmy, robiąc Winston",
+            "ar": "دعونا نحتفل من خلال جعل وينستون"
+         },
+         "endTime": 452365,
+         "startTime": 450375
+      },
+      {
+         "text": {
+            "en": "Huge! yeah, go Winston!",
+            "pl": "Ogromny! Tak, idź Winston!",
+            "ar": "ضخمة! نعم، اذهب وينستون!"
+         },
+         "endTime": 456781,
+         "startTime": 452365
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/KVBYgTrZXYI/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759665810",
+   "title": "Resizing shapes with variable expressions | Bonus: Resizing with variables | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

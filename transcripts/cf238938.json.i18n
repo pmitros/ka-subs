@@ -1,0 +1,1167 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- [Voiceover] Let's begin programming",
+            "pl": "- [Voiceover] Zacznijmy programowanie",
+            "ar": "- [Voiceover] دعونا نبدأ البرمجة"
+         },
+         "endTime": 2910,
+         "startTime": 747
+      },
+      {
+         "text": {
+            "en": "by making a face with circles.",
+            "pl": ", tworząc twarz z kółkami.",
+            "ar": "عن طريق جعل وجه مع الدوائر."
+         },
+         "endTime": 4822,
+         "startTime": 2910
+      },
+      {
+         "text": {
+            "en": "To draw a circle we need to use the ellipse command,",
+            "pl": "Aby narysować okrąg musimy użyć polecenia elipsy,",
+            "ar": "لرسم دائرة نحتاج إلى استخدام الأمر القطع الناقص،"
+         },
+         "endTime": 8269,
+         "startTime": 4822
+      },
+      {
+         "text": {
+            "en": "so I'll type ellipse in this editor.",
+            "pl": "więc wpiszę elipsę w tym edytorze.",
+            "ar": "لذلك سوف اكتب القطع الناقص في هذا المحرر."
+         },
+         "endTime": 11144,
+         "startTime": 9118
+      },
+      {
+         "text": {
+            "en": "After I write a command name in a program,",
+            "pl": "Po napisaniu nazwy polecenia w programie,",
+            "ar": "بعد أن أكتب اسم أمر في برنامج،"
+         },
+         "endTime": 14294,
+         "startTime": 11996
+      },
+      {
+         "text": {
+            "en": "I always follow it with parenthesis and a semicolon.",
+            "pl": "Zawsze podążam za nawiasem i średnikiem.",
+            "ar": "أنا دائما اتبعه مع الأقواس والفاصلة المنقوطة."
+         },
+         "endTime": 18239,
+         "startTime": 14294
+      },
+      {
+         "text": {
+            "en": "But I don't see an ellipse.",
+            "pl": "Ale nie widzę elipsy.",
+            "ar": "لكنني لا أرى القطع الناقص"
+         },
+         "endTime": 21610,
+         "startTime": 19470
+      },
+      {
+         "text": {
+            "en": "The right side is still that boring white canvas.",
+            "pl": "Prawa strona to wciąż nudne białe płótno.",
+            "ar": "الجانب الأيمن لا يزال ذلك قماش أبيض مملة."
+         },
+         "endTime": 25207,
+         "startTime": 22940
+      },
+      {
+         "text": {
+            "en": "Well, there's no ellipse yet, because I need to give",
+            "pl": "Cóż, nie ma jeszcze elipsy, bo muszę dać",
+            "ar": "حسنا، ليس هناك قطع ناقص حتى الآن، لأنني بحاجة لإعطاء"
+         },
+         "endTime": 28857,
+         "startTime": 26431
+      },
+      {
+         "text": {
+            "en": "more information about where to draw the ellipse",
+            "pl": "więcej informacji o tym, gdzie narysować elipsę",
+            "ar": "مزيد من المعلومات حول مكان رسم القطع الناقص"
+         },
+         "endTime": 32327,
+         "startTime": 28857
+      },
+      {
+         "text": {
+            "en": "and what size it should be.",
+            "pl": "i jaki powinien być rozmiar.",
+            "ar": "وما الحجم الذي ينبغي أن يكون."
+         },
+         "endTime": 34409,
+         "startTime": 32327
+      },
+      {
+         "text": {
+            "en": "Since I am drawing a face, I want this ellipse",
+            "pl": "Ponieważ rysuję twarz, chcę tę elipsę",
+            "ar": "بما أنني أرسم وجهًا، أريد هذا القطع الناقص"
+         },
+         "endTime": 38950,
+         "startTime": 35914
+      },
+      {
+         "text": {
+            "en": "to be smack in the center of the canvas",
+            "pl": "być uderzające w środku płótna",
+            "ar": "أن تكون صفعة في وسط قماش"
+         },
+         "endTime": 41732,
+         "startTime": 38950
+      },
+      {
+         "text": {
+            "en": "and pretty big.",
+            "pl": "i całkiem duże.",
+            "ar": "وكبيرة جدا."
+         },
+         "endTime": 42975,
+         "startTime": 41732
+      },
+      {
+         "text": {
+            "en": "I'll type four numbers in.",
+            "pl": "Wpiszę cztery cyfry.",
+            "ar": "سوف اكتب أربعة أرقام في."
+         },
+         "endTime": 46336,
+         "startTime": 44363
+      },
+      {
+         "text": {
+            "en": "That'll make that happen.",
+            "pl": "To sprawi, że tak się stanie.",
+            "ar": "هذا سيجعل ذلك يحدث"
+         },
+         "endTime": 48346,
+         "startTime": 46929
+      },
+      {
+         "text": {
+            "en": "And we'll explore why they work.",
+            "pl": "Zbadamy, dlaczego działają.",
+            "ar": "وسنستكشف لماذا يعملون."
+         },
+         "endTime": 50668,
+         "startTime": 48683
+      },
+      {
+         "text": {
+            "en": "Ta-da, a face.",
+            "pl": "Ta-da, twarz.",
+            "ar": "تا-دا، وجه"
+         },
+         "endTime": 54614,
+         "startTime": 52925
+      },
+      {
+         "text": {
+            "en": "Okay, so this first number,",
+            "pl": "Ok, więc ten pierwszy numer,",
+            "ar": "حسناً، هذا الرقم الأول"
+         },
+         "endTime": 57464,
+         "startTime": 54952
+      },
+      {
+         "text": {
+            "en": "what does it control?",
+            "pl": "Co to kontroluje?",
+            "ar": "ما الذي يتحكم به؟"
+         },
+         "endTime": 58769,
+         "startTime": 57465
+      },
+      {
+         "text": {
+            "en": "I can change it by clicking on it and using the",
+            "pl": "Mogę go zmienić, klikając na niego i używając",
+            "ar": "يمكنني تغييره عن طريق النقر عليه واستخدام"
+         },
+         "endTime": 62452,
+         "startTime": 59625
+      },
+      {
+         "text": {
+            "en": "number scrubber that pops up.",
+            "pl": "numer płuczki, która wyskakuje.",
+            "ar": "رقم الغسيل الذي للملوثات العضوية الثابتة."
+         },
+         "endTime": 64111,
+         "startTime": 62452
+      },
+      {
+         "text": {
+            "en": "Watch, it's moving across the canvas.",
+            "pl": "Patrzcie, porusza się po płótnie.",
+            "ar": "شاهد، إنها تتحرك عبر اللوحة"
+         },
+         "endTime": 66904,
+         "startTime": 64111
+      },
+      {
+         "text": {
+            "en": "So this number controls how far the ellipse is",
+            "pl": "Więc ta liczba kontroluje, jak daleko jest elipsa",
+            "ar": "لذلك يتحكم هذا الرقم إلى أي مدى القطع الناقص"
+         },
+         "endTime": 70930,
+         "startTime": 67494
+      },
+      {
+         "text": {
+            "en": "from the left side of the canvas.",
+            "pl": "z lewej strony płótna.",
+            "ar": "من الجانب الأيسر من اللوحة."
+         },
+         "endTime": 72971,
+         "startTime": 70930
+      },
+      {
+         "text": {
+            "en": "What about the second number?",
+            "pl": "A co z drugim numerem?",
+            "ar": "ماذا عن الرقم الثاني؟"
+         },
+         "endTime": 76690,
+         "startTime": 74498
+      },
+      {
+         "text": {
+            "en": "If I change this, the ellipse moves up",
+            "pl": "Jeśli to zmienię, elipsa porusza się w górę",
+            "ar": "إذا قمت بتغيير هذا، يتحرك القطع الناقص لأعلى"
+         },
+         "endTime": 79893,
+         "startTime": 76690
+      },
+      {
+         "text": {
+            "en": "and down the canvas.",
+            "pl": "i w dół płótna.",
+            "ar": "وأسفل قماش."
+         },
+         "endTime": 81411,
+         "startTime": 79893
+      },
+      {
+         "text": {
+            "en": "Okay.",
+            "pl": "Okej.",
+            "ar": "حسناً"
+         },
+         "endTime": 82782,
+         "startTime": 81861
+      },
+      {
+         "text": {
+            "en": "On to the third number.",
+            "pl": "Przejdzie na trzeci numer.",
+            "ar": "إلى الرقم الثالث."
+         },
+         "endTime": 85344,
+         "startTime": 83592
+      },
+      {
+         "text": {
+            "en": "Changing this makes the ellipse wider",
+            "pl": "Zmiana tego powoduje, że elipsa jest szersza",
+            "ar": "تغيير هذا يجعل القطع الناقص أوسع"
+         },
+         "endTime": 88866,
+         "startTime": 85792
+      },
+      {
+         "text": {
+            "en": "and thinner.",
+            "pl": "i cieńsze.",
+            "ar": "وأرق."
+         },
+         "endTime": 90381,
+         "startTime": 88866
+      },
+      {
+         "text": {
+            "en": "All right, nice.",
+            "pl": "W porządku, ładnie.",
+            "ar": "حَسَناً، لطيف."
+         },
+         "endTime": 92536,
+         "startTime": 90958
+      },
+      {
+         "text": {
+            "en": "Finally, the fourth.",
+            "pl": "W końcu czwarty.",
+            "ar": "وأخيرا، الرابع."
+         },
+         "endTime": 94668,
+         "startTime": 93300
+      },
+      {
+         "text": {
+            "en": "The height, making ellipse taller and shorter,",
+            "pl": "Wysokość, dzięki czemu elipsa jest wyższa i krótsza,",
+            "ar": "الارتفاع، مما يجعل القطع الناقص أطول وأقصر،"
+         },
+         "endTime": 102172,
+         "startTime": 97598
+      },
+      {
+         "text": {
+            "en": "kinda squishy.",
+            "pl": "Trochę squishy.",
+            "ar": "اسفنجي كيندا."
+         },
+         "endTime": 103881,
+         "startTime": 102697
+      },
+      {
+         "text": {
+            "en": "Let's make it taller again.",
+            "pl": "Uczyńmy go jeszcze wyższym.",
+            "ar": "لنجعلها أطول مرة أخرى"
+         },
+         "endTime": 106437,
+         "startTime": 104594
+      },
+      {
+         "text": {
+            "en": "Okay.",
+            "pl": "Okej.",
+            "ar": "حسناً"
+         },
+         "endTime": 107732,
+         "startTime": 106927
+      },
+      {
+         "text": {
+            "en": "Now you know what all of our numbers do.",
+            "pl": "Teraz wiesz, co robią nasze liczby.",
+            "ar": "الآن أنت تعرف ما تفعله جميع أرقامنا."
+         },
+         "endTime": 110150,
+         "startTime": 107732
+      },
+      {
+         "text": {
+            "en": "The first two control the position of the ellipse",
+            "pl": "Pierwsze dwa kontrolują położenie elipsy",
+            "ar": "أول اثنين السيطرة على موقف القطع الناقص"
+         },
+         "endTime": 113500,
+         "startTime": 110150
+      },
+      {
+         "text": {
+            "en": "and the second two control the size of the ellipse.",
+            "pl": ", a dwa drugie kontrolują rozmiar elipsy.",
+            "ar": "والثاني يتحكم في حجم القطع الناقص."
+         },
+         "endTime": 115847,
+         "startTime": 113500
+      },
+      {
+         "text": {
+            "en": "We call these numbers the parameters to the ellipse command.",
+            "pl": "Nazywamy te numery parametrami do polecenia elipsy.",
+            "ar": "نحن نسمي هذه الأرقام المعلمات إلى الأمر القطع الناقص."
+         },
+         "endTime": 120844,
+         "startTime": 116730
+      },
+      {
+         "text": {
+            "en": "And actually we usually call a command a function.",
+            "pl": "I właściwie zwykle nazywamy polecenie funkcją.",
+            "ar": "وفعلا نحن عادة استدعاء الأمر وظيفة."
+         },
+         "endTime": 125504,
+         "startTime": 121697
+      },
+      {
+         "text": {
+            "en": "So here in our program we're calling the ellipse function",
+            "pl": "Więc tutaj, w naszym programie nazywamy funkcję elipsy",
+            "ar": "حتى هنا في برنامجنا نحن ندعو وظيفة القطع الناقص"
+         },
+         "endTime": 130621,
+         "startTime": 126424
+      },
+      {
+         "text": {
+            "en": "and passing it four parameters to change how it draws",
+            "pl": "i przekazując cztery parametry, aby zmienić sposób rysowania",
+            "ar": "وتمريرها أربع معلمات لتغيير كيف يرسم"
+         },
+         "endTime": 134429,
+         "startTime": 130621
+      },
+      {
+         "text": {
+            "en": "the ellipse.",
+            "pl": "elipsę.",
+            "ar": "القطع الناقص."
+         },
+         "endTime": 135616,
+         "startTime": 134429
+      },
+      {
+         "text": {
+            "en": "When we describe the parameters of a function,",
+            "pl": "Kiedy opisujemy parametry funkcji,",
+            "ar": "عندما تصف معلمات دالة ما،"
+         },
+         "endTime": 139587,
+         "startTime": 136585
+      },
+      {
+         "text": {
+            "en": "we usually give them nicknames, so that we don't have to say",
+            "pl": "zwykle nadajemy im pseudonimy, żebyśmy nie musieli mówić",
+            "ar": "نحن عادة نعطيهم ألقاب، حتى لا يكون علينا أن نقول"
+         },
+         "endTime": 142259,
+         "startTime": 139587
+      },
+      {
+         "text": {
+            "en": "first and second.",
+            "pl": "Pierwszy i drugi.",
+            "ar": "الأول والثاني."
+         },
+         "endTime": 143738,
+         "startTime": 142259
+      },
+      {
+         "text": {
+            "en": "Let's go through the nicknames for these parameters.",
+            "pl": "Przejdźmy przez pseudonimy dla tych parametrów.",
+            "ar": "دعونا نذهب من خلال الألقاب لهذه المعلمات."
+         },
+         "endTime": 147450,
+         "startTime": 144592
+      },
+      {
+         "text": {
+            "en": "This first parameter, remember that",
+            "pl": "Ten pierwszy parametr, pamiętaj, że",
+            "ar": "هذه المعلمة الأولى، تذكر أن"
+         },
+         "endTime": 151594,
+         "startTime": 148427
+      },
+      {
+         "text": {
+            "en": "it controls this.",
+            "pl": "kontroluje to.",
+            "ar": "انها تسيطر على هذا."
+         },
+         "endTime": 152936,
+         "startTime": 151594
+      },
+      {
+         "text": {
+            "en": "We call this parameter X, because we think",
+            "pl": "Nazywamy ten parametr X, ponieważ myślimy",
+            "ar": "نحن نسمي هذه المعلمة X، لأننا نعتقد"
+         },
+         "endTime": 157157,
+         "startTime": 153678
+      },
+      {
+         "text": {
+            "en": "of x as the direction it goes across the canvas,",
+            "pl": "x jako kierunek przechodzi przez płótno,",
+            "ar": "من x كما الاتجاه يذهب عبر قماش،"
+         },
+         "endTime": 161829,
+         "startTime": 157157
+      },
+      {
+         "text": {
+            "en": "like I'm showing here.",
+            "pl": "Tak jak ja tu pokazuję.",
+            "ar": "مثل أنا تظهر هنا."
+         },
+         "endTime": 163745,
+         "startTime": 162359
+      },
+      {
+         "text": {
+            "en": "It starts at zero",
+            "pl": "Zaczyna się od zera",
+            "ar": "يبدأ عند الصفر"
+         },
+         "endTime": 165946,
+         "startTime": 164592
+      },
+      {
+         "text": {
+            "en": "and ends at 400.",
+            "pl": "i kończy się na 400.",
+            "ar": "وينتهي عند 400."
+         },
+         "endTime": 169334,
+         "startTime": 166930
+      },
+      {
+         "text": {
+            "en": "So that, that's our x.",
+            "pl": "Więc to jest nasz x.",
+            "ar": "بحيث، وهذا هو لدينا س."
+         },
+         "endTime": 173143,
+         "startTime": 170815
+      },
+      {
+         "text": {
+            "en": "This second parameter, we call it Y,",
+            "pl": "Ten drugi parametr, nazywamy to Y,",
+            "ar": "هذه المعلمة الثانية، ونحن نسميها Y،"
+         },
+         "endTime": 178136,
+         "startTime": 174931
+      },
+      {
+         "text": {
+            "en": "because it controls",
+            "pl": "ponieważ kontroluje",
+            "ar": "لأنه يتحكم"
+         },
+         "endTime": 180444,
+         "startTime": 178931
+      },
+      {
+         "text": {
+            "en": "this direction.",
+            "pl": "w tym kierunku.",
+            "ar": "هذا الاتجاه."
+         },
+         "endTime": 182891,
+         "startTime": 181562
+      },
+      {
+         "text": {
+            "en": "And we think of y as the direction",
+            "pl": "I myślimy o tobie jako o kierunku",
+            "ar": "ونحن نفكر في y كما الاتجاه"
+         },
+         "endTime": 184796,
+         "startTime": 182891
+      },
+      {
+         "text": {
+            "en": "that goes down the canvas.",
+            "pl": "że idzie w dół płótna.",
+            "ar": "الذي يذهب إلى أسفل قماش."
+         },
+         "endTime": 186971,
+         "startTime": 184796
+      },
+      {
+         "text": {
+            "en": "That's y.",
+            "pl": "To jest ty.",
+            "ar": "هذا ذ."
+         },
+         "endTime": 189300,
+         "startTime": 187391
+      },
+      {
+         "text": {
+            "en": "And it also starts at zero up here in the corner",
+            "pl": "I zaczyna się od zera tutaj, w rogu",
+            "ar": "ويبدأ أيضا عند الصفر هنا في الزاوية"
+         },
+         "endTime": 192392,
+         "startTime": 189300
+      },
+      {
+         "text": {
+            "en": "and goes to 400 down at the bottom.",
+            "pl": "i idzie do 400 w dół na dole.",
+            "ar": "ويذهب إلى 400 أسفل في الأسفل."
+         },
+         "endTime": 196648,
+         "startTime": 192393
+      },
+      {
+         "text": {
+            "en": "So that's x and y.",
+            "pl": "Więc to X i Y.",
+            "ar": "لذلك هذا س و ص."
+         },
+         "endTime": 199801,
+         "startTime": 197666
+      },
+      {
+         "text": {
+            "en": "We call the third parameter Width,",
+            "pl": "Nazywamy trzeci parametr Szerokość,",
+            "ar": "نسمي المعلمة الثالثة العرض،"
+         },
+         "endTime": 203940,
+         "startTime": 200789
+      },
+      {
+         "text": {
+            "en": "because it controls the width,",
+            "pl": "ponieważ kontroluje szerokość,",
+            "ar": "لأنه يتحكم في العرض،"
+         },
+         "endTime": 205300,
+         "startTime": 203940
+      },
+      {
+         "text": {
+            "en": "and the fourth parameter we call Height.",
+            "pl": "i czwarty parametr nazywamy Wysokość.",
+            "ar": "والمعلمة الرابعة التي نسميها الارتفاع."
+         },
+         "endTime": 207580,
+         "startTime": 205300
+      },
+      {
+         "text": {
+            "en": "Okay.",
+            "pl": "Okej.",
+            "ar": "حسناً"
+         },
+         "endTime": 209347,
+         "startTime": 208454
+      },
+      {
+         "text": {
+            "en": "So now we understand what out code is doing",
+            "pl": "Więc teraz rozumiemy, co się robi kod",
+            "ar": "حتى الآن نحن نفهم ما تفعله التعليمات البرمجية"
+         },
+         "endTime": 213292,
+         "startTime": 209861
+      },
+      {
+         "text": {
+            "en": "and why it's doing that,",
+            "pl": "i dlaczego to robi,",
+            "ar": "ولماذا يفعل ذلك"
+         },
+         "endTime": 215190,
+         "startTime": 213292
+      },
+      {
+         "text": {
+            "en": "let's write some more code.",
+            "pl": "Napiszmy więcej kodu.",
+            "ar": "دعونا نكتب بعض المزيد من التعليمات البرمجية."
+         },
+         "endTime": 216407,
+         "startTime": 215190
+      },
+      {
+         "text": {
+            "en": "What, we have our face,",
+            "pl": "Co, mamy swoją twarz,",
+            "ar": "ماذا, لدينا وجهنا,"
+         },
+         "endTime": 219496,
+         "startTime": 217693
+      },
+      {
+         "text": {
+            "en": "it needs a mouth so they can eat things.",
+            "pl": "Potrzebuje ust, żeby mogli jeść rzeczy.",
+            "ar": "تحتاج إلى فم حتى يتمكنوا من أكل الأشياء."
+         },
+         "endTime": 222697,
+         "startTime": 219496
+      },
+      {
+         "text": {
+            "en": "I'll make a mouth by typing a second ellipse underneath.",
+            "pl": "Zrobię usta wpisując pod spodem drugą elipsę.",
+            "ar": "سأصنع فماً بكتابة القطع الناقص الثاني تحته"
+         },
+         "endTime": 225874,
+         "startTime": 222697
+      },
+      {
+         "text": {
+            "en": "I'm going to use the same x as the one before it,",
+            "pl": "Zamierzam użyć tego samego X, co przed nim,",
+            "ar": "انا ذاهب الى استخدام نفس x واحد قبل ذلك،"
+         },
+         "endTime": 231126,
+         "startTime": 226921
+      },
+      {
+         "text": {
+            "en": "because I want it to be in the center of the face,",
+            "pl": "bo chcę, żeby to było w środku twarzy,",
+            "ar": "لأنني أريد أن يكون في وسط الوجه،"
+         },
+         "endTime": 234355,
+         "startTime": 231126
+      },
+      {
+         "text": {
+            "en": "but I do want it lower down on the face.",
+            "pl": "Ale chcę go niżej na twarzy.",
+            "ar": "لكني أريدها أن تخفض على الوجه"
+         },
+         "endTime": 237221,
+         "startTime": 234355
+      },
+      {
+         "text": {
+            "en": "So I'll try 250 for the y.",
+            "pl": "Więc spróbuję 250 za Y.",
+            "ar": "لذلك سأحاول 250 ل y."
+         },
+         "endTime": 240280,
+         "startTime": 237222
+      },
+      {
+         "text": {
+            "en": "For the size I want it smaller than a face.",
+            "pl": "Dla rozmiaru chcę, żeby był mniejszy niż twarz.",
+            "ar": "بالنسبة للحجم أريده أصغر من الوجه."
+         },
+         "endTime": 244912,
+         "startTime": 242320
+      },
+      {
+         "text": {
+            "en": "Let me try 110.",
+            "pl": "Pozwól mi spróbować 110.",
+            "ar": "اسمحوا لي أن أحاول 110."
+         },
+         "endTime": 248436,
+         "startTime": 245596
+      },
+      {
+         "text": {
+            "en": "Okay, it's a little, little too small.",
+            "pl": "Okay, jest trochę, trochę za mały.",
+            "ar": "حسنا، انها صغيرة قليلا جدا."
+         },
+         "endTime": 252987,
+         "startTime": 250310
+      },
+      {
+         "text": {
+            "en": "I'm just gonna widen that up a bit.",
+            "pl": "Po prostu trochę to poszerzę.",
+            "ar": "أنا فقط ستعمل توسيع ذلك قليلا."
+         },
+         "endTime": 256697,
+         "startTime": 252987
+      },
+      {
+         "text": {
+            "en": "All right.",
+            "pl": "W porządku.",
+            "ar": "حسناً"
+         },
+         "endTime": 257745,
+         "startTime": 256697
+      },
+      {
+         "text": {
+            "en": "Next we need eyes, because a face without eyes",
+            "pl": "Następnie potrzebujemy oczu, ponieważ twarz bez oczu",
+            "ar": "التالي نحن بحاجة إلى عيون، لأن وجه بدون عيون"
+         },
+         "endTime": 262489,
+         "startTime": 258793
+      },
+      {
+         "text": {
+            "en": "is pretty creepy.",
+            "pl": "jest dość przerażające.",
+            "ar": "هو مخيف جدا."
+         },
+         "endTime": 263847,
+         "startTime": 262489
+      },
+      {
+         "text": {
+            "en": "Let's start with the left eye.",
+            "pl": "Zacznijmy od lewego oka.",
+            "ar": "دعونا نبدأ مع العين اليسرى."
+         },
+         "endTime": 266114,
+         "startTime": 264595
+      },
+      {
+         "text": {
+            "en": "It should be closer to the left-hand side",
+            "pl": "Powinien być bliżej lewej strony",
+            "ar": "يجب أن يكون أقرب إلى الجانب الأيسر"
+         },
+         "endTime": 270263,
+         "startTime": 267286
+      },
+      {
+         "text": {
+            "en": "than the center, so I'll try 150",
+            "pl": "niż w centrum, więc spróbuję 150",
+            "ar": "من المركز، لذلك سأحاول 150"
+         },
+         "endTime": 273772,
+         "startTime": 270263
+      },
+      {
+         "text": {
+            "en": "and it should also be closer to the top,",
+            "pl": "i powinien być również bliżej góry,",
+            "ar": "و ينبغي أيضا أن يكون أقرب إلى القمة,"
+         },
+         "endTime": 277727,
+         "startTime": 274864
+      },
+      {
+         "text": {
+            "en": "so I'll try 150 for y as well.",
+            "pl": "Więc spróbuję 150 dla ciebie, jak również.",
+            "ar": "لذلك سأحاول 150 ل y كذلك."
+         },
+         "endTime": 280300,
+         "startTime": 277727
+      },
+      {
+         "text": {
+            "en": "And they should be small perfect circles,",
+            "pl": "I powinny to być małe idealne koła,",
+            "ar": "وينبغي أن تكون دوائر مثالية صغيرة،"
+         },
+         "endTime": 284287,
+         "startTime": 281121
+      },
+      {
+         "text": {
+            "en": "so I'll try 30, 30.",
+            "pl": "Więc spróbuję 30, 30.",
+            "ar": "لذلك سأحاول 30، 30."
+         },
+         "endTime": 286144,
+         "startTime": 284288
+      },
+      {
+         "text": {
+            "en": "Okay, I don't see my eye yet,",
+            "pl": "Okej, jeszcze nie widzę swojego oka.",
+            "ar": "حسناً، أنا لا أرى عيني بعد"
+         },
+         "endTime": 290155,
+         "startTime": 287363
+      },
+      {
+         "text": {
+            "en": "what's wrong?",
+            "pl": "Co jest nie tak?",
+            "ar": "ما الخطب؟"
+         },
+         "endTime": 290993,
+         "startTime": 290155
+      },
+      {
+         "text": {
+            "en": "Ah, here's the issue.",
+            "pl": "Ach, oto problem.",
+            "ar": "ها هي المشكلة"
+         },
+         "endTime": 293228,
+         "startTime": 290993
+      },
+      {
+         "text": {
+            "en": "Oh noes guy, our error buddy, pops up",
+            "pl": "Oh noes facet, nasz kumpel błędu, wyskakuje",
+            "ar": "يا رجل، رفيقنا الخطأ، للملوثات العضوية الثابتة"
+         },
+         "endTime": 296510,
+         "startTime": 293228
+      },
+      {
+         "text": {
+            "en": "and it's telling me that something is wrong",
+            "pl": "i mówi mi, że coś jest nie tak",
+            "ar": "وهو يقول لي أن هناك شيء خاطئ"
+         },
+         "endTime": 297990,
+         "startTime": 296510
+      },
+      {
+         "text": {
+            "en": "with the code.",
+            "pl": "z kodem.",
+            "ar": "مع التعليمات البرمجية."
+         },
+         "endTime": 299940,
+         "startTime": 297990
+      },
+      {
+         "text": {
+            "en": "I am missing a semicolon.",
+            "pl": "Brakuje mi średnika.",
+            "ar": "أنا في عداد المفقودين فاصلة منقوطة."
+         },
+         "endTime": 301763,
+         "startTime": 299940
+      },
+      {
+         "text": {
+            "en": "Where am I missing it?",
+            "pl": "Gdzie go przegapiłem?",
+            "ar": "أين أنا في عداد المفقودين؟"
+         },
+         "endTime": 303429,
+         "startTime": 301763
+      },
+      {
+         "text": {
+            "en": "Line five, the line of code that I just wrote,",
+            "pl": "Linia piąta, wiersz kodu, który właśnie napisałem,",
+            "ar": "السطر الخامس، سطر التعليمات البرمجية التي كتبتها للتو،"
+         },
+         "endTime": 306725,
+         "startTime": 303430
+      },
+      {
+         "text": {
+            "en": "I forgot my semicolon.",
+            "pl": "Zapomniałem średnika.",
+            "ar": "لقد نسيت الفاصلة المنقوطة"
+         },
+         "endTime": 308126,
+         "startTime": 306725
+      },
+      {
+         "text": {
+            "en": "Classic mistake, I'll just add it back in",
+            "pl": "Klasyczny błąd, po prostu dodam go z powrotem",
+            "ar": "خطأ كلاسيكي، سأضفه مرة أخرى"
+         },
+         "endTime": 311429,
+         "startTime": 308126
+      },
+      {
+         "text": {
+            "en": "and here we go, we have our eye.",
+            "pl": "i oto idziemy, mamy nasze oko.",
+            "ar": "وهنا نذهب، لدينا أعيننا."
+         },
+         "endTime": 313411,
+         "startTime": 311430
+      },
+      {
+         "text": {
+            "en": "Now, you will probably see Oh noes a lot",
+            "pl": "Teraz, prawdopodobnie zobaczysz Oh noes dużo",
+            "ar": "الآن، من المحتمل أن ترى يا نويس الكثير"
+         },
+         "endTime": 316657,
+         "startTime": 314227
+      },
+      {
+         "text": {
+            "en": "when you're getting started, because this is your first time",
+            "pl": "kiedy zaczynasz, bo to twój pierwszy raz",
+            "ar": "عندما تبدأ، لأن هذه هي المرة الأولى"
+         },
+         "endTime": 319359,
+         "startTime": 316657
+      },
+      {
+         "text": {
+            "en": "writing code and it takes time to get used",
+            "pl": "pisanie kodu i potrzeba czasu, aby się przyzwyczaić",
+            "ar": "كتابة التعليمات البرمجية ويستغرق وقتا طويلا لتعتاد"
+         },
+         "endTime": 321890,
+         "startTime": 319359
+      },
+      {
+         "text": {
+            "en": "to the syntax, making sure you're spelling things right",
+            "pl": "do składni, upewniając się, że pisownia rzeczy dobrze",
+            "ar": "إلى بناء الجملة، والتأكد من أنك تهجئة الأشياء في نصابها الصحيح"
+         },
+         "endTime": 325463,
+         "startTime": 321891
+      },
+      {
+         "text": {
+            "en": "and using the right parenthesis and always putting",
+            "pl": "i za pomocą odpowiedniego nawiasów i zawsze oddanie",
+            "ar": "واستخدام الأقواس الصحيحة ووضع دائما"
+         },
+         "endTime": 328692,
+         "startTime": 325463
+      },
+      {
+         "text": {
+            "en": "that semicolon there.",
+            "pl": "tamten średnik.",
+            "ar": "تلك الفاصلة المنقوطة هناك."
+         },
+         "endTime": 330790,
+         "startTime": 328692
+      },
+      {
+         "text": {
+            "en": "So don't worry if you see him a lot,",
+            "pl": "Więc nie martw się, jeśli go często widujesz,",
+            "ar": "لذا لا تقلق إذا رأيته كثيراً"
+         },
+         "endTime": 333662,
+         "startTime": 330890
+      },
+      {
+         "text": {
+            "en": "you'll get used to him.",
+            "pl": "Przyzwyczaisz się do niego.",
+            "ar": "سوف تعتاد عليه"
+         },
+         "endTime": 334529,
+         "startTime": 333662
+      },
+      {
+         "text": {
+            "en": "(chuckles)",
+            "pl": "(chichocze)",
+            "ar": "(ضحك خافت)"
+         },
+         "endTime": 335874,
+         "startTime": 334529
+      },
+      {
+         "text": {
+            "en": "All right, now finally,",
+            "pl": "W porządku, teraz w końcu,",
+            "ar": "حسناً، الآن أخيراً"
+         },
+         "endTime": 338419,
+         "startTime": 336263
+      },
+      {
+         "text": {
+            "en": "this is not a cyclops, so we need one more eye.",
+            "pl": "To nie jest cyklop, więc potrzebujemy jeszcze jednego oka.",
+            "ar": "هذا ليس العملاق، لذلك نحن بحاجة إلى عين أخرى."
+         },
+         "endTime": 341996,
+         "startTime": 338419
+      },
+      {
+         "text": {
+            "en": "Since our next eye is pretty similar",
+            "pl": "Ponieważ nasze następne oko jest bardzo podobne",
+            "ar": "منذ العين التالية هي مشابهة جدا"
+         },
+         "endTime": 344164,
+         "startTime": 341996
+      },
+      {
+         "text": {
+            "en": "to our left eye, I'm just going to copy",
+            "pl": "do naszego lewego oka, idę po prostu skopiować",
+            "ar": "لعيننا اليسرى، أنا ذاهب فقط لنسخ"
+         },
+         "endTime": 347150,
+         "startTime": 344164
+      },
+      {
+         "text": {
+            "en": "this line of code and paste it,",
+            "pl": "ten wiersz kodu i wklej go,",
+            "ar": "هذا السطر من التعليمات البرمجية ولصقه،"
+         },
+         "endTime": 349472,
+         "startTime": 347150
+      },
+      {
+         "text": {
+            "en": "and then move the x",
+            "pl": ", a następnie przesuń x",
+            "ar": "ثم نقل س"
+         },
+         "endTime": 353300,
+         "startTime": 350250
+      },
+      {
+         "text": {
+            "en": "and there we go.",
+            "pl": "i tam idziemy.",
+            "ar": "وهناك نذهب."
+         },
+         "endTime": 354895,
+         "startTime": 353300
+      },
+      {
+         "text": {
+            "en": "Beautiful!",
+            "pl": "Piękne!",
+            "ar": "جميلة!"
+         },
+         "endTime": 356222,
+         "startTime": 354896
+      },
+      {
+         "text": {
+            "en": "My face is finished.",
+            "pl": "Moja twarz jest skończona.",
+            "ar": "وجهي انتهى."
+         },
+         "endTime": 358100,
+         "startTime": 356222
+      },
+      {
+         "text": {
+            "en": "And I might be a little bit hungry too.",
+            "pl": "I mogę też być trochę głodny.",
+            "ar": "وأنا قد أكون جائعة بعض الشيء أيضاً"
+         },
+         "endTime": 361592,
+         "startTime": 358627
+      },
+      {
+         "text": {
+            "en": "Mmm.",
+            "pl": "Mmm.",
+            "ar": "ممم"
+         },
+         "endTime": 362931,
+         "startTime": 361592
+      },
+      {
+         "text": {
+            "en": "Well, now you're going to try drawing some circles",
+            "pl": "Cóż, teraz spróbujesz narysować kilka kręgów",
+            "ar": "حسنا، الآن أنت ذاهب لمحاولة رسم بعض الدوائر"
+         },
+         "endTime": 366220,
+         "startTime": 362932
+      },
+      {
+         "text": {
+            "en": "with code yourself.",
+            "pl": "z kodem samemu.",
+            "ar": "مع رمز نفسك."
+         },
+         "endTime": 367879,
+         "startTime": 366220
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/D5HQw_GKOwo/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759553312",
+   "title": "Making drawings with code | Drawing basics | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

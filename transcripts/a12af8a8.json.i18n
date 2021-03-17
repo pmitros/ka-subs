@@ -1,0 +1,843 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "At this point, you might realize that you've been defining",
+            "pl": "W tym momencie możesz sobie sprawę, że definiujesz",
+            "ar": "في هذه المرحلة، قد تدرك أنك قد تم تعريف"
+         },
+         "endTime": 3180,
+         "startTime": 115
+      },
+      {
+         "text": {
+            "en": "a particular function every time you wanted to animate your program--",
+            "pl": "szczególną funkcję za każdym razem, gdy chciałeś animować swój program...",
+            "ar": "وظيفة معينة في كل مرة كنت ترغب في تحريك البرنامج الخاص بك..."
+         },
+         "endTime": 7202,
+         "startTime": 3180
+      },
+      {
+         "text": {
+            "en": "the `draw` function.",
+            "pl": "funkcja `draw`.",
+            "ar": "وظيفة `الرسم`."
+         },
+         "endTime": 9191,
+         "startTime": 7202
+      },
+      {
+         "text": {
+            "en": "To remind you, here's our animated car program again.",
+            "pl": "Przypominam, że oto nasz program animowanych samochodów.",
+            "ar": "لتذكيرك، إليك برنامج السيارات المتحركة مرة أخرى."
+         },
+         "endTime": 13436,
+         "startTime": 9191
+      },
+      {
+         "text": {
+            "en": "It has this variable named x, it starts off at 11.",
+            "pl": "Ma tę zmienną o nazwie x, zaczyna się od 11.",
+            "ar": "لديها هذا المتغير المسمى x، فإنه يبدأ في 11."
+         },
+         "endTime": 16992,
+         "startTime": 13436
+      },
+      {
+         "text": {
+            "en": "And then inside the `draw` function, it draws the car at that variable x,",
+            "pl": "A potem wewnątrz funkcji `draw`, to rysuje samochód w tej zmiennej x,",
+            "ar": "ثم داخل وظيفة `draw`، فإنه يوجه السيارة في ذلك المتغير x،"
+         },
+         "endTime": 22648,
+         "startTime": 16992
+      },
+      {
+         "text": {
+            "en": "and then it adds three to that variable x each time.",
+            "pl": "a następnie dodaje trzy do tej zmiennej x za każdym razem.",
+            "ar": "ثم يضيف ثلاثة إلى هذا المتغير x في كل مرة."
+         },
+         "endTime": 26638,
+         "startTime": 22648
+      },
+      {
+         "text": {
+            "en": "And that results in a car",
+            "pl": "A to powoduje, że samochód",
+            "ar": "وهذا يؤدي إلى سيارة"
+         },
+         "endTime": 28501,
+         "startTime": 26638
+      },
+      {
+         "text": {
+            "en": "that's moving three pixels across the screen continuously.",
+            "pl": ", który porusza się o trzy piksele po ekranie w sposób ciągły.",
+            "ar": "هذا يتحرك ثلاث وحدات بكسل عبر الشاشة بشكل مستمر."
+         },
+         "endTime": 32447,
+         "startTime": 28501
+      },
+      {
+         "text": {
+            "en": "So, that's how this works.",
+            "pl": "Więc tak to działa.",
+            "ar": "لذلك، هكذا يعمل هذا."
+         },
+         "endTime": 34723,
+         "startTime": 32447
+      },
+      {
+         "text": {
+            "en": "But now that you've learned how to make your own functions,",
+            "pl": "Ale teraz, kiedy nauczyłeś się tworzyć własne funkcje,",
+            "ar": "ولكن الآن بعد أن تعلمت كيفية جعل وظائفك الخاصة،"
+         },
+         "endTime": 37683,
+         "startTime": 34723
+      },
+      {
+         "text": {
+            "en": "you might be wondering, what about this `draw` function?",
+            "pl": "można się zastanawiać, co z tym `draw` funkcji?",
+            "ar": "قد تتساءل، ماذا عن هذه الوظيفة `draw`؟"
+         },
+         "endTime": 41583,
+         "startTime": 37683
+      },
+      {
+         "text": {
+            "en": "Why is it always named `draw`?",
+            "pl": "Dlaczego jest ona zawsze nazywana `draw`?",
+            "ar": "لماذا يطلق عليه دائما `draw`؟"
+         },
+         "endTime": 44109,
+         "startTime": 41583
+      },
+      {
+         "text": {
+            "en": "Is it a custom function?",
+            "pl": "Czy jest to funkcja niestandardowa?",
+            "ar": "هل هي وظيفة مخصصة؟"
+         },
+         "endTime": 45904,
+         "startTime": 44109
+      },
+      {
+         "text": {
+            "en": "And those are very good questions.",
+            "pl": "A to są bardzo dobre pytania.",
+            "ar": "وهذه أسئلة جيدة جدا."
+         },
+         "endTime": 48894,
+         "startTime": 45904
+      },
+      {
+         "text": {
+            "en": "You see, in the ProcessingJS library,",
+            "pl": "Widzisz, w bibliotece ProcessingJS,",
+            "ar": "ترى، في تجهيز مكتبة JS،"
+         },
+         "endTime": 51985,
+         "startTime": 48894
+      },
+      {
+         "text": {
+            "en": "the `draw` function is one of a few predefined functions",
+            "pl": "funkcja `draw` jest jedną z kilku predefiniowanych funkcji",
+            "ar": "وظيفة `draw` هي واحدة من عدد قليل من الوظائف المحددة مسبقا"
+         },
+         "endTime": 56132,
+         "startTime": 51985
+      },
+      {
+         "text": {
+            "en": "that give our programs more control over what's happening with the canvas.",
+            "pl": ", które dają naszym programom większą kontrolę nad tym, co dzieje się z płótnem.",
+            "ar": "التي تعطي برامجنا المزيد من السيطرة على ما يحدث مع قماش."
+         },
+         "endTime": 61009,
+         "startTime": 56132
+      },
+      {
+         "text": {
+            "en": "A predefined function is one that has already been defined",
+            "pl": "Wstępnie zdefiniowana funkcja jest taka, która została już zdefiniowana",
+            "ar": "وظيفة محددة مسبقا هي واحدة التي تم تعريفها بالفعل"
+         },
+         "endTime": 64831,
+         "startTime": 61009
+      },
+      {
+         "text": {
+            "en": "by the ProcessingJS library.",
+            "pl": "przez bibliotekę ProcessingJS.",
+            "ar": "من قبل مكتبة بروسينغجس."
+         },
+         "endTime": 67209,
+         "startTime": 64831
+      },
+      {
+         "text": {
+            "en": "But it usually starts off as an empty definition.",
+            "pl": "Ale zwykle zaczyna się jako pusta definicja.",
+            "ar": "لكنه عادة ما يبدأ كتعريف فارغ."
+         },
+         "endTime": 71149,
+         "startTime": 67209
+      },
+      {
+         "text": {
+            "en": "For example, in the ProcessingJS library, there's code that looks like this:",
+            "pl": "Na przykład, w bibliotece ProcessingJS, istnieje kod, który wygląda następująco:",
+            "ar": "على سبيل المثال، في مكتبة ProcessingJS، هناك رمز يشبه هذا:"
+         },
+         "endTime": 77045,
+         "startTime": 71149
+      },
+      {
+         "text": {
+            "en": "`var draw = function() { }`",
+            "pl": "`var draw = function () {} `",
+            "ar": "`فار رسم = وظيفة () {} `"
+         },
+         "endTime": 79434,
+         "startTime": 77045
+      },
+      {
+         "text": {
+            "en": "and then it's just empty, completely empty.",
+            "pl": "a potem jest pusta, całkowicie pusta.",
+            "ar": "ثم انها مجرد فارغة، فارغة تماما."
+         },
+         "endTime": 83266,
+         "startTime": 79434
+      },
+      {
+         "text": {
+            "en": "Now, we load the ProcessingJS library into every program here on Khan Academy,",
+            "pl": "Załadujemy bibliotekę ProcessingJS do każdego programu na Khan Academy,",
+            "ar": "الآن، نقوم بتحميل مكتبة معالجة JS في كل برنامج هنا في أكاديمية خان،"
+         },
+         "endTime": 88620,
+         "startTime": 83266
+      },
+      {
+         "text": {
+            "en": "So you never see this code.",
+            "pl": "Więc nigdy nie widzisz tego kodu.",
+            "ar": "لذلك أنت لا ترى هذا الرمز."
+         },
+         "endTime": 90904,
+         "startTime": 88620
+      },
+      {
+         "text": {
+            "en": "But trust me, it exists.",
+            "pl": "Ale uwierz mi, istnieje.",
+            "ar": "لكن ثقي بي، إنه موجود"
+         },
+         "endTime": 93647,
+         "startTime": 90904
+      },
+      {
+         "text": {
+            "en": "Now I'll comment that code out, since ProcessingJS already does it for us.",
+            "pl": "Teraz będę komentować ten kod się, ponieważ ProcessingJS już robi to dla nas.",
+            "ar": "الآن سوف أعلق على هذا الرمز، منذ processingJS يفعل ذلك بالفعل بالنسبة لنا."
+         },
+         "endTime": 101049,
+         "startTime": 93647
+      },
+      {
+         "text": {
+            "en": "Now when you redefine `draw`, in your own program,",
+            "pl": "Teraz, kiedy przedefiniujesz `rys`, w swoim własnym programie,",
+            "ar": "الآن عندما تعيد تعريف `draw`، في برنامجك الخاص،"
+         },
+         "endTime": 105308,
+         "startTime": 101049
+      },
+      {
+         "text": {
+            "en": "this new definition overrides the old empty defintion.",
+            "pl": "Ta nowa definicja zastępuje starą pustą definicję.",
+            "ar": "هذا التعريف الجديد يتجاوز defintion الفارغة القديمة."
+         },
+         "endTime": 109809,
+         "startTime": 105308
+      },
+      {
+         "text": {
+            "en": "And now the `draw` function",
+            "pl": "A teraz funkcja `rys`",
+            "ar": "والآن وظيفة `draw`"
+         },
+         "endTime": 111632,
+         "startTime": 109809
+      },
+      {
+         "text": {
+            "en": "actually does exciting things, like drawing a car.",
+            "pl": "faktycznie robi ekscytujące rzeczy, jak rysowanie samochodu.",
+            "ar": "في الواقع يفعل أشياء مثيرة، مثل رسم سيارة."
+         },
+         "endTime": 115497,
+         "startTime": 111632
+      },
+      {
+         "text": {
+            "en": "Now the question is, why does the `draw` function get called over and over?",
+            "pl": "Teraz pytanie brzmi, dlaczego funkcja `draw` jest wywoływana w kółko?",
+            "ar": "الآن السؤال هو، لماذا يتم استدعاء وظيفة `draw` مرارًا وتكرارًا؟"
+         },
+         "endTime": 121375,
+         "startTime": 115497
+      },
+      {
+         "text": {
+            "en": "Well, there's also code in the ProcessingJS library",
+            "pl": "Cóż, jest też kod w bibliotece ProcessingJS",
+            "ar": "حسنا، هناك أيضا رمز في مكتبة بروسينجس"
+         },
+         "endTime": 125964,
+         "startTime": 121375
+      },
+      {
+         "text": {
+            "en": "that sets a browser timer and recalls the draw function repeatedly,",
+            "pl": ", który ustawia zegar przeglądarki i przywołuje funkcję rysowania wielokrotnie,",
+            "ar": "الذي يحدد توقيت المتصفح ويستذكر وظيفة السحب بشكل متكرر،"
+         },
+         "endTime": 131111,
+         "startTime": 125964
+      },
+      {
+         "text": {
+            "en": "over and over and over.",
+            "pl": "w kółko i w kółko.",
+            "ar": "مرارا وتكرارا."
+         },
+         "endTime": 133998,
+         "startTime": 131111
+      },
+      {
+         "text": {
+            "en": "We have to name the function `draw`, because that's the name of the function",
+            "pl": "Musimy nazwać funkcję `draw`, ponieważ jest to nazwa funkcji",
+            "ar": "علينا تسمية الدالة `draw`، لأن هذا هو اسم الدالة"
+         },
+         "endTime": 139239,
+         "startTime": 133998
+      },
+      {
+         "text": {
+            "en": "that ProcessingJS is calling repeatedly.",
+            "pl": "że ProcessingJS wzywa wielokrotnie.",
+            "ar": "أن بروسينغجس يدعو مرارا وتكرارا."
+         },
+         "endTime": 142073,
+         "startTime": 139239
+      },
+      {
+         "text": {
+            "en": "If we rename this, like let's say we rename it to `drawCar`.",
+            "pl": "Jeśli zmienimy nazwę tego, jak powiedzmy, zmienimy nazwę na `Drawcar`.",
+            "ar": "إذا قمنا بإعادة تسمية هذا، مثل دعنا نقول أننا إعادة تسميته إلى `drawcar`."
+         },
+         "endTime": 147543,
+         "startTime": 142073
+      },
+      {
+         "text": {
+            "en": "And first we get an undefined error, so we could say `var drawCar`.",
+            "pl": "Najpierw otrzymujemy niezdefiniowany błąd, więc możemy powiedzieć `var DrawCAR`.",
+            "ar": "وأول نحصل على خطأ غير معروف، حتى نتمكن من القول `فار دراوكار`."
+         },
+         "endTime": 153730,
+         "startTime": 147543
+      },
+      {
+         "text": {
+            "en": "So now you can see, if we rename this to `drawCar`,",
+            "pl": "Teraz możesz zobaczyć, jeśli zmienimy nazwę na `Drawcar`,",
+            "ar": "حتى الآن يمكنك أن ترى، إذا كنا إعادة تسمية هذا إلى `drawcar`،"
+         },
+         "endTime": 157087,
+         "startTime": 153730
+      },
+      {
+         "text": {
+            "en": "we don't see any animation any more.",
+            "pl": "Nie widzimy już żadnej animacji.",
+            "ar": "نحن لا نرى أي الرسوم المتحركة أي أكثر من ذلك."
+         },
+         "endTime": 159651,
+         "startTime": 157087
+      },
+      {
+         "text": {
+            "en": "And that's because this function isn't being called repeatedly any more,",
+            "pl": "A to dlatego, że ta funkcja nie jest już wielokrotnie wywoływana,",
+            "ar": "وذلك لأن هذه الوظيفة لا يتم استدعاؤها مرارا وتكرارا أي أكثر من ذلك،"
+         },
+         "endTime": 164692,
+         "startTime": 159651
+      },
+      {
+         "text": {
+            "en": "because it's not named draw.",
+            "pl": "bo to nie jest rysowanie.",
+            "ar": "لأنه ليس اسمه التعادل."
+         },
+         "endTime": 167188,
+         "startTime": 164692
+      },
+      {
+         "text": {
+            "en": "So we have to put the code that we want repeatedly called",
+            "pl": "Więc musimy umieścić kod, który chcemy wielokrotnie nazywany",
+            "ar": "لذلك علينا أن نضع التعليمات البرمجية التي نريد دعا مرارا وتكرارا"
+         },
+         "endTime": 170796,
+         "startTime": 167188
+      },
+      {
+         "text": {
+            "en": "inside a function spelled `draw` exactly.",
+            "pl": "wewnątrz funkcji pisane `rysu` dokładnie.",
+            "ar": "داخل وظيفة مكتوبة `draw` بالضبط."
+         },
+         "endTime": 175912,
+         "startTime": 170796
+      },
+      {
+         "text": {
+            "en": "So I'll just do it again, and I'll just call `drawCar` from here.",
+            "pl": "Więc zrobię to jeszcze raz i zadzwonię stąd do „Drawcar`”.",
+            "ar": "لذلك أنا فقط سوف تفعل ذلك مرة أخرى، وسوف مجرد استدعاء `drawcar` من هنا."
+         },
+         "endTime": 180594,
+         "startTime": 175912
+      },
+      {
+         "text": {
+            "en": "Aha! We've got it back.",
+            "pl": "Aha! Odzyskaliśmy go.",
+            "ar": "آها! لقد استرجعنا ذلك."
+         },
+         "endTime": 183237,
+         "startTime": 180594
+      },
+      {
+         "text": {
+            "en": "All right, so it needs to be called draw,",
+            "pl": "W porządku, więc trzeba to nazwać rysowaniem,",
+            "ar": "حسنا، لذلك يجب أن يسمى التعادل،"
+         },
+         "endTime": 187206,
+         "startTime": 183237
+      },
+      {
+         "text": {
+            "en": "and this also means that you shouldn't name your own custom functions `draw`,",
+            "pl": "oznacza to również, że nie należy nazywać własnych funkcji niestandardowych `draw`,",
+            "ar": "وهذا يعني أيضًا أنه لا يجب عليك تسمية الوظائف المخصصة الخاصة بك `draw`،"
+         },
+         "endTime": 192970,
+         "startTime": 187206
+      },
+      {
+         "text": {
+            "en": "unless you want them to be treated specially and called over and over.",
+            "pl": "Chyba, że chcesz, aby były traktowane specjalnie i wzywane w kółko.",
+            "ar": "إلا إذا كنت تريد أن يعاملوا بشكل خاص ويدعون مرارًا وتكرارًا."
+         },
+         "endTime": 198228,
+         "startTime": 192970
+      },
+      {
+         "text": {
+            "en": "And also remember, you can't have multiple functions named `draw`.",
+            "pl": "Pamiętaj też, że nie możesz mieć wielu funkcji o nazwie `draw`.",
+            "ar": "وتذكر أيضا، لا يمكن أن يكون لديك وظائف متعددة باسم `draw`."
+         },
+         "endTime": 203528,
+         "startTime": 198228
+      },
+      {
+         "text": {
+            "en": "Only the last definition will count.",
+            "pl": "Liczy się tylko ostatnia definicja.",
+            "ar": "فقط التعريف الأخير سيحسب."
+         },
+         "endTime": 207889,
+         "startTime": 203528
+      },
+      {
+         "text": {
+            "en": "If we had a `rect` inside here--",
+            "pl": "Gdybyśmy mieli tu `rekt`...",
+            "ar": "لو كان لدينا «مستطيل» بالداخل هنا"
+         },
+         "endTime": 210813,
+         "startTime": 207889
+      },
+      {
+         "text": {
+            "en": "So now we can see that our car isn't being drawn any more,",
+            "pl": "Więc teraz widzimy, że nasz samochód nie jest już rysowany,",
+            "ar": "حتى الآن يمكننا أن نرى أن سيارتنا لم يعد يتم سحبها"
+         },
+         "endTime": 215143,
+         "startTime": 210813
+      },
+      {
+         "text": {
+            "en": "and only the rect is being drawn instead, because only the last defintion counts.",
+            "pl": "i tylko rect jest rysowany, ponieważ liczy się tylko ostatnia definicja.",
+            "ar": "ويتم رسم فقط المستقيم بدلا من ذلك، لأن فقط آخر ديفينتيون التهم."
+         },
+         "endTime": 220495,
+         "startTime": 215143
+      },
+      {
+         "text": {
+            "en": "So let's get rid of that one.",
+            "pl": "Więc pozbądźmy się tego.",
+            "ar": "لذلك دعونا نتخلص من هذا واحد."
+         },
+         "endTime": 223166,
+         "startTime": 220495
+      },
+      {
+         "text": {
+            "en": "Now the draw function is not the only predefined function",
+            "pl": "Teraz funkcja rysowania nie jest jedyną predefiniowaną funkcją",
+            "ar": "الآن وظيفة الرسم ليست الوظيفة المحددة مسبقا فقط"
+         },
+         "endTime": 228289,
+         "startTime": 223166
+      },
+      {
+         "text": {
+            "en": "that has this special behavior.",
+            "pl": ", który ma to szczególne zachowanie.",
+            "ar": "التي لديها هذا السلوك الخاص."
+         },
+         "endTime": 230499,
+         "startTime": 228289
+      },
+      {
+         "text": {
+            "en": "There are also a bunch of functions",
+            "pl": "Istnieje również kilka funkcji",
+            "ar": "وهناك أيضا مجموعة من الوظائف"
+         },
+         "endTime": 232682,
+         "startTime": 230499
+      },
+      {
+         "text": {
+            "en": "for responding to mouse interactions and keypresses.",
+            "pl": "do reagowania na interakcje myszy i naciśnięcia klawiszy.",
+            "ar": "للاستجابة لتفاعلات الماوس وkeypresses."
+         },
+         "endTime": 236692,
+         "startTime": 232682
+      },
+      {
+         "text": {
+            "en": "Let's say we want to have a program that draws a colored ellipse",
+            "pl": "Powiedzmy, że chcemy mieć program, który rysuje kolorową elipsę",
+            "ar": "لنفترض أننا نريد أن يكون لديك برنامج يرسم القطع الناقص الملون"
+         },
+         "endTime": 241624,
+         "startTime": 236692
+      },
+      {
+         "text": {
+            "en": "wherever the user moves the mouse.",
+            "pl": "wszędzie tam, gdzie użytkownik przesuwa mysz.",
+            "ar": "أينما يتحرك المستخدم الماوس."
+         },
+         "endTime": 244716,
+         "startTime": 241624
+      },
+      {
+         "text": {
+            "en": "So we could do that with a function like this.",
+            "pl": "Moglibyśmy to zrobić z taką funkcją.",
+            "ar": "حتى نتمكن من القيام بذلك مع وظيفة من هذا القبيل."
+         },
+         "endTime": 249042,
+         "startTime": 244716
+      },
+      {
+         "text": {
+            "en": "[typing]",
+            "pl": "[wpisując]",
+            "ar": "[كتابة]"
+         },
+         "endTime": 255666,
+         "startTime": 249042
+      },
+      {
+         "text": {
+            "en": "All right, oh, beautiful.",
+            "pl": "W porządku, och, piękna.",
+            "ar": "كل الحق، أوه، جميلة."
+         },
+         "endTime": 262545,
+         "startTime": 259998
+      },
+      {
+         "text": {
+            "en": "Now, this function is being called over and over,",
+            "pl": "Ta funkcja jest wywoływana w kółko,",
+            "ar": "الآن، يتم استدعاء هذه الوظيفة مرارًا وتكرارًا،"
+         },
+         "endTime": 267224,
+         "startTime": 262545
+      },
+      {
+         "text": {
+            "en": "even when the user isn't moving the mouse, like right now.",
+            "pl": "nawet wtedy, gdy użytkownik nie porusza myszą, tak jak teraz.",
+            "ar": "حتى عندما لا يقوم المستخدم بتحريك الماوس، كما هو الحال الآن."
+         },
+         "endTime": 271176,
+         "startTime": 267224
+      },
+      {
+         "text": {
+            "en": "And this program, it works, it does what we want it to do,",
+            "pl": "Ten program działa, robi to, co chcemy.",
+            "ar": "وهذا البرنامج، يعمل، يفعل ما نريده أن يفعله،"
+         },
+         "endTime": 274703,
+         "startTime": 271176
+      },
+      {
+         "text": {
+            "en": "it's painting these nice ellipses all over the screen.",
+            "pl": "Maluje te ładne elipsy na całym ekranie.",
+            "ar": "انها اللوحة هذه الحذف لطيفة في جميع أنحاء الشاشة."
+         },
+         "endTime": 277902,
+         "startTime": 274703
+      },
+      {
+         "text": {
+            "en": "But as it turns out, there's a better way to do the same thing",
+            "pl": "Ale jak się okazuje, jest lepszy sposób na zrobienie tego samego",
+            "ar": "ولكن كما اتضح، هناك طريقة أفضل للقيام بنفس الشيء"
+         },
+         "endTime": 282114,
+         "startTime": 277902
+      },
+      {
+         "text": {
+            "en": "that's more efficient.",
+            "pl": "To jest bardziej wydajne.",
+            "ar": "هذا أكثر كفاءة."
+         },
+         "endTime": 284288,
+         "startTime": 282114
+      },
+      {
+         "text": {
+            "en": "So we can change the `draw` function to `mouseMoved`, and let's see.",
+            "pl": "Więc możemy zmienić `draw` funkcji na `mouseMoved`, i zobaczmy.",
+            "ar": "حتى نتمكن من تغيير وظيفة `draw` إلى `mousemoved`، ودعونا نرى."
+         },
+         "endTime": 291892,
+         "startTime": 284288
+      },
+      {
+         "text": {
+            "en": "And it still works.",
+            "pl": "I nadal działa.",
+            "ar": "ولا يزال يعمل."
+         },
+         "endTime": 294577,
+         "startTime": 291892
+      },
+      {
+         "text": {
+            "en": "You see, our environment checks programs",
+            "pl": "Widzicie, nasze środowisko sprawdza programy",
+            "ar": "كما ترى، بيئتنا تحقق البرامج"
+         },
+         "endTime": 298361,
+         "startTime": 294577
+      },
+      {
+         "text": {
+            "en": "to see if they've defined a `mouseMoved` function,",
+            "pl": "aby sprawdzić, czy zdefiniowano funkcję `MouseMoved`,",
+            "ar": "لمعرفة ما إذا كانوا قد حددوا وظيفة `mousemoved`،"
+         },
+         "endTime": 300754,
+         "startTime": 298361
+      },
+      {
+         "text": {
+            "en": "and if so, it calls that function whenever the user moves the mouse.",
+            "pl": "a jeśli tak, to wywołuje tę funkcję za każdym razem, gdy użytkownik porusza myszą.",
+            "ar": "وإذا كان الأمر كذلك، فإنه يدعو هذه الوظيفة كلما تحرك المستخدم الماوس."
+         },
+         "endTime": 305457,
+         "startTime": 300754
+      },
+      {
+         "text": {
+            "en": "But it won't be called if the user isn't moving the mouse.",
+            "pl": "Ale nie zostanie wywołana, jeśli użytkownik nie porusza myszą.",
+            "ar": "ولكن لن يتم استدعاؤه إذا كان المستخدم لا يتحرك الماوس."
+         },
+         "endTime": 310029,
+         "startTime": 305457
+      },
+      {
+         "text": {
+            "en": "So before, we were calling the code in the `draw` function",
+            "pl": "Tak więc wcześniej wywoływaliśmy kod w funkcji `draw`",
+            "ar": "حتى من قبل، كنا استدعاء التعليمات البرمجية في وظيفة `draw`"
+         },
+         "endTime": 313423,
+         "startTime": 310029
+      },
+      {
+         "text": {
+            "en": "when we didn't need to, over and over.",
+            "pl": "kiedy nie musieliśmy, w kółko.",
+            "ar": "عندما لم نكن بحاجة لذلك مراراً وتكراراً"
+         },
+         "endTime": 315908,
+         "startTime": 313423
+      },
+      {
+         "text": {
+            "en": "And now, we're only calling this code in `mouseMoved`",
+            "pl": "A teraz, nazywamy ten kod tylko w `MouseMoved`",
+            "ar": "والآن، نحن فقط استدعاء هذا الرمز في `Mousemoved`"
+         },
+         "endTime": 320265,
+         "startTime": 315908
+      },
+      {
+         "text": {
+            "en": "when the mouseX or mouseY have actually changed.",
+            "pl": "kiedy MouseX lub MouseY faktycznie się zmieniły.",
+            "ar": "عندما تغيرت MouSex أو Mousey في الواقع."
+         },
+         "endTime": 323292,
+         "startTime": 320265
+      },
+      {
+         "text": {
+            "en": "So our program is more efficient, and that's a good thing.",
+            "pl": "Nasz program jest bardziej wydajny i to dobrze.",
+            "ar": "لذلك برنامجنا هو أكثر كفاءة، وهذا شيء جيد."
+         },
+         "endTime": 327313,
+         "startTime": 323292
+      },
+      {
+         "text": {
+            "en": "Generally, if you only want to change your program output",
+            "pl": "Ogólnie rzecz biorąc, jeśli chcesz tylko zmienić dane wyjściowe programu",
+            "ar": "بشكل عام، إذا كنت ترغب فقط في تغيير مخرجات البرنامج"
+         },
+         "endTime": 330728,
+         "startTime": 327313
+      },
+      {
+         "text": {
+            "en": "when the user moves the mouse, then it's better to have that code",
+            "pl": "gdy użytkownik przesuwa mysz, to lepiej mieć ten kod",
+            "ar": "عندما يتحرك المستخدم الماوس، فمن الأفضل أن يكون هذا الرمز"
+         },
+         "endTime": 334525,
+         "startTime": 330728
+      },
+      {
+         "text": {
+            "en": "inside the `mouseMoved` function.",
+            "pl": "wewnątrz funkcji `MouseMoved`.",
+            "ar": "داخل وظيفة `Mousemoved`."
+         },
+         "endTime": 337212,
+         "startTime": 334525
+      },
+      {
+         "text": {
+            "en": "And there are a bunch more predefined functions like that,",
+            "pl": "I jest wiele więcej predefiniowanych funkcji, takich jak ta,",
+            "ar": "وهناك حفنة المزيد من الوظائف المحددة مسبقا من هذا القبيل،"
+         },
+         "endTime": 340987,
+         "startTime": 337212
+      },
+      {
+         "text": {
+            "en": "which you can see more examples of in the documentation.",
+            "pl": "które można zobaczyć więcej przykładów w dokumentacji.",
+            "ar": "والتي يمكنك أن ترى المزيد من الأمثلة في الوثائق."
+         },
+         "endTime": 344655,
+         "startTime": 340987
+      },
+      {
+         "text": {
+            "en": "Like `mousePressed`, `mouseReleased`, `keyPressed`, and more.",
+            "pl": "Jak `MousePressed`, `Mousereleased`, `keypressed` i więcej.",
+            "ar": "مثل `الفأر '، `الفأر، `كيبريسيد»، وأكثر من ذلك."
+         },
+         "endTime": 348872,
+         "startTime": 344655
+      },
+      {
+         "text": {
+            "en": "So remember, if you want to use a special predefined function,",
+            "pl": "Pamiętaj więc, że jeśli chcesz użyć specjalnej predefiniowanej funkcji,",
+            "ar": "لذا تذكر، إذا كنت ترغب في استخدام وظيفة محددة مسبقا خاصة،"
+         },
+         "endTime": 353993,
+         "startTime": 348872
+      },
+      {
+         "text": {
+            "en": "like `mouseMoved` or `draw`, spell it correctly, and use it correctly.",
+            "pl": "jak `MouseMoved` lub `draw`, przeliteruj poprawnie i używaj go poprawnie.",
+            "ar": "مثل `mousemoved` أو `draw`، تهجئة بشكل صحيح، واستخدامها بشكل صحيح."
+         },
+         "endTime": 359244,
+         "startTime": 353993
+      },
+      {
+         "text": {
+            "en": "If you don't, then make sure you give your own custom functions",
+            "pl": "Jeśli tego nie zrobisz, upewnij się, że masz własne funkcje niestandardowe",
+            "ar": "إذا لم تقم بذلك، فتأكد من إعطاء الوظائف المخصصة الخاصة بك"
+         },
+         "endTime": 363410,
+         "startTime": 359244
+      },
+      {
+         "text": {
+            "en": "a new, unique name.",
+            "pl": "nową, unikalną nazwę.",
+            "ar": "اسم جديد وفريد."
+         },
+         "endTime": 365967,
+         "startTime": 363410
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/LgTG7a74bOg/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759697641",
+   "title": "Special ProcessingJS functions | Functions | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

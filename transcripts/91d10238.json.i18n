@@ -1,0 +1,717 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Now that your programs are getting  more interesting",
+            "pl": "Teraz, gdy twoje programy stają się coraz bardziej interesujące",
+            "ar": "الآن بعد أن البرامج الخاصة بك هي الحصول على أكثر إثارة للاهتمام"
+         },
+         "endTime": 3273,
+         "startTime": 720
+      },
+      {
+         "text": {
+            "en": "With functions and logic and all of that",
+            "pl": "Z funkcjami i logiką i tym wszystkim",
+            "ar": "مع وظائف والمنطق وكل ذلك"
+         },
+         "endTime": 5815,
+         "startTime": 3475
+      },
+      {
+         "text": {
+            "en": "You'll likely find yourself introducing more mistakes into your programs.",
+            "pl": "Zapewne znajdziesz się wprowadzając więcej błędów do swoich programów.",
+            "ar": "من المرجح أن تجد نفسك إدخال المزيد من الأخطاء في البرامج الخاصة بك."
+         },
+         "endTime": 10446,
+         "startTime": 5873
+      },
+      {
+         "text": {
+            "en": "And it'll bug you when those mistakes keep your program",
+            "pl": "I to cię wkurza, gdy te błędy zatrzymają twój program",
+            "ar": "وسوف علة لك عندما تلك الأخطاء تبقي البرنامج الخاص بك"
+         },
+         "endTime": 14120,
+         "startTime": 10730
+      },
+      {
+         "text": {
+            "en": "from doing what you want them to do.",
+            "pl": "od robienia tego, co chcesz, żeby zrobili.",
+            "ar": "من فعل ما تريد منهم القيام به."
+         },
+         "endTime": 16507,
+         "startTime": 14347
+      },
+      {
+         "text": {
+            "en": "You might instantly know what's wrong",
+            "pl": "Możesz natychmiast wiedzieć, co jest nie tak",
+            "ar": "قد تعرف على الفور ما هو الخطأ"
+         },
+         "endTime": 19584,
+         "startTime": 16987
+      },
+      {
+         "text": {
+            "en": "but sometimes you have to spend some time debugging.",
+            "pl": "ale czasami trzeba poświęcić trochę czasu na debugowanie.",
+            "ar": "ولكن في بعض الأحيان لديك لقضاء بعض الوقت التصحيح."
+         },
+         "endTime": 22089,
+         "startTime": 19751
+      },
+      {
+         "text": {
+            "en": "And I want to give you some tips for doing that in this talkthrough.",
+            "pl": "I chcę dać ci kilka wskazówek, jak to zrobić w tej rozmówcy.",
+            "ar": "وأريد أن أقدم لكم بعض النصائح للقيام بذلك في هذا الحديث."
+         },
+         "endTime": 25549,
+         "startTime": 22159
+      },
+      {
+         "text": {
+            "en": "I've started with this program that has a white rectangle in the middle",
+            "pl": "Zacząłem od tego programu, który ma biały prostokąt w środku",
+            "ar": "لقد بدأت مع هذا البرنامج الذي يحتوي على مستطيل أبيض في الوسط"
+         },
+         "endTime": 29821,
+         "startTime": 25641
+      },
+      {
+         "text": {
+            "en": "and instructions to click inside of it.",
+            "pl": "i instrukcje, aby kliknąć wewnątrz niego.",
+            "ar": "وتعليمات للنقر داخل منه."
+         },
+         "endTime": 32524,
+         "startTime": 29994
+      },
+      {
+         "text": {
+            "en": "When I click inside, I expect a rectangle to show up where my mouse was.",
+            "pl": "Kiedy kliknę w środku, oczekuję, że prostokąt pojawi się w miejscu, w którym znajdowała się moja mysz.",
+            "ar": "عندما أنقر في الداخل، أتوقع أن يظهر مستطيل حيث كان الماوس الخاص بي."
+         },
+         "endTime": 36987,
+         "startTime": 32777
+      },
+      {
+         "text": {
+            "en": "But right now, it doesn't work. And if you want, you can pause right now",
+            "pl": "Ale teraz to nie działa. A jeśli chcesz, możesz teraz wstrzymać",
+            "ar": "ولكن في الوقت الحالي، لا يعمل. وإذا أردت، يمكنك التوقف الآن"
+         },
+         "endTime": 41289,
+         "startTime": 37329
+      },
+      {
+         "text": {
+            "en": "and verify that's true. That it's just not working wherever I click.",
+            "pl": "i sprawdź, czy to prawda. Że po prostu nie działa, gdziekolwiek kliknę.",
+            "ar": "والتحقق من أن هذا صحيح. أنه فقط لا يعمل أينما أنقر."
+         },
+         "endTime": 45067,
+         "startTime": 41327
+      },
+      {
+         "text": {
+            "en": "Alright, so why isn't it working? Well, let's debug it together.",
+            "pl": "Dobra, więc dlaczego to nie działa? Cóż, zdebugujmy to razem.",
+            "ar": "حسناً، لماذا لا يعمل؟ حسنا، دعونا تصحيح ذلك معا."
+         },
+         "endTime": 49800,
+         "startTime": 46260
+      },
+      {
+         "text": {
+            "en": "The first thing I'm going to check is whether the mouseClicked function",
+            "pl": "Pierwszą rzeczą, którą mam zamiar sprawdzić, czy funkcja MouseClicked",
+            "ar": "أول شيء أنا ذاهب للتحقق هو ما إذا كانت وظيفة موسكليكيد"
+         },
+         "endTime": 54933,
+         "startTime": 50653
+      },
+      {
+         "text": {
+            "en": "is being called at all. It should be called every time I click the mouse.",
+            "pl": "jest wywoływana w ogóle. Powinien być wywoływany za każdym razem, gdy kliknę myszką.",
+            "ar": "يتم استدعاؤه على الإطلاق. يجب أن يطلق عليه في كل مرة أنقر على الماوس."
+         },
+         "endTime": 59467,
+         "startTime": 55007
+      },
+      {
+         "text": {
+            "en": "But let's just check to make sure.",
+            "pl": "Ale sprawdźmy, żeby się upewnić.",
+            "ar": "ولكن دعونا فقط تحقق للتأكد."
+         },
+         "endTime": 61569,
+         "startTime": 59539
+      },
+      {
+         "text": {
+            "en": "An easy way to confirm that is to stick a println right inside the function at the top.",
+            "pl": "Łatwy sposób, aby potwierdzić, że jest trzymać println prawo wewnątrz funkcji u góry.",
+            "ar": "طريقة سهلة لتأكيد ذلك هو التمسك println الحق داخل وظيفة في الجزء العلوي."
+         },
+         "endTime": 68585,
+         "startTime": 61645
+      },
+      {
+         "text": {
+            "en": "println(\"clicked!\");",
+            "pl": "println („kliknął!”) ;",
+            "ar": "println («النقر!») ;"
+         },
+         "endTime": 70523,
+         "startTime": 68763
+      },
+      {
+         "text": {
+            "en": "Alright, so now when I clicked I see the console pop up and it says \"clicked!\".",
+            "pl": "W porządku, więc teraz, kiedy kliknąłem, widzę konsolę wyskakuje i mówi „kliknął!”.",
+            "ar": "حسنا، حتى الآن عندما نقرت أرى وحدة التحكم يطفو على السطح وتقول «النقر!»."
+         },
+         "endTime": 76814,
+         "startTime": 70894
+      },
+      {
+         "text": {
+            "en": "So we know that mouseClicked is being called like we expected.",
+            "pl": "Wiemy więc, że MouseClicked nazywa się tak, jak się spodziewaliśmy.",
+            "ar": "لذلك نحن نعلم أن يتم استدعاء MouseClicked كما كنا نتوقع."
+         },
+         "endTime": 81571,
+         "startTime": 76971
+      },
+      {
+         "text": {
+            "en": "this println function here is a handy way to debug your program",
+            "pl": "ta funkcja println tutaj jest poręczny sposób na debugowanie programu",
+            "ar": "هذه الوظيفة println هنا هي طريقة مفيدة لتصحيح البرنامج"
+         },
+         "endTime": 85743,
+         "startTime": 81733
+      },
+      {
+         "text": {
+            "en": "and when you're done debugging you can always remove the statements",
+            "pl": "a po zakończeniu debugowania zawsze możesz usunąć instrukcje",
+            "ar": "وعند الانتهاء من تصحيح الأخطاء يمكنك دائما إزالة العبارات"
+         },
+         "endTime": 89646,
+         "startTime": 85846
+      },
+      {
+         "text": {
+            "en": "by deleting or commenting out and then closing the console.",
+            "pl": ", usuwając lub komentując, a następnie zamykając konsolę.",
+            "ar": "عن طريق حذف أو التعليق عليها ثم إغلاق وحدة التحكم."
+         },
+         "endTime": 94042,
+         "startTime": 89702
+      },
+      {
+         "text": {
+            "en": "OK, the next thing I'm going to do is check to see",
+            "pl": "OK, następną rzeczą, którą zrobię, jest sprawdzenie, aby zobaczyć",
+            "ar": "حسنا، والشيء التالي الذي سأفعله هو التحقق لرؤية"
+         },
+         "endTime": 98437,
+         "startTime": 94732
+      },
+      {
+         "text": {
+            "en": "if this code [inside the if-statement] is ever reached here.",
+            "pl": "jeśli ten kod [wewnątrz if-oświadczenie] jest kiedykolwiek osiągnięty tutaj.",
+            "ar": "إذا تم التوصل إلى هذا الرمز [داخل if-بيان] من أي وقت مضى هنا."
+         },
+         "endTime": 102867,
+         "startTime": 98437
+      },
+      {
+         "text": {
+            "en": "So what I'm really trying to figure out is whether this [condition] is ever true.",
+            "pl": "Więc tak naprawdę staram się dowiedzieć, czy ten [warunek] jest kiedykolwiek prawdziwy.",
+            "ar": "لذلك ما أحاول حقا لمعرفة ما إذا كان هذا [الشرط] صحيح من أي وقت مضى."
+         },
+         "endTime": 107839,
+         "startTime": 102970
+      },
+      {
+         "text": {
+            "en": "So I'm going to put another println inside the if, whoo!",
+            "pl": "Więc mam zamiar umieścić kolejny println wewnątrz if, whoo!",
+            "ar": "لذلك أنا ذاهب لوضع println آخر داخل إذا، وو!"
+         },
+         "endTime": 115809,
+         "startTime": 107839
+      },
+      {
+         "text": {
+            "en": "And you might say \"oh well, there's a rect here\"",
+            "pl": "I można powiedzieć: „No cóż, tu jest rekta”",
+            "ar": "وربما تقول «أوه حسنا، هناك مستقيما هنا»"
+         },
+         "endTime": 119302,
+         "startTime": 116324
+      },
+      {
+         "text": {
+            "en": "and we would have seen a rect but sometimes there can be a problem",
+            "pl": "i widzielibyśmy rektę, ale czasami może być problem",
+            "ar": "وكنا شوفنا مستقيما بس احياناً يمكن ان يكون هناك مشكلة"
+         },
+         "endTime": 121657,
+         "startTime": 119302
+      },
+      {
+         "text": {
+            "en": "with what we're showing. But there's never going to be a problem with a println.",
+            "pl": "z tym, co pokazujemy. Ale nigdy nie będzie problemu z println.",
+            "ar": "مع ما نعرضه ولكن لن يكون هناك مشكلة مع println."
+         },
+         "endTime": 126619,
+         "startTime": 121657
+      },
+      {
+         "text": {
+            "en": "So a println is a way to make sure that some code is getting called.",
+            "pl": "Więc println jest sposobem, aby upewnić się, że jakiś kod jest coraz nazywany.",
+            "ar": "لذلك println هو وسيلة للتأكد من أن بعض التعليمات البرمجية يتم الحصول على استدعاء."
+         },
+         "endTime": 130150,
+         "startTime": 126619
+      },
+      {
+         "text": {
+            "en": "Alright, so now I'm going to try clicking again.",
+            "pl": "W porządku, więc teraz spróbuję ponownie kliknąć.",
+            "ar": "حسنا، حتى الآن أنا ذاهب لمحاولة النقر مرة أخرى."
+         },
+         "endTime": 132945,
+         "startTime": 130150
+      },
+      {
+         "text": {
+            "en": "Hmm, okay. I'm not seeing anything pop up in the console.",
+            "pl": "Hmm, okej. Nie widzę, że coś wyskoczy na konsoli.",
+            "ar": "هم، حسنا. أنا لا أرى أي شيء يطفو على السطح في وحدة التحكم."
+         },
+         "endTime": 137755,
+         "startTime": 132945
+      },
+      {
+         "text": {
+            "en": "Alright, so that means that what's wrong is that this [condition] is never true.",
+            "pl": "To znaczy, że to, co jest złe, to, że ten [warunek] nigdy nie jest prawdą.",
+            "ar": "حسنا، وهذا يعني أن ما هو الخطأ هو أن هذا [الشرط] ليس صحيحا أبدا."
+         },
+         "endTime": 144832,
+         "startTime": 139282
+      },
+      {
+         "text": {
+            "en": "So I have to figure out what is wrong with the condition in the if.",
+            "pl": "Więc muszę dowiedzieć się, co jest nie tak z warunkiem jeśli.",
+            "ar": "لذلك لا بد لي من معرفة ما هو الخطأ في الشرط في إذا."
+         },
+         "endTime": 148478,
+         "startTime": 144832
+      },
+      {
+         "text": {
+            "en": "Why is it never true?",
+            "pl": "Dlaczego to nigdy nie jest prawdą?",
+            "ar": "لماذا لم يكن صحيحاً أبداً؟"
+         },
+         "endTime": 151218,
+         "startTime": 148478
+      },
+      {
+         "text": {
+            "en": "So, to debug if and conditions, I often start with just printing out the values",
+            "pl": "Tak więc, aby debugować czy i warunki, często zaczynam tylko wydrukować wartości",
+            "ar": "لذلك، لتصحيح إذا والشروط، وأنا غالبا ما تبدأ مع مجرد طباعة القيم"
+         },
+         "endTime": 157303,
+         "startTime": 151218
+      },
+      {
+         "text": {
+            "en": "that I'm checking to make sure they are what I'd expect.",
+            "pl": "że sprawdzam, by upewnić się, że są tym, czego bym się spodziewał.",
+            "ar": "أنني أتأكد من أنهم ما أتوقعه"
+         },
+         "endTime": 162313,
+         "startTime": 157303
+      },
+      {
+         "text": {
+            "en": "Alright, let's see, click around. All of these values look really reasonable to me.",
+            "pl": "Dobra, zobaczmy, klikaj. Wszystkie te wartości wyglądają na rozsądne.",
+            "ar": "حسنا، دعونا نرى، انقر حولها. كل هذه القيم تبدو معقولة حقا بالنسبة لي."
+         },
+         "endTime": 167854,
+         "startTime": 162484
+      },
+      {
+         "text": {
+            "en": "So now I'm going to print out the conditions inside the if.",
+            "pl": "Więc teraz mam zamiar wydrukować warunki wewnątrz if.",
+            "ar": "حتى الآن أنا ذاهب لطباعة الشروط داخل إذا."
+         },
+         "endTime": 173797,
+         "startTime": 168477
+      },
+      {
+         "text": {
+            "en": "So I'll take this first half here and then I'll take this second half",
+            "pl": "Więc wezmę tę pierwszą połowę tutaj, a potem drugą połowę",
+            "ar": "لذا سآخذ هذا النصف الأول هنا وبعد ذلك سآخذ هذا النصف الثاني"
+         },
+         "endTime": 180244,
+         "startTime": 174214
+      },
+      {
+         "text": {
+            "en": "and this just helps you narrow it down since this is a complex condition.",
+            "pl": "a to po prostu pomaga zawęzić to, ponieważ jest to złożony stan.",
+            "ar": "وهذا يساعدك فقط على تضييق نطاقه لأن هذا هو حالة معقدة."
+         },
+         "endTime": 183714,
+         "startTime": 180294
+      },
+      {
+         "text": {
+            "en": "Alright, so what I'm seeing is that the first condition is true",
+            "pl": "W porządku, więc widzę, że pierwszy warunek jest prawdziwy",
+            "ar": "حسناً، ما أراه هو أن الشرط الأول صحيح"
+         },
+         "endTime": 188244,
+         "startTime": 183717
+      },
+      {
+         "text": {
+            "en": "and the second one is false when I expect it to be true",
+            "pl": "A drugi jest fałszywy, kiedy spodziewam się, że to prawda",
+            "ar": "والثاني كاذب عندما أتوقع أن يكون صحيحا"
+         },
+         "endTime": 192874,
+         "startTime": 188244
+      },
+      {
+         "text": {
+            "en": "because I'm clicking in the corner of the rectangle.",
+            "pl": "ponieważ klikam w rogu prostokąta.",
+            "ar": "لأنني النقر في زاوية المستطيل."
+         },
+         "endTime": 195474,
+         "startTime": 192874
+      },
+      {
+         "text": {
+            "en": "So now I'm just going to read through the condition and see.",
+            "pl": "Więc teraz po prostu przejrzę ten stan i zobaczę.",
+            "ar": "حتى الآن أنا ذاهب فقط لقراءة من خلال الشرط ونرى."
+         },
+         "endTime": 199483,
+         "startTime": 195474
+      },
+      {
+         "text": {
+            "en": "\"mouseY greater than 100\", 100 is the top side of the rectangle.",
+            "pl": "„MouseY większy niż 100\", 100 to górna strona prostokąta.",
+            "ar": "«Mousey أكبر من 100\"، 100 هو الجانب العلوي من المستطيل."
+         },
+         "endTime": 210379,
+         "startTime": 199483
+      },
+      {
+         "text": {
+            "en": "So that makes sense, mouseY should be 100.",
+            "pl": "Więc to ma sens, Mousey powinien mieć 100 lat.",
+            "ar": "لذلك هذا منطقي، يجب أن يكون Mousey 100."
+         },
+         "endTime": 214507,
+         "startTime": 210379
+      },
+      {
+         "text": {
+            "en": "And then we have \"mouseY is greater than 400\".",
+            "pl": "A potem mamy „Mousey jest większa niż 400\".",
+            "ar": "ثم لدينا «Mousey أكبر من 400\"."
+         },
+         "endTime": 219007,
+         "startTime": 214507
+      },
+      {
+         "text": {
+            "en": "OK, well that's wrong because when mouseY is inside the rectangle",
+            "pl": "OK, to źle, bo kiedy Mousey jest wewnątrz prostokąta",
+            "ar": "حسنًا، هذا خطأ لأنه عندما يكون Mousey داخل المستطيل"
+         },
+         "endTime": 224591,
+         "startTime": 219221
+      },
+      {
+         "text": {
+            "en": "It's never going to be greater than 400, that would be outside the canvas.",
+            "pl": "Nigdy nie będzie więcej niż 400, to byłoby poza płótnem.",
+            "ar": "انها لن تكون أكبر من 400، التي من شأنها أن تكون خارج قماش."
+         },
+         "endTime": 228520,
+         "startTime": 224635
+      },
+      {
+         "text": {
+            "en": "So what we really should be checking is that mouseY is greater than the top",
+            "pl": "Więc to, co naprawdę powinniśmy sprawdzić to, że Mousey jest większy od góry",
+            "ar": "لذا ما يجب علينا التحقق منه هو أن Mousey أكبر من القمة"
+         },
+         "endTime": 232894,
+         "startTime": 228520
+      },
+      {
+         "text": {
+            "en": "of the rectangle and mouseY is less than the bottom of the rectangle.",
+            "pl": "prostokąta, a myszką jest mniejsza niż dolna część prostokąta.",
+            "ar": "من المستطيل و mousey هو أقل من الجزء السفلي من المستطيل."
+         },
+         "endTime": 239340,
+         "startTime": 232894
+      },
+      {
+         "text": {
+            "en": "And the bottom of the rectangle would be 100 + 150 = 250.",
+            "pl": "A dolna część prostokąta wynosiłaby 100 + 150 = 250.",
+            "ar": "وسيكون الجزء السفلي من المستطيل 100 + 150 = 250."
+         },
+         "endTime": 246740,
+         "startTime": 239340
+      },
+      {
+         "text": {
+            "en": "And now we can see \"true\" [in the console] so I'm going to change my condition here",
+            "pl": "A teraz widzimy „true” [w konsoli], więc zamierzam zmienić mój stan tutaj",
+            "ar": "والآن يمكننا أن نرى «صحيح» [في وحدة التحكم] لذلك أنا ذاهب لتغيير حالتي هنا"
+         },
+         "endTime": 252760,
+         "startTime": 246740
+      },
+      {
+         "text": {
+            "en": "and yay, rectangles! So now I'm going to keep clicking",
+            "pl": "i yay, prostokąty! Więc teraz mam zamiar nadal klikać",
+            "ar": "و ياي, المستطيلات! حتى الآن أنا ذاهب للحفاظ على النقر"
+         },
+         "endTime": 257380,
+         "startTime": 252760
+      },
+      {
+         "text": {
+            "en": "and I see that I can't get rectangles in the right side of the rectangle.",
+            "pl": "i widzę, że nie mogę dostać prostokąta po prawej stronie prostokąta.",
+            "ar": "وأرى أنني لا أستطيع الحصول على المستطيلات في الجانب الأيمن من المستطيل."
+         },
+         "endTime": 262027,
+         "startTime": 257380
+      },
+      {
+         "text": {
+            "en": "So there's still something wrong with this first condition here.",
+            "pl": "Więc nadal jest coś nie tak z tym pierwszym warunkiem.",
+            "ar": "لذلك لا يزال هناك شيء خاطئ مع هذا الشرط الأول هنا."
+         },
+         "endTime": 267017,
+         "startTime": 262027
+      },
+      {
+         "text": {
+            "en": "So let's re-do this. \"mouseX is greater than 100\".",
+            "pl": "Więc zróbmy to ponownie. „MouseX jest większa niż 100\".",
+            "ar": "لذلك دعونا إعادة القيام بذلك. «موسكس أكبر من 100\"."
+         },
+         "endTime": 271280,
+         "startTime": 267233
+      },
+      {
+         "text": {
+            "en": "That's right because 100 is the left side of the rectangle.",
+            "pl": "To prawda, ponieważ 100 to lewa strona prostokąta.",
+            "ar": "هذا صحيح لأن 100 هو الجانب الأيسر من المستطيل."
+         },
+         "endTime": 275217,
+         "startTime": 271280
+      },
+      {
+         "text": {
+            "en": "And then \"mouseX less than 150\". OK, so this is the problem here.",
+            "pl": "A potem „MouseX mniej niż 150\". OK, więc w tym tkwi problem.",
+            "ar": "ثم «موسكس أقل من 150\". حسنا، لذلك هذه هي المشكلة هنا."
+         },
+         "endTime": 280304,
+         "startTime": 275217
+      },
+      {
+         "text": {
+            "en": "150 gives us only 50 pixels where this condition is true",
+            "pl": "150 daje nam tylko 50 pikseli, gdzie warunek ten jest prawdziwy",
+            "ar": "150 يعطينا 50 بكسل فقط حيث يكون هذا الشرط صحيحًا"
+         },
+         "endTime": 285010,
+         "startTime": 280304
+      },
+      {
+         "text": {
+            "en": "but it should actually be true for 150 pixels",
+            "pl": "ale tak naprawdę powinno być prawdziwe dla 150 pikseli",
+            "ar": "ولكن يجب أن يكون صحيحا في الواقع ل 150 بكسل"
+         },
+         "endTime": 289001,
+         "startTime": 285010
+      },
+      {
+         "text": {
+            "en": "because that's how wide the rectangle is.",
+            "pl": "Bo tak szeroki jest prostokąt.",
+            "ar": "لأن هذا هو مدى اتساع المستطيل."
+         },
+         "endTime": 291801,
+         "startTime": 289001
+      },
+      {
+         "text": {
+            "en": "So this should be 100 + 150 = 250. Now we'll see it's true.",
+            "pl": "Więc powinno to być 100 + 150 = 250. Teraz zobaczymy, że to prawda.",
+            "ar": "لذلك يجب أن يكون هذا 100+150 = 250. الآن سنرى أن هذا صحيح"
+         },
+         "endTime": 298431,
+         "startTime": 291801
+      },
+      {
+         "text": {
+            "en": "I'm going to go and change this inside the if and let's see.",
+            "pl": "Zamierzam to zmienić w „if „i zobaczmy.",
+            "ar": "أنا ذاهب للذهاب وتغيير هذا داخل إذا ودعونا نرى."
+         },
+         "endTime": 302747,
+         "startTime": 298432
+      },
+      {
+         "text": {
+            "en": "Woohoo! Rectangles everywhere we click!",
+            "pl": "Woohoo! Prostokąty wszędzie klikamy!",
+            "ar": "(ووهو) المستطيلات في كل مكان نضغط!"
+         },
+         "endTime": 306624,
+         "startTime": 302747
+      },
+      {
+         "text": {
+            "en": "Alright, so it looks like I've fixed everything.",
+            "pl": "Dobra, więc wygląda na to, że wszystko naprawiłem.",
+            "ar": "حسناً، يبدو أنني أصلحت كل شيء"
+         },
+         "endTime": 311284,
+         "startTime": 306624
+      },
+      {
+         "text": {
+            "en": "I'm just going to check and keep clicking around, seeing if I missed any edge cases.",
+            "pl": "Idę tylko sprawdzić i ciągle klikać, sprawdzając, czy przegapiłem jakieś przypadki krawędzi.",
+            "ar": "أنا ذاهب فقط للتحقق والاستمرار في النقر حولها، ومعرفة ما إذا فاتني أي حالات حافة."
+         },
+         "endTime": 316034,
+         "startTime": 311284
+      },
+      {
+         "text": {
+            "en": "See that everything is working as expected. Great!",
+            "pl": "Zobacz, że wszystko działa zgodnie z oczekiwaniami. Świetnie!",
+            "ar": "نرى أن كل شيء يعمل كما هو متوقع. عظيم!"
+         },
+         "endTime": 320856,
+         "startTime": 316034
+      },
+      {
+         "text": {
+            "en": "Now, you may have figured out what was wrong with my code",
+            "pl": "Może już wiesz, co było nie tak z moim kodem.",
+            "ar": "الآن، ربما تكون قد اكتشفت ما هو الخطأ في شفرتي"
+         },
+         "endTime": 325503,
+         "startTime": 321993
+      },
+      {
+         "text": {
+            "en": "before I did all of these printlns.",
+            "pl": "zanim zrobiłem te wszystkie printlns.",
+            "ar": "قبل أن أفعل كل هذه printlns."
+         },
+         "endTime": 328254,
+         "startTime": 325503
+      },
+      {
+         "text": {
+            "en": "But you'll probably run into code that's trickier than this.",
+            "pl": "Ale pewnie natkniesz się na kod, który jest trudniejszy niż ten.",
+            "ar": "ولكن ربما عليك تشغيل في التعليمات البرمجية التي هي أصعب من هذا."
+         },
+         "endTime": 331782,
+         "startTime": 328254
+      },
+      {
+         "text": {
+            "en": "And you can use the same techniques for it.",
+            "pl": "I możesz użyć do tego tych samych technik.",
+            "ar": "ويمكنك استخدام نفس التقنيات لذلك."
+         },
+         "endTime": 335482,
+         "startTime": 331782
+      },
+      {
+         "text": {
+            "en": "Just figure out which of your code is actually being run.",
+            "pl": "Wystarczy dowiedzieć się, który z kodu jest faktycznie uruchomiony.",
+            "ar": "مجرد معرفة أي من التعليمات البرمجية الخاصة بك هو في الواقع قيد التشغيل."
+         },
+         "endTime": 338621,
+         "startTime": 335494
+      },
+      {
+         "text": {
+            "en": "And then figure out why it's not being run.",
+            "pl": "A potem dowiedz się, dlaczego nie jest prowadzony.",
+            "ar": "ومن ثم معرفة لماذا لا يجري تشغيل."
+         },
+         "endTime": 341541,
+         "startTime": 338621
+      },
+      {
+         "text": {
+            "en": "Or why it's being run in a weird way by inspecting the values and conditions.",
+            "pl": "Albo dlaczego jest prowadzony w dziwny sposób, sprawdzając wartości i warunki.",
+            "ar": "أو لماذا يتم تشغيله بطريقة غريبة من خلال فحص القيم والشروط."
+         },
+         "endTime": 346501,
+         "startTime": 341541
+      },
+      {
+         "text": {
+            "en": "And you can use println to do that really easily.",
+            "pl": "I można użyć println zrobić to naprawdę łatwo.",
+            "ar": "ويمكنك استخدام println للقيام بذلك بسهولة حقا."
+         },
+         "endTime": 351001,
+         "startTime": 346501
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/mN4MGNe59NQ/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759734188",
+   "title": "Debugging with println()s | Debugging programs | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

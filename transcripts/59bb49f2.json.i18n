@@ -1,0 +1,825 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "In the English language we have different parts of speech,",
+            "pl": "W języku angielskim mamy różne części mowy,",
+            "ar": "في اللغة الإنجليزية لدينا أجزاء مختلفة من الكلام،"
+         },
+         "endTime": 5312,
+         "startTime": 2743
+      },
+      {
+         "text": {
+            "en": "like Noun, Adjective, Preposition, Verb.",
+            "pl": "jak rzeczownik, przymiotnik, przyimek, czasownik.",
+            "ar": "مثل الاسم، الصفة، حرف الجر، الفعل."
+         },
+         "endTime": 8281,
+         "startTime": 5312
+      },
+      {
+         "text": {
+            "en": "And then there are a bunch of rules that tell us how to put these different parts of speech together.",
+            "pl": "A potem jest kilka zasad, które mówią nam, jak połączyć te różne części mowy.",
+            "ar": "ثم هناك مجموعة من القواعد التي تخبرنا كيف نضع هذه الأجزاء المختلفة من الكلام معا."
+         },
+         "endTime": 12051,
+         "startTime": 8281
+      },
+      {
+         "text": {
+            "en": "So if I said something like, \"Dog Books my eats,\" you'd be like \"What the heck does that mean?\"",
+            "pl": "Więc gdybym powiedział coś w stylu: „Pies Books me je”, powiedziałbyś: „Co to do cholery znaczy?”",
+            "ar": "لذلك إذا قلت شيئا مثل، «كتب الكلب يأكل بلدي،» كنت سيكون مثل «ما هيك يعني ذلك؟»"
+         },
+         "endTime": 21939,
+         "startTime": 12051
+      },
+      {
+         "text": {
+            "en": "And if you didn't realize this before, apparently you can't just stick two nouns",
+            "pl": "I jeśli nie zdawałeś sobie z tego sprawy, najwyraźniej nie możesz po prostu trzymać dwóch rzeczowników",
+            "ar": "وإذا لم تدرك هذا من قبل، على ما يبدو لا يمكنك فقط لصق أسمين"
+         },
+         "endTime": 25580,
+         "startTime": 21939
+      },
+      {
+         "text": {
+            "en": "in front of an adjective in front of a verb. Doesn't work.",
+            "pl": "przed przymiotnikiem przed czasownikiem. Nie działa.",
+            "ar": "أمام صفة أمام الفعل. لا يعمل"
+         },
+         "endTime": 28755,
+         "startTime": 25580
+      },
+      {
+         "text": {
+            "en": "But if I'd switched those and said, \"My dog eats books,\" then you would totally know what I meant.",
+            "pl": "Ale gdybym je zamienił i powiedział: „Mój pies zjada książki”, wtedy wiedziałbyś, co mam na myśli.",
+            "ar": "ولكن إذا بدلت هذه وقلت، «كلبي يأكل الكتب»، ثم كنت تعرف تماما ما قصدت."
+         },
+         "endTime": 37008,
+         "startTime": 28755
+      },
+      {
+         "text": {
+            "en": "I could even replace this verb \"eats\" with another verb like, I don't know, \"throws\"",
+            "pl": "Mógłbym nawet zastąpić ten czasownik „zjada” innym czasownikiem jak, nie wiem, „rzuca”",
+            "ar": "يمكنني حتى استبدال هذا الفعل «يأكل» مع فعل آخر مثل، لا أعرف، «يلقي»"
+         },
+         "endTime": 42882,
+         "startTime": 37008
+      },
+      {
+         "text": {
+            "en": "and it would still make grammatical sense, even if you can't imagine my dog throwing a book.",
+            "pl": "I nadal miałoby to sens gramatyczny, nawet jeśli nie wyobrażasz sobie, że mój pies rzuca książkę.",
+            "ar": "وسيظل الأمر منطقيًا نحويًا، حتى لو لم تتخيّل كلبي يلقي كتابًا."
+         },
+         "endTime": 47880,
+         "startTime": 42882
+      },
+      {
+         "text": {
+            "en": "So in programming, instead of parts of speech we have these things called types.",
+            "pl": "Tak więc w programowaniu, zamiast części mowy mamy te rzeczy zwane typami.",
+            "ar": "حتى في البرمجة، بدلا من أجزاء من الكلام لدينا هذه الأشياء تسمى أنواع."
+         },
+         "endTime": 51794,
+         "startTime": 47880
+      },
+      {
+         "text": {
+            "en": "You've already seen one of these: numbers. We use numbers all the time in our drawing code.",
+            "pl": "Widziałeś już jedną z tych liczb. Używamy liczb cały czas w naszym kodzie rysunkowym.",
+            "ar": "لقد رأيت بالفعل واحدة من هذه: الأرقام. نحن نستخدم الأرقام في كل وقت في رمز الرسم لدينا."
+         },
+         "endTime": 56713,
+         "startTime": 51794
+      },
+      {
+         "text": {
+            "en": "And just like in English, there are times it makes sense to use a number, and times when it doesn't.",
+            "pl": "I tak jak po angielsku, są chwile, kiedy warto użyć numeru, a czasy, kiedy nie.",
+            "ar": "وكما هو الحال في اللغة الإنجليزية، هناك أوقات يكون من المنطقي استخدام عدد، وأوقات عندما لا يفعل ذلك."
+         },
+         "endTime": 61263,
+         "startTime": 56713
+      },
+      {
+         "text": {
+            "en": "If I started typing in this background function, \"100 minus\" then whatever comes next better be a number,",
+            "pl": "Jeśli zacząłem wpisywać w tej funkcji tła, „100 minus” to cokolwiek przychodzi dalej lepiej być liczbą,",
+            "ar": "إذا بدأت الكتابة في هذه الوظيفة الخلفية، «100 ناقص» ثم كل ما يأتي المقبل أفضل يكون عدد،"
+         },
+         "endTime": 68550,
+         "startTime": 61263
+      },
+      {
+         "text": {
+            "en": "or at least something that evaluates to a number like \"14 + 15.\"",
+            "pl": "lub przynajmniej coś, co ocenia się na liczbę taką jak „14 + 15”.",
+            "ar": "أو على الأقل شيء يقيم إلى رقم مثل «14+ 15.»"
+         },
+         "endTime": 74279,
+         "startTime": 68550
+      },
+      {
+         "text": {
+            "en": "On the other hand, if I'd just typed \"100 space\", well I can't really put a number after that",
+            "pl": "Z drugiej strony, gdybym po prostu wpisał „100 spacji”, dobrze nie mogę tak naprawdę umieścić numer po tym",
+            "ar": "من ناحية أخرى، إذا كنت مجرد كتابة «100 الفضاء»، حسنا لا أستطيع حقا وضع رقم بعد ذلك"
+         },
+         "endTime": 80341,
+         "startTime": 74279
+      },
+      {
+         "text": {
+            "en": "because \"100-space-10\" doesn't mean anything.",
+            "pl": "ponieważ „100-space-10\" nic nie znaczy.",
+            "ar": "لأن «100-الفضاء 10\" لا يعني أي شيء"
+         },
+         "endTime": 83465,
+         "startTime": 80341
+      },
+      {
+         "text": {
+            "en": "So there's another type in programming, called the Boolean type.",
+            "pl": "Więc jest inny typ programowania, zwany typ Boolean.",
+            "ar": "لذلك هناك نوع آخر في البرمجة، ودعا نوع منطقية."
+         },
+         "endTime": 87772,
+         "startTime": 83465
+      },
+      {
+         "text": {
+            "en": "And it's called Boolean because some dude named George Boole invented it.",
+            "pl": "Nazywa się Boolean, bo wynalazł to jakiś koleś o nazwisku George Boole.",
+            "ar": "وهو يسمى منطقية لأن رجل يدعى جورج بول اخترعها."
+         },
+         "endTime": 93937,
+         "startTime": 87772
+      },
+      {
+         "text": {
+            "en": "And unlike a number which has a ton of possible values,",
+            "pl": "I w przeciwieństwie do liczby, która ma mnóstwo możliwych wartości,",
+            "ar": "وعلى عكس الرقم الذي يحتوي على طن من القيم الممكنة،"
+         },
+         "endTime": 97635,
+         "startTime": 93937
+      },
+      {
+         "text": {
+            "en": "a boolean can only be one of two values: true or false.",
+            "pl": "wartość logiczna może być tylko jedną z dwóch wartości: true lub false.",
+            "ar": "يمكن أن يكون منطقي واحد فقط من قيمتين: true أو false."
+         },
+         "endTime": 102628,
+         "startTime": 97635
+      },
+      {
+         "text": {
+            "en": "And you can see when I type them they turn blue, which means they're super special awesome words.",
+            "pl": "I widzisz, kiedy je piszę, zmieniają kolor na niebieski, co oznacza, że są super wyjątkowymi, świetnymi słowami.",
+            "ar": "ويمكنك أن ترى عندما أكتبها أنها تتحول إلى اللون الأزرق، مما يعني أنها كلمات رائعة فائقة خاصة."
+         },
+         "endTime": 107054,
+         "startTime": 102628
+      },
+      {
+         "text": {
+            "en": "And you've already seen one place where we use booleans, though you may not have realized it:",
+            "pl": "Widzieliście już jedno miejsce, w którym używamy logicznych, choć być może nie zdaliście sobie z tego sprawy:",
+            "ar": "وقد رأيت بالفعل مكانًا واحدًا نستخدم فيه القيم المنطقية، على الرغم من أنك قد لا تدرك ذلك:"
+         },
+         "endTime": 110557,
+         "startTime": 107054
+      },
+      {
+         "text": {
+            "en": "If statements!",
+            "pl": "Jeśli oświadczenia!",
+            "ar": "إذا البيانات!"
+         },
+         "endTime": 111522,
+         "startTime": 110557
+      },
+      {
+         "text": {
+            "en": "Let's get a quick refresh on how those work.",
+            "pl": "Zróbmy szybkie odświeżenie, jak to działa.",
+            "ar": "دعونا الحصول على تحديث سريع على كيفية عمل تلك."
+         },
+         "endTime": 113246,
+         "startTime": 111522
+      },
+      {
+         "text": {
+            "en": "I'm just going to make a variable called 'number,' give it a number, 40.",
+            "pl": "Zamierzam tylko zrobić zmienną o nazwie „numer”, nadać mu liczbę, 40.",
+            "ar": "أنا ذاهب فقط لجعل متغير يسمى 'عدد، 'إعطائها رقم، 40."
+         },
+         "endTime": 119381,
+         "startTime": 113246
+      },
+      {
+         "text": {
+            "en": "And write an If statement that says \"If number is less than 50, then",
+            "pl": "I napisać If oświadczenie, które mówi: „Jeśli liczba jest mniejsza niż 50, a następnie",
+            "ar": "واكتب بيان If الذي يقول «إذا كان الرقم أقل من 50، ثم"
+         },
+         "endTime": 128006,
+         "startTime": 119381
+      },
+      {
+         "text": {
+            "en": "...I will draw this first ellipse.\"",
+            "pl": "... narysuję pierwszą elipsę.”",
+            "ar": "سأرسم هذا القطع الناقص الأول.»"
+         },
+         "endTime": 131130,
+         "startTime": 128006
+      },
+      {
+         "text": {
+            "en": "I'm just going to copy this into the If statement and indent it by selecting everything and pressing tab.",
+            "pl": "Mam zamiar skopiować to do instrukcji If i wcięcie go przez wybranie wszystkiego i naciśnięcie zakładki.",
+            "ar": "أنا ذاهب فقط لنسخ هذا في بيان If والمسافة البادئة عن طريق تحديد كل شيء والضغط على علامة التبويب."
+         },
+         "endTime": 135951,
+         "startTime": 131130
+      },
+      {
+         "text": {
+            "en": "So now this statement says, \"If number is less than 50,\" (which it is!) \"then we'll draw the top ellipse.\"",
+            "pl": "Więc teraz to stwierdzenie mówi: „Jeśli liczba jest mniejsza niż 50” (co to jest!) „wtedy narysujemy górną elipsę.”",
+            "ar": "حتى الآن يقول هذا البيان، «إذا كان الرقم أقل من 50،» (وهو!) «ثم سنقوم رسم القطع الناقص العلوي.»"
+         },
+         "endTime": 143127,
+         "startTime": 137613
+      },
+      {
+         "text": {
+            "en": "And if I make number greater than 50 you can see that the top ellipse disappears.",
+            "pl": "A jeśli zrobię więcej niż 50, zobaczysz, że górna elipsa znika.",
+            "ar": "وإذا قمت بإجراء عدد أكبر من 50 يمكنك أن ترى أن القطع الناقص العلوي يختفي."
+         },
+         "endTime": 148338,
+         "startTime": 143127
+      },
+      {
+         "text": {
+            "en": "Alright, so this thing inside the parentheses is actually a boolean expression.",
+            "pl": "Dobra, więc to coś wewnątrz nawiasów jest wyrazem logicznym.",
+            "ar": "حسنا، لذلك هذا الشيء داخل الأقواس هو في الواقع تعبير منطقي."
+         },
+         "endTime": 152962,
+         "startTime": 148338
+      },
+      {
+         "text": {
+            "en": "Remember, a math expression is anything that evaluates to a number: like 3 plus 2 plus 4 times 8.",
+            "pl": "Pamiętaj, wyrażenie matematyczne to wszystko, co ocenia się na liczbę: jak 3 plus 2 plus 4 razy 8.",
+            "ar": "تذكر، تعبير الرياضيات هو أي شيء يتم تقييمه إلى رقم: مثل 3 زائد 2 زائد 4 مرات 8."
+         },
+         "endTime": 160407,
+         "startTime": 152962
+      },
+      {
+         "text": {
+            "en": "So a Boolean expression is anything that evaluates to a Boolean.",
+            "pl": "Więc wyrażenie logiczne jest wszystko, co ocenia się na logiczną.",
+            "ar": "لذلك تعبير منطقي هو أي شيء أن يقيم إلى منطقية."
+         },
+         "endTime": 163672,
+         "startTime": 160407
+      },
+      {
+         "text": {
+            "en": "A good way to check if an expression evaluates to a Boolean, is to stick the word \"is\"",
+            "pl": "Dobrym sposobem, aby sprawdzić, czy wyrażenie ma wartość logiczną, jest trzymać słowo „jest”",
+            "ar": "وهناك طريقة جيدة للتحقق مما إذا كان التعبير يقيم إلى منطقية، هو التمسك كلمة «هو»"
+         },
+         "endTime": 167109,
+         "startTime": 163672
+      },
+      {
+         "text": {
+            "en": "in front of it, and ask it like a question.",
+            "pl": "przed nim, i zadać to jak pytanie.",
+            "ar": "أمامه، واسأله مثل سؤال."
+         },
+         "endTime": 170630,
+         "startTime": 167109
+      },
+      {
+         "text": {
+            "en": "If it sounds like a yes or no question, then you know it's a boolean expression.",
+            "pl": "Jeśli brzmi to jak „tak „lub „nie „, to wiesz, że to logiczne wyrażenie.",
+            "ar": "إذا كان يبدو وكأنه سؤال نعم أو لا، فأنت تعرف أنه تعبير منطقي."
+         },
+         "endTime": 173882,
+         "startTime": 170630
+      },
+      {
+         "text": {
+            "en": "So here we can say, \"Is number less than 50?\" Yes, yes it is, and yes, that is a Boolean expression.",
+            "pl": "Więc tutaj możemy powiedzieć: „Czy liczba jest mniejsza niż 50?” Tak, tak, i tak, to jest logiczne wyrażenie.",
+            "ar": "حتى هنا يمكننا أن نقول، «هل العدد أقل من 50؟» نعم، نعم هو، ونعم، هذا تعبير منطقي."
+         },
+         "endTime": 180384,
+         "startTime": 173882
+      },
+      {
+         "text": {
+            "en": "On the other hand, if I had something like, \"4 + 4\" and I tried to ask,",
+            "pl": "Z drugiej strony, gdybym miał coś takiego, „4 + 4\" i próbowałem zapytać,",
+            "ar": "من ناحية أخرى، إذا كان لدي شيء مثل، «4+ 4\" وحاولت أن أسأل،"
+         },
+         "endTime": 184732,
+         "startTime": 180384
+      },
+      {
+         "text": {
+            "en": "\"is 4 + 4?\" No. Not a Boolean.",
+            "pl": "„jest 4 + 4?” Nie. Nie Boolean.",
+            "ar": "«هو 4+ 4؟» لا. ليس منطقية."
+         },
+         "endTime": 190803,
+         "startTime": 184732
+      },
+      {
+         "text": {
+            "en": "So back to our If statement. I can actually put anything",
+            "pl": "Więc wracamy do naszego oświadczenia If. Mogę umieścić wszystko",
+            "ar": "حتى العودة إلى بيان If لدينا. أستطيع أن أضع أي شيء"
+         },
+         "endTime": 193217,
+         "startTime": 190803
+      },
+      {
+         "text": {
+            "en": "inside these parentheses, as long as it's a Boolean or Boolean expression.",
+            "pl": "wewnątrz tych nawiasów, o ile jest to wyrażenie logiczne lub logiczne.",
+            "ar": "داخل هذه الأقواس، طالما انها تعبير منطقي أو منطقي."
+         },
+         "endTime": 197369,
+         "startTime": 193217
+      },
+      {
+         "text": {
+            "en": "So I could say, \"If true,\" and that ellipse would always be drawn.",
+            "pl": "Mogłem więc powiedzieć: „Jeśli to prawda”, a ta elipsa zawsze będzie rysowana.",
+            "ar": "حتى أستطيع أن أقول، «إذا كان صحيحا»، وهذا القطع الناقص سوف يتم رسمها دائما."
+         },
+         "endTime": 200942,
+         "startTime": 197369
+      },
+      {
+         "text": {
+            "en": "Or I could say, \"If false,\" and the ellipse would never be drawn.",
+            "pl": "Albo mogę powiedzieć: „Jeśli fałsz”, a elipsa nigdy nie zostanie narysowana.",
+            "ar": "أو أستطيع أن أقول، «إذا كان كاذبا»، والقطع الناقص لن يتم رسمها."
+         },
+         "endTime": 204636,
+         "startTime": 200942
+      },
+      {
+         "text": {
+            "en": "I could also do something like \"If 3 is less than 4,\" which is a Boolean expression",
+            "pl": "Mógłbym też zrobić coś takiego jak „Jeśli 3 jest mniej niż 4”, co jest wyrażeniem logicznym",
+            "ar": "يمكنني أيضا أن أفعل شيئا مثل «إذا كان 3 أقل من 4»، وهو تعبير منطقي"
+         },
+         "endTime": 209601,
+         "startTime": 204636
+      },
+      {
+         "text": {
+            "en": "that will always evaluate to true, which is kinda pointless,",
+            "pl": "że zawsze ocenia się na prawdziwe, co jest trochę bezcelowe,",
+            "ar": "التي سوف تقيم دائما إلى صحيح، وهو نوعا ما لا طائل منه،"
+         },
+         "endTime": 213295,
+         "startTime": 209601
+      },
+      {
+         "text": {
+            "en": "the ellipse will always be drawn, or \"3 greater than 4,\" and that's always going to be false.",
+            "pl": "elipsa zawsze będzie rysowana, lub „3 większe niż 4”, a to zawsze będzie fałszywe.",
+            "ar": "سيتم رسم القطع الناقص دائمًا، أو «3 أكبر من 4»، وهذا سيكون دائمًا كاذبًا."
+         },
+         "endTime": 217950,
+         "startTime": 213295
+      },
+      {
+         "text": {
+            "en": "And I can also assign Booleans to variables, like this:",
+            "pl": "Mogę też przypisywać wartości logiczne do zmiennych, jak to:",
+            "ar": "ويمكنني أيضًا تعيين القيم المنطقية للمتغيرات، مثل هذا:"
+         },
+         "endTime": 220575,
+         "startTime": 217950
+      },
+      {
+         "text": {
+            "en": "so I'm going to make a new variable, call it winstonIsCool, and assign it",
+            "pl": "więc mam zamiar zrobić nową zmienną, nazwać to WinStniscool, i przypisać go",
+            "ar": "لذلك أنا ذاهب لجعل متغير جديد، نسميها وينستونيسكول، وتعيينه"
+         },
+         "endTime": 228339,
+         "startTime": 220575
+      },
+      {
+         "text": {
+            "en": "a Boolean value, so true or false. Say true because Winston is definitely cool.",
+            "pl": "wartość logiczną, czyli true lub false. Powiedz prawdę, bo Winston jest zdecydowanie fajny.",
+            "ar": "قيمة منطقية، صحيح جدا أو كاذبة. قل صحيح لأن (وينستون) رائع بالتأكيد"
+         },
+         "endTime": 234549,
+         "startTime": 228339
+      },
+      {
+         "text": {
+            "en": "And now that this variable has a Boolean value, I can copy it",
+            "pl": "A teraz, że ta zmienna ma wartość logiczną, mogę ją skopiować",
+            "ar": "والآن بعد أن هذا المتغير له قيمة منطقية، يمكنني نسخه"
+         },
+         "endTime": 238801,
+         "startTime": 234549
+      },
+      {
+         "text": {
+            "en": "and stick it inside this If statement",
+            "pl": "i trzymać go wewnątrz tej instrukcji If",
+            "ar": "والتمسك بها داخل هذا البيان إذا"
+         },
+         "endTime": 242874,
+         "startTime": 238801
+      },
+      {
+         "text": {
+            "en": "and now you can see the ellipse is drawn, because the value of WinstonIsCool",
+            "pl": "i teraz można zobaczyć elipsę jest rysowany, ponieważ wartość WinStoniscool",
+            "ar": "والآن يمكنك أن ترى يتم رسم القطع الناقص، لأن قيمة WinstonisCool"
+         },
+         "endTime": 246052,
+         "startTime": 242874
+      },
+      {
+         "text": {
+            "en": "is true.",
+            "pl": "jest prawdą.",
+            "ar": "هو صحيح."
+         },
+         "endTime": 248629,
+         "startTime": 246052
+      },
+      {
+         "text": {
+            "en": "I could also replace this with a Boolean expression, so",
+            "pl": "Mógłbym również zastąpić to wyrażeniem logicznym, więc",
+            "ar": "يمكنني أيضا استبدال هذا مع تعبير منطقي، لذلك"
+         },
+         "endTime": 250737,
+         "startTime": 248629
+      },
+      {
+         "text": {
+            "en": "could be \"2 less than 4.\"",
+            "pl": "może być „2 mniej niż 4.”",
+            "ar": "يمكن أن يكون «2 أقل من 4.»"
+         },
+         "endTime": 255397,
+         "startTime": 250737
+      },
+      {
+         "text": {
+            "en": "Now if you're making a variable that's meant for a Boolean value,",
+            "pl": "Teraz, jeśli robisz zmienną, która jest przeznaczona dla wartości logicznej,",
+            "ar": "الآن إذا كنت تصنع متغيرًا مخصصًا لقيمة منطقية،"
+         },
+         "endTime": 258108,
+         "startTime": 255412
+      },
+      {
+         "text": {
+            "en": "you should give it a name that describes the condition when the variable is true.",
+            "pl": "należy nadać mu nazwę opisującą warunek, gdy zmienna jest prawdziwa.",
+            "ar": "يجب أن تعطيه اسمًا يصف الحالة عندما يكون المتغير صحيحًا."
+         },
+         "endTime": 261341,
+         "startTime": 258108
+      },
+      {
+         "text": {
+            "en": "A good way to check if you've picked a good name for your variable",
+            "pl": "Dobry sposób na sprawdzenie, czy wybrałeś dobrą nazwę dla zmiennej",
+            "ar": "طريقة جيدة للتحقق مما إذا كنت قد اخترت اسمًا جيدًا للمتغير الخاص بك"
+         },
+         "endTime": 264020,
+         "startTime": 261341
+      },
+      {
+         "text": {
+            "en": "is to put it in an If statement and see if it makes sense as a condition.",
+            "pl": "jest umieścić go w instrukcji If i sprawdzić, czy ma to sens jako warunek.",
+            "ar": "هو وضعه في بيان If ومعرفة ما إذا كان من المنطقي كشرط."
+         },
+         "endTime": 267618,
+         "startTime": 264020
+      },
+      {
+         "text": {
+            "en": "So, forget WinstonIsCool, we already know that's true.",
+            "pl": "Zapomnij o WinStoniscool, już wiemy, że to prawda.",
+            "ar": "لذلك، ننسى WinstonisCool، ونحن نعلم بالفعل أن هذا صحيح."
+         },
+         "endTime": 271214,
+         "startTime": 267618
+      },
+      {
+         "text": {
+            "en": "Let's say I had a variable called \"muffins.\"",
+            "pl": "Powiedzmy, że miałem zmienną o nazwie „babeczki”.",
+            "ar": "لنفترض أن لدي متغير يسمى «الكعك»."
+         },
+         "endTime": 274636,
+         "startTime": 271214
+      },
+      {
+         "text": {
+            "en": "All right, \"If muffins.\" Hmm.",
+            "pl": "Dobra, „Jeśli babeczki”. Hmm.",
+            "ar": "حسنا، «إذا الكعك». هم."
+         },
+         "endTime": 277222,
+         "startTime": 274636
+      },
+      {
+         "text": {
+            "en": "Well you know what, that doesn't tell me anything, so that's a pretty bad variable name.",
+            "pl": "Wiesz co, to nic mi nie mówi, więc to dość kiepska zmienna nazwa.",
+            "ar": "حسنا أنت تعرف ما، هذا لا يقول لي أي شيء، لذلك هذا اسم متغير سيئة جدا."
+         },
+         "endTime": 281392,
+         "startTime": 277222
+      },
+      {
+         "text": {
+            "en": "But if I had \"If muffinsAreBaking\", then that would tell me that",
+            "pl": "Ale gdybym miał „Jeśli muffinsareBaking”, to by mi powiedzieć, że",
+            "ar": "ولكن إذا كان لدي «إذا الكعك الخبز»، ثم ذلك من شأنه أن يقول لي أن"
+         },
+         "endTime": 285966,
+         "startTime": 281392
+      },
+      {
+         "text": {
+            "en": "when this variable is true, then the muffins are baking.",
+            "pl": "gdy ta zmienna jest prawdziwa, wtedy babeczki pieczeją.",
+            "ar": "عندما يكون هذا المتغير صحيحًا، فإن الكعك يتم الخبز."
+         },
+         "endTime": 290830,
+         "startTime": 285981
+      },
+      {
+         "text": {
+            "en": "And don't ask me what muffins, it's not important.",
+            "pl": "I nie pytaj mnie, jakie babeczki, to nie jest ważne.",
+            "ar": "ولا تسألني عن الكعك، ليس مهماً"
+         },
+         "endTime": 294105,
+         "startTime": 290830
+      },
+      {
+         "text": {
+            "en": "So for now let's go back to \"If number is less than 50.\"",
+            "pl": "Więc teraz wróćmy do „Jeśli liczba jest mniejsza niż 50”.",
+            "ar": "حتى الآن دعونا نعود إلى «إذا كان عدد أقل من 50.»"
+         },
+         "endTime": 298887,
+         "startTime": 294105
+      },
+      {
+         "text": {
+            "en": "Cool.",
+            "pl": "Fajne.",
+            "ar": "رائع"
+         },
+         "endTime": 300036,
+         "startTime": 298887
+      },
+      {
+         "text": {
+            "en": "Now let's look at some other Boolean expressions.",
+            "pl": "Teraz spójrzmy na kilka innych wyrażeń logicznych.",
+            "ar": "الآن دعونا ننظر إلى بعض التعبيرات المنطقية الأخرى."
+         },
+         "endTime": 302403,
+         "startTime": 300036
+      },
+      {
+         "text": {
+            "en": "You've already seen \"less than\" and \"greater than\"",
+            "pl": "Widziałeś już „mniej niż” i „większe niż”",
+            "ar": "لقد رأيت بالفعل «أقل من» و «أكبر من»"
+         },
+         "endTime": 305426,
+         "startTime": 302403
+      },
+      {
+         "text": {
+            "en": "but you can also check if something is \"less than or equal to.\"",
+            "pl": "ale można również sprawdzić, czy coś jest „mniejsze lub równe”.",
+            "ar": "ولكن يمكنك أيضًا التحقق مما إذا كان هناك شيء «أقل من أو يساوي»."
+         },
+         "endTime": 308837,
+         "startTime": 305426
+      },
+      {
+         "text": {
+            "en": "So let's try, \"If number is less than or equal to 48.\"",
+            "pl": "Spróbujmy więc, „Jeśli liczba jest mniejsza lub równa 48.”",
+            "ar": "لذلك دعونا نحاول، «إذا كان الرقم أقل من أو يساوي 48.»"
+         },
+         "endTime": 312671,
+         "startTime": 308837
+      },
+      {
+         "text": {
+            "en": "And we could also say, \"If number is greater than or equal to 48.\"",
+            "pl": "Możemy też powiedzieć: „Jeśli liczba jest większa lub równa 48.”",
+            "ar": "ويمكننا أيضا أن نقول، «إذا كان العدد أكبر من أو يساوي 48.»"
+         },
+         "endTime": 319901,
+         "startTime": 312671
+      },
+      {
+         "text": {
+            "en": "If it is, we will draw this top-right ellipse.",
+            "pl": "Jeśli tak, to narysujemy tę górną prawą elipsę.",
+            "ar": "إذا كان كذلك، سنقوم برسم هذا القطع الناقص العلوي الأيمن."
+         },
+         "endTime": 323883,
+         "startTime": 319901
+      },
+      {
+         "text": {
+            "en": "Indent that.",
+            "pl": "Wcięcie to.",
+            "ar": "المسافة البادئة ذلك."
+         },
+         "endTime": 327318,
+         "startTime": 325837
+      },
+      {
+         "text": {
+            "en": "And if you'd like to check if two things are exactly equal to each other you could say:",
+            "pl": "A jeśli chcesz sprawdzić, czy dwie rzeczy są do siebie równe, możesz powiedzieć:",
+            "ar": "وإذا كنت ترغب في التحقق مما إذا كان شيئان متساويان تمامًا مع بعضهما البعض، فيمكنك أن تقول:"
+         },
+         "endTime": 331675,
+         "startTime": 327318
+      },
+      {
+         "text": {
+            "en": "\"If number\" and then three equals signs, or \"triple equals 48.\"",
+            "pl": "„Jeśli liczba”, a następnie trzy równa się znaki, lub „potrójne równa się 48.”",
+            "ar": "«إذا كان الرقم» ثم ثلاثة يساوي علامات، أو «الثلاثي يساوي 48.»"
+         },
+         "endTime": 337622,
+         "startTime": 331675
+      },
+      {
+         "text": {
+            "en": "So that's a lot more like the equals sign you're used to in math,",
+            "pl": "Więc to bardziej jak znak równości, do którego przywykłaś w matematyce,",
+            "ar": "لذلك هذا هو الكثير مثل علامة يساوي كنت تستخدم في الرياضيات،"
+         },
+         "endTime": 341550,
+         "startTime": 338484
+      },
+      {
+         "text": {
+            "en": "except this time you have three of them in a row.",
+            "pl": "Z wyjątkiem tego, że tym razem masz trzy z rzędu.",
+            "ar": "باستثناء هذه المرة لديك ثلاثة منهم على التوالي."
+         },
+         "endTime": 344412,
+         "startTime": 341550
+      },
+      {
+         "text": {
+            "en": "It's kind of overkill, right?",
+            "pl": "To trochę przesada, prawda?",
+            "ar": "إنه نوع من القتل المبالغة، صحيح؟"
+         },
+         "endTime": 346423,
+         "startTime": 344412
+      },
+      {
+         "text": {
+            "en": "And then finally we have if you want to check if two things are NOT equal to,",
+            "pl": "I wreszcie mamy, jeśli chcesz sprawdzić, czy dwie rzeczy nie są równe,",
+            "ar": "ثم أخيرا لدينا إذا كنت ترغب في التحقق مما إذا كان شيئين لا يساوي،"
+         },
+         "endTime": 350972,
+         "startTime": 346423
+      },
+      {
+         "text": {
+            "en": "so strictly not equal to, you can say, \"If number\" and then an exclamation point, and then 2 equals signs, \"48\".",
+            "pl": "tak ściśle nie równa, można powiedzieć, „Jeśli numer”, a następnie wykrzyknik, a następnie 2 równa się znaki, „48\".",
+            "ar": "لذلك بدقة لا يساوي، يمكنك أن تقول، «إذا كان الرقم» ثم علامة تعجب، ثم 2 يساوي علامات، «48\"."
+         },
+         "endTime": 359769,
+         "startTime": 350972
+      },
+      {
+         "text": {
+            "en": "And then we will draw that last ellipse.",
+            "pl": "A potem narysujemy ostatnią elipsę.",
+            "ar": "وبعد ذلك سوف نرسم هذا القطع الناقص الأخير."
+         },
+         "endTime": 363019,
+         "startTime": 359769
+      },
+      {
+         "text": {
+            "en": "All right. So if we go back to the top we can see that number is 48, so",
+            "pl": "W porządku. Więc jeśli wrócimy na szczyt, zobaczymy, że liczba to 48, więc",
+            "ar": "حسناً حتى إذا عدنا إلى الأعلى يمكننا أن نرى هذا العدد هو 48، لذلك"
+         },
+         "endTime": 367757,
+         "startTime": 363866
+      },
+      {
+         "text": {
+            "en": "it is less than or equal to 48, which is why the top-left ellipse is drawn.",
+            "pl": "jest mniejsza lub równa 48, dlatego rysowana jest lewa górna elipsa.",
+            "ar": "وهو أقل من أو يساوي 48، وهذا هو السبب في رسم القطع الناقص العلوي الأيسر."
+         },
+         "endTime": 372009,
+         "startTime": 367757
+      },
+      {
+         "text": {
+            "en": "It's also greater than or equal to 48, it's also equal to 48,",
+            "pl": "Jest również większa lub równa 48, jest również równa 48,",
+            "ar": "كما أنها أكبر من أو تساوي 48، كما أنها تساوي 48،"
+         },
+         "endTime": 376514,
+         "startTime": 372009
+      },
+      {
+         "text": {
+            "en": "but it is not NOT equal to 48, which is why we're missing that bottom-right ellipse.",
+            "pl": "ale nie jest równa 48, dlatego brakuje nam tej dolnej prawej elipsy.",
+            "ar": "لكنه لا يساوي 48، وهذا هو السبب في أننا في عداد المفقودين أن القطع الناقص أسفل اليمين."
+         },
+         "endTime": 380975,
+         "startTime": 376514
+      },
+      {
+         "text": {
+            "en": "And if we play around with number you can see it changes which ellipses are drawn.",
+            "pl": "A jeśli bawimy się z numerem widać, że zmienia się, które elipsy są rysowane.",
+            "ar": "وإذا كنا نلعب حولها مع عدد يمكنك أن ترى أنه يتغير التي يتم رسمها الحذف."
+         },
+         "endTime": 386363,
+         "startTime": 380975
+      },
+      {
+         "text": {
+            "en": "So now you guys know about Booleans.",
+            "pl": "Więc teraz wiecie o Booleans.",
+            "ar": "حتى الآن يا رفاق تعرف عن القيم المنطقية."
+         },
+         "endTime": 389705,
+         "startTime": 386363
+      },
+      {
+         "text": {
+            "en": "And just like math expressions, Boolean expressions can get really complicated.",
+            "pl": "I tak jak wyrażenia matematyczne, wyrażenia logiczne mogą być naprawdę skomplikowane.",
+            "ar": "وتماما مثل تعبيرات الرياضيات، يمكن أن تصبح التعبيرات المنطقية معقدة حقا."
+         },
+         "endTime": 393340,
+         "startTime": 389705
+      },
+      {
+         "text": {
+            "en": "But we will talk about those another time.",
+            "pl": "Ale porozmawiamy o tym innym razem.",
+            "ar": "لكننا سنتحدث عن تلك المرة الأخرى."
+         },
+         "endTime": 397000,
+         "startTime": 393340
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/9kpzJKczOrw/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759714672",
+   "title": "Booleans | Logic and if Statements | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

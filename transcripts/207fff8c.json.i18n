@@ -1,0 +1,1149 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- [Voiceover] Let's review what we already know,",
+            "pl": "- [Voiceover] Przejrzyjmy to, co już wiemy,",
+            "ar": "- [Voiceover] دعونا نراجع ما نعرفه بالفعل،"
+         },
+         "endTime": 2836,
+         "startTime": 750
+      },
+      {
+         "text": {
+            "en": "the 'ellipse' function.",
+            "pl": "funkcja „elipsy”.",
+            "ar": "وظيفة «القطع الناقص»."
+         },
+         "endTime": 4392,
+         "startTime": 2836
+      },
+      {
+         "text": {
+            "en": "I have four ellipses drawing a face.",
+            "pl": "Cztery elipsy rysują twarz.",
+            "ar": "لدي أربع قطع بيضاوية ترسم وجهًا."
+         },
+         "endTime": 7689,
+         "startTime": 4392
+      },
+      {
+         "text": {
+            "en": "If I want to change something about this face,",
+            "pl": "Jeśli chcę coś zmienić w tej twarzy,",
+            "ar": "إذا أردت أن أغير شيئاً عن هذا الوجه"
+         },
+         "endTime": 9872,
+         "startTime": 7689
+      },
+      {
+         "text": {
+            "en": "like make the mouth open wide,",
+            "pl": "jak sprawić, by usta były szeroko otwarte,",
+            "ar": "مثل جعل الفم مفتوحا على مصراعيها،"
+         },
+         "endTime": 12260,
+         "startTime": 9872
+      },
+      {
+         "text": {
+            "en": "then I just need to find the right number and change it.",
+            "pl": "Muszę tylko znaleźć odpowiedni numer i go zmienić.",
+            "ar": "ثم أنا فقط بحاجة للعثور على الرقم الصحيح وتغييره."
+         },
+         "endTime": 15494,
+         "startTime": 12260
+      },
+      {
+         "text": {
+            "en": "Let's see, the mouth is the second 'ellipse'",
+            "pl": "Zobaczmy, usta są drugą „elipsą”",
+            "ar": "دعونا نرى، الفم هو «القطع الناقص» الثاني"
+         },
+         "endTime": 18711,
+         "startTime": 15494
+      },
+      {
+         "text": {
+            "en": "and the width is the third parameter,",
+            "pl": "a szerokość jest trzecim parametrem,",
+            "ar": "والعرض هو المعلمة الثالثة،"
+         },
+         "endTime": 21450,
+         "startTime": 18711
+      },
+      {
+         "text": {
+            "en": "so I'll just increase this.",
+            "pl": "Więc po prostu to zwiększę.",
+            "ar": "لذلك أنا فقط زيادة هذا."
+         },
+         "endTime": 23369,
+         "startTime": 21450
+      },
+      {
+         "text": {
+            "en": "There we go. Nice and wide.",
+            "pl": "Tam idziemy. Ładne i szerokie.",
+            "ar": "ها نحن ذا لطيفة وواسعة."
+         },
+         "endTime": 25995,
+         "startTime": 23370
+      },
+      {
+         "text": {
+            "en": "Okay. So we understand ellipses.",
+            "pl": "Okej. Więc rozumiemy elipsy.",
+            "ar": "حسناً لذلك نحن نفهم الحذف."
+         },
+         "endTime": 28921,
+         "startTime": 25995
+      },
+      {
+         "text": {
+            "en": "What else can we make?",
+            "pl": "Co jeszcze możemy zrobić?",
+            "ar": "ماذا يمكننا أن نجعل؟"
+         },
+         "endTime": 31303,
+         "startTime": 28921
+      },
+      {
+         "text": {
+            "en": "Well, we can make rectangles",
+            "pl": "Cóż, możemy zrobić prostokąty",
+            "ar": "حسنا، يمكننا أن نصنع المستطيلات"
+         },
+         "endTime": 33648,
+         "startTime": 31303
+      },
+      {
+         "text": {
+            "en": "using the 'rect' function,",
+            "pl": "za pomocą funkcji „rect”,",
+            "ar": "باستخدام وظيفة «المستقيم»،"
+         },
+         "endTime": 36255,
+         "startTime": 33648
+      },
+      {
+         "text": {
+            "en": "another command that our programs here know how to obey.",
+            "pl": "kolejne polecenie, które nasze programy wiedzą, jak być posłusznym.",
+            "ar": "أمر آخر أن برامجنا هنا تعرف كيف تطيع."
+         },
+         "endTime": 40211,
+         "startTime": 36255
+      },
+      {
+         "text": {
+            "en": "Here, I will draw a little neck for a face",
+            "pl": "Tutaj narysuję małą szyję dla twarzy",
+            "ar": "هنا، سأرسم رقبة صغيرة لوجه"
+         },
+         "endTime": 44281,
+         "startTime": 40211
+      },
+      {
+         "text": {
+            "en": "and I already know some good numbers for it.",
+            "pl": "i już znam kilka dobrych liczb.",
+            "ar": "وأنا أعرف بالفعل بعض الأرقام الجيدة لذلك."
+         },
+         "endTime": 46790,
+         "startTime": 44281
+      },
+      {
+         "text": {
+            "en": "There we go.",
+            "pl": "Tam idziemy.",
+            "ar": "ها نحن ذا"
+         },
+         "endTime": 48322,
+         "startTime": 46790
+      },
+      {
+         "text": {
+            "en": "Just like 'ellipse', the 'rect' function",
+            "pl": "Podobnie jak „elipsa”, funkcja „rect”",
+            "ar": "تماما مثل «القطع الناقص»، وظيفة «المستقيم»"
+         },
+         "endTime": 51132,
+         "startTime": 48322
+      },
+      {
+         "text": {
+            "en": "takes four parameters and they're pretty similar.",
+            "pl": "przyjmuje cztery parametry i są całkiem podobne.",
+            "ar": "يأخذ أربع معلمات وانهم متشابهون جدا."
+         },
+         "endTime": 55165,
+         "startTime": 51132
+      },
+      {
+         "text": {
+            "en": "The first parameter is x, the second parameter is y,",
+            "pl": "Pierwszym parametrem jest x, drugim parametrem jest y,",
+            "ar": "المعلمة الأولى هي x، المعلمة الثانية هي y،"
+         },
+         "endTime": 58893,
+         "startTime": 55165
+      },
+      {
+         "text": {
+            "en": "the third parameter is width,",
+            "pl": "trzecim parametrem jest szerokość,",
+            "ar": "المعلمة الثالثة هي العرض،"
+         },
+         "endTime": 60880,
+         "startTime": 58893
+      },
+      {
+         "text": {
+            "en": "and the fourth parameter is height.",
+            "pl": "a czwartym parametrem jest wysokość.",
+            "ar": "والمعلمة الرابعة هي الارتفاع."
+         },
+         "endTime": 63225,
+         "startTime": 60880
+      },
+      {
+         "text": {
+            "en": "But the parameters don't work quite the same way",
+            "pl": "Ale parametry nie działają w ten sam sposób",
+            "ar": "ولكن المعلمات لا تعمل تماما بنفس الطريقة"
+         },
+         "endTime": 65879,
+         "startTime": 63225
+      },
+      {
+         "text": {
+            "en": "as they do for ellipses.",
+            "pl": "jak robią to dla elips.",
+            "ar": "كما يفعلون بالنسبة للحواذف."
+         },
+         "endTime": 68128,
+         "startTime": 65879
+      },
+      {
+         "text": {
+            "en": "Let me show you what I mean,",
+            "pl": "Pokażę ci, co mam na myśli.",
+            "ar": "دعني أريك ما أعنيه"
+         },
+         "endTime": 69723,
+         "startTime": 68128
+      },
+      {
+         "text": {
+            "en": "by turning this human face into a robot face,",
+            "pl": "zmieniając tę ludzką twarz w twarz robota,",
+            "ar": "عن طريق تحويل هذا الوجه البشري إلى وجه آلي"
+         },
+         "endTime": 73107,
+         "startTime": 69723
+      },
+      {
+         "text": {
+            "en": "which means turning all these ellipses into rectangles.",
+            "pl": "co oznacza przekształcenie wszystkich elips w prostokąty.",
+            "ar": "مما يعني تحويل كل هذه الحذف إلى مستطيلات."
+         },
+         "endTime": 77620,
+         "startTime": 73107
+      },
+      {
+         "text": {
+            "en": "I will start with the top one",
+            "pl": "Zacznę od góry",
+            "ar": "سأبدأ مع أعلى واحد"
+         },
+         "endTime": 79203,
+         "startTime": 77542
+      },
+      {
+         "text": {
+            "en": "and just type 'rect' instead of 'ellipse',",
+            "pl": "i wpisz „rect” zamiast „elipsy”,",
+            "ar": "واكتب فقط «rect» بدلاً من «القطع الناقص»،"
+         },
+         "endTime": 82354,
+         "startTime": 79203
+      },
+      {
+         "text": {
+            "en": "keeping the numbers the same.",
+            "pl": "utrzymując numery takie same.",
+            "ar": "الحفاظ على الأرقام نفسها."
+         },
+         "endTime": 84865,
+         "startTime": 82354
+      },
+      {
+         "text": {
+            "en": "Woah!",
+            "pl": "Woah!",
+            "ar": "ووه!"
+         },
+         "endTime": 85753,
+         "startTime": 84865
+      },
+      {
+         "text": {
+            "en": "Okay, the rectangle's half way down the page,",
+            "pl": "Ok, prostokąt jest w połowie drogi w dół strony,",
+            "ar": "حسنا، المستطيل في منتصف الطريق أسفل الصفحة،"
+         },
+         "endTime": 88624,
+         "startTime": 85754
+      },
+      {
+         "text": {
+            "en": "even though it had the same parameters as the 'ellipse'.",
+            "pl": "mimo że miał takie same parametry jak „elipsa”.",
+            "ar": "على الرغم من أن لديها نفس البارامترات مثل «القطع الناقص»."
+         },
+         "endTime": 92455,
+         "startTime": 88624
+      },
+      {
+         "text": {
+            "en": "Why is that?",
+            "pl": "Dlaczego tak jest?",
+            "ar": "لماذا هذا؟"
+         },
+         "endTime": 93990,
+         "startTime": 92683
+      },
+      {
+         "text": {
+            "en": "Well, the x and y parameters of the 'rect' function",
+            "pl": "Cóż, parametry x i y funkcji „rect”",
+            "ar": "حسنا، المعلمات x و y من وظيفة «المستقيم»"
+         },
+         "endTime": 98700,
+         "startTime": 93990
+      },
+      {
+         "text": {
+            "en": "actually control the upper left corner of the rectangle,",
+            "pl": "faktycznie kontrolować lewy górny róg prostokąta,",
+            "ar": "السيطرة فعلا في الزاوية اليسرى العليا من المستطيل،"
+         },
+         "endTime": 101705,
+         "startTime": 98700
+      },
+      {
+         "text": {
+            "en": "not the center.",
+            "pl": "Nie w centrum.",
+            "ar": "ليس المركز."
+         },
+         "endTime": 103201,
+         "startTime": 101705
+      },
+      {
+         "text": {
+            "en": "So this rectangle now starts",
+            "pl": "Więc ten prostokąt zaczyna się teraz",
+            "ar": "لذلك هذا المستطيل يبدأ الآن"
+         },
+         "endTime": 105702,
+         "startTime": 103201
+      },
+      {
+         "text": {
+            "en": "at what used to be the center of the face.",
+            "pl": "w tym, co kiedyś było środkiem twarzy.",
+            "ar": "في ما كان عليه أن يكون مركز الوجه."
+         },
+         "endTime": 108926,
+         "startTime": 105702
+      },
+      {
+         "text": {
+            "en": "So that means I need to do some adjusting",
+            "pl": "Więc to oznacza, że muszę trochę się dostosować",
+            "ar": "وهذا يعني أنني بحاجة إلى القيام ببعض التعديل"
+         },
+         "endTime": 112180,
+         "startTime": 109128
+      },
+      {
+         "text": {
+            "en": "of the x and y.",
+            "pl": "x i y.",
+            "ar": "من س و ص."
+         },
+         "endTime": 113785,
+         "startTime": 112180
+      },
+      {
+         "text": {
+            "en": "I'll just decrease the x",
+            "pl": "Ja po prostu zmniejszę x",
+            "ar": "أنا فقط تقليل س"
+         },
+         "endTime": 117238,
+         "startTime": 113785
+      },
+      {
+         "text": {
+            "en": "and then decrease the y.",
+            "pl": ", a następnie zmniejsz y.",
+            "ar": "ومن ثم تقليل y."
+         },
+         "endTime": 120314,
+         "startTime": 117239
+      },
+      {
+         "text": {
+            "en": "There we go. That's pretty good.",
+            "pl": "Tam idziemy. To całkiem niezłe.",
+            "ar": "ها نحن ذا هذا جيد جداً"
+         },
+         "endTime": 122961,
+         "startTime": 120314
+      },
+      {
+         "text": {
+            "en": "Now I'll change the rest of these rectangles,",
+            "pl": "Teraz zmienię resztę tych prostokątów,",
+            "ar": "الآن سأغير بقية هذه المستطيلات"
+         },
+         "endTime": 125747,
+         "startTime": 122961
+      },
+      {
+         "text": {
+            "en": "change the rest of these into rectangles too.",
+            "pl": "zmienić resztę na prostokąty też.",
+            "ar": "تغيير بقية هذه إلى مستطيلات أيضا."
+         },
+         "endTime": 128931,
+         "startTime": 125747
+      },
+      {
+         "text": {
+            "en": "So this one like this. Just move it over.",
+            "pl": "Więc ten taki jak ten. Po prostu przesuń to.",
+            "ar": "لذلك هذا واحد مثل هذا. فقط تحرك أكثر من ذلك."
+         },
+         "endTime": 133100,
+         "startTime": 128931
+      },
+      {
+         "text": {
+            "en": "And as you see, it's totally okay to",
+            "pl": "I jak widzisz, to jest całkowicie w porządku",
+            "ar": "وكما ترون، فإنه لا بأس تماما ل"
+         },
+         "endTime": 136680,
+         "startTime": 133100
+      },
+      {
+         "text": {
+            "en": "not have numbers perfect on the first try.",
+            "pl": "nie mają numery idealne przy pierwszym próbie.",
+            "ar": "ليس لديك أرقام مثالية في المحاولة الأولى."
+         },
+         "endTime": 139353,
+         "startTime": 136680
+      },
+      {
+         "text": {
+            "en": "You can come up with some numbers,",
+            "pl": "Możesz wymyślić kilka liczb,",
+            "ar": "يمكنك الخروج مع بعض الأرقام،"
+         },
+         "endTime": 141536,
+         "startTime": 139353
+      },
+      {
+         "text": {
+            "en": "try them out, see if you like 'em,",
+            "pl": "Wypróbuj je, zobacz, czy ci się spodobają.",
+            "ar": "جربهم، لنرى إن كنت تحبهم"
+         },
+         "endTime": 144322,
+         "startTime": 141536
+      },
+      {
+         "text": {
+            "en": "keep changing them 'til they look good.",
+            "pl": "Ciągle je zmieniaj, dopóki nie wyglądają dobrze.",
+            "ar": "الحفاظ على تغييرها «سمسم أنها تبدو جيدة."
+         },
+         "endTime": 147619,
+         "startTime": 144322
+      },
+      {
+         "text": {
+            "en": "And if you have any graph paper handy,",
+            "pl": "A jeśli masz jakieś papiery grafowe pod ręką,",
+            "ar": "وإذا كان لديك أي ورقة الرسم البياني مفيد،"
+         },
+         "endTime": 149314,
+         "startTime": 147619
+      },
+      {
+         "text": {
+            "en": "you could actually draw out your drawings",
+            "pl": "można rzeczywiście wyciągnąć swoje rysunki",
+            "ar": "هل يمكن فعلا رسم الرسومات الخاصة بك"
+         },
+         "endTime": 151287,
+         "startTime": 149314
+      },
+      {
+         "text": {
+            "en": "on graph paper first, which I think",
+            "pl": "na papierze graficznym pierwszy, który myślę",
+            "ar": "على ورقة الرسم البياني أولا، والتي أعتقد"
+         },
+         "endTime": 154585,
+         "startTime": 151288
+      },
+      {
+         "text": {
+            "en": "is really handy for getting the right numbers.",
+            "pl": "jest naprawdę przydatny do uzyskania odpowiednich numerów.",
+            "ar": "هو مفيد حقا للحصول على الأرقام الصحيحة."
+         },
+         "endTime": 158893,
+         "startTime": 154585
+      },
+      {
+         "text": {
+            "en": "And just gonna move this over there.",
+            "pl": "I przeniosę to tam.",
+            "ar": "ومجرد ستعمل نقل هذا إلى هناك."
+         },
+         "endTime": 163791,
+         "startTime": 159301
+      },
+      {
+         "text": {
+            "en": "All right! Looking good!",
+            "pl": "W porządku! Dobrze wyglądasz!",
+            "ar": "كل الحق! تبدو جيدة!"
+         },
+         "endTime": 165793,
+         "startTime": 163792
+      },
+      {
+         "text": {
+            "en": "So I'm liking this robot but I don't like the fact",
+            "pl": "Więc podoba mi się ten robot, ale nie podoba mi się fakt",
+            "ar": "لذلك أنا أحب هذا الروبوت ولكن أنا لا أحب الحقيقة"
+         },
+         "endTime": 168955,
+         "startTime": 165793
+      },
+      {
+         "text": {
+            "en": "that there's so many rectangles",
+            "pl": "że jest tak wiele prostokątów",
+            "ar": "أن هناك الكثير من المستطيلات"
+         },
+         "endTime": 171814,
+         "startTime": 168955
+      },
+      {
+         "text": {
+            "en": "and I'm having a hard time remembering",
+            "pl": "i mam trudności z pamiętaniem",
+            "ar": "وأنا أواجه صعوبة في التذكر"
+         },
+         "endTime": 173893,
+         "startTime": 171814
+      },
+      {
+         "text": {
+            "en": "which of these rectangles draw which part of the face.",
+            "pl": "które z tych prostokątów narysować, która część twarzy.",
+            "ar": "أي من هذه المستطيلات رسم أي جزء من الوجه."
+         },
+         "endTime": 177689,
+         "startTime": 173893
+      },
+      {
+         "text": {
+            "en": "To help me, I'm going to add something",
+            "pl": "Aby mi pomóc, mam zamiar coś dodać",
+            "ar": "لمساعدتي، أنا ذاهب لإضافة شيء"
+         },
+         "endTime": 180102,
+         "startTime": 177689
+      },
+      {
+         "text": {
+            "en": "called a 'comment'.",
+            "pl": "zwany „komentarz”.",
+            "ar": "يسمى «تعليق»."
+         },
+         "endTime": 182690,
+         "startTime": 180103
+      },
+      {
+         "text": {
+            "en": "A 'comment' always starts with two slashes",
+            "pl": "„Komentarz” zawsze zaczyna się od dwóch ukośników",
+            "ar": "«تعليق» يبدأ دائما مع اثنين مائلة"
+         },
+         "endTime": 185416,
+         "startTime": 182690
+      },
+      {
+         "text": {
+            "en": "and after it is a bit of text to help humans",
+            "pl": "i po to jest trochę tekstu, aby pomóc ludziom",
+            "ar": "وبعد ذلك قليلا من النص لمساعدة البشر"
+         },
+         "endTime": 188856,
+         "startTime": 185416
+      },
+      {
+         "text": {
+            "en": "understand what the code does.",
+            "pl": "zrozumieć, co robi kod.",
+            "ar": "فهم ما يفعله الرمز."
+         },
+         "endTime": 191745,
+         "startTime": 188856
+      },
+      {
+         "text": {
+            "en": "So this draws the face,",
+            "pl": "Więc to rysuje twarz,",
+            "ar": "لذلك هذا يرسم الوجه،"
+         },
+         "endTime": 194452,
+         "startTime": 191745
+      },
+      {
+         "text": {
+            "en": "this draws the mouth,",
+            "pl": "to rysuje usta,",
+            "ar": "هذا يرسم الفم،"
+         },
+         "endTime": 196844,
+         "startTime": 194452
+      },
+      {
+         "text": {
+            "en": "this is a left eye,",
+            "pl": "to lewe oko,",
+            "ar": "هذه هي العين اليسرى،"
+         },
+         "endTime": 199631,
+         "startTime": 196844
+      },
+      {
+         "text": {
+            "en": "right eye,",
+            "pl": "prawe oko,",
+            "ar": "العين اليمنى،"
+         },
+         "endTime": 201834,
+         "startTime": 199981
+      },
+      {
+         "text": {
+            "en": "and the neck.",
+            "pl": "i szyję.",
+            "ar": "والرقبة."
+         },
+         "endTime": 204510,
+         "startTime": 201834
+      },
+      {
+         "text": {
+            "en": "Okay. Great, now this code makes sense.",
+            "pl": "Okej. Świetnie, teraz ten kod ma sens.",
+            "ar": "حسناً عظيم، الآن هذا الرمز منطقي."
+         },
+         "endTime": 207772,
+         "startTime": 204510
+      },
+      {
+         "text": {
+            "en": "Let me show you one more shape, a 'line',",
+            "pl": "Pokażę ci jeszcze jeden kształt, „linię”,",
+            "ar": "اسمحوا لي أن تظهر لك شكل واحد آخر، «خط»،"
+         },
+         "endTime": 210763,
+         "startTime": 207772
+      },
+      {
+         "text": {
+            "en": "which I will use to draw a unibrow over the robot's eyes.",
+            "pl": "którego użyję, aby narysować jednobrow na oczach robota.",
+            "ar": "والتي سوف تستخدم لرسم unibrow على عيون الروبوت."
+         },
+         "endTime": 215585,
+         "startTime": 210764
+      },
+      {
+         "text": {
+            "en": "I'll start by typing 'line' and once again,",
+            "pl": "Zacznę od wpisania „line” i jeszcze raz",
+            "ar": "سأبدأ بكتابة «خط» ومرة أخرى،"
+         },
+         "endTime": 219445,
+         "startTime": 216582
+      },
+      {
+         "text": {
+            "en": "I need to type in four parameters.",
+            "pl": "Muszę wpisać cztery parametry.",
+            "ar": "أنا بحاجة إلى كتابة في أربع معلمات."
+         },
+         "endTime": 222185,
+         "startTime": 219445
+      },
+      {
+         "text": {
+            "en": "The first two parameters are the start point of the line.",
+            "pl": "Pierwsze dwa parametry są punktem początkowym linii.",
+            "ar": "المعلمتان الأولان هما نقطة البداية للخط."
+         },
+         "endTime": 225551,
+         "startTime": 222185
+      },
+      {
+         "text": {
+            "en": "I'll start it where the left eye starts.",
+            "pl": "Zacznę tam, gdzie zaczyna się lewe oko.",
+            "ar": "سأبدأ من حيث تبدأ العين اليسرى"
+         },
+         "endTime": 228833,
+         "startTime": 225551
+      },
+      {
+         "text": {
+            "en": "140, 150.",
+            "pl": "140, 150.",
+            "ar": "140، 150."
+         },
+         "endTime": 230870,
+         "startTime": 228834
+      },
+      {
+         "text": {
+            "en": "Okay.",
+            "pl": "Okej.",
+            "ar": "حسناً"
+         },
+         "endTime": 232474,
+         "startTime": 231320
+      },
+      {
+         "text": {
+            "en": "Now you might think the next two parameters",
+            "pl": "Teraz możesz pomyśleć, że następne dwa parametry",
+            "ar": "الآن قد تعتقد أن المعلمتين التاليتين"
+         },
+         "endTime": 234259,
+         "startTime": 232474
+      },
+      {
+         "text": {
+            "en": "are the width and height?",
+            "pl": "czy szerokość i wysokość?",
+            "ar": "هل العرض والارتفاع؟"
+         },
+         "endTime": 235396,
+         "startTime": 234259
+      },
+      {
+         "text": {
+            "en": "But actually, lines don't have width and height.",
+            "pl": "Ale tak naprawdę, linie nie mają szerokości i wysokości.",
+            "ar": "ولكن في الواقع، لا تحتوي الخطوط على عرض وارتفاع."
+         },
+         "endTime": 237787,
+         "startTime": 235396
+      },
+      {
+         "text": {
+            "en": "Lines have start points and end points.",
+            "pl": "Linie mają punkty początkowe i końcowe.",
+            "ar": "خطوط لها نقاط البداية ونقاط النهاية."
+         },
+         "endTime": 240319,
+         "startTime": 237788
+      },
+      {
+         "text": {
+            "en": "So the last two parameters will tell the program",
+            "pl": "Tak więc dwa ostatnie parametry powiedzą programowi",
+            "ar": "لذا فإن المعلمتين الأخيرتين ستخبر البرنامج"
+         },
+         "endTime": 243291,
+         "startTime": 240319
+      },
+      {
+         "text": {
+            "en": "where the line should end.",
+            "pl": "gdzie linia powinna się kończyć.",
+            "ar": "حيث يجب أن ينتهي الخط."
+         },
+         "endTime": 245380,
+         "startTime": 243291
+      },
+      {
+         "text": {
+            "en": "I want the unibrow to end where the right eye ends.",
+            "pl": "Chcę, żeby unibrow kończył się tam, gdzie kończy się prawe oko.",
+            "ar": "أريد أن ينتهي (unibrow) حيث تنتهي العين اليمنى"
+         },
+         "endTime": 249374,
+         "startTime": 245380
+      },
+      {
+         "text": {
+            "en": "So that would be 240 plus 30,",
+            "pl": "Więc to byłoby 240 plus 30,",
+            "ar": "بحيث سيكون 240 زائد 30،"
+         },
+         "endTime": 253414,
+         "startTime": 249374
+      },
+      {
+         "text": {
+            "en": "270, okay?",
+            "pl": "270, ok?",
+            "ar": "270، حسنا؟"
+         },
+         "endTime": 256296,
+         "startTime": 253414
+      },
+      {
+         "text": {
+            "en": "And I want this unibrow to be a straight line across.",
+            "pl": "I chcę, żeby ten unibrow był prostą linią.",
+            "ar": "وأريد أن يكون هذا unibrow خط مستقيم عبر."
+         },
+         "endTime": 259625,
+         "startTime": 256297
+      },
+      {
+         "text": {
+            "en": "So I'll use the same y coordinate for the start",
+            "pl": "Więc użyję tej samej współrzędnej y na początek",
+            "ar": "لذلك سأستخدم نفس الإحداثيات y للبداية"
+         },
+         "endTime": 263200,
+         "startTime": 259625
+      },
+      {
+         "text": {
+            "en": "and the end point, 150.",
+            "pl": "i punkt końcowy, 150.",
+            "ar": "ونقطة النهاية، 150."
+         },
+         "endTime": 265467,
+         "startTime": 263200
+      },
+      {
+         "text": {
+            "en": "Let's try it out. There we go!",
+            "pl": "Wypróbujmy to. Tam idziemy!",
+            "ar": "دعونا نحاول بها. ها نحن ذا!"
+         },
+         "endTime": 267787,
+         "startTime": 265468
+      },
+      {
+         "text": {
+            "en": "Looking good!",
+            "pl": "Dobrze wyglądasz!",
+            "ar": "تبدو جيدة!"
+         },
+         "endTime": 268815,
+         "startTime": 267787
+      },
+      {
+         "text": {
+            "en": "But also looking a little bit mean,",
+            "pl": "Ale także wygląda trochę wrednie,",
+            "ar": "ولكن أيضا تبحث قليلا لئيمة،"
+         },
+         "endTime": 271525,
+         "startTime": 268815
+      },
+      {
+         "text": {
+            "en": "like, I get uncomfortable around mean robots",
+            "pl": "Czuję się niekomfortowo wokół wrednych robotów",
+            "ar": "مثل, أنا الحصول على غير مريح حول الروبوتات يعني"
+         },
+         "endTime": 274217,
+         "startTime": 271525
+      },
+      {
+         "text": {
+            "en": "'cause I worry they'll, you know, take over the world",
+            "pl": "Bo martwię się, że oni, no wiesz, przejmą kontrolę nad światem",
+            "ar": "لأنني أقلق أنهم سيسيطرون على العالم"
+         },
+         "endTime": 276146,
+         "startTime": 274218
+      },
+      {
+         "text": {
+            "en": "or whatever mean robots do.",
+            "pl": "czy cokolwiek robią roboty.",
+            "ar": "أو أي شيء يعني الروبوتات تفعل."
+         },
+         "endTime": 278259,
+         "startTime": 276146
+      },
+      {
+         "text": {
+            "en": "So we're just gonna get a little happier.",
+            "pl": "Więc będziemy po prostu trochę szczęśliwsi.",
+            "ar": "لذلك نحن فقط ستعمل الحصول على أكثر سعادة قليلا."
+         },
+         "endTime": 280753,
+         "startTime": 278259
+      },
+      {
+         "text": {
+            "en": "There we go. Okay.",
+            "pl": "Tam idziemy. Okej.",
+            "ar": "ها نحن ذا حسناً"
+         },
+         "endTime": 282786,
+         "startTime": 280753
+      },
+      {
+         "text": {
+            "en": "Now let me show you one more thing about drawing shapes.",
+            "pl": "Pokażę ci jeszcze jedną rzecz o rysowaniu kształtów.",
+            "ar": "الآن اسمحوا لي أن تظهر لك شيئا آخر حول رسم الأشكال."
+         },
+         "endTime": 285967,
+         "startTime": 282786
+      },
+      {
+         "text": {
+            "en": "Do you see how our function calls are ordered in the editor?",
+            "pl": "Czy widzisz, jak nasze wywołania funkcji są uporządkowane w edytorze?",
+            "ar": "هل ترى كيف يتم طلب مكالمات وظيفتنا في المحرر؟"
+         },
+         "endTime": 290260,
+         "startTime": 285967
+      },
+      {
+         "text": {
+            "en": "The first one is 'rect' and the last one is 'line'.",
+            "pl": "Pierwszy to „rect”, a ostatni to „linia”.",
+            "ar": "الأول هو «مستقيم» وآخر واحد هو «خط»."
+         },
+         "endTime": 293978,
+         "startTime": 290260
+      },
+      {
+         "text": {
+            "en": "That order is actually very important",
+            "pl": "Ten porządek jest w rzeczywistości bardzo ważny",
+            "ar": "هذا النظام هو في الواقع مهم جدا"
+         },
+         "endTime": 296439,
+         "startTime": 293978
+      },
+      {
+         "text": {
+            "en": "because that's the order that our program",
+            "pl": "ponieważ jest to kolejność, że nasz program",
+            "ar": "لأن هذا هو النظام الذي برنامجنا"
+         },
+         "endTime": 298180,
+         "startTime": 296439
+      },
+      {
+         "text": {
+            "en": "will run the code and draw the shapes.",
+            "pl": "uruchomi kod i narysuje kształty.",
+            "ar": "سيتم تشغيل التعليمات البرمجية ورسم الأشكال."
+         },
+         "endTime": 301207,
+         "startTime": 298180
+      },
+      {
+         "text": {
+            "en": "Watch what happens if I cut and move",
+            "pl": "Uważaj, co się stanie, jeśli wytnę i się",
+            "ar": "شاهد ما يحدث إذا قطعت وتحركت"
+         },
+         "endTime": 305820,
+         "startTime": 301597
+      },
+      {
+         "text": {
+            "en": "the mouth command so that it's above the face.",
+            "pl": "polecenie usta, tak aby znajdowało się nad twarzą.",
+            "ar": "أمر الفم بحيث يكون فوق الوجه."
+         },
+         "endTime": 310246,
+         "startTime": 305820
+      },
+      {
+         "text": {
+            "en": "It's gone! It's disappeared.",
+            "pl": "Zniknęło! Zniknęła.",
+            "ar": "لقد اختفى لقد اختفى"
+         },
+         "endTime": 312383,
+         "startTime": 310496
+      },
+      {
+         "text": {
+            "en": "Or at least looks like it disappeared.",
+            "pl": "Albo przynajmniej wygląda na to, że zniknął.",
+            "ar": "أو على الأقل يبدو أنها اختفت"
+         },
+         "endTime": 314527,
+         "startTime": 312384
+      },
+      {
+         "text": {
+            "en": "What actually happens is that the program draws the mouth",
+            "pl": "Co faktycznie się dzieje, to to, że program rysuje usta",
+            "ar": "ما يحدث فعلا هو أن البرنامج يرسم الفم"
+         },
+         "endTime": 317859,
+         "startTime": 314527
+      },
+      {
+         "text": {
+            "en": "but then draws the face on top of it.",
+            "pl": "ale potem rysuje twarz na nim.",
+            "ar": "ولكن بعد ذلك يرسم الوجه فوقها."
+         },
+         "endTime": 320250,
+         "startTime": 317859
+      },
+      {
+         "text": {
+            "en": "So we can't see our mouth anymore.",
+            "pl": "Więc nie możemy już widzieć naszych ust.",
+            "ar": "لذا لا يمكننا رؤية فمنا بعد الآن"
+         },
+         "endTime": 322587,
+         "startTime": 320250
+      },
+      {
+         "text": {
+            "en": "Keep this in mind as you make your drawings",
+            "pl": "Pamiętaj o tym podczas tworzenia rysunków",
+            "ar": "ضع هذا في الاعتبار أثناء إجراء الرسومات الخاصة بك"
+         },
+         "endTime": 324742,
+         "startTime": 322858
+      },
+      {
+         "text": {
+            "en": "because you'll probably want shapes",
+            "pl": "bo prawdopodobnie będziesz chciał kształty",
+            "ar": "لأنك ربما تريد الأشكال"
+         },
+         "endTime": 325944,
+         "startTime": 324742
+      },
+      {
+         "text": {
+            "en": "to be drawn in a certain order on top of each other.",
+            "pl": "być rysowane w określonej kolejności na siebie.",
+            "ar": "ليتم رسمها في ترتيب معين على رأس بعضها البعض."
+         },
+         "endTime": 328686,
+         "startTime": 325944
+      },
+      {
+         "text": {
+            "en": "And if you can't find a shape you've drawn,",
+            "pl": "A jeśli nie możesz znaleźć kształtu, który narysowałeś,",
+            "ar": "وإذا لم تتمكن من العثور على شكل قمت برسمه،"
+         },
+         "endTime": 331310,
+         "startTime": 328686
+      },
+      {
+         "text": {
+            "en": "you might discover it's hiding underneath another shape.",
+            "pl": "Możesz odkryć, że ukrywa się pod innym kształtem.",
+            "ar": "قد تكتشف أنه يختبئ تحت شكل آخر"
+         },
+         "endTime": 334428,
+         "startTime": 331310
+      },
+      {
+         "text": {
+            "en": "Since you probably don't have x-ray vision to see that,",
+            "pl": "Skoro prawdopodobnie nie masz wizji rentgenowskiej, żeby to zobaczyć,",
+            "ar": "بما أنك لا تملك رؤية الأشعة السينية لترى ذلك"
+         },
+         "endTime": 337509,
+         "startTime": 334428
+      },
+      {
+         "text": {
+            "en": "one thing you can do is just rearrange your code",
+            "pl": "jedną rzeczą, którą możesz zrobić, to po prostu zmienić swój kod",
+            "ar": "شيء واحد يمكنك القيام به هو مجرد إعادة ترتيب التعليمات البرمجية"
+         },
+         "endTime": 340000,
+         "startTime": 337509
+      },
+      {
+         "text": {
+            "en": "to figure it out.",
+            "pl": "aby to rozgryźć.",
+            "ar": "لمعرفة ذلك."
+         },
+         "endTime": 341712,
+         "startTime": 340000
+      },
+      {
+         "text": {
+            "en": "And now we have our mouth back.",
+            "pl": "A teraz mamy nasze usta z powrotem.",
+            "ar": "والآن لدينا فمنا مرة أخرى."
+         },
+         "endTime": 343801,
+         "startTime": 341712
+      },
+      {
+         "text": {
+            "en": "Okay, so we covered a lot in this lesson,",
+            "pl": "Okay, więc wiele omówiliśmy w tej lekcji,",
+            "ar": "حسناً، لقد غطينا الكثير في هذا الدرس"
+         },
+         "endTime": 346849,
+         "startTime": 343801
+      },
+      {
+         "text": {
+            "en": "but stick with it, keep exploring,",
+            "pl": "ale trzymaj się go, kontynuuj zwiedzanie,",
+            "ar": "ولكن التمسك بها، والحفاظ على استكشاف،"
+         },
+         "endTime": 349490,
+         "startTime": 346850
+      },
+      {
+         "text": {
+            "en": "and you'll get the hang of it soon.",
+            "pl": "i wkrótce się o tym przekonasz.",
+            "ar": "وسوف تحصل على تعليق منه قريبا."
+         },
+         "endTime": 351643,
+         "startTime": 349490
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/Lf-F-VYz81Y/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759560934",
+   "title": "Drawing more shapes with code | Drawing basics | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

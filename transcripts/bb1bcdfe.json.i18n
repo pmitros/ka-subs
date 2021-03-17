@@ -1,0 +1,1077 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- [Voiceover] Let's turn a drawing into an animation.",
+            "pl": "- [Voiceover] Zamieńmy rysunek w animację.",
+            "ar": "- [Voiceover] دعونا تحويل الرسم إلى الرسوم المتحركة."
+         },
+         "endTime": 3800,
+         "startTime": 840
+      },
+      {
+         "text": {
+            "en": "I've created this program which",
+            "pl": "Stworzyłem ten program, który",
+            "ar": "لقد قمت بإنشاء هذا البرنامج الذي"
+         },
+         "endTime": 5276,
+         "startTime": 3800
+      },
+      {
+         "text": {
+            "en": "draws a red car against a bright blue sky.",
+            "pl": "rysuje czerwony samochód na jasnym błękitnym niebie.",
+            "ar": "توجه سيارة حمراء ضد السماء الزرقاء الساطعة."
+         },
+         "endTime": 9512,
+         "startTime": 5276
+      },
+      {
+         "text": {
+            "en": "I have one variable in this program, 'x.'",
+            "pl": "Mam jedną zmienną w tym programie, 'x.'",
+            "ar": "لدي متغير واحد في هذا البرنامج، 'x.'"
+         },
+         "endTime": 12891,
+         "startTime": 9512
+      },
+      {
+         "text": {
+            "en": "And I start that variable at 10.",
+            "pl": "I zaczynam tę zmienną o 10.",
+            "ar": "وأبدأ هذا المتغير في 10."
+         },
+         "endTime": 16140,
+         "startTime": 12891
+      },
+      {
+         "text": {
+            "en": "'x' stands for the the x position of the car,",
+            "pl": "„x” oznacza pozycję x samochodu,",
+            "ar": "'س 'لتقف على موقف x من السيارة،"
+         },
+         "endTime": 19357,
+         "startTime": 16140
+      },
+      {
+         "text": {
+            "en": "and I use it when I draw the car body, these two rectangles.",
+            "pl": "I używam go, gdy rysuję karoserii, te dwa prostokąty.",
+            "ar": "وأستخدمه عندما أرسم جسم السيارة، هذين المستطيلين."
+         },
+         "endTime": 23652,
+         "startTime": 19357
+      },
+      {
+         "text": {
+            "en": "I also use it when I draw the car wheels,",
+            "pl": "Używam go również, gdy rysuję koła samochodu,",
+            "ar": "أنا أيضا استخدامه عندما أرسم عجلات السيارة،"
+         },
+         "endTime": 25893,
+         "startTime": 23652
+      },
+      {
+         "text": {
+            "en": "these two ellipses.",
+            "pl": "Te dwie elipsy.",
+            "ar": "هذه الحذف اثنين."
+         },
+         "endTime": 28377,
+         "startTime": 25893
+      },
+      {
+         "text": {
+            "en": "So, let's see what happens when I change 'x.'",
+            "pl": "Zobaczmy, co się stanie, kiedy zmienię „x”.",
+            "ar": "لذلك، دعونا نرى ما يحدث عندما أغير «x»."
+         },
+         "endTime": 32439,
+         "startTime": 28377
+      },
+      {
+         "text": {
+            "en": "Oh, the car is moving across the screen.",
+            "pl": "Samochód porusza się po ekranie.",
+            "ar": "السيارة تتحرك عبر الشاشة"
+         },
+         "endTime": 35818,
+         "startTime": 32439
+      },
+      {
+         "text": {
+            "en": "(makes triumphant vocal music sounds)",
+            "pl": "(sprawia, że triumfalne dźwięki muzyki wokalnej)",
+            "ar": "(يجعل أصوات الموسيقى الصوتية المظفرة)"
+         },
+         "endTime": 37153,
+         "startTime": 35818
+      },
+      {
+         "text": {
+            "en": "But it's not really an animation.",
+            "pl": "Ale to nie jest animacja.",
+            "ar": "لكنها ليست حقا الرسوم المتحركة."
+         },
+         "endTime": 40260,
+         "startTime": 37728
+      },
+      {
+         "text": {
+            "en": "It would only be an animation if the car moved",
+            "pl": "Byłoby to tylko animacja, gdyby samochód się przeniósł",
+            "ar": "سيكون فقط الرسوم المتحركة إذا انتقلت السيارة"
+         },
+         "endTime": 43769,
+         "startTime": 40824
+      },
+      {
+         "text": {
+            "en": "without me having to change the code.",
+            "pl": "beze mnie zmienic kod.",
+            "ar": "دون الاضطرار إلى تغيير التعليمات البرمجية."
+         },
+         "endTime": 46237,
+         "startTime": 43769
+      },
+      {
+         "text": {
+            "en": "It'd be an animation if anybody could see our program,",
+            "pl": "To byłaby animacja, gdyby ktokolwiek mógł zobaczyć nasz program,",
+            "ar": "سيكون من الرسوم المتحركة إذا كان أي شخص يمكن أن يرى برنامجنا،"
+         },
+         "endTime": 50688,
+         "startTime": 47405
+      },
+      {
+         "text": {
+            "en": "not have to change the code, and they would just",
+            "pl": "nie trzeba zmieniać kod, a oni po prostu",
+            "ar": "ليس لديك لتغيير التعليمات البرمجية، وأنها مجرد"
+         },
+         "endTime": 52884,
+         "startTime": 50688
+      },
+      {
+         "text": {
+            "en": "see the car move in front of them.",
+            "pl": "zobaczyć ruch samochodu przed nimi.",
+            "ar": "رؤية السيارة تتحرك أمامهم."
+         },
+         "endTime": 55234,
+         "startTime": 52884
+      },
+      {
+         "text": {
+            "en": "So how do we really make this an animation?",
+            "pl": "Więc jak naprawdę zrobimy z tego animację?",
+            "ar": "فكيف يمكننا حقا جعل هذا الرسوم المتحركة؟"
+         },
+         "endTime": 59212,
+         "startTime": 56122
+      },
+      {
+         "text": {
+            "en": "Well, we need to somehow get this programming environment",
+            "pl": "Cóż, musimy jakoś uzyskać to środowisko programowania",
+            "ar": "حسنا، نحن بحاجة إلى الحصول على بيئة البرمجة هذه بطريقة أو بأخرى"
+         },
+         "endTime": 62641,
+         "startTime": 60136
+      },
+      {
+         "text": {
+            "en": "to make new drawings many times a second.",
+            "pl": ", aby tworzyć nowe rysunki wiele razy na sekundę.",
+            "ar": "لجعل رسومات جديدة عدة مرات في الثانية."
+         },
+         "endTime": 65660,
+         "startTime": 62641
+      },
+      {
+         "text": {
+            "en": "And for those drawings to have",
+            "pl": "I dla tych rysunków mieć",
+            "ar": "وبالنسبة لتلك الرسومات أن يكون"
+         },
+         "endTime": 66902,
+         "startTime": 65660
+      },
+      {
+         "text": {
+            "en": "a different 'x' value each time.",
+            "pl": "inną wartość „x” za każdym razem.",
+            "ar": "قيمة 'x' مختلفة في كل مرة."
+         },
+         "endTime": 70118,
+         "startTime": 66902
+      },
+      {
+         "text": {
+            "en": "I'll show you how we can do that.",
+            "pl": "Pokażę ci, jak możemy to zrobić.",
+            "ar": "سأريكم كيف يمكننا فعل ذلك"
+         },
+         "endTime": 72304,
+         "startTime": 70118
+      },
+      {
+         "text": {
+            "en": "At the bottom of my program, I'm going to type 'draw ='",
+            "pl": "W dolnej części mojego programu wpiszę 'draw ='",
+            "ar": "في الجزء السفلي من برنامجي، أنا ذاهب لكتابة 'رسم ='"
+         },
+         "endTime": 77347,
+         "startTime": 73114
+      },
+      {
+         "text": {
+            "en": "And then it auto-completed the rest for me.",
+            "pl": "A potem to automatycznie uzupełniło resztę dla mnie.",
+            "ar": "ومن ثم أكملت السيارات بقية بالنسبة لي."
+         },
+         "endTime": 80286,
+         "startTime": 77347
+      },
+      {
+         "text": {
+            "en": "You probably haven't seen this syntax before.",
+            "pl": "Prawdopodobnie wcześniej nie widzieliście tej składni.",
+            "ar": "ربما لم تشاهد بناء الجملة هذا من قبل."
+         },
+         "endTime": 85898,
+         "startTime": 81372
+      },
+      {
+         "text": {
+            "en": "This is a function definition.",
+            "pl": "Jest to definicja funkcji.",
+            "ar": "هذا هو تعريف وظيفة."
+         },
+         "endTime": 88371,
+         "startTime": 85898
+      },
+      {
+         "text": {
+            "en": "And we're going to go deep into that",
+            "pl": "I zagłębimy się w to",
+            "ar": "ونحن في طريقنا للذهاب عميقا في ذلك"
+         },
+         "endTime": 90450,
+         "startTime": 88371
+      },
+      {
+         "text": {
+            "en": "in the functions tutorial later.",
+            "pl": "w samouczku funkcji później.",
+            "ar": "في وظائف البرنامج التعليمي في وقت لاحق."
+         },
+         "endTime": 92956,
+         "startTime": 90450
+      },
+      {
+         "text": {
+            "en": "But basically, a function makes it easy",
+            "pl": "Ale w zasadzie, funkcja ułatwia",
+            "ar": "ولكن في الأساس، وظيفة يجعل من السهل"
+         },
+         "endTime": 95894,
+         "startTime": 92956
+      },
+      {
+         "text": {
+            "en": "for us to group a bunch of code together",
+            "pl": "dla nas, aby zgrupować razem kilka kodów",
+            "ar": "بالنسبة لنا لتجميع مجموعة من التعليمات البرمجية معا"
+         },
+         "endTime": 98495,
+         "startTime": 95894
+      },
+      {
+         "text": {
+            "en": "so that the program knows to run all that code together.",
+            "pl": "tak, że program wie, aby uruchomić cały ten kod razem.",
+            "ar": "بحيث يعرف البرنامج لتشغيل كل هذا الرمز معا."
+         },
+         "endTime": 102256,
+         "startTime": 98495
+      },
+      {
+         "text": {
+            "en": "So we're going to end up",
+            "pl": "Więc skończymy",
+            "ar": "لذلك نحن ذاهبون إلى نهاية المطاف"
+         },
+         "endTime": 103498,
+         "startTime": 102256
+      },
+      {
+         "text": {
+            "en": "putting multiple lines of code inside here.",
+            "pl": "umieszczenie wielu wierszy kodu wewnątrz tutaj.",
+            "ar": "وضع أسطر متعددة من التعليمات البرمجية داخل هنا."
+         },
+         "endTime": 106252,
+         "startTime": 103498
+      },
+      {
+         "text": {
+            "en": "The 'draw' function is a special function.",
+            "pl": "Funkcja „draw” jest funkcją specjalną.",
+            "ar": "وظيفة «رسم» هي وظيفة خاصة."
+         },
+         "endTime": 110180,
+         "startTime": 107395
+      },
+      {
+         "text": {
+            "en": "So we define a function called 'draw' in our program,",
+            "pl": "Więc definiujemy funkcję o nazwie „remis” w naszym programie,",
+            "ar": "لذلك نحدد وظيفة تسمى «رسم» في برنامجنا،"
+         },
+         "endTime": 114116,
+         "startTime": 110180
+      },
+      {
+         "text": {
+            "en": "the programming environment, on Khan Academy,",
+            "pl": "środowisko programistyczne, na Khan Academy,",
+            "ar": "بيئة البرمجة، في أكاديمية خان،"
+         },
+         "endTime": 117274,
+         "startTime": 114116
+      },
+      {
+         "text": {
+            "en": "will then run the code inside 'draw' repeatedly.",
+            "pl": "następnie uruchomi kod wewnątrz „draw” wielokrotnie.",
+            "ar": "ثم تشغيل التعليمات البرمجية داخل «رسم» مرارا وتكرارا."
+         },
+         "endTime": 121337,
+         "startTime": 117274
+      },
+      {
+         "text": {
+            "en": "Many times a second.",
+            "pl": "Wiele razy na sekundę.",
+            "ar": "مرات عديدة في الثانية"
+         },
+         "endTime": 124225,
+         "startTime": 121337
+      },
+      {
+         "text": {
+            "en": "So all lines of code inside here",
+            "pl": "Więc wszystkie linie kodu wewnątrz tutaj",
+            "ar": "لذلك كل أسطر من التعليمات البرمجية داخل هنا"
+         },
+         "endTime": 127300,
+         "startTime": 124225
+      },
+      {
+         "text": {
+            "en": "will be run repeatedly.",
+            "pl": "będą uruchamiane wielokrotnie.",
+            "ar": "سيتم تشغيلها مرارا وتكرارا."
+         },
+         "endTime": 129616,
+         "startTime": 127300
+      },
+      {
+         "text": {
+            "en": "Everything that's not inside this function, so all of this,",
+            "pl": "Wszystko, czego nie ma wewnątrz tej funkcji, więc to wszystko,",
+            "ar": "كل ما هو ليس داخل هذه الوظيفة، لذلك كل هذا،"
+         },
+         "endTime": 135543,
+         "startTime": 131306
+      },
+      {
+         "text": {
+            "en": "will only get run once when the program first loads.",
+            "pl": "zostanie uruchomiony tylko raz, gdy program zostanie załadowany po raz pierwszy.",
+            "ar": "سوف تحصل على تشغيل مرة واحدة فقط عندما تحميل البرنامج الأول."
+         },
+         "endTime": 139569,
+         "startTime": 135543
+      },
+      {
+         "text": {
+            "en": "So we want to get our car code inside of this function.",
+            "pl": "Więc chcemy, aby nasz kod samochodu wewnątrz tej funkcji.",
+            "ar": "لذلك نحن نريد الحصول على رمز السيارة لدينا داخل هذه الوظيفة."
+         },
+         "endTime": 145978,
+         "startTime": 140978
+      },
+      {
+         "text": {
+            "en": "I'm going to select all of it, and cut it.",
+            "pl": "Wybiorę to wszystko i przetnę.",
+            "ar": "انا ذاهب لتحديد كل ذلك، وقطع عليه."
+         },
+         "endTime": 149883,
+         "startTime": 146597
+      },
+      {
+         "text": {
+            "en": "Paste it in here.",
+            "pl": "Wklej to tutaj.",
+            "ar": "الصقه هنا"
+         },
+         "endTime": 151415,
+         "startTime": 149883
+      },
+      {
+         "text": {
+            "en": "Then I'm going to indent it so that it",
+            "pl": "Potem mam zamiar wciąć go tak, że",
+            "ar": "ثم انا ذاهب الى المسافة البادئة بحيث"
+         },
+         "endTime": 153761,
+         "startTime": 151415
+      },
+      {
+         "text": {
+            "en": "really looks like it's inside the function",
+            "pl": "naprawdę wygląda na to, że jest wewnątrz funkcji",
+            "ar": "يبدو حقا مثل انها داخل وظيفة"
+         },
+         "endTime": 156720,
+         "startTime": 153761
+      },
+      {
+         "text": {
+            "en": "in between these curly braces here.",
+            "pl": "pomiędzy tymi nawiasami klamrowymi tutaj.",
+            "ar": "بين هذه الأقواس المتعرجة هنا."
+         },
+         "endTime": 158989,
+         "startTime": 156720
+      },
+      {
+         "text": {
+            "en": "Alright, now everything looks the same as it was before.",
+            "pl": "Dobra, teraz wszystko wygląda tak samo jak przedtem.",
+            "ar": "حسنا، الآن كل شيء يبدو كما كان من قبل."
+         },
+         "endTime": 165239,
+         "startTime": 160419
+      },
+      {
+         "text": {
+            "en": "Well, it looks the same. It actually isn't the same.",
+            "pl": "Cóż, wygląda tak samo. Właściwie to nie to samo.",
+            "ar": "حسنا، يبدو كما هو. في الواقع ليس هو نفسه."
+         },
+         "endTime": 169469,
+         "startTime": 166150
+      },
+      {
+         "text": {
+            "en": "We are now actually having our car drawing",
+            "pl": "Jesteśmy teraz naprawdę o rysowanie samochodu",
+            "ar": "نحن الآن في الواقع وجود لدينا رسم السيارات"
+         },
+         "endTime": 172673,
+         "startTime": 169469
+      },
+      {
+         "text": {
+            "en": "drawn over and over many time a second.",
+            "pl": "rysowane w kółko przez wiele czasu na sekundę.",
+            "ar": "رسمها مرارا وتكرارا مرات في الثانية."
+         },
+         "endTime": 175913,
+         "startTime": 172673
+      },
+      {
+         "text": {
+            "en": "But it looks the same because it's always",
+            "pl": "Ale wygląda tak samo, bo zawsze",
+            "ar": "ولكن يبدو نفسه لأنه دائما"
+         },
+         "endTime": 177792,
+         "startTime": 175913
+      },
+      {
+         "text": {
+            "en": "getting drawn in the same spot.",
+            "pl": "coraz rysowane w tym samym miejscu.",
+            "ar": "الحصول على رسمها في نفس المكان."
+         },
+         "endTime": 180974,
+         "startTime": 177792
+      },
+      {
+         "text": {
+            "en": "Right? Because 'x' is 281.",
+            "pl": "Prawda? Bo 'x' to 281.",
+            "ar": "صحيح؟ لأن 'س' هو 281."
+         },
+         "endTime": 185595,
+         "startTime": 182459
+      },
+      {
+         "text": {
+            "en": "And that 'x' gets fed into this 'rect' in these ellipses.",
+            "pl": "I że „x” zostaje wprowadzony do tego „rect” w tych elipsach.",
+            "ar": "وهذا 'س' يحصل على تغذية في هذا «المستقيم» في هذه الحذف."
+         },
+         "endTime": 189692,
+         "startTime": 185595
+      },
+      {
+         "text": {
+            "en": "And the 'x' stays 281 every single time.",
+            "pl": "A „x” pozostaje 281 za każdym razem.",
+            "ar": "و «س» يبقى 281 في كل مرة."
+         },
+         "endTime": 192374,
+         "startTime": 189692
+      },
+      {
+         "text": {
+            "en": "So that car is not going to move.",
+            "pl": "Więc ten samochód się nie ruszy.",
+            "ar": "حتى أن السيارة لن تتحرك."
+         },
+         "endTime": 195189,
+         "startTime": 192374
+      },
+      {
+         "text": {
+            "en": "It's just going to stay there.",
+            "pl": "To po prostu tam pozostanie.",
+            "ar": "انها مجرد الذهاب الى البقاء هناك."
+         },
+         "endTime": 196840,
+         "startTime": 195189
+      },
+      {
+         "text": {
+            "en": "We want the car to be in a new spot every time.",
+            "pl": "Chcemy, żeby samochód był w nowym miejscu za każdym razem.",
+            "ar": "نريد أن تكون السيارة في مكان جديد في كل مرة"
+         },
+         "endTime": 201628,
+         "startTime": 197751
+      },
+      {
+         "text": {
+            "en": "Conceptually, we want to be able to tell the program,",
+            "pl": "Koncepcyjnie, chcemy być w stanie powiedzieć program,",
+            "ar": "من الناحية المفاهيمية، نريد أن نكون قادرين على إخبار البرنامج،"
+         },
+         "endTime": 204926,
+         "startTime": 201628
+      },
+      {
+         "text": {
+            "en": "\"Let's start the car's 'x' position at 10,",
+            "pl": "„Zacznijmy pozycję „x „w samochodzie na 10,",
+            "ar": "«لنبدأ وضع السيارة عند العاشرة"
+         },
+         "endTime": 208130,
+         "startTime": 204926
+      },
+      {
+         "text": {
+            "en": "\"and then add one to that position",
+            "pl": "„a następnie dodać jeden do tej pozycji",
+            "ar": "«ثم أضف واحدة إلى هذا الموقف"
+         },
+         "endTime": 210127,
+         "startTime": 208130
+      },
+      {
+         "text": {
+            "en": "\"in every drawing of the animation.\"",
+            "pl": "„w każdym rysunku animacji.”",
+            "ar": "«في كل رسم للرسوم المتحركة.»"
+         },
+         "endTime": 213655,
+         "startTime": 210127
+      },
+      {
+         "text": {
+            "en": "To do that, I'm going to move the 'x' variable",
+            "pl": "Aby to zrobić, mam zamiar przenieść zmienną „x”",
+            "ar": "للقيام بذلك، أنا ذاهب لنقل متغير 'س'"
+         },
+         "endTime": 216836,
+         "startTime": 213655
+      },
+      {
+         "text": {
+            "en": "outside of the draw function, up here.",
+            "pl": "poza funkcją rysowania, tutaj.",
+            "ar": "خارج وظيفة السحب، هنا."
+         },
+         "endTime": 219514,
+         "startTime": 216836
+      },
+      {
+         "text": {
+            "en": "Set it back to 10.",
+            "pl": "Ustaw z powrotem na 10.",
+            "ar": "اضعه مرة أخرى إلى 10."
+         },
+         "endTime": 222758,
+         "startTime": 220680
+      },
+      {
+         "text": {
+            "en": "Now, since this is outside the 'draw' function,",
+            "pl": "Teraz, ponieważ jest to poza funkcją „draw”,",
+            "ar": "الآن، بما أن هذا خارج وظيفة «رسم»،"
+         },
+         "endTime": 225417,
+         "startTime": 222758
+      },
+      {
+         "text": {
+            "en": "this line of code will get run once",
+            "pl": "ta linia kodu zostanie uruchomiona raz",
+            "ar": "سيتم تشغيل هذا السطر من التعليمات البرمجية مرة واحدة"
+         },
+         "endTime": 227425,
+         "startTime": 225417
+      },
+      {
+         "text": {
+            "en": "at the beginning of the program, setting 'x' to 10.",
+            "pl": "na początku programu, ustawiając wartość „x” na 10.",
+            "ar": "في بداية البرنامج، وضع 'x' إلى 10."
+         },
+         "endTime": 231079,
+         "startTime": 227425
+      },
+      {
+         "text": {
+            "en": "Now, inside 'draw' at the very end,",
+            "pl": "Teraz, wewnątrz „rysować” na samym końcu,",
+            "ar": "الآن، داخل «التعادل» في النهاية،"
+         },
+         "endTime": 235194,
+         "startTime": 232094
+      },
+      {
+         "text": {
+            "en": "I'll add a line of code to add one to that variable.",
+            "pl": "Dodam wiersz kodu, aby dodać jeden do tej zmiennej.",
+            "ar": "سأضيف سطر من التعليمات البرمجية لإضافة واحد إلى هذا المتغير."
+         },
+         "endTime": 239001,
+         "startTime": 235194
+      },
+      {
+         "text": {
+            "en": "'x = x + 1'",
+            "pl": "„x = x + 1'",
+            "ar": "'س = س + 1'"
+         },
+         "endTime": 242387,
+         "startTime": 239001
+      },
+      {
+         "text": {
+            "en": "Ha ha! It's moving!",
+            "pl": "Ha ha! Rusza się!",
+            "ar": "ها ها ها! انها تتحرك!"
+         },
+         "endTime": 244964,
+         "startTime": 242387
+      },
+      {
+         "text": {
+            "en": "Alright. It's a little smeary.",
+            "pl": "W porządku. To trochę rozmazane.",
+            "ar": "حسناً انها لطخة قليلا."
+         },
+         "endTime": 246648,
+         "startTime": 244964
+      },
+      {
+         "text": {
+            "en": "So it looks more like paint than a car.",
+            "pl": "Wygląda bardziej jak farba niż samochód.",
+            "ar": "لذلك يبدو أكثر مثل الطلاء من سيارة."
+         },
+         "endTime": 249690,
+         "startTime": 246648
+      },
+      {
+         "text": {
+            "en": "The reason it's smearing is because",
+            "pl": "Powodem, dla którego jest rozmazanie jest to, że",
+            "ar": "السبب في تلطيخ هو"
+         },
+         "endTime": 251442,
+         "startTime": 249690
+      },
+      {
+         "text": {
+            "en": "we're telling the program to redraw the car each time,",
+            "pl": "Mówimy programowi, żeby za każdym razem przerysował samochód,",
+            "ar": "نحن نقول للبرنامج لإعادة رسم السيارة في كل مرة،"
+         },
+         "endTime": 255483,
+         "startTime": 251442
+      },
+      {
+         "text": {
+            "en": "but it's redrawing it on top of the car from before,",
+            "pl": "ale to przerysowywanie go na górze samochodu od wcześniej,",
+            "ar": "لكنه يعيد رسمه على رأس السيارة من قبل"
+         },
+         "endTime": 258687,
+         "startTime": 255483
+      },
+      {
+         "text": {
+            "en": "because it's sill there.",
+            "pl": "Bo tam jest parapet.",
+            "ar": "لأنها عتبة هناك"
+         },
+         "endTime": 260288,
+         "startTime": 258687
+      },
+      {
+         "text": {
+            "en": "If we want the program to erase the car from before,",
+            "pl": "Jeśli chcemy, żeby program wymazał samochód z wcześniej,",
+            "ar": "إذا أردنا البرنامج أن يمحو السيارة من قبل"
+         },
+         "endTime": 264724,
+         "startTime": 260288
+      },
+      {
+         "text": {
+            "en": "then what we can do is take the 'background' call",
+            "pl": "to co możemy zrobić, to wziąć „tło” wywołanie",
+            "ar": "ثم ما يمكننا القيام به هو أخذ دعوة «الخلفية»"
+         },
+         "endTime": 267882,
+         "startTime": 264724
+      },
+      {
+         "text": {
+            "en": "and move it inside of 'draw.'",
+            "pl": "i przesuń go do środka „remis”.",
+            "ar": "وتحريكه داخل «رسم»."
+         },
+         "endTime": 270702,
+         "startTime": 267882
+      },
+      {
+         "text": {
+            "en": "Let me just press restart, and there you go.",
+            "pl": "Pozwól mi nacisnąć restart i proszę.",
+            "ar": "دعني فقط اضغط على إعادة التشغيل، وها أنت ذا."
+         },
+         "endTime": 273105,
+         "startTime": 270702
+      },
+      {
+         "text": {
+            "en": "A car going across a screen.",
+            "pl": "Samochód przejeżdżający przez ekran.",
+            "ar": "سيارة تمر عبر الشاشة"
+         },
+         "endTime": 275567,
+         "startTime": 273105
+      },
+      {
+         "text": {
+            "en": "Ha ha.",
+            "pl": "Ha ha.",
+            "ar": "ها ها ها."
+         },
+         "endTime": 276879,
+         "startTime": 275567
+      },
+      {
+         "text": {
+            "en": "What if I wanted a faster car?",
+            "pl": "A gdybym chciał szybszy samochód?",
+            "ar": "ماذا لو أردت سيارة أسرع؟"
+         },
+         "endTime": 280773,
+         "startTime": 278232
+      },
+      {
+         "text": {
+            "en": "In that case I could just add more, more to 'x.'",
+            "pl": "W takim razie mógłbym dodać więcej, więcej do „x”.",
+            "ar": "في هذه الحالة يمكنني فقط إضافة المزيد، أكثر إلى 'x.'"
+         },
+         "endTime": 285201,
+         "startTime": 281695
+      },
+      {
+         "text": {
+            "en": "Like if I want it to jump by 10 pixels every time.",
+            "pl": "Na przykład, jeśli chcę, żeby za każdym razem skakał o 10 pikseli.",
+            "ar": "مثل إذا كنت أريد أن تقفز بمقدار 10 بكسل في كل مرة."
+         },
+         "endTime": 288359,
+         "startTime": 285201
+      },
+      {
+         "text": {
+            "en": "Just restart. Woo-hoo!",
+            "pl": "Wystarczy zrestartować. Woo-hoo!",
+            "ar": "مجرد إعادة تشغيل. وو هوو!"
+         },
+         "endTime": 289519,
+         "startTime": 288359
+      },
+      {
+         "text": {
+            "en": "Zoomy, zoomy, zoomy!",
+            "pl": "Zoomy, zoomy, zoomy!",
+            "ar": "زومي، زومي، زومي، زومي!"
+         },
+         "endTime": 290833,
+         "startTime": 289519
+      },
+      {
+         "text": {
+            "en": "I could even, I could make it negative",
+            "pl": "Mógłbym nawet, mógłbym to zrobić negatywnie",
+            "ar": "أنا يمكن حتى, يمكن أن تجعل من سلبي"
+         },
+         "endTime": 293252,
+         "startTime": 291465
+      },
+      {
+         "text": {
+            "en": "and make it go in reverse.",
+            "pl": "i sprawiają, że idzie w odwrotną stronę.",
+            "ar": "وجعلها تسير في الاتجاه المعاكسة."
+         },
+         "endTime": 295020,
+         "startTime": 293252
+      },
+      {
+         "text": {
+            "en": "So let's try that.",
+            "pl": "Więc spróbujmy tego.",
+            "ar": "لذلك دعونا نحاول ذلك."
+         },
+         "endTime": 296496,
+         "startTime": 295548
+      },
+      {
+         "text": {
+            "en": "Oh! There is went.",
+            "pl": "Och! Tam poszło.",
+            "ar": "أوه! هناك ذهب."
+         },
+         "endTime": 298156,
+         "startTime": 296496
+      },
+      {
+         "text": {
+            "en": "Off the screen.",
+            "pl": "Zdejmij ekran.",
+            "ar": "خارج الشاشة"
+         },
+         "endTime": 299931,
+         "startTime": 298156
+      },
+      {
+         "text": {
+            "en": "So, as you can see, I can change the way",
+            "pl": "Więc, jak widzicie, mogę zmienić sposób",
+            "ar": "لذا، كما ترون، يمكنني تغيير الطريقة"
+         },
+         "endTime": 303669,
+         "startTime": 299931
+      },
+      {
+         "text": {
+            "en": "that I'm modifying the 'x' each time",
+            "pl": "że za każdym razem modyfikuję „x”",
+            "ar": "أنني أقوم بتعديل «x» في كل مرة"
+         },
+         "endTime": 306793,
+         "startTime": 303669
+      },
+      {
+         "text": {
+            "en": "to make the car change, you know",
+            "pl": "aby zmienić samochód, wiesz",
+            "ar": "لجعل تغيير السيارة، كما تعلمون"
+         },
+         "endTime": 309358,
+         "startTime": 306793
+      },
+      {
+         "text": {
+            "en": "the drawings of the car change differently",
+            "pl": "rysunki samochodu zmieniają się inaczej",
+            "ar": "رسومات السيارة تتغير بشكل مختلف"
+         },
+         "endTime": 311192,
+         "startTime": 309358
+      },
+      {
+         "text": {
+            "en": "in each frame of the animation.",
+            "pl": "w każdej klatce animacji.",
+            "ar": "في كل إطار من الرسوم المتحركة."
+         },
+         "endTime": 313213,
+         "startTime": 311192
+      },
+      {
+         "text": {
+            "en": "So, I did that quickly.",
+            "pl": "Zrobiłem to szybko.",
+            "ar": "لذلك، فعلت ذلك بسرعة."
+         },
+         "endTime": 315784,
+         "startTime": 314484
+      },
+      {
+         "text": {
+            "en": "Let's review how this program works.",
+            "pl": "Przyjrzyjmy się, jak działa ten program.",
+            "ar": "دعونا نراجع كيفية عمل هذا البرنامج."
+         },
+         "endTime": 318300,
+         "startTime": 315784
+      },
+      {
+         "text": {
+            "en": "At the beginning, outside of the 'draw' function,",
+            "pl": "Na początku, poza funkcją „draw”,",
+            "ar": "في البداية، خارج وظيفة «رسم»،"
+         },
+         "endTime": 321760,
+         "startTime": 318851
+      },
+      {
+         "text": {
+            "en": "I declare my variable, and I set it to 10.",
+            "pl": "Oświadczam moją zmienną i ustawiam ją na 10.",
+            "ar": "أعلن متغير بلدي، وأنا تعيينه إلى 10."
+         },
+         "endTime": 325709,
+         "startTime": 321760
+      },
+      {
+         "text": {
+            "en": "I then define the 'draw' function,",
+            "pl": "Następnie zdefiniować funkcję „rysować”,",
+            "ar": "ثم أقوم بتحديد وظيفة «رسم»،"
+         },
+         "endTime": 329232,
+         "startTime": 326852
+      },
+      {
+         "text": {
+            "en": "and I put a bunch of drawing code inside of it.",
+            "pl": "i umieściłem w nim kilka kodu rysunkowego.",
+            "ar": "وأضع حفنة من رمز الرسم بداخله."
+         },
+         "endTime": 332113,
+         "startTime": 329232
+      },
+      {
+         "text": {
+            "en": "At the end of the function, I add some amount to 'x.'",
+            "pl": "Pod koniec funkcji, dodaję pewną ilość do 'x.'",
+            "ar": "في نهاية الوظيفة، أضيف بعض المبلغ إلى 'x.'"
+         },
+         "endTime": 336907,
+         "startTime": 332861
+      },
+      {
+         "text": {
+            "en": "And when the programming environemnt",
+            "pl": "A kiedy programowanie environemnt",
+            "ar": "وعندما إنفيرومنت البرمجة"
+         },
+         "endTime": 339675,
+         "startTime": 338305
+      },
+      {
+         "text": {
+            "en": "sees that I define the 'draw' function,",
+            "pl": "widzi, że definiuję funkcję „draw”,",
+            "ar": "يرى أنني أعرف وظيفة «رسم»،"
+         },
+         "endTime": 342345,
+         "startTime": 339675
+      },
+      {
+         "text": {
+            "en": "it knows that it should run the code inside the function",
+            "pl": "wie, że powinien uruchomić kod wewnątrz funkcji",
+            "ar": "يعلم أنه يجب تشغيل التعليمات البرمجية داخل الوظيفة"
+         },
+         "endTime": 345583,
+         "startTime": 342345
+      },
+      {
+         "text": {
+            "en": "over and over many times a second.",
+            "pl": "w kółko wiele razy na sekundę.",
+            "ar": "مرارا وتكرارا عدة مرات في الثانية."
+         },
+         "endTime": 348590,
+         "startTime": 345583
+      },
+      {
+         "text": {
+            "en": "That is how we do animations",
+            "pl": "W ten sposób wykonujemy animacje",
+            "ar": "هذه هي الطريقة التي نقوم بها الرسوم المتحركة"
+         },
+         "endTime": 350912,
+         "startTime": 348590
+      },
+      {
+         "text": {
+            "en": "in the processing JS environment on Khan Academy.",
+            "pl": "w środowisku przetwarzania JS na Khan Academy.",
+            "ar": "في بيئة معالجة JS على أكاديمية خان."
+         },
+         "endTime": 353820,
+         "startTime": 350912
+      },
+      {
+         "text": {
+            "en": "Now, you'll get a chance to try",
+            "pl": "Teraz będziesz miał szansę spróbować",
+            "ar": "الآن، ستحصل على فرصة لمحاولة"
+         },
+         "endTime": 356462,
+         "startTime": 355244
+      },
+      {
+         "text": {
+            "en": "animating a drawing yourself.",
+            "pl": "samemu animować rysunek.",
+            "ar": "تحريك رسم نفسك."
+         },
+         "endTime": 359018,
+         "startTime": 356462
+      },
+      {
+         "text": {
+            "en": "Ready, set, animate!",
+            "pl": "Gotowy, ustaw, animuj!",
+            "ar": "جاهز، مجموعة، تحريك!"
+         },
+         "endTime": 361839,
+         "startTime": 359371
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/us3_U9xnttc/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759615545",
+   "title": "Making animations | Animation basics | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

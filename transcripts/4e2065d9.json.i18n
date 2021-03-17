@@ -1,0 +1,762 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "So now that we learned how to use text, let's get a bit more fancy.",
+            "pl": "Więc teraz, gdy nauczyliśmy się używać tekstu, zróbmy trochę więcej fantazji.",
+            "ar": "حتى الآن بعد أن تعلمنا كيفية استخدام النص، دعونا الحصول على أكثر قليلا يتوهم."
+         },
+         "endTime": 4608,
+         "startTime": 1336
+      },
+      {
+         "text": {
+            "en": "The first fancy thing is that now we're",
+            "pl": "Pierwszą fantazyjną rzeczą jest to, że teraz jesteśmy",
+            "ar": "أول شيء يتوهم هو أننا الآن"
+         },
+         "endTime": 6008,
+         "startTime": 4608
+      },
+      {
+         "text": {
+            "en": "going to start using the word \"string\".",
+            "pl": "zacznie używać słowa „string”.",
+            "ar": "الذهاب إلى البدء في استخدام كلمة «سلسلة»."
+         },
+         "endTime": 8278,
+         "startTime": 6008
+      },
+      {
+         "text": {
+            "en": "You might think, \"String? That's what my cat plays with.\"",
+            "pl": "Możesz pomyśleć, „String? Tym się bawi mój kot.”",
+            "ar": "قد تعتقد، «سلسلة؟ هذا ما تلعبه قطتي»."
+         },
+         "endTime": 10610,
+         "startTime": 8278
+      },
+      {
+         "text": {
+            "en": "But for programmers, string is a special name",
+            "pl": "Ale dla programistów ciąg to specjalna nazwa",
+            "ar": "ولكن بالنسبة للمبرمجين، السلسلة هي اسم خاص"
+         },
+         "endTime": 12725,
+         "startTime": 10610
+      },
+      {
+         "text": {
+            "en": "we use for bits of text.",
+            "pl": "używamy do bitów tekstu.",
+            "ar": "نستخدمها لبت من النص."
+         },
+         "endTime": 14580,
+         "startTime": 12725
+      },
+      {
+         "text": {
+            "en": "You can think of it like a string of characters, if it helps.",
+            "pl": "Możesz myśleć o tym jak o łańcuchu znaków, jeśli to pomaga.",
+            "ar": "يمكنك التفكير في الأمر مثل سلسلة من الأحرف، إذا كان ذلك يساعد."
+         },
+         "endTime": 16566,
+         "startTime": 14580
+      },
+      {
+         "text": {
+            "en": "Your name is a string, your school's name is a string,",
+            "pl": "Twoje imię jest ciągiem, nazwa twojej szkoły jest ciągiem,",
+            "ar": "اسمك هو سلسلة، اسم مدرستك هو سلسلة،"
+         },
+         "endTime": 19073,
+         "startTime": 16566
+      },
+      {
+         "text": {
+            "en": "and every text message you've ever sent is also a string.",
+            "pl": "i każda wiadomość tekstowa, którą kiedykolwiek wysłałeś, jest również ciągiem znaków.",
+            "ar": "وكل رسالة نصية قمت بإرسالها من أي وقت مضى هي أيضا سلسلة."
+         },
+         "endTime": 22100,
+         "startTime": 19073
+      },
+      {
+         "text": {
+            "en": "Basically, just think, string equals text.",
+            "pl": "Zasadniczo, po prostu pomyśl, ciąg równa się tekst.",
+            "ar": "في الأساس، مجرد التفكير، سلسلة يساوي النص."
+         },
+         "endTime": 25498,
+         "startTime": 22100
+      },
+      {
+         "text": {
+            "en": "So we used drawing and coloring with strings already.",
+            "pl": "Więc użyliśmy już rysowania i kolorowania za pomocą strun.",
+            "ar": "لذلك استخدمنا الرسم والتلوين مع سلاسل بالفعل."
+         },
+         "endTime": 28565,
+         "startTime": 25978
+      },
+      {
+         "text": {
+            "en": "Could we use variables with strings? Of course!",
+            "pl": "Czy możemy użyć zmiennych z ciągami? Oczywiście!",
+            "ar": "هل يمكننا استخدام المتغيرات مع السلاسل؟ بالطبع!"
+         },
+         "endTime": 30987,
+         "startTime": 28565
+      },
+      {
+         "text": {
+            "en": "Just like you might normally put a number into a variable,",
+            "pl": "Tak jak można normalnie umieścić liczbę do zmiennej,",
+            "ar": "تماما كما كنت قد عادة وضع رقم في متغير،"
+         },
+         "endTime": 33225,
+         "startTime": 30987
+      },
+      {
+         "text": {
+            "en": "you could also put a string into a variable.",
+            "pl": "można również umieścić ciąg do zmiennej.",
+            "ar": "يمكنك أيضا وضع سلسلة في متغير."
+         },
+         "endTime": 35233,
+         "startTime": 33225
+      },
+      {
+         "text": {
+            "en": "We just say something like,",
+            "pl": "Mówimy coś w stylu:",
+            "ar": "نحن فقط نقول شيئا مثل"
+         },
+         "endTime": 37391,
+         "startTime": 35453
+      },
+      {
+         "text": {
+            "en": "\"var myName = (whatever your name is)\" so \"Sophia\";",
+            "pl": "„var myName = (niezależnie od twojego imienia)” tak „Sophia”;",
+            "ar": "«فار MyName = (مهما كان اسمك)» لذلك «صوفيا»؛"
+         },
+         "endTime": 40965,
+         "startTime": 37391
+      },
+      {
+         "text": {
+            "en": "remembering those quotes.",
+            "pl": "Pamiętając te cytaty.",
+            "ar": "تذكر تلك الاقتباسات."
+         },
+         "endTime": 42599,
+         "startTime": 40965
+      },
+      {
+         "text": {
+            "en": "And then we put the variable myName",
+            "pl": "A potem kładziemy zmienną myName",
+            "ar": "ثم نضع المتغير MyName"
+         },
+         "endTime": 44484,
+         "startTime": 42599
+      },
+      {
+         "text": {
+            "en": "into the quoted text instead of writing \"Sophia\" directly,",
+            "pl": "do cytowanego tekstu zamiast pisać „Sophia” bezpośrednio,",
+            "ar": "في النص المقتبس بدلا من كتابة «صوفيا» مباشرة،"
+         },
+         "endTime": 46799,
+         "startTime": 44484
+      },
+      {
+         "text": {
+            "en": "like we were doing before.",
+            "pl": "Tak jak to robiliśmy wcześniej.",
+            "ar": "كما كنا نفعل من قبل"
+         },
+         "endTime": 48536,
+         "startTime": 46799
+      },
+      {
+         "text": {
+            "en": "And this way though it looks the same right now,",
+            "pl": "I w ten sposób, choć teraz wygląda tak samo,",
+            "ar": "وبهذه الطريقة على الرغم من أنها تبدو كما هي الآن"
+         },
+         "endTime": 50528,
+         "startTime": 48536
+      },
+      {
+         "text": {
+            "en": "we can actually, write this multiple times",
+            "pl": "możemy rzeczywiście, napisać to wiele razy",
+            "ar": "يمكننا في الواقع، كتابة هذا عدة مرات"
+         },
+         "endTime": 53300,
+         "startTime": 50528
+      },
+      {
+         "text": {
+            "en": "you know, one time there, one time there,",
+            "pl": "Wiesz, jeden raz tam, jeden raz tam,",
+            "ar": "أتعلمين، مرة واحدة هناك، مرة واحدة هناك"
+         },
+         "endTime": 55333,
+         "startTime": 53300
+      },
+      {
+         "text": {
+            "en": "you know maybe we can be a little artistical.",
+            "pl": "Wiesz, może możemy być trochę artystyczni.",
+            "ar": "تعرف ربما يمكننا أن نكون فنّيّين قليلاً"
+         },
+         "endTime": 57316,
+         "startTime": 55333
+      },
+      {
+         "text": {
+            "en": "And then all you have to do is to change this one variable",
+            "pl": "A potem wszystko, co musisz zrobić, to zmienić tę jedną zmienną",
+            "ar": "ثم كل ما عليك القيام به هو تغيير هذا المتغير واحد"
+         },
+         "endTime": 59402,
+         "startTime": 57316
+      },
+      {
+         "text": {
+            "en": "to be <i>your</i> name, and then you have",
+            "pl": "być <i> Twój </i> nazwę, a następnie masz",
+            "ar": "أن يكون <i> ك </i> اسم، وبعد ذلك لديك"
+         },
+         "endTime": 62008,
+         "startTime": 59402
+      },
+      {
+         "text": {
+            "en": "your name written three times.",
+            "pl": "Twoje nazwisko napisane trzy razy.",
+            "ar": "اسمك مكتوب ثلاث مرات"
+         },
+         "endTime": 64025,
+         "startTime": 62008
+      },
+      {
+         "text": {
+            "en": "So, just flipping that back, what if we want to get",
+            "pl": "Więc, po prostu odwracając to, co jeśli chcemy dostać",
+            "ar": "لذلك، مجرد التقليب مرة أخرى، ماذا لو أردنا الحصول على"
+         },
+         "endTime": 67233,
+         "startTime": 64025
+      },
+      {
+         "text": {
+            "en": "kind of crazy, can we start adding together strings?",
+            "pl": "trochę szalony, możemy zacząć dodawać razem struny?",
+            "ar": "نوع من الجنون، يمكننا البدء في إضافة سلاسل معا؟"
+         },
+         "endTime": 69541,
+         "startTime": 67233
+      },
+      {
+         "text": {
+            "en": "Like you remember when we maybe started adding together variables?",
+            "pl": "Jak pamiętasz, kiedy może zaczęliśmy dodawać zmienne?",
+            "ar": "كما تتذكرين عندما بدأنا بإضافة متغيرات معاً؟"
+         },
+         "endTime": 72819,
+         "startTime": 69541
+      },
+      {
+         "text": {
+            "en": "Well we can actually do that,",
+            "pl": "Właściwie to możemy to zrobić.",
+            "ar": "حسنا يمكننا أن نفعل ذلك"
+         },
+         "endTime": 74581,
+         "startTime": 72819
+      },
+      {
+         "text": {
+            "en": "the computer will just stick the two strings together.",
+            "pl": "komputer po prostu sklei dwa struny razem.",
+            "ar": "الكمبيوتر سوف مجرد عصا سلسلتين معا."
+         },
+         "endTime": 77063,
+         "startTime": 74581
+      },
+      {
+         "text": {
+            "en": "So for example, you know, we can get rid of this,",
+            "pl": "Na przykład, wiesz, możemy się tego pozbyć,",
+            "ar": "على سبيل المثال، كما تعلمون، يمكننا التخلص من هذا،"
+         },
+         "endTime": 79547,
+         "startTime": 77063
+      },
+      {
+         "text": {
+            "en": "to do it only one time and then we can use this other variable",
+            "pl": "zrobić to tylko jeden raz, a następnie możemy użyć tej innej zmiennej",
+            "ar": "للقيام بذلك مرة واحدة فقط وبعد ذلك يمكننا استخدام هذا المتغير الآخر"
+         },
+         "endTime": 82248,
+         "startTime": 79547
+      },
+      {
+         "text": {
+            "en": "message that's going to be my name, plus say a bunch of exclamation marks.",
+            "pl": "wiadomość, która będzie moje imię, plus wykrzykniki.",
+            "ar": "الرسالة التي ستكون اسمي، بالإضافة إلى قول مجموعة من علامات التعجب."
+         },
+         "endTime": 87080,
+         "startTime": 82248
+      },
+      {
+         "text": {
+            "en": "And if we stick message into text to draw this variable",
+            "pl": "A jeśli trzymać wiadomość do tekstu, aby narysować tę zmienną",
+            "ar": "وإذا كنا عصا رسالة في نص لرسم هذا المتغير"
+         },
+         "endTime": 90305,
+         "startTime": 87750
+      },
+      {
+         "text": {
+            "en": "instead of my name, we can see that",
+            "pl": "zamiast mojego imienia, widzimy, że",
+            "ar": "بدلا من اسمي، يمكننا أن نرى"
+         },
+         "endTime": 92830,
+         "startTime": 90305
+      },
+      {
+         "text": {
+            "en": "all it did is just stuck those exclamation marks",
+            "pl": "Wszystko co zrobiło to po prostu utknęło te wykrzykniki",
+            "ar": "كل ما فعلته هو مجرد عالق تلك علامات التعجب"
+         },
+         "endTime": 94641,
+         "startTime": 92830
+      },
+      {
+         "text": {
+            "en": "that we had onto the back of my name.",
+            "pl": "że mieliśmy na odwrocie mojego imienia.",
+            "ar": "التي كان لدينا على الجزء الخلفي من اسمي."
+         },
+         "endTime": 97312,
+         "startTime": 94641
+      },
+      {
+         "text": {
+            "en": "And we can even make this a little bit more exciting,",
+            "pl": "Możemy nawet sprawić, że będzie to trochę bardziej ekscytujące,",
+            "ar": "ويمكننا حتى أن نجعل هذا أكثر إثارة"
+         },
+         "endTime": 100172,
+         "startTime": 98062
+      },
+      {
+         "text": {
+            "en": "if we wanted to write message, say, twice.",
+            "pl": "gdybyśmy chcieli napisać wiadomość, powiedzmy, dwa razy.",
+            "ar": "إذا أردنا كتابة رسالة، قل، مرتين."
+         },
+         "endTime": 102962,
+         "startTime": 100172
+      },
+      {
+         "text": {
+            "en": "So this looks pretty reasonable, you know adding strings means",
+            "pl": "Więc to wygląda całkiem rozsądnie, wiesz, że dodanie struny oznacza",
+            "ar": "لذلك هذا يبدو معقولا جدا، أنت تعرف إضافة سلاسل يعني"
+         },
+         "endTime": 106068,
+         "startTime": 102962
+      },
+      {
+         "text": {
+            "en": "you stick one string onto the back of the other string.",
+            "pl": "trzymać jeden ciąg na odwrocie drugiej sznurka.",
+            "ar": "تلتصق بسلسلة واحدة على الجزء الخلفي من السلسلة الأخرى."
+         },
+         "endTime": 109034,
+         "startTime": 106068
+      },
+      {
+         "text": {
+            "en": "But you might be thinking, can we get really crazy?",
+            "pl": "Ale może myślisz, że możemy naprawdę zwariować?",
+            "ar": "لكنك قد تفكر، هل يمكننا أن نصبح مجانين؟"
+         },
+         "endTime": 111627,
+         "startTime": 109034
+      },
+      {
+         "text": {
+            "en": "And start multiplying or dividing or subtracting strings?",
+            "pl": "I zacząć mnożyć lub dzielić lub odejmować ciągi?",
+            "ar": "والبدء في ضرب أو تقسيم أو طرح السلاسل؟"
+         },
+         "endTime": 114550,
+         "startTime": 111627
+      },
+      {
+         "text": {
+            "en": "Could we do that? Well no we can't,",
+            "pl": "Możemy to zrobić? Cóż, nie możemy,",
+            "ar": "هل يمكننا فعل ذلك؟ حسنا لا يمكننا"
+         },
+         "endTime": 117348,
+         "startTime": 114550
+      },
+      {
+         "text": {
+            "en": "with strings we can only add them.",
+            "pl": "z ciągami możemy tylko dodać je.",
+            "ar": "مع سلاسل يمكننا فقط إضافتها."
+         },
+         "endTime": 119326,
+         "startTime": 117348
+      },
+      {
+         "text": {
+            "en": "You're right that we could divide and subtract with number variables,",
+            "pl": "Masz rację, że możemy podzielić i odejmować zmiennymi liczbowymi,",
+            "ar": "أنت على حق أننا يمكن تقسيم وطرح مع متغيرات الأرقام،"
+         },
+         "endTime": 121754,
+         "startTime": 119326
+      },
+      {
+         "text": {
+            "en": "but string variables only allow us to add.",
+            "pl": "ale zmienne łańcuchowe pozwalają nam tylko dodać.",
+            "ar": "ولكن متغيرات السلسلة تسمح لنا فقط بإضافة."
+         },
+         "endTime": 124662,
+         "startTime": 121754
+      },
+      {
+         "text": {
+            "en": "But still being curious and asking those sorts of questions,",
+            "pl": "Ale wciąż jestem ciekawa i zadaje takie pytania,",
+            "ar": "ولكن لا يزال الفضول وطرح تلك الأنواع من الأسئلة،"
+         },
+         "endTime": 127444,
+         "startTime": 124662
+      },
+      {
+         "text": {
+            "en": "is the right attitude in programming.",
+            "pl": "jest właściwą postawą w programowaniu.",
+            "ar": "هو الموقف الصحيح في البرمجة."
+         },
+         "endTime": 129526,
+         "startTime": 127444
+      },
+      {
+         "text": {
+            "en": "You might think, \"What would it mean to divide a string?\"",
+            "pl": "Możesz pomyśleć, „Co by znaczyło podzielenie sznurka?”",
+            "ar": "قد تعتقد، «ماذا يعني تقسيم سلسلة؟»"
+         },
+         "endTime": 131859,
+         "startTime": 129526
+      },
+      {
+         "text": {
+            "en": "So we can also use animation and mouse interaction with text strings.",
+            "pl": "Więc możemy również użyć animacji i myszy interakcji z ciągami tekstowymi.",
+            "ar": "لذلك يمكننا أيضا استخدام الرسوم المتحركة والتفاعل الماوس مع سلاسل نصية."
+         },
+         "endTime": 136930,
+         "startTime": 133134
+      },
+      {
+         "text": {
+            "en": "For example, we can make the string follow the mouse around.",
+            "pl": "Na przykład, możemy sprawić, że ciąg podąża za myszką wokół.",
+            "ar": "على سبيل المثال، يمكننا أن نجعل السلسلة تتبع الماوس حولها."
+         },
+         "endTime": 140291,
+         "startTime": 137500
+      },
+      {
+         "text": {
+            "en": "Just by sticking it in a draw loop like we did with the rectangles.",
+            "pl": "Po prostu wbijając go w pętlę remis, jak to zrobiliśmy z prostokątami.",
+            "ar": "فقط عن طريق التمسك بها في حلقة رسم كما فعلنا مع المستطيلات."
+         },
+         "endTime": 143186,
+         "startTime": 140291
+      },
+      {
+         "text": {
+            "en": "So if you think about how to do this, we would say var draw,",
+            "pl": "Więc jeśli myślisz o tym, jak to zrobić, powiedzielibyśmy var rysować,",
+            "ar": "حتى إذا كنت تفكر في كيفية القيام بذلك، فإننا نقول فار رسم،"
+         },
+         "endTime": 146425,
+         "startTime": 143476
+      },
+      {
+         "text": {
+            "en": "and then we'll stick all of this, right in here.",
+            "pl": "A potem wsadzimy to wszystko tutaj.",
+            "ar": "وبعد ذلك سنبقى كل هذا هنا"
+         },
+         "endTime": 149664,
+         "startTime": 146795
+      },
+      {
+         "text": {
+            "en": "This probably looks really familiar, from \"intro to animation.\"",
+            "pl": "To prawdopodobnie wygląda znajomo, od „intro do animacji”.",
+            "ar": "ربما يبدو هذا مألوفًا حقًا، من «مقدمة إلى الرسوم المتحركة»."
+         },
+         "endTime": 152905,
+         "startTime": 149664
+      },
+      {
+         "text": {
+            "en": "And you might think, alright, well to make it follow the mouse around,",
+            "pl": "I można pomyśleć, w porządku, dobrze, aby to podążać za myszką wokół,",
+            "ar": "وربما تعتقد، حسنا، حسنا لجعله يتبع الماوس حولها،"
+         },
+         "endTime": 156332,
+         "startTime": 152905
+      },
+      {
+         "text": {
+            "en": "we certainly need to use mouseX, and mouseY",
+            "pl": "na pewno musimy użyć MouseX, i MouseY",
+            "ar": "نحن بالتأكيد بحاجة إلى استخدام MouSex، و Mousey"
+         },
+         "endTime": 159459,
+         "startTime": 156332
+      },
+      {
+         "text": {
+            "en": "and there you have it we're actually painting with our name.",
+            "pl": "I masz to, że właściwie malujemy naszym imieniem.",
+            "ar": "وهناك لديك هو في الواقع نحن اللوحة مع اسمنا."
+         },
+         "endTime": 163188,
+         "startTime": 159459
+      },
+      {
+         "text": {
+            "en": "And of course if we wanted, we could easily set a background,",
+            "pl": "I oczywiście gdybyśmy chcieli, moglibyśmy łatwo ustawić tło,",
+            "ar": "وبالطبع إذا أردنا، يمكننا بسهولة وضع خلفية،"
+         },
+         "endTime": 166823,
+         "startTime": 163188
+      },
+      {
+         "text": {
+            "en": "say to, you know, a nice light blue.",
+            "pl": "Powiedz, no wiesz, ładny jasnoniebieski.",
+            "ar": "أقول ل، كما تعلمون، الأزرق الفاتح لطيف."
+         },
+         "endTime": 170828,
+         "startTime": 166823
+      },
+      {
+         "text": {
+            "en": "And now we have that the text is just following the mouse around,",
+            "pl": "A teraz mamy, że tekst jest po prostu za myszką wokół,",
+            "ar": "والآن لدينا أن النص هو مجرد اتباع الماوس حولها،"
+         },
+         "endTime": 175082,
+         "startTime": 170828
+      },
+      {
+         "text": {
+            "en": "just like we saw with the rectangles.",
+            "pl": "Tak jak widzieliśmy z prostokątami.",
+            "ar": "تماما كما رأينا مع المستطيلات."
+         },
+         "endTime": 176796,
+         "startTime": 175082
+      },
+      {
+         "text": {
+            "en": "And now as a last fun trick, let's use animation,",
+            "pl": "A teraz jako ostatnia zabawna sztuczka, użyjmy animacji,",
+            "ar": "والآن كخدعة ممتعة أخيرة، دعونا نستخدم الرسوم المتحركة،"
+         },
+         "endTime": 180133,
+         "startTime": 177186
+      },
+      {
+         "text": {
+            "en": "and make the text size grow and grow and grow.",
+            "pl": "i sprawiają, że rozmiar tekstu rośnie, rośnie i rośnie.",
+            "ar": "وجعل حجم النص ينمو وينمو وينمو."
+         },
+         "endTime": 182640,
+         "startTime": 180133
+      },
+      {
+         "text": {
+            "en": "So, here we're setting the textSize to 30, as we learned in variables",
+            "pl": "Tak więc, tutaj jesteśmy ustawienie TextSize na 30, jak dowiedzieliśmy się w zmiennych",
+            "ar": "لذلك، نحن هنا وضع TextSize إلى 30، كما تعلمنا في المتغيرات"
+         },
+         "endTime": 186229,
+         "startTime": 182640
+      },
+      {
+         "text": {
+            "en": "instead of using 30, we could also say, var howBig equals 30;",
+            "pl": "zamiast używać 30, możemy również powiedzieć, var HowBig równa 30;",
+            "ar": "بدلا من استخدام 30، يمكننا أن نقول أيضا، فار هوبيغ يساوي 30؛"
+         },
+         "endTime": 190794,
+         "startTime": 186229
+      },
+      {
+         "text": {
+            "en": "and then use this variable instead of doing 30 directly.",
+            "pl": ", a następnie użyć tej zmiennej zamiast robić 30 bezpośrednio.",
+            "ar": "ثم استخدم هذا المتغير بدلاً من القيام بـ 30 مباشرة."
+         },
+         "endTime": 194199,
+         "startTime": 190794
+      },
+      {
+         "text": {
+            "en": "Well that's the exact same thing,",
+            "pl": "Cóż, to jest dokładnie to samo,",
+            "ar": "حسناً، هذا نفس الشيء"
+         },
+         "endTime": 196417,
+         "startTime": 194649
+      },
+      {
+         "text": {
+            "en": "and we need to obviously be changing something",
+            "pl": "i musimy oczywiście coś zmienić",
+            "ar": "ونحن بحاجة إلى أن يكون من الواضح أن تغيير شيء"
+         },
+         "endTime": 198646,
+         "startTime": 196417
+      },
+      {
+         "text": {
+            "en": "in order to get an animation.",
+            "pl": ", aby uzyskać animację.",
+            "ar": "من أجل الحصول على الرسوم المتحركة."
+         },
+         "endTime": 200485,
+         "startTime": 198646
+      },
+      {
+         "text": {
+            "en": "So we can do that by saying, how big equals how big plus one",
+            "pl": "Więc możemy to zrobić mówiąc, jak duże równa się jak duży plus jeden",
+            "ar": "حتى نتمكن من القيام بذلك بالقول، كيف كبيرة تساوي كيف كبيرة زائد واحد"
+         },
+         "endTime": 205424,
+         "startTime": 200485
+      },
+      {
+         "text": {
+            "en": "which actually means, if you remember howBig gets,",
+            "pl": "co właściwie oznacza, że jeśli pamiętasz jak Big dostaje,",
+            "ar": "وهو ما يعني في الواقع، إذا كنت تتذكر كيف يحصل الكبير،"
+         },
+         "endTime": 208314,
+         "startTime": 205424
+      },
+      {
+         "text": {
+            "en": "you know how big it was before, plus one to make it a little bit larger",
+            "pl": "wiesz, jak duży był wcześniej, plus jeden, aby uczynić go trochę większym",
+            "ar": "تعلمون كم كان كبيرا من قبل، بالإضافة إلى واحد لجعله أكبر قليلا"
+         },
+         "endTime": 212214,
+         "startTime": 208314
+      },
+      {
+         "text": {
+            "en": "and now we just need to restart the program,",
+            "pl": "a teraz po prostu musimy ponownie uruchomić program,",
+            "ar": "والآن نحن بحاجة فقط لإعادة تشغيل البرنامج،"
+         },
+         "endTime": 214754,
+         "startTime": 212214
+      },
+      {
+         "text": {
+            "en": "and here we have that as we're moving the mouse around,",
+            "pl": "i tutaj mamy to, gdy poruszamy myszką,",
+            "ar": "وهنا لدينا ذلك ونحن نتحرك الماوس حولها،"
+         },
+         "endTime": 217495,
+         "startTime": 214754
+      },
+      {
+         "text": {
+            "en": "the text size is growing and growing and growing and growing",
+            "pl": "rozmiar tekstu rośnie i rośnie, rośnie i rośnie",
+            "ar": "حجم النص ينمو وينمو ومتزايد ومتزايد"
+         },
+         "endTime": 219856,
+         "startTime": 217495
+      },
+      {
+         "text": {
+            "en": "because of this line right here.",
+            "pl": "z powodu tej linii tutaj.",
+            "ar": "بسبب هذا الخط هنا"
+         },
+         "endTime": 221939,
+         "startTime": 219856
+      },
+      {
+         "text": {
+            "en": "And you know, just on your own,",
+            "pl": "I wiesz, tylko na własną rękę,",
+            "ar": "وأنت تعرف، فقط لوحدك،"
+         },
+         "endTime": 224716,
+         "startTime": 223262
+      },
+      {
+         "text": {
+            "en": "you might think, okay how can we make it grow faster?",
+            "pl": "Możesz pomyśleć, ok, jak możemy sprawić, by rosło szybciej?",
+            "ar": "قد تفكر، حسنا كيف يمكننا جعله ينمو بشكل أسرع؟"
+         },
+         "endTime": 227590,
+         "startTime": 224716
+      },
+      {
+         "text": {
+            "en": "So now, not only do you know how to manipulate shapes with code,",
+            "pl": "Więc teraz, nie tylko wiesz, jak manipulować kształtami za pomocą kodu,",
+            "ar": "حتى الآن، ليس فقط هل تعرف كيفية التعامل مع الأشكال مع التعليمات البرمجية،"
+         },
+         "endTime": 231653,
+         "startTime": 228086
+      },
+      {
+         "text": {
+            "en": "but you can also use text with code as well.",
+            "pl": "ale można również użyć tekstu z kodem, jak również.",
+            "ar": "ولكن يمكنك أيضا استخدام النص مع التعليمات البرمجية كذلك."
+         },
+         "endTime": 234771,
+         "startTime": 231653
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/aGYG93jwNr8/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759678362",
+   "title": "Terrific Text: Part Two | Text and strings | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

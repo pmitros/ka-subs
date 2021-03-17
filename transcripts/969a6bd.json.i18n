@@ -1,0 +1,780 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Here's where we left off with our coin-flipping game.",
+            "pl": "Tutaj skończyliśmy z naszą grą w rzucanie monety.",
+            "ar": "هنا حيث توقفنا مع لعبتنا في القطع المعدنية"
+         },
+         "endTime": 3822,
+         "startTime": 1869
+      },
+      {
+         "text": {
+            "en": "We started out by generating a random number between 0 and 1,",
+            "pl": "Zaczęliśmy od generowania liczby losowej między 0 i 1,",
+            "ar": "بدأنا من خلال توليد رقم عشوائي بين 0 و 1،"
+         },
+         "endTime": 6597,
+         "startTime": 3822
+      },
+      {
+         "text": {
+            "en": "and then rounding that number to the nearest integer.",
+            "pl": ", a następnie zaokrąglenie tej liczby do najbliższej liczby całkowitej.",
+            "ar": "ثم تقريب هذا الرقم إلى أقرب عدد صحيح."
+         },
+         "endTime": 8877,
+         "startTime": 6597
+      },
+      {
+         "text": {
+            "en": "So this gave us a number that was either 0 or 1.",
+            "pl": "Więc to dało nam numer, który był albo 0, albo 1.",
+            "ar": "لذلك أعطانا هذا الرقم الذي كان إما 0 أو 1."
+         },
+         "endTime": 12214,
+         "startTime": 8877
+      },
+      {
+         "text": {
+            "en": "And then we illustrated our super-realistic coin with this ellipse that was either purple or yellow, depending on what the number was.",
+            "pl": "A potem zilustrowaliśmy naszą super-realistyczną monetę tą elipsą, która była albo fioletowa, albo żółta, w zależności od liczby.",
+            "ar": "ثم وضحنا لدينا عملة فائقة واقعية مع هذا القطع الناقص الذي كان إما الأرجواني أو الأصفر، اعتمادا على ما كان الرقم."
+         },
+         "endTime": 18909,
+         "startTime": 12214
+      },
+      {
+         "text": {
+            "en": "And here's the code where we did that.",
+            "pl": "A oto kod, w którym to zrobiliśmy.",
+            "ar": "وهنا رمز حيث فعلنا ذلك."
+         },
+         "endTime": 20987,
+         "startTime": 18909
+      },
+      {
+         "text": {
+            "en": "So we said if integer is equal to 0 set the fill code to be purple, otherwise, set it to yellow.",
+            "pl": "Więc powiedzieliśmy, jeśli liczba całkowita jest równa 0 ustawić kod wypełnienia być fioletowy, w przeciwnym razie, ustawić go na żółty.",
+            "ar": "لذلك قلنا إذا كان عدد صحيح يساوي 0 تعيين رمز التعبئة لتكون الأرجواني، وإلا، تعيينه إلى الأصفر."
+         },
+         "endTime": 25819,
+         "startTime": 20987
+      },
+      {
+         "text": {
+            "en": "And then we draw the coin down here.",
+            "pl": "A potem narysujemy monetę tutaj.",
+            "ar": "ثم نرسم العملة إلى هنا."
+         },
+         "endTime": 27917,
+         "startTime": 25819
+      },
+      {
+         "text": {
+            "en": "But now I've decided that actually my coin has 3 sides. Yep, a 3-sided coin.",
+            "pl": "Ale teraz zdecydowałem, że moja moneta ma trzy strony. Tak, trójstronna moneta.",
+            "ar": "ولكن الآن لقد قررت أن فعلا بلدي عملة لديها 3 الجانبين. نعم، عملة ثلاثية الجوانب."
+         },
+         "endTime": 32455,
+         "startTime": 27917
+      },
+      {
+         "text": {
+            "en": "So let's add that third side.",
+            "pl": "Więc dodajmy trzecią stronę.",
+            "ar": "لذلك دعونا نضيف هذا الجانب الثالث."
+         },
+         "endTime": 34190,
+         "startTime": 32455
+      },
+      {
+         "text": {
+            "en": "I'm going to start by making a number between 0 and 2,",
+            "pl": "Zacznę od zrobienia liczby między 0 a 2,",
+            "ar": "أنا ذاهب للبدء من خلال جعل عدد بين 0 و 2،"
+         },
+         "endTime": 37109,
+         "startTime": 34190
+      },
+      {
+         "text": {
+            "en": "so after we round that, it will give me an integer that's either 0, 1, or 2.",
+            "pl": "więc po rundzie, że da mi liczbę całkowitą, która jest albo 0, 1, lub 2.",
+            "ar": "حتى بعد أن جولة ذلك، وسوف تعطيني عدد صحيح وهذا إما 0، 1، أو 2."
+         },
+         "endTime": 41533,
+         "startTime": 37109
+      },
+      {
+         "text": {
+            "en": "But if we look at our drawing code, we're only accounting for 2 cases here.",
+            "pl": "Ale jeśli przyjrzymy się naszemu kodowi rysunkowemu, rozliczamy tylko dwie sprawy tutaj.",
+            "ar": "ولكن إذا نظرنا إلى رمز الرسم لدينا، نحن فقط المحاسبة عن 2 الحالات هنا."
+         },
+         "endTime": 45609,
+         "startTime": 41533
+      },
+      {
+         "text": {
+            "en": "So if integer is 0, make it purple, otherwise, make it yellow.",
+            "pl": "Więc jeśli liczba całkowita wynosi 0, sprawiają, że fioletowy, w przeciwnym razie, sprawiają, że żółty.",
+            "ar": "حتى إذا كان عدد صحيح هو 0، وجعلها الأرجواني، وإلا، وجعلها صفراء."
+         },
+         "endTime": 48815,
+         "startTime": 45609
+      },
+      {
+         "text": {
+            "en": "But now, otherwise can mean either 1 or 2.",
+            "pl": "Ale teraz, w przeciwnym razie może oznaczać 1 lub 2.",
+            "ar": "ولكن الآن، وإلا يمكن أن يعني إما 1 أو 2."
+         },
+         "endTime": 51885,
+         "startTime": 48815
+      },
+      {
+         "text": {
+            "en": "But wait, what if I did the same thing that we did before,",
+            "pl": "Ale czekaj, co jeśli zrobiłam to samo, co my wcześniej,",
+            "ar": "ولكن انتظر، ماذا لو فعلت نفس الشيء الذي فعلناه من قبل،"
+         },
+         "endTime": 54931,
+         "startTime": 51885
+      },
+      {
+         "text": {
+            "en": "but inside this else block. So I'm just going to say:",
+            "pl": "ale wewnątrz tego innego bloku. Więc po prostu powiem:",
+            "ar": "ولكن داخل هذا كتلة أخرى. لذلك سأقول:"
+         },
+         "endTime": 57403,
+         "startTime": 54931
+      },
+      {
+         "text": {
+            "en": "if integer is equal to 1 then set the fill color to be yellow, like it was before,",
+            "pl": "jeśli liczba całkowita jest równa 1, a następnie ustawić kolor wypełnienia na żółty, jak to było wcześniej,",
+            "ar": "إذا كان عدد صحيح يساوي 1 ثم تعيين لون التعبئة ليكون أصفر، كما كان من قبل،"
+         },
+         "endTime": 64933,
+         "startTime": 57403
+      },
+      {
+         "text": {
+            "en": "else, we will set the fill color to be red. Red's pretty good.",
+            "pl": "inaczej, ustawimy kolor wypełnienia na czerwony. Czerwony jest całkiem niezły.",
+            "ar": "آخر، سنقوم بتعيين لون التعبئة ليكون أحمر. (ريد) جيد جداً"
+         },
+         "endTime": 71403,
+         "startTime": 64933
+      },
+      {
+         "text": {
+            "en": "So what this means is, if integer is equal to 0, set the color to be purple,",
+            "pl": "Więc co to oznacza, że jeśli liczba całkowita jest równa 0, ustaw kolor na fioletowy,",
+            "ar": "فما يعنيه هذا هو، إذا كان عدد صحيح يساوي 0، تعيين اللون ليكون الأرجواني،"
+         },
+         "endTime": 75478,
+         "startTime": 71403
+      },
+      {
+         "text": {
+            "en": "otherwise,if it's 1, we will make it yellow;",
+            "pl": "w przeciwnym razie, jeśli jest 1, zrobimy to żółte;",
+            "ar": "خلاف ذلك، إذا كان 1، ونحن سوف تجعل من الأصفر."
+         },
+         "endTime": 78984,
+         "startTime": 75478
+      },
+      {
+         "text": {
+            "en": "otherwise, that is, if it wasn't 0, it wasn't 1, it must be 2, we'll make the color red.",
+            "pl": "w przeciwnym razie, to znaczy, jeśli nie było 0, to nie było 1, to musi być 2, zrobimy kolor czerwony.",
+            "ar": "خلاف ذلك، وهذا هو، إذا لم يكن 0، لم يكن 1، يجب أن يكون 2، سنقوم جعل اللون الأحمر."
+         },
+         "endTime": 84611,
+         "startTime": 78984
+      },
+      {
+         "text": {
+            "en": "I press restart a bunch of times. It works! Woohoo!",
+            "pl": "Naciskam ponownie kilka razy. To działa! Woohoo!",
+            "ar": "أنا اضغط إعادة تشغيل حفنة من المرات. إنه يعمل! (ووهو)"
+         },
+         "endTime": 88566,
+         "startTime": 84611
+      },
+      {
+         "text": {
+            "en": "So then if I wanted to add more sides to my coin,",
+            "pl": "Więc jeśli chcę dodać więcej stron do medalu,",
+            "ar": "لذا إذا أردت إضافة المزيد من الجوانب لعملتي"
+         },
+         "endTime": 91536,
+         "startTime": 88566
+      },
+      {
+         "text": {
+            "en": "I can go up here, make it 0 to 3, and then go deeper into this else block and add more if-else's and so on and so forth,",
+            "pl": "Mogę wejść tutaj, zrobić to 0 do 3, a potem zagłębić się w ten inny blok i dodać więcej if-else i tak dalej i tak dalej,",
+            "ar": "يمكنني أن أصعد هنا، وجعلها 0 إلى 3، ثم انتقل أعمق في هذا كتلة أخرى وإضافة المزيد إذا إلس وهلم جرا وهكذا دواليك،"
+         },
+         "endTime": 97987,
+         "startTime": 91536
+      },
+      {
+         "text": {
+            "en": "until I have a bazillion nested blocks.",
+            "pl": "dopóki nie mam bazillion zagnieżdżone bloki.",
+            "ar": "حتى يكون لدي كتل متداخلة bazillion."
+         },
+         "endTime": 100158,
+         "startTime": 97987
+      },
+      {
+         "text": {
+            "en": "And only then will I realize that this code is disgusting! I mean gross!",
+            "pl": "I tylko wtedy uświadomię sobie, że ten kod jest obrzydliwy! To znaczy obrzydliwe!",
+            "ar": "وعندها فقط سوف أدرك أن هذا الرمز مثير للاشمئزاز! أعني مقرف"
+         },
+         "endTime": 104704,
+         "startTime": 100158
+      },
+      {
+         "text": {
+            "en": "Code is supposed to be easy to read and pretty, not as ugly as possible.",
+            "pl": "Kod powinien być łatwy do odczytania i ładny, nie tak brzydki, jak to tylko możliwe.",
+            "ar": "من المفترض أن تكون الشفرة سهلة القراءة وجميلة، وليست قبيحة قدر الإمكان."
+         },
+         "endTime": 108351,
+         "startTime": 104704
+      },
+      {
+         "text": {
+            "en": "So here's what we're going to do:",
+            "pl": "Oto, co zamierzamy zrobić:",
+            "ar": "حتى هنا ما نحن ذاهبون للقيام به:"
+         },
+         "endTime": 110070,
+         "startTime": 108351
+      },
+      {
+         "text": {
+            "en": "Whenever you have just a single if statement or an if-else statement inside an else block,",
+            "pl": "Ilekroć masz tylko jedną instrukcję if lub if-else wewnątrz bloku else,",
+            "ar": "كلما كان لديك مجرد بيان واحد إذا أو بيان if-else داخل كتلة أخرى،"
+         },
+         "endTime": 115675,
+         "startTime": 110070
+      },
+      {
+         "text": {
+            "en": "so that means we're not doing anything else outside of these blocks,",
+            "pl": "Więc to oznacza, że nie robimy nic poza tymi blokami,",
+            "ar": "وهذا يعني أننا لا نفعل أي شيء آخر خارج هذه الكتل،"
+         },
+         "endTime": 118313,
+         "startTime": 115675
+      },
+      {
+         "text": {
+            "en": "we're not setting the stroke color, we don't have anymore if statements, nothing.",
+            "pl": "Nie ustawiamy koloru obrysu, nie mamy już żadnych stwierdzeń, nic.",
+            "ar": "نحن لا نحدد لون الحد، ليس لدينا بعد الآن إذا البيانات، لا شيء."
+         },
+         "endTime": 124486,
+         "startTime": 118313
+      },
+      {
+         "text": {
+            "en": "All we have is that one if statement, and maybe it comes with an else block.",
+            "pl": "Wszystko, co mamy to, że jeden if oświadczenie, a może pochodzi z innego bloku.",
+            "ar": "كل ما لدينا هو أن واحد إذا بيان، وربما يأتي مع كتلة أخرى."
+         },
+         "endTime": 128443,
+         "startTime": 124486
+      },
+      {
+         "text": {
+            "en": "Then we can actually combine this condition with the line before and say:",
+            "pl": "Wtedy możemy rzeczywiście połączyć ten warunek z linią wcześniej i powiedzieć:",
+            "ar": "ثم يمكننا في الواقع الجمع بين هذا الشرط مع الخط من قبل ونقول:"
+         },
+         "endTime": 133156,
+         "startTime": 128443
+      },
+      {
+         "text": {
+            "en": "else if integer is equal to 1, then set the fill color to yellow.",
+            "pl": "else, jeśli liczba całkowita jest równa 1, a następnie ustaw kolor wypełnienia na żółty.",
+            "ar": "آخر إذا كان عدد صحيح يساوي 1، ثم تعيين لون التعبئة إلى الأصفر."
+         },
+         "endTime": 137073,
+         "startTime": 133156
+      },
+      {
+         "text": {
+            "en": "And then this last else block isn't nested anywhere, just comes at the very end all by itself.",
+            "pl": "A potem ten ostatni blok jeszcze nie jest zagnieżdżony nigdzie, po prostu przychodzi na samym końcu wszystko sama.",
+            "ar": "ثم هذا الأخير كتلة آخر ليست متداخلة في أي مكان، ويأتي فقط في النهاية كل في حد ذاته."
+         },
+         "endTime": 141939,
+         "startTime": 137073
+      },
+      {
+         "text": {
+            "en": "Great! So now what this means is, if integer is equal to 0, set the color to purple,",
+            "pl": "Świetnie! Więc teraz, co to oznacza, że jeśli liczba całkowita jest równa 0, ustaw kolor na fioletowy,",
+            "ar": "عظيم! حتى الآن ما يعنيه هذا هو، إذا كان عدد صحيح يساوي 0، تعيين اللون إلى الأرجواني،"
+         },
+         "endTime": 147067,
+         "startTime": 141939
+      },
+      {
+         "text": {
+            "en": "otherwise if integer is equal to 1, set it to yellow,",
+            "pl": "w przeciwnym razie, jeśli liczba całkowita jest równa 1, ustaw ją na żółty,",
+            "ar": "وإلا إذا كان عدد صحيح يساوي 1، تعيينه إلى الأصفر،"
+         },
+         "endTime": 150235,
+         "startTime": 147067
+      },
+      {
+         "text": {
+            "en": "otherwise, so if both of these were false, then set it to red.",
+            "pl": "w przeciwnym razie, więc jeśli oba z nich były fałszywe, a następnie ustawić go na czerwony.",
+            "ar": "خلاف ذلك، لذلك إذا كان كل من هذه كاذبة، ثم تعيينه إلى اللون الأحمر."
+         },
+         "endTime": 154484,
+         "startTime": 150235
+      },
+      {
+         "text": {
+            "en": "I press restart a bunch of times, you can see it still works.",
+            "pl": "Naciskam ponownie kilka razy, widać, że nadal działa.",
+            "ar": "أنا اضغط إعادة تشغيل حفنة من المرات، يمكنك أن ترى أنه لا يزال يعمل."
+         },
+         "endTime": 157738,
+         "startTime": 154484
+      },
+      {
+         "text": {
+            "en": "Great! And the cool thing about this is, we can have as many else-if's as we want,",
+            "pl": "Świetnie! I fajne w tym jest to, że możemy mieć tyle innych, ile chcemy.",
+            "ar": "عظيم! والشيء الرائع في هذا هو، يمكننا الحصول على أكبر عدد آخر، إذا كان كما نريد،"
+         },
+         "endTime": 161824,
+         "startTime": 157738
+      },
+      {
+         "text": {
+            "en": "which makes it really easy for me to add more sides to my coin.",
+            "pl": "co sprawia, że naprawdę łatwo mi dodać więcej stron do mojej monety.",
+            "ar": "مما يجعل من السهل حقا بالنسبة لي لإضافة المزيد من الجوانب لعملتي."
+         },
+         "endTime": 164703,
+         "startTime": 161824
+      },
+      {
+         "text": {
+            "en": "So let's do that now. I'm going to make a number between 0 and 3,",
+            "pl": "Więc zróbmy to teraz. Zamierzam zrobić liczbę między 0 a 3,",
+            "ar": "لذلك دعونا نفعل ذلك الآن. انا ذاهب لجعل عدد بين 0 و 3,"
+         },
+         "endTime": 168009,
+         "startTime": 164703
+      },
+      {
+         "text": {
+            "en": "and then just add one more else block that says else if integer is equal to 2",
+            "pl": "a następnie po prostu dodać jeszcze jeden blok, który mówi inaczej, jeśli liczba całkowita jest równa 2",
+            "ar": "ثم قم بإضافة كتلة أخرى أخرى تقول آخر إذا كان العدد الصحيح يساوي 2"
+         },
+         "endTime": 176058,
+         "startTime": 168009
+      },
+      {
+         "text": {
+            "en": "we'll set the fill color to ... well it's red before so we can keep it red.",
+            "pl": "ustawimy kolor wypełnienia na... Cóż, jest czerwony wcześniej, więc możemy zachować czerwony.",
+            "ar": "سنقوم بتعيين لون التعبئة ل... حسنا انها حمراء من قبل حتى نتمكن من الحفاظ عليه أحمر."
+         },
+         "endTime": 179658,
+         "startTime": 176135
+      },
+      {
+         "text": {
+            "en": "And then this last else block will be for when an integer is equal to 3,",
+            "pl": "A potem ten ostatni blok jeszcze będzie dla gdy liczba całkowita jest równa 3,",
+            "ar": "ثم هذه الكتلة الأخيرة ستكون عندما يكون عدد صحيح يساوي 3،"
+         },
+         "endTime": 182658,
+         "startTime": 179658
+      },
+      {
+         "text": {
+            "en": "it will make it blue. Great!",
+            "pl": "sprawi, że będzie niebieski. Świetnie!",
+            "ar": "وسوف تجعل من الأزرق. عظيم!"
+         },
+         "endTime": 188969,
+         "startTime": 182658
+      },
+      {
+         "text": {
+            "en": "All right. So in order to do this, you always have to start with an if statement,",
+            "pl": "W porządku. Aby to zrobić, zawsze musisz zacząć od if,",
+            "ar": "حسناً لذلك من أجل القيام بذلك، عليك دائما أن تبدأ مع بيان إذا،"
+         },
+         "endTime": 192816,
+         "startTime": 188969
+      },
+      {
+         "text": {
+            "en": "and then you can have as many else-if's as you want,",
+            "pl": "i wtedy możesz mieć tyle innych - jeśli chcesz,",
+            "ar": "وبعد ذلك يمكنك الحصول على أكبر عدد آخر إذا كان كما تريد،"
+         },
+         "endTime": 196910,
+         "startTime": 192816
+      },
+      {
+         "text": {
+            "en": "and then this last guy is optional.",
+            "pl": "A ten ostatni facet jest opcjonalny.",
+            "ar": "ومن ثم هذا الرجل الأخير هو اختياري."
+         },
+         "endTime": 198698,
+         "startTime": 196910
+      },
+      {
+         "text": {
+            "en": "We can actually do without it, and then it's possible that all of these will be false,",
+            "pl": "Możemy się bez niego obejść, a wtedy możliwe, że to wszystko będzie fałszywe.",
+            "ar": "يمكننا أن نفعل دون ذلك، ومن ثم من الممكن أن كل هذه ستكون خاطئة،"
+         },
+         "endTime": 201900,
+         "startTime": 198698
+      },
+      {
+         "text": {
+            "en": "so none of these blocks gets executed.",
+            "pl": "więc żaden z tych bloków nie zostanie wykonany.",
+            "ar": "حتى لا يتم تنفيذ أي من هذه الكتل."
+         },
+         "endTime": 203722,
+         "startTime": 201900
+      },
+      {
+         "text": {
+            "en": "But as long as we have that there, then exactly one of these blocks will be run.",
+            "pl": "Ale tak długo, jak to mamy, to dokładnie jeden z tych bloków zostanie uruchomiony.",
+            "ar": "ولكن طالما لدينا أن هناك، ثم بالضبط واحدة من هذه الكتل سيتم تشغيل."
+         },
+         "endTime": 210484,
+         "startTime": 203722
+      },
+      {
+         "text": {
+            "en": "Cool? Now this is a case where it doesn't really matter if you say if else-if else-if else,",
+            "pl": "Fajne? Teraz jest to przypadek, w którym to naprawdę nie ma znaczenia, jeśli powiesz, czy inaczej,",
+            "ar": "رائع؟ الآن هذه هي الحالة حيث لا يهم حقا إذا كنت تقول إذا كان آخر، إذا كان آخر، إذا كان آخر،"
+         },
+         "endTime": 217017,
+         "startTime": 210484
+      },
+      {
+         "text": {
+            "en": "or just use plain old if statements like we had in the beginning, so if integer is equal to 3.",
+            "pl": "lub po prostu użyć zwykły stary jeśli oświadczenia jak mieliśmy na początku, więc jeśli liczba całkowita jest równa 3.",
+            "ar": "أو مجرد استخدام عادي قديم إذا كانت عبارات مثل كان لدينا في البداية، لذلك إذا كان عدد صحيح يساوي 3."
+         },
+         "endTime": 225509,
+         "startTime": 217017
+      },
+      {
+         "text": {
+            "en": "And that's because it's never possible for integer to equal 0, and then also 1, 2, or 3.",
+            "pl": "A to dlatego, że nigdy nie jest możliwe, aby liczba całkowita równa 0, a następnie także 1, 2 lub 3.",
+            "ar": "وهذا لأنه من الممكن أبدا لعدد صحيح يساوي 0، وبعد ذلك أيضا 1، 2، أو 3."
+         },
+         "endTime": 230728,
+         "startTime": 225509
+      },
+      {
+         "text": {
+            "en": "Great. So these conditions are all mutually exclusive.",
+            "pl": "Świetnie. Wszystkie te warunki wzajemnie się wykluczają.",
+            "ar": "عظيم لذلك هذه الشروط كلها تستبعد بعضها بعضا."
+         },
+         "endTime": 234223,
+         "startTime": 230728
+      },
+      {
+         "text": {
+            "en": "Only one of these blocks will ever get run anyway.",
+            "pl": "Tylko jeden z tych bloków i tak zostanie uruchomiony.",
+            "ar": "واحد فقط من هذه الكتل سيتم تشغيل أي وقت مضى على أي حال."
+         },
+         "endTime": 236609,
+         "startTime": 234223
+      },
+      {
+         "text": {
+            "en": "But that's not always the case.",
+            "pl": "Ale nie zawsze tak jest.",
+            "ar": "ولكن هذا ليس هو الحال دائما."
+         },
+         "endTime": 238278,
+         "startTime": 236609
+      },
+      {
+         "text": {
+            "en": "What if we try to make a game like this without rounding to an integer?",
+            "pl": "Co zrobić, jeśli spróbujemy zrobić taką grę bez zaokrąglania do liczby całkowitej?",
+            "ar": "ماذا لو حاولنا جعل لعبة مثل هذه دون التقريب إلى عدد صحيح؟"
+         },
+         "endTime": 241636,
+         "startTime": 238278
+      },
+      {
+         "text": {
+            "en": "So I'm going to get rid of this part where we round it,",
+            "pl": "Więc pozbędę się tej części, w której ją zaokrąglimy.",
+            "ar": "لذلك أنا ذاهب للتخلص من هذا الجزء حيث نحن جولة عليه،"
+         },
+         "endTime": 244485,
+         "startTime": 241636
+      },
+      {
+         "text": {
+            "en": "and the other part where we draw it to the screen.",
+            "pl": "a druga część, w której narysujemy go na ekranie.",
+            "ar": "والجزء الآخر حيث نرسم على الشاشة."
+         },
+         "endTime": 246640,
+         "startTime": 244485
+      },
+      {
+         "text": {
+            "en": "And let's make up some new rules to my game.",
+            "pl": "I wymyślmy nowe zasady do mojej gry.",
+            "ar": "ودعونا نصنع بعض القواعد الجديدة لعبتي"
+         },
+         "endTime": 249284,
+         "startTime": 246640
+      },
+      {
+         "text": {
+            "en": "So I'm still generating a number between 0 and 3,",
+            "pl": "Więc nadal generuję liczbę między 0 a 3,",
+            "ar": "لذلك أنا لا تزال توليد عدد بين 0 و 3،"
+         },
+         "endTime": 252637,
+         "startTime": 249284
+      },
+      {
+         "text": {
+            "en": "put some more tick marks on our number line.",
+            "pl": "umieść więcej znaczników na naszej linii numerycznej.",
+            "ar": "ضع المزيد من علامات القراد على خط الأرقام لدينا."
+         },
+         "endTime": 255315,
+         "startTime": 252637
+      },
+      {
+         "text": {
+            "en": "So let's say that if the number falls between 0 and 1 we will make it purple.",
+            "pl": "Powiedzmy więc, że jeśli liczba spadnie między 0 a 1, sprawimy, że będzie fioletowy.",
+            "ar": "لذلك دعونا نقول أنه إذا كان عدد يسقط بين 0 و 1 ونحن سوف تجعل من الأرجواني."
+         },
+         "endTime": 263378,
+         "startTime": 255315
+      },
+      {
+         "text": {
+            "en": "Oh, that doesn't look like a 'p' at all. You get the idea. OK.",
+            "pl": "Oh, to wcale nie wygląda na „p”. Ty masz pomysł. OKEJ.",
+            "ar": "أوه، هذا لا يَبْدو مثل 'p' على الإطلاق. تحصل على الفكرة. حسنا."
+         },
+         "endTime": 266153,
+         "startTime": 263378
+      },
+      {
+         "text": {
+            "en": "And then if it's between 1 and 2, we can make it yellow.",
+            "pl": "A jeśli jest między 1 a 2, możemy sprawić, że będzie żółta.",
+            "ar": "ثم إذا كان بين 1 و 2، يمكننا جعله أصفر."
+         },
+         "endTime": 270504,
+         "startTime": 266153
+      },
+      {
+         "text": {
+            "en": "And if it's between 2 and 3, we will make it red.",
+            "pl": "A jeśli jest między 2 a 3, zrobimy to na czerwono.",
+            "ar": "وإذا كان بين 2 و 3، ونحن سوف جعلها حمراء."
+         },
+         "endTime": 275533,
+         "startTime": 270504
+      },
+      {
+         "text": {
+            "en": "Great. So let's see how we can do that with if and else-if's.",
+            "pl": "Świetnie. Zobaczmy więc, jak możemy to zrobić z „if” i „if”.",
+            "ar": "عظيم لذلك دعونا نرى كيف يمكننا أن نفعل ذلك مع إذا و آخر إذا ل."
+         },
+         "endTime": 278651,
+         "startTime": 275533
+      },
+      {
+         "text": {
+            "en": "So I can start out by saying if number is less than 1,",
+            "pl": "Więc mogę zacząć od stwierdzenia, że jeśli liczba jest mniejsza niż 1,",
+            "ar": "حتى أستطيع أن أبدأ بالقول إذا كان الرقم أقل من 1"
+         },
+         "endTime": 283542,
+         "startTime": 278651
+      },
+      {
+         "text": {
+            "en": "so if it's less than 1, and I know it's between 0 and 3, then it must be in this range,",
+            "pl": "Więc jeśli jest mniej niż 1, i wiem, że jest między 0 a 3, to musi być w tym zakresie,",
+            "ar": "حتى إذا كان أقل من 1، وأنا أعلم أنه بين 0 و 3، ثم يجب أن يكون في هذا النطاق،"
+         },
+         "endTime": 291436,
+         "startTime": 283542
+      },
+      {
+         "text": {
+            "en": "then I'll set the fill color to be purple.",
+            "pl": "wtedy ustawię kolor wypełnienia na fioletowy.",
+            "ar": "ثم سأقوم بتعيين لون التعبئة ليكون أرجوانيًا."
+         },
+         "endTime": 294156,
+         "startTime": 291436
+      },
+      {
+         "text": {
+            "en": "Otherwise, if the number is less than 2, I can set the fill color to be yellow. . . . 255 . . .",
+            "pl": "W przeciwnym razie, jeśli liczba jest mniejsza niż 2, mogę ustawić kolor wypełnienia na żółty... 255...",
+            "ar": "وإلا، إذا كان الرقم أقل من 2، يمكنني تعيين لون التعبئة ليكون أصفر..."
+         },
+         "endTime": 306702,
+         "startTime": 294156
+      },
+      {
+         "text": {
+            "en": "And otherwise, I'll set the fill to be red.",
+            "pl": "W przeciwnym razie, ustawię wypełnienie na czerwone.",
+            "ar": "وإلا، سأضبط التعبئة لتكون حمراء."
+         },
+         "endTime": 313263,
+         "startTime": 306702
+      },
+      {
+         "text": {
+            "en": "Great! And it works just as intended.",
+            "pl": "Świetnie! I działa zgodnie z przeznaczeniem.",
+            "ar": "عظيم! ويعمل تماما كما هو مقصود."
+         },
+         "endTime": 315596,
+         "startTime": 313263
+      },
+      {
+         "text": {
+            "en": "So if the number was less than 1, then again, it's in this range.",
+            "pl": "Więc jeśli liczba była mniejsza niż 1, to znowu jest w tym zakresie.",
+            "ar": "حتى إذا كان الرقم أقل من 1، ثم مرة أخرى، انها في هذا النطاق."
+         },
+         "endTime": 319307,
+         "startTime": 315596
+      },
+      {
+         "text": {
+            "en": "Otherwise, it's greater than or equal to 1, but it's also less than 2,",
+            "pl": "W przeciwnym razie jest większa lub równa 1, ale jest również mniejsza niż 2,",
+            "ar": "خلاف ذلك، فهي أكبر من أو تساوي 1، ولكنها أيضًا أقل من 2،"
+         },
+         "endTime": 323603,
+         "startTime": 319307
+      },
+      {
+         "text": {
+            "en": "so that puts it in this range, so we're going to set the color to yellow.",
+            "pl": "tak, że stawia go w tym zakresie, więc mamy zamiar ustawić kolor na żółty.",
+            "ar": "بحيث يضعه في هذا النطاق، لذلك نحن ذاهبون لضبط اللون إلى الأصفر."
+         },
+         "endTime": 326732,
+         "startTime": 323603
+      },
+      {
+         "text": {
+            "en": "Otherwise, it must be greater than or equal to 2, so it's going to fall in that range.",
+            "pl": "W przeciwnym razie musi być większa lub równa 2, więc spadnie w tym zakresie.",
+            "ar": "خلاف ذلك، يجب أن يكون أكبر من أو يساوي 2، لذلك سوف تقع في هذا النطاق."
+         },
+         "endTime": 331900,
+         "startTime": 326732
+      },
+      {
+         "text": {
+            "en": "And here's a case where we couldn't just say if number is less than 2,",
+            "pl": "A tu jest przypadek, w którym nie możemy powiedzieć, że jeśli liczba jest mniejsza niż 2,",
+            "ar": "وهنا حالة حيث أننا لا يمكن أن نقول فقط إذا كان الرقم أقل من 2،"
+         },
+         "endTime": 336277,
+         "startTime": 331900
+      },
+      {
+         "text": {
+            "en": "and if number is less than 3,",
+            "pl": "a jeśli liczba jest mniejsza niż 3,",
+            "ar": "و إذا كان العدد أقل من 3,"
+         },
+         "endTime": 339650,
+         "startTime": 336277
+      },
+      {
+         "text": {
+            "en": "because if number is less than 1, then it's definitely is less than 2",
+            "pl": "bo jeśli liczba jest mniejsza niż 1, to na pewno jest mniejsza niż 2",
+            "ar": "لأنه إذا كان الرقم أقل من 1، فمن المؤكد أنه أقل من 2"
+         },
+         "endTime": 342932,
+         "startTime": 339650
+      },
+      {
+         "text": {
+            "en": "and it's also going to be less than 3.",
+            "pl": "i będzie to również mniej niż 3.",
+            "ar": "وانها ستكون أيضا أقل من 3."
+         },
+         "endTime": 344896,
+         "startTime": 342932
+      },
+      {
+         "text": {
+            "en": "So our coin is always going to end up red.",
+            "pl": "Więc nasza moneta zawsze skończy się czerwona.",
+            "ar": "لذلك لدينا عملة تسير دائما في نهاية المطاف الأحمر."
+         },
+         "endTime": 346781,
+         "startTime": 344896
+      },
+      {
+         "text": {
+            "en": "And that's why in this case, it's really helpful to have else-if.",
+            "pl": "I dlatego w tym przypadku bardzo pomocne jest mieć inne.",
+            "ar": "وهذا هو السبب في هذه الحالة، فإنه من المفيد حقا أن يكون آخر إذا."
+         },
+         "endTime": 350781,
+         "startTime": 346781
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/Lj8FcPfb53I/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759728357",
+   "title": "If/Else - Part 2 | Logic and if Statements | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

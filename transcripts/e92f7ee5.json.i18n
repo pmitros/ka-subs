@@ -1,0 +1,780 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "So I've got my good friend Winston here to help us out with this one.",
+            "pl": "Więc mam tu mojego dobrego przyjaciela Winstona, który pomoże nam z tym.",
+            "ar": "لذلك لدي صديقي العزيز وينستون هنا لمساعدتنا في هذا"
+         },
+         "endTime": 3846,
+         "startTime": 1083
+      },
+      {
+         "text": {
+            "en": "And I know he already looks impossibly awesome,",
+            "pl": "I wiem, że już wygląda niemożliwie super.",
+            "ar": "وأنا أعلم أنه يبدو رائعا بشكل مستحيل"
+         },
+         "endTime": 6424,
+         "startTime": 3846
+      },
+      {
+         "text": {
+            "en": "but I think I want to change his eye size a little bit.",
+            "pl": "Ale myślę, że chcę trochę zmienić jego rozmiar oczu.",
+            "ar": "ولكن أعتقد أنني أريد تغيير حجم عينه قليلا."
+         },
+         "endTime": 8911,
+         "startTime": 6424
+      },
+      {
+         "text": {
+            "en": "So here is where I draw his eyes.",
+            "pl": "Oto, gdzie rysuję jego oczy.",
+            "ar": "حتى هنا حيث أرسم عينيه."
+         },
+         "endTime": 10784,
+         "startTime": 8911
+      },
+      {
+         "text": {
+            "en": "You can see we set the fill color, and then drop two ellipses.",
+            "pl": "Widać możemy ustawić kolor wypełnienia, a następnie upuścić dwie elipsy.",
+            "ar": "يمكنك أن ترى أننا تعيين لون التعبئة، ومن ثم إسقاط اثنين من الحذف."
+         },
+         "endTime": 13343,
+         "startTime": 10784
+      },
+      {
+         "text": {
+            "en": "And if I want to make this ellipse smaller,",
+            "pl": "I jeśli chcę, żeby ta elipsa była mniejsza,",
+            "ar": "وإذا أردت جعل هذا القطع الناقص أصغر،"
+         },
+         "endTime": 15273,
+         "startTime": 13343
+      },
+      {
+         "text": {
+            "en": "I can change the width, but then I also want it to be round,",
+            "pl": "Mogę zmienić szerokość, ale potem też chcę, żeby była okrągła,",
+            "ar": "يمكنني تغيير العرض، ولكن بعد ذلك أريد أيضا أن تكون مستديرة،"
+         },
+         "endTime": 18011,
+         "startTime": 15273
+      },
+      {
+         "text": {
+            "en": "so I'm going to change the height to be the same thing.",
+            "pl": "Więc zmienię wysokość na to samo.",
+            "ar": "لذلك أنا ذاهب لتغيير الارتفاع ليكون نفس الشيء."
+         },
+         "endTime": 20284,
+         "startTime": 18011
+      },
+      {
+         "text": {
+            "en": "And, well I want the eyes to be the same size,",
+            "pl": "I chcę, aby oczy były tego samego rozmiaru,",
+            "ar": "و، حسنا أريد أن تكون العيون بنفس الحجم،"
+         },
+         "endTime": 22955,
+         "startTime": 20284
+      },
+      {
+         "text": {
+            "en": "so we should change the width and the height of this eye.",
+            "pl": "więc powinniśmy zmienić szerokość i wysokość tego oka.",
+            "ar": "لذلك يجب علينا تغيير عرض وارتفاع هذه العين."
+         },
+         "endTime": 25381,
+         "startTime": 22955
+      },
+      {
+         "text": {
+            "en": "No, now the eyes are a little too small, so I should change them back.",
+            "pl": "Nie, teraz oczy są trochę za małe, więc powinienem je zmienić z powrotem.",
+            "ar": "لا، الآن العيون صغيرة جدا، لذلك يجب أن أغير لهم مرة أخرى."
+         },
+         "endTime": 28497,
+         "startTime": 25381
+      },
+      {
+         "text": {
+            "en": "Wouldn't I be great if I could just change one number,",
+            "pl": "Czy nie byłabym świetna, gdybym mogła zmienić jeden numer,",
+            "ar": "ألن أكون رائعاً لو أمكنني تغيير رقم واحد"
+         },
+         "endTime": 30839,
+         "startTime": 28707
+      },
+      {
+         "text": {
+            "en": "and have both eyes change?",
+            "pl": "i mieć oba oczy się zmieniają?",
+            "ar": "وهل تغيّرت كلتا العينين؟"
+         },
+         "endTime": 32656,
+         "startTime": 30839
+      },
+      {
+         "text": {
+            "en": "And here is where <i>variables</i> come in.",
+            "pl": "A oto gdzie <i> zmiennych </i> Wejdź.",
+            "ar": "وهنا هو المكان <i> المتغيرات </i> تأتي في."
+         },
+         "endTime": 36191,
+         "startTime": 32877
+      },
+      {
+         "text": {
+            "en": "Now, a variable is just like a name or a placeholder for something else.",
+            "pl": "Teraz zmienna jest jak nazwa lub symbol zastępczy dla czegoś innego.",
+            "ar": "الآن، متغير هو تماما مثل اسم أو نائب لشيء آخر."
+         },
+         "endTime": 40848,
+         "startTime": 37232
+      },
+      {
+         "text": {
+            "en": "I like to think of a variable as a big bucket with a name on it.",
+            "pl": "Lubię myśleć o zmiennej jako o dużym wiadrze z nazwą na nim.",
+            "ar": "أحب أن أفكر في متغير كما دلو كبير مع اسم على ذلك."
+         },
+         "endTime": 44523,
+         "startTime": 41303
+      },
+      {
+         "text": {
+            "en": "You can put anything you want in the bucket,",
+            "pl": "Możesz włożyć cokolwiek chcesz do wiadra,",
+            "ar": "يمكنك وضع أي شيء تريده في الدلو"
+         },
+         "endTime": 46295,
+         "startTime": 44566
+      },
+      {
+         "text": {
+            "en": "but the name stays the same.",
+            "pl": "ale nazwa pozostaje taka sama.",
+            "ar": "لكن الاسم يبقى كما هو"
+         },
+         "endTime": 47588,
+         "startTime": 46295
+      },
+      {
+         "text": {
+            "en": "We call the thing inside the bucket the <i>value</i> of the variable.",
+            "pl": "Nazywamy to coś wewnątrz wiadra <i> wartość </i> zmiennej.",
+            "ar": "نسمي الشيء داخل دلو <i> القيمة </i> من المتغير."
+         },
+         "endTime": 51937,
+         "startTime": 47747
+      },
+      {
+         "text": {
+            "en": "So let's start out by actually making a variable.",
+            "pl": "Zacznijmy więc od faktycznie dokonywania zmiennej.",
+            "ar": "لذلك دعونا نبدأ من خلال جعل الواقع متغير."
+         },
+         "endTime": 55745,
+         "startTime": 53702
+      },
+      {
+         "text": {
+            "en": "I'm going to do it all the way up here.",
+            "pl": "Zamierzam to zrobić całą drogę tutaj.",
+            "ar": "أنا ذاهب للقيام بذلك على طول الطريق إلى هنا."
+         },
+         "endTime": 57564,
+         "startTime": 55745
+      },
+      {
+         "text": {
+            "en": "All you do is type <i>var</i>, which stands for variable,",
+            "pl": "Wszystko, co robisz, to wpisz <i> var </i> , co oznacza zmienną,",
+            "ar": "كل ما عليك فعله هو الكتابة <i> فار </i> ، التي تقف على متغير،"
+         },
+         "endTime": 60333,
+         "startTime": 57564
+      },
+      {
+         "text": {
+            "en": "<i>Space</i>, and then the name of the variable,",
+            "pl": "<i> Space </i> , a następnie nazwę zmiennej,",
+            "ar": "<i> الفضاء </i> ، ثم اسم المتغير،"
+         },
+         "endTime": 62477,
+         "startTime": 60333
+      },
+      {
+         "text": {
+            "en": "which should describe what the variable will hold.",
+            "pl": "które powinny opisać, co zmienna będzie posiadać.",
+            "ar": "التي يجب أن تصف ما سيحتفظ به المتغير."
+         },
+         "endTime": 64465,
+         "startTime": 62477
+      },
+      {
+         "text": {
+            "en": "So I'm going to call this one <i>eyeSize</i>.",
+            "pl": "Więc zadzwonię do tego. <i> EyeSize </i> .",
+            "ar": "لذلك انا ذاهب الى استدعاء هذا واحد <i> إيسيز </i> ."
+         },
+         "endTime": 66007,
+         "startTime": 64465
+      },
+      {
+         "text": {
+            "en": "And you can pretty much name it whatever you want,",
+            "pl": "I możesz to nazwać, jak tylko chcesz.",
+            "ar": "ويمكنك أن تسمي كل ما تريد"
+         },
+         "endTime": 67997,
+         "startTime": 66007
+      },
+      {
+         "text": {
+            "en": "but you're not allowed to have spaces between words.",
+            "pl": "ale nie wolno ci mieć odstępów między słowami.",
+            "ar": "ولكن لا يسمح لك أن يكون لديك مسافات بين الكلمات."
+         },
+         "endTime": 70043,
+         "startTime": 67997
+      },
+      {
+         "text": {
+            "en": "And of course, don't forget that semicolon!",
+            "pl": "I oczywiście, nie zapomnij o średniku!",
+            "ar": "وبطبيعة الحال، لا ننسى أن الفاصلة المنقوطة!"
+         },
+         "endTime": 71974,
+         "startTime": 70043
+      },
+      {
+         "text": {
+            "en": "So now I've made a variable called <i>eyeSize</i>,",
+            "pl": "Więc teraz zrobiłem zmienną o nazwie <i> EyeSize </i> ,",
+            "ar": "حتى الآن لقد جعلت متغير يسمى <i> إيسيز </i> ,"
+         },
+         "endTime": 74447,
+         "startTime": 72248
+      },
+      {
+         "text": {
+            "en": "because it's going to hold the size of Winston's eyes.",
+            "pl": "Bo będzie miał rozmiar oczu Winstona.",
+            "ar": "لأنه سيحمل حجم عيون وينستون"
+         },
+         "endTime": 76936,
+         "startTime": 74447
+      },
+      {
+         "text": {
+            "en": "But so far this variable doesn't have a value yet.",
+            "pl": "Ale do tej pory zmienna ta nie ma jeszcze wartości.",
+            "ar": "ولكن حتى الآن هذا المتغير ليس لديه قيمة حتى الآن."
+         },
+         "endTime": 79511,
+         "startTime": 76936
+      },
+      {
+         "text": {
+            "en": "To give it one, we just say <i>eyeSize</i>,",
+            "pl": "Aby dać mu jeden, po prostu mówimy <i> EyeSize </i> ,",
+            "ar": "لإعطائها واحدة، نقول فقط <i> إيسيز </i> ,"
+         },
+         "endTime": 82642,
+         "startTime": 79846
+      },
+      {
+         "text": {
+            "en": "and then an <i>=</i>, and then <i>20;</i> .",
+            "pl": ", a następnie <i> = </i> , a następnie <i> 20; </i> .",
+            "ar": "ومن ثم <i> = </i> ، وبعد ذلك <i> 20؛ </i> ."
+         },
+         "endTime": 87186,
+         "startTime": 82642
+      },
+      {
+         "text": {
+            "en": "Okay, now see that equal sign?",
+            "pl": "Ok, teraz widzisz ten znak równości?",
+            "ar": "حسنا، الآن ترى تلك العلامة المتساوية؟"
+         },
+         "endTime": 89370,
+         "startTime": 87611
+      },
+      {
+         "text": {
+            "en": "Forget whatever your math teacher taught you about it.",
+            "pl": "Zapomnij o tym, czego nauczyciel matematyki nauczył cię o tym.",
+            "ar": "انسى كل ما علمك مدرس الرياضيات عنه"
+         },
+         "endTime": 91763,
+         "startTime": 89370
+      },
+      {
+         "text": {
+            "en": "That equal sign does not mean \"equals,\" it means assignment.",
+            "pl": "Ten znak równości nie oznacza „równa się”, to znaczy przypisanie.",
+            "ar": "هذه العلامة المتساوية لا تعني «يساوي»، بل تعني التنازل."
+         },
+         "endTime": 95086,
+         "startTime": 91763
+      },
+      {
+         "text": {
+            "en": "This means we're assigning the value <i>20</i> to the variable <i>eyeSize</i>.",
+            "pl": "Oznacza to, że przypisujemy wartość <i> 20 </i> do zmiennej <i> EyeSize </i> .",
+            "ar": "هذا يعني أننا نقوم بتعيين القيمة <i> 20 </i> إلى المتغير <i> إيسيز </i> ."
+         },
+         "endTime": 101264,
+         "startTime": 95391
+      },
+      {
+         "text": {
+            "en": "In other words, we're putting the number 20",
+            "pl": "Innymi słowy, stawiamy liczbę 20",
+            "ar": "وبعبارة أخرى، نحن نضع الرقم 20"
+         },
+         "endTime": 103716,
+         "startTime": 102014
+      },
+      {
+         "text": {
+            "en": "into the bucket called, <i>eyeSize</i>.",
+            "pl": "do wiadra o nazwie, <i> EyeSize </i> .",
+            "ar": "في دلو يسمى، <i> إيسيز </i> ."
+         },
+         "endTime": 105576,
+         "startTime": 103716
+      },
+      {
+         "text": {
+            "en": "And remember how in math class you can say stuff like,",
+            "pl": "I pamiętajcie, jak na matematyce można mówić takie rzeczy jak:",
+            "ar": "وتذكر كيف في فصل الرياضيات يمكنك أن تقول أشياء مثل،"
+         },
+         "endTime": 108438,
+         "startTime": 105728
+      },
+      {
+         "text": {
+            "en": "x = 3, and 3 = x,",
+            "pl": "x = 3 i 3 = x,",
+            "ar": "س = 3، و 3 = س،"
+         },
+         "endTime": 111818,
+         "startTime": 108438
+      },
+      {
+         "text": {
+            "en": "and it all means the same thing, because <i>duuh</i>, they're equal?",
+            "pl": "i to wszystko oznacza to samo, ponieważ <i> duuh </i> , są równe?",
+            "ar": "وكل ذلك يعني نفس الشيء، لأن <i> دوح </i> ، هم متساوون؟"
+         },
+         "endTime": 114457,
+         "startTime": 111818
+      },
+      {
+         "text": {
+            "en": "Well, you can't do that here, either.",
+            "pl": "Tutaj też nie możesz tego zrobić.",
+            "ar": "حسناً، لا يمكنك فعل ذلك هنا أيضاً"
+         },
+         "endTime": 116377,
+         "startTime": 114457
+      },
+      {
+         "text": {
+            "en": "The thing on the left-hand side of the equal sign",
+            "pl": "Rzecz po lewej stronie znaku równości",
+            "ar": "الشيء على الجانب الأيسر من علامة المساواة"
+         },
+         "endTime": 118443,
+         "startTime": 116377
+      },
+      {
+         "text": {
+            "en": "is always the variable.",
+            "pl": "jest zawsze zmienną.",
+            "ar": "هو دائما المتغير."
+         },
+         "endTime": 119985,
+         "startTime": 118443
+      },
+      {
+         "text": {
+            "en": "And the thing on the right-hand side of the equal sign is always the value",
+            "pl": "A rzeczą po prawej stronie znaku równości jest zawsze wartość",
+            "ar": "والشيء على الجانب الأيمن من علامة المساواة هو دائما القيمة"
+         },
+         "endTime": 123397,
+         "startTime": 119985
+      },
+      {
+         "text": {
+            "en": "that you are assigning to the variable.",
+            "pl": ", które przypisujesz do zmiennej.",
+            "ar": "التي تقوم بتخصيصها للمتغير."
+         },
+         "endTime": 125331,
+         "startTime": 123397
+      },
+      {
+         "text": {
+            "en": "A good way to help you remember which side is what",
+            "pl": "Dobry sposób, aby pomóc Ci zapamiętać, która strona jest co",
+            "ar": "وهناك طريقة جيدة لمساعدتك على تذكر أي جانب هو ما"
+         },
+         "endTime": 127549,
+         "startTime": 125501
+      },
+      {
+         "text": {
+            "en": "is while you're coding and talking out loud to yourself,",
+            "pl": "jest, gdy kodujesz i mówisz głośno do siebie,",
+            "ar": "هو بينما كنت الترميز والتحدث بصوت عال لنفسك،"
+         },
+         "endTime": 129789,
+         "startTime": 127549
+      },
+      {
+         "text": {
+            "en": "like every cool programmer does,",
+            "pl": "jak każdy fajny programista robi,",
+            "ar": "مثل كل مبرمج بارد يفعل،"
+         },
+         "endTime": 131491,
+         "startTime": 129789
+      },
+      {
+         "text": {
+            "en": "if you hit an equal sign don't say \"equals,\" say \"gets.\"",
+            "pl": "jeśli trafisz znak równości, nie mów „równa się”, powiedz „dostaje”.",
+            "ar": "إذا كنت ضرب علامة المساواة لا تقول «يساوي»، ويقول «يحصل»."
+         },
+         "endTime": 135290,
+         "startTime": 131491
+      },
+      {
+         "text": {
+            "en": "So this becomes, <i>eyeSize</i> gets <i>20</i>.",
+            "pl": "Więc to staje się, <i> EyeSize </i> dostaje <i> 20 </i> .",
+            "ar": "لذلك يصبح هذا، <i> إيسيز </i> يحصل <i> 20 </i> ."
+         },
+         "endTime": 138587,
+         "startTime": 135290
+      },
+      {
+         "text": {
+            "en": "And now, whenever I use <i>eyeSize</i> in my program,",
+            "pl": "A teraz, kiedy używam <i> EyeSize </i> w moim programie,",
+            "ar": "والآن، كلما أستخدم <i> إيسيز </i> في برنامجي,"
+         },
+         "endTime": 142049,
+         "startTime": 139619
+      },
+      {
+         "text": {
+            "en": "the computer is going to be like, \"Oh yeah, that's a variable,",
+            "pl": "komputer będzie jak: „O tak, to zmienna,",
+            "ar": "الكمبيوتر سيكون مثل، «أوه نعم، هذا متغير،"
+         },
+         "endTime": 144780,
+         "startTime": 142049
+      },
+      {
+         "text": {
+            "en": "I know what she <i>really</i> means is this value 20.\"",
+            "pl": "Wiem, co ona <i> Naprawdę </i> oznacza to wartość 20.”",
+            "ar": "أنا أعرف ما هي <i> حقا </i> يعني هو هذه القيمة 20.»"
+         },
+         "endTime": 147871,
+         "startTime": 144780
+      },
+      {
+         "text": {
+            "en": "So check it out-- I'm just going to copy this,",
+            "pl": "Więc obczaj to... Zamierzam to skopiować,",
+            "ar": "حتى التحقق من ذلك out— أنا مجرد الذهاب لنسخ هذا،"
+         },
+         "endTime": 151131,
+         "startTime": 148312
+      },
+      {
+         "text": {
+            "en": "and then replace these four numbers",
+            "pl": "a następnie wymienić te cztery numery",
+            "ar": "ثم استبدال هذه الأرقام الأربعة"
+         },
+         "endTime": 154405,
+         "startTime": 151419
+      },
+      {
+         "text": {
+            "en": "with my new variable <i>eyeSize</i>,",
+            "pl": "z moją nową zmienną <i> EyeSize </i> ,",
+            "ar": "مع بلدي المتغير الجديد <i> إيسيز </i> ,"
+         },
+         "endTime": 157058,
+         "startTime": 154785
+      },
+      {
+         "text": {
+            "en": "and Voila!",
+            "pl": "i Voila!",
+            "ar": "و (فويلا)"
+         },
+         "endTime": 159614,
+         "startTime": 158255
+      },
+      {
+         "text": {
+            "en": "Winston's eyes are now both perfectly round and the same size,",
+            "pl": "Oczy Winstona są teraz idealnie okrągłe i tego samego rozmiaru,",
+            "ar": "عيون وينستون الآن على حد سواء مستديرة تماما ونفس الحجم،"
+         },
+         "endTime": 163920,
+         "startTime": 159614
+      },
+      {
+         "text": {
+            "en": "and if I want to change the value of both eyes--",
+            "pl": "I jeśli chcę zmienić wartość obu oczu...",
+            "ar": "وإذا أردت تغيير قيمة كلا العينين"
+         },
+         "endTime": 166591,
+         "startTime": 163920
+      },
+      {
+         "text": {
+            "en": "or the size of both eyes,",
+            "pl": "lub rozmiar obu oczu,",
+            "ar": "أو حجم كلتا العينين،"
+         },
+         "endTime": 167730,
+         "startTime": 166591
+      },
+      {
+         "text": {
+            "en": "I can just change the value of this one variable.",
+            "pl": "Mogę po prostu zmienić wartość tej jednej zmiennej.",
+            "ar": "يمكنني فقط تغيير قيمة هذا المتغير واحد."
+         },
+         "endTime": 170547,
+         "startTime": 167730
+      },
+      {
+         "text": {
+            "en": "Aah that's so cool!",
+            "pl": "Aah, to takie fajne!",
+            "ar": "آه هذا رائع جدا!"
+         },
+         "endTime": 173045,
+         "startTime": 171002
+      },
+      {
+         "text": {
+            "en": "Okay, couple of last notes.",
+            "pl": "Dobra, kilka ostatnich notatek.",
+            "ar": "حسنا، اثنين من الملاحظات الأخيرة."
+         },
+         "endTime": 175667,
+         "startTime": 174309
+      },
+      {
+         "text": {
+            "en": "Up here we made a new variable called <i>eyeSize</i>.",
+            "pl": "Tutaj zrobiliśmy nową zmienną o nazwie <i> EyeSize </i> .",
+            "ar": "هنا صنعنا متغير جديد يسمى <i> إيسيز </i> ."
+         },
+         "endTime": 178512,
+         "startTime": 175667
+      },
+      {
+         "text": {
+            "en": "And here we gave it a value of <i>33</i>.",
+            "pl": "I tutaj daliśmy mu wartość <i> 33 </i> .",
+            "ar": "وهنا أعطيناها قيمة <i> 33 </i> ."
+         },
+         "endTime": 181037,
+         "startTime": 178512
+      },
+      {
+         "text": {
+            "en": "We can actually do that all in one step",
+            "pl": "Możemy to zrobić w jednym kroku.",
+            "ar": "يمكننا أن نفعل ذلك في خطوة واحدة"
+         },
+         "endTime": 182855,
+         "startTime": 181037
+      },
+      {
+         "text": {
+            "en": "by saying <i>var eyeSize</i>, that's the first step,",
+            "pl": "mówiąc: <i> var EyeSize </i> , to pierwszy krok,",
+            "ar": "بالقول <i> فار إيسيزي </i> ، هذه هي الخطوة الأولى،"
+         },
+         "endTime": 185927,
+         "startTime": 182855
+      },
+      {
+         "text": {
+            "en": "gets <i>33</i>, that's the second step.",
+            "pl": "dostaje <i> 33 </i> , to jest drugi krok.",
+            "ar": "يحصل <i> 33 </i> ، هذه هي الخطوة الثانية."
+         },
+         "endTime": 188717,
+         "startTime": 185927
+      },
+      {
+         "text": {
+            "en": "And if I delete these two lines,",
+            "pl": "A jeśli usunę te dwie wiersze,",
+            "ar": "وإذا قمت بحذف هذين الخطين،"
+         },
+         "endTime": 190825,
+         "startTime": 188717
+      },
+      {
+         "text": {
+            "en": "you can see everything still works.",
+            "pl": "widać, że wszystko nadal działa.",
+            "ar": "يمكنك أن ترى كل شيء لا يزال يعمل."
+         },
+         "endTime": 192626,
+         "startTime": 190825
+      },
+      {
+         "text": {
+            "en": "Also remember that the computer reads your code from top to bottom",
+            "pl": "Pamiętaj też, że komputer odczytuje kod od góry do dołu",
+            "ar": "تذكر أيضا أن الكمبيوتر يقرأ التعليمات البرمجية من أعلى إلى أسفل"
+         },
+         "endTime": 196761,
+         "startTime": 193449
+      },
+      {
+         "text": {
+            "en": "so the only reason it knew what <i>eyeSize</i> was down here,",
+            "pl": "więc jedynym powodem, dla którego wiedział, co <i> EyeSize </i> był tu na dole,",
+            "ar": "لذلك السبب الوحيد الذي يعرف ما <i> إيسيز </i> كان هنا"
+         },
+         "endTime": 199188,
+         "startTime": 196761
+      },
+      {
+         "text": {
+            "en": "was because we already defined it up here.",
+            "pl": "było dlatego, że już to zdefiniowaliśmy.",
+            "ar": "كان لأننا حددنا بالفعل هنا."
+         },
+         "endTime": 201668,
+         "startTime": 199188
+      },
+      {
+         "text": {
+            "en": "If I had put it down here instead,",
+            "pl": "Gdybym zamiast tego położył go tutaj,",
+            "ar": "لو وضعته هنا بدلاً من ذلك"
+         },
+         "endTime": 204309,
+         "startTime": 201668
+      },
+      {
+         "text": {
+            "en": "then once we got to this line of code, the computer's going to be like,",
+            "pl": "A kiedy już doszliśmy do tej linii kodu, komputer będzie jak",
+            "ar": "ثم مرة واحدة وصلنا إلى هذا السطر من التعليمات البرمجية، الكمبيوتر سيكون مثل،"
+         },
+         "endTime": 208446,
+         "startTime": 205021
+      },
+      {
+         "text": {
+            "en": "\"<i>eyeSize</i>, what the heck is <i>eyeSize</i>? I don't know what that is.\"",
+            "pl": "„ <i> EyeSize </i> , co do cholery jest <i> EyeSize </i> ? Nie wiem, co to jest.”",
+            "ar": "« <i> إيسيز </i> ، ما هيك <i> إيسيز </i> ؟ أنا لا أعرف ما هو ذلك»."
+         },
+         "endTime": 210989,
+         "startTime": 208446
+      },
+      {
+         "text": {
+            "en": "In fact, here we get an error that says <i>eyeSize</i> is not defined.",
+            "pl": "W rzeczywistości, tutaj otrzymujemy błąd, który mówi <i> EyeSize </i> nie jest zdefiniowana.",
+            "ar": "في الواقع، هنا نحصل على خطأ يقول <i> إيسيز </i> غير محدد."
+         },
+         "endTime": 214002,
+         "startTime": 210989
+      },
+      {
+         "text": {
+            "en": "And maybe you're thinking to yourself,",
+            "pl": "I może myślisz sobie,",
+            "ar": "وربما كنت تفكر لنفسك،"
+         },
+         "endTime": 215570,
+         "startTime": 214002
+      },
+      {
+         "text": {
+            "en": "\"Yes, I did define it; it's right here!\"",
+            "pl": "„Tak, zdefiniowałem to, jest właśnie tutaj!”",
+            "ar": "«نعم، لقد قمت بتعريفه؛ إنه هنا!»"
+         },
+         "endTime": 217481,
+         "startTime": 215570
+      },
+      {
+         "text": {
+            "en": "But the computer's not smart, and doesn't get that.",
+            "pl": "Ale komputer nie jest mądry i tego nie rozumie.",
+            "ar": "ولكن الكمبيوتر ليس ذكيا، ولا يحصل على ذلك."
+         },
+         "endTime": 219584,
+         "startTime": 217481
+      },
+      {
+         "text": {
+            "en": "So let's just move it back up to the top.",
+            "pl": "Więc przenieśmy to z powrotem na górę.",
+            "ar": "لذلك دعونا مجرد تحريكه مرة أخرى إلى الأعلى."
+         },
+         "endTime": 222636,
+         "startTime": 220406
+      },
+      {
+         "text": {
+            "en": "And you've got to always make sure",
+            "pl": "I zawsze musisz się upewnić",
+            "ar": "وعليك أن تتأكد دوماً"
+         },
+         "endTime": 225549,
+         "startTime": 224029
+      },
+      {
+         "text": {
+            "en": "that you define your variable before you try to use it.",
+            "pl": ", które zdefiniujesz swoją zmienną przed próbą jej użycia.",
+            "ar": "أن تقوم بتعريف المتغير الخاص بك قبل محاولة استخدامه."
+         },
+         "endTime": 228259,
+         "startTime": 225549
+      },
+      {
+         "text": {
+            "en": "And now you know about variables! Yaaay!",
+            "pl": "A teraz wiesz o zmiennych! Yaaay!",
+            "ar": "والآن أنت تعرف عن المتغيرات! (ياي)!"
+         },
+         "endTime": 231911,
+         "startTime": 229137
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/KpJ385shzgM/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759598732",
+   "title": "Intro to Variables | Variables | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

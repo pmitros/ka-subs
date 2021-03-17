@@ -1,0 +1,618 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- When we write a program, we are figuring out a way",
+            "pl": "- Kiedy piszemy program, zastanawiamy się, jak",
+            "ar": "- عندما نكتب برنامجًا، سنكتشف طريقة"
+         },
+         "endTime": 2798,
+         "startTime": 662
+      },
+      {
+         "text": {
+            "en": "to turn the brilliant ideas in our head into actual code.",
+            "pl": "aby zamienić genialne pomysły w naszej głowie w rzeczywisty kod.",
+            "ar": "لتحويل الأفكار الرائعة في رؤوسنا إلى رمز حقيقي."
+         },
+         "endTime": 6348,
+         "startTime": 2798
+      },
+      {
+         "text": {
+            "en": "Here I want to talk about a technique",
+            "pl": "Tutaj chcę porozmawiać o technice",
+            "ar": "هنا أريد أن أتحدث عن تقنية"
+         },
+         "endTime": 8947,
+         "startTime": 7117
+      },
+      {
+         "text": {
+            "en": "that many programmers use to do that",
+            "pl": "że wielu programistów używa do tego",
+            "ar": "أن العديد من المبرمجين استخدامها للقيام بذلك"
+         },
+         "endTime": 10781,
+         "startTime": 8947
+      },
+      {
+         "text": {
+            "en": "and it's what we call \"pseudocode\".",
+            "pl": "i to jest to, co nazywamy „pseudokodem”.",
+            "ar": "وهذا ما نسميه «pseudocode»."
+         },
+         "endTime": 13481,
+         "startTime": 11304
+      },
+      {
+         "text": {
+            "en": "Now pseudocode is probably a word you've never heard before",
+            "pl": "Teraz pseudokod jest prawdopodobnie słowem, którego nigdy wcześniej nie słyszałeś",
+            "ar": "الآن pseudocode هو على الارجح كلمة كنت قد سمعت من قبل"
+         },
+         "endTime": 17081,
+         "startTime": 13850
+      },
+      {
+         "text": {
+            "en": "but basically, it's code that looks a lot like English",
+            "pl": "ale w zasadzie, to kod, który wygląda jak angielski",
+            "ar": "ولكن في الأساس، انها التعليمات البرمجية التي تبدو كثيرا مثل الإنجليزية"
+         },
+         "endTime": 21248,
+         "startTime": 17383
+      },
+      {
+         "text": {
+            "en": "or really, whatever language you like to talk in.",
+            "pl": "lub naprawdę, niezależnie od języka, w którym lubisz mówić.",
+            "ar": "أو حقا، أيا كانت اللغة التي ترغب في التحدث بها."
+         },
+         "endTime": 24474,
+         "startTime": 21541
+      },
+      {
+         "text": {
+            "en": "Well, okay, that may not make sense",
+            "pl": "No dobra, to może nie mieć sensu",
+            "ar": "حسناً، حسناً، قد لا يكون ذلك منطقياً"
+         },
+         "endTime": 27192,
+         "startTime": 25946
+      },
+      {
+         "text": {
+            "en": "so let's talk through an actual example.",
+            "pl": "więc porozmawiajmy przez rzeczywisty przykład.",
+            "ar": "لذلك دعونا نتحدث من خلال مثال حقيقي."
+         },
+         "endTime": 29173,
+         "startTime": 27192
+      },
+      {
+         "text": {
+            "en": "So let's say that I want to draw a nice, symmetrical face.",
+            "pl": "Powiedzmy więc, że chcę narysować ładną, symetryczną twarz.",
+            "ar": "لذلك دعونا نقول أنني أريد أن أرسم لطيفة، وجه متناظرة."
+         },
+         "endTime": 33488,
+         "startTime": 30083
+      },
+      {
+         "text": {
+            "en": "So I might start by looking at myself in the mirror",
+            "pl": "Więc mogę zacząć od spojrzenia na siebie w lustrze",
+            "ar": "لذا قد أبدأ بالنظر إلى نفسي في المرآة"
+         },
+         "endTime": 36404,
+         "startTime": 34011
+      },
+      {
+         "text": {
+            "en": "and maybe sketching it out",
+            "pl": "i może szkicując to",
+            "ar": "وربما رسم بها"
+         },
+         "endTime": 37530,
+         "startTime": 36404
+      },
+      {
+         "text": {
+            "en": "and seeing, okay well I have this oval face,",
+            "pl": "i widząc, dobrze, mam owalną twarz,",
+            "ar": "ورؤية, حسنا حسنا لدي هذا الوجه البيضاوي,"
+         },
+         "endTime": 40098,
+         "startTime": 37530
+      },
+      {
+         "text": {
+            "en": "I have two eyes and they're about at this level",
+            "pl": "Mam dwoje oczu i są na tym poziomie",
+            "ar": "لدي عينان وهم على هذا المستوى"
+         },
+         "endTime": 44138,
+         "startTime": 40668
+      },
+      {
+         "text": {
+            "en": "and this is where the center of the face is",
+            "pl": "i to jest, gdzie znajduje się środek twarzy",
+            "ar": "وده حيث يكون مركز الوجه"
+         },
+         "endTime": 46855,
+         "startTime": 44138
+      },
+      {
+         "text": {
+            "en": "and now I have an idea for what I want my face to look like.",
+            "pl": "A teraz mam pomysł na to, jak chcę, żeby moja twarz wyglądała.",
+            "ar": "والآن لدي فكرة عن ما أريد وجهي أن يبدو عليه."
+         },
+         "endTime": 51194,
+         "startTime": 46855
+      },
+      {
+         "text": {
+            "en": "So, I'll start writing it in pseudocode.",
+            "pl": "Zacznę pisać w pseudokodzie.",
+            "ar": "لذلك، سأبدأ كتابته في pseudocode."
+         },
+         "endTime": 54596,
+         "startTime": 51776
+      },
+      {
+         "text": {
+            "en": "So let's see, the first thing we want to do is",
+            "pl": "Zobaczmy więc, pierwszą rzeczą, którą chcemy zrobić, jest",
+            "ar": "لذلك دعونا نرى، أول شيء نريد القيام به هو"
+         },
+         "endTime": 57945,
+         "startTime": 55795
+      },
+      {
+         "text": {
+            "en": "draw the face which is an oval in the center.",
+            "pl": "narysuj twarz, która jest owal w środku.",
+            "ar": "رسم الوجه الذي هو بيضاوي في المركز."
+         },
+         "endTime": 61085,
+         "startTime": 58438
+      },
+      {
+         "text": {
+            "en": "Then we'd want to draw the two eyes,",
+            "pl": "Wtedy chcielibyśmy narysować obie oczy,",
+            "ar": "ثم نريد أن نرسم العينين،"
+         },
+         "endTime": 65331,
+         "startTime": 62621
+      },
+      {
+         "text": {
+            "en": "which are two ovals, about two thirds up the face",
+            "pl": "które są dwa owale, około dwóch trzecich w górę twarzy",
+            "ar": "وهما بيضاويان، حوالي ثلثي الوجه"
+         },
+         "endTime": 70926,
+         "startTime": 65926
+      },
+      {
+         "text": {
+            "en": "and maybe one fifth the size of the face.",
+            "pl": "i może jedną piątą wielkości twarzy.",
+            "ar": "وربما خمس حجم الوجه."
+         },
+         "endTime": 74740,
+         "startTime": 71784
+      },
+      {
+         "text": {
+            "en": "Not exact math there, just looking at my own face.",
+            "pl": "Nie do końca matematyka, tylko patrząc na moją własną twarz.",
+            "ar": "ليس بالضبط الرياضيات هناك، مجرد النظر إلى وجهي الخاص."
+         },
+         "endTime": 77967,
+         "startTime": 75346
+      },
+      {
+         "text": {
+            "en": "And then we draw the mouth which is a line",
+            "pl": "A potem rysujemy usta, które jest linią",
+            "ar": "ثم نرسم الفم الذي هو خط"
+         },
+         "endTime": 80736,
+         "startTime": 78330
+      },
+      {
+         "text": {
+            "en": "going halfway across the face",
+            "pl": "idąc w połowie twarzy",
+            "ar": "الذهاب في منتصف الطريق عبر الوجه"
+         },
+         "endTime": 83621,
+         "startTime": 80736
+      },
+      {
+         "text": {
+            "en": "and maybe one third of the way up.",
+            "pl": "i może jedną trzecią drogi w górę.",
+            "ar": "وربما ثلث الطريق للأعلى."
+         },
+         "endTime": 87971,
+         "startTime": 84145
+      },
+      {
+         "text": {
+            "en": "So, notice how I write my pseudocode as comments",
+            "pl": "Zauważ więc, jak piszę mój pseudokod jako komentarze",
+            "ar": "لذلك، لاحظ كيف أكتب بلدي pseudocode كتعليقات"
+         },
+         "endTime": 92377,
+         "startTime": 89435
+      },
+      {
+         "text": {
+            "en": "by starting each line with the two slashes here.",
+            "pl": "rozpoczynając każdą linię z dwoma ukośnikami tutaj.",
+            "ar": "من خلال بدء كل سطر مع اثنين مائلة هنا."
+         },
+         "endTime": 95497,
+         "startTime": 92716
+      },
+      {
+         "text": {
+            "en": "That way I can write my pseudocode in the program itself",
+            "pl": "W ten sposób mogę napisać mój pseudokod w samym programie",
+            "ar": "بهذه الطريقة يمكنني كتابة شبة الكود الخاص بي في البرنامج نفسه"
+         },
+         "endTime": 99979,
+         "startTime": 96602
+      },
+      {
+         "text": {
+            "en": "and not have to worry about getting any syntax errors",
+            "pl": "i nie musisz się martwić o jakiekolwiek błędy składniowe",
+            "ar": "ولا داعي للقلق بشأن الحصول على أي أخطاء في بناء الجملة"
+         },
+         "endTime": 102778,
+         "startTime": 99979
+      },
+      {
+         "text": {
+            "en": "because the program will ignore comments.",
+            "pl": "ponieważ program będzie ignorował komentarze.",
+            "ar": "لأن البرنامج سوف يتجاهل التعليقات."
+         },
+         "endTime": 106049,
+         "startTime": 103824
+      },
+      {
+         "text": {
+            "en": "Now that I've written this in pseudocode,",
+            "pl": "Teraz, gdy napisałem to pseudokodem,",
+            "ar": "الآن بعد أن كتبت هذا في pseudocode،"
+         },
+         "endTime": 108912,
+         "startTime": 106981
+      },
+      {
+         "text": {
+            "en": "I can spend the time to turn each",
+            "pl": "Mogę spędzić czas, aby włączyć każdego",
+            "ar": "يمكنني قضاء الوقت لتحويل كل"
+         },
+         "endTime": 111033,
+         "startTime": 108912
+      },
+      {
+         "text": {
+            "en": "of these lines of pseudocode into actual bits of code.",
+            "pl": "tych linii pseudokodu do rzeczywistych bitów kodu.",
+            "ar": "من هذه الأسطر من pseudocode إلى بت الفعلية من التعليمات البرمجية."
+         },
+         "endTime": 114734,
+         "startTime": 111033
+      },
+      {
+         "text": {
+            "en": "Alright, so let's see.",
+            "pl": "Dobra, więc zobaczmy.",
+            "ar": "حسنا، لذلك دعونا نرى."
+         },
+         "endTime": 116265,
+         "startTime": 115316
+      },
+      {
+         "text": {
+            "en": "For the face, an oval in the center.",
+            "pl": "Dla twarzy owal w środku.",
+            "ar": "للوجه، بيضاوي في المركز."
+         },
+         "endTime": 118703,
+         "startTime": 116265
+      },
+      {
+         "text": {
+            "en": "Well that I'll use the ellipse function for",
+            "pl": "Dobrze, że będę korzystać z funkcji elipsy",
+            "ar": "حسنا أنني سوف تستخدم وظيفة القطع الناقص ل"
+         },
+         "endTime": 121244,
+         "startTime": 118703
+      },
+      {
+         "text": {
+            "en": "and I'll figure out the center of the screen here",
+            "pl": "a ja wymyślę środek ekranu tutaj",
+            "ar": "وسأكتشف مركز الشاشة هنا"
+         },
+         "endTime": 125257,
+         "startTime": 121244
+      },
+      {
+         "text": {
+            "en": "and figure out a nice size.",
+            "pl": "i dowiedzieć się ładny rozmiar.",
+            "ar": "ومعرفة حجم جميل."
+         },
+         "endTime": 128047,
+         "startTime": 125257
+      },
+      {
+         "text": {
+            "en": "Okay, that looks good.",
+            "pl": "Dobra, to wygląda dobrze.",
+            "ar": "حسناً، هذا يبدو جيداً"
+         },
+         "endTime": 130133,
+         "startTime": 128562
+      },
+      {
+         "text": {
+            "en": "For the eyes, once again those are ellipses.",
+            "pl": "Dla oczu, po raz kolejny są to elipsy.",
+            "ar": "للعيون، مرة أخرى تلك هي الحذف."
+         },
+         "endTime": 132676,
+         "startTime": 130449
+      },
+      {
+         "text": {
+            "en": "Everything on my face is an ellipse, I'm very round.",
+            "pl": "Wszystko na mojej twarzy to elipsa, jestem bardzo okrągła.",
+            "ar": "كل شيء على وجهي هو القطع الناقص، وأنا مستدير جدا."
+         },
+         "endTime": 135606,
+         "startTime": 132908
+      },
+      {
+         "text": {
+            "en": "It's going to be, let's see, we'll do some math here",
+            "pl": "To będzie, zobaczmy, zrobimy trochę matematyki tutaj",
+            "ar": "انها ستكون، دعونا نرى، سنقوم ببعض الرياضيات هنا"
+         },
+         "endTime": 139900,
+         "startTime": 137067
+      },
+      {
+         "text": {
+            "en": "to get the eyes at a nice place",
+            "pl": "aby uzyskać oczy w ładnym miejscu",
+            "ar": "للحصول على عيون في مكان جميل"
+         },
+         "endTime": 143545,
+         "startTime": 139900
+      },
+      {
+         "text": {
+            "en": "and make them about fit the size.",
+            "pl": "i sprawiają, że pasują do rozmiaru.",
+            "ar": "وجعلها حول تناسب الحجم."
+         },
+         "endTime": 147042,
+         "startTime": 143545
+      },
+      {
+         "text": {
+            "en": "Okay, that looks good for the first eye,",
+            "pl": "Dobrze wygląda na pierwsze oko.",
+            "ar": "حسناً، هذا يبدو جيداً للعين الأولى"
+         },
+         "endTime": 149134,
+         "startTime": 147044
+      },
+      {
+         "text": {
+            "en": "I'll just copy and paste to make the next eye.",
+            "pl": "Po prostu skopiuję i wkleję, żeby zrobić następne oko.",
+            "ar": "أنا فقط نسخ ولصق لجعل العين التالية."
+         },
+         "endTime": 151281,
+         "startTime": 149134
+      },
+      {
+         "text": {
+            "en": "Great.",
+            "pl": "Świetnie.",
+            "ar": "عظيم"
+         },
+         "endTime": 152716,
+         "startTime": 151757
+      },
+      {
+         "text": {
+            "en": "Now, I can even leave my pseudocode",
+            "pl": "Teraz mogę nawet zostawić mój pseudokod",
+            "ar": "الآن، يمكنني حتى ترك الكود الزائف"
+         },
+         "endTime": 155423,
+         "startTime": 153136
+      },
+      {
+         "text": {
+            "en": "for a friend to implement and they probably could",
+            "pl": "dla przyjaciela do wdrożenia i prawdopodobnie może",
+            "ar": "لصديق لتنفيذ وأنها ربما يمكن"
+         },
+         "endTime": 157915,
+         "startTime": 155423
+      },
+      {
+         "text": {
+            "en": "because I've given this really nice description.",
+            "pl": "bo dałem ten naprawdę ładny opis.",
+            "ar": "لأنني أعطيت هذا الوصف الجميل"
+         },
+         "endTime": 160075,
+         "startTime": 157915
+      },
+      {
+         "text": {
+            "en": "So I'm going to do that here because we're friends, right?",
+            "pl": "Zrobię to tutaj, bo jesteśmy przyjaciółmi, prawda?",
+            "ar": "لذلك أنا ذاهب للقيام بذلك هنا لأننا أصدقاء، أليس كذلك؟"
+         },
+         "endTime": 165083,
+         "startTime": 160782
+      },
+      {
+         "text": {
+            "en": "So you might think this is silly,",
+            "pl": "Więc może myślisz, że to głupie,",
+            "ar": "لذا قد تعتقد أن هذا سخيف"
+         },
+         "endTime": 168766,
+         "startTime": 165898
+      },
+      {
+         "text": {
+            "en": "why are we going through the effort",
+            "pl": "dlaczego przechodzimy przez wysiłek",
+            "ar": "ليش نمر بالمجهود"
+         },
+         "endTime": 170454,
+         "startTime": 168766
+      },
+      {
+         "text": {
+            "en": "to write our program twice, first in human language",
+            "pl": "napisać nasz program dwa razy, najpierw w języku ludzkim",
+            "ar": "لكتابة برنامجنا مرتين، أولا في اللغة البشرية"
+         },
+         "endTime": 173529,
+         "startTime": 170454
+      },
+      {
+         "text": {
+            "en": "and then in program language?",
+            "pl": "a następnie w języku programu?",
+            "ar": "ثم بلغة البرنامج؟"
+         },
+         "endTime": 175068,
+         "startTime": 173529
+      },
+      {
+         "text": {
+            "en": "Well, this example was pretty simple",
+            "pl": "Cóż, ten przykład był dość prosty",
+            "ar": "حسنا، هذا المثال كان بسيطا جدا"
+         },
+         "endTime": 177846,
+         "startTime": 175383
+      },
+      {
+         "text": {
+            "en": "but pretty soon you'll be building more complex programs",
+            "pl": "ale wkrótce będziesz budować bardziej złożone programy",
+            "ar": "ولكن قريبا جدا سوف تكون بناء برامج أكثر تعقيدا"
+         },
+         "endTime": 180527,
+         "startTime": 177846
+      },
+      {
+         "text": {
+            "en": "and it may be hard for you to keep the whole program",
+            "pl": "i może być trudno utrzymać cały program",
+            "ar": "وقد يكون من الصعب عليك الحفاظ على البرنامج بأكمله"
+         },
+         "endTime": 183360,
+         "startTime": 180527
+      },
+      {
+         "text": {
+            "en": "in your head before coding it,",
+            "pl": "w głowie przed kodowaniem go,",
+            "ar": "في رأسك قبل ترميزها،"
+         },
+         "endTime": 185763,
+         "startTime": 183360
+      },
+      {
+         "text": {
+            "en": "so what I usually do is write the general idea",
+            "pl": "Więc to co zwykle robię, to napisać ogólną ideę",
+            "ar": "لذلك ما أقوم به عادة هو كتابة الفكرة العامة"
+         },
+         "endTime": 187945,
+         "startTime": 185763
+      },
+      {
+         "text": {
+            "en": "in pseudocode first and then I'll spend more time",
+            "pl": "w pseudokodzie, a potem spędzę więcej czasu",
+            "ar": "في pseudocode أولا ثم سأقضي المزيد من الوقت"
+         },
+         "endTime": 192182,
+         "startTime": 187945
+      },
+      {
+         "text": {
+            "en": "on the details of each part of that idea,",
+            "pl": "na szczegółach każdej części tego pomysłu,",
+            "ar": "على تفاصيل كل جزء من تلك الفكرة,"
+         },
+         "endTime": 195341,
+         "startTime": 192182
+      },
+      {
+         "text": {
+            "en": "converting each line of pseudocode into real code.",
+            "pl": "przekształcając każdą linię pseudokodu na prawdziwy kod.",
+            "ar": "تحويل كل سطر من pseudocode إلى رمز حقيقي."
+         },
+         "endTime": 199242,
+         "startTime": 195341
+      },
+      {
+         "text": {
+            "en": "I think you'll find once you start using pseudocode,",
+            "pl": "Myślę, że znajdziesz, gdy zaczniesz używać pseudokodu,",
+            "ar": "أعتقد أنك سوف تجد بمجرد البدء في استخدام pseudocode،"
+         },
+         "endTime": 202674,
+         "startTime": 199826
+      },
+      {
+         "text": {
+            "en": "you'll do it more and more.",
+            "pl": "Będziesz to robić coraz więcej.",
+            "ar": "عليك أن تفعل ذلك أكثر وأكثر."
+         },
+         "endTime": 203957,
+         "startTime": 202674
+      },
+      {
+         "text": {
+            "en": "Try it in your next program and see.",
+            "pl": "Wypróbuj go w następnym programie i zobacz.",
+            "ar": "جربه في برنامجك التالي وانظر."
+         },
+         "endTime": 206680,
+         "startTime": 204400
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/4S5ckWkMnMU/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615761979666",
+   "title": "Planning with pseudo-code | Becoming a better programmer | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

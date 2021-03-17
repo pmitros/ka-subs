@@ -1,0 +1,735 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "I've written a program to tell you juicy details about",
+            "pl": "Napisałem program, który powie ci soczyste szczegóły na temat",
+            "ar": "لقد كتبت برنامج لاقول لكم تفاصيل العصير حول"
+         },
+         "endTime": 3803,
+         "startTime": 1333
+      },
+      {
+         "text": {
+            "en": "Winston, but not too much because Winston likes to keep some",
+            "pl": "Winston, ale nie za bardzo, bo Winston lubi zachować",
+            "ar": "(وينستون)، لكن ليس كثيراً لأن (وينستون) يحب الاحتفاظ ببعض"
+         },
+         "endTime": 7469,
+         "startTime": 3803
+      },
+      {
+         "text": {
+            "en": "mystery. That's just the Winston way. So, let's",
+            "pl": "Tajemnica. To tylko sposób Winstona. Więc, chodźmy",
+            "ar": "الغموض. هذه طريقة (وينستون) فحسب لذلك، دعونا"
+         },
+         "endTime": 11870,
+         "startTime": 7469
+      },
+      {
+         "text": {
+            "en": "see how I did this program. I created some variables at the top to store bits of",
+            "pl": "zobaczyć, jak zrobiłem ten program. Stworzyłem kilka zmiennych na górze do przechowywania bitów",
+            "ar": "انظر كيف فعلت هذا البرنامج. أنا خلقت بعض المتغيرات في الجزء العلوي لتخزين بت"
+         },
+         "endTime": 15334,
+         "startTime": 11870
+      },
+      {
+         "text": {
+            "en": "information about him. The first variable holds a number - his age - the second variable holds",
+            "pl": "informacje o nim. Pierwsza zmienna posiada liczbę - jego wiek - druga zmienna posiada",
+            "ar": "معلومات عنه. المتغير الأول يحمل رقم - عمره - المتغير الثاني يحمل"
+         },
+         "endTime": 20034,
+         "startTime": 15334
+      },
+      {
+         "text": {
+            "en": "a string - his eyes - the third variable holds an array of strings,",
+            "pl": "ciąg - jego oczy - trzecia zmienna posiada tablicę ciągów,",
+            "ar": "سلسلة - عينيه - المتغير الثالث يحمل مجموعة من السلاسل،"
+         },
+         "endTime": 23955,
+         "startTime": 20034
+      },
+      {
+         "text": {
+            "en": "which are things he likes doing, and the last two variables hold",
+            "pl": "które są rzeczy, które lubi robić, a dwie ostatnie zmienne posiadają",
+            "ar": "وهي أشياء يحب القيام بها، وآخر متغيرين عقد"
+         },
+         "endTime": 27907,
+         "startTime": 23955
+      },
+      {
+         "text": {
+            "en": "strings which describe where he was born. Then",
+            "pl": "ciągi, które opisują, gdzie się urodził. Następnie",
+            "ar": "السلاسل التي تصف المكان الذي ولد فيه. ثم"
+         },
+         "endTime": 31566,
+         "startTime": 27907
+      },
+      {
+         "text": {
+            "en": "down here, I wrote each of these out using the text command and just using the variable",
+            "pl": "tutaj, napisałem każdy z nich się za pomocą polecenia tekstowego i po prostu za pomocą zmiennej",
+            "ar": "هنا، كتبت كل من هذه باستخدام الأمر text وفقط باستخدام المتغير"
+         },
+         "endTime": 35940,
+         "startTime": 31566
+      },
+      {
+         "text": {
+            "en": "name. And of course for the array, I have to access each element of the array",
+            "pl": "nazwisko. I oczywiście dla tablicy, muszę uzyskać dostęp do każdego elementu tablicy",
+            "ar": "اسم. وبطبيعة الحال بالنسبة للمجموعة، لا بد لي من الوصول إلى كل عنصر من عناصر مجموعة"
+         },
+         "endTime": 39699,
+         "startTime": 35940
+      },
+      {
+         "text": {
+            "en": "using bracket notation. Cool. Now,",
+            "pl": "za pomocą notacji wspornika. Fajne. Teraz,",
+            "ar": "باستخدام تدوين قوس. رائع الآن،"
+         },
+         "endTime": 43450,
+         "startTime": 39699
+      },
+      {
+         "text": {
+            "en": "all five of these variables are describing information about the same thing: Winston",
+            "pl": "wszystkie pięć z tych zmiennych opisują informacje o tym samym: Winston",
+            "ar": "كل خمسة من هذه المتغيرات تصف معلومات حول نفس الشيء: وينستون"
+         },
+         "endTime": 48636,
+         "startTime": 43450
+      },
+      {
+         "text": {
+            "en": "But the variables don't know that they're about the same thing",
+            "pl": "Ale zmienne nie wiedzą, że są w przybliżeniu tym samym",
+            "ar": "ولكن المتغيرات لا تعرف أنها عن نفس الشيء"
+         },
+         "endTime": 51598,
+         "startTime": 48636
+      },
+      {
+         "text": {
+            "en": "And, you know, in Javascript, when you wanna",
+            "pl": "I wiesz, w Javascript, kiedy chcesz",
+            "ar": "و، كما تعلمون، في جافا سكريبت، عندما تريد"
+         },
+         "endTime": 55502,
+         "startTime": 51598
+      },
+      {
+         "text": {
+            "en": "store multiple pieces of information that are related, we have a better way of",
+            "pl": "przechowywać wiele informacji, które są związane, mamy lepszy sposób",
+            "ar": "تخزين أجزاء متعددة من المعلومات التي هي ذات الصلة، لدينا طريقة أفضل ل"
+         },
+         "endTime": 59289,
+         "startTime": 55502
+      },
+      {
+         "text": {
+            "en": "storing them that's really cool, and it's called an object.",
+            "pl": "przechowywanie ich, które jest naprawdę fajne, i to się nazywa obiekt.",
+            "ar": "تخزينها هذا رائع حقا، ويسمى كائن."
+         },
+         "endTime": 63125,
+         "startTime": 59289
+      },
+      {
+         "text": {
+            "en": "So what it means is that instead of 5 variables, we can have a single",
+            "pl": "Oznacza to, że zamiast 5 zmiennych, możemy mieć jeden",
+            "ar": "وذلك ما يعنيه هو أنه بدلا من 5 المتغيرات، يمكن أن يكون لدينا واحد"
+         },
+         "endTime": 66795,
+         "startTime": 63125
+      },
+      {
+         "text": {
+            "en": "variable that stores all this information, which is pretty cool.",
+            "pl": "zmienna, która przechowuje wszystkie te informacje, co jest całkiem fajne.",
+            "ar": "المتغير الذي يخزن كل هذه المعلومات، وهو بارد جدا."
+         },
+         "endTime": 71623,
+         "startTime": 66795
+      },
+      {
+         "text": {
+            "en": "Let's try it out with Winston's information. First, we'll declare the",
+            "pl": "Wypróbujmy to z informacjami Winstona. Najpierw zadeklarujemy",
+            "ar": "دعونا نحاول بها مع معلومات ونستون. أولا، سوف نعلن"
+         },
+         "endTime": 75169,
+         "startTime": 71623
+      },
+      {
+         "text": {
+            "en": "variable and we'll call it Winston. And then",
+            "pl": "zmienną i nazwiemy to Winston. A potem",
+            "ar": "متغير وسنسميها وينستون. وبعد ذلك"
+         },
+         "endTime": 78837,
+         "startTime": 75169
+      },
+      {
+         "text": {
+            "en": "we put an open curly bracket - make sure it's curly, not square -",
+            "pl": "kładziemy otwarty nawias - upewnij się, że jest kręcony, a nie kwadratowy -",
+            "ar": "نضع قوس مجعد مفتوح - تأكد من أنه مجعد، وليس مربع -"
+         },
+         "endTime": 83399,
+         "startTime": 78837
+      },
+      {
+         "text": {
+            "en": "and a semicolon. So we've created an object",
+            "pl": "i średnik. Więc stworzyliśmy obiekt",
+            "ar": "والفاصلة المنقوطة. لذلك قمنا بإنشاء كائن"
+         },
+         "endTime": 87107,
+         "startTime": 83399
+      },
+      {
+         "text": {
+            "en": "but it has absolutely no information inside of it.",
+            "pl": "ale nie ma absolutnie żadnych informacji w środku.",
+            "ar": "ولكن ليس لديها على الإطلاق أي معلومات داخله."
+         },
+         "endTime": 91047,
+         "startTime": 87107
+      },
+      {
+         "text": {
+            "en": "So, to add a bit of information, we need to add properties.",
+            "pl": "Tak więc, aby dodać trochę informacji, musimy dodać właściwości.",
+            "ar": "لذلك، لإضافة القليل من المعلومات، نحن بحاجة إلى إضافة خصائص."
+         },
+         "endTime": 95668,
+         "startTime": 91909
+      },
+      {
+         "text": {
+            "en": "And each property is a key and a value. For example, age would be age: 19",
+            "pl": "I każda właściwość jest kluczem i wartością. Na przykład wiek byłby wiek: 19",
+            "ar": "وكل خاصية هي مفتاح وقيمة. على سبيل المثال، العمر سيكون العمر: 19"
+         },
+         "endTime": 101276,
+         "startTime": 95668
+      },
+      {
+         "text": {
+            "en": "Okay. And then for eyes, we're gonna add a",
+            "pl": "Okej. A potem dla oczu, dodamy",
+            "ar": "حسناً وبعد ذلك للعيون، ونحن ستعمل إضافة"
+         },
+         "endTime": 103789,
+         "startTime": 101276
+      },
+      {
+         "text": {
+            "en": "comma, and then eyes: \"black\". Okay, cool,",
+            "pl": "przecinek, a następnie oczy: „czarny”. Dobra, spoko.",
+            "ar": "فاصلة، ثم عيون: «أسود». حسناً، رائع"
+         },
+         "endTime": 108039,
+         "startTime": 103789
+      },
+      {
+         "text": {
+            "en": "so now Winston has two properties inside the object.",
+            "pl": "więc teraz Winston ma dwie właściwości wewnątrz obiektu.",
+            "ar": "حتى الآن وينستون لديه اثنين من الخصائص داخل الكائن."
+         },
+         "endTime": 112742,
+         "startTime": 108039
+      },
+      {
+         "text": {
+            "en": "Uh, for likes, we can just go likes: and then I'll",
+            "pl": "Uh, dla polubień, możemy po prostu iść lubi: a potem ja",
+            "ar": "اه، من أجل أمثال، يمكننا أن نذهب فقط يحب: وبعد ذلك سوف"
+         },
+         "endTime": 115607,
+         "startTime": 112742
+      },
+      {
+         "text": {
+            "en": "just copy paste this from up here... and",
+            "pl": "po prostu skopiuj wklej to stąd... i",
+            "ar": "مجرد نسخ لصق هذا من فوق هنا... و"
+         },
+         "endTime": 120076,
+         "startTime": 115607
+      },
+      {
+         "text": {
+            "en": "very nice. So let's look at this. Winston has three properties",
+            "pl": "Bardzo ładne. Więc spójrzmy na to. Winston ma trzy właściwości",
+            "ar": "لطيفة جدا. لذلك دعونا ننظر في هذا. وينستون لديه ثلاث عقارات"
+         },
+         "endTime": 124000,
+         "startTime": 120076
+      },
+      {
+         "text": {
+            "en": "Every property has a key, which is what's on the right",
+            "pl": "Każda nieruchomość ma klucz, który jest po prawej stronie",
+            "ar": "كل خاصية لديها مفتاح، وهو ما على اليمين"
+         },
+         "endTime": 127527,
+         "startTime": 124000
+      },
+      {
+         "text": {
+            "en": "hand side, and a value, which is what's on the left-hand side.",
+            "pl": "strony strony strony, a wartość, która jest to, co znajduje się po lewej stronie.",
+            "ar": "الجانب اليد، وقيمة، وهو ما هو على الجانب الأيسر."
+         },
+         "endTime": 132796,
+         "startTime": 127527
+      },
+      {
+         "text": {
+            "en": "For the key, it should follow the same rules as Javascript",
+            "pl": "Dla klucza, powinien on przestrzegać tych samych zasad, co Javascript",
+            "ar": "بالنسبة للمفتاح، يجب أن يتبع نفس القواعد مثل Javascript"
+         },
+         "endTime": 135632,
+         "startTime": 132796
+      },
+      {
+         "text": {
+            "en": "variable names. No spaces, start it with a letter, all that",
+            "pl": "nazwy zmiennych. Żadnych spacji, zacznij od litery, wszystko",
+            "ar": "أسماء المتغيرات. لا مسافات، ابدأ بحرف، كل ذلك"
+         },
+         "endTime": 140099,
+         "startTime": 135632
+      },
+      {
+         "text": {
+            "en": "For the value, it can be any type of value",
+            "pl": "Dla wartości, może to być dowolny typ wartości",
+            "ar": "بالنسبة للقيمة، يمكن أن يكون أي نوع من القيمة"
+         },
+         "endTime": 142960,
+         "startTime": 140591
+      },
+      {
+         "text": {
+            "en": "we've seen so far. It could be number, it could be a string, it could be an array",
+            "pl": "Widzieliśmy do tej pory. Może to być liczba, może to być ciąg znaków, może to być tablica",
+            "ar": "لقد رأينا حتى الآن. يمكن أن يكون الرقم، يمكن أن يكون سلسلة، يمكن أن يكون صفيف"
+         },
+         "endTime": 147124,
+         "startTime": 142960
+      },
+      {
+         "text": {
+            "en": "It could even be a boolean, so we could add isCool: true, of course",
+            "pl": "To może być nawet logiczna, więc możemy dodać isCool: prawda, oczywiście",
+            "ar": "يمكن أن يكون حتى منطقية، حتى نتمكن من إضافة isCool: صحيح، بالطبع"
+         },
+         "endTime": 153373,
+         "startTime": 147124
+      },
+      {
+         "text": {
+            "en": "In fact, the value could even be another object. So,",
+            "pl": "W rzeczywistości wartość może być nawet inny obiekt. Więc,",
+            "ar": "في الواقع، يمكن أن تكون القيمة كائنًا آخر. لذلك،"
+         },
+         "endTime": 158398,
+         "startTime": 154126
+      },
+      {
+         "text": {
+            "en": "BirthCity and BirthState. Those really are bits of information about the same",
+            "pl": "Birthcity i BirthState. To naprawdę są fragmenty informacji o tym samym",
+            "ar": "الولادةالمدينة والولادات. تلك هي حقا أجزاء من المعلومات عن نفسه"
+         },
+         "endTime": 162709,
+         "startTime": 158398
+      },
+      {
+         "text": {
+            "en": "thing, which is a single location. And, so I think it be make",
+            "pl": "rzecz, która jest jednym miejscu. I, więc myślę, że to będzie zrobić",
+            "ar": "شيء, وهو موقع واحد. و، لذلك أعتقد أنه يكون جعل"
+         },
+         "endTime": 166616,
+         "startTime": 162709
+      },
+      {
+         "text": {
+            "en": "more sense if we stored it as an object. I'll add another key, birthplace,",
+            "pl": "więcej sensu, jeśli przechowujemy go jako obiekt. Dodam kolejny klucz, miejsce narodzin,",
+            "ar": "أكثر منطقية إذا قمنا بتخزينه ككائن. سأضيف مفتاح آخر، مسقط رأس،"
+         },
+         "endTime": 171042,
+         "startTime": 166616
+      },
+      {
+         "text": {
+            "en": "and then for the value I'm gonna put my curly brackets again",
+            "pl": "a potem dla wartości zamierzam umieścić moje nawiasy ponownie",
+            "ar": "ثم للقيمة أنا ستعمل وضع بلدي الأقواس مجعد مرة أخرى"
+         },
+         "endTime": 174836,
+         "startTime": 171042
+      },
+      {
+         "text": {
+            "en": "and then inside I'll have key for city,",
+            "pl": "a w środku będę miał klucz do miasta,",
+            "ar": "ومن ثم داخل سيكون لدي مفتاح للمدينة،"
+         },
+         "endTime": 178376,
+         "startTime": 174836
+      },
+      {
+         "text": {
+            "en": "\"Mountain View\", and then state,",
+            "pl": "„Mountain View”, a następnie stan,",
+            "ar": "«ماونتن فيو»، ومن ثم الدولة،"
+         },
+         "endTime": 182287,
+         "startTime": 178376
+      },
+      {
+         "text": {
+            "en": "\"California\". Great! So now you can see, you can really",
+            "pl": "„Kalifornia”. Świetnie! Więc teraz widzisz, możesz naprawdę",
+            "ar": "«كاليفورنيا». عظيم! حتى الآن يمكنك أن ترى، يمكنك حقا"
+         },
+         "endTime": 186766,
+         "startTime": 182287
+      },
+      {
+         "text": {
+            "en": "store very rich information inside an object.",
+            "pl": "przechowywać bardzo bogate informacje wewnątrz obiektu.",
+            "ar": "تخزين معلومات غنية جدا داخل كائن."
+         },
+         "endTime": 190480,
+         "startTime": 186766
+      },
+      {
+         "text": {
+            "en": "All right. So now that we have this nice object that describes all this information about Winston,",
+            "pl": "W porządku. Więc teraz, gdy mamy ten ładny obiekt, który opisuje wszystkie te informacje o Winston,",
+            "ar": "حسناً حتى الآن أن لدينا هذا الكائن الجميل الذي يصف كل هذه المعلومات عن وينستون،"
+         },
+         "endTime": 195459,
+         "startTime": 191033
+      },
+      {
+         "text": {
+            "en": "let's try deleting those old separate variables",
+            "pl": "spróbujmy usunąć te stare oddzielne zmienne",
+            "ar": "دعونا نحاول حذف تلك المتغيرات القديمة المنفصلة"
+         },
+         "endTime": 198783,
+         "startTime": 195459
+      },
+      {
+         "text": {
+            "en": "that didn't know about each other. Okay",
+            "pl": "którzy o sobie nie wiedzieli. Dobrze",
+            "ar": "التي لم تكن تعرف عن بعضها البعض حسنا"
+         },
+         "endTime": 203066,
+         "startTime": 198783
+      },
+      {
+         "text": {
+            "en": "Um, uh oh! Uh so now we've got an error. And that's because our",
+            "pl": "Um, uh oh! Więc teraz mamy błąd. A to dlatego, że nasze",
+            "ar": "أم، اه أوه! اه حتى الآن لدينا خطأ. وذلك لأن لدينا"
+         },
+         "endTime": 207039,
+         "startTime": 203066
+      },
+      {
+         "text": {
+            "en": "text commands are referencing the old variables. We need to update",
+            "pl": "polecenia tekstowe odwołują się do starych zmiennych. Musimy zaktualizować",
+            "ar": "تشير أوامر النص إلى المتغيرات القديمة. نحن بحاجة إلى تحديث"
+         },
+         "endTime": 210739,
+         "startTime": 207039
+      },
+      {
+         "text": {
+            "en": "them to use information from the object instead. Let's",
+            "pl": ", aby zamiast tego użyć informacji z obiektu. Zróbmy to",
+            "ar": "لهم لاستخدام المعلومات من الكائن بدلا من ذلك. دعونا"
+         },
+         "endTime": 214502,
+         "startTime": 210739
+      },
+      {
+         "text": {
+            "en": "start with just commenting out the last three so that we can",
+            "pl": "zacząć od tylko komentując ostatnie trzy tak, że możemy",
+            "ar": "تبدأ مع مجرد التعليق من الثلاثة الماضية حتى نتمكن من"
+         },
+         "endTime": 218218,
+         "startTime": 214502
+      },
+      {
+         "text": {
+            "en": "do one at a time. Okay. So it says WinstonAge",
+            "pl": "robić po jednym na raz. Okej. Więc jest napisane, że WinStonage",
+            "ar": "القيام واحد في وقت واحد. حسناً لذلك يقول وينستوناج"
+         },
+         "endTime": 221872,
+         "startTime": 218218
+      },
+      {
+         "text": {
+            "en": "right now. What we need to do is replace that, so we'll type",
+            "pl": "Właśnie teraz. Musimy to wymienić, więc wpiszmy",
+            "ar": "في الوقت الحالي ما نحتاج إلى القيام به هو استبدال ذلك، لذلك سنقوم كتابة"
+         },
+         "endTime": 226396,
+         "startTime": 221872
+      },
+      {
+         "text": {
+            "en": "winston, cause that's the variable name. Notice if we",
+            "pl": "winston, bo to nazwa zmiennej. Zauważ, jeśli",
+            "ar": "وينستون، سبب هذا هو اسم المتغير. لاحظ إذا كنا"
+         },
+         "endTime": 230293,
+         "startTime": 226396
+      },
+      {
+         "text": {
+            "en": "just leave it like that, it says object object. That's really",
+            "pl": "Po prostu zostaw to tak, mówi obiekt. To naprawdę",
+            "ar": "مجرد ترك الأمر من هذا القبيل، فإنه يقول كائن كائن. هذا حقا"
+         },
+         "endTime": 233834,
+         "startTime": 230293
+      },
+      {
+         "text": {
+            "en": "gross. That's Javascript telling us that we're trying to turn an entire",
+            "pl": "brutto. To Javascript mówi nam, że staramy się zmienić cały",
+            "ar": "الإجمالي. هذا هو جافا سكريبت تخبرنا أننا نحاول تحويل كامل"
+         },
+         "endTime": 237369,
+         "startTime": 233834
+      },
+      {
+         "text": {
+            "en": "object into a string value. But instead, we really just",
+            "pl": "do wartości ciągu znaków. Ale zamiast tego, naprawdę po prostu",
+            "ar": "الكائن في قيمة سلسلة. ولكن بدلا من ذلك، نحن حقا فقط"
+         },
+         "endTime": 242109,
+         "startTime": 237369
+      },
+      {
+         "text": {
+            "en": "wanna access only the age inside of it. So what we do is we put a",
+            "pl": "Chcę mieć dostęp tylko do wieku wewnątrz. Więc co robimy, to umieścimy",
+            "ar": "أريد الوصول فقط إلى العمر داخله. لذلك ما نقوم به هو وضعنا"
+         },
+         "endTime": 246134,
+         "startTime": 242109
+      },
+      {
+         "text": {
+            "en": "dot, and then we write the property key, which is \"age\".",
+            "pl": "kropki, a następnie piszemy klucz własności, który jest „wiek”.",
+            "ar": "نقطة، ومن ثم نكتب مفتاح الملكية، وهو «العمر»."
+         },
+         "endTime": 251063,
+         "startTime": 246134
+      },
+      {
+         "text": {
+            "en": "Tada! We have the age. We call this \"dot notation,\"",
+            "pl": "Tada! Mamy wiek. Nazywamy to „notacją kropki”",
+            "ar": "(تادا)! لدينا العمر نسمي هذا «تدوين النقاط»"
+         },
+         "endTime": 254897,
+         "startTime": 251063
+      },
+      {
+         "text": {
+            "en": "which is where we write the variable name for the object, and then a dot,",
+            "pl": "gdzie piszemy nazwę zmiennej dla obiektu, a następnie kropkę,",
+            "ar": "وهو المكان الذي نكتب فيه اسم المتغير للكائن، ثم نقطة،"
+         },
+         "endTime": 258284,
+         "startTime": 254897
+      },
+      {
+         "text": {
+            "en": "and then the property key. Okay, so we can",
+            "pl": ", a następnie klucz własności. Ok, więc możemy",
+            "ar": "ثم مفتاح الخاصية. حسنا، حتى نتمكن"
+         },
+         "endTime": 261791,
+         "startTime": 258284
+      },
+      {
+         "text": {
+            "en": "go and do more now. Let's uncomment this, and then instead of Winston",
+            "pl": "Idź i zrób więcej teraz. Odkomentujmy to, a potem zamiast Winstona",
+            "ar": "اذهب وفعل المزيد الآن. دعونا نعلق هذا، وبعد ذلك بدلا من وينستون"
+         },
+         "endTime": 266244,
+         "startTime": 261791
+      },
+      {
+         "text": {
+            "en": "eyes, we'll just say winston dot eyes, and then",
+            "pl": "oczy, powiemy po prostu winston kropka oczy, a następnie",
+            "ar": "عيون، ونحن سوف نقول فقط وينستون نقطة عيون، وبعد ذلك"
+         },
+         "endTime": 269877,
+         "startTime": 266244
+      },
+      {
+         "text": {
+            "en": "for this one, it'll be winston dot likes,",
+            "pl": "dla tego, to będzie Winston Dot Lubi,",
+            "ar": "لهذا واحد، وسوف يكون وينستون دوت يحب،"
+         },
+         "endTime": 274074,
+         "startTime": 269877
+      },
+      {
+         "text": {
+            "en": "and then winston dot likes one, and then",
+            "pl": "a następnie winston dot lubi jeden, a następnie",
+            "ar": "ثم وينستون دوت يحب واحد، وبعد ذلك"
+         },
+         "endTime": 277741,
+         "startTime": 274074
+      },
+      {
+         "text": {
+            "en": "for this last one, it's a little more complicated because",
+            "pl": "dla tego ostatniego, jest to trochę bardziej skomplikowane, ponieważ",
+            "ar": "لهذا الأخير، انها أكثر تعقيدا قليلا ل"
+         },
+         "endTime": 282501,
+         "startTime": 277741
+      },
+      {
+         "text": {
+            "en": "it's an object inside an object. So we're gonna say",
+            "pl": "to obiekt wewnątrz obiektu. Więc powiemy",
+            "ar": "انها كائن داخل كائن. لذا سنقول"
+         },
+         "endTime": 285451,
+         "startTime": 282501
+      },
+      {
+         "text": {
+            "en": "winston, and then dot, birthplace,",
+            "pl": "winston, a następnie kropka, miejsce narodzin,",
+            "ar": "وينستون, ثم نقطة, مسقط رأس,"
+         },
+         "endTime": 288784,
+         "startTime": 285451
+      },
+      {
+         "text": {
+            "en": "but if we do that it's still just the whole object so then we have to say dot,",
+            "pl": "ale jeśli to zrobimy, to nadal tylko cały obiekt, więc musimy powiedzieć kropka,",
+            "ar": "ولكن إذا فعلنا ذلك انها لا تزال مجرد الكائن كله حتى ذلك الحين علينا أن نقول نقطة،"
+         },
+         "endTime": 293288,
+         "startTime": 288784
+      },
+      {
+         "text": {
+            "en": "city. Okay let's do this here... winston,",
+            "pl": "miasto. Dobra, zróbmy to tutaj... Winston,",
+            "ar": "المدينة. حسناً، لنفعل هذا هنا (وينستون)"
+         },
+         "endTime": 297455,
+         "startTime": 293288
+      },
+      {
+         "text": {
+            "en": "dot, birthplace, dot, state.",
+            "pl": "kropka, miejsce narodzin, kropka, stan.",
+            "ar": "نقطة، مسقط رأس، نقطة، الدولة."
+         },
+         "endTime": 301572,
+         "startTime": 297455
+      },
+      {
+         "text": {
+            "en": "Tada! So it's really cool cause you can just reach down inside the objects",
+            "pl": "Tada! Więc to jest naprawdę fajne bo można po prostu dotrzeć w dół wewnątrz obiektów",
+            "ar": "(تادا)! لذلك فمن بارد حقا السبب يمكنك فقط الوصول إلى أسفل داخل الكائنات"
+         },
+         "endTime": 305791,
+         "startTime": 301572
+      },
+      {
+         "text": {
+            "en": "that are in the objects. All right",
+            "pl": ", które znajdują się w obiektach. W porządku.",
+            "ar": "التي هي في الكائنات. كل الحق"
+         },
+         "endTime": 309416,
+         "startTime": 305791
+      },
+      {
+         "text": {
+            "en": "Awesome. So, as you can see,",
+            "pl": "Niesamowite Więc, jak widzicie,",
+            "ar": "رائع. لذا، كما ترون،"
+         },
+         "endTime": 313919,
+         "startTime": 310863
+      },
+      {
+         "text": {
+            "en": "objects are a great way to store a bunch of related bits",
+            "pl": "obiekty to świetny sposób, aby przechowywać kilka powiązanych bitów",
+            "ar": "الكائنات هي طريقة رائعة لتخزين مجموعة من البتات ذات الصلة"
+         },
+         "endTime": 317597,
+         "startTime": 313919
+      },
+      {
+         "text": {
+            "en": "of information about an object, and then be able to access it later.",
+            "pl": "informacji o obiekcie, a następnie uzyskać do niego dostęp później.",
+            "ar": "من المعلومات حول كائن، ومن ثم تكون قادرة على الوصول إليه في وقت لاحق."
+         },
+         "endTime": 321406,
+         "startTime": 317597
+      },
+      {
+         "text": {
+            "en": "And when you keep going, you're gonna find out just how awesome objects are!",
+            "pl": "A kiedy będziesz kontynuował, dowiesz się, jak niesamowite są przedmioty!",
+            "ar": "وعندما تستمر، كنت ستعمل معرفة كيف الأشياء رهيبة هي!"
+         },
+         "endTime": 325406,
+         "startTime": 321406
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/Lv1LWRQIBYg/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759793131",
+   "title": "Intro to Objects | Objects | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

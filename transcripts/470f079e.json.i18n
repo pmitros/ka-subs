@@ -1,0 +1,348 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Hi, welcome to programming!",
+            "pl": "Witam, zapraszamy do programowania!",
+            "ar": "مرحبا، مرحبا بكم في البرمجة!"
+         },
+         "startTime": 82,
+         "endTime": 2340
+      },
+      {
+         "text": {
+            "en": "If you've never learned to program before,",
+            "pl": "Jeśli nigdy wcześniej nie nauczyłeś się programować,",
+            "ar": "إذا لم تتعلم البرنامج من قبل"
+         },
+         "startTime": 2340,
+         "endTime": 4748
+      },
+      {
+         "text": {
+            "en": "you might be wondering what programming actually is.",
+            "pl": "możesz się zastanawiać, czym właściwie jest programowanie.",
+            "ar": "قد تتساءل ما هي البرمجة في الواقع."
+         },
+         "startTime": 4748,
+         "endTime": 8459
+      },
+      {
+         "text": {
+            "en": "Well, when we write a program,",
+            "pl": "Cóż, kiedy piszemy program,",
+            "ar": "حسناً، عندما نكتب برنامجًا،"
+         },
+         "startTime": 8459,
+         "endTime": 10507
+      },
+      {
+         "text": {
+            "en": "we're giving the computer a series of commands",
+            "pl": "dajemy komputerowi serię poleceń",
+            "ar": "نحن نعطي الكمبيوتر سلسلة من الأوامر"
+         },
+         "startTime": 10507,
+         "endTime": 12975
+      },
+      {
+         "text": {
+            "en": "that kind of look like a weird form of English.",
+            "pl": "To wygląda jak dziwna forma angielskiego.",
+            "ar": "هذا النوع من يبدو وكأنه شكل غريب من اللغة الإنجليزية."
+         },
+         "startTime": 12975,
+         "endTime": 15839
+      },
+      {
+         "text": {
+            "en": "You can think of a computer as a very obedient dog,",
+            "pl": "Możesz myśleć o komputerze jak o bardzo posłusznym psie,",
+            "ar": "يمكنك التفكير في جهاز كمبيوتر ككلب مطيع جدا،"
+         },
+         "startTime": 15839,
+         "endTime": 19333
+      },
+      {
+         "text": {
+            "en": "listening to your every command, and doing whatever you tell it to do.",
+            "pl": "Słuchając każdego rozkazu i robiąc wszystko, co mu każesz.",
+            "ar": "الاستماع إلى كل أمر الخاص بك، والقيام بكل ما تقوله للقيام به."
+         },
+         "startTime": 19333,
+         "endTime": 23527
+      },
+      {
+         "text": {
+            "en": "So what's so cool about programming?",
+            "pl": "Więc co jest takiego fajnego w programowaniu?",
+            "ar": "فما هو بارد جدا حول البرمجة؟"
+         },
+         "startTime": 23527,
+         "endTime": 25830
+      },
+      {
+         "text": {
+            "en": "Well, it really depends on what you think is cool.",
+            "pl": "To zależy od tego, co uważasz za fajne.",
+            "ar": "حسنا، هذا يعتمد حقا على ما تعتقد أنه رائع."
+         },
+         "startTime": 25830,
+         "endTime": 29105
+      },
+      {
+         "text": {
+            "en": "Because as it turns out, you can use programming for almost everything.",
+            "pl": "Ponieważ, jak się okazuje, możesz użyć programowania do prawie wszystkiego.",
+            "ar": "لأنه كما اتضح، يمكنك استخدام البرمجة لكل شيء تقريبا."
+         },
+         "startTime": 29105,
+         "endTime": 34525
+      },
+      {
+         "text": {
+            "en": "Programs control robots that can take care of patients,",
+            "pl": "Programy kontrolują roboty, które mogą dbać o pacjentów,",
+            "ar": "برامج التحكم في الروبوتات التي يمكن أن تعتني بالمرضى،"
+         },
+         "startTime": 34525,
+         "endTime": 38196
+      },
+      {
+         "text": {
+            "en": "and my favorite, robots that can roam around Mars",
+            "pl": "i moje ulubione, roboty, które mogą wędrować po Marsie",
+            "ar": "والمفضلة لي، الروبوتات التي يمكن أن تتجول حول المريخ"
+         },
+         "startTime": 38196,
+         "endTime": 41687
+      },
+      {
+         "text": {
+            "en": "and look for water on the surface.",
+            "pl": "i poszukaj wody na powierzchni.",
+            "ar": "والبحث عن الماء على السطح."
+         },
+         "startTime": 41687,
+         "endTime": 43943
+      },
+      {
+         "text": {
+            "en": "Programs help self-driving cars know which way to turn--",
+            "pl": "Programy pomagają samojezdnym samochodom wiedzieć, w którą stronę się skręcić...",
+            "ar": "البرامج تساعد السيارات ذاتية القيادة تعرف أي طريقة"
+         },
+         "startTime": 43943,
+         "endTime": 47454
+      },
+      {
+         "text": {
+            "en": "which is pretty important!",
+            "pl": "co jest bardzo ważne!",
+            "ar": "وهو أمر مهم جدا!"
+         },
+         "startTime": 47454,
+         "endTime": 49826
+      },
+      {
+         "text": {
+            "en": "Programs help doctors cure diseases by processing huge amounts of medical data.",
+            "pl": "Programy pomagają lekarzom leczyć choroby, przetwarzając ogromne ilości danych medycznych.",
+            "ar": "تساعد البرامج الأطباء على علاج الأمراض عن طريق معالجة كميات هائلة من البيانات الطبية."
+         },
+         "startTime": 49826,
+         "endTime": 55504
+      },
+      {
+         "text": {
+            "en": "Programs can be really fun games, like Doodle Jump, Angry Birds, Minecraft.",
+            "pl": "Programy mogą być naprawdę zabawnymi grami, takimi jak Doodle Jump, Angry Birds, Minecraft.",
+            "ar": "يمكن أن تكون البرامج ألعاب ممتعة حقا، مثل القفز خربش، الطيور الغاضبة، ماين كرافت."
+         },
+         "startTime": 55504,
+         "endTime": 61118
+      },
+      {
+         "text": {
+            "en": "Programs make it possible for Pixar",
+            "pl": "Programy umożliwiają Pixar",
+            "ar": "برامج تجعل من الممكن لبيكسار"
+         },
+         "startTime": 61118,
+         "endTime": 63440
+      },
+      {
+         "text": {
+            "en": "to put out their awesome 3-D animated movies,",
+            "pl": "zgasić swoje niesamowite filmy animowane 3-D,",
+            "ar": "لاخماد أفلامهم المتحركة 3-D رهيبة،"
+         },
+         "startTime": 63440,
+         "endTime": 66524
+      },
+      {
+         "text": {
+            "en": "and for movies like Harry Potter to have such cool special effects.",
+            "pl": "i dla filmów takich jak Harry Potter mieć takie fajne efekty specjalne.",
+            "ar": "ولأفلام مثل هاري بوتر أن يكون لها مثل هذه المؤثرات الخاصة الرائعة."
+         },
+         "startTime": 66524,
+         "endTime": 70342
+      },
+      {
+         "text": {
+            "en": "What's your favorite movie?",
+            "pl": "Jaki jest twój ulubiony film?",
+            "ar": "ما هو فيلمك المفضل؟"
+         },
+         "startTime": 70342,
+         "endTime": 71958
+      },
+      {
+         "text": {
+            "en": "I bet that a computer helped make it somehow.",
+            "pl": "Założę się, że komputer jakoś pomógł.",
+            "ar": "أراهن أن الكمبيوتر ساعد في جعله بطريقة أو بأخرى."
+         },
+         "startTime": 71958,
+         "endTime": 74430
+      },
+      {
+         "text": {
+            "en": "Programs are behind the websites and the apps",
+            "pl": "Programy znajdują się za witrynami i aplikacjami",
+            "ar": "البرامج هي وراء المواقع والتطبيقات"
+         },
+         "startTime": 74430,
+         "endTime": 76820
+      },
+      {
+         "text": {
+            "en": "that you use every day, all the time,",
+            "pl": "których używasz codziennie, przez cały czas,",
+            "ar": "التي تستخدمها كل يوم، طوال الوقت،"
+         },
+         "startTime": 76820,
+         "endTime": 78967
+      },
+      {
+         "text": {
+            "en": "like Google Maps, and Wikipedia, and YouTube,",
+            "pl": "takich jak Mapy Google, Wikipedia i YouTube,",
+            "ar": "مثل خرائط جوجل، وويكيبيديا، ويوتيوب،"
+         },
+         "startTime": 78967,
+         "endTime": 81668
+      },
+      {
+         "text": {
+            "en": "and of course, where you are now, Khan Academy.",
+            "pl": "i oczywiście, gdzie teraz jesteś, Khan Academy.",
+            "ar": "وبطبيعة الحال، أين أنت الآن، أكاديمية خان."
+         },
+         "startTime": 81668,
+         "endTime": 85089
+      },
+      {
+         "text": {
+            "en": "Here, on Khan Academy, you'll learn how to write JavaScript programs",
+            "pl": "Tutaj, na Khan Academy, nauczysz się pisać programy JavaScript",
+            "ar": "هنا، في أكاديمية خان، ستتعلم كيفية كتابة برامج جافا سكريبت"
+         },
+         "startTime": 85089,
+         "endTime": 88942
+      },
+      {
+         "text": {
+            "en": "to make drawings, animations, and games.",
+            "pl": ", aby tworzyć rysunki, animacje i gry.",
+            "ar": "لجعل الرسومات والرسوم المتحركة والألعاب."
+         },
+         "startTime": 88942,
+         "endTime": 91486
+      },
+      {
+         "text": {
+            "en": "And that will be a great start",
+            "pl": "I to będzie świetny początek",
+            "ar": "وهذه ستكون بداية رائعة"
+         },
+         "startTime": 91486,
+         "endTime": 93199
+      },
+      {
+         "text": {
+            "en": "towards creating whatever you're imagining in your head.",
+            "pl": "w kierunku tworzenia tego, co sobie wyobrażasz w głowie.",
+            "ar": "نحو خلق كل ما تتخيله في رأسك."
+         },
+         "startTime": 93199,
+         "endTime": 96520
+      },
+      {
+         "text": {
+            "en": "I know, it might be hard to see how a drawing program",
+            "pl": "Wiem, to może być trudne do zobaczenia, jak program do rysowania",
+            "ar": "أعلم، قد يكون من الصعب رؤية كيف يمكن لبرنامج الرسم"
+         },
+         "startTime": 96520,
+         "endTime": 100409
+      },
+      {
+         "text": {
+            "en": "relates to programs for robots, or curing diseases.",
+            "pl": "odnosi się do programów dla robotów lub leczenia chorób.",
+            "ar": "يتعلق ببرامج للروبوتات، أو علاج الأمراض."
+         },
+         "startTime": 100409,
+         "endTime": 104623
+      },
+      {
+         "text": {
+            "en": "But believe it or not, the same basic concepts",
+            "pl": "Ale wierzcie lub nie, te same podstawowe pojęcia",
+            "ar": "ولكن صدق أو لا تصدق، نفس المفاهيم الأساسية"
+         },
+         "startTime": 104623,
+         "endTime": 107781
+      },
+      {
+         "text": {
+            "en": "are used by pretty much every programmer in every program.",
+            "pl": "są używane przez prawie każdy programista w każdym programie.",
+            "ar": "يتم استخدامها من قبل كل مبرمج إلى حد كبير في كل برنامج."
+         },
+         "startTime": 107781,
+         "endTime": 111911
+      },
+      {
+         "text": {
+            "en": "Once you learn to program JavaScript,",
+            "pl": "Gdy nauczysz się programować JavaScript,",
+            "ar": "بمجرد تعلم برمجة جافا سكريبت،"
+         },
+         "startTime": 111911,
+         "endTime": 114400
+      },
+      {
+         "text": {
+            "en": "you'll be able to learn other programming languages much more easily.",
+            "pl": "będziesz w stanie uczyć się innych języków programowania znacznie łatwiej.",
+            "ar": "عليك أن تكون قادرا على تعلم لغات البرمجة الأخرى بسهولة أكبر بكثير."
+         },
+         "startTime": 114400,
+         "endTime": 118335
+      },
+      {
+         "text": {
+            "en": "Now you just gotta keep going!",
+            "pl": "Teraz po prostu musisz iść dalej!",
+            "ar": "الآن أنت فقط فلدي الاستمرار!"
+         },
+         "startTime": 118335,
+         "endTime": 120305
+      }
+   ],
+   "url": "https://www.youtube-nocookie.com/api/timedtext?v=FCMxA3m_Imc&asr_langs=de%2Cen%2Ces%2Cfr%2Cit%2Cja%2Cko%2Cnl%2Cpt%2Cru&caps=asr&exp=xftt&xorp=true&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1615784665&sparams=ip%2Cipbits%2Cexpire%2Cv%2Casr_langs%2Ccaps%2Cexp%2Cxorp%2Cxoaf&signature=2541F1CD9A017D3E17DAF30D74D74706E40EF52E.DBE4E3AA76A8FB2C2AEB165AD06864C9C7BC44CB&key=yt8&lang=en&fmt=json3&xorb=2&xobt=3&xovt=3",
+   "title": "What is Programming? (video) | Khan Academy"
+}

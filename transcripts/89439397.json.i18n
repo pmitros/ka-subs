@@ -1,0 +1,420 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- [Voiceover] Let's animate Winston",
+            "pl": "- [Voiceover] Animujmy Winstona",
+            "ar": "- [Voiceover] دعونا تحريك وينستون"
+         },
+         "endTime": 2981,
+         "startTime": 1384
+      },
+      {
+         "text": {
+            "en": "using the shortcuts that you just learned.",
+            "pl": "za pomocą skrótów, które właśnie się nauczyłeś.",
+            "ar": "باستخدام الاختصارات التي تعلمتها للتو."
+         },
+         "endTime": 5659,
+         "startTime": 2981
+      },
+      {
+         "text": {
+            "en": "Here we've got Winston with his eyes,",
+            "pl": "Tu mamy Winstona z jego oczami,",
+            "ar": "هنا لدينا وينستون بعينيه"
+         },
+         "endTime": 7781,
+         "startTime": 5659
+      },
+      {
+         "text": {
+            "en": "and we've got this eye-size variable.",
+            "pl": "i mamy tę zmienną wielkości oczu.",
+            "ar": "ولدينا هذا المتغير بحجم العين."
+         },
+         "endTime": 9629,
+         "startTime": 7781
+      },
+      {
+         "text": {
+            "en": "So if we wanted to make Winston's eyes get bigger,",
+            "pl": "Więc jeśli chcielibyśmy sprawić, by oczy Winstona były większe,",
+            "ar": "لذا إذا أردنا أن نجعل عيون (وينستون) أكبر"
+         },
+         "endTime": 12740,
+         "startTime": 9629
+      },
+      {
+         "text": {
+            "en": "we could just say, \"Eye size plus equals one.\"",
+            "pl": "Moglibyśmy po prostu powiedzieć, „Rozmiar oczu plus równa się jeden”.",
+            "ar": "يمكننا أن نقول فقط، «حجم العين زائد يساوي واحد.»"
+         },
+         "endTime": 17484,
+         "startTime": 12740
+      },
+      {
+         "text": {
+            "en": "Adding one pixel to the size of the eyes each time.",
+            "pl": "Dodawanie jednego piksela do rozmiaru oczu za każdym razem.",
+            "ar": "إضافة بكسل واحد إلى حجم العينين في كل مرة."
+         },
+         "endTime": 19748,
+         "startTime": 17484
+      },
+      {
+         "text": {
+            "en": "Whoa, look at it, it's bugging out!",
+            "pl": "Whoa, spójrz na to, to się bugging out!",
+            "ar": "مهلاً، أنظر إليها، إنها تتنصت"
+         },
+         "endTime": 21767,
+         "startTime": 19748
+      },
+      {
+         "text": {
+            "en": "So we start, whoa, bug out, bug out, bug out!",
+            "pl": "Więc zaczynamy, whoa, wypierać się, wypluwać się, wypierać się!",
+            "ar": "لذلك نبدأ، قف، علة خارج، علة خارج، علة خارج!"
+         },
+         "endTime": 24478,
+         "startTime": 21767
+      },
+      {
+         "text": {
+            "en": "Now that's pretty cool, and, it turns out,",
+            "pl": "Teraz to całkiem fajne, i okazuje się,",
+            "ar": "الآن هذا رائع جداً، واتضح"
+         },
+         "endTime": 26981,
+         "startTime": 24478
+      },
+      {
+         "text": {
+            "en": "in programming, we actually add one to variables a lot.",
+            "pl": "w programowaniu, faktycznie dodać jeden do zmiennych dużo.",
+            "ar": "في البرمجة، ونحن في الواقع إضافة واحد إلى المتغيرات كثيرا."
+         },
+         "endTime": 30278,
+         "startTime": 26981
+      },
+      {
+         "text": {
+            "en": "Maybe while animating, but also you'll see there's",
+            "pl": "Może podczas animacji, ale także zobaczysz, że",
+            "ar": "ربما أثناء الرسوم المتحركة، ولكن أيضا سترى هناك"
+         },
+         "endTime": 32726,
+         "startTime": 30278
+      },
+      {
+         "text": {
+            "en": "a lot of other reasons why we add one to variables later.",
+            "pl": "wiele innych powodów, dla których dodajemy jeden do zmiennych później.",
+            "ar": "الكثير من الأسباب الأخرى لماذا نضيف واحد إلى المتغيرات في وقت لاحق."
+         },
+         "endTime": 36415,
+         "startTime": 32726
+      },
+      {
+         "text": {
+            "en": "Programmers got bored of writing,",
+            "pl": "Programiści znudzali się pisaniem,",
+            "ar": "حصلت المبرمجين بالملل من الكتابة،"
+         },
+         "endTime": 38117,
+         "startTime": 36415
+      },
+      {
+         "text": {
+            "en": "\"Plus equals one\" all the time,",
+            "pl": "„Plus równa się jeden” cały czas,",
+            "ar": "«زائد يساوي واحد» في كل وقت،"
+         },
+         "endTime": 39173,
+         "startTime": 38117
+      },
+      {
+         "text": {
+            "en": "because programmers get bored of silly things.",
+            "pl": "bo programiści znudzą się głupimi rzeczami.",
+            "ar": "لأن المبرمجين يشعرون بالملل من الأشياء السخيفة."
+         },
+         "endTime": 41572,
+         "startTime": 39173
+      },
+      {
+         "text": {
+            "en": "So they came up with a shorter way of writing it.",
+            "pl": "Wymyślili więc krótszy sposób pisania tego.",
+            "ar": "لذلك توصلوا إلى طريقة أقصر لكتابتها."
+         },
+         "endTime": 44180,
+         "startTime": 41572
+      },
+      {
+         "text": {
+            "en": "Instead of \"Eye size plus equals one,\"",
+            "pl": "Zamiast „Rozmiar oczu plus równa się jeden,”",
+            "ar": "بدلا من «حجم العين زائد يساوي واحد،»"
+         },
+         "endTime": 46308,
+         "startTime": 44180
+      },
+      {
+         "text": {
+            "en": "we could just write, \"Eye size plus plus.\"",
+            "pl": "Moglibyśmy po prostu napisać, „Rozmiar oczu plus plus”.",
+            "ar": "يمكننا أن نكتب «حجم العين زائد زائد.»"
+         },
+         "endTime": 49647,
+         "startTime": 46308
+      },
+      {
+         "text": {
+            "en": "You see? It will do exactly the same thing.",
+            "pl": "Widzisz? Zrobi dokładnie to samo.",
+            "ar": "هل ترى؟ وسوف تفعل بالضبط نفس الشيء."
+         },
+         "endTime": 52500,
+         "startTime": 49647
+      },
+      {
+         "text": {
+            "en": "It's just a shorter way of doing it.",
+            "pl": "To tylko krótszy sposób na zrobienie tego.",
+            "ar": "انها مجرد طريقة أقصر للقيام بذلك."
+         },
+         "endTime": 55054,
+         "startTime": 52500
+      },
+      {
+         "text": {
+            "en": "Not only do we use this for programming,",
+            "pl": "Nie tylko używamy tego do programowania,",
+            "ar": "ليس فقط نحن نستخدم هذا للبرمجة،"
+         },
+         "endTime": 57724,
+         "startTime": 55762
+      },
+      {
+         "text": {
+            "en": "now most programmers just use it in everyday speech.",
+            "pl": "teraz większość programistów po prostu używać go w mowie codziennej.",
+            "ar": "الآن معظم المبرمجين مجرد استخدامه في الكلام اليومي."
+         },
+         "endTime": 60635,
+         "startTime": 57724
+      },
+      {
+         "text": {
+            "en": "Because we're all familiar with this plus plus,",
+            "pl": "Ponieważ wszyscy jesteśmy zaznajomieni z tym plusem,",
+            "ar": "لأننا جميعا على دراية هذا زائد زائد،"
+         },
+         "endTime": 63844,
+         "startTime": 60635
+      },
+      {
+         "text": {
+            "en": "and it's an easy way of saying that",
+            "pl": "i jest to łatwy sposób, aby to powiedzieć",
+            "ar": "وهي طريقة سهلة لقول ذلك"
+         },
+         "endTime": 65268,
+         "startTime": 63844
+      },
+      {
+         "text": {
+            "en": "you're making something a little bigger.",
+            "pl": "Robisz coś trochę większego.",
+            "ar": "أنت تصنع شيئاً أكبر قليلاً"
+         },
+         "endTime": 67148,
+         "startTime": 65268
+      },
+      {
+         "text": {
+            "en": "If we went to Winston's birthday party we might say,",
+            "pl": "Gdybyśmy poszli na przyjęcie urodzinowe Winstona, powiedzielibyśmy:",
+            "ar": "إذا ذهبنا إلى حفلة عيد ميلاد (وينستون)، قد نقول،"
+         },
+         "endTime": 69300,
+         "startTime": 67148
+      },
+      {
+         "text": {
+            "en": "\"Happy birthday, Winston, Winston plus plus.\"",
+            "pl": "„Wszystkiego najlepszego z okazji urodzin, Winston, Winston plus plus.”",
+            "ar": "«عيد ميلاد سعيد، وينستون، وينستون زائد.»"
+         },
+         "endTime": 72491,
+         "startTime": 69300
+      },
+      {
+         "text": {
+            "en": "Because Winston just got a year older.",
+            "pl": "Bo Winston właśnie zestarzał rok.",
+            "ar": "لأن (وينستون) تكبر بسنة"
+         },
+         "endTime": 75427,
+         "startTime": 72491
+      },
+      {
+         "text": {
+            "en": "If we just learned a new fact, we might be like,",
+            "pl": "Gdybyśmy dowiedzieli się nowego faktu, moglibyśmy być jak:",
+            "ar": "إذا تعلمنا للتو حقيقة جديدة، قد نكون مثل،"
+         },
+         "endTime": 77404,
+         "startTime": 75427
+      },
+      {
+         "text": {
+            "en": "\"Oh, go us. Intelligence plus plus,\" and that's pretty fun.",
+            "pl": "„Och, idź do nas. Inteligencja plus plus,” i to jest całkiem zabawne.",
+            "ar": "«أوه، اذهب لنا. الاستخبارات زائد، «وهذا هو متعة جدا."
+         },
+         "endTime": 82404,
+         "startTime": 77404
+      },
+      {
+         "text": {
+            "en": "So when should you use plus plus versus plus equal?",
+            "pl": "Więc kiedy należy użyć plus plus versus plus plus równy?",
+            "ar": "لذلك متى يجب عليك استخدام زائد زائد مقابل زائد يساوي؟"
+         },
+         "endTime": 86393,
+         "startTime": 83219
+      },
+      {
+         "text": {
+            "en": "I think, actually, for animation it's cool to use plus equal",
+            "pl": "Myślę, że w rzeczywistości, dla animacji fajnie jest używać plus równe",
+            "ar": "أعتقد، في الواقع، للرسوم المتحركة انها باردة لاستخدام زائد يساوي"
+         },
+         "endTime": 89091,
+         "startTime": 86393
+      },
+      {
+         "text": {
+            "en": "because then you can use a number scrubber",
+            "pl": "bo wtedy można użyć płuczki numer",
+            "ar": "لأنه بعد ذلك يمكنك استخدام رقم الغسيل"
+         },
+         "endTime": 90955,
+         "startTime": 89091
+      },
+      {
+         "text": {
+            "en": "and you can be like, \"Whoa, let's make it--",
+            "pl": "i możesz być jak: „Whoa, zróbmy to...",
+            "ar": "ويمكنك أن تكون مثل، «قف، دعونا نجعلها..."
+         },
+         "endTime": 93187,
+         "startTime": 90955
+      },
+      {
+         "text": {
+            "en": "\"Whoa, whoa, that was awesome!\"",
+            "pl": "„Whoa, whoa, to było niesamowite!”",
+            "ar": "«قف، قف، كان ذلك رائعا!»"
+         },
+         "endTime": 95491,
+         "startTime": 93187
+      },
+      {
+         "text": {
+            "en": "Let's make it really crazy, really different.",
+            "pl": "Uczyńmy to naprawdę szalone, naprawdę inne.",
+            "ar": "دعونا نجعلها مجنونة، مختلفة حقا."
+         },
+         "endTime": 98043,
+         "startTime": 95491
+      },
+      {
+         "text": {
+            "en": "Whoa! (laughs) See how fun that is?",
+            "pl": "Whoa! Widzisz jakie to zabawne?",
+            "ar": "قف! أترى كم هذا ممتع؟"
+         },
+         "endTime": 102253,
+         "startTime": 98043
+      },
+      {
+         "text": {
+            "en": "Depending on what you're doing",
+            "pl": "Zależnie od tego, co robisz",
+            "ar": "اعتمادا على ما تقومون به"
+         },
+         "endTime": 104811,
+         "startTime": 103176
+      },
+      {
+         "text": {
+            "en": "it might be convenient just to say, \"Plus plus.\"",
+            "pl": "to może być wygodne po prostu powiedzieć, „Plus plus”.",
+            "ar": "قد يكون من المناسب فقط أن أقول، «زائد زائد.»"
+         },
+         "endTime": 106930,
+         "startTime": 104811
+      },
+      {
+         "text": {
+            "en": "You'll see later that there's lots of other times",
+            "pl": "Zobaczysz później, że jest wiele innych chwil",
+            "ar": "سترى لاحقا أن هناك الكثير من الأوقات الأخرى"
+         },
+         "endTime": 110051,
+         "startTime": 106930
+      },
+      {
+         "text": {
+            "en": "when you might want to add one to variables.",
+            "pl": ", kiedy można dodać jeden do zmiennych.",
+            "ar": "عندما قد ترغب في إضافة واحد إلى المتغيرات."
+         },
+         "endTime": 111923,
+         "startTime": 110051
+      },
+      {
+         "text": {
+            "en": "Not just for animation, where that plus plus",
+            "pl": "Nie tylko dla animacji, gdzie plus",
+            "ar": "ليس فقط للرسوم المتحركة، حيث أن زائد زائد"
+         },
+         "endTime": 113459,
+         "startTime": 111923
+      },
+      {
+         "text": {
+            "en": "operator can become even more useful.",
+            "pl": "operator może stać się jeszcze bardziej przydatne.",
+            "ar": "المشغل يمكن أن تصبح أكثر فائدة."
+         },
+         "endTime": 115754,
+         "startTime": 113459
+      },
+      {
+         "text": {
+            "en": "Just keep that in mind, where you see that plus plus",
+            "pl": "Wystarczy pamiętać, że, gdzie widzisz, że plus plus",
+            "ar": "فقط ضع ذلك في الاعتبار، حيث ترى أن زائد زائد"
+         },
+         "endTime": 118041,
+         "startTime": 115754
+      },
+      {
+         "text": {
+            "en": "and try using it in your everyday speech.",
+            "pl": "i spróbuj użyć go w codziennej mowie.",
+            "ar": "ومحاولة استخدامه في خطابك اليومي."
+         },
+         "endTime": 120578,
+         "startTime": 118041
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/7ZExAkxynhE/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759626825",
+   "title": "A shorter shortcut | Animation basics | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

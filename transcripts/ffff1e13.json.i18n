@@ -1,0 +1,537 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "So far, we've seen how to create an array and access it.",
+            "pl": "Do tej pory widzieliśmy, jak utworzyć tablicę i uzyskać do niej dostęp.",
+            "ar": "حتى الآن، رأينا كيفية إنشاء صفيف والوصول إليه."
+         },
+         "endTime": 3741,
+         "startTime": 1271
+      },
+      {
+         "text": {
+            "en": "Just like other variables, however, one of the really cool things about arrays is the way we can change them dynamically while a program is running.",
+            "pl": "Podobnie jak inne zmienne, jednak jedną z naprawdę fajnych rzeczy o tablicach jest sposób możemy zmienić je dynamicznie, gdy program jest uruchomiony.",
+            "ar": "تماما مثل المتغيرات الأخرى، ومع ذلك، واحدة من الأشياء الرائعة حقا حول المصفوفات هي الطريقة التي يمكننا تغييرها ديناميكيا أثناء تشغيل البرنامج."
+         },
+         "endTime": 12859,
+         "startTime": 3741
+      },
+      {
+         "text": {
+            "en": "OK, let me just show you what I mean by this.",
+            "pl": "Pozwól, że pokażę ci, co mam na myśli.",
+            "ar": "حسناً، دعني أريك ما أعنيه بهذا"
+         },
+         "endTime": 15805,
+         "startTime": 12859
+      },
+      {
+         "text": {
+            "en": "So here we have this program that displays Hopper holding some balloons; super cute.",
+            "pl": "Więc tutaj mamy ten program, który wyświetla Hopper trzyma kilka balonów; super słodkie.",
+            "ar": "حتى هنا لدينا هذا البرنامج الذي يعرض هوبر عقد بعض البالونات. سوبر لطيف."
+         },
+         "endTime": 21172,
+         "startTime": 15805
+      },
+      {
+         "text": {
+            "en": "And so how it works is that we have this xPositions array that has two numbers in it that say where we want the balloons at.",
+            "pl": "I tak jak to działa jest to, że mamy tę tablicę XPositions, która ma dwie liczby w nim, które mówią, gdzie chcemy balony na.",
+            "ar": "وحتى كيف يعمل هو أن لدينا هذا XPosies مجموعة التي لديها رقمين في ذلك أن يقول أين نريد البالونات في."
+         },
+         "endTime": 29397,
+         "startTime": 21172
+      },
+      {
+         "text": {
+            "en": "And then down here we have this loop, and this loop goes through every element in that array.",
+            "pl": "A potem tutaj mamy tę pętlę, a ta pętla przechodzi przez każdy element w tej tablicy.",
+            "ar": "ثم أسفل هنا لدينا هذه الحلقة، وهذه الحلقة يمر من خلال كل عنصر في هذا الصفيف."
+         },
+         "endTime": 35471,
+         "startTime": 29397
+      },
+      {
+         "text": {
+            "en": "And for each of them, it draws a line from the \"x\" down to Hopper's hand, and then draws an ellipse at the \"x\" that's 30x40 pixels, and that's our balloon.",
+            "pl": "I dla każdego z nich rysuje linię od „x” do ręki Hoppera, a następnie rysuje elipsę na „x”, czyli 30x40 pikseli, a to jest nasz balon.",
+            "ar": "ولكل واحد منهم، فإنه يرسم خط من «x» وصولا الى يد هوبر، ومن ثم رسم القطع الناقص في «x» وهذا هو 30x40 بكسل، وهذا هو بالون لدينا."
+         },
+         "endTime": 46810,
+         "startTime": 35471
+      },
+      {
+         "text": {
+            "en": "Ok, cool. So now that we see how it works, we know that if we want to have another balloon show up, we can just add a number to this array, right? Like 300.",
+            "pl": "Ok, spoko. Więc teraz, gdy widzimy, jak to działa, wiemy, że jeśli chcemy mieć kolejny balon pojawi się, możemy po prostu dodać liczbę do tej tablicy, prawda? Jak 300.",
+            "ar": "حسناً، رائع حتى الآن بعد أن نرى كيف يعمل، ونحن نعلم أنه إذا كنا نريد أن يكون بالون آخر تظهر، يمكننا فقط إضافة عدد لهذه المجموعة، أليس كذلك؟ مثل 300."
+         },
+         "endTime": 58343,
+         "startTime": 46810
+      },
+      {
+         "text": {
+            "en": "Beautiful. Now we've got three balloons for a happy Hopper.",
+            "pl": "Piękne. Teraz mamy trzy balony dla szczęśliwego Hoppera.",
+            "ar": "جميل الآن لدينا ثلاثة بالونات لهوبر سعيد."
+         },
+         "endTime": 62063,
+         "startTime": 58343
+      },
+      {
+         "text": {
+            "en": "But let's say we wanted to give a user that doesn't know how to code the ability to add new balloons.",
+            "pl": "Ale powiedzmy, że chcieliśmy dać użytkownikowi, który nie wie, jak zakodować możliwość dodawania nowych balonów.",
+            "ar": "ولكن لنفترض أننا أردنا إعطاء مستخدم لا يعرف كيفية رمز القدرة على إضافة بالونات جديدة."
+         },
+         "endTime": 70932,
+         "startTime": 62063
+      },
+      {
+         "text": {
+            "en": "So we wanted to give the program to a user and say, \"Hey, you can click wherever you want the balloon, and it will show up.\"",
+            "pl": "Chcieliśmy więc dać program użytkownikowi i powiedzieć: „Hej, możesz kliknąć gdziekolwiek chcesz balon, a on się pojawi.”",
+            "ar": "لذلك أردنا إعطاء البرنامج للمستخدم ونقول، «مهلا، يمكنك النقر أينما تريد البالون، وسوف تظهر.»"
+         },
+         "endTime": 77801,
+         "startTime": 70932
+      },
+      {
+         "text": {
+            "en": "Wouldn't that be cool? I think so.",
+            "pl": "Czy to nie byłoby fajne? Myślę, że tak.",
+            "ar": "ألن يكون ذلك رائعاً؟ أعتقد ذلك"
+         },
+         "endTime": 80688,
+         "startTime": 77801
+      },
+      {
+         "text": {
+            "en": "So, how should we do this? So we want our program to be changing over time, right?",
+            "pl": "Więc, jak mamy to zrobić? Więc chcemy, żeby nasz program zmieniał się z czasem, prawda?",
+            "ar": "إذاً، كيف يجب أن نفعل هذا؟ لذلك نريد برنامجنا أن يتغير بمرور الوقت، أليس كذلك؟"
+         },
+         "endTime": 86640,
+         "startTime": 80688
+      },
+      {
+         "text": {
+            "en": "Every time the user clicks, a balloon is going to show up there.",
+            "pl": "Za każdym razem, gdy użytkownik kliknie, pojawi się tam balon.",
+            "ar": "في كل مرة ينقر المستخدم، بالون سوف تظهر هناك."
+         },
+         "endTime": 90278,
+         "startTime": 86640
+      },
+      {
+         "text": {
+            "en": "So let's start off by moving everything into a draw function so that it's easy to change over times.",
+            "pl": "Zacznijmy więc od przeniesienia wszystkiego do funkcji remis, aby łatwo było zmieniać się w czasie.",
+            "ar": "لذلك دعونا نبدأ من خلال نقل كل شيء إلى وظيفة التعادل بحيث يكون من السهل تغيير مع مرور الوقت."
+         },
+         "endTime": 97637,
+         "startTime": 90278
+      },
+      {
+         "text": {
+            "en": "So we'll just move this down here and indent this here. OK, great.",
+            "pl": "Więc przesuniemy to tutaj i wcinamy to tutaj. OK, świetnie.",
+            "ar": "لذلك سنقوم فقط نقل هذا أسفل هنا والمسافة البادئة هذا هنا. حسناً، عظيم"
+         },
+         "endTime": 103185,
+         "startTime": 97637
+      },
+      {
+         "text": {
+            "en": "So now we want to check and see is the user pressing the mouse right now?",
+            "pl": "Więc teraz chcemy sprawdzić i zobaczyć, czy użytkownik naciska mysz teraz?",
+            "ar": "حتى الآن نحن نريد أن تحقق ونرى هو المستخدم الضغط على الماوس في الوقت الحالي؟"
+         },
+         "endTime": 108405,
+         "startTime": 103185
+      },
+      {
+         "text": {
+            "en": "Well we can do that with our \"if\". So if (mouseIsPressed), and then we're going to do something.",
+            "pl": "Cóż, możemy to zrobić z naszym „jeśli”. Więc jeśli (MouseSressed), a potem mamy zamiar coś zrobić.",
+            "ar": "حسنا يمكننا أن نفعل ذلك مع شركائنا في «إذا». حتى إذا (MouseisPressed)، وبعد ذلك نحن ذاهبون إلى القيام بشيء ما."
+         },
+         "endTime": 115339,
+         "startTime": 108405
+      },
+      {
+         "text": {
+            "en": "So what are we going to do? If the mouse is pressed, then we want to somehow add a number to this array.",
+            "pl": "Więc co zamierzamy zrobić? Jeśli mysz zostanie naciśnięta, chcemy w jakiś sposób dodać liczbę do tej tablicy.",
+            "ar": "إذن ماذا سنفعل؟ إذا تم الضغط على الماوس، ثم نريد لإضافة رقم إلى هذه المجموعة بطريقة أو بأخرى."
+         },
+         "endTime": 121176,
+         "startTime": 115339
+      },
+      {
+         "text": {
+            "en": "And let's make this just two elements again. Ok.",
+            "pl": "I zróbmy to jeszcze raz tylko dwa elementy. Okej.",
+            "ar": "ودعونا نجعل هذا عنصرين فقط مرة أخرى. حسنا."
+         },
+         "endTime": 124232,
+         "startTime": 121176
+      },
+      {
+         "text": {
+            "en": "So we want to add a number to this array somehow. Well I'll show you one way we could do this.",
+            "pl": "Więc chcemy dodać numer do tej tablicy jakoś. Pokażę ci, jak możemy to zrobić.",
+            "ar": "لذلك نحن نريد أن نضيف عددا لهذه المجموعة بطريقة أو بأخرى. حسنا سأريكم طريقة واحدة يمكننا أن نفعل هذا"
+         },
+         "endTime": 130464,
+         "startTime": 124232
+      },
+      {
+         "text": {
+            "en": "So we can say xPositions[2] = mouseX;",
+            "pl": "Więc możemy powiedzieć XPositions [2] = mouseX;",
+            "ar": "لذلك يمكننا أن نقول زبوسيسيتيون [2] = موسكس."
+         },
+         "endTime": 138508,
+         "startTime": 130464
+      },
+      {
+         "text": {
+            "en": "Alright, and let me just show you that this works.",
+            "pl": "Dobra, pokażę ci, że to działa.",
+            "ar": "حسناً، ودعوني أريكِ أن هذا ينجح"
+         },
+         "endTime": 141681,
+         "startTime": 138508
+      },
+      {
+         "text": {
+            "en": "I clicked, and ta-da I got a balloon. So what did this do?",
+            "pl": "Kliknąłem, a ta-da mam balon. Więc co to zrobiło?",
+            "ar": "لقد نقرت, و حصلت على بالون إذن ماذا فعل هذا؟"
+         },
+         "endTime": 146640,
+         "startTime": 141681
+      },
+      {
+         "text": {
+            "en": "This said, xPositions[2] said find this array, and find the element in the 2 spot, and remember that's the third element because our arrays are zero-based.",
+            "pl": "To powiedział, XPositions [2] wspomniany znaleźć tę tablicę, i znaleźć element w 2 miejscu, i pamiętać, że jest to trzeci element, ponieważ nasze tablice są oparte od zera.",
+            "ar": "وقال هذا، XPoises [2] العثور على هذه الصفيف، والعثور على العنصر في بقعة 2، وتذكر أن هذا هو العنصر الثالث لأن صفائف لدينا هي صفر القائمة."
+         },
+         "endTime": 158236,
+         "startTime": 146640
+      },
+      {
+         "text": {
+            "en": "And if you look, there's no third element, right? There's nothing in that spot.",
+            "pl": "A jeśli spojrzysz, nie ma trzeciego elementu, prawda? W tym miejscu nic nie ma.",
+            "ar": "وإذا نظرتم، ليس هناك عنصر ثالث، أليس كذلك؟ لا يوجد شيء في تلك البقعة"
+         },
+         "endTime": 161742,
+         "startTime": 158236
+      },
+      {
+         "text": {
+            "en": "So it says find that, and then put mouseX in it.",
+            "pl": "Więc jest napisane, że to znajdź, a potem umieść w nim MouseX.",
+            "ar": "لذلك يقول العثور على ذلك، ومن ثم وضع MouSex في ذلك."
+         },
+         "endTime": 165897,
+         "startTime": 161742
+      },
+      {
+         "text": {
+            "en": "Well since there's nothing there, then it goes from being nothing to being mouseX.",
+            "pl": "Skoro nic tam nie ma, to od bycia nikim do bycia MouSex.",
+            "ar": "حسنا بما أنه لا يوجد شيء هناك، ثم ينتقل من كونه لا شيء إلى كونه MouSex."
+         },
+         "endTime": 171358,
+         "startTime": 165897
+      },
+      {
+         "text": {
+            "en": "And so now our array is three items long, and this for loop down here that goes through it, it will end up drawing that third balloon.",
+            "pl": "I tak teraz nasza tablica ma trzy elementy długie, a to dla pętli tutaj, która przechodzi przez nią, to skończy się rysowanie tego trzeciego balonu.",
+            "ar": "وحتى الآن لدينا مجموعة من ثلاثة عناصر طويلة، وهذا لحلقة أسفل هنا أن يمر من خلال ذلك، فإنه في نهاية المطاف رسم هذا البالون الثالث."
+         },
+         "endTime": 180130,
+         "startTime": 171358
+      },
+      {
+         "text": {
+            "en": "So that's pretty cool, and let me just click some more to show you how this works.",
+            "pl": "Więc to całkiem fajne, i pozwól mi po prostu kliknąć trochę więcej, aby pokazać, jak to działa.",
+            "ar": "لذلك هذا هو بارد جدا، واسمحوا لي فقط انقر فوق بعض أكثر لتظهر لك كيف يعمل هذا."
+         },
+         "endTime": 184027,
+         "startTime": 180130
+      },
+      {
+         "text": {
+            "en": "So you see every time I click, it keeps on drawing the third balloon wherever I clicked my mouse.",
+            "pl": "Więc widzisz za każdym razem, gdy kliknę, utrzymuje się na rysunku trzeci balon gdziekolwiek kliknąłem myszką.",
+            "ar": "لذلك ترى في كل مرة أنقر، فإنه يحتفظ على رسم البالون الثالث أينما قمت بالنقر فوق الماوس الخاص بي."
+         },
+         "endTime": 190690,
+         "startTime": 184027
+      },
+      {
+         "text": {
+            "en": "And that's because we're constantly overriding the 2 spot - the thing with the 2 index.",
+            "pl": "A to dlatego, że ciągle nadpisujemy 2 miejsce - rzecz z indeksem 2.",
+            "ar": "وهذا لأننا نتجاوز باستمرار بقعة 2 - الشيء مع مؤشر 2."
+         },
+         "endTime": 198938,
+         "startTime": 190690
+      },
+      {
+         "text": {
+            "en": "We're constantly overriding that with the current mouseX.",
+            "pl": "Ciągle nadpisujemy to aktualnym MouseX.",
+            "ar": "نحن نتغلب باستمرار على ذلك مع MouSex الحالي."
+         },
+         "endTime": 202898,
+         "startTime": 198938
+      },
+      {
+         "text": {
+            "en": "So we're only ever going to have three balloons because we've got this one in the 0 spot, this one in the 1 spot, and we're constantly changing the 2 spot. Ok?",
+            "pl": "Więc będziemy mieć tylko trzy balony, bo mamy ten w miejscu 0, ten w jednym miejscu, i ciągle zmieniamy 2 miejsce. Ok?",
+            "ar": "لذلك نحن فقط من أي وقت مضى سيكون لدينا ثلاثة بالونات لأننا قد حصلت على هذا واحد في 0 بقعة، وهذا واحد في 1 بقعة، ونحن باستمرار تغيير 2 بقعة. حسناً؟"
+         },
+         "endTime": 214574,
+         "startTime": 202898
+      },
+      {
+         "text": {
+            "en": "So that's cool, but what we really want is we want to let the user make tons of balloons, right?",
+            "pl": "Więc to jest fajne, ale to, co naprawdę chcemy, to pozwolić użytkownikowi zrobić mnóstwo balonów, prawda?",
+            "ar": "لذلك هذا بارد، ولكن ما نريد حقا هو أننا نريد أن ندع المستخدم جعل طن من البالونات، أليس كذلك؟"
+         },
+         "endTime": 220235,
+         "startTime": 214574
+      },
+      {
+         "text": {
+            "en": "So every time the user clicks, there's a new balloon.",
+            "pl": "Więc za każdym razem, gdy użytkownik kliknie, pojawia się nowy balon.",
+            "ar": "لذلك في كل مرة ينقر المستخدم، هناك بالون جديد."
+         },
+         "endTime": 223524,
+         "startTime": 220235
+      },
+      {
+         "text": {
+            "en": "So that means we need to be constantly incrementing the index of the array element that we're storing it in.",
+            "pl": "Oznacza to, że musimy być stale zwiększając indeks elementu tablicy, że jesteśmy przechowywania go w.",
+            "ar": "وهذا يعني أننا بحاجة إلى أن يكون باستمرار زيادة مؤشر عنصر مجموعة أننا تخزينه في."
+         },
+         "endTime": 230852,
+         "startTime": 223524
+      },
+      {
+         "text": {
+            "en": "So we don't want it to be 2 every time, we want it to be 2, and then 3, and then 4, and then 5, and then 6, etc.",
+            "pl": "Więc nie chcemy, aby to było 2 za każdym razem, chcemy, aby było 2, a potem 3, potem 4, potem 5, a potem 6, itd.",
+            "ar": "لذلك نحن لا نريد أن يكون 2 في كل مرة، نريد أن يكون 2، ثم 3، ثم 4، ثم 5، ثم 6، الخ."
+         },
+         "endTime": 236106,
+         "startTime": 230852
+      },
+      {
+         "text": {
+            "en": "So we could do this by having a little counter variable. So we say newInd = 2;",
+            "pl": "Więc możemy to zrobić poprzez małą zmienną licznika. Więc mówimy NeWind = 2;",
+            "ar": "حتى نتمكن من القيام بذلك من خلال وجود متغير عداد قليلا. لذلك نقول نيويند = 2؛"
+         },
+         "endTime": 241019,
+         "startTime": 236106
+      },
+      {
+         "text": {
+            "en": "That's what it will start out with, and then here we'll say newInd instead of 2.",
+            "pl": "Od tego zacznie się, a następnie tutaj powiemy NeWind zamiast 2.",
+            "ar": "هذا ما سوف تبدأ به، ومن ثم هنا سنقول Newind بدلا من 2."
+         },
+         "endTime": 245523,
+         "startTime": 241019
+      },
+      {
+         "text": {
+            "en": "And then what we really want to do is say newInd ++",
+            "pl": "A potem to, co naprawdę chcemy zrobić, to powiedzieć NeWind ++",
+            "ar": "ثم ما نريد حقا القيام به هو قول نيويند ++"
+         },
+         "endTime": 250270,
+         "startTime": 245523
+      },
+      {
+         "text": {
+            "en": "So every time we add 1 to this. So we'll start off as 2, then it become 3, and then become 4.",
+            "pl": "Więc za każdym razem dodajemy 1 do tego. Więc zaczniemy jako 2, potem staje się 3, a następnie stać się 4.",
+            "ar": "لذلك في كل مرة نضيف 1 إلى هذا. لذلك سنبدأ كما 2، ثم تصبح 3، ثم تصبح 4."
+         },
+         "endTime": 256231,
+         "startTime": 250270
+      },
+      {
+         "text": {
+            "en": "So every time they press, it will become more. So let's try this.",
+            "pl": "Więc za każdym razem, gdy naciskają, stanie się więcej. Więc spróbujmy tego.",
+            "ar": "لذلك في كل مرة يضغطون فيها، سيصبح أكثر. لذلك دعونا نحاول هذا."
+         },
+         "endTime": 258473,
+         "startTime": 256231
+      },
+      {
+         "text": {
+            "en": "Ta-da! Tons of balloons. Balloon party. Woo!",
+            "pl": "Ta-da! Mnóstwo balonów. Impreza balonowa. Woo!",
+            "ar": "تا-دا! طن من البالونات. حفلة بالون. وو!"
+         },
+         "endTime": 262009,
+         "startTime": 258473
+      },
+      {
+         "text": {
+            "en": "So that's cool, right? But that's not the best way of doing this because it turns out adding items to an array is something we want to do a lot.",
+            "pl": "Więc to jest spoko, prawda? Ale to nie jest najlepszy sposób na to, ponieważ okazuje się, że dodawanie elementów do tablicy jest czymś, co chcemy zrobić dużo.",
+            "ar": "لذلك هذا رائع، أليس كذلك؟ ولكن هذه ليست أفضل طريقة للقيام بذلك لأنه اتضح إضافة عناصر إلى مجموعة شيء نريد أن نفعل الكثير."
+         },
+         "endTime": 272108,
+         "startTime": 262009
+      },
+      {
+         "text": {
+            "en": "So we have a much easier way of doing it that this.",
+            "pl": "Więc mamy o wiele łatwiejszy sposób, aby to zrobić.",
+            "ar": "لذلك لدينا طريقة أسهل بكثير للقيام بذلك أن هذا."
+         },
+         "endTime": 275023,
+         "startTime": 272108
+      },
+      {
+         "text": {
+            "en": "So let me just delete the stuff we did. Alright, so we don't need that, and we don't need that anymore. We'll just comment that out.",
+            "pl": "Więc pozwólcie mi usunąć to, co zrobiliśmy. Dobra, więc tego nie potrzebujemy, i już tego nie potrzebujemy. Po prostu to skomentujemy.",
+            "ar": "لذلك اسمحوا لي فقط حذف الاشياء فعلنا. حسنا، لذلك نحن لسنا بحاجة لذلك، ونحن لا نحتاج ذلك بعد الآن. سنقوم فقط التعليق على ذلك."
+         },
+         "endTime": 282768,
+         "startTime": 275023
+      },
+      {
+         "text": {
+            "en": "Ok, so how we do it is we say xPositions.push and then mouseX.",
+            "pl": "Ok, więc jak to zrobić, to mówimy Xpositions.Push, a następnie Mousex.",
+            "ar": "حسنا، فكيف نفعل ذلك هو نقول Xpositions.Push ثم Mousex."
+         },
+         "endTime": 290996,
+         "startTime": 282768
+      },
+      {
+         "text": {
+            "en": "So what we're doing here is we're calling this method on the xPositions array.",
+            "pl": "Więc to, co robimy tutaj jest nazywamy tę metodę na tablicy XPositions.",
+            "ar": "لذلك ما نقوم به هنا هو أننا ندعو هذه الطريقة على صفيف XPises."
+         },
+         "endTime": 296573,
+         "startTime": 290996
+      },
+      {
+         "text": {
+            "en": "So we're calling like a command on the array. We're telling the array, \"Hey, push this new value, which is mouseX, push it on the the end of your array.\"",
+            "pl": "Więc dzwonimy jak komenda na tablicy. Mówimy tablicę: „Hej, wciśnij tę nową wartość, czyli MouseX, wciśnij ją na końcu tablicy.”",
+            "ar": "لذلك نحن ندعو مثل الأمر على مجموعة. نحن نقول مجموعة، «مهلا، دفع هذه القيمة الجديدة، وهو MouSex، دفعها على نهاية مجموعة الخاص بك.»"
+         },
+         "endTime": 305232,
+         "startTime": 296573
+      },
+      {
+         "text": {
+            "en": "So every time this gets called, so every time they press the mouse, it's going to look at the mouseX and push it on to the end of the array.",
+            "pl": "Więc za każdym razem, gdy to się nazywa, więc za każdym razem, gdy naciskają mysz, to będzie patrzeć na MouseX i wcisnąć go do końca tablicy.",
+            "ar": "لذلك في كل مرة يحصل على استدعاء هذا، وذلك في كل مرة أنها تضغط على الماوس، انها سوف ننظر إلى MouSex ودفعه إلى نهاية الصفيف."
+         },
+         "endTime": 312467,
+         "startTime": 305232
+      },
+      {
+         "text": {
+            "en": "So that the array should get bigger and bigger and bigger. So let's restart and try this.",
+            "pl": "Tak, że tablica powinna uzyskać większe i większe i większe. Więc uruchom ponownie i spróbujmy tego.",
+            "ar": "بحيث مجموعة يجب الحصول على أكبر وأكبر وأكبر. لذلك دعونا إعادة تشغيل ومحاولة هذا."
+         },
+         "endTime": 316768,
+         "startTime": 312467
+      },
+      {
+         "text": {
+            "en": "Ta-da, it worked! And it's way less code than we had before. Alright?",
+            "pl": "Ta-da, zadziałało! I to jest o wiele mniej kodu niż mieliśmy wcześniej. W porządku?",
+            "ar": "تا-دا، لقد نجح! وانها طريقة أقل رمز مما كان لدينا من قبل. حسناً؟"
+         },
+         "endTime": 322684,
+         "startTime": 316768
+      },
+      {
+         "text": {
+            "en": "So most of the time, you're going to want to use push if you're going to add stuff to your array like this.",
+            "pl": "Więc większość czasu, będziesz chciał użyć push, jeśli masz zamiar dodać rzeczy do swojej tablicy jak to.",
+            "ar": "حتى معظم الوقت، وأنت تسير تريد استخدام دفع إذا كنت تريد الذهاب لإضافة الاشياء إلى مجموعة الخاص بك مثل هذا."
+         },
+         "endTime": 327630,
+         "startTime": 322684
+      },
+      {
+         "text": {
+            "en": "And it's pretty neat because then you can just have these arrays that get bigger and bigger and bigger during the program.",
+            "pl": "I to jest całkiem schludne, bo wtedy można po prostu mieć te tablice, które stają się większe i większe w trakcie programu.",
+            "ar": "وانها أنيق جدا لأنه بعد ذلك يمكن أن يكون فقط هذه المصفوفات التي تحصل على أكبر وأكبر وأكبر خلال البرنامج."
+         },
+         "endTime": 332182,
+         "startTime": 327630
+      },
+      {
+         "text": {
+            "en": "Like when you have an animation or when you have users doing stuff, and then you can do a lot more.",
+            "pl": "Jak wtedy, gdy masz animację lub gdy użytkownicy robią rzeczy, a potem możesz zrobić o wiele więcej.",
+            "ar": "مثل عندما يكون لديك الرسوم المتحركة أو عندما يكون لديك المستخدمين القيام الاشياء، وبعد ذلك يمكنك أن تفعل أكثر من ذلك بكثير."
+         },
+         "endTime": 336017,
+         "startTime": 332182
+      },
+      {
+         "text": {
+            "en": "So now you seen 90% of what you'll probably use arrays for and the ways you'll use them.",
+            "pl": "Więc teraz widzieliście 90% tego, co prawdopodobnie będziecie używać tablic i sposobów ich wykorzystania.",
+            "ar": "حتى الآن رأيت 90٪ من ما عليك ربما استخدام صفائف ل والطرق التي سوف تستخدم لهم."
+         },
+         "endTime": 341295,
+         "startTime": 336017
+      },
+      {
+         "text": {
+            "en": "But there's also a lot more you can do with arrays. So if you have questions, just ask them in the discussion.",
+            "pl": "Ale jest też o wiele więcej można zrobić z tablicami. Więc jeśli masz pytania, po prostu zapytaj ich w dyskusji.",
+            "ar": "ولكن هناك أيضا الكثير يمكنك القيام به مع المصفوفات. حتى إذا كان لديك أسئلة، فقط اسألهم في المناقشة."
+         },
+         "endTime": 347021,
+         "startTime": 341295
+      },
+      {
+         "text": {
+            "en": "But make sure you master these basics first.",
+            "pl": "Ale upewnij się, że najpierw opanujesz te podstawy.",
+            "ar": "ولكن تأكد من إتقان هذه الأساسيات أولاً."
+         },
+         "endTime": 351000,
+         "startTime": 347021
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/CrIyQhB__pE/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759778591",
+   "title": "Modifying Arrays | Arrays | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

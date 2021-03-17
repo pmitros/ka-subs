@@ -1,0 +1,591 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "In our last talk-through, we showed how you can animate a ball bouncing off the walls using the draw function and if statements.",
+            "pl": "W naszej ostatniej rozmówcy pokazaliśmy, jak można animować piłkę odbijającą się od ścian za pomocą funkcji rysowania i if.",
+            "ar": "في الحديث الأخير لدينا من خلال، أظهرنا كيف يمكنك تحريك الكرة كذاب قبالة الجدران باستخدام وظيفة الرسم وإذا البيانات."
+         },
+         "endTime": 7341,
+         "startTime": 1737
+      },
+      {
+         "text": {
+            "en": "Let's review.",
+            "pl": "Przejrzyjmy to.",
+            "ar": "دعونا نراجع."
+         },
+         "endTime": 8637,
+         "startTime": 7341
+      },
+      {
+         "text": {
+            "en": "First, we set up some initial variables for position and speed of a ball.",
+            "pl": "Najpierw ustawiamy kilka zmiennych początkowych dla pozycji i prędkości piłki.",
+            "ar": "أولا، أنشأنا بعض المتغيرات الأولية لموقف وسرعة الكرة."
+         },
+         "endTime": 12407,
+         "startTime": 8637
+      },
+      {
+         "text": {
+            "en": "Then, in the draw function, which is that special function that gets called over and over when your program is running,",
+            "pl": "Następnie, w funkcji rysowania, która jest ta specjalna funkcja, która jest wywoływana w kółko, gdy program jest uruchomiony,",
+            "ar": "ثم، في وظيفة السحب، وهي تلك الوظيفة الخاصة التي يتم استدعاؤها مرارًا وتكرارًا عند تشغيل البرنامج،"
+         },
+         "endTime": 17240,
+         "startTime": 12407
+      },
+      {
+         "text": {
+            "en": "we repaint the background and draw an ellipse on the canvas",
+            "pl": "odmalujemy tło i narysujemy elipsę na płótnie",
+            "ar": "نحن إعادة رسم الخلفية ورسم القطع الناقص على قماش"
+         },
+         "endTime": 20907,
+         "startTime": 17240
+      },
+      {
+         "text": {
+            "en": "and we position that ellipse based on the position variable and the speed and how they affect each other.",
+            "pl": "i ustawiamy tę elipsę w oparciu o zmienną położenia i prędkość oraz sposób, w jaki wpływają one na siebie nawzajem.",
+            "ar": "ونحن نضع هذا القطع الناقص على أساس متغير الموقف والسرعة وكيف تؤثر على بعضها البعض."
+         },
+         "endTime": 27779,
+         "startTime": 20907
+      },
+      {
+         "text": {
+            "en": "Now, without if statements, our ball just kept on going forever and ever,",
+            "pl": "Teraz, bez oświadczeń, nasza piłka trwała wiecznie i wiecznie.",
+            "ar": "الآن، بدون إفادات، كرتنا ظلت مستمرة للأبد"
+         },
+         "endTime": 31195,
+         "startTime": 27779
+      },
+      {
+         "text": {
+            "en": "or until we pressed restart.",
+            "pl": "lub dopóki nie wcisnęliśmy ponownie.",
+            "ar": "أو حتى ضغطنا على إعادة التشغيل."
+         },
+         "endTime": 32862,
+         "startTime": 31195
+      },
+      {
+         "text": {
+            "en": "So we added two if statements down here",
+            "pl": "Więc dodaliśmy dwa jeśli oświadczenia tutaj",
+            "ar": "لذلك أضفنا اثنين إذا تصريحات أسفل هنا"
+         },
+         "endTime": 36364,
+         "startTime": 32862
+      },
+      {
+         "text": {
+            "en": "to check and see if the ball was near the right side of the screen or the left side of the screen,",
+            "pl": ", aby sprawdzić, czy piłka znajdowała się w pobliżu prawej strony ekranu lub po lewej stronie ekranu,",
+            "ar": "للتحقق ومعرفة ما إذا كانت الكرة بالقرب من الجانب الأيمن من الشاشة أو الجانب الأيسر من الشاشة،"
+         },
+         "endTime": 40605,
+         "startTime": 36441
+      },
+      {
+         "text": {
+            "en": "and if so, we change the speed to be positive or negative so that the ball basically would bounce back.",
+            "pl": "a jeśli tak, zmieniamy prędkość na dodatnią lub ujemną, aby piłka zasadniczo odbiła się z powrotem.",
+            "ar": "وإذا كان الأمر كذلك، فإننا نغير السرعة لتكون إيجابية أو سلبية بحيث الكرة في الأساس سوف ترتد إلى الوراء."
+         },
+         "endTime": 45309,
+         "startTime": 40606
+      },
+      {
+         "text": {
+            "en": "So now we just have this ball, bouncing back and forth forever.",
+            "pl": "Więc teraz mamy tę piłkę, odbijającą się tam i z powrotem na zawsze.",
+            "ar": "حتى الآن لدينا فقط هذه الكرة، كذاب ذهابا وإيابا إلى الأبد."
+         },
+         "endTime": 50071,
+         "startTime": 45309
+      },
+      {
+         "text": {
+            "en": "So that was pretty cool, and there's a lot of really cool animations that we can make with that.",
+            "pl": "To było całkiem fajne, i jest wiele naprawdę fajnych animacji, które możemy z tym zrobić.",
+            "ar": "لذلك كان ذلك رائعًا جدًا، وهناك الكثير من الرسوم المتحركة الرائعة التي يمكننا صنعها مع ذلك."
+         },
+         "endTime": 53671,
+         "startTime": 50071
+      },
+      {
+         "text": {
+            "en": "But now, I want to add user interaction to this program.",
+            "pl": "Ale teraz chcę dodać interakcję użytkownika do tego programu.",
+            "ar": "ولكن الآن، أريد أن أضيف تفاعل المستخدم إلى هذا البرنامج."
+         },
+         "endTime": 57675,
+         "startTime": 53671
+      },
+      {
+         "text": {
+            "en": "See, right now this program's like a TV show.",
+            "pl": "Widzisz, teraz ten program jest jak program telewizyjny.",
+            "ar": "أترى، الآن هذا البرنامج مثل برنامج تلفزيوني"
+         },
+         "endTime": 60071,
+         "startTime": 57675
+      },
+      {
+         "text": {
+            "en": "if you gave it to a friend, and your friend didn't know how to program, they couldn't really interact with it.",
+            "pl": "Jeśli dałeś go przyjacielowi, a twój przyjaciel nie wiedział, jak programować, to nie mogliby z nim wchodzić w interakcje.",
+            "ar": "إذا أعطيته لصديق، وصديقك لم يعرف كيف يبرمجة، لم يستطيعوا التفاعل معه حقًا."
+         },
+         "endTime": 64944,
+         "startTime": 60071
+      },
+      {
+         "text": {
+            "en": "All they could do is watch it, which is cool,",
+            "pl": "Wszystko, co mogli zrobić, to oglądać, co jest fajne,",
+            "ar": "كل ما يمكنهم فعله هو مشاهدته وهو أمر رائع"
+         },
+         "endTime": 67606,
+         "startTime": 64944
+      },
+      {
+         "text": {
+            "en": "but it's a lot more cool if they could actually do something.",
+            "pl": "Ale to o wiele bardziej fajne, gdyby mogli coś zrobić.",
+            "ar": "ولكن الأمر أكثر روعة إذا كان بإمكانهم فعل شيء ما"
+         },
+         "endTime": 70340,
+         "startTime": 67606
+      },
+      {
+         "text": {
+            "en": "So, let's give the user some ways to control it.",
+            "pl": "Dajmy więc użytkownikowi kilka sposobów, aby go kontrolować.",
+            "ar": "لذلك، دعونا نعطي المستخدم بعض الطرق للسيطرة عليه."
+         },
+         "endTime": 73470,
+         "startTime": 70340
+      },
+      {
+         "text": {
+            "en": "Remember earlier we learned about two special global variables called mouseX and mouseY.",
+            "pl": "Pamiętajcie wcześniej dowiedzieliśmy się o dwóch specjalnych zmiennych globalnych o nazwie MouseX i Mousey.",
+            "ar": "تذكر في وقت سابق علمنا عن اثنين من المتغيرات العالمية الخاصة تسمى MouSex و Mousey."
+         },
+         "endTime": 80156,
+         "startTime": 73470
+      },
+      {
+         "text": {
+            "en": "Those variables return numbers that tell us about the current position of the user's mouse",
+            "pl": "Te zmienne zwracają numery, które mówią nam o aktualnej pozycji myszy użytkownika",
+            "ar": "ترجع تلك المتغيرات الأرقام التي تخبرنا عن الوضع الحالي لفأرة المستخدم"
+         },
+         "endTime": 85972,
+         "startTime": 80156
+      },
+      {
+         "text": {
+            "en": "and they're a great way to make a program more interactive.",
+            "pl": "i są świetnym sposobem na uczynienie programu bardziej interaktywnym.",
+            "ar": "وهي طريقة رائعة لجعل البرنامج أكثر تفاعلًا."
+         },
+         "endTime": 88779,
+         "startTime": 85972
+      },
+      {
+         "text": {
+            "en": "So, let's see. How can we use them?",
+            "pl": "Więc, zobaczmy. Jak możemy ich użyć?",
+            "ar": "لذلك، دعونا نرى. كيف يمكننا استخدامها؟"
+         },
+         "endTime": 91239,
+         "startTime": 88779
+      },
+      {
+         "text": {
+            "en": "Well, we should use them inside the draw function somewhere.",
+            "pl": "Powinniśmy użyć ich gdzieś wewnątrz funkcji rysowania.",
+            "ar": "حسنا، يجب أن نستخدمها داخل وظيفة السحب في مكان ما."
+         },
+         "endTime": 94029,
+         "startTime": 91239
+      },
+      {
+         "text": {
+            "en": "Because that's the only code that's called over and over as the program runs.",
+            "pl": "Bo to jedyny kod, który jest wywoływany w kółko podczas uruchamiania programu.",
+            "ar": "لأن هذا هو الرمز الوحيد الذي يسمى مرارا وتكرارا كما يعمل البرنامج."
+         },
+         "endTime": 99503,
+         "startTime": 94029
+      },
+      {
+         "text": {
+            "en": "Everything outside of draw is only called once, when the program first starts.",
+            "pl": "Wszystko poza remis nazywa się tylko raz, kiedy program zaczyna się po raz pierwszy.",
+            "ar": "كل شيء خارج السحب يسمى مرة واحدة فقط، عندما يبدأ البرنامج لأول مرة."
+         },
+         "endTime": 104551,
+         "startTime": 99503
+      },
+      {
+         "text": {
+            "en": "So, it doesn't make sense to use mouseX and mouseY there.",
+            "pl": "Więc nie ma sensu używać MouseX i Mouse'a.",
+            "ar": "لذلك، ليس من المنطقي استخدام MouSex و Mousey هناك."
+         },
+         "endTime": 108136,
+         "startTime": 104551
+      },
+      {
+         "text": {
+            "en": "The user hasn't had a chance to interact with it.",
+            "pl": "Użytkownik nie miał szansy na interakcję z nim.",
+            "ar": "لم تتح للمستخدم فرصة للتفاعل معها."
+         },
+         "endTime": 111243,
+         "startTime": 108136
+      },
+      {
+         "text": {
+            "en": "In draw, we're drawing the ball 200 pixels down the screen right now.",
+            "pl": "W losowaniu, rysujemy piłkę 200 pikseli w dół ekranu.",
+            "ar": "في الرسم، نحن رسم الكرة 200 بكسل أسفل الشاشة في الوقت الحالي."
+         },
+         "endTime": 117280,
+         "startTime": 111243
+      },
+      {
+         "text": {
+            "en": "How about we just replace that with mouseY?",
+            "pl": "Może zastąpimy to Mouseyem?",
+            "ar": "ما رأيك أن نستبدل ذلك بـ (موزي)؟"
+         },
+         "endTime": 121242,
+         "startTime": 117280
+      },
+      {
+         "text": {
+            "en": "Because that is the y position, right?",
+            "pl": "Bo to jest pozycja y, prawda?",
+            "ar": "لأن هذا هو موقف y، أليس كذلك؟"
+         },
+         "endTime": 122739,
+         "startTime": 121242
+      },
+      {
+         "text": {
+            "en": "So this way it will just add the y position dependent on where the user's y is. Right?",
+            "pl": "Więc w ten sposób będzie po prostu dodać pozycję y zależną od tego, gdzie y użytkownika jest. Prawda?",
+            "ar": "لذلك بهذه الطريقة سوف تضيف فقط موقف y تعتمد على حيث y المستخدم هو. صحيح؟"
+         },
+         "endTime": 128530,
+         "startTime": 122739
+      },
+      {
+         "text": {
+            "en": "So check this out. By just moving my cursor up and down, I can change the line that the ball moves along.",
+            "pl": "Więc obczaj to. Przesuwając kursor w górę iw dół, mogę zmienić linię, że piłka porusza się wzdłuż.",
+            "ar": "لذلك تحقق من هذا. بمجرد تحريك مؤشر بلدي صعودا وهبوطا، يمكنني تغيير الخط الذي تتحرك الكرة على طول."
+         },
+         "endTime": 134362,
+         "startTime": 128530
+      },
+      {
+         "text": {
+            "en": "That's pretty cool. But I want to use mouseX, too.",
+            "pl": "To całkiem fajne. Ale ja też chcę użyć MouseX.",
+            "ar": "هذا رائع جداً ولكن أريد استخدام موسكس، أيضا."
+         },
+         "endTime": 138196,
+         "startTime": 134362
+      },
+      {
+         "text": {
+            "en": "So, how should I use that?",
+            "pl": "Więc, jak mam tego użyć?",
+            "ar": "لذا، كيف يمكنني استخدام ذلك؟"
+         },
+         "endTime": 139863,
+         "startTime": 138196
+      },
+      {
+         "text": {
+            "en": "Well, why don't we just make another ball",
+            "pl": "Dlaczego po prostu nie zrobimy kolejnej piłki",
+            "ar": "حسنا، لماذا لا نصنع كرة أخرى"
+         },
+         "endTime": 142445,
+         "startTime": 139863
+      },
+      {
+         "text": {
+            "en": "and have that ball going in the opposite direction: up and down.",
+            "pl": "i miej piłkę w przeciwnym kierunku: w górę iw dół.",
+            "ar": "ويكون تلك الكرة تسير في الاتجاه المعاكس:صعودا وهبوطا."
+         },
+         "endTime": 145945,
+         "startTime": 142445
+      },
+      {
+         "text": {
+            "en": "And there we'll just have the user control the x position of that.",
+            "pl": "I tam będziemy po prostu mieć użytkownika kontrolować pozycję x tego.",
+            "ar": "وهناك سيكون لدينا فقط المستخدم السيطرة على موقف x من ذلك."
+         },
+         "endTime": 150030,
+         "startTime": 145945
+      },
+      {
+         "text": {
+            "en": "So we kind of just do the reverse.",
+            "pl": "Więc po prostu robimy odwrotnie.",
+            "ar": "لذلك نحن نوع من مجرد القيام العكس."
+         },
+         "endTime": 152612,
+         "startTime": 150030
+      },
+      {
+         "text": {
+            "en": "We'll say ellipse mouseX position 50 50. Alright?",
+            "pl": "Powiemy elipsy Mousex pozycja 50 50. W porządku?",
+            "ar": "سنقول القطع الناقص MouSex موقف 50 50. حسناً؟"
+         },
+         "endTime": 160637,
+         "startTime": 152612
+      },
+      {
+         "text": {
+            "en": "Check this out! Now, I've got these two balls that I control, and going in perpendicular directions.",
+            "pl": "Obczaj to! Mam te dwie piłki, które kontroluję i zmierzam w prostopadłych kierunkach.",
+            "ar": "تحقق من هذا! الآن، لقد حصلت على هاتين الكرتين التي أتحكم بها، والذهاب في اتجاهات متعامدة."
+         },
+         "endTime": 166906,
+         "startTime": 160637
+      },
+      {
+         "text": {
+            "en": "But, I'm still not happy.",
+            "pl": "Ale nadal nie jestem szczęśliwa.",
+            "ar": "ولكن، ما زلت غير سعيد."
+         },
+         "endTime": 170075,
+         "startTime": 166906
+      },
+      {
+         "text": {
+            "en": "I want to give the user even more control.",
+            "pl": "Chcę dać użytkownikowi jeszcze większą kontrolę.",
+            "ar": "أريد أن أعطي المستخدم المزيد من التحكم."
+         },
+         "endTime": 173445,
+         "startTime": 170075
+      },
+      {
+         "text": {
+            "en": "I want to give the user the power to start up the second ball.",
+            "pl": "Chcę dać użytkownikowi moc do uruchomienia drugiej piłki.",
+            "ar": "أريد أن أعطي المستخدم القدرة على بدء الكرة الثانية."
+         },
+         "endTime": 176944,
+         "startTime": 173445
+      },
+      {
+         "text": {
+            "en": "To actually bring it into existence, just by pressing their mouse.",
+            "pl": "Aby faktycznie doprowadzić go do istnienia, po prostu naciskając ich mysz.",
+            "ar": "لجعله في الواقع إلى حيز الوجود، فقط عن طريق الضغط على الماوس."
+         },
+         "endTime": 181407,
+         "startTime": 176944
+      },
+      {
+         "text": {
+            "en": "Well, then I need to figure out how to tell that the user is pressing their mouse.",
+            "pl": "Cóż, muszę wymyślić, jak powiedzieć, że użytkownik naciska mysz.",
+            "ar": "حسنا، ثم أنا بحاجة لمعرفة كيفية معرفة أن المستخدم يضغط على الماوس."
+         },
+         "endTime": 187340,
+         "startTime": 181407
+      },
+      {
+         "text": {
+            "en": "Thankfully, we have a super special boolean variable for just that.",
+            "pl": "Na szczęście mamy super specjalną zmienną logiczną właśnie dla tego.",
+            "ar": "لحسن الحظ، لدينا متغير منطقي سوبر خاص لمجرد ذلك."
+         },
+         "endTime": 192945,
+         "startTime": 187340
+      },
+      {
+         "text": {
+            "en": "It's called mouseIsPressed and we can use it inside an if statement.",
+            "pl": "Nazywa się MouseISPressed i możemy go użyć wewnątrz instrukcji if.",
+            "ar": "انها تسمى Mouseispressed ويمكننا استخدامه داخل بيان if."
+         },
+         "endTime": 199362,
+         "startTime": 192945
+      },
+      {
+         "text": {
+            "en": "So, let's see. This is our second ball.",
+            "pl": "Więc, zobaczmy. To nasza druga piłka.",
+            "ar": "لذلك، دعونا نرى. هذه كرتنا الثانية"
+         },
+         "endTime": 202339,
+         "startTime": 199362
+      },
+      {
+         "text": {
+            "en": "So we can say if mouseIsPressed, and then we'll move the ellipse colon to there.",
+            "pl": "Więc możemy powiedzieć, że jeśli MouseSpresed, a potem przeniesiemy elipsę okrężnicy tam.",
+            "ar": "حتى نتمكن من القول إذا الماوسالضغط، وبعد ذلك سنقوم بنقل القولون الناقص إلى هناك."
+         },
+         "endTime": 211945,
+         "startTime": 202339
+      },
+      {
+         "text": {
+            "en": "So, what this is doing here, is telling the program that we only want to draw this ellipse if this is true",
+            "pl": "To, co tu robi, mówi programowi, że chcemy tylko narysować tę elipsę, jeśli to prawda",
+            "ar": "لذلك، ما يفعله هذا هنا، هو قول البرنامج أننا نريد فقط رسم هذا القطع الناقص إذا كان هذا صحيحًا"
+         },
+         "endTime": 220863,
+         "startTime": 211945
+      },
+      {
+         "text": {
+            "en": "and mouseIsPressed will only be true if the user is pressing their mouse.",
+            "pl": "i MouseISPressed będzie prawdziwe tylko wtedy, gdy użytkownik naciska mysz.",
+            "ar": "ولن يكون MouseisBressed صحيحًا إلا إذا كان المستخدم يضغط على الماوس الخاص بهم."
+         },
+         "endTime": 226030,
+         "startTime": 220863
+      },
+      {
+         "text": {
+            "en": "So, let's try it.",
+            "pl": "Więc spróbujmy.",
+            "ar": "لذلك، دعونا نحاول ذلك."
+         },
+         "endTime": 228195,
+         "startTime": 226030
+      },
+      {
+         "text": {
+            "en": "Ta da!",
+            "pl": "Ta da!",
+            "ar": "تا دا!"
+         },
+         "endTime": 230338,
+         "startTime": 228195
+      },
+      {
+         "text": {
+            "en": "So now I can make the ball appear whenever I press.",
+            "pl": "Więc teraz mogę sprawić, że piłka pojawi się za każdym razem, gdy nacisnę.",
+            "ar": "حتى الآن يمكنني جعل الكرة تظهر كلما ضغطت."
+         },
+         "endTime": 233362,
+         "startTime": 230338
+      },
+      {
+         "text": {
+            "en": "So it's zooming in from this parallel universe. In! In! In!",
+            "pl": "Więc zbliżają się z tego równoległego wszechświata. W! W! W!",
+            "ar": "لذلك هو التكبير في من هذا الكون الموازي. في! في! في!"
+         },
+         "endTime": 238407,
+         "startTime": 233362
+      },
+      {
+         "text": {
+            "en": "It's awesome!",
+            "pl": "Jest zajebiste!",
+            "ar": "انها رهيبة!"
+         },
+         "endTime": 240029,
+         "startTime": 238407
+      },
+      {
+         "text": {
+            "en": "So, the interesting thing about this variable mouseIsPressed",
+            "pl": "Tak, ciekawą rzeczą o tej zmiennej MouseISPressed",
+            "ar": "لذلك، فإن الشيء المثير للاهتمام حول هذا mouseisPressed متغير"
+         },
+         "endTime": 244740,
+         "startTime": 240029
+      },
+      {
+         "text": {
+            "en": "is that it changes based on what the user does, not based on what our program does.",
+            "pl": "jest to, że zmienia się w oparciu o to, co robi użytkownik, a nie na podstawie tego, co robi nasz program.",
+            "ar": "هو أنه يتغير بناءً على ما يفعله المستخدم، وليس بناءً على ما يفعله برنامجنا."
+         },
+         "endTime": 248805,
+         "startTime": 244740
+      },
+      {
+         "text": {
+            "en": "and since the draw function gets called repeatedly over and over,",
+            "pl": "a ponieważ funkcja rysowania jest wywoływana wielokrotnie w kółko,",
+            "ar": "وبما أن وظيفة السحب يتم استدعاؤها مرارًا وتكرارًا،"
+         },
+         "endTime": 253195,
+         "startTime": 248805
+      },
+      {
+         "text": {
+            "en": "the output of our program will change over time",
+            "pl": "wyjście naszego programu zmieni się z upływem czasu",
+            "ar": "الناتج من برنامجنا سوف تتغير مع مرور الوقت"
+         },
+         "endTime": 256171,
+         "startTime": 253195
+      },
+      {
+         "text": {
+            "en": "just with a little bit of user input.",
+            "pl": "tylko z odrobiną wprowadzania przez użytkownika.",
+            "ar": "فقط مع القليل من إدخال المستخدم."
+         },
+         "endTime": 258740,
+         "startTime": 256171
+      },
+      {
+         "text": {
+            "en": "With the combined power of if statements and mouseIsPressed,",
+            "pl": "Z połączoną mocą instrukcji if i mouseISPressed,",
+            "ar": "مع قوة مجتمعة من إذا البيانات والفوسالضغط،"
+         },
+         "endTime": 262029,
+         "startTime": 258740
+      },
+      {
+         "text": {
+            "en": "you have everything you need to make awesome things like buttons, and drawing programs.",
+            "pl": "masz wszystko, czego potrzebujesz, aby niesamowite rzeczy, takie jak przyciski i programy do rysowania.",
+            "ar": "لديك كل ما تحتاجه لجعل أشياء رهيبة مثل الأزرار، وبرامج الرسم."
+         },
+         "endTime": 266241,
+         "startTime": 262029
+      },
+      {
+         "text": {
+            "en": "Woo hoo!",
+            "pl": "Woo hoo!",
+            "ar": "وو هوو!"
+         },
+         "endTime": 269000,
+         "startTime": 266241
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/BgOmYxrCpyQ/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759710525",
+   "title": "More Mouse Interaction | Logic and if Statements | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

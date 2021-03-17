@@ -1,0 +1,519 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "And we're back! This time, our program has the Winston object,",
+            "pl": "I wróciliśmy! Tym razem nasz program ma obiekt Winston,",
+            "ar": "ونحن مرة أخرى! هذه المرة، برنامجنا لديه كائن وينستون،"
+         },
+         "endTime": 5152,
+         "startTime": 844
+      },
+      {
+         "text": {
+            "en": "but we're only displaying the age of Winston. That's because I wanna show",
+            "pl": "Ale pokazujemy tylko wiek Winstona. To dlatego, że chcę się pokazać",
+            "ar": "لكننا نعرض فقط عمر (وينستون) هذا لأنني أريد أن تظهر"
+         },
+         "endTime": 10020,
+         "startTime": 5152
+      },
+      {
+         "text": {
+            "en": "you how we could change Winston's age. Because you know eventually,",
+            "pl": "Jak możemy zmienić wiek Winstona. Bo wiesz, że w końcu",
+            "ar": "كيف يمكننا تغيير عمر (وينستون) لأنك تعرف في نهاية المطاف"
+         },
+         "endTime": 13719,
+         "startTime": 10020
+      },
+      {
+         "text": {
+            "en": "Winston has to get older. Let's remember what it would be like if we were",
+            "pl": "Winston musi się starzeć. Pamiętajmy, jak by było, gdybyśmy byli",
+            "ar": "وينستون) يجب أن يكبر) دعونا نتذكر كيف سيكون الأمر لو كنا"
+         },
+         "endTime": 18075,
+         "startTime": 13719
+      },
+      {
+         "text": {
+            "en": "just using simple variables. We have var winston age equals 19, and then if we",
+            "pl": "za pomocą prostych zmiennych. Mamy wiek var winston wynosi 19, a następnie jeśli",
+            "ar": "فقط باستخدام متغيرات بسيطة. لدينا فار وينستون العمر يساوي 19, وبعد ذلك إذا كنا"
+         },
+         "endTime": 22695,
+         "startTime": 18075
+      },
+      {
+         "text": {
+            "en": "wanted to change it, we would say winston age equals 20.",
+            "pl": "chciał to zmienić, powiedzielibyśmy, że wiek winston wynosi 20.",
+            "ar": "أراد تغييره، كنا نقول وينستون العمر يساوي 20."
+         },
+         "endTime": 27088,
+         "startTime": 22695
+      },
+      {
+         "text": {
+            "en": "and that would change the value stored in that variable. It's really really similar",
+            "pl": "i to zmieniłoby wartość przechowywaną w tej zmiennej. Jest naprawdę podobna",
+            "ar": "وهذا من شأنه أن يغير القيمة المخزنة في هذا المتغير. انها حقا مماثلة حقا"
+         },
+         "endTime": 31275,
+         "startTime": 27088
+      },
+      {
+         "text": {
+            "en": "for object properties. We can just say winston dot age equals 20, and then we've changed",
+            "pl": "dla właściwości obiektu. Możemy powiedzieć, że wiek winston dot wynosi 20, a potem się zmieniliśmy",
+            "ar": "لخصائص الكائن. يمكننا أن نقول فقط وينستون نقطة العمر يساوي 20، وبعد ذلك قمنا بتغيير"
+         },
+         "endTime": 39477,
+         "startTime": 31275
+      },
+      {
+         "text": {
+            "en": "the value stored in the age property of the Winston object.",
+            "pl": "wartość przechowywana we właściwości wiek obiektu Winston.",
+            "ar": "القيمة المخزنة في خاصية العمر لكائن وينستون."
+         },
+         "endTime": 43609,
+         "startTime": 39477
+      },
+      {
+         "text": {
+            "en": "Cool.",
+            "pl": "Fajne.",
+            "ar": "رائع"
+         },
+         "endTime": 44631,
+         "startTime": 43609
+      },
+      {
+         "text": {
+            "en": "So let's see if that worked. We'll take our text command, put it below,",
+            "pl": "Zobaczmy, czy to zadziałało. Weźmiemy nasze polecenie tekstowe, umieścimy je poniżej,",
+            "ar": "لذلك دعونا نرى ما إذا كان ذلك يعمل. سنأخذ أمر النص الخاص بنا، وضعه أدناه،"
+         },
+         "endTime": 48569,
+         "startTime": 44631
+      },
+      {
+         "text": {
+            "en": "change the y, tada! Winston got older. So easy.",
+            "pl": "Zmień y, tada! Winston się starzeje. Tak łatwo.",
+            "ar": "تغيير ذ، تادا! وينستون) كبر) من السهل جدا."
+         },
+         "endTime": 54020,
+         "startTime": 49060
+      },
+      {
+         "text": {
+            "en": "Um, okay, so now let's try, we were just adding one here",
+            "pl": "Ok, więc teraz spróbujmy, właśnie dodaliśmy jeden tutaj",
+            "ar": "حسنا، لذلك الآن دعونا نحاول، كنا مجرد إضافة واحدة هنا"
+         },
+         "endTime": 59316,
+         "startTime": 54543
+      },
+      {
+         "text": {
+            "en": "let's do that more programatically. Let's say winston dot age equals winston dot age plus one.",
+            "pl": "Zróbmy to bardziej programowo. Powiedzmy, że wiek winston dot równa się wiek winston dot plus jeden.",
+            "ar": "دعونا نفعل ذلك بشكل أكثر بشكل منهجي. دعونا نقول وينستون نقطة العمر يساوي وينستون نقطة العمر زائد واحد."
+         },
+         "endTime": 67309,
+         "startTime": 59316
+      },
+      {
+         "text": {
+            "en": "So what we're saying here is take the previous value of his age",
+            "pl": "Więc to, co mówimy tutaj, to przyjąć poprzednią wartość jego wieku",
+            "ar": "لذا ما نقوله هنا هو أخذ القيمة السابقة لعمره"
+         },
+         "endTime": 70860,
+         "startTime": 67309
+      },
+      {
+         "text": {
+            "en": "add one to it, and then store it in the age property.",
+            "pl": "dodaj jeden do niego, a następnie przechowuj go w nieruchomości wieku.",
+            "ar": "أضف واحدة إليها، ثم قم بتخزينه في خاصية العمر."
+         },
+         "endTime": 76041,
+         "startTime": 70860
+      },
+      {
+         "text": {
+            "en": "And that should just end up adding one to whatever the previous value was. Let's see.",
+            "pl": "A to powinno skończyć się dodaniem jednego do poprzedniej wartości. Zobaczmy.",
+            "ar": "ويجب أن ينتهي الأمر بإضافة واحدة إلى كل ما كانت القيمة السابقة. دعونا نرى."
+         },
+         "endTime": 81787,
+         "startTime": 76903
+      },
+      {
+         "text": {
+            "en": "Display it, tada! He's 21.",
+            "pl": "Pokaż to, tada! On ma 21 lat.",
+            "ar": "عرض ذلك، تادا! إنه في الحادية والعشرين"
+         },
+         "endTime": 85644,
+         "startTime": 82956
+      },
+      {
+         "text": {
+            "en": "Getting getting so old. All right. Now, remember we have a shortcut for adding one",
+            "pl": "Robi się coraz starzeje. W porządku. Pamiętajcie, że mamy skrót do dodania jednego",
+            "ar": "الحصول على القديم جدا. حسناً الآن، تذكر أن لدينا اختصار لإضافة واحد"
+         },
+         "endTime": 90064,
+         "startTime": 85644
+      },
+      {
+         "text": {
+            "en": "to variables, and the same shortcut works with object properties so we can say winston dot age plus plus",
+            "pl": "do zmiennych, a ten sam skrót działa z właściwościami obiektu, więc możemy powiedzieć, że wiek kropki winston plus plus",
+            "ar": "للمتغيرات، ويعمل الاختصار نفسه مع خصائص الكائن حتى نتمكن من القول وينستون نقطة العمر زائد زائد"
+         },
+         "endTime": 96803,
+         "startTime": 90064
+      },
+      {
+         "text": {
+            "en": "And let's see if that worked. Yup! And that really just did exactly the same thing as this line,",
+            "pl": "Zobaczmy, czy to zadziałało. Yup! I to naprawdę zrobiło dokładnie to samo, co ta linia,",
+            "ar": "ودعونا نرى ما إذا كان ذلك يعمل. نعم! وهذا حقا فعلت فقط بالضبط نفس الشيء مثل هذا الخط،"
+         },
+         "endTime": 104997,
+         "startTime": 97556
+      },
+      {
+         "text": {
+            "en": "it's just a shortcut, so that we don't have to type as much.",
+            "pl": "To tylko skrót, więc nie musimy pisać tyle.",
+            "ar": "انها مجرد اختصار، حتى أننا لم يكن لديك لكتابة بقدر ما."
+         },
+         "endTime": 109144,
+         "startTime": 104997
+      },
+      {
+         "text": {
+            "en": "Now if we look at all this, this really looks like the situation for a loop.",
+            "pl": "Teraz, jeśli spojrzymy na to wszystko, to naprawdę wygląda na sytuację pętli.",
+            "ar": "الآن إذا نظرنا إلى كل هذا، وهذا يبدو حقا مثل الوضع لحلقة."
+         },
+         "endTime": 113330,
+         "startTime": 109144
+      },
+      {
+         "text": {
+            "en": "We keep on using the same code over and over, and the only thing we're changing is we're adding one",
+            "pl": "Ciągle używamy tego samego kodu w kółko, a jedyną rzeczą, którą zmieniamy jest to, że dodajemy jeden",
+            "ar": "نستمر في استخدام نفس الرمز مرارًا وتكرارًا، والشيء الوحيد الذي نقوم بتغييره هو أننا نضيف واحدًا"
+         },
+         "endTime": 117792,
+         "startTime": 113330
+      },
+      {
+         "text": {
+            "en": "to his age, and we're changing the y position so it's on a different line.",
+            "pl": "do jego wieku, a my zmieniamy pozycję y, więc jest na innej linii.",
+            "ar": "إلى عمره، ونحن نغير موقف y لذلك هو على خط مختلف."
+         },
+         "endTime": 122527,
+         "startTime": 117792
+      },
+      {
+         "text": {
+            "en": "So, if we used a loop, it could be really easy to show him getting older and older and older",
+            "pl": "Więc jeśli użyjemy pętli, to może być bardzo łatwe, aby pokazać mu, że jest starszy, starszy i starszy",
+            "ar": "لذلك، إذا استخدمنا حلقة، يمكن أن يكون من السهل حقا أن تظهر له الحصول على كبار السن وكبار السن وكبار السن"
+         },
+         "endTime": 127068,
+         "startTime": 123018
+      },
+      {
+         "text": {
+            "en": "and not have to use that much code. Let's say, we'll make a loop to show Winston getting to 40 years old.",
+            "pl": "i nie trzeba używać tyle kodu. Powiedzmy, że zrobimy pętlę, aby pokazać Winstonowi, że ma 40 lat.",
+            "ar": "وليس لديك لاستخدام هذا الكثير من التعليمات البرمجية. دعنا نقول، سنقوم بعمل حلقة لإظهار وينستون الوصول إلى 40 سنة."
+         },
+         "endTime": 133497,
+         "startTime": 127068
+      },
+      {
+         "text": {
+            "en": "He doesn't wanna get any older than that because then he'd be wrinkly",
+            "pl": "On nie chce się starzeć, bo wtedy byłby pomarszczony",
+            "ar": "هو لا يريد أن يكبر من ذلك لأنه حينها سيكون متجاعداً"
+         },
+         "endTime": 136207,
+         "startTime": 133497
+      },
+      {
+         "text": {
+            "en": "and we'd have to call him \"Wrinkleston.\" [laugh]",
+            "pl": "i będziemy musieli nazywać go „Wrinkleston”. [śmiech]",
+            "ar": "وعلينا أن ندعوه «رينكلستون» [يضحك]"
+         },
+         "endTime": 139250,
+         "startTime": 136257
+      },
+      {
+         "text": {
+            "en": "All right.",
+            "pl": "W porządku.",
+            "ar": "حسناً"
+         },
+         "endTime": 140320,
+         "startTime": 139250
+      },
+      {
+         "text": {
+            "en": "So we'll do a while loop and we'll say while winston dot age is less than or equal to 40",
+            "pl": "Więc zrobimy pętlę while i powiemy, podczas gdy wiek winston dot jest mniejszy niż lub równy 40",
+            "ar": "لذلك سنفعل حلقة في حين وسنقول بينما وينستون نقطة العمر هو أقل من أو يساوي 40"
+         },
+         "endTime": 147498,
+         "startTime": 140320
+      },
+      {
+         "text": {
+            "en": "and then inside here, we're gonna display his age",
+            "pl": "A potem w środku, pokażemy jego wiek",
+            "ar": "ثم بالداخل هنا سنعرض عمره"
+         },
+         "endTime": 152245,
+         "startTime": 147498
+      },
+      {
+         "text": {
+            "en": "and we're going to add one to his age each time.",
+            "pl": "i będziemy dodawać jeden do jego wieku za każdym razem.",
+            "ar": "ونحن في طريقنا لإضافة واحد إلى عمره في كل مرة."
+         },
+         "endTime": 157586,
+         "startTime": 152245
+      },
+      {
+         "text": {
+            "en": "Okay, that worked, but everything is piled on top of each other, so we need to change the y position",
+            "pl": "Okay, to zadziałało, ale wszystko jest ułożone na siebie, więc musimy zmienić pozycję y",
+            "ar": "حسنا، هذا نجح، لكن كل شيء مكدس فوق بعضنا البعض، لذلك نحن بحاجة إلى تغيير موقف y"
+         },
+         "endTime": 162108,
+         "startTime": 157586
+      },
+      {
+         "text": {
+            "en": "each time. And we'll just do winston dot age times 20, um, minus 200, minus 300",
+            "pl": "za każdym razem. I zrobimy po prostu winston dot wiek razy 20, um, minus 200, minus 300",
+            "ar": "في كل مرة. وسنفعل فقط ونستون نقطة العمر 20، أم، ناقص 200، ناقص 300"
+         },
+         "endTime": 173250,
+         "startTime": 162108
+      },
+      {
+         "text": {
+            "en": "Okay! and we'll just minus 350. All right. That looks good. Let's delete the old stuff here.",
+            "pl": "Okej! a my tylko minus 350. W porządku. To wygląda dobrze. Skasujmy stare rzeczy tutaj.",
+            "ar": "حسنا! ونحن سوف فقط ناقص 350. حسناً هذا يبدو جيداً دعونا حذف الأشياء القديمة هنا."
+         },
+         "endTime": 183471,
+         "startTime": 173250
+      },
+      {
+         "text": {
+            "en": "Tada! Now we can see Winston getting older and older, but not so old that he'll be a Wrinkleston.",
+            "pl": "Tada! Teraz widzimy, jak Winston się starzeje i starzeje, ale nie tak stary, że będzie Wrinkleston.",
+            "ar": "(تادا)! الآن يمكننا أن نرى وينستون يتقدم في السن وكبار السن، ولكن ليس من العمر لدرجة أنه سيكون «رينكلستون»."
+         },
+         "endTime": 190283,
+         "startTime": 183471
+      },
+      {
+         "text": {
+            "en": "Okay. So, now we can see how to change age, we can also add additional information in the",
+            "pl": "Okej. Teraz możemy zobaczyć, jak zmienić wiek, możemy również dodać dodatkowe informacje w",
+            "ar": "حسناً لذلك، الآن يمكننا أن نرى كيفية تغيير العمر، يمكننا أيضا إضافة معلومات إضافية في"
+         },
+         "endTime": 196421,
+         "startTime": 190283
+      },
+      {
+         "text": {
+            "en": "Winston object as he gets older. Like, maybe when he turns 30, he'll meet another programmer",
+            "pl": "Winston obiektu, gdy się starzeje. Może kiedy skończy 30 lat, spotka się z innym programistą",
+            "ar": "وينستون الكائن كما انه يحصل كبار السن. مثل، ربما عندما يبلغ الثلاثين، سيقابل مبرمج آخر"
+         },
+         "endTime": 202145,
+         "startTime": 196421
+      },
+      {
+         "text": {
+            "en": "named Winnefer, and he'll marry her.",
+            "pl": "o imieniu Winnefer, a on się z nią ożeni.",
+            "ar": "اسمه (وينيفر)، وسيتزوجها"
+         },
+         "endTime": 204843,
+         "startTime": 202145
+      },
+      {
+         "text": {
+            "en": "And no, he's not just gonna marry her because she has such a great name.",
+            "pl": "I nie, nie ożeni się z nią tylko dlatego, że ma takie wspaniałe imię.",
+            "ar": "و لا, لن يتزوجها فقط لأن لديها اسم رائع"
+         },
+         "endTime": 208979,
+         "startTime": 204843
+      },
+      {
+         "text": {
+            "en": "So what we can do is we can add a property by just saying winston dot, and then the new",
+            "pl": "Więc co możemy zrobić, to możemy dodać właściwość tylko mówiąc winston kropka, a następnie nowy",
+            "ar": "فما يمكننا القيام به هو أننا يمكن أن نضيف خاصية فقط قائلا وينستون نقطة، ومن ثم الجديد"
+         },
+         "endTime": 213864,
+         "startTime": 208979
+      },
+      {
+         "text": {
+            "en": "property key which will be wife, equals Winnefer.",
+            "pl": "klucz własności, która będzie żona, równa Winnefer.",
+            "ar": "مفتاح الملكية التي ستكون زوجة، يساوي وينيفر."
+         },
+         "endTime": 219338,
+         "startTime": 213864
+      },
+      {
+         "text": {
+            "en": "Great, but, we only want him to have this wife when he's at, you know, at a good marrying age",
+            "pl": "Świetnie, ale chcemy, żeby miał tę żonę tylko wtedy, gdy jest w dobrym wieku małżeństw.",
+            "ar": "عظيم، لكننا نريده فقط أن يحصل على هذه الزوجة عندما يكون في سن الزواج الجيد"
+         },
+         "endTime": 224045,
+         "startTime": 219338
+      },
+      {
+         "text": {
+            "en": "so we'll say equals 30 and we'll go and move, move that inside here.",
+            "pl": "Więc powiemy, że równa się 30 i pójdziemy i ruszamy, przesuniemy to do środka.",
+            "ar": "لذلك سنقول يساوي 30 وسنذهب ونتحرك، نقل ذلك داخل هنا."
+         },
+         "endTime": 233138,
+         "startTime": 224045
+      },
+      {
+         "text": {
+            "en": "Great. So now he has a wife, so, you know, they're happy, and then they have some kids",
+            "pl": "Świetnie. Więc teraz ma żonę, więc, wiesz, oni są szczęśliwi, a potem mają dzieci",
+            "ar": "عظيم لذا الآن لديه زوجة، لذا، كما تعلمون، هم سعداء، وبعد ذلك لديهم بعض الأطفال"
+         },
+         "endTime": 237759,
+         "startTime": 233138
+      },
+      {
+         "text": {
+            "en": "a couple years later, so maybe when they're, uh, 32, we'll add some kids to the object",
+            "pl": "Kilka lat później, więc może kiedy będą, uh, 32 lata, dodamy do obiektu kilka dzieciaków",
+            "ar": "بعد بضع سنوات، لذلك ربما عندما هم، اه، 32، سنضيف بعض الأطفال إلى الكائن"
+         },
+         "endTime": 244204,
+         "startTime": 237759
+      },
+      {
+         "text": {
+            "en": "to keep track of that. And they have twins, of course, cause they're very productive",
+            "pl": "by to śledzić. I mają bliźniaki, oczywiście, bo są bardzo produktywne",
+            "ar": "لتتبع ذلك ولديهم توأم، بالطبع، لأنهم منتجون للغاية"
+         },
+         "endTime": 248198,
+         "startTime": 244204
+      },
+      {
+         "text": {
+            "en": "And Winston's twins will be named, uh, of course Winston Junior and Winstonia.",
+            "pl": "Bliźniaki Winstona będą miały na imię, uh, oczywiście Winston Junior i Winstonia.",
+            "ar": "و توأم (وينستون) سيسمون بالطبع (وينستون جونيور) و (وينستونيا)"
+         },
+         "endTime": 256870,
+         "startTime": 248198
+      },
+      {
+         "text": {
+            "en": "Beautiful. That's a, that's a great family. Great set of names.",
+            "pl": "Piękne. To świetna rodzina. Świetny zestaw imion.",
+            "ar": "جميل هذه عائلة رائعة مجموعة كبيرة من الأسماء."
+         },
+         "endTime": 261851,
+         "startTime": 256870
+      },
+      {
+         "text": {
+            "en": "And so you can see we can add new properties that are strings and arrays",
+            "pl": "I tak widać możemy dodać nowe właściwości, które są ciągi i tablice",
+            "ar": "وحتى تتمكن من رؤية أننا يمكن أن تضيف خصائص جديدة التي هي سلاسل والمصفوفات"
+         },
+         "endTime": 265395,
+         "startTime": 261851
+      },
+      {
+         "text": {
+            "en": "and anything we could've had in the original object.",
+            "pl": "i wszystko, co mogliśmy mieć w oryginalnym obiekcie.",
+            "ar": "وأي شيء كان يمكن أن يكون لدينا في الكائن الأصلي."
+         },
+         "endTime": 268516,
+         "startTime": 265395
+      },
+      {
+         "text": {
+            "en": "And so once this loop finishes, winston dot age will be 40, and winston will",
+            "pl": "I tak, gdy ta pętla się skończy, wiek winston będzie miał 40 lat, a winston",
+            "ar": "وذلك بمجرد انتهاء هذه الحلقة، وينستون نقطة العمر سيكون 40، وسوف وينستون"
+         },
+         "endTime": 273530,
+         "startTime": 268516
+      },
+      {
+         "text": {
+            "en": "have a wife, who's Winnefer, and a twins, which is a set of er, which an array of two names.",
+            "pl": "mieć żonę, która jest Winnefer, i bliźniaki, który jest zbiorem er, który tablica dwóch nazwisk.",
+            "ar": "لديك زوجة، من وينيفر، وتوأم، وهي مجموعة من إيه، التي مجموعة من الاسمين."
+         },
+         "endTime": 281096,
+         "startTime": 273530
+      },
+      {
+         "text": {
+            "en": "Huh. That's an awesome loop. But, hey, if you don't like how this story ends for Winston,",
+            "pl": "Huh. To niesamowita pętla. Ale, hej, jeśli nie podoba ci się, jak skończy się ta historia dla Winstona,",
+            "ar": "هاه. هذا هو حلقة رهيبة. ولكن، مهلا، إذا كنت لا تحب كيف تنتهي هذه القصة لنستون،"
+         },
+         "endTime": 285943,
+         "startTime": 281096
+      },
+      {
+         "text": {
+            "en": "you could always spin off this program and tell your own story of his future",
+            "pl": "Zawsze możesz odkręcić ten program i opowiedzieć swoją historię o swojej przyszłości",
+            "ar": "هل يمكن أن تدور دائما قبالة هذا البرنامج وتخبر قصتك الخاصة عن مستقبله"
+         },
+         "endTime": 290178,
+         "startTime": 285943
+      },
+      {
+         "text": {
+            "en": "now that you know all about how to change object properties.",
+            "pl": "teraz, gdy wiesz wszystko o tym, jak zmienić właściwości obiektu.",
+            "ar": "الآن عليك أن تعرف كل شيء عن كيفية تغيير خصائص الكائن."
+         },
+         "endTime": 293733,
+         "startTime": 290178
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/S_QuICPo6aM/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759797243",
+   "title": "Modifying Objects | Objects | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

@@ -1,0 +1,591 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "You already learned about using variables to store numbers or strings.",
+            "pl": "Dowiedziałeś się już o używaniu zmiennych do przechowywania liczb lub ciągów znaków.",
+            "ar": "لقد تعلمت بالفعل عن استخدام المتغيرات لتخزين الأرقام أو السلاسل."
+         },
+         "endTime": 4635,
+         "startTime": 1388
+      },
+      {
+         "text": {
+            "en": "Now we're going to learn about something called arrays, which let us store multiple items in just one variable.",
+            "pl": "Teraz mamy zamiar dowiedzieć się o czymś, co nazywa tablice, które pozwalają nam przechowywać wiele elementów w tylko jednej zmiennej.",
+            "ar": "الآن نحن في طريقنا لمعرفة المزيد عن شيء يسمى المصفوفات، والتي دعونا تخزين عناصر متعددة في متغير واحد فقط."
+         },
+         "endTime": 9675,
+         "startTime": 4635
+      },
+      {
+         "text": {
+            "en": "As you'll see, arrays let us do all kinds of useful things.",
+            "pl": "Jak widać, tablice pozwalają nam robić wszelkiego rodzaju przydatne rzeczy.",
+            "ar": "كما سترى، صفائف دعونا نفعل كل أنواع الأشياء المفيدة."
+         },
+         "endTime": 13100,
+         "startTime": 9675
+      },
+      {
+         "text": {
+            "en": "Ok, let's review variables. Alright?",
+            "pl": "Ok, przejrzyjmy zmienne. W porządku?",
+            "ar": "حسنا، دعونا مراجعة المتغيرات. حسناً؟"
+         },
+         "endTime": 14942,
+         "startTime": 13100
+      },
+      {
+         "text": {
+            "en": "So we have var myFriend = \"Sophia\".",
+            "pl": "Więc mamy var MyFriend = „Sophia”.",
+            "ar": "لذلك لدينا فار MyFriend = «صوفيا»."
+         },
+         "endTime": 19911,
+         "startTime": 14942
+      },
+      {
+         "text": {
+            "en": "So a variable is just a way of storing a value like Sofia and giving it a label so our program has an easy way to refer to it later.",
+            "pl": "Więc zmienna jest po prostu sposób przechowywania wartości jak Sofia i nadając mu etykietę, więc nasz program ma łatwy sposób, aby odnieść się do niego później.",
+            "ar": "لذلك المتغير هو مجرد وسيلة لتخزين قيمة مثل صوفيا وإعطائها تسمية حتى برنامجنا لديه طريقة سهلة للإشارة إليها في وقت لاحق."
+         },
+         "endTime": 26600,
+         "startTime": 19911
+      },
+      {
+         "text": {
+            "en": "We can think of it like a drawer with a myFriend label on the outside and Sofia on the inside.",
+            "pl": "Możemy myśleć o tym jak o szufladzie z etykietą MyFriend na zewnątrz i Sofii w środku.",
+            "ar": "يمكننا التفكير في الأمر مثل درج مع تسمية MyFriend في الخارج وصوفيا من الداخل."
+         },
+         "endTime": 32469,
+         "startTime": 26600
+      },
+      {
+         "text": {
+            "en": "So whenever we look inside it, we find Sofia.",
+            "pl": "Więc kiedy zajrzymy do środka, znajdujemy Sofię.",
+            "ar": "لذلك عندما ننظر داخله، نجد صوفيا."
+         },
+         "endTime": 35528,
+         "startTime": 32469
+      },
+      {
+         "text": {
+            "en": "Now sometimes we want to hold multiple values in a single variable.",
+            "pl": "Teraz czasami chcemy trzymać wiele wartości w jednej zmiennej.",
+            "ar": "الآن في بعض الأحيان نريد الاحتفاظ بقيم متعددة في متغير واحد."
+         },
+         "endTime": 39766,
+         "startTime": 35528
+      },
+      {
+         "text": {
+            "en": "And we can't just do it like this because we'll get a syntax error, and our program will freak out and all that stuff.",
+            "pl": "I nie możemy tak po prostu zrobić, bo dostaniemy błąd składni, a nasz program będzie świrował i tak dalej.",
+            "ar": "ونحن لا يمكن أن تفعل ذلك فقط مثل هذا لأننا سوف تحصل على خطأ في بناء الجملة، وبرنامجنا سوف تفزع وجميع تلك الاشياء."
+         },
+         "endTime": 46431,
+         "startTime": 39766
+      },
+      {
+         "text": {
+            "en": "So we have a specific way that we do that, and that's using arrays.",
+            "pl": "Mamy więc konkretny sposób, że robimy to, a to za pomocą tablic.",
+            "ar": "لذلك لدينا طريقة محددة أن نفعل ذلك، وذلك باستخدام المصفوفات."
+         },
+         "endTime": 50662,
+         "startTime": 46431
+      },
+      {
+         "text": {
+            "en": "So we could say myFriends = , and then we have to do a square bracket, and then inside that's where we can put all the values.",
+            "pl": "Więc możemy powiedzieć MyFriends =, a potem musimy zrobić nawias kwadratowy, a następnie wewnątrz, gdzie możemy umieścić wszystkie wartości.",
+            "ar": "لذلك يمكننا أن نقول MyFriends =، وبعد ذلك علينا أن نفعل قوس مربع، ثم داخل هذا حيث يمكننا وضع كل القيم."
+         },
+         "endTime": 58729,
+         "startTime": 50662
+      },
+      {
+         "text": {
+            "en": "So you say Sofia, and we have John, and we have Leif.",
+            "pl": "Więc mówisz Sofia, mamy Johna i Leif.",
+            "ar": "لذا أنت تقول صوفيا، ونحن لدينا جون، ولدينا ليف."
+         },
+         "endTime": 63866,
+         "startTime": 58729
+      },
+      {
+         "text": {
+            "en": "Alright, so those are my three friends.",
+            "pl": "W porządku, więc to są moi trzej przyjaciele.",
+            "ar": "حسناً، هؤلاء أصدقائي الثلاثة"
+         },
+         "endTime": 66888,
+         "startTime": 63866
+      },
+      {
+         "text": {
+            "en": "Maybe in order of how much I like them, but don't tell them that.",
+            "pl": "Może po tym, jak bardzo je lubię, ale nie mów im tego.",
+            "ar": "ربما في ترتيب كم أنا أحبهم، ولكن لا تخبرهم بذلك."
+         },
+         "endTime": 69554,
+         "startTime": 66888
+      },
+      {
+         "text": {
+            "en": "OK. So now our variable holds three values, not just one.",
+            "pl": "OKEJ. Więc teraz nasza zmienna posiada trzy wartości, a nie tylko jedną.",
+            "ar": "حسنا. حتى الآن لدينا متغير يحمل ثلاث قيم، وليس واحد فقط."
+         },
+         "endTime": 73304,
+         "startTime": 69554
+      },
+      {
+         "text": {
+            "en": "And we can imagine it's like a chest of drawers, and we put this label, myFriends, on the whole chest.",
+            "pl": "Możemy sobie wyobrazić, że to jest jak komoda, i umieściliśmy tę etykietę, MyFriends, na całej klatce piersiowej.",
+            "ar": "ويمكننا أن نتصور أنها مثل خزانة ذات أدراج، ووضعنا هذه التسمية، ماي فريندز، على صدره كله."
+         },
+         "endTime": 78391,
+         "startTime": 73304
+      },
+      {
+         "text": {
+            "en": "And we just open the right drawer to find the value we're looking for.",
+            "pl": "Otworzymy prawą szufladę, by znaleźć wartość, której szukamy.",
+            "ar": "ونحن فقط فتح الدرج الصحيح للعثور على القيمة التي نبحث عنها."
+         },
+         "endTime": 83029,
+         "startTime": 78391
+      },
+      {
+         "text": {
+            "en": "And you imagine with a chest of drawers, if you want to know what's inside the first drawer, you would just open it up and look inside.",
+            "pl": "I wyobrażasz sobie, że z komodą, jeśli chcesz wiedzieć, co jest w pierwszej szufladzie, otworzysz ją i zajrzysz do środka.",
+            "ar": "وأنت تتخيل مع الصدر من الأدراج، إذا كنت تريد أن تعرف ما هو داخل الدرج الأول، كنت مجرد فتحه وتنظر في الداخل."
+         },
+         "endTime": 89885,
+         "startTime": 83029
+      },
+      {
+         "text": {
+            "en": "So how do we do that with an array?",
+            "pl": "Więc jak to zrobić z tablicą?",
+            "ar": "فكيف نفعل ذلك مع مجموعة؟"
+         },
+         "endTime": 92110,
+         "startTime": 89885
+      },
+      {
+         "text": {
+            "en": "Well we can just type the name of the array, and then the brackets again, and then the number of whatever it is in the array.",
+            "pl": "Cóż możemy po prostu wpisać nazwę tablicy, a następnie nawiasy ponownie, a następnie liczbę tego, co jest w tablicy.",
+            "ar": "حسنا يمكننا فقط كتابة اسم المصفوفة، ثم بين قوسين مرة أخرى، ثم عدد من كل ما هو عليه في الصفيف."
+         },
+         "endTime": 102862,
+         "startTime": 92110
+      },
+      {
+         "text": {
+            "en": "So maybe it would be 1. OK?",
+            "pl": "Więc może to będzie 1. OK?",
+            "ar": "لذلك ربما سيكون 1. حسنا؟"
+         },
+         "endTime": 106009,
+         "startTime": 102862
+      },
+      {
+         "text": {
+            "en": "So let's actually try this out by using the text command and showing Sofia on the canvas.",
+            "pl": "Więc rzeczywiście wypróbować to za pomocą polecenia tekstowego i pokazując Sofię na płótnie.",
+            "ar": "لذلك دعونا نحاول في الواقع هذا باستخدام الأمر النص وتظهر صوفيا على قماش."
+         },
+         "endTime": 111139,
+         "startTime": 106009
+      },
+      {
+         "text": {
+            "en": "So we say myFriends[1], and then we put it here, and then let's put a little fill.",
+            "pl": "Więc mówimy Moi Przyjaciele [1], a następnie umieścić go tutaj, a następnie umieścić trochę wypełnić.",
+            "ar": "لذلك نقول MyFriends [1]، ثم نضعها هنا، ثم دعونا نضع القليل من التعبئة."
+         },
+         "endTime": 121875,
+         "startTime": 111139
+      },
+      {
+         "text": {
+            "en": "Oh, OK, so we see John. Why do we see John?",
+            "pl": "Oh, OK, więc widzimy Johna. Dlaczego widzimy Johna?",
+            "ar": "أوه، حسنا، لذلك نحن نرى جون. لماذا نرى جون؟"
+         },
+         "endTime": 126266,
+         "startTime": 121875
+      },
+      {
+         "text": {
+            "en": "We said 1 for the element index, right?",
+            "pl": "Powiedzieliśmy 1 dla indeksu elementu, prawda?",
+            "ar": "قلنا 1 لمؤشر العنصر، أليس كذلك؟"
+         },
+         "endTime": 129727,
+         "startTime": 126266
+      },
+      {
+         "text": {
+            "en": "The 1 right here.",
+            "pl": "1 tutaj.",
+            "ar": "1 هنا."
+         },
+         "endTime": 131397,
+         "startTime": 129727
+      },
+      {
+         "text": {
+            "en": "Well that's because arrays start at 0, not 1, and it will definitely seem weird at first, but you'll get used to it.",
+            "pl": "To dlatego, że tablice zaczynają się od 0, a nie 1, a na początku na pewno będzie to dziwne, ale przyzwyczaisz się do tego.",
+            "ar": "حسنا هذا لأن المصفوفات تبدأ في 0، وليس 1، وسوف يبدو بالتأكيد غريب في البداية، ولكن عليك أن تعتاد على ذلك."
+         },
+         "endTime": 139803,
+         "startTime": 131397
+      },
+      {
+         "text": {
+            "en": "So if we put 0, then we see Sofia, alright?",
+            "pl": "Więc jeśli postawimy 0, zobaczymy Sofię, dobrze?",
+            "ar": "حتى إذا وضعنا 0، ثم نرى صوفيا، حسنا؟"
+         },
+         "endTime": 143875,
+         "startTime": 139803
+      },
+      {
+         "text": {
+            "en": "And then if we want to show the next element, then we use 1, alright?",
+            "pl": "A potem, jeśli chcemy pokazać następny element, to używamy 1, w porządku?",
+            "ar": "ثم إذا أردنا أن تظهر العنصر التالي، ثم نستخدم 1، حسنا؟"
+         },
+         "endTime": 147934,
+         "startTime": 143875
+      },
+      {
+         "text": {
+            "en": "So, and then if we want to do the final element, the third element, then we use 2.",
+            "pl": "Tak więc, a następnie, jeśli chcemy zrobić element końcowy, trzeci element, to używamy 2.",
+            "ar": "لذلك، وبعد ذلك إذا أردنا أن تفعل العنصر النهائي، العنصر الثالث، ثم نستخدم 2."
+         },
+         "endTime": 152696,
+         "startTime": 147934
+      },
+      {
+         "text": {
+            "en": "So you just think to yourself, \"Ok, which one do I want to retrieve?\"",
+            "pl": "Więc pomyślałeś sobie: „Ok, który chcę odzyskać?”",
+            "ar": "لذلك كنت مجرد التفكير في نفسك، «حسنا، أي واحد أريد أن استرداد؟»"
+         },
+         "endTime": 156723,
+         "startTime": 152696
+      },
+      {
+         "text": {
+            "en": "Let's spread these out.",
+            "pl": "Rozłóżmy to.",
+            "ar": "دعونا نشر هذه خارج."
+         },
+         "endTime": 158267,
+         "startTime": 156723
+      },
+      {
+         "text": {
+            "en": "And where is it located, and you just subtract one.",
+            "pl": "I gdzie się znajduje, a ty po prostu odejmujesz jeden.",
+            "ar": "وأين يقع، وكنت مجرد طرح واحد."
+         },
+         "endTime": 161438,
+         "startTime": 158267
+      },
+      {
+         "text": {
+            "en": "So the first one is 0, the second one is 1, the third one is 2, et cetera, et cetera.",
+            "pl": "Pierwszy to 0, drugi to 1, trzeci to 2, et cetera, et cetera.",
+            "ar": "وبالتالي فإن أول واحد هو 0، والثاني هو 1، والثالث هو 2، وما إلى ذلك، وما إلى ذلك."
+         },
+         "endTime": 166832,
+         "startTime": 161438
+      },
+      {
+         "text": {
+            "en": "What happens if I forgot, and I try to access Leif this way?",
+            "pl": "Co się stanie, jeśli zapomnę i spróbuję uzyskać dostęp do Leif w ten sposób?",
+            "ar": "ماذا يحدث إذا نسيت، وأنا أحاول الوصول إلى ليف بهذه الطريقة؟"
+         },
+         "endTime": 171797,
+         "startTime": 166832
+      },
+      {
+         "text": {
+            "en": "Well then we say myFriends[3], and we'll just get nothing.",
+            "pl": "No to mówimy MyFriends [3], a my po prostu nic nie dostaniemy.",
+            "ar": "حسنا ثم نقول MyFriends [3]، ونحن سوف مجرد الحصول على أي شيء."
+         },
+         "endTime": 176000,
+         "startTime": 171797
+      },
+      {
+         "text": {
+            "en": "That's because there's nothing there, right?",
+            "pl": "To dlatego, że nic tam nie ma, prawda?",
+            "ar": "هذا لأنه لا يوجد شيء هناك، أليس كذلك؟"
+         },
+         "endTime": 178640,
+         "startTime": 176000
+      },
+      {
+         "text": {
+            "en": "When it says 3, it looks for the fourth element, and there'e no fourth element.",
+            "pl": "Kiedy mówi 3, wygląda na czwartym elemencie, i nie ma czwartego elementu.",
+            "ar": "عندما يقول 3، فإنه يبحث عن العنصر الرابع، وهناك أي عنصر الرابع."
+         },
+         "endTime": 183719,
+         "startTime": 178640
+      },
+      {
+         "text": {
+            "en": "So there's just nothing.",
+            "pl": "Więc po prostu nic nie ma.",
+            "ar": "لذا لا يوجد شيء"
+         },
+         "endTime": 185432,
+         "startTime": 183719
+      },
+      {
+         "text": {
+            "en": "And that's something that can happen a lot when you're using arrays. So just look out for that.",
+            "pl": "I to jest coś, co może się zdarzyć, gdy używasz tablic. Więc uważaj na to.",
+            "ar": "وهذا شيء يمكن أن يحدث كثيرا عندما كنت تستخدم المصفوفات. لذلك مجرد البحث عن ذلك."
+         },
+         "endTime": 189197,
+         "startTime": 185432
+      },
+      {
+         "text": {
+            "en": "And the same thing if I tried to access 100 because I don't have one hundred friends.",
+            "pl": "I to samo, gdybym próbował dostać się do 100, bo nie mam stu przyjaciół.",
+            "ar": "ونفس الشيء إذا حاولت الوصول إلى 100 لأنني لا أملك مائة صديق."
+         },
+         "endTime": 193885,
+         "startTime": 189197
+      },
+      {
+         "text": {
+            "en": "I only have three...",
+            "pl": "Mam tylko trzy...",
+            "ar": "ليس لدي سوى ثلاثة..."
+         },
+         "endTime": 195766,
+         "startTime": 193885
+      },
+      {
+         "text": {
+            "en": "So then we get nothing, alright? So let's get rid of those.",
+            "pl": "Więc nic nie dostaniemy, dobra? Więc pozbądźmy się ich.",
+            "ar": "إذن لن نحصل على شيء، حسناً؟ لذلك دعونا نتخلص من تلك."
+         },
+         "endTime": 198572,
+         "startTime": 195766
+      },
+      {
+         "text": {
+            "en": "Now let's say we want to keep track of how many friends we have because I'm really proud that I have three friends, and I want to let everybody know.",
+            "pl": "Powiedzmy, że chcemy śledzić ilu przyjaciół mamy, bo jestem naprawdę dumny, że mam trzech przyjaciół i chcę, żeby wszyscy o tym wiedzieli.",
+            "ar": "الآن دعونا نقول أننا نريد أن تتبع عدد الأصدقاء لدينا لأنني فخور حقا أن لدي ثلاثة أصدقاء، وأريد أن أخبر الجميع."
+         },
+         "endTime": 205891,
+         "startTime": 198572
+      },
+      {
+         "text": {
+            "en": "So I'm going to go and declare this to the world.",
+            "pl": "Więc pójdę i zadeklaruję to światu.",
+            "ar": "لذلك أنا ذاهب للذهاب وأعلن هذا للعالم."
+         },
+         "endTime": 209223,
+         "startTime": 205891
+      },
+      {
+         "text": {
+            "en": "So I have numFriends + friends. Woo, alright.",
+            "pl": "Więc mam NumFriends + przyjaciół. Woo, w porządku.",
+            "ar": "لذلك لدي أصدقاء NumFriends +. (وو)، حسناً"
+         },
+         "endTime": 215388,
+         "startTime": 209223
+      },
+      {
+         "text": {
+            "en": "OK, so I have three friends. Yay! Wow, that's not very many.",
+            "pl": "OK, więc mam troje przyjaciół. Hura! Wow, to nie jest zbyt wiele.",
+            "ar": "حسنا، لذلك لدي ثلاثة أصدقاء. ياي! نجاح باهر، هذا ليس الكثير جدا."
+         },
+         "endTime": 220634,
+         "startTime": 215388
+      },
+      {
+         "text": {
+            "en": "OK, so maybe Winston feels bad for me and says he'll be my friend.",
+            "pl": "Może Winston mi współczuje i mówi, że będzie moim przyjacielem.",
+            "ar": "حسنا, ربما وينستون يشعر بالسوء بالنسبة لي ويقول انه سيكون صديقي"
+         },
+         "endTime": 224499,
+         "startTime": 220634
+      },
+      {
+         "text": {
+            "en": "And he says I can add him to the array.",
+            "pl": "I mówi, że mogę dodać go do tablicy.",
+            "ar": "ويقول أنني يمكن أن أضفه إلى مجموعة."
+         },
+         "endTime": 226139,
+         "startTime": 224499
+      },
+      {
+         "text": {
+            "en": "And I was like, \"OK, cool. Thanks, Winston.\"",
+            "pl": "A ja na to: „OK, spoko. Dzięki, Winston.”",
+            "ar": "وكنت مثل، «حسنا، رائع. شكرا، وينستون.»"
+         },
+         "endTime": 227875,
+         "startTime": 226139
+      },
+      {
+         "text": {
+            "en": "So I add Winston. Oh, but it still says I have three friends.",
+            "pl": "Dodaję więc Winstona. Ale wciąż jest napisane, że mam troje przyjaciół.",
+            "ar": "لذلك أضيف وينستون. لكن ما زال يقول أن لدي ثلاثة أصدقاء"
+         },
+         "endTime": 230888,
+         "startTime": 227875
+      },
+      {
+         "text": {
+            "en": "Right, because I have to go and update this variable here.",
+            "pl": "Racja, bo muszę iść i zaktualizować tę zmienną tutaj.",
+            "ar": "الحق، لأنني لا بد لي من الذهاب وتحديث هذا المتغير هنا."
+         },
+         "endTime": 234009,
+         "startTime": 230888
+      },
+      {
+         "text": {
+            "en": "That means every time that I add something to this array, I have to update this variable, and that can get really annoying.",
+            "pl": "Oznacza to, że za każdym razem, że dodam coś do tej tablicy, muszę zaktualizować tę zmienną, i że może się naprawdę denerwujące.",
+            "ar": "وهذا يعني في كل مرة أن أضيف شيئا إلى هذه المجموعة، لا بد لي من تحديث هذا المتغير، والتي يمكن الحصول على مزعج حقا."
+         },
+         "endTime": 240006,
+         "startTime": 234009
+      },
+      {
+         "text": {
+            "en": "Especially if all of you guys watching this decide you'll be my friend, and then I'm updating this thousands of times and having to update this every time.",
+            "pl": "Zwłaszcza jeśli wszyscy oglądający to zdecydujecie, że będziecie moim przyjacielem, a potem aktualizuję to tysiące razy i muszę to aktualizować za każdym razem.",
+            "ar": "خاصة إذا كان كل واحد منكم يا رفاق مشاهدة هذا تقرر عليك أن تكون صديقي، وبعد ذلك أنا تحديث هذا الآلاف من المرات الاضطرار إلى تحديث هذا في كل مرة."
+         },
+         "endTime": 247640,
+         "startTime": 240006
+      },
+      {
+         "text": {
+            "en": "So here's the thing. We so often want to know how long our array is that there's a special way to do that.",
+            "pl": "Więc w tym rzecz. Tak często chcemy wiedzieć, jak długo jest nasza tablica, że istnieje specjalny sposób, aby to zrobić.",
+            "ar": "حتى هنا هو الشيء. نحن في كثير من الأحيان نريد أن نعرف كم من الوقت لدينا مجموعة هو أن هناك طريقة خاصة للقيام بذلك."
+         },
+         "endTime": 255375,
+         "startTime": 247640
+      },
+      {
+         "text": {
+            "en": "So the array will keep track of how long it is using the property called length.",
+            "pl": "Więc tablica będzie śledzić, jak długo jest za pomocą właściwości o nazwie length.",
+            "ar": "وبالتالي فإن مجموعة تتبع كم من الوقت هو استخدام الخاصية يسمى طول."
+         },
+         "endTime": 260310,
+         "startTime": 255375
+      },
+      {
+         "text": {
+            "en": "And to use it, we just say myFriends.length, and then we'll get back the length. See?",
+            "pl": "I używać go, po prostu powiedzieć mojeprzyjaciół.Długość, a następnie wrócimy długość. Widzisz?",
+            "ar": "واستخدامه، نقول فقط MyFriends.Length، وبعد ذلك سنعود الطول. أترى؟"
+         },
+         "endTime": 267275,
+         "startTime": 260310
+      },
+      {
+         "text": {
+            "en": "Now it says 4, and I can delete this variable. I don't need it any more.",
+            "pl": "Teraz jest napisane 4, i mogę usunąć tę zmienną. Już jej nie potrzebuję.",
+            "ar": "الآن يقول 4، ويمكنني حذف هذا المتغير. لا أحتاجه بعد الآن"
+         },
+         "endTime": 270528,
+         "startTime": 267275
+      },
+      {
+         "text": {
+            "en": "And this property will update whenever we add.",
+            "pl": "I ta właściwość będzie aktualizować, gdy dodamy.",
+            "ar": "وسيتم تحديث هذه الخاصية كلما أضفنا."
+         },
+         "endTime": 273434,
+         "startTime": 270528
+      },
+      {
+         "text": {
+            "en": "So maybe OhNoes Guy says he'll be my friend, and I'm like, \"OK, you're kind of mean, but OK. You can be my friend.\"",
+            "pl": "Więc może Ohnoes Guy mówi, że będzie moim przyjacielem, a ja na to: „OK, jesteś wredna, ale OK. Możesz być moim przyjacielem.",
+            "ar": "لذا ربما يقول (أونوز غاي) أنه سيكون صديقي، وأنا مثل، «حسناً، أنت لئيم نوعاً ما، لكن حسناً. يمكنك أن تكون صديقي.»"
+         },
+         "endTime": 279698,
+         "startTime": 273434
+      },
+      {
+         "text": {
+            "en": "And we can keep adding, and it will keep updating.",
+            "pl": "I możemy nadal dodawać, a to będzie się aktualizować.",
+            "ar": "ويمكننا أن نستمر في إضافة، وسوف تستمر في التحديث."
+         },
+         "endTime": 283057,
+         "startTime": 279698
+      },
+      {
+         "text": {
+            "en": "So that's really cool because, you know, it's a lot less work to keep track of how long our array is.",
+            "pl": "Więc to jest naprawdę fajne, bo wiesz, dużo mniej pracy na śledzenie tego, jak długo jest nasza tablica.",
+            "ar": "لذلك هذا رائع حقا لأنه، كما تعلمون، انها أقل بكثير العمل لتتبع كم من الوقت لدينا مجموعة هو."
+         },
+         "endTime": 289600,
+         "startTime": 283057
+      },
+      {
+         "text": {
+            "en": "Alright, so pretty much whenever you want to store a list of values like this, we'll use an array.",
+            "pl": "W porządku, więc dość dużo, gdy chcesz przechowywać listę wartości takich jak ten, użyjemy tablicy.",
+            "ar": "حسنا، لذلك الى حد كبير كلما كنت ترغب في تخزين قائمة من القيم مثل هذا، سنستخدم صفيف."
+         },
+         "endTime": 295391,
+         "startTime": 289600
+      },
+      {
+         "text": {
+            "en": "So keep watching to find out all the really cool things that we can use them for.",
+            "pl": "Więc obserwuj, aby dowiedzieć się wszystkich naprawdę fajnych rzeczy, do których możemy ich użyć.",
+            "ar": "لذا استمر في المشاهدة لمعرفة كل الأشياء الرائعة التي يمكننا استخدامها من أجلها."
+         },
+         "endTime": 299391,
+         "startTime": 295391
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/gUOwZkL09BE/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759769989",
+   "title": "Intro to Arrays | Arrays | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

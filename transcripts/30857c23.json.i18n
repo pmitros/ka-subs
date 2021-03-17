@@ -1,0 +1,1221 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- [Voiceover] Let's keep exploring",
+            "pl": "- [Voiceover] Chodźmy dalej odkrywać",
+            "ar": "- [Voiceover] دعونا نستمر في استكشاف"
+         },
+         "endTime": 1773,
+         "startTime": 1135
+      },
+      {
+         "text": {
+            "en": "what we can do with objects.",
+            "pl": "co możemy zrobić z obiektami.",
+            "ar": "ما يمكننا القيام به مع الأشياء."
+         },
+         "endTime": 4094,
+         "startTime": 1773
+      },
+      {
+         "text": {
+            "en": "We're back with the program that we used",
+            "pl": "Wróciliśmy do programu, którego użyliśmy",
+            "ar": "لقد عدنا مع البرنامج الذي استخدمناه"
+         },
+         "endTime": 5997,
+         "startTime": 4094
+      },
+      {
+         "text": {
+            "en": "in the functions tutorial.",
+            "pl": "w samouczku funkcji.",
+            "ar": "في وظائف البرنامج التعليمي."
+         },
+         "endTime": 7785,
+         "startTime": 5997
+      },
+      {
+         "text": {
+            "en": "This program has this drawWinston function",
+            "pl": "Ten program ma tę funkcję DrawWinston",
+            "ar": "هذا البرنامج لديه هذه الوظيفة دراوينستون"
+         },
+         "endTime": 10610,
+         "startTime": 7785
+      },
+      {
+         "text": {
+            "en": "which knows how to draw Winston,",
+            "pl": "który wie, jak narysować Winstona,",
+            "ar": "الذي يعرف كيفية رسم وينستون،"
+         },
+         "endTime": 12215,
+         "startTime": 10610
+      },
+      {
+         "text": {
+            "en": "and it gets a certain x and y.",
+            "pl": "i dostaje pewne x i y.",
+            "ar": "ويحصل على بعض x و y."
+         },
+         "endTime": 14610,
+         "startTime": 12215
+      },
+      {
+         "text": {
+            "en": "And then down here, we call drawWinston four times.",
+            "pl": "A potem tutaj dzwonimy do DrawInstona cztery razy.",
+            "ar": "ومن ثم هنا، ندعو دراوينستون أربع مرات."
+         },
+         "endTime": 17545,
+         "startTime": 14610
+      },
+      {
+         "text": {
+            "en": "Each with a different set of x and y coordinates.",
+            "pl": "Każdy z innym zestawem współrzędnych x i y.",
+            "ar": "كل مع مجموعة مختلفة من x و y الإحداثيات."
+         },
+         "endTime": 20734,
+         "startTime": 17545
+      },
+      {
+         "text": {
+            "en": "Well, you know me.",
+            "pl": "Cóż, znasz mnie.",
+            "ar": "حسناً، أنت تعرفني"
+         },
+         "endTime": 22827,
+         "startTime": 20734
+      },
+      {
+         "text": {
+            "en": "When I look at those four drawWinston calls",
+            "pl": "Kiedy patrzę na te cztery rozmowy DrawWinston",
+            "ar": "عندما أنظر إلى مكالمات دراوينستون الأربعة"
+         },
+         "endTime": 25489,
+         "startTime": 22827
+      },
+      {
+         "text": {
+            "en": "that are so similar looking,",
+            "pl": "które są tak podobne,",
+            "ar": "التي هي مشابهة جدا تبحث,"
+         },
+         "endTime": 27540,
+         "startTime": 25489
+      },
+      {
+         "text": {
+            "en": "all I can think about is how much better it would be",
+            "pl": "Wszystko, o czym mogę myśleć, to o ile lepiej by było",
+            "ar": "كل ما يمكنني التفكير فيه هو كم سيكون أفضل بكثير"
+         },
+         "endTime": 30791,
+         "startTime": 27540
+      },
+      {
+         "text": {
+            "en": "if we could use a loop",
+            "pl": "gdybyśmy mogli użyć pętli",
+            "ar": "إذا استطعنا استخدام حلقة"
+         },
+         "endTime": 32356,
+         "startTime": 30791
+      },
+      {
+         "text": {
+            "en": "and just call it one time inside the loop,",
+            "pl": "i po prostu nazwać to jeden raz wewnątrz pętli,",
+            "ar": "وفقط نسميها مرة واحدة داخل الحلقة،"
+         },
+         "endTime": 35627,
+         "startTime": 32356
+      },
+      {
+         "text": {
+            "en": "changing the x and y in each iteration of the loop.",
+            "pl": "zmiana x i y w każdej iteracji pętli.",
+            "ar": "تغيير x و y في كل تكرار للحلقة."
+         },
+         "endTime": 39324,
+         "startTime": 35627
+      },
+      {
+         "text": {
+            "en": "So to do that, we need to find a way",
+            "pl": "Aby to zrobić, musimy znaleźć sposób",
+            "ar": "لذلك للقيام بذلك، نحن بحاجة إلى إيجاد وسيلة"
+         },
+         "endTime": 41701,
+         "startTime": 39324
+      },
+      {
+         "text": {
+            "en": "to store these x and y positions in an array",
+            "pl": "do przechowywania tych pozycji x i y w tablicy",
+            "ar": "لتخزين هذه المواقف x و y في صفيف"
+         },
+         "endTime": 45054,
+         "startTime": 41701
+      },
+      {
+         "text": {
+            "en": "so that we can loop through it.",
+            "pl": "tak, że możemy przez to zapętlić.",
+            "ar": "حتى نتمكن من حلقة من خلال ذلك."
+         },
+         "endTime": 47066,
+         "startTime": 45054
+      },
+      {
+         "text": {
+            "en": "Well, with two sets of values,",
+            "pl": "Cóż, z dwoma zestawami wartości,",
+            "ar": "حسنا، مع مجموعتين من القيم،"
+         },
+         "endTime": 49097,
+         "startTime": 47066
+      },
+      {
+         "text": {
+            "en": "so that we could do is have two arrays:",
+            "pl": "tak, że możemy zrobić to mieć dwie tablice:",
+            "ar": "حتى نتمكن من القيام به هو اثنين من المصفوفات:"
+         },
+         "endTime": 51617,
+         "startTime": 49097
+      },
+      {
+         "text": {
+            "en": "one for x positions, and one for y positions.",
+            "pl": "jeden dla pozycji x, a drugi dla pozycji y.",
+            "ar": "واحد لمواقع x، وواحد لمواقع y."
+         },
+         "endTime": 55876,
+         "startTime": 52497
+      },
+      {
+         "text": {
+            "en": "So xPositions, we might have 99, 294",
+            "pl": "Więc XPositions, możemy mieć 99, 294",
+            "ar": "لذلك XPosiss، قد يكون لدينا 99، 294"
+         },
+         "endTime": 59586,
+         "startTime": 55876
+      },
+      {
+         "text": {
+            "en": "101, and 294.",
+            "pl": "101 i 294.",
+            "ar": "101, و 294."
+         },
+         "endTime": 61903,
+         "startTime": 59586
+      },
+      {
+         "text": {
+            "en": "And yPositions, we'll have 117, 117,",
+            "pl": "I YPositions, będziemy mieli 117, 117,",
+            "ar": "و المواقع, سيكون لدينا 117, 117, 117,"
+         },
+         "endTime": 66903,
+         "startTime": 61903
+      },
+      {
+         "text": {
+            "en": "316, 316.",
+            "pl": "316, 316.",
+            "ar": "316، 316."
+         },
+         "endTime": 68992,
+         "startTime": 67045
+      },
+      {
+         "text": {
+            "en": "Okay, and now we can loop through those",
+            "pl": "Okej, a teraz możemy przeprzeć te",
+            "ar": "حسنا، والآن يمكننا أن نحلق من خلال تلك"
+         },
+         "endTime": 71430,
+         "startTime": 68992
+      },
+      {
+         "text": {
+            "en": "with our 'for' loop, var i equals zero,",
+            "pl": "z naszą pętlą 'for', var i równa się zero,",
+            "ar": "مع حلقة «ل» لدينا، فار ط يساوي الصفر،"
+         },
+         "endTime": 74030,
+         "startTime": 71430
+      },
+      {
+         "text": {
+            "en": "i less than xPositions.length, i++.",
+            "pl": "i mniej niż xpositions.length, i++.",
+            "ar": "أنا أقل من xpositions.length، ط ++."
+         },
+         "endTime": 78196,
+         "startTime": 74030
+      },
+      {
+         "text": {
+            "en": "So we're going through each element in xPositions,",
+            "pl": "Więc przechodzimy przez każdy element w XPositions,",
+            "ar": "لذلك نحن في طريقنا من خلال كل عنصر في XPoiss"
+         },
+         "endTime": 80653,
+         "startTime": 78196
+      },
+      {
+         "text": {
+            "en": "and we'll say drawWinston,",
+            "pl": "a my powiemy DrawWinston,",
+            "ar": "وسنقول دراوينستون"
+         },
+         "endTime": 82990,
+         "startTime": 80653
+      },
+      {
+         "text": {
+            "en": "xPositions[i]s,",
+            "pl": "xPozycje [i] s,",
+            "ar": "زبوسينس [أنا] ق،"
+         },
+         "endTime": 86344,
+         "startTime": 82990
+      },
+      {
+         "text": {
+            "en": "and yPositions[i].",
+            "pl": "i yPositions [i].",
+            "ar": "و المواقف [ط]."
+         },
+         "endTime": 89391,
+         "startTime": 86344
+      },
+      {
+         "text": {
+            "en": "Okay.",
+            "pl": "Okej.",
+            "ar": "حسناً"
+         },
+         "endTime": 92041,
+         "startTime": 90511
+      },
+      {
+         "text": {
+            "en": "So let's see if that worked by deleting.",
+            "pl": "Zobaczmy więc, czy to zadziałało przez usunięcie.",
+            "ar": "لذلك دعونا نرى ما إذا كان ذلك يعمل عن طريق حذف."
+         },
+         "endTime": 93835,
+         "startTime": 92041
+      },
+      {
+         "text": {
+            "en": "All right, that worked.",
+            "pl": "Dobra, to zadziałało.",
+            "ar": "حسناً، هذا نجح"
+         },
+         "endTime": 95481,
+         "startTime": 93835
+      },
+      {
+         "text": {
+            "en": "So now we can actually just call this,",
+            "pl": "Więc teraz możemy po prostu to nazwać,",
+            "ar": "حتى الآن يمكننا في الواقع مجرد استدعاء هذا،"
+         },
+         "endTime": 98487,
+         "startTime": 95481
+      },
+      {
+         "text": {
+            "en": "you know, we just have this one line of code",
+            "pl": "Wiesz, mamy tylko jedną linię kodu",
+            "ar": "تعلمون، لدينا فقط هذا سطر واحد من التعليمات البرمجية"
+         },
+         "endTime": 100135,
+         "startTime": 98487
+      },
+      {
+         "text": {
+            "en": "that does drawWinston, but it does it",
+            "pl": "że robi DrawWinston, ale robi to",
+            "ar": "أن يفعل DrawWinston، لكنه يفعل ذلك"
+         },
+         "endTime": 101369,
+         "startTime": 100135
+      },
+      {
+         "text": {
+            "en": "for every position in the xPositions array.",
+            "pl": "dla każdej pozycji w tablicy XPositions.",
+            "ar": "لكل موقف في صفيف XPosies."
+         },
+         "endTime": 104478,
+         "startTime": 101369
+      },
+      {
+         "text": {
+            "en": "So we could go and add more to this",
+            "pl": "Żebyśmy mogli pójść i dodać do tego więcej",
+            "ar": "حتى نتمكن من الذهاب وإضافة المزيد إلى هذا"
+         },
+         "endTime": 106958,
+         "startTime": 104478
+      },
+      {
+         "text": {
+            "en": "by saying like 10 and then we add 1,",
+            "pl": "mówiąc jak 10, a następnie dodajemy 1,",
+            "ar": "بقول مثل 10 ثم نضيف 1"
+         },
+         "endTime": 109847,
+         "startTime": 106958
+      },
+      {
+         "text": {
+            "en": "and then add 1 and then 1,",
+            "pl": "a następnie dodać 1, a następnie 1,",
+            "ar": "ثم تضاف 1 ثم 1،"
+         },
+         "endTime": 112632,
+         "startTime": 109847
+      },
+      {
+         "text": {
+            "en": "and then 100 and 1.",
+            "pl": "a następnie 100 i 1.",
+            "ar": "ثم 100 و 1."
+         },
+         "endTime": 117427,
+         "startTime": 112632
+      },
+      {
+         "text": {
+            "en": "Now it's getting to look a little bit messy,",
+            "pl": "Teraz zaczyna wyglądać trochę niechlujnie,",
+            "ar": "الآن هو الحصول على تبدو فوضوي قليلا،"
+         },
+         "endTime": 121421,
+         "startTime": 118397
+      },
+      {
+         "text": {
+            "en": "and I don't like it because it's really hard for me",
+            "pl": "i nie podoba mi się to, bo to dla mnie naprawdę trudne",
+            "ar": "وأنا لا أحب ذلك لأنه من الصعب حقا بالنسبة لي"
+         },
+         "endTime": 124547,
+         "startTime": 121421
+      },
+      {
+         "text": {
+            "en": "to see which x's relate to which y's.",
+            "pl": ", aby zobaczyć, które x odnoszą się do których y.",
+            "ar": "لمعرفة أي س تتعلق التي ذ."
+         },
+         "endTime": 127818,
+         "startTime": 124547
+      },
+      {
+         "text": {
+            "en": "And I want it to be just a look and a glance",
+            "pl": "I chcę, żeby to było tylko spojrzenie i spojrzenie",
+            "ar": "وأريدها أن تكون مجرد نظرة ولمحة"
+         },
+         "endTime": 132515,
+         "startTime": 128937
+      },
+      {
+         "text": {
+            "en": "to know what my x, y pairs are.",
+            "pl": "wiedzieć, co moje x, y pary są.",
+            "ar": "لمعرفة ما بلدي x، y أزواج هي."
+         },
+         "endTime": 134566,
+         "startTime": 132515
+      },
+      {
+         "text": {
+            "en": "Instead of having to make sure",
+            "pl": "Zamiast mieć pewność, że",
+            "ar": "بدلا من الاضطرار للتأكد"
+         },
+         "endTime": 136212,
+         "startTime": 134566
+      },
+      {
+         "text": {
+            "en": "that I perfectly line them up",
+            "pl": "że doskonale je ustawiam",
+            "ar": "أنني أصطف لهم تماما"
+         },
+         "endTime": 138528,
+         "startTime": 136212
+      },
+      {
+         "text": {
+            "en": "above each other like this maybe.",
+            "pl": "ponad sobą, jak to może.",
+            "ar": "فوق بعضها البعض مثل هذا ربما."
+         },
+         "endTime": 140554,
+         "startTime": 138528
+      },
+      {
+         "text": {
+            "en": "So I wanna find a different way of storing these positions.",
+            "pl": "Więc chcę znaleźć inny sposób na przechowywanie tych pozycji.",
+            "ar": "لذلك أريد أن أجد طريقة مختلفة لتخزين هذه المواقف."
+         },
+         "endTime": 146357,
+         "startTime": 142264
+      },
+      {
+         "text": {
+            "en": "Now one idea is that we can actually store them as objects",
+            "pl": "Jedną z idei jest to, że możemy je przechowywać jako obiekty",
+            "ar": "الآن فكرة واحدة هي أننا في الواقع يمكن تخزينها ككائنات"
+         },
+         "endTime": 150400,
+         "startTime": 146357
+      },
+      {
+         "text": {
+            "en": "because think about it, each position is really",
+            "pl": "bo myśleć o tym, każda pozycja jest naprawdę",
+            "ar": "لانو فكروا في ذلك كل موقف هو حقا"
+         },
+         "endTime": 153401,
+         "startTime": 150400
+      },
+      {
+         "text": {
+            "en": "two basic information, the x and the y.",
+            "pl": "dwie podstawowe informacje: x i y.",
+            "ar": "اثنين من المعلومات الأساسية، وx و y."
+         },
+         "endTime": 155837,
+         "startTime": 153401
+      },
+      {
+         "text": {
+            "en": "So we could have an object which has x and y properties.",
+            "pl": "Więc możemy mieć obiekt, który ma właściwości x i y.",
+            "ar": "لذلك يمكن أن يكون لدينا كائن يحتوي على خصائص x و y."
+         },
+         "endTime": 159108,
+         "startTime": 155837
+      },
+      {
+         "text": {
+            "en": "And then we could have an array of objects",
+            "pl": "A potem moglibyśmy mieć tablicę obiektów",
+            "ar": "وبعد ذلك يمكن أن يكون لدينا مجموعة من الكائنات"
+         },
+         "endTime": 161628,
+         "startTime": 159108
+      },
+      {
+         "text": {
+            "en": "with all these x, y positions.",
+            "pl": "z tymi wszystkimi pozycjami x, y.",
+            "ar": "مع كل هذه المواقف س، ص."
+         },
+         "endTime": 164147,
+         "startTime": 161628
+      },
+      {
+         "text": {
+            "en": "So let's do that.",
+            "pl": "Więc zróbmy to.",
+            "ar": "لذلك دعونا نفعل ذلك."
+         },
+         "endTime": 165651,
+         "startTime": 164147
+      },
+      {
+         "text": {
+            "en": "We'll say var positions equals,",
+            "pl": "Powiemy, że pozycje var równa się,",
+            "ar": "سنقول مواقف فار يساوي,"
+         },
+         "endTime": 168821,
+         "startTime": 165651
+      },
+      {
+         "text": {
+            "en": "and this is gonna be an array as well,",
+            "pl": "i to będzie również tablica,",
+            "ar": "وهذا هو ستعمل يكون مجموعة كذلك،"
+         },
+         "endTime": 171260,
+         "startTime": 168821
+      },
+      {
+         "text": {
+            "en": "but each element, instead of being a number,",
+            "pl": "ale każdy element, zamiast być liczbą,",
+            "ar": "لكن كل عنصر, بدلا من أن يكون عددا,"
+         },
+         "endTime": 174023,
+         "startTime": 171260
+      },
+      {
+         "text": {
+            "en": "it's going to be an object.",
+            "pl": "To będzie obiekt.",
+            "ar": "انها ستكون كائن."
+         },
+         "endTime": 175749,
+         "startTime": 174023
+      },
+      {
+         "text": {
+            "en": "So here we have our curly brackets,",
+            "pl": "Więc tutaj mamy nasze kręcone nawiasy,",
+            "ar": "حتى هنا لدينا أقواس مجعد لدينا،"
+         },
+         "endTime": 178675,
+         "startTime": 175749
+      },
+      {
+         "text": {
+            "en": "and then we're just gonna say x 99,",
+            "pl": "A potem powiemy X 99,",
+            "ar": "وبعد ذلك نحن فقط ستعمل نقول س 99،"
+         },
+         "endTime": 181915,
+         "startTime": 178675
+      },
+      {
+         "text": {
+            "en": "y 117.",
+            "pl": "y 117.",
+            "ar": "(ذ) 117."
+         },
+         "endTime": 184517,
+         "startTime": 181915
+      },
+      {
+         "text": {
+            "en": "Okay, so now we have one of our positions in here,",
+            "pl": "Ok, więc teraz mamy jedną z naszych pozycji tutaj,",
+            "ar": "حسناً، الآن لدينا أحد مواقعنا هنا،"
+         },
+         "endTime": 188499,
+         "startTime": 184517
+      },
+      {
+         "text": {
+            "en": "and then we'll go add another one,",
+            "pl": "a potem pójdziemy dodać jeszcze jeden,",
+            "ar": "وبعد ذلك سنذهب إضافة واحدة أخرى،"
+         },
+         "endTime": 190998,
+         "startTime": 188499
+      },
+      {
+         "text": {
+            "en": "add another one here.",
+            "pl": "dodaj jeszcze jeden tutaj.",
+            "ar": "إضافة واحد آخر هنا."
+         },
+         "endTime": 193842,
+         "startTime": 190998
+      },
+      {
+         "text": {
+            "en": "All right, x should be 294, 117.",
+            "pl": "Dobra, x powinien być 294, 117.",
+            "ar": "حسنا، يجب أن يكون X 294، 117."
+         },
+         "endTime": 198600,
+         "startTime": 193842
+      },
+      {
+         "text": {
+            "en": "Okay, the third one is going to be 101, 316.",
+            "pl": "Dobra, trzeci będzie 101, 316.",
+            "ar": "حسناً، الثالثة ستكون 101، 316"
+         },
+         "endTime": 203600,
+         "startTime": 198600
+      },
+      {
+         "text": {
+            "en": "And the final one is 294",
+            "pl": "A ostatni to 294",
+            "ar": "والأخير هو 294"
+         },
+         "endTime": 209178,
+         "startTime": 205285
+      },
+      {
+         "text": {
+            "en": "and 316.",
+            "pl": "i 316.",
+            "ar": "و 316."
+         },
+         "endTime": 211084,
+         "startTime": 209178
+      },
+      {
+         "text": {
+            "en": "Okay, so now we have an array of objects",
+            "pl": "Ok, więc teraz mamy tablicę obiektów",
+            "ar": "حسنا، حتى الآن لدينا مجموعة من الكائنات"
+         },
+         "endTime": 214744,
+         "startTime": 211084
+      },
+      {
+         "text": {
+            "en": "where each object has x and y properties in it.",
+            "pl": "gdzie każdy obiekt ma w nim właściwości x i y.",
+            "ar": "حيث يحتوي كل كائن على خصائص x و y فيه."
+         },
+         "endTime": 217508,
+         "startTime": 214744
+      },
+      {
+         "text": {
+            "en": "So down here in our 'for' loop,",
+            "pl": "Więc tutaj, w naszej pętli „za”,",
+            "ar": "حتى هنا في منطقتنا 'ل' حلقة,"
+         },
+         "endTime": 220865,
+         "startTime": 218908
+      },
+      {
+         "text": {
+            "en": "we'll just change this to iterate through positions.length,",
+            "pl": "będziemy po prostu zmienić to do iteracji przez positions.length,",
+            "ar": "سنقوم فقط بتغيير هذا لتكرار من خلال positions.length،"
+         },
+         "endTime": 224036,
+         "startTime": 220865
+      },
+      {
+         "text": {
+            "en": "and then we'll pass in the objects.",
+            "pl": "a potem przejdziemy w obiektach.",
+            "ar": "وبعد ذلك سنمر في الكائنات."
+         },
+         "endTime": 228262,
+         "startTime": 224036
+      },
+      {
+         "text": {
+            "en": "Now, right now, it's passing the entire object,",
+            "pl": "Teraz, teraz, mija cały obiekt,",
+            "ar": "الآن، هو يمر الكائن بأكمله،"
+         },
+         "endTime": 231756,
+         "startTime": 228262
+      },
+      {
+         "text": {
+            "en": "but we wanna pass the x and the y,",
+            "pl": "ale chcemy przejść X i Y,",
+            "ar": "لكننا نريد تمرير x و y،"
+         },
+         "endTime": 233686,
+         "startTime": 231756
+      },
+      {
+         "text": {
+            "en": "so we need positions[i].x and positions[i].y.",
+            "pl": "więc potrzebujemy pozycji [i] .x i pozycji [i] .y.",
+            "ar": "لذلك نحن بحاجة إلى مواقف [أنا] .x والمواقف [أنا] .y."
+         },
+         "endTime": 238686,
+         "startTime": 233686
+      },
+      {
+         "text": {
+            "en": "Ta-dah!",
+            "pl": "Ta-dah!",
+            "ar": "تا-داه!"
+         },
+         "endTime": 240512,
+         "startTime": 239050
+      },
+      {
+         "text": {
+            "en": "Now we can get rid of these old clustered arrays.",
+            "pl": "Teraz możemy pozbyć się tych starych klastrowanych tablic.",
+            "ar": "الآن يمكننا التخلص من هذه المصفوفات القديمة المجمعة."
+         },
+         "endTime": 243755,
+         "startTime": 240512
+      },
+      {
+         "text": {
+            "en": "Great!",
+            "pl": "Świetnie!",
+            "ar": "عظيم!"
+         },
+         "endTime": 245508,
+         "startTime": 244635
+      },
+      {
+         "text": {
+            "en": "So this looks a lot nicer to me,",
+            "pl": "Więc wygląda mi to o wiele ładniej,",
+            "ar": "لذلك هذا يبدو أجمل بكثير بالنسبة لي،"
+         },
+         "endTime": 247501,
+         "startTime": 245508
+      },
+      {
+         "text": {
+            "en": "and makes a code much readable,",
+            "pl": "i sprawia, że kod jest znacznie czytelny,",
+            "ar": "ويجعل رمز للقراءة بكثير،"
+         },
+         "endTime": 249614,
+         "startTime": 247501
+      },
+      {
+         "text": {
+            "en": "and anytime we can have more readable code is better.",
+            "pl": "i w każdej chwili możemy mieć bardziej czytelny kod jest lepszy.",
+            "ar": "وفي أي وقت يمكن أن يكون لدينا رمز أكثر قابلية للقراءة هو أفضل."
+         },
+         "endTime": 252498,
+         "startTime": 249614
+      },
+      {
+         "text": {
+            "en": "And it also makes it easier to add,",
+            "pl": "I to również sprawia, że łatwiej dodać,",
+            "ar": "كما أنه يجعل من الأسهل إضافة،"
+         },
+         "endTime": 254631,
+         "startTime": 252498
+      },
+      {
+         "text": {
+            "en": "so if I wanna add one,",
+            "pl": "Więc jeśli chcę dodać jedną,",
+            "ar": "لذا إن أردت إضافة واحدة"
+         },
+         "endTime": 256095,
+         "startTime": 254631
+      },
+      {
+         "text": {
+            "en": "I'll actually add the pair together,",
+            "pl": "Właściwie dodam parę razem,",
+            "ar": "سأضيف الزوج معاً"
+         },
+         "endTime": 258512,
+         "startTime": 256095
+      },
+      {
+         "text": {
+            "en": "and then we can say x 200, y 200,",
+            "pl": "i wtedy możemy powiedzieć x 200, y 200,",
+            "ar": "وبعد ذلك يمكننا أن نقول س 200، ذ 200،"
+         },
+         "endTime": 262820,
+         "startTime": 258512
+      },
+      {
+         "text": {
+            "en": "get a little Winston in the middle there.",
+            "pl": "Weź trochę Winstona w środku.",
+            "ar": "الحصول على القليل من وينستون في الوسط هناك."
+         },
+         "endTime": 264832,
+         "startTime": 262820
+      },
+      {
+         "text": {
+            "en": "Cool.",
+            "pl": "Fajne.",
+            "ar": "رائع"
+         },
+         "endTime": 267240,
+         "startTime": 266612
+      },
+      {
+         "text": {
+            "en": "Now I wanna show you something even fancier than this.",
+            "pl": "Teraz chcę ci pokazać coś bardziej wyszukanego niż to.",
+            "ar": "الآن أريد أن أريك شيئا حتى أكثر مربي الحيوانات من هذا."
+         },
+         "endTime": 270869,
+         "startTime": 267240
+      },
+      {
+         "text": {
+            "en": "Notice how our function right now accepts",
+            "pl": "Zauważ, jak nasza funkcja teraz akceptuje",
+            "ar": "لاحظ كيف تقبل وظيفتنا الآن"
+         },
+         "endTime": 274254,
+         "startTime": 270869
+      },
+      {
+         "text": {
+            "en": "two numbers, and then uses those two numbers.",
+            "pl": "dwie liczby, a następnie używa tych dwóch liczb.",
+            "ar": "رقمين، ثم يستخدم هذين الرقمين."
+         },
+         "endTime": 278561,
+         "startTime": 274254
+      },
+      {
+         "text": {
+            "en": "Well, we could change our function",
+            "pl": "Cóż, możemy zmienić naszą funkcję",
+            "ar": "حسنا، يمكننا تغيير وظيفتنا"
+         },
+         "endTime": 280016,
+         "startTime": 278561
+      },
+      {
+         "text": {
+            "en": "so that it expects an object,",
+            "pl": "tak, że spodziewa się obiektu,",
+            "ar": "بحيث تتوقع كائن،"
+         },
+         "endTime": 282129,
+         "startTime": 280016
+      },
+      {
+         "text": {
+            "en": "and then it gets the x and y from that object.",
+            "pl": "a następnie dostaje x i y z tego obiektu.",
+            "ar": "ثم يحصل على x و y من هذا الكائن."
+         },
+         "endTime": 284727,
+         "startTime": 282129
+      },
+      {
+         "text": {
+            "en": "Meaning that down here, we could just pass the object.",
+            "pl": "To znaczy, że tutaj, możemy po prostu przekazać obiekt.",
+            "ar": "وهذا يعني أنه هنا، يمكننا فقط تمرير الكائن."
+         },
+         "endTime": 289095,
+         "startTime": 284727
+      },
+      {
+         "text": {
+            "en": "Now let's try that.",
+            "pl": "Teraz spróbujmy tego.",
+            "ar": "الآن دعونا نحاول ذلك."
+         },
+         "endTime": 290477,
+         "startTime": 289095
+      },
+      {
+         "text": {
+            "en": "We pass the object, now it's broken.",
+            "pl": "Mijamy obiekt, teraz jest zepsuty.",
+            "ar": "نحن نمر الكائن، والآن انها مكسورة."
+         },
+         "endTime": 293503,
+         "startTime": 290477
+      },
+      {
+         "text": {
+            "en": "That's because our function still is expecting two objects,",
+            "pl": "To dlatego, że nasza funkcja wciąż oczekuje dwóch obiektów,",
+            "ar": "هذا لأن وظيفتنا لا تزال تتوقع كائنين،"
+         },
+         "endTime": 297405,
+         "startTime": 293503
+      },
+      {
+         "text": {
+            "en": "and it's only getting one.",
+            "pl": "i dostaje tylko jeden.",
+            "ar": "وانها الحصول على واحد فقط."
+         },
+         "endTime": 298624,
+         "startTime": 297405
+      },
+      {
+         "text": {
+            "en": "So we'll change it to say it's getting facePosition.",
+            "pl": "Więc zmienimy to, by powiedzieć, że dostaje FacePosition.",
+            "ar": "لذلك سنقوم تغييره ليقول انها الحصول على فيس بوسيتيون."
+         },
+         "endTime": 301692,
+         "startTime": 298624
+      },
+      {
+         "text": {
+            "en": "And now we get an error which is faceX is not defined",
+            "pl": "A teraz otrzymujemy błąd, który jest FaceX nie jest zdefiniowany",
+            "ar": "والآن نحصل على خطأ وهو لم يتم تعريف FacEX"
+         },
+         "endTime": 305979,
+         "startTime": 301692
+      },
+      {
+         "text": {
+            "en": "because before, we're passing in faceX as an argument",
+            "pl": "ponieważ wcześniej, przechodzimy w FaceX jako argument",
+            "ar": "لأنه من قبل، نحن نمر في FacEX كحجة"
+         },
+         "endTime": 310083,
+         "startTime": 305979
+      },
+      {
+         "text": {
+            "en": "but now it doesn't exist.",
+            "pl": "ale teraz nie istnieje.",
+            "ar": "ولكن الآن لا وجود لها."
+         },
+         "endTime": 311585,
+         "startTime": 310083
+      },
+      {
+         "text": {
+            "en": "We're only getting an object so what we could do",
+            "pl": "Dostajemy tylko obiekt, więc co możemy zrobić",
+            "ar": "نحن فقط الحصول على كائن لذلك ما يمكننا القيام به"
+         },
+         "endTime": 313760,
+         "startTime": 311585
+      },
+      {
+         "text": {
+            "en": "is actually save the x position",
+            "pl": "jest rzeczywiście zapisać pozycję x",
+            "ar": "هو في الواقع حفظ موقف x"
+         },
+         "endTime": 318339,
+         "startTime": 313760
+      },
+      {
+         "text": {
+            "en": "from the object inside the faceX variable,",
+            "pl": "z obiektu wewnątrz zmiennej FaceX,",
+            "ar": "من الكائن داخل متغير FacEX،"
+         },
+         "endTime": 321179,
+         "startTime": 318339
+      },
+      {
+         "text": {
+            "en": "so we're saying, \"Okay, we got this object.",
+            "pl": "Więc mówimy: „Dobra, mamy ten obiekt.",
+            "ar": "لذلك نحن نقول، «حسنا، لدينا هذا الشيء."
+         },
+         "endTime": 322525,
+         "startTime": 321179
+      },
+      {
+         "text": {
+            "en": "\"We know this object has an x property,",
+            "pl": "„Wiemy, że ten obiekt ma właściwość x,",
+            "ar": "«نحن نعلم أن هذا الكائن يحتوي على خاصية x،"
+         },
+         "endTime": 324536,
+         "startTime": 322525
+      },
+      {
+         "text": {
+            "en": "\"so we're just gonna store that into the faceX variable.\"",
+            "pl": "„więc zapiszemy to do zmiennej FaceX.”",
+            "ar": "«لذلك نحن مجرد ستعمل تخزين ذلك في متغير FacEX.»"
+         },
+         "endTime": 327645,
+         "startTime": 324536
+      },
+      {
+         "text": {
+            "en": "And then we could do the same thing with y,",
+            "pl": "A potem możemy zrobić to samo z tobą,",
+            "ar": "وبعد ذلك يمكننا أن نفعل نفس الشيء مع y،"
+         },
+         "endTime": 330103,
+         "startTime": 327645
+      },
+      {
+         "text": {
+            "en": "so faceY equals facePosition.y.",
+            "pl": "więc FaceY równa się faceposition.y.",
+            "ar": "لذلك الوجه يساوي faceposition.y."
+         },
+         "endTime": 333490,
+         "startTime": 330103
+      },
+      {
+         "text": {
+            "en": "Ta-dah!",
+            "pl": "Ta-dah!",
+            "ar": "تا-داه!"
+         },
+         "endTime": 334285,
+         "startTime": 333490
+      },
+      {
+         "text": {
+            "en": "And then the rest of the function that uses faceX and faceY.",
+            "pl": "A potem reszta funkcji, która używa FaceX i FaceEy.",
+            "ar": "ثم بقية الوظيفة التي تستخدم FacEX و Facey."
+         },
+         "endTime": 337841,
+         "startTime": 334285
+      },
+      {
+         "text": {
+            "en": "Now we have to make sure we spell them correctly.",
+            "pl": "Teraz musimy się upewnić, że przeliterujemy je poprawnie.",
+            "ar": "الآن علينا أن نتأكد من تهجئتهم بشكل صحيح"
+         },
+         "endTime": 339807,
+         "startTime": 337841
+      },
+      {
+         "text": {
+            "en": "If we did xx, it's not gonna work",
+            "pl": "Jeśli zrobiliśmy xx, to nie zadziała",
+            "ar": "إذا فعلنا xx، انها لن تعمل"
+         },
+         "endTime": 341737,
+         "startTime": 339807
+      },
+      {
+         "text": {
+            "en": "because that's not what it is down here",
+            "pl": "Bo to nie jest to, co tu jest",
+            "ar": "لأن هذا ليس ما هو عليه هنا"
+         },
+         "endTime": 344033,
+         "startTime": 341737
+      },
+      {
+         "text": {
+            "en": "in our array of objects,",
+            "pl": "w naszej tablicy obiektów,",
+            "ar": "في مجموعتنا من الكائنات،"
+         },
+         "endTime": 346207,
+         "startTime": 344033
+      },
+      {
+         "text": {
+            "en": "so it needs to match.",
+            "pl": "więc musi pasować.",
+            "ar": "لذلك يجب أن تتطابق."
+         },
+         "endTime": 348056,
+         "startTime": 346207
+      },
+      {
+         "text": {
+            "en": "But it's pretty neat because now,",
+            "pl": "Ale to całkiem zgrabne, bo teraz",
+            "ar": "لكنه أنيق جداً لأنه الآن"
+         },
+         "endTime": 350088,
+         "startTime": 348056
+      },
+      {
+         "text": {
+            "en": "you can have arrays of objects,",
+            "pl": "można mieć tablice obiektów,",
+            "ar": "هل يمكن أن يكون صفائف الكائنات،"
+         },
+         "endTime": 351774,
+         "startTime": 350088
+      },
+      {
+         "text": {
+            "en": "you can have functions that take in objects,",
+            "pl": "można mieć funkcje, które przyjmują w obiektach,",
+            "ar": "هل يمكن أن يكون الوظائف التي تأخذ في الكائنات،"
+         },
+         "endTime": 353623,
+         "startTime": 351774
+      },
+      {
+         "text": {
+            "en": "and you'll really find that your programs",
+            "pl": "i naprawdę okaże się, że twoje programy",
+            "ar": "وسوف تجد حقا أن البرامج الخاصة بك"
+         },
+         "endTime": 356630,
+         "startTime": 353623
+      },
+      {
+         "text": {
+            "en": "can be very powerful with the way",
+            "pl": "może być bardzo potężny ze sposobem",
+            "ar": "يمكن أن تكون قوية جدا مع الطريق"
+         },
+         "endTime": 358621,
+         "startTime": 356630
+      },
+      {
+         "text": {
+            "en": "that they structure their data.",
+            "pl": "że struktury swoich danych.",
+            "ar": "أنها هيكلة البيانات الخاصة بهم."
+         },
+         "endTime": 360267,
+         "startTime": 358621
+      },
+      {
+         "text": {
+            "en": "And especially since it's so often to want",
+            "pl": "A zwłaszcza, że tak często chcieć",
+            "ar": "وخاصة لأنه في كثير من الأحيان تريد"
+         },
+         "endTime": 362014,
+         "startTime": 360267
+      },
+      {
+         "text": {
+            "en": "to pair x and y together, I think you'll find them",
+            "pl": "połączyć x i y razem, myślę, że znajdziesz je",
+            "ar": "لإقران x و y معا، وأعتقد أنك سوف تجد لهم"
+         },
+         "endTime": 364818,
+         "startTime": 362014
+      },
+      {
+         "text": {
+            "en": "especially useful in all your drawing",
+            "pl": "szczególnie przydatne w całym rysunku",
+            "ar": "مفيدة بشكل خاص في كل ما تبذلونه من الرسم"
+         },
+         "endTime": 367216,
+         "startTime": 364818
+      },
+      {
+         "text": {
+            "en": "and animation programs here.",
+            "pl": "i programy animacyjne tutaj.",
+            "ar": "وبرامج الرسوم المتحركة هنا."
+         },
+         "endTime": 368861,
+         "startTime": 367216
+      },
+      {
+         "text": {
+            "en": "So go to it and have fun.",
+            "pl": "Więc idź do niego i baw się dobrze.",
+            "ar": "حتى يذهب إليها والمتعة."
+         },
+         "endTime": 371245,
+         "startTime": 368861
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/XLMMzG032u8/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759802236",
+   "title": "Arrays of Objects | Objects | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

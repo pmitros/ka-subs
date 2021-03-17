@@ -1,0 +1,726 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Now that you understand the basics of Javascript, I wanna teach you about a cool way of using Javascript",
+            "pl": "Teraz, gdy rozumiesz podstawy Javascript, chcę cię nauczyć o fajnym sposobie korzystania z JavaScript",
+            "ar": "الآن بعد أن فهمت أساسيات جافا سكريبت، أريد أن أعلمك عن طريقة رائعة لاستخدام جافا سكريبت"
+         },
+         "endTime": 5959,
+         "startTime": 1342
+      },
+      {
+         "text": {
+            "en": "Something we call \"object-oriented programming\"",
+            "pl": "Coś, co nazywamy „programowaniem obiektowym”",
+            "ar": "شيء نسميه «البرمجة الشيئية المنحى»"
+         },
+         "endTime": 9546,
+         "startTime": 5959
+      },
+      {
+         "text": {
+            "en": "But first we need to understand why it's actually useful",
+            "pl": "Ale najpierw musimy zrozumieć, dlaczego jest to rzeczywiście przydatne",
+            "ar": "ولكن أولا نحن بحاجة إلى فهم لماذا هو في الواقع مفيدة"
+         },
+         "endTime": 12570,
+         "startTime": 9546
+      },
+      {
+         "text": {
+            "en": "So I put together a program that will be better once we make it more object-oriented",
+            "pl": "Więc ułożyłem program, który będzie lepszy, gdy uczynimy go bardziej obiektowym",
+            "ar": "لذلك وضعت معا البرنامج الذي سيكون أفضل بمجرد أن نجعله أكثر وجوه المنحى"
+         },
+         "endTime": 17668,
+         "startTime": 12570
+      },
+      {
+         "text": {
+            "en": "Now, it's a pretty cool program to start with. At the top, I have two variables that store simple object literals inside.",
+            "pl": "Na początek to całkiem fajny program. Na górze mam dwie zmienne, które przechowują proste literały obiektów wewnątrz.",
+            "ar": "الآن، إنه برنامج رائع للبدء به. في الجزء العلوي، لدي متغيران يخزن القيم الحرفية للكائن البسيط في الداخل."
+         },
+         "endTime": 25138,
+         "startTime": 17668
+      },
+      {
+         "text": {
+            "en": "Now, the object literal is a kind of object we learned about before, that we create with two curly braces",
+            "pl": "Teraz, obiekt dosłowny jest rodzajem obiektu, o którym dowiedzieliśmy się wcześniej, że tworzymy z dwoma nawiasami klamrowymi",
+            "ar": "الآن، الكائن الحرفي هو نوع من الكائن تعلمنا عن قبل، أن نخلق مع اثنين من الأقواس مجعد"
+         },
+         "endTime": 30448,
+         "startTime": 25138
+      },
+      {
+         "text": {
+            "en": "and then we put all these property names and values inside.",
+            "pl": "a następnie umieścić wszystkie te nazwy właściwości i wartości wewnątrz.",
+            "ar": "ثم نضع كل هذه الأسماء والقيم في الداخل."
+         },
+         "endTime": 34409,
+         "startTime": 30448
+      },
+      {
+         "text": {
+            "en": "So we have two of those object literal variables, and then down here we have this function drawWinston",
+            "pl": "Więc mamy dwa z tych zmiennych dosłownych obiektu, a następnie tutaj mamy tę funkcję DrawWinston",
+            "ar": "لذلك لدينا اثنين من تلك المتغيرات الحرفية الكائن، ثم هنا لدينا هذه الوظيفة DrawWinston"
+         },
+         "endTime": 39241,
+         "startTime": 34409
+      },
+      {
+         "text": {
+            "en": "which expects a single argument,",
+            "pl": "który spodziewa się jednego argumentu,",
+            "ar": "التي تتوقع حجة و احدة,"
+         },
+         "endTime": 41129,
+         "startTime": 39241
+      },
+      {
+         "text": {
+            "en": "and then it draws the argument, it draws an image based on the x and y properties of the object",
+            "pl": "a następnie rysuje argument, rysuje obraz w oparciu o właściwości x i y obiektu",
+            "ar": "ثم يرسم الوسيطة، فإنه يرسم صورة استنادًا إلى خصائص x و y للكائن"
+         },
+         "endTime": 47882,
+         "startTime": 41129
+      },
+      {
+         "text": {
+            "en": "and then a caption based on the nickname and age properties of that object.",
+            "pl": ", a następnie podpis oparty na pseudonimie i właściwościach wiekowych tego obiektu.",
+            "ar": "ثم تسمية توضيحية تستند إلى الاسم المستعار وخصائص العمر لهذا الكائن."
+         },
+         "endTime": 53107,
+         "startTime": 47882
+      },
+      {
+         "text": {
+            "en": "And now finally at the bottom, we call drawWinston() on the teen and on the adult,",
+            "pl": "A teraz w końcu na dole, nazywamy DrawWinston () na nastolatka i dorosłego,",
+            "ar": "والآن في النهاية في الجزء السفلي، نسمي DrawWinston () على المراهق وعلى الكبار،"
+         },
+         "endTime": 58164,
+         "startTime": 53107
+      },
+      {
+         "text": {
+            "en": "and that's what makes it show up.",
+            "pl": "I to właśnie sprawia, że się pojawi.",
+            "ar": "وهذا ما يجعله يظهر"
+         },
+         "endTime": 61012,
+         "startTime": 58164
+      },
+      {
+         "text": {
+            "en": "Pretty cool. Now, if we go here, and we look at these object literals,",
+            "pl": "Całkiem fajne. Teraz, jeśli pójdziemy tutaj i spojrzymy na te literały obiektów,",
+            "ar": "رائع جدا. الآن، إذا ذهبنا هنا، ونحن ننظر إلى هذه الكائنات الحرفية،"
+         },
+         "endTime": 66366,
+         "startTime": 61012
+      },
+      {
+         "text": {
+            "en": "notice something about them is that they're really similar-looking.",
+            "pl": "Zauważ, że coś w nich jest to, że są naprawdę podobnie wyglądające.",
+            "ar": "لاحظ شيئا عنهم هو أنهم حقا مماثلا المظهر."
+         },
+         "endTime": 71410,
+         "startTime": 66366
+      },
+      {
+         "text": {
+            "en": "Both of them have the same sets of properties, and both of them can be used by the same drawWinston() function.",
+            "pl": "Oba mają te same zestawy właściwości, a oba z nich mogą być używane przez tę samą funkcję drawWinston ().",
+            "ar": "كل منهما لديه نفس مجموعات من الخصائص، وكلاهما يمكن استخدامها من قبل نفس وظيفة drawWinston ()."
+         },
+         "endTime": 77842,
+         "startTime": 71410
+      },
+      {
+         "text": {
+            "en": "In fact, you know, if you think about this, they're really both describing a type of Winston, right?",
+            "pl": "Właściwie, wiesz, jeśli o tym pomyślisz, to oboje opisują typ Winstona, prawda?",
+            "ar": "في الواقع، كما تعلمون، إذا كنت تفكر في هذا، وكلاهما حقا يصف نوع من وينستون، أليس كذلك؟"
+         },
+         "endTime": 84072,
+         "startTime": 77842
+      },
+      {
+         "text": {
+            "en": "And we can think like maybe there's this kind of abstract type of Winston in the world,",
+            "pl": "I możemy myśleć, że może jest taki abstrakcyjny typ Winstona na świecie,",
+            "ar": "ويمكننا أن نفكر مثل ربما هناك هذا النوع من النوع التجريدي من وينستون في العالم،"
+         },
+         "endTime": 88796,
+         "startTime": 84072
+      },
+      {
+         "text": {
+            "en": "and every Winston has the same set of properties like a nickname and an age and an x and a y",
+            "pl": "i każdy Winston ma ten sam zestaw właściwości jak pseudonim i wiek i x i y",
+            "ar": "وكل وينستون له نفس مجموعة من الخصائص مثل لقب وعمر و س و ص"
+         },
+         "endTime": 96460,
+         "startTime": 88796
+      },
+      {
+         "text": {
+            "en": "and here, what we've done is we've just created two instances of a Winston",
+            "pl": "i tutaj, co zrobiliśmy, to właśnie stworzyliśmy dwie instancje Winstona",
+            "ar": "وهنا، ما فعلناه هو أننا قد خلقنا للتو مثالين من وينستون"
+         },
+         "endTime": 102162,
+         "startTime": 96460
+      },
+      {
+         "text": {
+            "en": "to describe, y'know, a particular Winston. So this is a teenage Winston and this is an adult Winston.",
+            "pl": "opisać, wiesz, konkretnego Winstona. Więc to jest nastoletni Winston, a to jest dorosły Winston.",
+            "ar": "لوصف، كما تعلمون، وينستون معين. إذا هذا مراهق وينستون وهذا هو وينستون الكبار."
+         },
+         "endTime": 108465,
+         "startTime": 102162
+      },
+      {
+         "text": {
+            "en": "But they're really, they're really both quite similar and, y'know, there's a lot of things that are similar about them.",
+            "pl": "Ale są naprawdę, oboje są bardzo podobne i, wiesz, jest wiele rzeczy, które są w nich podobne.",
+            "ar": "لكنهم حقا، انهم حقا متشابهة تماما، و، كما تعلمون، هناك الكثير من الأشياء التي هي مماثلة عنهم."
+         },
+         "endTime": 114762,
+         "startTime": 108465
+      },
+      {
+         "text": {
+            "en": "And, y'know, if you think about it, that's a lot the way the world works too, is that we have kind of these abstract data types like humans and people",
+            "pl": "I wiesz, jeśli się nad tym zastanowić, to jest to, że świat działa w taki sposób, że mamy takie abstrakcyjne typy danych, jak ludzie i ludzie",
+            "ar": "و، تعلمون، إذا فكرت في ذلك، هذه هي الطريقة التي يعمل بها العالم أيضا، هي أن لدينا نوع من أنواع البيانات المجردة مثل البشر والناس"
+         },
+         "endTime": 121295,
+         "startTime": 114762
+      },
+      {
+         "text": {
+            "en": "and then we're all just specific instances of those with our own little properties.",
+            "pl": "a potem wszyscy jesteśmy tylko konkretnymi przypadkami tych, którzy mają nasze własne właściwości.",
+            "ar": "وبعد ذلك نحن جميعا مجرد حالات محددة من أولئك الذين لديهم خصائص صغيرة خاصة بنا."
+         },
+         "endTime": 125958,
+         "startTime": 121295
+      },
+      {
+         "text": {
+            "en": "Now, we can actually use object-oriented techniques in Javascript so that these Winston variables",
+            "pl": "Teraz możemy rzeczywiście użyć technik obiektowych w Javascript tak, że te zmienne Winston",
+            "ar": "الآن، يمكننا فعلا استخدام تقنيات وجوه المنحى في جافا سكريبت بحيث هذه المتغيرات وينستون"
+         },
+         "endTime": 134948,
+         "startTime": 125958
+      },
+      {
+         "text": {
+            "en": "are formal instances of a Winston object, so that they know that they share these things in common.",
+            "pl": "są formalne przypadki obiektu Winston, tak, że wiedzą, że dzielą te rzeczy wspólne.",
+            "ar": "هي حالات رسمية لكائن وينستون، بحيث يعرفون أنهم يشاركون هذه الأشياء المشتركة."
+         },
+         "endTime": 141834,
+         "startTime": 134948
+      },
+      {
+         "text": {
+            "en": "So, to do that, the first thing we need to do is actually describe this abstract datatype Winston",
+            "pl": "Więc, aby to zrobić, pierwszą rzeczą, którą musimy zrobić, jest rzeczywiście opisać ten abstrakcyjny typ danych Winston",
+            "ar": "لذلك، للقيام بذلك، أول شيء علينا القيام به هو في الواقع وصف هذا النوع من البيانات مجردة وينستون"
+         },
+         "endTime": 147974,
+         "startTime": 141834
+      },
+      {
+         "text": {
+            "en": "And so we'll do that by making a variable",
+            "pl": "I tak zrobimy to poprzez dokonanie zmiennej",
+            "ar": "ولذا فإننا سوف نفعل ذلك عن طريق جعل متغير"
+         },
+         "endTime": 150900,
+         "startTime": 147974
+      },
+      {
+         "text": {
+            "en": "You will store the datatype in a variable. So var Winston, and we'll do capital W cause we always start our object types with a capital,",
+            "pl": "Będziesz przechowywać typ danych w zmiennej. Więc var Winston, i zrobimy kapitał W bo zawsze zacząć nasze typy obiektów z kapitału,",
+            "ar": "سوف تقوم بتخزين نوع البيانات في متغير. حتى فار وينستون، وسنقوم به العاصمة W سبب نبدأ دائما أنواع الكائن لدينا مع رأس المال،"
+         },
+         "endTime": 158934,
+         "startTime": 150900
+      },
+      {
+         "text": {
+            "en": "and we'll set it equal to a function.",
+            "pl": "a my ustawimy ją równą funkcji.",
+            "ar": "وسنقوم بتعيينها مساوية لوظيفة."
+         },
+         "endTime": 162196,
+         "startTime": 158934
+      },
+      {
+         "text": {
+            "en": "And this function is a special function that we call a \"constructor function\"",
+            "pl": "Ta funkcja jest specjalną funkcją, którą nazywamy „funkcją konstruktora”",
+            "ar": "وهذه الوظيفة هي وظيفة خاصة نسميها «وظيفة منشئ»"
+         },
+         "endTime": 167030,
+         "startTime": 162196
+      },
+      {
+         "text": {
+            "en": "because this is what's going to get called every time we want to create a new Winston instance.",
+            "pl": "bo tak będzie się nazywał za każdym razem, gdy chcemy stworzyć nową instancję Winstona.",
+            "ar": "لأن هذا هو ما سوف يتم استدعاؤه في كل مرة نريد إنشاء مثيل وينستون جديد."
+         },
+         "endTime": 172042,
+         "startTime": 167030
+      },
+      {
+         "text": {
+            "en": "So we want, we want to create a teenageWinston, we'll call this function, or an adultWinston, we'll call this function.",
+            "pl": "Więc chcemy, chcemy stworzyć TeenageWinston, nazwiemy tę funkcję, lub AdultWinston, nazwiemy tę funkcję.",
+            "ar": "لذلك نحن نريد، ونحن نريد لخلق مراهقوينستون، ونحن سوف ندعو هذه الوظيفة، أو Adultwinston، ونحن سوف ندعو هذه الوظيفة."
+         },
+         "endTime": 177860,
+         "startTime": 172042
+      },
+      {
+         "text": {
+            "en": "So that means that this function should take whatever arguments it needs to know about in order to, y'know, make a full Winston",
+            "pl": "Oznacza to, że ta funkcja powinna przyjmować wszelkie argumenty, o których musi wiedzieć, aby, no wiesz, zrobić pełny Winston",
+            "ar": "وهذا يعني أن هذه الوظيفة يجب أن تأخذ أيا كانت الحجج التي تحتاج إلى معرفته من أجل، تعلمون، جعل ونستون الكامل"
+         },
+         "endTime": 186417,
+         "startTime": 177860
+      },
+      {
+         "text": {
+            "en": "So in this case it needs to know a nickname, an age, an x, and a y.",
+            "pl": "Tak więc w tym przypadku musi znać pseudonim, wiek, x i y.",
+            "ar": "حتى في هذه الحالة فإنه يحتاج إلى معرفة لقب، عمر، س، و ص."
+         },
+         "endTime": 191324,
+         "startTime": 186417
+      },
+      {
+         "text": {
+            "en": "Now, once we've received those arguments we need to do something with them,",
+            "pl": "Teraz, gdy otrzymamy te argumenty, musimy coś z nimi zrobić,",
+            "ar": "الآن، بمجرد تلقينا تلك الحجج، علينا أن نفعل شيئا معهم"
+         },
+         "endTime": 195063,
+         "startTime": 191324
+      },
+      {
+         "text": {
+            "en": "so we need to actually attach that information to the Winston object.",
+            "pl": "Więc musimy dołączyć te informacje do obiektu Winstona.",
+            "ar": "لذلك نحن بحاجة إلى إرفاق تلك المعلومات فعلا إلى كائن وينستون."
+         },
+         "endTime": 201483,
+         "startTime": 195063
+      },
+      {
+         "text": {
+            "en": "So we'll use a new special keyword, called \"this\". And \"this\" will refer to the current object instance.",
+            "pl": "Więc użyjemy nowego specjalnego słowa kluczowego, o nazwie „to”. I „to” będzie odnosić się do bieżącej instancji obiektu.",
+            "ar": "لذلك سنستخدم كلمة رئيسية خاصة جديدة، تسمى «هذا». و «هذا» سيشير إلى مثيل الكائن الحالي."
+         },
+         "endTime": 208672,
+         "startTime": 201483
+      },
+      {
+         "text": {
+            "en": "So we'll say this.nickname, so it'll say all right, the nickname property of this object is equal to",
+            "pl": "Więc powiemy to.nickname, więc powie wszystko w porządku, właściwość pseudonim tego obiektu jest równa",
+            "ar": "لذلك سنقول this.nickname، لذلك سوف أقول كل الحق، والملكية لهذا الكائن يساوي"
+         },
+         "endTime": 214921,
+         "startTime": 208672
+      },
+      {
+         "text": {
+            "en": "whatever gets passed into the constructor function, okay?",
+            "pl": "cokolwiek zostanie przekazane do funkcji konstruktora, ok?",
+            "ar": "كل ما يحصل تمريرها في وظيفة منشئ، حسنا؟"
+         },
+         "endTime": 218419,
+         "startTime": 214921
+      },
+      {
+         "text": {
+            "en": "And this.age is equal to the age that gets passed in, this.x is equal to the x that gets passed in, and this.y",
+            "pl": "I to.age jest równa wiekowi, który przechodzi, this.x jest równa x, który dostaje przekazywane w, i this.y",
+            "ar": "وهذا.age يساوي العمر الذي يتم تمريره، وهذا يساوي x x الذي يحصل تمريره، وهذا.y"
+         },
+         "endTime": 225728,
+         "startTime": 218419
+      },
+      {
+         "text": {
+            "en": "equals the y that gets passed in.",
+            "pl": "równa się y, który zostanie przekazany.",
+            "ar": "يساوي ذ الذي يحصل مرت في."
+         },
+         "endTime": 228385,
+         "startTime": 225728
+      },
+      {
+         "text": {
+            "en": "All right so now we have this abstract datatype called Winston, and it has a constructor function that we can use to create a new Winston.",
+            "pl": "W porządku, więc teraz mamy ten abstrakcyjny typ danych o nazwie Winston, i ma funkcję konstruktora, że możemy użyć, aby utworzyć nowy Winston.",
+            "ar": "كل الحق حتى الآن لدينا هذا النوع من البيانات مجردة تسمى وينستون، ولها وظيفة منشئ التي يمكننا استخدامها لإنشاء وينستون جديدة."
+         },
+         "endTime": 237500,
+         "startTime": 228385
+      },
+      {
+         "text": {
+            "en": "So let's try to use it!",
+            "pl": "Więc spróbujmy go użyć!",
+            "ar": "لذلك دعونا نحاول استخدامه!"
+         },
+         "endTime": 240327,
+         "startTime": 237500
+      },
+      {
+         "text": {
+            "en": "We're gonna create winstonTeen again, but this time we're gonna say winstonTeen equals,",
+            "pl": "Znowu stworzymy Winstonteen, ale tym razem powiemy, że Winstonteen jest równy,",
+            "ar": "سنخلق وينستونتين مرة أخرى، ولكن هذه المرة سوف نقول وينستونتين يساوي،"
+         },
+         "endTime": 245245,
+         "startTime": 240327
+      },
+      {
+         "text": {
+            "en": "and instead of curly braces, we're gonna say \"equals new Winston\".",
+            "pl": "i zamiast nawiasów, powiemy „równa się nowemu Winstonowi”.",
+            "ar": "وبدلاً من الأقواس المتعرجة، سنقول «يساوي ونستون الجديد»."
+         },
+         "endTime": 250376,
+         "startTime": 245245
+      },
+      {
+         "text": {
+            "en": "So we're saying \"we're trying to create a new Winson instance,\"",
+            "pl": "Więc mówimy „próbujemy stworzyć nową instancję Winsona,”",
+            "ar": "لذلك نحن نقول «نحن نحاول إنشاء مثيل وينسون جديد،»"
+         },
+         "endTime": 253950,
+         "startTime": 250376
+      },
+      {
+         "text": {
+            "en": "and then we're gonna pass in the information that it needs so \"Winsteen\", 15, 20, 50, okay?",
+            "pl": "a potem będziemy przekazywać informacje, że potrzebuje więc „Winsteen”, 15, 20, 50, ok?",
+            "ar": "وبعد ذلك سنعبر المعلومات التي يحتاجها حتى «وينستين»، 15، 20، 50، حسنا؟"
+         },
+         "endTime": 262305,
+         "startTime": 253950
+      },
+      {
+         "text": {
+            "en": "And then we can delete this old one because we don't need it anymore.",
+            "pl": "A potem możemy usunąć tę starą, bo już jej nie potrzebujemy.",
+            "ar": "وبعد ذلك يمكننا حذف هذا القديم لأننا لسنا في حاجة إليها بعد الآن."
+         },
+         "endTime": 267502,
+         "startTime": 262305
+      },
+      {
+         "text": {
+            "en": "All right? And now that's created a new Winsteen.",
+            "pl": "W porządku? A teraz to stworzyło nowego Winsteena.",
+            "ar": "حسناً؟ والآن هذا خلق وينستين جديد."
+         },
+         "endTime": 271082,
+         "startTime": 267502
+      },
+      {
+         "text": {
+            "en": "And now we can say winstonAdult = new Winston()",
+            "pl": "A teraz możemy powiedzieć WinstonAdult = nowy Winston ()",
+            "ar": "والآن يمكننا أن نقول WinstonAdult = جديد وينستون ()"
+         },
+         "endTime": 275722,
+         "startTime": 271082
+      },
+      {
+         "text": {
+            "en": "and of course his name is \"Mr. Winst-a-lot\", sweet name,",
+            "pl": "i oczywiście nazywa się „Pan Winst-a-lot”, słodkie imię,",
+            "ar": "وطبعا اسمه «السيد وينست أ لوت»، اسم حلو،"
+         },
+         "endTime": 279960,
+         "startTime": 275722
+      },
+      {
+         "text": {
+            "en": "and he's 30, and he's at 229 and 50. All right? And then we can delete this object literal.",
+            "pl": "a on ma 30 lat i jest na 229 i 50. W porządku? A potem możemy usunąć ten obiekt dosłowne.",
+            "ar": "وهو في الثلاثين من عمره، وهو في الساعة 229 و 50 حسناً؟ وبعد ذلك يمكننا حذف هذا الكائن الحرفي."
+         },
+         "endTime": 287410,
+         "startTime": 279960
+      },
+      {
+         "text": {
+            "en": "And, tada! Our code still works.",
+            "pl": "I, tada! Nasz kod nadal działa.",
+            "ar": "و، تادا! لدينا رمز لا يزال يعمل."
+         },
+         "endTime": 290812,
+         "startTime": 287410
+      },
+      {
+         "text": {
+            "en": "So what we've done here is that we've said okay there's this, this kind of is an abstract type of data which is this Winston",
+            "pl": "Więc co zrobiliśmy tutaj jest to, że powiedzieliśmy dobrze, jest to, ten rodzaj jest abstrakcyjnym typem danych, jakim jest ten Winston",
+            "ar": "وذلك ما قمنا به هنا هو أننا قد قلنا حسنا هناك هذا، وهذا النوع من هو نوع مجردة من البيانات التي هي هذه ونستون"
+         },
+         "endTime": 298094,
+         "startTime": 290812
+      },
+      {
+         "text": {
+            "en": "and we can create new Winston instances that have these um, these properties that are unique to them",
+            "pl": "i możemy tworzyć nowe instancje Winston, które mają te um, te właściwości, które są unikalne dla nich",
+            "ar": "ويمكننا إنشاء حالات وينستون الجديدة التي لديها هذه أم، هذه الخصائص التي هي فريدة من نوعها بالنسبة لهم"
+         },
+         "endTime": 305272,
+         "startTime": 298094
+      },
+      {
+         "text": {
+            "en": "And we'll just remember those properties inside them",
+            "pl": "I zapamiętamy te właściwości wewnątrz nich.",
+            "ar": "وسنتذكر فقط تلك الخصائص بداخلها"
+         },
+         "endTime": 308799,
+         "startTime": 305272
+      },
+      {
+         "text": {
+            "en": "And remembering is really important. So you know inside here, we have this.nickname, this.age",
+            "pl": "Pamiętanie jest naprawdę ważne. Więc wiesz, że w środku mamy to.pseudonim, to.wiek",
+            "ar": "والتذكر هو مهم حقا. لذا أنت تعرف بالداخل هنا، لدينا هذا.nickname، this.age"
+         },
+         "endTime": 314379,
+         "startTime": 308799
+      },
+      {
+         "text": {
+            "en": "If we accidentally, y'know, didn't have this.age, notice that now it says \"undefined\"",
+            "pl": "Jeśli przypadkowo, no wiesz, nie mieliśmy tego.wiek, zauważ, że teraz jest napisane „niezdefiniowany”",
+            "ar": "إذا كنا بطريق الخطأ، أنت تعرف، لم يكن لديك هذاج، لاحظ أنه الآن يقول «غير محدد»"
+         },
+         "endTime": 320212,
+         "startTime": 314379
+      },
+      {
+         "text": {
+            "en": "That's because down here, this drawWinston function,",
+            "pl": "To dlatego, że tutaj, ta funkcja DrawWinston,",
+            "ar": "هذا لأن هنا، هذه الوظيفة دراوينستون،"
+         },
+         "endTime": 323103,
+         "startTime": 320212
+      },
+      {
+         "text": {
+            "en": "it expects whatever object gets passed in, it expects it to have an age property.",
+            "pl": "oczekuje, że cokolwiek obiekt zostanie przekazany w, oczekuje, że będzie mieć właściwość wieku.",
+            "ar": "فإنه يتوقع أي كائن يحصل تمرير في، فإنه يتوقع أن يكون لها خاصية العمر."
+         },
+         "endTime": 328162,
+         "startTime": 323103
+      },
+      {
+         "text": {
+            "en": "And if we didn't say this.age,",
+            "pl": "A gdybyśmy tego nie powiedzieli.age,",
+            "ar": "وإذا لم نقول هذا."
+         },
+         "endTime": 330894,
+         "startTime": 328162
+      },
+      {
+         "text": {
+            "en": "then it doesn't have an age property, okay? We passed it into the construction function",
+            "pl": "To nie ma własności wiekowej, ok? Przekazaliśmy go do funkcji budowlanej",
+            "ar": "ثم ليس لديها خاصية العمر، حسنا؟ مررنا به في وظيفة البناء"
+         },
+         "endTime": 334029,
+         "startTime": 330894
+      },
+      {
+         "text": {
+            "en": "but then we didn't do anything with it, we have to actually attach it to the object using \"this\" keyword.",
+            "pl": "ale wtedy nic z nim nie zrobiliśmy, musimy rzeczywiście dołączyć go do obiektu za pomocą słowa kluczowego „to”.",
+            "ar": "ولكن بعد ذلك لم نفعل أي شيء معها، علينا أن نعلق فعلا إلى الكائن باستخدام الكلمة «this»."
+         },
+         "endTime": 339363,
+         "startTime": 334029
+      },
+      {
+         "text": {
+            "en": "So we'll add this back",
+            "pl": "Więc dodamy to z powrotem",
+            "ar": "لذلك سنقوم بإضافة هذا مرة أخرى"
+         },
+         "endTime": 341444,
+         "startTime": 339363
+      },
+      {
+         "text": {
+            "en": "Now you might be thinking like okay, sure, you got your code working and you're doing this fancy thing,",
+            "pl": "Teraz możesz myśleć jak w porządku, jasne, masz swój kod działa i robisz to coś wymyślnego,",
+            "ar": "الآن قد يكون التفكير مثل بخير، بالتأكيد، كنت حصلت على التعليمات البرمجية الخاصة بك العمل وكنت تفعل هذا الشيء يتوهم،"
+         },
+         "endTime": 346361,
+         "startTime": 341444
+      },
+      {
+         "text": {
+            "en": "But, you know, we're... all we've done is accomplished what we had before",
+            "pl": "Ale wiesz, my... wszystko, co zrobiliśmy, to osiągnęliśmy to, co mieliśmy wcześniej.",
+            "ar": "ولكن، كما تعلمون، نحن... كل ما فعلناه هو إنجاز ما كان لدينا من قبل"
+         },
+         "endTime": 350589,
+         "startTime": 346361
+      },
+      {
+         "text": {
+            "en": "But here's the cool thing. Now, all of our Winstons go through the same constructor function",
+            "pl": "Ale tu jest fajna rzecz. Teraz, wszystkie nasze Winstons przejść przez tę samą funkcję konstruktora",
+            "ar": "ولكن هنا هو الشيء الرائع. الآن، كل من Winstons لدينا تذهب من خلال نفس وظيفة منشئ"
+         },
+         "endTime": 355996,
+         "startTime": 350589
+      },
+      {
+         "text": {
+            "en": "So if we want to, we can actually change things, change some things about the Winston...",
+            "pl": "Więc jeśli chcemy, możemy zmienić rzeczy, zmienić kilka rzeczy o Winston...",
+            "ar": "لذا إذا أردنا ذلك، يمكننا تغيير الأشياء، تغيير بعض الأشياء عن (وينستون)..."
+         },
+         "endTime": 360830,
+         "startTime": 355996
+      },
+      {
+         "text": {
+            "en": "all the Winstons, just inside here. So maybe age, we actually wanna say \"years old\"",
+            "pl": "Wszyscy Winstonowie, tu w środku. Więc może się starzejemy, chcemy powiedzieć „lat”",
+            "ar": "كل الـ (وينستونز)، بالداخل هنا لذلك ربما العمر، ونحن في الواقع نريد أن نقول «سنوات من العمر»"
+         },
+         "endTime": 366059,
+         "startTime": 360830
+      },
+      {
+         "text": {
+            "en": "We can just put that here, and now all of our Winstons say \"15 years old,\" \"30 years old,\" right?",
+            "pl": "Możemy to po prostu umieścić tutaj, a teraz wszyscy nasi Winstonowie mówią „15 lat”, „30 lat”, prawda?",
+            "ar": "يمكننا فقط وضع هذا هنا، والآن كل من وينستونز يقول «15 سنة»، «30 سنة»، أليس كذلك؟"
+         },
+         "endTime": 372804,
+         "startTime": 366059
+      },
+      {
+         "text": {
+            "en": "So they're taking the part that's unique about them, but then they also have things that are shared about them",
+            "pl": "Więc biorą udział, który jest unikalny w nich, ale potem mają też rzeczy, które są o nich dzielone",
+            "ar": "لذلك هم يأخذون الجزء الفريد عنهم، ولكن بعد ذلك لديهم أيضا الأشياء التي يتم مشاركتها عنهم"
+         },
+         "endTime": 377281,
+         "startTime": 372804
+      },
+      {
+         "text": {
+            "en": "And that's a really cool thing about object-oriented programming is this idea that",
+            "pl": "I to jest naprawdę fajne w programowaniu obiektowym jest ten pomysł, że",
+            "ar": "وهذا شيء رائع حقا حول البرمجة وجوه المنحى هي هذه الفكرة"
+         },
+         "endTime": 380968,
+         "startTime": 377281
+      },
+      {
+         "text": {
+            "en": "there's these kinds of objects in the world, and you can actually create instances of these objects",
+            "pl": "są tego rodzaju obiekty na świecie, i rzeczywiście można tworzyć instancje tych obiektów",
+            "ar": "هناك هذه الأنواع من الأشياء في العالم، ويمكنك فعلا إنشاء حالات من هذه الكائنات"
+         },
+         "endTime": 386632,
+         "startTime": 380968
+      },
+      {
+         "text": {
+            "en": "and there's some things that are similar about them like they all have the same properties,",
+            "pl": "i są pewne rzeczy, które są w nich podobne, jakby wszystkie miały te same właściwości,",
+            "ar": "وهناك بعض الأشياء التي هي متشابهة عنهم وكأنهم جميعا لديهم نفس الخصائص،"
+         },
+         "endTime": 389925,
+         "startTime": 386632
+      },
+      {
+         "text": {
+            "en": "then there are things that are different like oh, this property is actually a different value than this other property, right?",
+            "pl": "to są rzeczy, które są różne jak oh, ta właściwość jest rzeczywiście inna wartość niż ta inna nieruchomość, prawda?",
+            "ar": "ثم هناك أشياء مختلفة مثل أوه، هذه الخاصية هي في الواقع قيمة مختلفة من هذه الخاصية الأخرى، أليس كذلك؟"
+         },
+         "endTime": 395528,
+         "startTime": 389925
+      },
+      {
+         "text": {
+            "en": "But then, you know, we can kind of, you know, do the same behavior with them like call the same functions",
+            "pl": "Ale wtedy, wiesz, możemy zrobić to samo zachowanie z nimi, jak nazwać te same funkcje",
+            "ar": "ولكن بعد ذلك، كما تعلمون، يمكننا نوع من، كما تعلمون، أن نفعل نفس السلوك معهم مثل استدعاء نفس الوظائف"
+         },
+         "endTime": 400741,
+         "startTime": 395528
+      },
+      {
+         "text": {
+            "en": "and use them in similar ways. So that's some of the cool stuff about object-oriented programming",
+            "pl": "i używać ich w podobny sposób. Więc to niektóre z fajnych rzeczy o programowaniu obiektowym",
+            "ar": "واستخدامها بطرق مماثلة. لذلك هذا بعض من الاشياء باردة حول البرمجة وجوه المنحى"
+         },
+         "endTime": 405829,
+         "startTime": 400741
+      },
+      {
+         "text": {
+            "en": "but as you're gonna see, there's tons more too.",
+            "pl": "Ale jak zobaczysz, jest ich mnóstwo więcej.",
+            "ar": "ولكن كما سترون، هناك الكثير من الأطنان أيضاً"
+         },
+         "endTime": 408690,
+         "startTime": 405829
+      },
+      {
+         "text": {
+            "en": "So, stay tuned!",
+            "pl": "Więc, zostańcie na bieżąco!",
+            "ar": "لذلك، لا تنزعج!"
+         },
+         "endTime": 411000,
+         "startTime": 408690
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/oNVItdG_Dys/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759807185",
+   "title": "Object Types | Object-Oriented Design | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

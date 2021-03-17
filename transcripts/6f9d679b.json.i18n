@@ -1,0 +1,591 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "We're back to our Winston drawing program, but I've added some text to it.",
+            "pl": "Wracamy do naszego programu do rysowania Winstona, ale dodałem do niego trochę tekstu.",
+            "ar": "عدنا إلى برنامج رسم وينستون، لكنني أضفت بعض النص إليه."
+         },
+         "endTime": 6001,
+         "startTime": 877
+      },
+      {
+         "text": {
+            "en": "See, what I wanna do is position a Winston underneath each of these labels,",
+            "pl": "Widzisz, to co chcę zrobić, to umieścić Winstona pod każdą z tych etykiet.",
+            "ar": "أرأيت، ما أريد فعله هو وضع (وينستون) تحت كل من هذه العلامات"
+         },
+         "endTime": 11072,
+         "startTime": 6001
+      },
+      {
+         "text": {
+            "en": "to show him at each point in life.",
+            "pl": ", aby pokazać mu w każdym punkcie życia.",
+            "ar": "ليريه في كل نقطة في الحياة."
+         },
+         "endTime": 13210,
+         "startTime": 11072
+      },
+      {
+         "text": {
+            "en": "Right now he's all over the place. That's because we are setting the",
+            "pl": "Teraz jest wszędzie. To dlatego, że ustawiamy",
+            "ar": "الآن هو في كل مكان هذا لأننا نحدد"
+         },
+         "endTime": 16437,
+         "startTime": 13210
+      },
+      {
+         "text": {
+            "en": "faceX and the faceY to  random numbers inside the function.",
+            "pl": "FaceX i FaceEy do liczb losowych wewnątrz funkcji.",
+            "ar": "FaceX و Facey لأرقام عشوائية داخل وظيفة."
+         },
+         "endTime": 20449,
+         "startTime": 16437
+      },
+      {
+         "text": {
+            "en": "What we wanna say is, \"Here's the exact  position I want you to draw this Winston\"",
+            "pl": "Chcemy powiedzieć, „Oto dokładna pozycja, którą chcę, żebyś narysował tego Winstona”",
+            "ar": "ما نريد قوله هو، «هنا هو الموقف الدقيق الذي أريدك أن ترسمه وينستون»"
+         },
+         "endTime": 26714,
+         "startTime": 20449
+      },
+      {
+         "text": {
+            "en": "I wanna be able to specify that position  every time I call the function,",
+            "pl": "Chcę być w stanie określić tę pozycję za każdym razem, gdy dzwonię do funkcji,",
+            "ar": "أريد أن أكون قادرا على تحديد هذا الموقف في كل مرة استدعاء وظيفة،"
+         },
+         "endTime": 30316,
+         "startTime": 26714
+      },
+      {
+         "text": {
+            "en": "the same way we do with ellipse() and rect().",
+            "pl": "w ten sam sposób robimy z elipsy () i rect ().",
+            "ar": "بنفس الطريقة التي نفعل بها مع القطع الناقص () و rect ()."
+         },
+         "endTime": 32648,
+         "startTime": 30316
+      },
+      {
+         "text": {
+            "en": "I wanna put a Winston here,here,  and a Winston here, and a Winston here,",
+            "pl": "Chcę umieścić Winstona tutaj, tutaj, Winstona tutaj, i Winstona tutaj,",
+            "ar": "أريد أن أضع (وينستون) هنا و (وينستون) هنا و (وينستون) هنا"
+         },
+         "endTime": 40460,
+         "startTime": 34048
+      },
+      {
+         "text": {
+            "en": "and I don't want just random places every time I call the function.",
+            "pl": "i nie chcę tylko przypadkowych miejsc za każdym razem, gdy dzwonię do funkcji.",
+            "ar": "وأنا لا أريد فقط أماكن عشوائية في كل مرة أسميه وظيفة."
+         },
+         "endTime": 43623,
+         "startTime": 40460
+      },
+      {
+         "text": {
+            "en": "In order to do that, we have to specify  \"parameters\" for the function,",
+            "pl": "Aby to zrobić, musimy określić „parametry” dla funkcji,",
+            "ar": "ومن أجل القيام بذلك, علينا أن نحدد «معلمات» لل وظيفة,"
+         },
+         "endTime": 48882,
+         "startTime": 43623
+      },
+      {
+         "text": {
+            "en": "both in our function definition -- at the top here --",
+            "pl": "zarówno w naszej definicji funkcji — u góry tutaj —",
+            "ar": "سواء في تعريف وظيفتنا — في الجزء العلوي هنا —"
+         },
+         "endTime": 52811,
+         "startTime": 48882
+      },
+      {
+         "text": {
+            "en": "and in our function call, down here, when we actually call it.",
+            "pl": "i w naszej funkcji wywołania, tutaj, kiedy faktycznie to nazywamy.",
+            "ar": "وفي استدعاء وظيفتنا، أسفل هنا، عندما نسميها في الواقع."
+         },
+         "endTime": 57302,
+         "startTime": 52811
+      },
+      {
+         "text": {
+            "en": "For drawWinston(),  we pass it faceX and faceY,",
+            "pl": "W przypadku drawWinston () przekazujemy go FaceX i FaceEy,",
+            "ar": "ل دراوينستون ()، ونحن تمرير ذلك فيس إكس و فاسي،"
+         },
+         "endTime": 62210,
+         "startTime": 57302
+      },
+      {
+         "text": {
+            "en": "and have it use those values that we pass in instead of generating them randomly.",
+            "pl": "i używać tych wartości, które przekazujemy zamiast generować je losowo.",
+            "ar": "وجعلها تستخدم تلك القيم التي نمررها بدلا من توليدها عشوائيا."
+         },
+         "endTime": 69058,
+         "startTime": 62210
+      },
+      {
+         "text": {
+            "en": "Let's by thinking about what we'd  pass into these function calls down here.",
+            "pl": "Zastanówmy się nad tym, co przejdziemy do tych funkcji wzywa tutaj.",
+            "ar": "دعونا من خلال التفكير في ما كنا تمرير في هذه المكالمات وظيفة أسفل هنا."
+         },
+         "endTime": 74657,
+         "startTime": 69058
+      },
+      {
+         "text": {
+            "en": "We position the Winstons under each text,  so we'd probably want the x and y of each",
+            "pl": "Ustawiamy Winstons pod każdym tekstem, więc prawdopodobnie chcemy x i y każdego",
+            "ar": "نحن وضع Winstons تحت كل نص، لذلك نحن ربما نريد x و y من كل"
+         },
+         "endTime": 80071,
+         "startTime": 74657
+      },
+      {
+         "text": {
+            "en": "Winston to be similar to the numbers  we passed into the text() functions.",
+            "pl": "Winston być podobny do liczb, które przekazaliśmy do funkcji text ().",
+            "ar": "وينستون لتكون مشابهة للأرقام مررنا في النص () وظائف."
+         },
+         "endTime": 84491,
+         "startTime": 80071
+      },
+      {
+         "text": {
+            "en": "Maybe,10 pixels lower in the y.  The first one would be 10 and 30,",
+            "pl": "Może 10 pikseli niżej w y. Pierwszy z nich to 10 i 30,",
+            "ar": "قد يكون 10 بكسل أقل في y، أول واحد سيكون 10 و 30،"
+         },
+         "endTime": 92166,
+         "startTime": 84491
+      },
+      {
+         "text": {
+            "en": "and then maybe 200, 230... 10, 230... 200, 230.",
+            "pl": "a potem może 200, 230... 10, 230... 200, 230.",
+            "ar": "ثم ربما 200، 230... 10، 230... 200، 230."
+         },
+         "endTime": 100891,
+         "startTime": 92166
+      },
+      {
+         "text": {
+            "en": "It's the same as the text coordinates, I'm just adding 10 to each y, '",
+            "pl": "Jest taki sam jak współrzędne tekstu, dodaję po 10 do każdego y, '",
+            "ar": "انها نفس الإحداثيات النص، أنا مجرد إضافة 10 إلى كل ذ، '"
+         },
+         "endTime": 104863,
+         "startTime": 100891
+      },
+      {
+         "text": {
+            "en": "cause I want it just a little bit lower.",
+            "pl": "Bo chcę, żeby było trochę niżej.",
+            "ar": "لأنني أريدها أقل قليلاً"
+         },
+         "endTime": 107405,
+         "startTime": 104863
+      },
+      {
+         "text": {
+            "en": "Winston hasn't moved.  We haven't told our function up here that",
+            "pl": "Winston się nie ruszył. Nie powiedzieliśmy naszej funkcji tutaj, że",
+            "ar": "(وينستون) لم يتحرك لم نخبر وظيفتنا هنا"
+         },
+         "endTime": 115301,
+         "startTime": 109985
+      },
+      {
+         "text": {
+            "en": "we're passing it parameters, so it's still using these random values.",
+            "pl": "Przekazujemy parametry, więc nadal używa tych losowych wartości.",
+            "ar": "نحن تمرير المعلمات، لذلك انها لا تزال تستخدم هذه القيم العشوائية."
+         },
+         "endTime": 119177,
+         "startTime": 115301
+      },
+      {
+         "text": {
+            "en": "In order to tell this function,\"We're  gonna give you this information instead,\"",
+            "pl": "Aby powiedzieć tej funkcji, „Damy Ci te informacje zamiast,”",
+            "ar": "من أجل إخبار هذه الوظيفة، «سنعطيك هذه المعلومات بدلاً من ذلك»"
+         },
+         "endTime": 123603,
+         "startTime": 119177
+      },
+      {
+         "text": {
+            "en": "we have to give the parameters names inside these parentheses.",
+            "pl": "musimy podać nazwy parametrów wewnątrz tych nawiasów.",
+            "ar": "علينا أن نعطي المعلمات أسماء داخل هذه الأقواس."
+         },
+         "endTime": 128398,
+         "startTime": 123603
+      },
+      {
+         "text": {
+            "en": "We'll call it faceX and faceY, separate them by a comma,",
+            "pl": "Nazwiemy to FaceX i FACey, oddzielimy je przecinkiem,",
+            "ar": "سوف نسميها FacEX و Facey، فصلهم بفاصلة،"
+         },
+         "endTime": 134106,
+         "startTime": 128398
+      },
+      {
+         "text": {
+            "en": "We're calling it that since we're using  it to refer to them inside the function",
+            "pl": "Nazywamy go tak, ponieważ używamy go, aby odnieść się do nich wewnątrz funkcji",
+            "ar": "نحن نسميه ذلك لأننا نستخدمه للإشارة إليهم داخل الوظيفة"
+         },
+         "endTime": 140704,
+         "startTime": 134106
+      },
+      {
+         "text": {
+            "en": "That way we don't have to  rewrite the rest of our code.",
+            "pl": "W ten sposób nie będziemy musieli przepisywać reszty naszego kodu.",
+            "ar": "بهذه الطريقة ليس لدينا لإعادة كتابة بقية التعليمات البرمجية لدينا."
+         },
+         "endTime": 143472,
+         "startTime": 140704
+      },
+      {
+         "text": {
+            "en": "But still, nothing has happened;  Winston is still all over the place.",
+            "pl": "Ale nadal nic się nie stało; Winston wciąż jest wszędzie.",
+            "ar": "ولكن لا يزال، لم يحدث شيء؛ وينستون لا يزال في كل مكان."
+         },
+         "endTime": 148813,
+         "startTime": 143472
+      },
+      {
+         "text": {
+            "en": "If you look at the very top  of our function,",
+            "pl": "Jeśli spojrzysz na szczyt naszej funkcji,",
+            "ar": "إذا نظرتم إلى الجزء العلوي من وظيفتنا،"
+         },
+         "endTime": 151353,
+         "startTime": 148813
+      },
+      {
+         "text": {
+            "en": "we're overwriting faceX and faceY  with random values, still.",
+            "pl": "wciąż nadpisujemy FaceX i FaceEy wartościami losowymi.",
+            "ar": "نحن الكتابة فوق FaceX و Facey مع القيم العشوائية، لا يزال."
+         },
+         "endTime": 155263,
+         "startTime": 151353
+      },
+      {
+         "text": {
+            "en": "So, all we have to do is delete these lines...",
+            "pl": "Wszystko, co musimy zrobić, to usunąć te linie...",
+            "ar": "لذلك، كل ما علينا القيام به هو حذف هذه السطور..."
+         },
+         "endTime": 158793,
+         "startTime": 155263
+      },
+      {
+         "text": {
+            "en": "Now, faceX and faceY are getting passed into the function,",
+            "pl": "Teraz FaceX i FaceEy są przekazywane do funkcji,",
+            "ar": "الآن، يتم تمرير FaceX و Facey إلى الوظيفة،"
+         },
+         "endTime": 165457,
+         "startTime": 158793
+      },
+      {
+         "text": {
+            "en": "and it's using the values  that we're calling it with here.",
+            "pl": "i używa wartości, które nazywamy go tutaj.",
+            "ar": "وانها تستخدم القيم التي نحن نسميه مع هنا."
+         },
+         "endTime": 169581,
+         "startTime": 165457
+      },
+      {
+         "text": {
+            "en": "I didn't quite position Winston correctly, because I forgot that text gets positioned",
+            "pl": "Nie całkiem umieścić Winston poprawnie, bo zapomniałem, że tekst zostanie umieszczony",
+            "ar": "لم أكن موقف تماما وينستون بشكل صحيح، لأنني نسيت أن النص يحصل على وضع"
+         },
+         "endTime": 175311,
+         "startTime": 169581
+      },
+      {
+         "text": {
+            "en": "according to the upper left,and the face  gets positioned according to the center.",
+            "pl": "zgodnie z lewym górnym rogu, a twarz zostaje ustawiona zgodnie ze środkiem.",
+            "ar": "وفقا لأعلى اليسار، ويحصل على وضع الوجه وفقا للمركز."
+         },
+         "endTime": 181041,
+         "startTime": 175311
+      },
+      {
+         "text": {
+            "en": "I need to go and tinker with my  numbers a little bit here, right?",
+            "pl": "Muszę tu trochę majstrować z numerami, prawda?",
+            "ar": "أنا بحاجة للذهاب والتلاعب مع أرقام بلدي قليلا هنا، أليس كذلك؟"
+         },
+         "endTime": 186383,
+         "startTime": 181041
+      },
+      {
+         "text": {
+            "en": "I need to move the x over a lot, and move  this over, okay... so that's our toddler..",
+            "pl": "Muszę dużo przesunąć X i przesunąć to, ok... więc to nasz maluch..",
+            "ar": "أنا بحاجة إلى تحريك إكس أكثر من ذلك بكثير، ونقل هذا أكثر، حسنا... لذلك هذا هو طفلنا.."
+         },
+         "endTime": 192608,
+         "startTime": 186383
+      },
+      {
+         "text": {
+            "en": "We'll go through, and change  what I'm passing into the function,",
+            "pl": "Przejdziemy i zmienimy to, co przechodzę do funkcji,",
+            "ar": "سنذهب من خلال، وتغيير ما أنا يمر في وظيفة،"
+         },
+         "endTime": 198028,
+         "startTime": 192608
+      },
+      {
+         "text": {
+            "en": "I don't have to change  the function definition at all,",
+            "pl": "Nie muszę w ogóle zmieniać definicji funkcji,",
+            "ar": "ليس لدي لتغيير تعريف الدالة على الإطلاق،"
+         },
+         "endTime": 202518,
+         "startTime": 198028
+      },
+      {
+         "text": {
+            "en": "It's always gonna take  whatever values we pass in.",
+            "pl": "To zawsze będzie brało wartości, które przekazujemy.",
+            "ar": "انها دائما ستعمل تأخذ أي قيم نمر في."
+         },
+         "endTime": 205758,
+         "startTime": 202518
+      },
+      {
+         "text": {
+            "en": "Just like with ellipse() and rect().",
+            "pl": "Podobnie jak w przypadku elipsy () i rect ().",
+            "ar": "تماما كما هو الحال مع القطع الناقص () و rect ()."
+         },
+         "endTime": 208388,
+         "startTime": 205758
+      },
+      {
+         "text": {
+            "en": "I've positioned it, but I've noticed is that Winston is too big.",
+            "pl": "Ustawiłem go, ale zauważyłem, że Winston jest za duży.",
+            "ar": "لقد وضعتُ ذلك، لكنّي لاحظتُ أنّ (وينستون) كبير جدّاً"
+         },
+         "endTime": 213348,
+         "startTime": 208388
+      },
+      {
+         "text": {
+            "en": "He's overlapping, he doesn't fit.",
+            "pl": "On się nachodzi, nie pasuje.",
+            "ar": "انه متداخل، انه لا يصلح."
+         },
+         "endTime": 215756,
+         "startTime": 213348
+      },
+      {
+         "text": {
+            "en": "I've put the code to  draw him in a function,",
+            "pl": "Umieściłem kod, aby narysować go w funkcji,",
+            "ar": "لقد وضعت التعليمات البرمجية لرسم له في وظيفة،"
+         },
+         "endTime": 219019,
+         "startTime": 215756
+      },
+      {
+         "text": {
+            "en": "I can change the size  of all of them at once",
+            "pl": "Mogę zmienić rozmiar wszystkich naraz",
+            "ar": "يمكنني تغيير حجم كل منهم في وقت واحد"
+         },
+         "endTime": 222374,
+         "startTime": 219019
+      },
+      {
+         "text": {
+            "en": "by changing one line  of code that draws the ellipse.",
+            "pl": ", zmieniając jeden wiersz kodu, który rysuje elipsę.",
+            "ar": "عن طريق تغيير سطر واحد من التعليمات البرمجية التي توجه القطع الناقص."
+         },
+         "endTime": 225439,
+         "startTime": 222374
+      },
+      {
+         "text": {
+            "en": "If we make him like 190,  Winston's going on a diet, by 190.",
+            "pl": "Jeśli zrobimy z niego 190, Winston będzie na diecie, o 190.",
+            "ar": "إذا جعلناه مثل 190، وينستون سيذهب إلى نظام غذائي، بحلول 190."
+         },
+         "endTime": 230626,
+         "startTime": 225439
+      },
+      {
+         "text": {
+            "en": "Now he's gonna fit better and  then ya know I could keep tweaking",
+            "pl": "Teraz będzie lepiej pasował, a potem wiesz, że mogę się dokręcić",
+            "ar": "الآن هو سيتناسب بشكل أفضل ومن ثم تعرف أنه يمكنني الاستمرار في التغيير والتبديل"
+         },
+         "endTime": 235964,
+         "startTime": 230626
+      },
+      {
+         "text": {
+            "en": "so I could actually get him inside there, right? Cool.",
+            "pl": "Żebym mógł go tam zabrać, prawda? Fajne.",
+            "ar": "حتى أتمكن من الحصول عليه في الداخل، أليس كذلك؟ رائع"
+         },
+         "endTime": 241902,
+         "startTime": 235964
+      },
+      {
+         "text": {
+            "en": "Let's do a review of what this code does. It defines a function called drawWinston()",
+            "pl": "Zróbmy przegląd tego, co robi ten kod. Definiuje funkcję o nazwie drawWinston ()",
+            "ar": "دعونا نفعل مراجعة ما يفعله هذا الرمز. وهو يحدد وظيفة تسمى دراوينستون ()"
+         },
+         "endTime": 248531,
+         "startTime": 241902
+      },
+      {
+         "text": {
+            "en": "and says this function takes two values,  and it labels them faceX and faceY,",
+            "pl": "i mówi, że ta funkcja przyjmuje dwie wartości i etykietuje je FaceX i FACey,",
+            "ar": "وتقول هذه الوظيفة تأخذ قيمتين، وتسميات لهم FacEX و Facey،"
+         },
+         "endTime": 254673,
+         "startTime": 248531
+      },
+      {
+         "text": {
+            "en": "these values come in as variables that we can use anywhere inside our function,",
+            "pl": "wartości te są w postaci zmiennych, które możemy wykorzystać w dowolnym miejscu wewnątrz naszej funkcji,",
+            "ar": "تأتي هذه القيم كمتغيرات يمكننا استخدامها في أي مكان داخل وظيفتنا،"
+         },
+         "endTime": 259949,
+         "startTime": 254673
+      },
+      {
+         "text": {
+            "en": "just like we used to use the variables  that we declared at the top",
+            "pl": "tak jak kiedyś używać zmiennych, które zadeklarowaliśmy na górze",
+            "ar": "تماما كما اعتدنا على استخدام المتغيرات التي أعلنناها في الأعلى"
+         },
+         "endTime": 263055,
+         "startTime": 259949
+      },
+      {
+         "text": {
+            "en": "And then we can call this function  whenever we want after we declare it,",
+            "pl": "A potem możemy wywołać tę funkcję, kiedy chcemy po zadeklarować,",
+            "ar": "وبعد ذلك يمكننا استدعاء هذه الوظيفة وقتما نريد بعد أن نعلن ذلك،"
+         },
+         "endTime": 269113,
+         "startTime": 263055
+      },
+      {
+         "text": {
+            "en": "we can pass in different values,  so it'll use those new values each time.",
+            "pl": "możemy przekazać w różnych wartościach, więc będzie używać tych nowych wartości za każdym razem.",
+            "ar": "يمكننا أن نمر في قيم مختلفة، لذلك سوف تستخدم تلك القيم الجديدة في كل مرة."
+         },
+         "endTime": 273711,
+         "startTime": 269113
+      },
+      {
+         "text": {
+            "en": "You've seen what's cool about functions.  We can come up with code that",
+            "pl": "Widziałeś, co jest fajne w funkcjach. Możemy wymyślić kod, który",
+            "ar": "لقد رأيت ما هو بارد حول الوظائف. يمكننا الخروج مع التعليمات البرمجية التي"
+         },
+         "endTime": 278110,
+         "startTime": 273711
+      },
+      {
+         "text": {
+            "en": "we think would be really useful to reuse, but we can also use parameters to say",
+            "pl": "uważamy, że byłoby naprawdę przydatne do ponownego użycia, ale możemy również użyć parametrów powiedzieć",
+            "ar": "نعتقد أنه سيكون من المفيد حقا لإعادة استخدامها، ولكن يمكننا أيضا استخدام المعلمات ليقول"
+         },
+         "endTime": 282509,
+         "startTime": 278110
+      },
+      {
+         "text": {
+            "en": "\"Hey, here's a little something you can  change about this code, to customize it.\"",
+            "pl": "„Hej, tu jest coś, co możesz zmienić w tym kodzie, aby go dostosować.”",
+            "ar": "«مهلا، وهنا شيء صغير يمكنك تغيير حول هذا الرمز، لتخصيصه.»"
+         },
+         "endTime": 286460,
+         "startTime": 282509
+      },
+      {
+         "text": {
+            "en": "It's like a recipe.  You write down the general instructions,",
+            "pl": "To jak przepis. Zapisujesz ogólne instrukcje,",
+            "ar": "انها مثل وصفة. تكتب التعليمات العامة،"
+         },
+         "endTime": 289405,
+         "startTime": 286460
+      },
+      {
+         "text": {
+            "en": "and if you realize you suddenly  need to feed 4 Winstons instead of 1,",
+            "pl": "i jeśli zdajesz sobie sprawę, że nagle trzeba nakarmić 4 Winstons zamiast 1,",
+            "ar": "وإذا كنت تدرك أنك تحتاج فجأة لإطعام 4 Winstons بدلا من 1،"
+         },
+         "endTime": 292810,
+         "startTime": 289405
+      },
+      {
+         "text": {
+            "en": "you don't have to start all over,  you just modify the original instructions",
+            "pl": "nie musisz zaczynać od nowa, po prostu zmodyfikuj oryginalne instrukcje",
+            "ar": "لم يكن لديك للبدء من جديد، يمكنك فقط تعديل التعليمات الأصلية"
+         },
+         "endTime": 295941,
+         "startTime": 292810
+      },
+      {
+         "text": {
+            "en": "and multiply everything by 4.",
+            "pl": "i pomnóż wszystko przez 4.",
+            "ar": "ومضاعفة كل شيء بنسبة 4."
+         },
+         "endTime": 297632,
+         "startTime": 295941
+      },
+      {
+         "text": {
+            "en": "Now you can start thinking about the recipes in your code! Yummy.",
+            "pl": "Teraz możesz zacząć myśleć o przepisach w swoim kodzie! Pyszne.",
+            "ar": "الآن يمكنك البدء في التفكير في وصفات في التعليمات البرمجية الخاصة بك! لذيذ"
+         },
+         "endTime": 302205,
+         "startTime": 297632
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/ptyuZL6I56c/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759686973",
+   "title": "Function Parameters | Functions | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

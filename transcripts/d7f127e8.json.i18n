@@ -1,0 +1,1500 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- [Voiceover] So we've already spent some time",
+            "pl": "- Więc spędziliśmy już trochę czasu.",
+            "ar": "- لذا لقد قضينا بعض الوقت"
+         },
+         "startTime": 293,
+         "endTime": 1837
+      },
+      {
+         "text": {
+            "en": "introducing ourselves to the idea",
+            "pl": "wprowadzając się do idei",
+            "ar": "نقدم أنفسنا للفكرة"
+         },
+         "startTime": 1837,
+         "endTime": 4002
+      },
+      {
+         "text": {
+            "en": "of adding or subtracting",
+            "pl": "dodawania lub odejmowania",
+            "ar": "من إضافة أو طرح"
+         },
+         "startTime": 4002,
+         "endTime": 5904
+      },
+      {
+         "text": {
+            "en": "positive and negative numbers.",
+            "pl": "liczby dodatnie i ujemne.",
+            "ar": "الأرقام الإيجابية والسلبية."
+         },
+         "startTime": 5904,
+         "endTime": 8045
+      },
+      {
+         "text": {
+            "en": "What I now what do in this video",
+            "pl": "Co ja teraz, co zrobić w tym filmie",
+            "ar": "ماذا أفعل الآن في هذا الفيديو"
+         },
+         "startTime": 8045,
+         "endTime": 10176
+      },
+      {
+         "text": {
+            "en": "is do a bunch of examples using the",
+            "pl": "jest zrobić kilka przykładów przy użyciu metody",
+            "ar": "هو القيام حفنة من الأمثلة باستخدام"
+         },
+         "startTime": 10176,
+         "endTime": 12039
+      },
+      {
+         "text": {
+            "en": "adding negative numbers on the number line exercise",
+            "pl": "dodawanie liczb ujemnych w ćwiczeniu wiersza numerów",
+            "ar": "إضافة أرقام سالبة على تمرين خط الأرقام"
+         },
+         "startTime": 12039,
+         "endTime": 15008
+      },
+      {
+         "text": {
+            "en": "on Khan Academy,",
+            "pl": "na Khan Academy,",
+            "ar": "في أكاديمية خان،"
+         },
+         "startTime": 15008,
+         "endTime": 16410
+      },
+      {
+         "text": {
+            "en": "so that we can think about different ways to model,",
+            "pl": "tak, że możemy myśleć o różnych sposobach modelowania,",
+            "ar": "حتى نتمكن من التفكير في طرق مختلفة لنمذجة,"
+         },
+         "startTime": 16410,
+         "endTime": 19638
+      },
+      {
+         "text": {
+            "en": "or think about,",
+            "pl": "albo pomyśl o",
+            "ar": "أو التفكير في,"
+         },
+         "startTime": 19638,
+         "endTime": 20480
+      },
+      {
+         "text": {
+            "en": "or visualize adding and subtracting",
+            "pl": "lub wizualizacji dodawania i odejmowania",
+            "ar": "أو تصور إضافة وطرح"
+         },
+         "startTime": 20480,
+         "endTime": 22913
+      },
+      {
+         "text": {
+            "en": "positive and negative numbers.",
+            "pl": "liczby dodatnie i ujemne.",
+            "ar": "الأرقام الإيجابية والسلبية."
+         },
+         "startTime": 22913,
+         "endTime": 25296
+      },
+      {
+         "text": {
+            "en": "So this question asks us,",
+            "pl": "Więc to pytanie zadaje nam:",
+            "ar": "لذلك هذا السؤال يسألنا،"
+         },
+         "startTime": 25296,
+         "endTime": 27112
+      },
+      {
+         "text": {
+            "en": "\"Which number line model represents",
+            "pl": "„Który model linii liczbowej reprezentuje",
+            "ar": "«نموذج خط الأرقام الذي يمثله"
+         },
+         "startTime": 27112,
+         "endTime": 30493
+      },
+      {
+         "text": {
+            "en": "\"the expression negative two",
+            "pl": "„wyrażenie ujemne dwa",
+            "ar": "«التعبير سالب اثنين"
+         },
+         "startTime": 30493,
+         "endTime": 31977
+      },
+      {
+         "text": {
+            "en": "\"plus negative seven?\"",
+            "pl": "„plus siedem ujemnych?”",
+            "ar": "«زائد سالب سبعة؟»"
+         },
+         "startTime": 31977,
+         "endTime": 33646
+      },
+      {
+         "text": {
+            "en": "And a number line model seems",
+            "pl": "I wydaje się, że model linii liczbowej",
+            "ar": "ويبدو أن نموذج خط الأعداد"
+         },
+         "startTime": 33646,
+         "endTime": 34943
+      },
+      {
+         "text": {
+            "en": "like this really fancy thing,",
+            "pl": "jak ta naprawdę wymyślna rzecz,",
+            "ar": "مثل هذا الشيء يتوهم حقا،"
+         },
+         "startTime": 34943,
+         "endTime": 36644
+      },
+      {
+         "text": {
+            "en": "but they're just saying,",
+            "pl": "Ale oni tylko mówią:",
+            "ar": "ولكنهم يقولون فقط"
+         },
+         "startTime": 36644,
+         "endTime": 37580
+      },
+      {
+         "text": {
+            "en": "which of these diagrams,",
+            "pl": "który z tych diagramów,",
+            "ar": "أي من هذه المخططات،"
+         },
+         "startTime": 37580,
+         "endTime": 39671
+      },
+      {
+         "text": {
+            "en": "which of these drawings are a way to think about",
+            "pl": "które z tych rysunków są sposobem na myślenie",
+            "ar": "أي من هذه الرسومات هي وسيلة للتفكير"
+         },
+         "startTime": 39671,
+         "endTime": 42695
+      },
+      {
+         "text": {
+            "en": "what negative two plus negative seven is.",
+            "pl": "co negatywne dwa plus ujemne siedem jest.",
+            "ar": "ما هو سلبي اثنين زائد سالب سبعة."
+         },
+         "startTime": 42695,
+         "endTime": 45612
+      },
+      {
+         "text": {
+            "en": "So let's think about it.",
+            "pl": "Więc pomyślmy o tym.",
+            "ar": "لذلك دعونا نفكر في ذلك."
+         },
+         "startTime": 45612,
+         "endTime": 46876
+      },
+      {
+         "text": {
+            "en": "I want to start at negative two",
+            "pl": "Chcę zacząć od negatywnej dwójki",
+            "ar": "أريد أن أبدأ في سالب اثنين"
+         },
+         "startTime": 46876,
+         "endTime": 49269
+      },
+      {
+         "text": {
+            "en": "and then to that I want to add negative seven.",
+            "pl": "a następnie do tego chcę dodać negatywne siedem.",
+            "ar": "ثم إلى ذلك أريد أن أضيف سالب سبعة."
+         },
+         "startTime": 49269,
+         "endTime": 52599
+      },
+      {
+         "text": {
+            "en": "So let's see what's going on here.",
+            "pl": "Zobaczmy, co tu się dzieje.",
+            "ar": "لذلك دعونا نرى ما يحدث هنا."
+         },
+         "startTime": 52599,
+         "endTime": 54178
+      },
+      {
+         "text": {
+            "en": "This number line model",
+            "pl": "Ten model linii liczbowej",
+            "ar": "نموذج خط الأرقام هذا"
+         },
+         "startTime": 54178,
+         "endTime": 57240
+      },
+      {
+         "text": {
+            "en": "I guess we could call it,",
+            "pl": "Myślę, że możemy to nazwać,",
+            "ar": "أعتقد أننا يمكن أن نسميها"
+         },
+         "startTime": 57240,
+         "endTime": 58780
+      },
+      {
+         "text": {
+            "en": "it's saying this is positive two right over here.",
+            "pl": "Mówi, że to jest pozytywne dwa tutaj.",
+            "ar": "انها تقول ان هذا ايجابى اثنان هنا"
+         },
+         "startTime": 58780,
+         "endTime": 61753
+      },
+      {
+         "text": {
+            "en": "It's to the right of zero.",
+            "pl": "Jest na prawo od zera.",
+            "ar": "إنه على يمين الصفر"
+         },
+         "startTime": 61753,
+         "endTime": 63509
+      },
+      {
+         "text": {
+            "en": "Then it subtracts seven.",
+            "pl": "Potem odejmuje siedem.",
+            "ar": "ثم تطرح سبعة."
+         },
+         "startTime": 63509,
+         "endTime": 66826
+      },
+      {
+         "text": {
+            "en": "This is the model that would be",
+            "pl": "Jest to model, który byłby",
+            "ar": "هذا هو النموذج الذي سيكون"
+         },
+         "startTime": 66826,
+         "endTime": 68153
+      },
+      {
+         "text": {
+            "en": "for positive two plus negative seven,",
+            "pl": "dla dwóch dodatnich plus siedem ujemnych,",
+            "ar": "لإيجابية اثنين زائد سالب سبعة،"
+         },
+         "startTime": 68153,
+         "endTime": 71103
+      },
+      {
+         "text": {
+            "en": "or two, or positive two minus seven.",
+            "pl": "lub dwa, lub pozytywne dwa minus siedem.",
+            "ar": "أو اثنين, أو إيجابية اثنين ناقص سبعة."
+         },
+         "startTime": 71103,
+         "endTime": 74677
+      },
+      {
+         "text": {
+            "en": "But that's not what we have over here,",
+            "pl": "Ale to nie jest to, co tu mamy.",
+            "ar": "لكن هذا ليس ما لدينا هنا"
+         },
+         "startTime": 74677,
+         "endTime": 76346
+      },
+      {
+         "text": {
+            "en": "we have negative two minus seven.",
+            "pl": "Mamy ujemne dwa minus siedem.",
+            "ar": "لدينا سالب اثنين ناقص سبعة."
+         },
+         "startTime": 76346,
+         "endTime": 78617
+      },
+      {
+         "text": {
+            "en": "This one right over here,",
+            "pl": "Ten tutaj,",
+            "ar": "هذا الحق أكثر من هنا،"
+         },
+         "startTime": 78617,
+         "endTime": 79813
+      },
+      {
+         "text": {
+            "en": "let's see, this first...",
+            "pl": "Zobaczmy, to najpierw...",
+            "ar": "دعونا نرى، هذا أولا..."
+         },
+         "startTime": 79813,
+         "endTime": 81477
+      },
+      {
+         "text": {
+            "en": "I guess you could say this thing,",
+            "pl": "Myślę, że mógłbyś to powiedzieć,",
+            "ar": "أعتقد أنك يمكن أن تقول هذا الشيء،"
+         },
+         "startTime": 81477,
+         "endTime": 82773
+      },
+      {
+         "text": {
+            "en": "this arrow,",
+            "pl": "ta strzałka,",
+            "ar": "هذا السهم"
+         },
+         "startTime": 82773,
+         "endTime": 85471
+      },
+      {
+         "text": {
+            "en": "it's going",
+            "pl": "to się dzieje",
+            "ar": "انها تسير"
+         },
+         "startTime": 85471,
+         "endTime": 87078
+      },
+      {
+         "text": {
+            "en": "one, two, three, four, five",
+            "pl": "raz, dwa, trzy, cztery, pięć",
+            "ar": "واحد، اثنان، ثلاثة، أربعة، خمسة"
+         },
+         "startTime": 87078,
+         "endTime": 89278
+      },
+      {
+         "text": {
+            "en": "to the left of zero.",
+            "pl": "na lewo od zera.",
+            "ar": "إلى يسار الصفر."
+         },
+         "startTime": 89278,
+         "endTime": 90374
+      },
+      {
+         "text": {
+            "en": "So starting at negative five,",
+            "pl": "Więc zaczynając od ujemnej piątki,",
+            "ar": "لذلك بدءا من سالب خمسة،"
+         },
+         "startTime": 90374,
+         "endTime": 92211
+      },
+      {
+         "text": {
+            "en": "and then it goes another",
+            "pl": "a potem idzie inny",
+            "ar": "ثم يذهب آخر"
+         },
+         "startTime": 92211,
+         "endTime": 93596
+      },
+      {
+         "text": {
+            "en": "one, two, three, four",
+            "pl": "raz, dwa, trzy, cztery",
+            "ar": "واحد، اثنان، ثلاثة، أربعة"
+         },
+         "startTime": 93596,
+         "endTime": 95706
+      },
+      {
+         "text": {
+            "en": "to the left of that.",
+            "pl": "na lewo od tego.",
+            "ar": "إلى يسار ذلك."
+         },
+         "startTime": 95706,
+         "endTime": 97110
+      },
+      {
+         "text": {
+            "en": "So you could view this as",
+            "pl": "Więc można było to postrzegać jako",
+            "ar": "حتى تتمكن من عرض هذا على أنه"
+         },
+         "startTime": 97110,
+         "endTime": 98170
+      },
+      {
+         "text": {
+            "en": "negative five minus four.",
+            "pl": "minus pięć minus cztery.",
+            "ar": "سالب خمسة ناقص أربعة."
+         },
+         "startTime": 98170,
+         "endTime": 100634
+      },
+      {
+         "text": {
+            "en": "Or you could view this as",
+            "pl": "Albo możesz to zobaczyć jako",
+            "ar": "أو يمكنك عرض هذا على أنه"
+         },
+         "startTime": 100634,
+         "endTime": 101867
+      },
+      {
+         "text": {
+            "en": "negative five plus negative four,",
+            "pl": "ujemna pięć plus ujemna cztery,",
+            "ar": "سالب خمسة زائد سالب أربعة،"
+         },
+         "startTime": 101867,
+         "endTime": 105533
+      },
+      {
+         "text": {
+            "en": "but that's not what we have up here.",
+            "pl": "Ale to nie jest to, co tu mamy.",
+            "ar": "لكن هذا ليس ما لدينا هنا"
+         },
+         "startTime": 105533,
+         "endTime": 107812
+      },
+      {
+         "text": {
+            "en": "And then this last one,",
+            "pl": "A potem ten ostatni,",
+            "ar": "ثم هذا الأخير"
+         },
+         "startTime": 107812,
+         "endTime": 108594
+      },
+      {
+         "text": {
+            "en": "hopefully this is the answer,",
+            "pl": "miejmy nadzieję, że to jest odpowiedź,",
+            "ar": "نأمل أن يكون هذا هو الجواب،"
+         },
+         "startTime": 108594,
+         "endTime": 109577
+      },
+      {
+         "text": {
+            "en": "otherwise there would be a mistake",
+            "pl": "w przeciwnym razie wystąpiłby błąd",
+            "ar": "وإلا سيكون هناك خطأ"
+         },
+         "startTime": 109577,
+         "endTime": 110543
+      },
+      {
+         "text": {
+            "en": "in the exercise.",
+            "pl": "w ćwiczeniu.",
+            "ar": "في التمرين."
+         },
+         "startTime": 110543,
+         "endTime": 111804
+      },
+      {
+         "text": {
+            "en": "Let's see, we have this first arrow",
+            "pl": "Zobaczmy, mamy pierwszą strzałkę",
+            "ar": "دعونا نرى، لدينا هذا السهم الأول"
+         },
+         "startTime": 111804,
+         "endTime": 113910
+      },
+      {
+         "text": {
+            "en": "that takes us two steps to the left of zero.",
+            "pl": "który prowadzi nas dwa kroki na lewo od zera.",
+            "ar": "الذي يأخذنا خطوتين إلى يسار الصفر."
+         },
+         "startTime": 113910,
+         "endTime": 116500
+      },
+      {
+         "text": {
+            "en": "So, one, two.",
+            "pl": "Raz, dwa.",
+            "ar": "إذاً، واحد، إثنان"
+         },
+         "startTime": 116500,
+         "endTime": 118262
+      },
+      {
+         "text": {
+            "en": "So this is negative two,",
+            "pl": "Więc to jest ujemne dwa,",
+            "ar": "لذلك هذا هو سلبي اثنين،"
+         },
+         "startTime": 118262,
+         "endTime": 119935
+      },
+      {
+         "text": {
+            "en": "and then we take another seven steps",
+            "pl": "a potem zrobimy kolejne siedem kroków",
+            "ar": "ثم نتخذ سبع خطوات أخرى"
+         },
+         "startTime": 119935,
+         "endTime": 121746
+      },
+      {
+         "text": {
+            "en": "to the left of that.",
+            "pl": "na lewo od tego.",
+            "ar": "إلى يسار ذلك."
+         },
+         "startTime": 121746,
+         "endTime": 122931
+      },
+      {
+         "text": {
+            "en": "So one, two, three, four, five, six, seven.",
+            "pl": "Raz, dwa, trzy, cztery, pięć, sześć, siedem.",
+            "ar": "لذلك واحد، اثنان، ثلاثة، أربعة، خمسة، ستة، سبعة."
+         },
+         "startTime": 122931,
+         "endTime": 126344
+      },
+      {
+         "text": {
+            "en": "So you can think of this arrow",
+            "pl": "Więc możesz myśleć o tej strzałce",
+            "ar": "حتى تتمكن من التفكير في هذا السهم"
+         },
+         "startTime": 126344,
+         "endTime": 127997
+      },
+      {
+         "text": {
+            "en": "as representing negative two,",
+            "pl": "jako reprezentujący dwa ujemne,",
+            "ar": "باعتبارها تمثل سالب اثنين,"
+         },
+         "startTime": 127997,
+         "endTime": 130309
+      },
+      {
+         "text": {
+            "en": "and then we're going to that,",
+            "pl": "a potem pójdziemy do tego,",
+            "ar": "وبعد ذلك نحن ذاهبون إلى ذلك،"
+         },
+         "startTime": 130309,
+         "endTime": 131975
+      },
+      {
+         "text": {
+            "en": "so we're starting from this tip of this arrow.",
+            "pl": "Więc zaczynamy od tego czubka tej strzały.",
+            "ar": "لذلك نحن نبدأ من هذا غيض من هذا السهم."
+         },
+         "startTime": 131975,
+         "endTime": 133426
+      },
+      {
+         "text": {
+            "en": "We're going to add a negative seven",
+            "pl": "Dodamy negatywną siódemkę",
+            "ar": "نحن ذاهبون لإضافة سالب سبعة"
+         },
+         "startTime": 133426,
+         "endTime": 134914
+      },
+      {
+         "text": {
+            "en": "which makes us move seven",
+            "pl": "co sprawia, że ruszamy siedem",
+            "ar": "مما يجعلنا نتحرك سبعة"
+         },
+         "startTime": 134914,
+         "endTime": 136141
+      },
+      {
+         "text": {
+            "en": "to the left again to get to negative nine.",
+            "pl": "w lewo ponownie, aby dostać się do negatywnej dziewięciu.",
+            "ar": "إلى اليسار مرة أخرى للوصول إلى سالب تسعة."
+         },
+         "startTime": 136141,
+         "endTime": 139049
+      },
+      {
+         "text": {
+            "en": "So that's definitely the model",
+            "pl": "Więc to na pewno model",
+            "ar": "لذلك هذا هو بالتأكيد النموذج"
+         },
+         "startTime": 139049,
+         "endTime": 140210
+      },
+      {
+         "text": {
+            "en": "that represents that expression.",
+            "pl": "który reprezentuje to wyrażenie.",
+            "ar": "الذي يمثل هذا التعبير."
+         },
+         "startTime": 140210,
+         "endTime": 142361
+      },
+      {
+         "text": {
+            "en": "Let's keep going.",
+            "pl": "Ruszajmy dalej.",
+            "ar": "دعنا نستمر"
+         },
+         "startTime": 142361,
+         "endTime": 143644
+      },
+      {
+         "text": {
+            "en": "All right.",
+            "pl": "W porządku.",
+            "ar": "حسناً"
+         },
+         "startTime": 143644,
+         "endTime": 145165
+      },
+      {
+         "text": {
+            "en": "Which number line model represents",
+            "pl": "Który model linii liczbowej reprezentuje",
+            "ar": "نموذج خط الأرقام الذي يمثله"
+         },
+         "startTime": 146873,
+         "endTime": 148776
+      },
+      {
+         "text": {
+            "en": "the expression six plus negative two.",
+            "pl": "wyrażenie sześć plus dwa ujemne.",
+            "ar": "التعبير ستة زائد سالب اثنين."
+         },
+         "startTime": 148776,
+         "endTime": 151606
+      },
+      {
+         "text": {
+            "en": "So here, they've taken our number lines",
+            "pl": "Więc tutaj, wzięli nasze linie numerów",
+            "ar": "حتى هنا، لقد أخذوا خطوط الأرقام لدينا"
+         },
+         "startTime": 151606,
+         "endTime": 153145
+      },
+      {
+         "text": {
+            "en": "but they've made them go up and down,",
+            "pl": "ale kazali im iść w górę i w dół,",
+            "ar": "لكنهم جعلوهم يذهبون صعودا وهبوطا"
+         },
+         "startTime": 153145,
+         "endTime": 155375
+      },
+      {
+         "text": {
+            "en": "they've made them vertical.",
+            "pl": "Zrobili je pionowo.",
+            "ar": "لقد جعلوها رأسية"
+         },
+         "startTime": 155375,
+         "endTime": 156701
+      },
+      {
+         "text": {
+            "en": "So we wanna really think about it.",
+            "pl": "Więc naprawdę chcemy to przemyśleć.",
+            "ar": "لذلك نحن نريد حقا التفكير في ذلك."
+         },
+         "startTime": 156701,
+         "endTime": 158340
+      },
+      {
+         "text": {
+            "en": "I want to start at six",
+            "pl": "Chcę zacząć o szóstej",
+            "ar": "أريد أن أبدأ في السادسة"
+         },
+         "startTime": 158340,
+         "endTime": 159369
+      },
+      {
+         "text": {
+            "en": "and I want to add negative two.",
+            "pl": "i chcę dodać dwa negatywne.",
+            "ar": "وأريد أن أضيف سالب اثنين."
+         },
+         "startTime": 159369,
+         "endTime": 161164
+      },
+      {
+         "text": {
+            "en": "So on a vertical number line like this,",
+            "pl": "Więc na pionowej linii liczbowej, jak ta,",
+            "ar": "لذلك على خط رقم عمودي مثل هذا،"
+         },
+         "startTime": 161164,
+         "endTime": 163068
+      },
+      {
+         "text": {
+            "en": "it seems like we're increasing as we go up.",
+            "pl": "Wygląda na to, że wzrastamy, gdy idziemy w górę.",
+            "ar": "يبدو أننا نزيد بينما نصعد"
+         },
+         "startTime": 163068,
+         "endTime": 164980
+      },
+      {
+         "text": {
+            "en": "I want to start at six above zero.",
+            "pl": "Chcę zacząć od szóstej powyżej zera.",
+            "ar": "أريد أن أبدأ من الساعة السادسة فوق الصفر"
+         },
+         "startTime": 164980,
+         "endTime": 168565
+      },
+      {
+         "text": {
+            "en": "So, I want to start at six above zero,",
+            "pl": "Więc, chcę zacząć od szóstej powyżej zera,",
+            "ar": "لذا، أريد أن أبدأ عند السادسة فوق الصفر،"
+         },
+         "startTime": 168565,
+         "endTime": 170893
+      },
+      {
+         "text": {
+            "en": "but then I want to add negative two,",
+            "pl": "ale potem chcę dodać dwa negatywne,",
+            "ar": "ولكن بعد ذلك أريد أن أضيف سالب اثنين،"
+         },
+         "startTime": 170893,
+         "endTime": 172366
+      },
+      {
+         "text": {
+            "en": "which should take me two steps back down.",
+            "pl": "Co powinno mi zająć dwa kroki w dół.",
+            "ar": "الذي ينبغي أن يأخذني خطوتين إلى أسفل."
+         },
+         "startTime": 172366,
+         "endTime": 174566
+      },
+      {
+         "text": {
+            "en": "This one takes me two steps even higher,",
+            "pl": "Ten robi mi dwa kroki jeszcze wyżej,",
+            "ar": "هذا واحد يأخذ لي خطوتين أعلى من ذلك،"
+         },
+         "startTime": 174566,
+         "endTime": 176472
+      },
+      {
+         "text": {
+            "en": "so this one right over here",
+            "pl": "Więc ten tutaj",
+            "ar": "لذلك هذا واحد الحق أكثر من هنا"
+         },
+         "startTime": 176472,
+         "endTime": 177967
+      },
+      {
+         "text": {
+            "en": "is positive six plus two,",
+            "pl": "jest dodatni sześć plus dwa,",
+            "ar": "هو إيجابي ستة زائد اثنين،"
+         },
+         "startTime": 177967,
+         "endTime": 180168
+      },
+      {
+         "text": {
+            "en": "or positive six plus positive two.",
+            "pl": "lub pozytywne sześć plus dwa pozytywne.",
+            "ar": "أو إيجابية ستة زائد إيجابية اثنين."
+         },
+         "startTime": 180168,
+         "endTime": 183290
+      },
+      {
+         "text": {
+            "en": "This one over here we're starting",
+            "pl": "Ten tutaj zaczynamy",
+            "ar": "هذا واحد هنا نحن نبدأ"
+         },
+         "startTime": 183290,
+         "endTime": 184488
+      },
+      {
+         "text": {
+            "en": "at positive four and then we're adding two,",
+            "pl": "na pozytywnej czwórce, a potem dodajemy dwa,",
+            "ar": "في إيجابية أربعة وبعد ذلك نحن إضافة اثنين،"
+         },
+         "startTime": 184488,
+         "endTime": 186500
+      },
+      {
+         "text": {
+            "en": "so that's not what we're talking about.",
+            "pl": "Więc nie o tym mówimy.",
+            "ar": "لذلك ليس هذا ما نتحدث عنه"
+         },
+         "startTime": 186500,
+         "endTime": 188235
+      },
+      {
+         "text": {
+            "en": "This one over here,",
+            "pl": "Ten tutaj,",
+            "ar": "هذا واحد هنا،"
+         },
+         "startTime": 188235,
+         "endTime": 189201
+      },
+      {
+         "text": {
+            "en": "this big arrow, this tall arrow.",
+            "pl": "Ta wielka strzała, ta wysoka strzała.",
+            "ar": "هذا السهم الكبير، هذا السهم طويل القامة."
+         },
+         "startTime": 189201,
+         "endTime": 191348
+      },
+      {
+         "text": {
+            "en": "This is going, it's pointing up.",
+            "pl": "To się dzieje, to jest skierowane w górę.",
+            "ar": "هذا هو الذهاب، انها تشير إلى أعلى."
+         },
+         "startTime": 191348,
+         "endTime": 193128
+      },
+      {
+         "text": {
+            "en": "It gets us to positive six.",
+            "pl": "Doprowadzi nas do pozytywnej szóstki.",
+            "ar": "فإنه يحصل لنا إلى ستة إيجابية."
+         },
+         "startTime": 193128,
+         "endTime": 195346
+      },
+      {
+         "text": {
+            "en": "The tip of the arrows are at positive six,",
+            "pl": "Końcówka strzałek jest pozytywna szóstka,",
+            "ar": "غيض من الأسهم هي في ستة إيجابية،"
+         },
+         "startTime": 195346,
+         "endTime": 197346
+      },
+      {
+         "text": {
+            "en": "But then we're going back down too.",
+            "pl": "Ale potem też wracamy na dół.",
+            "ar": "ولكن بعد ذلك نحن ذاهبون للأسفل أيضا."
+         },
+         "startTime": 197346,
+         "endTime": 199012
+      },
+      {
+         "text": {
+            "en": "So this would be positive six plus negative two.",
+            "pl": "Więc to byłoby pozytywne sześć plus dwa negatywne.",
+            "ar": "لذلك هذا سيكون إيجابيا ستة زائد سلبي اثنين."
+         },
+         "startTime": 199012,
+         "endTime": 202038
+      },
+      {
+         "text": {
+            "en": "You could think of this arrow",
+            "pl": "Mogłabyś pomyśleć o tej strzale",
+            "ar": "هل يمكن أن تفكر في هذا السهم"
+         },
+         "startTime": 202038,
+         "endTime": 203145
+      },
+      {
+         "text": {
+            "en": "as representing positive six,",
+            "pl": "jako reprezentujący sześć pozytywnych,",
+            "ar": "باعتبارها تمثل إيجابية ستة,"
+         },
+         "startTime": 203145,
+         "endTime": 205033
+      },
+      {
+         "text": {
+            "en": "and then this arrow is representing negative two.",
+            "pl": "a następnie ta strzałka reprezentuje dwa ujemne.",
+            "ar": "ثم يمثل هذا السهم سالب اثنين."
+         },
+         "startTime": 205033,
+         "endTime": 207733
+      },
+      {
+         "text": {
+            "en": "It takes us two down.",
+            "pl": "Zajmuje nas dwóch w dół.",
+            "ar": "إنه يأخذنا إثنان"
+         },
+         "startTime": 207733,
+         "endTime": 209666
+      },
+      {
+         "text": {
+            "en": "So if you take positive six plus negative two,",
+            "pl": "Więc jeśli weźmiesz pozytywne sześć plus dwa negatywne,",
+            "ar": "حتى إذا كنت تأخذ إيجابية ستة زائد سالب اثنين،"
+         },
+         "startTime": 209666,
+         "endTime": 212168
+      },
+      {
+         "text": {
+            "en": "you do the positive six.",
+            "pl": "robisz pozytywną szóstkę.",
+            "ar": "أنت تفعل ستة إيجابية."
+         },
+         "startTime": 212168,
+         "endTime": 213333
+      },
+      {
+         "text": {
+            "en": "And from the tip of your arrow,",
+            "pl": "I z czubka twojej strzały,",
+            "ar": "ومن طرف السهم الخاص بك,"
+         },
+         "startTime": 213333,
+         "endTime": 215206
+      },
+      {
+         "text": {
+            "en": "from there you can start the negative two,",
+            "pl": "stamtąd można rozpocząć negatywne dwa,",
+            "ar": "من هناك يمكنك بدء السالب اثنين،"
+         },
+         "startTime": 215206,
+         "endTime": 216935
+      },
+      {
+         "text": {
+            "en": "and you go two back down and you end up at four.",
+            "pl": "i wracasz dwie z powrotem na dół i skończysz o czwartej.",
+            "ar": "وأنت تذهب اثنين إلى أسفل وينتهي بك المطاف في الرابعة."
+         },
+         "startTime": 216935,
+         "endTime": 219744
+      },
+      {
+         "text": {
+            "en": "So it's definitely that one right over there.",
+            "pl": "Więc to na pewno ten tam.",
+            "ar": "لذلك فمن المؤكد أن واحد الحق أكثر من هناك."
+         },
+         "startTime": 219744,
+         "endTime": 223104
+      },
+      {
+         "text": {
+            "en": "This is surprisingly fun.",
+            "pl": "To zaskakująco zabawne.",
+            "ar": "هذا ممتع بشكل مدهش"
+         },
+         "startTime": 223104,
+         "endTime": 225449
+      },
+      {
+         "text": {
+            "en": "Let's keep going.",
+            "pl": "Ruszajmy dalej.",
+            "ar": "دعنا نستمر"
+         },
+         "startTime": 225449,
+         "endTime": 226545
+      },
+      {
+         "text": {
+            "en": "Which number line model represents",
+            "pl": "Który model linii liczbowej reprezentuje",
+            "ar": "نموذج خط الأرقام الذي يمثله"
+         },
+         "startTime": 226545,
+         "endTime": 228167
+      },
+      {
+         "text": {
+            "en": "the expression negative 2/5 plus 4/5?",
+            "pl": "wyrażenie ujemne 2/5 plus 4/5?",
+            "ar": "التعبير السلبي 2/5 زائد 4/5؟"
+         },
+         "startTime": 228167,
+         "endTime": 231933
+      },
+      {
+         "text": {
+            "en": "So we're going to start at negative 2/5",
+            "pl": "Więc zaczniemy od ujemnego 2/5",
+            "ar": "لذلك نحن ذاهبون للبدء في السلبية 2/5"
+         },
+         "startTime": 231933,
+         "endTime": 233442
+      },
+      {
+         "text": {
+            "en": "which is going to be, it's negative,",
+            "pl": "który będzie, to negatywne,",
+            "ar": "الذي سيكون، إنه سلبي،"
+         },
+         "startTime": 233442,
+         "endTime": 235174
+      },
+      {
+         "text": {
+            "en": "it's going to be to the left of zero.",
+            "pl": "To będzie na lewo od zera.",
+            "ar": "انها ستكون على يسار الصفر."
+         },
+         "startTime": 235174,
+         "endTime": 237084
+      },
+      {
+         "text": {
+            "en": "So let's see,",
+            "pl": "Zobaczmy więc,",
+            "ar": "لذلك دعونا نرى،"
+         },
+         "startTime": 237084,
+         "endTime": 237684
+      },
+      {
+         "text": {
+            "en": "this arrow right over here,",
+            "pl": "Ta strzałka tutaj,",
+            "ar": "هذا السهم الحق أكثر من هنا،"
+         },
+         "startTime": 237684,
+         "endTime": 239278
+      },
+      {
+         "text": {
+            "en": "this is negative 4/5,",
+            "pl": "jest to ujemne 4/5,",
+            "ar": "هذا هو سلبي 4/5،"
+         },
+         "startTime": 239278,
+         "endTime": 241146
+      },
+      {
+         "text": {
+            "en": "so that's not going to be quite right.",
+            "pl": "Więc to nie będzie całkiem w porządku.",
+            "ar": "لذلك هذا لن يكون على حق تماما."
+         },
+         "startTime": 241146,
+         "endTime": 244496
+      },
+      {
+         "text": {
+            "en": "So the second choice,",
+            "pl": "Więc drugi wybór,",
+            "ar": "وبالتالي فإن الخيار الثاني،"
+         },
+         "startTime": 244496,
+         "endTime": 245873
+      },
+      {
+         "text": {
+            "en": "what's going on here?",
+            "pl": "Co tu się dzieje?",
+            "ar": "ما الذي يجري هنا؟"
+         },
+         "startTime": 245873,
+         "endTime": 247106
+      },
+      {
+         "text": {
+            "en": "So if I start at zero,",
+            "pl": "Więc jeśli zacznę od zera,",
+            "ar": "لذلك إذا بدأت عند الصفر،"
+         },
+         "startTime": 247106,
+         "endTime": 249288
+      },
+      {
+         "text": {
+            "en": "and then I'm going 2/5",
+            "pl": "a potem idę 2/5",
+            "ar": "ثم انا ذاهب 2/5"
+         },
+         "startTime": 249288,
+         "endTime": 251708
+      },
+      {
+         "text": {
+            "en": "to the left of zero.",
+            "pl": "na lewo od zera.",
+            "ar": "إلى يسار الصفر."
+         },
+         "startTime": 251708,
+         "endTime": 252911
+      },
+      {
+         "text": {
+            "en": "So that's negative 2/5 and from that,",
+            "pl": "Więc to jest ujemne 2/5 i z tego,",
+            "ar": "لذلك هذا سلبي 2/5 ومن ذلك،"
+         },
+         "startTime": 252911,
+         "endTime": 255813
+      },
+      {
+         "text": {
+            "en": "I'm going to the right",
+            "pl": "Idę w prawo",
+            "ar": "انا ذاهب الى اليمين"
+         },
+         "startTime": 255813,
+         "endTime": 257811
+      },
+      {
+         "text": {
+            "en": "1/5, 2/5, 3/5, 4/5.",
+            "pl": "1/5, 2/5, 3/5, 4/5.",
+            "ar": "1/5، 2/5، 3/5، 4/5."
+         },
+         "startTime": 257811,
+         "endTime": 261770
+      },
+      {
+         "text": {
+            "en": "So this looks right.",
+            "pl": "Więc to wygląda dobrze.",
+            "ar": "لذلك هذا يبدو صحيحا."
+         },
+         "startTime": 261770,
+         "endTime": 262769
+      },
+      {
+         "text": {
+            "en": "This looks like negative 2/5,",
+            "pl": "Wygląda to na ujemne 2/5,",
+            "ar": "هذا يبدو وكأنه سلبي 2/5،"
+         },
+         "startTime": 262769,
+         "endTime": 263928
+      },
+      {
+         "text": {
+            "en": "so I'm starting at zero,",
+            "pl": "Więc zaczynam od zera,",
+            "ar": "لذلك أنا بدأت من الصفر،"
+         },
+         "startTime": 263928,
+         "endTime": 265610
+      },
+      {
+         "text": {
+            "en": "I'm going to the left 2/5.",
+            "pl": "Idę w lewo 2/5.",
+            "ar": "انا ذاهب الى اليسار 2/5."
+         },
+         "startTime": 265610,
+         "endTime": 267200
+      },
+      {
+         "text": {
+            "en": "So that's negative 2/5,",
+            "pl": "Więc to jest ujemne 2/5,",
+            "ar": "لذلك هذا سلبي 2/5،"
+         },
+         "startTime": 267200,
+         "endTime": 269013
+      },
+      {
+         "text": {
+            "en": "and then I go to the right",
+            "pl": "a potem idę w prawo",
+            "ar": "ثم أذهب إلى اليمين"
+         },
+         "startTime": 269013,
+         "endTime": 270133
+      },
+      {
+         "text": {
+            "en": "4/5 from that tip.",
+            "pl": "4/5 od tego napiwku.",
+            "ar": "4/5 من تلك النصيحة"
+         },
+         "startTime": 270133,
+         "endTime": 271458
+      },
+      {
+         "text": {
+            "en": ">From negative 2/5,",
+            "pl": ">Od ujemnego 2/5,",
+            "ar": "> من السلبية 2/5،"
+         },
+         "startTime": 271458,
+         "endTime": 273003
+      },
+      {
+         "text": {
+            "en": "I'm adding 4/5.",
+            "pl": "Dodaję 4/5.",
+            "ar": "أنا أضيف 4/5."
+         },
+         "startTime": 273003,
+         "endTime": 274938
+      },
+      {
+         "text": {
+            "en": "So that looks right.",
+            "pl": "Więc to wygląda dobrze.",
+            "ar": "لذلك هذا يبدو صحيحا."
+         },
+         "startTime": 274938,
+         "endTime": 276078
+      },
+      {
+         "text": {
+            "en": "Let's do one more.",
+            "pl": "Zróbmy jeszcze jeden.",
+            "ar": "دعونا نفعل واحد آخر."
+         },
+         "startTime": 276078,
+         "endTime": 277015
+      },
+      {
+         "text": {
+            "en": "This is exciting.",
+            "pl": "To ekscytujące.",
+            "ar": "هذا مثير"
+         },
+         "startTime": 277015,
+         "endTime": 279481
+      },
+      {
+         "text": {
+            "en": "Even if you don't find it fully exciting,",
+            "pl": "Nawet jeśli nie uważasz, że to w pełni ekscytujące,",
+            "ar": "حتى لو لم تجده مثيراً"
+         },
+         "startTime": 279481,
+         "endTime": 281308
+      },
+      {
+         "text": {
+            "en": "anything you do you should",
+            "pl": "Cokolwiek zrobisz, powinieneś",
+            "ar": "أي شيء يمكنك القيام به يجب"
+         },
+         "startTime": 281308,
+         "endTime": 282549
+      },
+      {
+         "text": {
+            "en": "convince yourself it's exciting.",
+            "pl": "Przekonaj się, że to ekscytujące.",
+            "ar": "إقناع نفسك انها مثيرة."
+         },
+         "startTime": 282549,
+         "endTime": 283970
+      },
+      {
+         "text": {
+            "en": "You'll do a better job.",
+            "pl": "Wykonasz lepszą robotę.",
+            "ar": "ستقومي بعمل أفضل"
+         },
+         "startTime": 283970,
+         "endTime": 285380
+      },
+      {
+         "text": {
+            "en": "Which number line model represents",
+            "pl": "Który model linii liczbowej reprezentuje",
+            "ar": "نموذج خط الأرقام الذي يمثله"
+         },
+         "startTime": 285380,
+         "endTime": 286898
+      },
+      {
+         "text": {
+            "en": "the expression five 1/2 plus negative three?",
+            "pl": "Wyrażenie pięć 1/2 plus minus trzy?",
+            "ar": "التعبير خمسة 1/2 زائد سالب ثلاثة؟"
+         },
+         "startTime": 286898,
+         "endTime": 290650
+      },
+      {
+         "text": {
+            "en": "This is positive five 1/2,",
+            "pl": "Jest to pozytywne pięć 1/2,",
+            "ar": "و هذا إيجابي خمسة 1/2,"
+         },
+         "startTime": 290650,
+         "endTime": 292942
+      },
+      {
+         "text": {
+            "en": "so I want to go five 1/2",
+            "pl": "więc chcę iść pięć 1/2",
+            "ar": "لذلك أريد أن أذهب خمسة 1/2"
+         },
+         "startTime": 292942,
+         "endTime": 294619
+      },
+      {
+         "text": {
+            "en": "to the right of zero.",
+            "pl": "na prawo od zera.",
+            "ar": "إلى اليمين من الصفر."
+         },
+         "startTime": 294619,
+         "endTime": 296106
+      },
+      {
+         "text": {
+            "en": "This is five 1/2 to the left of zero,",
+            "pl": "To jest pięć 1/2 na lewo od zera,",
+            "ar": "هذا هو خمسة 1/2 إلى يسار الصفر،"
+         },
+         "startTime": 296106,
+         "endTime": 297979
+      },
+      {
+         "text": {
+            "en": "so that's negative five 1/2.",
+            "pl": "Więc to jest ujemne pięć i pół.",
+            "ar": "لذلك هذا سلبي خمسة 1/2."
+         },
+         "startTime": 297979,
+         "endTime": 299400
+      },
+      {
+         "text": {
+            "en": "That's not what I want to deal with.",
+            "pl": "Nie z tym chcę się uporać.",
+            "ar": "هذا ليس ما أريد التعامل معه"
+         },
+         "startTime": 299400,
+         "endTime": 300804
+      },
+      {
+         "text": {
+            "en": "So this one looks interesting,",
+            "pl": "Więc ten wygląda interesująco,",
+            "ar": "لذلك هذا واحد تبدو مثيرة للاهتمام،"
+         },
+         "startTime": 300804,
+         "endTime": 302379
+      },
+      {
+         "text": {
+            "en": "and this is actually five 1/2",
+            "pl": "a to jest rzeczywiście pięć 1/2",
+            "ar": "وهذا هو في الواقع خمسة 1/2"
+         },
+         "startTime": 302379,
+         "endTime": 303909
+      },
+      {
+         "text": {
+            "en": "to the left of zero as well,",
+            "pl": "również na lewo od zera,",
+            "ar": "إلى يسار الصفر كذلك،"
+         },
+         "startTime": 303909,
+         "endTime": 305607
+      },
+      {
+         "text": {
+            "en": "so it's probably going to be this",
+            "pl": "Więc to pewnie będzie to",
+            "ar": "لذلك من المحتمل أن يكون هذا"
+         },
+         "startTime": 305607,
+         "endTime": 306747
+      },
+      {
+         "text": {
+            "en": "but let's just look at it.",
+            "pl": "Ale spójrzmy na to.",
+            "ar": "ولكن دعونا ننظر فقط في الأمر."
+         },
+         "startTime": 306747,
+         "endTime": 308162
+      },
+      {
+         "text": {
+            "en": "So let's see, we go five 1/2 to the right of zero.",
+            "pl": "Zobaczmy więc, idziemy pięć i pół na prawo od zera.",
+            "ar": "لذلك دعونا نرى، نذهب خمسة 1/2 إلى اليمين من الصفر."
+         },
+         "startTime": 308162,
+         "endTime": 311185
+      },
+      {
+         "text": {
+            "en": "So this is five 1/2,",
+            "pl": "Więc to jest pięć 1/2,",
+            "ar": "إذن هذه خمسة 1/2،"
+         },
+         "startTime": 311185,
+         "endTime": 312845
+      },
+      {
+         "text": {
+            "en": "and then from that I go three left.",
+            "pl": "A potem idę trzy w lewo.",
+            "ar": "ثم من ذلك أذهب إلى اليسار ثلاثة."
+         },
+         "startTime": 312845,
+         "endTime": 316347
+      },
+      {
+         "text": {
+            "en": "So that in the end gets me to two 1/2.",
+            "pl": "Tak, że w końcu dociera mnie do dwóch 1/2.",
+            "ar": "بحيث في النهاية يحصل لي إلى اثنين 1/2."
+         },
+         "startTime": 316347,
+         "endTime": 318975
+      },
+      {
+         "text": {
+            "en": "So it's this choice, right over there.",
+            "pl": "Więc to jest ten wybór, właśnie tam.",
+            "ar": "لذلك هو هذا الاختيار، الحق هناك."
+         },
+         "startTime": 318975,
+         "endTime": 322760
+      },
+      {
+         "text": {
+            "en": "Exciting.",
+            "pl": "Ekscytujące",
+            "ar": "مثيرة"
+         },
+         "startTime": 322760,
+         "endTime": 324113
+      }
+   ],
+   "url": "https://www.youtube-nocookie.com/api/timedtext?v=3CKpidALDEg&asr_langs=de%2Cen%2Ces%2Cfr%2Cit%2Cja%2Cko%2Cnl%2Cpt%2Cru&caps=asr&exp=xftt&xorp=true&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1615784285&sparams=ip%2Cipbits%2Cexpire%2Cv%2Casr_langs%2Ccaps%2Cexp%2Cxorp%2Cxoaf&signature=9A0D7191C14007B04A0DD5887D77764549678400.40CD14F03F19732292F701B9BFB816EC305E621D&key=yt8&lang=en&fmt=json3&xorb=2&xobt=3&xovt=3",
+   "title": "Adding negative numbers on the number line (video) | Khan Academy"
+}

@@ -1,0 +1,1779 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- [Voiceover] Now that you know about While loops,",
+            "pl": "- Teraz, gdy wiesz o While'u pętle,",
+            "ar": "- [Voiceover] الآن بما أنك تعرف عن حلقات،"
+         },
+         "endTime": 2832,
+         "startTime": 1410
+      },
+      {
+         "text": {
+            "en": "let's talk about another kind of loop,",
+            "pl": "porozmawiajmy o innym rodzaju pętli,",
+            "ar": "دعونا نتحدث عن نوع آخر من حلقة،"
+         },
+         "endTime": 4311,
+         "startTime": 2832
+      },
+      {
+         "text": {
+            "en": "For loops.",
+            "pl": "Na pętle.",
+            "ar": "للحلقات."
+         },
+         "endTime": 5611,
+         "startTime": 4527
+      },
+      {
+         "text": {
+            "en": "Here's a For loop I made to place the",
+            "pl": "Oto pętla For, którą zrobiłem, aby umieścić",
+            "ar": "وهنا لحلقة أنا جعلت لوضع"
+         },
+         "endTime": 7048,
+         "startTime": 5704
+      },
+      {
+         "text": {
+            "en": "most delicious kind of pizza,",
+            "pl": "najsmaczniejszy rodzaj pizzy,",
+            "ar": "أكثر نوع لذيذ من البيتزا،"
+         },
+         "endTime": 8844,
+         "startTime": 7048
+      },
+      {
+         "text": {
+            "en": "pineapple pizza.",
+            "pl": "Pizza ananasowa.",
+            "ar": "الأناناس البيتزا."
+         },
+         "endTime": 10606,
+         "startTime": 8998
+      },
+      {
+         "text": {
+            "en": "You might think, \"I liked While loops",
+            "pl": "Można by pomyśleć, „Podobało mi się, gdy pętle",
+            "ar": "قد تعتقد، «لقد أحببت أثناء الحلقات"
+         },
+         "endTime": 12704,
+         "startTime": 11022
+      },
+      {
+         "text": {
+            "en": "\"why should I care about this kind of loop?\"",
+            "pl": "„dlaczego miałbym się przejmować tym rodzajem pętli?”",
+            "ar": "«لماذا يجب أن أهتم بهذا النوع من الحلقة؟»"
+         },
+         "endTime": 14743,
+         "startTime": 12704
+      },
+      {
+         "text": {
+            "en": "Soon you'll see that a For loop is a way",
+            "pl": "Wkrótce zobaczysz, że pętla For jest sposobem",
+            "ar": "قريبا سترى أن لحلقة هو وسيلة"
+         },
+         "endTime": 17248,
+         "startTime": 15143
+      },
+      {
+         "text": {
+            "en": "to write simple kinds of While loops,",
+            "pl": "pisać proste rodzaje pętli While,",
+            "ar": "لكتابة أنواع بسيطة من حين الحلقات،"
+         },
+         "endTime": 18887,
+         "startTime": 17248
+      },
+      {
+         "text": {
+            "en": "in a bit of a shorter way.",
+            "pl": "w nieco krótszy sposób.",
+            "ar": "في قليلا من طريقة أقصر."
+         },
+         "endTime": 20380,
+         "startTime": 19057
+      },
+      {
+         "text": {
+            "en": "Before we inspect this For loop",
+            "pl": "Zanim sprawdzimy tę pętlę Dla",
+            "ar": "قبل أن نفحص هذا للحصول على حلقة"
+         },
+         "endTime": 22389,
+         "startTime": 21074
+      },
+      {
+         "text": {
+            "en": "let's go ahead and look at a While loop,",
+            "pl": "Chodźmy naprzód i spójrz na pętlę While,",
+            "ar": "دعونا نمضي قدما وننظر في حلقة في حين،"
+         },
+         "endTime": 24489,
+         "startTime": 22389
+      },
+      {
+         "text": {
+            "en": "which will be a little bit more familiar,",
+            "pl": "który będzie trochę bardziej znajomy,",
+            "ar": "والتي سوف تكون أكثر دراية قليلا،"
+         },
+         "endTime": 25991,
+         "startTime": 24582
+      },
+      {
+         "text": {
+            "en": "and then we'll get back to",
+            "pl": "a potem wrócimy do",
+            "ar": "وبعد ذلك سنعود إلى"
+         },
+         "endTime": 26815,
+         "startTime": 25991
+      },
+      {
+         "text": {
+            "en": "this For loop in a moment.",
+            "pl": "to Dla pętli za chwilę.",
+            "ar": "هذا لحلقة في لحظة."
+         },
+         "endTime": 27942,
+         "startTime": 26815
+      },
+      {
+         "text": {
+            "en": "Just like you saw in Intro to While Loops",
+            "pl": "Tak jak widziałeś w Intro do While Loops",
+            "ar": "تماما كما رأيت في مقدمة إلى حين الحلقات"
+         },
+         "endTime": 31035,
+         "startTime": 28559
+      },
+      {
+         "text": {
+            "en": "we start out with this variable y",
+            "pl": "zaczynamy od tej zmiennej y",
+            "ar": "نبدأ مع هذا المتغير ذ"
+         },
+         "endTime": 33544,
+         "startTime": 31035
+      },
+      {
+         "text": {
+            "en": "and we write a message using that location y.",
+            "pl": "i piszemy wiadomość używając tej lokalizacji y.",
+            "ar": "ونحن نكتب رسالة باستخدام هذا الموقع y."
+         },
+         "endTime": 36507,
+         "startTime": 33544
+      },
+      {
+         "text": {
+            "en": "We say that we want to keep going",
+            "pl": "Mówimy, że chcemy iść dalej",
+            "ar": "نقول أننا نريد أن نستمر"
+         },
+         "endTime": 38098,
+         "startTime": 36692
+      },
+      {
+         "text": {
+            "en": "as long as y is less than 300,",
+            "pl": "tak długo, jak y jest mniejszy niż 300,",
+            "ar": "طالما ذ هو أقل من 300،"
+         },
+         "endTime": 40265,
+         "startTime": 38098
+      },
+      {
+         "text": {
+            "en": "and change y by 40 each time.",
+            "pl": "i za każdym razem zmień y o 40.",
+            "ar": "وتغيير ذ بنسبة 40 في كل مرة."
+         },
+         "endTime": 42787,
+         "startTime": 40374
+      },
+      {
+         "text": {
+            "en": "Just to reinforce each of these,",
+            "pl": "Aby wzmocnić każdy z nich,",
+            "ar": "فقط لتعزيز كل من هذه،"
+         },
+         "endTime": 44562,
+         "startTime": 42787
+      },
+      {
+         "text": {
+            "en": "which again should be pretty much review,",
+            "pl": "które ponownie powinny być dość dużo przeglądu,",
+            "ar": "التي ينبغي أن تكون مرة أخرى إلى حد كبير مراجعة,"
+         },
+         "endTime": 46754,
+         "startTime": 44562
+      },
+      {
+         "text": {
+            "en": "we can say that \"Pineapple pizza is the best!\"",
+            "pl": "możemy powiedzieć, że „Pizza ananasowa jest najlepsza!”",
+            "ar": "يمكننا أن نقول أن «الأناناس البيتزا هو الأفضل!»"
+         },
+         "endTime": 49158,
+         "startTime": 46754
+      },
+      {
+         "text": {
+            "en": "is a really important message",
+            "pl": "jest bardzo ważną wiadomością",
+            "ar": "هي رسالة مهمة حقا"
+         },
+         "endTime": 50324,
+         "startTime": 49158
+      },
+      {
+         "text": {
+            "en": "so we probably want to be writing it more.",
+            "pl": "Więc prawdopodobnie chcemy pisać więcej.",
+            "ar": "لذلك ربما نريد أن نكتبه أكثر."
+         },
+         "endTime": 52025,
+         "startTime": 50324
+      },
+      {
+         "text": {
+            "en": "We probably should start higher,",
+            "pl": "Chyba powinniśmy zacząć wyżej,",
+            "ar": "ربما يجب أن نبدأ بأعلى"
+         },
+         "endTime": 53873,
+         "startTime": 52025
+      },
+      {
+         "text": {
+            "en": "so we change that.",
+            "pl": "Więc zmienimy to.",
+            "ar": "لذلك نحن تغيير ذلك."
+         },
+         "endTime": 55221,
+         "startTime": 54043
+      },
+      {
+         "text": {
+            "en": "Should probably go on for longer",
+            "pl": "Powinno trwać dłużej.",
+            "ar": "ربما يجب أن تستمر لفترة أطول"
+         },
+         "endTime": 57127,
+         "startTime": 55221
+      },
+      {
+         "text": {
+            "en": "so we make that bigger.",
+            "pl": "Więc zrobimy to większe.",
+            "ar": "لذلك نحن جعل ذلك أكبر."
+         },
+         "endTime": 58333,
+         "startTime": 57127
+      },
+      {
+         "text": {
+            "en": "And it should probably be closer",
+            "pl": "I prawdopodobnie powinno być bliżej",
+            "ar": "وربما يجب أن يكون أقرب"
+         },
+         "endTime": 59396,
+         "startTime": 58333
+      },
+      {
+         "text": {
+            "en": "spaced together don't you think?",
+            "pl": "Nie sądzisz, że nie?",
+            "ar": "متباعدة معا لا تعتقد؟"
+         },
+         "endTime": 60738,
+         "startTime": 59396
+      },
+      {
+         "text": {
+            "en": "That's a little bit better.",
+            "pl": "To trochę lepiej.",
+            "ar": "هذا أفضل قليلاً"
+         },
+         "endTime": 63168,
+         "startTime": 61276
+      },
+      {
+         "text": {
+            "en": "Now let's see how we can change",
+            "pl": "Zobaczmy teraz, jak możemy zmienić",
+            "ar": "الآن دعونا نرى كيف يمكننا تغيير"
+         },
+         "endTime": 64953,
+         "startTime": 63399
+      },
+      {
+         "text": {
+            "en": "this While loop into a For loop.",
+            "pl": "to Pętla While do pętli For.",
+            "ar": "هذا بينما حلقة في حلقة من أجل."
+         },
+         "endTime": 67123,
+         "startTime": 64953
+      },
+      {
+         "text": {
+            "en": "I'm going to comment out this While loop",
+            "pl": "Zamierzam skomentować tę pętlę While",
+            "ar": "انا ذاهب الى التعليق على هذا حلقة في حين"
+         },
+         "endTime": 69278,
+         "startTime": 67539
+      },
+      {
+         "text": {
+            "en": "just so you can see that a For loop",
+            "pl": "tylko po to, aby zobaczyć, że pętla For",
+            "ar": "فقط حتى تتمكن من رؤية أن لحلقة"
+         },
+         "endTime": 71059,
+         "startTime": 69278
+      },
+      {
+         "text": {
+            "en": "really is doing what I'm saying it's going to do.",
+            "pl": "Naprawdę robi to, co mówię.",
+            "ar": "حقا هو القيام بما أقول أنها سوف تفعل."
+         },
+         "endTime": 73851,
+         "startTime": 71059
+      },
+      {
+         "text": {
+            "en": "We'll say that when we create a For loop,",
+            "pl": "Powiemy, że kiedy tworzymy pętlę For,",
+            "ar": "سنقول أنه عندما ننشئ حلقة من أجل،"
+         },
+         "endTime": 77445,
+         "startTime": 74051
+      },
+      {
+         "text": {
+            "en": "we'll just create some space",
+            "pl": "po prostu stworzymy trochę przestrzeni",
+            "ar": "سنقوم فقط بإنشاء بعض المساحة"
+         },
+         "endTime": 78409,
+         "startTime": 77445
+      },
+      {
+         "text": {
+            "en": "for us to fill in later.",
+            "pl": "dla nas, aby wypełnić później.",
+            "ar": "بالنسبة لنا لملء في وقت لاحق."
+         },
+         "endTime": 79995,
+         "startTime": 78409
+      },
+      {
+         "text": {
+            "en": "Something really important,",
+            "pl": "Coś naprawdę ważnego.",
+            "ar": "شيء مهم حقا،"
+         },
+         "endTime": 80829,
+         "startTime": 79995
+      },
+      {
+         "text": {
+            "en": "kind of different for a For loop,",
+            "pl": "rodzaj inny dla pętli For,",
+            "ar": "نوع من مختلف لحلقة،"
+         },
+         "endTime": 82315,
+         "startTime": 80829
+      },
+      {
+         "text": {
+            "en": "is that it's not just one thing",
+            "pl": "jest to, że to nie tylko jedna rzecz",
+            "ar": "هو أنه ليس مجرد شيء واحد"
+         },
+         "endTime": 83569,
+         "startTime": 82315
+      },
+      {
+         "text": {
+            "en": "that goes in here,",
+            "pl": "który idzie tutaj,",
+            "ar": "التي تدخل هنا"
+         },
+         "endTime": 84484,
+         "startTime": 83569
+      },
+      {
+         "text": {
+            "en": "it's actually three things.",
+            "pl": "Właściwie to trzy rzeczy.",
+            "ar": "انها في الواقع ثلاثة أشياء."
+         },
+         "endTime": 86082,
+         "startTime": 84484
+      },
+      {
+         "text": {
+            "en": "You tell the computer that by putting these",
+            "pl": "Powiedz komputerowi, że umieszczając te",
+            "ar": "أنت تخبر الكمبيوتر أنه من خلال وضع هذه"
+         },
+         "endTime": 88597,
+         "startTime": 86929
+      },
+      {
+         "text": {
+            "en": "semi-colons to separate the three parts.",
+            "pl": "średniki, aby oddzielić trzy części.",
+            "ar": "شبه القولون لفصل الأجزاء الثلاثة."
+         },
+         "endTime": 91223,
+         "startTime": 88597
+      },
+      {
+         "text": {
+            "en": "We'll have one part here,",
+            "pl": "Będziemy mieć jedną rolę tutaj,",
+            "ar": "سيكون لدينا جزء واحد هنا"
+         },
+         "endTime": 92455,
+         "startTime": 91393
+      },
+      {
+         "text": {
+            "en": "one part here, one part here,",
+            "pl": "jedna część tutaj, jedna część tutaj,",
+            "ar": "جزء واحد هنا، جزء واحد هنا،"
+         },
+         "endTime": 94065,
+         "startTime": 92455
+      },
+      {
+         "text": {
+            "en": "and then the inside of the loop",
+            "pl": "a następnie wewnątrz pętli",
+            "ar": "ثم داخل الحلقة"
+         },
+         "endTime": 95472,
+         "startTime": 94065
+      },
+      {
+         "text": {
+            "en": "just like we had before.",
+            "pl": "Tak jak wcześniej.",
+            "ar": "تماما كما كان لدينا من قبل."
+         },
+         "endTime": 97105,
+         "startTime": 95472
+      },
+      {
+         "text": {
+            "en": "What goes in each of these parts?",
+            "pl": "Co się dzieje w każdej z tych części?",
+            "ar": "ما الذي يحدث في كل من هذه الأجزاء؟"
+         },
+         "endTime": 99199,
+         "startTime": 97521
+      },
+      {
+         "text": {
+            "en": "You can think of it,",
+            "pl": "Możesz o tym pomyśleć,",
+            "ar": "يمكنك التفكير في ذلك،"
+         },
+         "endTime": 100339,
+         "startTime": 99323
+      },
+      {
+         "text": {
+            "en": "as we say \"For\" we can say that we're going",
+            "pl": "jak mówimy „Za” możemy powiedzieć, że idziemy",
+            "ar": "كما نقول «من أجل» يمكننا أن نقول أننا ذاهبون"
+         },
+         "endTime": 102945,
+         "startTime": 100339
+      },
+      {
+         "text": {
+            "en": "to have some sort of start or initialization.",
+            "pl": ", aby mieć jakiś początek lub inicjalizacji.",
+            "ar": "أن يكون لديك نوع من البداية أو التهيئة."
+         },
+         "endTime": 106474,
+         "startTime": 102945
+      },
+      {
+         "text": {
+            "en": "Then we'll have the semi-colon.",
+            "pl": "Wtedy będziemy mieć średnika.",
+            "ar": "ثم سيكون لدينا الفاصلة المنقوطة."
+         },
+         "endTime": 107754,
+         "startTime": 106474
+      },
+      {
+         "text": {
+            "en": "Then we're going to have some sort of",
+            "pl": "Wtedy będziemy mieć jakiś rodzaj",
+            "ar": "ثم نحن ذاهبون لدينا نوع من"
+         },
+         "endTime": 109030,
+         "startTime": 107754
+      },
+      {
+         "text": {
+            "en": "instructions of how long to repeat,",
+            "pl": "instrukcje jak długo powtarzać,",
+            "ar": "تعليمات كم من الوقت لتكرار،"
+         },
+         "endTime": 110704,
+         "startTime": 109030
+      },
+      {
+         "text": {
+            "en": "and then we're going to have",
+            "pl": "a potem będziemy mieć",
+            "ar": "وبعد ذلك نحن ذاهبون لدينا"
+         },
+         "endTime": 113285,
+         "startTime": 112088
+      },
+      {
+         "text": {
+            "en": "some sort of change happening.",
+            "pl": "Jakiś rodzaj zmiany się dzieje.",
+            "ar": "نوع من التغيير يحدث"
+         },
+         "endTime": 115556,
+         "startTime": 113577
+      },
+      {
+         "text": {
+            "en": "How does that correspond with this While loop?",
+            "pl": "Jak to odpowiada tej pętli While?",
+            "ar": "كيف يتوافق ذلك مع هذه الحلقة في حين؟"
+         },
+         "endTime": 119416,
+         "startTime": 116941
+      },
+      {
+         "text": {
+            "en": "Really concretely we can say that",
+            "pl": "Naprawdę konkretnie możemy powiedzieć, że",
+            "ar": "حقا بشكل ملموس يمكننا أن نقول أن"
+         },
+         "endTime": 120882,
+         "startTime": 119586
+      },
+      {
+         "text": {
+            "en": "the start sets up this variable y here,",
+            "pl": "start ustawia tę zmienną y tutaj,",
+            "ar": "البداية يضع هذا المتغير y هنا،"
+         },
+         "endTime": 123988,
+         "startTime": 120882
+      },
+      {
+         "text": {
+            "en": "so let's copy and paste that over",
+            "pl": "więc skopiujmy i wklejamy to ponad",
+            "ar": "لذلك دعونا نسخ ولصق أن أكثر"
+         },
+         "endTime": 125362,
+         "startTime": 123988
+      },
+      {
+         "text": {
+            "en": "onto this first part of the For loop.",
+            "pl": "na tę pierwszą część pętli For.",
+            "ar": "على هذا الجزء الأول من حلقة FOR."
+         },
+         "endTime": 128817,
+         "startTime": 126315
+      },
+      {
+         "text": {
+            "en": "And similarly it appears first so it's first.",
+            "pl": "I podobnie pojawia się jako pierwszy, więc jest pierwszy.",
+            "ar": "وبالمثل يبدو أولا لذلك هو الأول."
+         },
+         "endTime": 131430,
+         "startTime": 128940
+      },
+      {
+         "text": {
+            "en": "We can say that this middle part is telling",
+            "pl": "Można powiedzieć, że ta środkowa część mówi",
+            "ar": "يمكننا أن نقول أن هذا الجزء الأوسط يقول"
+         },
+         "endTime": 133080,
+         "startTime": 131430
+      },
+      {
+         "text": {
+            "en": "us how long we should keep going for.",
+            "pl": "nam, jak długo powinniśmy iść dalej.",
+            "ar": "لنا كم من الوقت يجب أن نستمر"
+         },
+         "endTime": 135503,
+         "startTime": 133080
+      },
+      {
+         "text": {
+            "en": "That goes in the middle.",
+            "pl": "To idzie w środku.",
+            "ar": "هذا يذهب في المنتصف"
+         },
+         "endTime": 137185,
+         "startTime": 135503
+      },
+      {
+         "text": {
+            "en": "Then we say that the change",
+            "pl": "Następnie mówimy, że zmiana",
+            "ar": "ثم نقول أن التغيير"
+         },
+         "endTime": 138995,
+         "startTime": 138032
+      },
+      {
+         "text": {
+            "en": "happens at the end here,",
+            "pl": "dzieje się na końcu tutaj,",
+            "ar": "يحدث في النهاية هنا،"
+         },
+         "endTime": 140695,
+         "startTime": 138995
+      },
+      {
+         "text": {
+            "en": "so we'll put that at the end of the For loop.",
+            "pl": "więc umieścimy to na końcu pętli For.",
+            "ar": "لذلك سنضع ذلك في نهاية حلقة FOR."
+         },
+         "endTime": 145577,
+         "startTime": 140695
+      },
+      {
+         "text": {
+            "en": "These three parts always have",
+            "pl": "Te trzy części zawsze",
+            "ar": "هذه الأجزاء الثلاثة لديها دائما"
+         },
+         "endTime": 147211,
+         "startTime": 145716
+      },
+      {
+         "text": {
+            "en": "to occur in this order.",
+            "pl": "wystąpić w tej kolejności.",
+            "ar": "أن تحدث في هذا الترتيب."
+         },
+         "endTime": 148685,
+         "startTime": 147211
+      },
+      {
+         "text": {
+            "en": "In your For loop you always",
+            "pl": "W pętli For zawsze",
+            "ar": "في الخاص بك لحلقة كنت دائما"
+         },
+         "endTime": 149828,
+         "startTime": 148685
+      },
+      {
+         "text": {
+            "en": "have to start out by saying, \"This is",
+            "pl": "trzeba zacząć od powiedzenia: „To jest",
+            "ar": "يجب أن تبدأ بالقول، «هذا هو"
+         },
+         "endTime": 152221,
+         "startTime": 149828
+      },
+      {
+         "text": {
+            "en": "\"where this variable should start out as.\"",
+            "pl": "„gdzie ta zmienna powinna zaczynać się jako.”",
+            "ar": "«حيث يجب أن يبدأ هذا المتغير كما.»"
+         },
+         "endTime": 153959,
+         "startTime": 152221
+      },
+      {
+         "text": {
+            "en": "Here it's 27.",
+            "pl": "Tu jest 27.",
+            "ar": "هنا هو 27."
+         },
+         "endTime": 154876,
+         "startTime": 153959
+      },
+      {
+         "text": {
+            "en": "Then you need to say how long",
+            "pl": "Następnie musisz powiedzieć, jak długo",
+            "ar": "ثم عليك أن تقول كم من الوقت"
+         },
+         "endTime": 156650,
+         "startTime": 154876
+      },
+      {
+         "text": {
+            "en": "you want to keep going for.",
+            "pl": "chcesz iść dalej.",
+            "ar": "كنت تريد الاستمرار في الذهاب ل."
+         },
+         "endTime": 157855,
+         "startTime": 156650
+      },
+      {
+         "text": {
+            "en": "Repeat as long as it's less than 354.",
+            "pl": "Powtarzaj tak długo, jak jest mniejsza niż 354.",
+            "ar": "كرر طالما أنها أقل من 354."
+         },
+         "endTime": 161453,
+         "startTime": 157855
+      },
+      {
+         "text": {
+            "en": "Then you need to put how you're",
+            "pl": "Następnie musisz umieścić, jak jesteś",
+            "ar": "ثم تحتاج إلى وضع كيف كنت"
+         },
+         "endTime": 162831,
+         "startTime": 161453
+      },
+      {
+         "text": {
+            "en": "going to be changing things.",
+            "pl": "będzie zmieniać rzeczy.",
+            "ar": "سيكون تغيير الأشياء."
+         },
+         "endTime": 164402,
+         "startTime": 162831
+      },
+      {
+         "text": {
+            "en": "Here we're going to be changing",
+            "pl": "Tutaj będziemy się zmieniać",
+            "ar": "هنا نحن ذاهبون إلى تغيير"
+         },
+         "endTime": 165729,
+         "startTime": 164402
+      },
+      {
+         "text": {
+            "en": "by increasing y by 24.",
+            "pl": "zwiększając y y o 24.",
+            "ar": "عن طريق زيادة ذ بنسبة 24."
+         },
+         "endTime": 167945,
+         "startTime": 165837
+      },
+      {
+         "text": {
+            "en": "Then last you just have to do whatever",
+            "pl": "Potem ostatni po prostu musisz zrobić cokolwiek",
+            "ar": "ثم آخر عليك أن تفعل أي شيء"
+         },
+         "endTime": 170338,
+         "startTime": 168715
+      },
+      {
+         "text": {
+            "en": "you wanted to do inside the For loop.",
+            "pl": "Chciałeś zrobić wewnątrz pętli For.",
+            "ar": "كنت تريد أن تفعل داخل حلقة ل."
+         },
+         "endTime": 172477,
+         "startTime": 170338
+      },
+      {
+         "text": {
+            "en": "We'll go ahead and write that text there.",
+            "pl": "Pójdziemy dalej i napiszemy tamten tekst.",
+            "ar": "سنمضي قدما ونكتب هذا النص هناك."
+         },
+         "endTime": 174394,
+         "startTime": 172507
+      },
+      {
+         "text": {
+            "en": "There we have it.",
+            "pl": "Tam to mamy.",
+            "ar": "هناك لدينا ذلك."
+         },
+         "endTime": 175241,
+         "startTime": 174394
+      },
+      {
+         "text": {
+            "en": "Pineapple pizza is the best!",
+            "pl": "Pizza ananasowa jest najlepsza!",
+            "ar": "بيتزا الأناناس هي الأفضل!"
+         },
+         "endTime": 176658,
+         "startTime": 175241
+      },
+      {
+         "text": {
+            "en": "And everybody will know.",
+            "pl": "I wszyscy się dowiedzą.",
+            "ar": "والجميع سيعرف."
+         },
+         "endTime": 178399,
+         "startTime": 176905
+      },
+      {
+         "text": {
+            "en": "Let's think a little bit more closely",
+            "pl": "Zastanówmy się trochę bliżej",
+            "ar": "دعونا نفكر قليلا عن كثب"
+         },
+         "endTime": 181279,
+         "startTime": 179629
+      },
+      {
+         "text": {
+            "en": "about what's happening with this For loop.",
+            "pl": "o tym, co dzieje się z tą pętlą For.",
+            "ar": "حول ما يحدث مع هذا لحلقة."
+         },
+         "endTime": 183338,
+         "startTime": 181279
+      },
+      {
+         "text": {
+            "en": "If we wanted to change where it started",
+            "pl": "Gdybyśmy chcieli zmienić miejsce, gdzie to się zaczęło",
+            "ar": "إذا أردنا تغيير المكان الذي بدأ"
+         },
+         "endTime": 185200,
+         "startTime": 183338
+      },
+      {
+         "text": {
+            "en": "we'd just change the start here.",
+            "pl": "Po prostu zmienilibyśmy start tutaj.",
+            "ar": "نحن فقط نغير البداية هنا"
+         },
+         "endTime": 187593,
+         "startTime": 185739
+      },
+      {
+         "text": {
+            "en": "If we wanted to change where it ended",
+            "pl": "Gdybyśmy chcieli zmienić miejsce, w którym to się skończyło",
+            "ar": "إذا أردنا تغيير المكان الذي انتهى"
+         },
+         "endTime": 189555,
+         "startTime": 187593
+      },
+      {
+         "text": {
+            "en": "we would change this end point.",
+            "pl": "zmienimy ten punkt końcowy.",
+            "ar": "و سنغير نقطة النهاية هذه."
+         },
+         "endTime": 191062,
+         "startTime": 189555
+      },
+      {
+         "text": {
+            "en": "If we wanted to change the spacing",
+            "pl": "Gdybyśmy chcieli zmienić odstępy",
+            "ar": "إذا أردنا تغيير التباعد"
+         },
+         "endTime": 192669,
+         "startTime": 191139
+      },
+      {
+         "text": {
+            "en": "we would just change the increment number.",
+            "pl": "chcielibyśmy po prostu zmienić numer przyrostu.",
+            "ar": "كنا مجرد تغيير عدد الزيادة."
+         },
+         "endTime": 196250,
+         "startTime": 192669
+      },
+      {
+         "text": {
+            "en": "Then we can also change,",
+            "pl": "Wtedy możemy również zmienić,",
+            "ar": "ثم يمكننا أيضا تغيير,"
+         },
+         "endTime": 199365,
+         "startTime": 196943
+      },
+      {
+         "text": {
+            "en": "just like with the While loop,",
+            "pl": "tak jak w pętli While,",
+            "ar": "تماما كما هو الحال مع حلقة بينما,"
+         },
+         "endTime": 200604,
+         "startTime": 199365
+      },
+      {
+         "text": {
+            "en": "what value we have for x",
+            "pl": "jaką wartość mamy dla x",
+            "ar": "ما قيمة لدينا ل x"
+         },
+         "endTime": 203307,
+         "startTime": 201175
+      },
+      {
+         "text": {
+            "en": "when we write our text.",
+            "pl": "kiedy piszemy nasz tekst.",
+            "ar": "عندما نكتب نصنا"
+         },
+         "endTime": 204697,
+         "startTime": 203369
+      },
+      {
+         "text": {
+            "en": "Great!",
+            "pl": "Świetnie!",
+            "ar": "عظيم!"
+         },
+         "endTime": 206147,
+         "startTime": 205206
+      },
+      {
+         "text": {
+            "en": "One thing that can be confusing about",
+            "pl": "Jedna rzecz, która może być mylące",
+            "ar": "شيء واحد يمكن أن يكون مربكا"
+         },
+         "endTime": 209916,
+         "startTime": 208671
+      },
+      {
+         "text": {
+            "en": "a For loop is to remember",
+            "pl": "Pętla For jest zapamiętanie",
+            "ar": "ل حلقة هو أن نتذكر"
+         },
+         "endTime": 211154,
+         "startTime": 209916
+      },
+      {
+         "text": {
+            "en": "what these semi-colons do.",
+            "pl": "co robią te średniki.",
+            "ar": "ما تفعله هذه شبه القولون."
+         },
+         "endTime": 212518,
+         "startTime": 211154
+      },
+      {
+         "text": {
+            "en": "You just need to remember that they",
+            "pl": "Trzeba tylko pamiętać, że",
+            "ar": "تحتاج فقط إلى تذكر أنها"
+         },
+         "endTime": 214115,
+         "startTime": 212765
+      },
+      {
+         "text": {
+            "en": "always have to be there",
+            "pl": "zawsze musi tam być",
+            "ar": "دائما يجب أن يكون هناك"
+         },
+         "endTime": 215122,
+         "startTime": 214115
+      },
+      {
+         "text": {
+            "en": "to separate the three parts.",
+            "pl": ", aby oddzielić trzy części.",
+            "ar": "لفصل الأجزاء الثلاثة."
+         },
+         "endTime": 217044,
+         "startTime": 215122
+      },
+      {
+         "text": {
+            "en": "If we don't have them there",
+            "pl": "Jeśli ich tam nie mamy",
+            "ar": "إذا لم يكن لدينا هناك"
+         },
+         "endTime": 218416,
+         "startTime": 217291
+      },
+      {
+         "text": {
+            "en": "then we're going to get some weird",
+            "pl": "wtedy zrobimy coś dziwnego.",
+            "ar": "ثم نحن ذاهبون للحصول على بعض غريب"
+         },
+         "endTime": 219955,
+         "startTime": 218416
+      },
+      {
+         "text": {
+            "en": "error messages about our For loop,",
+            "pl": "komunikaty o błędach o naszej pętli For,",
+            "ar": "رسائل خطأ حول لدينا للحصول على حلقة،"
+         },
+         "endTime": 222195,
+         "startTime": 219955
+      },
+      {
+         "text": {
+            "en": "so whenever we see that just",
+            "pl": "więc kiedy widzimy, że po prostu",
+            "ar": "لذلك كلما نرى أن مجرد"
+         },
+         "endTime": 224105,
+         "startTime": 222195
+      },
+      {
+         "text": {
+            "en": "double check that you have them.",
+            "pl": "podwójnie sprawdzić, czy je masz.",
+            "ar": "تحقق مزدوج أن لديك لهم."
+         },
+         "endTime": 225354,
+         "startTime": 224105
+      },
+      {
+         "text": {
+            "en": "You also make it over enthusiastic",
+            "pl": "Można również zrobić to ponad entuzjastycznie",
+            "ar": "يمكنك أيضا جعله أكثر حماسا"
+         },
+         "endTime": 226972,
+         "startTime": 225354
+      },
+      {
+         "text": {
+            "en": "and add an extra one at the end.",
+            "pl": "i dodaj dodatkowy na końcu.",
+            "ar": "وإضافة واحدة إضافية في النهاية."
+         },
+         "endTime": 228755,
+         "startTime": 226972
+      },
+      {
+         "text": {
+            "en": "If you just remember that semi-colons",
+            "pl": "Jeśli po prostu pamiętać, że średniki",
+            "ar": "إذا كنت تتذكر فقط أن شبه كولونس"
+         },
+         "endTime": 230852,
+         "startTime": 228924
+      },
+      {
+         "text": {
+            "en": "are only there to separate the three parts,",
+            "pl": "są tam tylko do oddzielenia trzech części,",
+            "ar": "هناك فقط لفصل الأجزاء الثلاثة،"
+         },
+         "endTime": 233082,
+         "startTime": 230852
+      },
+      {
+         "text": {
+            "en": "then we can say this last",
+            "pl": "wtedy możemy powiedzieć to ostatnie",
+            "ar": "ثم يمكننا أن نقول هذا الأخير"
+         },
+         "endTime": 234857,
+         "startTime": 233082
+      },
+      {
+         "text": {
+            "en": "semi-colon isn't separating anything.",
+            "pl": "średnik niczego nie rozdziela.",
+            "ar": "الفاصلة المنقوطة لا تفصل أي شيء."
+         },
+         "endTime": 236466,
+         "startTime": 234857
+      },
+      {
+         "text": {
+            "en": "It's just kind of trailing on there.",
+            "pl": "To tylko rodzaj spływu tam.",
+            "ar": "انها مجرد نوع من زائدة على هناك."
+         },
+         "endTime": 238554,
+         "startTime": 236466
+      },
+      {
+         "text": {
+            "en": "We can get rid of it because we don't need it.",
+            "pl": "Możemy się go pozbyć, bo tego nie potrzebujemy.",
+            "ar": "يمكننا التخلص منه لأننا لا نحتاجه"
+         },
+         "endTime": 240380,
+         "startTime": 238554
+      },
+      {
+         "text": {
+            "en": "I know you're probably getting",
+            "pl": "Wiem, że pewnie dostaniesz",
+            "ar": "أنا أعلم أنك ربما تحصل"
+         },
+         "endTime": 242828,
+         "startTime": 241641
+      },
+      {
+         "text": {
+            "en": "a little bit tired of seeing",
+            "pl": "trochę zmęczony widzeniem",
+            "ar": "تعبت قليلا من رؤية"
+         },
+         "endTime": 244088,
+         "startTime": 242828
+      },
+      {
+         "text": {
+            "en": "these For loops getting converted",
+            "pl": "te Dla pętli coraz konwertowane",
+            "ar": "هذه للحصول على تحويل الحلقات"
+         },
+         "endTime": 245313,
+         "startTime": 244088
+      },
+      {
+         "text": {
+            "en": "into While loops and back.",
+            "pl": "do Podczas pętli iz powrotem.",
+            "ar": "في حين الحلقات والظهر."
+         },
+         "endTime": 246554,
+         "startTime": 245313
+      },
+      {
+         "text": {
+            "en": "Let's just do it one more time",
+            "pl": "Zróbmy to jeszcze raz",
+            "ar": "دعنا نفعلها مرة أخرى"
+         },
+         "endTime": 248264,
+         "startTime": 246554
+      },
+      {
+         "text": {
+            "en": "just so you can see that a For loop",
+            "pl": "tylko po to, aby zobaczyć, że pętla For",
+            "ar": "فقط حتى تتمكن من رؤية أن لحلقة"
+         },
+         "endTime": 249738,
+         "startTime": 248264
+      },
+      {
+         "text": {
+            "en": "really is just another way to write",
+            "pl": "naprawdę to po prostu kolejny sposób na pisanie",
+            "ar": "حقا هو مجرد طريقة أخرى للكتابة"
+         },
+         "endTime": 251402,
+         "startTime": 249738
+      },
+      {
+         "text": {
+            "en": "a simple kind of a While loop,",
+            "pl": "prosty rodzaj pętli While,",
+            "ar": "نوع بسيط من حلقة بينما،"
+         },
+         "endTime": 252681,
+         "startTime": 251402
+      },
+      {
+         "text": {
+            "en": "and you'll be really really confident",
+            "pl": "i będziesz naprawdę pewny siebie",
+            "ar": "وعليك أن تكون حقا واثق حقا"
+         },
+         "endTime": 254571,
+         "startTime": 252681
+      },
+      {
+         "text": {
+            "en": "and understanding how to go from",
+            "pl": "i zrozumienie, jak przejść od",
+            "ar": "وفهم كيفية الانتقال من"
+         },
+         "endTime": 256523,
+         "startTime": 254571
+      },
+      {
+         "text": {
+            "en": "a For loop back into a While loop.",
+            "pl": "a Dla pętli z powrotem do pętli While.",
+            "ar": "أ للحلقة مرة أخرى إلى حلقة بينما."
+         },
+         "endTime": 258499,
+         "startTime": 256523
+      },
+      {
+         "text": {
+            "en": "Because you can do that actually",
+            "pl": "Bo możesz to zrobić właściwie",
+            "ar": "لأنك تستطيع أن تفعل ذلك في الواقع"
+         },
+         "endTime": 259743,
+         "startTime": 258514
+      },
+      {
+         "text": {
+            "en": "with any kind of For loop,",
+            "pl": "z dowolnym rodzajem pętli For,",
+            "ar": "مع أي نوع من لحلقة،"
+         },
+         "endTime": 261122,
+         "startTime": 259743
+      },
+      {
+         "text": {
+            "en": "not just this one.",
+            "pl": "Nie tylko ten.",
+            "ar": "ليس هذا فقط"
+         },
+         "endTime": 262568,
+         "startTime": 261122
+      },
+      {
+         "text": {
+            "en": "First thing that we do is think",
+            "pl": "Pierwszą rzeczą, którą robimy, jest myślenie",
+            "ar": "أول شيء نفعله هو التفكير"
+         },
+         "endTime": 264056,
+         "startTime": 262706
+      },
+      {
+         "text": {
+            "en": "about where to put this first value",
+            "pl": "o tym, gdzie umieścić tę pierwszą wartość",
+            "ar": "حول مكان وضع هذه القيمة الأولى"
+         },
+         "endTime": 266584,
+         "startTime": 264056
+      },
+      {
+         "text": {
+            "en": "that we have inside of our For loop.",
+            "pl": "że mamy wewnątrz naszej pętli For.",
+            "ar": "أن لدينا داخل لدينا لحلقة ل."
+         },
+         "endTime": 268496,
+         "startTime": 266584
+      },
+      {
+         "text": {
+            "en": "Since it's just initializing this variable",
+            "pl": "Ponieważ jest to po prostu inicjowanie tej zmiennej",
+            "ar": "لأنه مجرد تهيئة هذا المتغير"
+         },
+         "endTime": 270769,
+         "startTime": 268635
+      },
+      {
+         "text": {
+            "en": "remember it has to go outside,",
+            "pl": "Pamiętaj, że musi wyjść na zewnątrz,",
+            "ar": "تذكر أنه يجب أن تذهب خارج،"
+         },
+         "endTime": 272281,
+         "startTime": 270769
+      },
+      {
+         "text": {
+            "en": "not inside the While loop.",
+            "pl": "nie wewnątrz pętli While.",
+            "ar": "ليس داخل حلقة بينما."
+         },
+         "endTime": 273789,
+         "startTime": 272281
+      },
+      {
+         "text": {
+            "en": "And it should go before as well",
+            "pl": "I to powinno iść wcześniej, jak również",
+            "ar": "وينبغي أن تذهب من قبل كذلك"
+         },
+         "endTime": 275384,
+         "startTime": 273789
+      },
+      {
+         "text": {
+            "en": "because we need to be using it",
+            "pl": "ponieważ musimy go używać",
+            "ar": "لاننا بحاجة لاستخدامه"
+         },
+         "endTime": 276742,
+         "startTime": 275384
+      },
+      {
+         "text": {
+            "en": "during our While loop.",
+            "pl": "podczas naszej pętli While.",
+            "ar": "خلال حلقة بينما لدينا."
+         },
+         "endTime": 278298,
+         "startTime": 276742
+      },
+      {
+         "text": {
+            "en": "Then you think about,",
+            "pl": "A potem pomyśl o:",
+            "ar": "ثم تفكر في,"
+         },
+         "endTime": 278884,
+         "startTime": 278298
+      },
+      {
+         "text": {
+            "en": "\"Where should this condition go?\"",
+            "pl": "„Gdzie powinien pójść ten stan?”",
+            "ar": "«أين يجب أن تذهب هذه الحالة؟»"
+         },
+         "endTime": 279945,
+         "startTime": 278884
+      },
+      {
+         "text": {
+            "en": "That's pretty easy.",
+            "pl": "To dość proste.",
+            "ar": "هذا سهل جداً"
+         },
+         "endTime": 281260,
+         "startTime": 279945
+      },
+      {
+         "text": {
+            "en": "You probably remember that usually",
+            "pl": "Pewnie pamiętasz, że zwykle",
+            "ar": "ربما تتذكر أن عادة"
+         },
+         "endTime": 282745,
+         "startTime": 281260
+      },
+      {
+         "text": {
+            "en": "the stopping condition,",
+            "pl": "stan zatrzymania,",
+            "ar": "حالة التوقف،"
+         },
+         "endTime": 284268,
+         "startTime": 282745
+      },
+      {
+         "text": {
+            "en": "or the repeat until condition,",
+            "pl": "lub powtarzanie aż do warunku,",
+            "ar": "أو تكرار حتى الشرط،"
+         },
+         "endTime": 285794,
+         "startTime": 284268
+      },
+      {
+         "text": {
+            "en": "usually go inside here.",
+            "pl": "Zwykle wchodź tutaj.",
+            "ar": "عادة ما تذهب إلى الداخل هنا."
+         },
+         "endTime": 287219,
+         "startTime": 285794
+      },
+      {
+         "text": {
+            "en": "We're going to say that while y",
+            "pl": "Powiemy, że podczas gdy ty",
+            "ar": "نحن ذاهبون إلى القول أنه في حين ذ"
+         },
+         "endTime": 289108,
+         "startTime": 287219
+      },
+      {
+         "text": {
+            "en": "is less then 313 we'll just keep going.",
+            "pl": "jest mniej niż 313 będziemy po prostu iść dalej.",
+            "ar": "هو أقل ثم 313 سنستمر فقط."
+         },
+         "endTime": 291815,
+         "startTime": 289108
+      },
+      {
+         "text": {
+            "en": "Finally, the change.",
+            "pl": "W końcu zmiana.",
+            "ar": "وأخيرا، فإن التغيير."
+         },
+         "endTime": 294327,
+         "startTime": 292923
+      },
+      {
+         "text": {
+            "en": "We always put the change at the end",
+            "pl": "Zawsze kładziemy zmianę na końcu",
+            "ar": "نحن دائما نضع التغيير في النهاية"
+         },
+         "endTime": 295786,
+         "startTime": 294327
+      },
+      {
+         "text": {
+            "en": "of the While loop in the loops",
+            "pl": "pętli While w pętlach",
+            "ar": "من حلقة في حين في الحلقات"
+         },
+         "endTime": 296775,
+         "startTime": 295786
+      },
+      {
+         "text": {
+            "en": "that we've seen.",
+            "pl": "które widzieliśmy.",
+            "ar": "التي رأيناها"
+         },
+         "endTime": 297494,
+         "startTime": 296775
+      },
+      {
+         "text": {
+            "en": "We should go and do that here.",
+            "pl": "Powinniśmy iść i zrobić to tutaj.",
+            "ar": "يجب أن نذهب ونفعل ذلك هنا"
+         },
+         "endTime": 298971,
+         "startTime": 297494
+      },
+      {
+         "text": {
+            "en": "We just need to move this text call",
+            "pl": "Musimy tylko przesunąć tę rozmowę tekstową",
+            "ar": "نحن بحاجة فقط لنقل هذه المكالمة النصية"
+         },
+         "endTime": 302003,
+         "startTime": 300201
+      },
+      {
+         "text": {
+            "en": "inside and there we have it.",
+            "pl": "wewnątrz i tam mamy to.",
+            "ar": "داخل وهناك لدينا ذلك."
+         },
+         "endTime": 304225,
+         "startTime": 302003
+      },
+      {
+         "text": {
+            "en": "We can just comment out this For loop",
+            "pl": "Możemy po prostu skomentować tę pętlę",
+            "ar": "يمكننا فقط التعليق على هذا لحلقة"
+         },
+         "endTime": 305845,
+         "startTime": 304225
+      },
+      {
+         "text": {
+            "en": "and see that we made the exact",
+            "pl": "i zobaczyć, że dokonaliśmy dokładnego",
+            "ar": "ونرى أننا حققنا بالضبط"
+         },
+         "endTime": 307431,
+         "startTime": 305937
+      },
+      {
+         "text": {
+            "en": "same thing happen once more.",
+            "pl": "to samo zdarzyło się jeszcze raz.",
+            "ar": "نفس الشيء يحدث مرة أخرى"
+         },
+         "endTime": 310053,
+         "startTime": 307431
+      },
+      {
+         "text": {
+            "en": "Hopefully by now you can see that this new",
+            "pl": "Mam nadzieję, że już teraz widać, że ten nowy",
+            "ar": "نأمل الآن يمكنك أن ترى أن هذا الجديد"
+         },
+         "endTime": 313665,
+         "startTime": 311115
+      },
+      {
+         "text": {
+            "en": "For loop isn't actually necessary.",
+            "pl": "Dla pętli nie jest rzeczywiście konieczne.",
+            "ar": "لحلقة ليست ضرورية في الواقع."
+         },
+         "endTime": 315620,
+         "startTime": 313665
+      },
+      {
+         "text": {
+            "en": "We can go through our entire programming lives",
+            "pl": "Możemy przejść przez całe nasze życie programistyczne",
+            "ar": "يمكننا أن نذهب من خلال حياتنا البرمجة بأكملها"
+         },
+         "endTime": 318072,
+         "startTime": 315744
+      },
+      {
+         "text": {
+            "en": "writing loops that look like this,",
+            "pl": "pisanie pętli, które wyglądają tak,",
+            "ar": "كتابة الحلقات التي تبدو مثل هذا،"
+         },
+         "endTime": 320270,
+         "startTime": 318072
+      },
+      {
+         "text": {
+            "en": "but it is a little bit impressive how much",
+            "pl": "ale to jest trochę imponujące, ile",
+            "ar": "ولكن من المثير للإعجاب قليلا كم"
+         },
+         "endTime": 321804,
+         "startTime": 320270
+      },
+      {
+         "text": {
+            "en": "more concise this For loop is,",
+            "pl": "bardziej zwięzłe to Dla pętli jest,",
+            "ar": "أكثر إيجازا هذا لحلقة هو،"
+         },
+         "endTime": 323815,
+         "startTime": 321804
+      },
+      {
+         "text": {
+            "en": "and how it makes it a little bit more",
+            "pl": "i jak to sprawia, że jest trochę bardziej",
+            "ar": "وكيف أنها تجعل من أكثر قليلا"
+         },
+         "endTime": 324992,
+         "startTime": 323815
+      },
+      {
+         "text": {
+            "en": "clear once you're used to it.",
+            "pl": "jasne, gdy już się do tego przyzwyczaisz.",
+            "ar": "واضح مرة واحدة كنت تستخدم لذلك."
+         },
+         "endTime": 326576,
+         "startTime": 324992
+      },
+      {
+         "text": {
+            "en": "What's going on with how",
+            "pl": "Co się dzieje z jak",
+            "ar": "ما الذي يحدث مع كيف"
+         },
+         "endTime": 327685,
+         "startTime": 326576
+      },
+      {
+         "text": {
+            "en": "we're starting a variable.",
+            "pl": "zaczynamy zmienną.",
+            "ar": "نحن نبدأ متغير."
+         },
+         "endTime": 329195,
+         "startTime": 327685
+      },
+      {
+         "text": {
+            "en": "We're saying how long to keep going,",
+            "pl": "Mówimy, jak długo trzeba iść,",
+            "ar": "نحن نقول كم من الوقت لنستمر"
+         },
+         "endTime": 330518,
+         "startTime": 329549
+      },
+      {
+         "text": {
+            "en": "and then we're changing that variable here.",
+            "pl": "a następnie zmieniamy tę zmienną tutaj.",
+            "ar": "ثم نقوم بتغيير هذا المتغير هنا."
+         },
+         "endTime": 332394,
+         "startTime": 330518
+      },
+      {
+         "text": {
+            "en": "If you really hate For loops",
+            "pl": "Jeśli naprawdę nienawidzisz Za pętle",
+            "ar": "إذا كنت حقا تكره الحلقات"
+         },
+         "endTime": 334873,
+         "startTime": 333595
+      },
+      {
+         "text": {
+            "en": "you don't have to use them ever,",
+            "pl": "nie musisz ich używać nigdy,",
+            "ar": "لم يكن لديك لاستخدامها من أي وقت مضى،"
+         },
+         "endTime": 336494,
+         "startTime": 334873
+      },
+      {
+         "text": {
+            "en": "but you should be used to seeing them.",
+            "pl": "ale powinieneś być przyzwyczajony do ich oglądania.",
+            "ar": "ولكن يجب أن تكون معتادا على رؤيتهم."
+         },
+         "endTime": 338337,
+         "startTime": 336494
+      },
+      {
+         "text": {
+            "en": "If they're confusing just remember that",
+            "pl": "Jeśli są mylące, pamiętaj o tym",
+            "ar": "إذا كانوا مربكة فقط تذكر أن"
+         },
+         "endTime": 339920,
+         "startTime": 338337
+      },
+      {
+         "text": {
+            "en": "you can convert them right back",
+            "pl": "można je przekonwertować z powrotem",
+            "ar": "يمكنك تحويلها إلى اليمين مرة أخرى"
+         },
+         "endTime": 340966,
+         "startTime": 339920
+      },
+      {
+         "text": {
+            "en": "into a While loop like this.",
+            "pl": "do pętli While jak ten.",
+            "ar": "في حلقة في حين مثل هذا."
+         },
+         "endTime": 342398,
+         "startTime": 340966
+      },
+      {
+         "text": {
+            "en": "If you're feeling adventurous try using",
+            "pl": "Jeśli czujesz się przygód spróbuj użyć",
+            "ar": "إذا كنت تشعر بالمغامرة حاول استخدام"
+         },
+         "endTime": 344646,
+         "startTime": 342952
+      },
+      {
+         "text": {
+            "en": "a For loop in your new program,",
+            "pl": "a Dla pętli w nowym programie,",
+            "ar": "ل حلقة في البرنامج الجديد الخاص بك،"
+         },
+         "endTime": 346192,
+         "startTime": 344646
+      },
+      {
+         "text": {
+            "en": "or going back to some of your old,",
+            "pl": "lub wracając do swoich starych,",
+            "ar": "أو العودة إلى بعض من القديم الخاص بك,"
+         },
+         "endTime": 347660,
+         "startTime": 346192
+      },
+      {
+         "text": {
+            "en": "simple While loops and converting them",
+            "pl": "proste natomiast pętle i ich konwersji",
+            "ar": "بسيطة في حين الحلقات وتحويلها"
+         },
+         "endTime": 349077,
+         "startTime": 347660
+      },
+      {
+         "text": {
+            "en": "into For loops if appropriate.",
+            "pl": "do Dla pętli, jeśli jest to właściwe.",
+            "ar": "إلى لحلقات إذا كان ذلك مناسبا."
+         },
+         "endTime": 351259,
+         "startTime": 349077
+      },
+      {
+         "text": {
+            "en": "As a final note you cannot always",
+            "pl": "Jako końcowa uwaga nie zawsze",
+            "ar": "كملاحظة أخيرة لا يمكنك دائما"
+         },
+         "endTime": 354750,
+         "startTime": 351766
+      },
+      {
+         "text": {
+            "en": "convert a While loop into a For loop,",
+            "pl": "przekształcić pętlę While w pętlę For,",
+            "ar": "تحويل حلقة في حين إلى حلقة من أجل،"
+         },
+         "endTime": 356594,
+         "startTime": 354750
+      },
+      {
+         "text": {
+            "en": "only when they're in a really simple",
+            "pl": "tylko wtedy, gdy są w naprawdę proste",
+            "ar": "فقط عندما تكون في بسيطة حقا"
+         },
+         "endTime": 358197,
+         "startTime": 356594
+      },
+      {
+         "text": {
+            "en": "form like this where it's really clear",
+            "pl": "forma taka, gdzie jest to naprawdę jasne",
+            "ar": "شكل مثل هذا حيث أنه من الواضح حقا"
+         },
+         "endTime": 359942,
+         "startTime": 358197
+      },
+      {
+         "text": {
+            "en": "what variable you're starting out,",
+            "pl": "jaką zmienną zaczynasz,",
+            "ar": "ما المتغير الذي بدأت به،"
+         },
+         "endTime": 361759,
+         "startTime": 359942
+      },
+      {
+         "text": {
+            "en": "how long it's going for,",
+            "pl": "jak długo to potrwa,",
+            "ar": "كم من الوقت هو الذهاب ل,"
+         },
+         "endTime": 363336,
+         "startTime": 361759
+      },
+      {
+         "text": {
+            "en": "and how it's changing.",
+            "pl": "i jak to się zmienia.",
+            "ar": "وكيف يتغير."
+         },
+         "endTime": 366921,
+         "startTime": 363336
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/ME5GdSLAq2c/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759749853",
+   "title": "For Loops! A New Kind of Loop | Looping | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

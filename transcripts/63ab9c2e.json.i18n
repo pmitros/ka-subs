@@ -1,0 +1,771 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "A Gem, a pretty sweet gem!",
+            "pl": "Klejnot, całkiem słodki klejnot!",
+            "ar": "جوهرة، جوهرة حلوة جدا!"
+         },
+         "endTime": 4237,
+         "startTime": 1686
+      },
+      {
+         "text": {
+            "en": "But you know would be better than a single gem would be a whole row of gems!",
+            "pl": "Ale wiesz, że byłoby lepiej niż jeden klejnot byłby cały rząd klejnotów!",
+            "ar": "ولكن تعلمون سيكون أفضل من جوهرة واحدة سيكون صف كامل من الأحجار الكريمة!"
+         },
+         "endTime": 8275,
+         "startTime": 4237
+      },
+      {
+         "text": {
+            "en": "And of course, now we know the best way to make a row of gems would be with a loop.",
+            "pl": "I oczywiście teraz wiemy, że najlepszym sposobem na zrobienie rzędu klejnotów będzie pętla.",
+            "ar": "وبطبيعة الحال، ونحن نعرف الآن أفضل طريقة لجعل صف من الأحجار الكريمة سيكون مع حلقة."
+         },
+         "endTime": 12562,
+         "startTime": 8275
+      },
+      {
+         "text": {
+            "en": "So let's use a for loop to draw 12 gems in a row.",
+            "pl": "Więc użyjmy pętli for, aby narysować 12 klejnotów z rzędu.",
+            "ar": "لذلك دعونا استخدام لحلقة لرسم 12 الأحجار الكريمة في صف واحد."
+         },
+         "endTime": 16161,
+         "startTime": 12562
+      },
+      {
+         "text": {
+            "en": "Going from left to right across the screen.",
+            "pl": "Przechodząc od lewej do prawej strony po ekranie.",
+            "ar": "الانتقال من اليسار إلى اليمين عبر الشاشة."
+         },
+         "endTime": 19523,
+         "startTime": 16161
+      },
+      {
+         "text": {
+            "en": "Ohh like that. So that is a",
+            "pl": "Ohh tak. Więc to jest",
+            "ar": "أوه مثل ذلك. لذلك هذا هو"
+         },
+         "endTime": 22304,
+         "startTime": 19523
+      },
+      {
+         "text": {
+            "en": "for (var i equal 0; i is less than 12; i plus plus)",
+            "pl": "dla (var i równe 0; i jest mniejsza niż 12; i plus)",
+            "ar": "ل (فار ط يساوي 0; أنا أقل من 12; ط زائد زائد)"
+         },
+         "endTime": 31186,
+         "startTime": 22304
+      },
+      {
+         "text": {
+            "en": "And then we will take this line and move it inside here.",
+            "pl": "A potem zajmiemy się tą liną i przenieśliśmy ją do środka.",
+            "ar": "وبعد ذلك سنأخذ هذا الخط وننقله إلى الداخل هنا."
+         },
+         "endTime": 36429,
+         "startTime": 31186
+      },
+      {
+         "text": {
+            "en": "So now we have 12 gems but they're actually all piled right on top on each other.",
+            "pl": "Więc teraz mamy 12 klejnotów, ale są one ułożone na siebie.",
+            "ar": "حتى الآن لدينا 12 الأحجار الكريمة ولكن انهم في الواقع كل مكدسة الحق على رأس على بعضها البعض."
+         },
+         "endTime": 40305,
+         "startTime": 36429
+      },
+      {
+         "text": {
+            "en": "Remember, we want them going across the screen.",
+            "pl": "Pamiętaj, chcemy, żeby przechodzili przez ekran.",
+            "ar": "تذكر، نحن نريد لهم الذهاب عبر الشاشة."
+         },
+         "endTime": 43401,
+         "startTime": 40305
+      },
+      {
+         "text": {
+            "en": "That means we want to be changing the x. And,",
+            "pl": "To znaczy, że chcemy zmienić X.",
+            "ar": "وهذا يعني أننا نريد أن نغير X."
+         },
+         "endTime": 45941,
+         "startTime": 43401
+      },
+      {
+         "text": {
+            "en": "36 is the X right now, but we want it to be different each time.",
+            "pl": "36 to teraz X, ale za każdym razem chcemy, żeby było inaczej.",
+            "ar": "36 هو X الآن، لكننا نريد أن تكون مختلفة في كل مرة."
+         },
+         "endTime": 49524,
+         "startTime": 45941
+      },
+      {
+         "text": {
+            "en": "That means we want it to be dependent on i.",
+            "pl": "Oznacza to, że chcemy, by zależało od I.",
+            "ar": "وهذا يعني أننا نريد أن تكون تعتمد على أنا."
+         },
+         "endTime": 51859,
+         "startTime": 49524
+      },
+      {
+         "text": {
+            "en": "So what we can do is simply say; i times 36.",
+            "pl": "Więc co możemy zrobić, to po prostu powiedzieć; I razy 36.",
+            "ar": "لذلك ما يمكننا القيام به هو ببساطة القول; أنا مرات 36."
+         },
+         "endTime": 56329,
+         "startTime": 51859
+      },
+      {
+         "text": {
+            "en": "So the first one is at 0, and then 36, then 72, and etc etc",
+            "pl": "Tak więc pierwszy jest na 0, a następnie 36, potem 72, itd.",
+            "ar": "وبالتالي فإن أول واحد هو في 0، ثم 36، ثم 72، وغيرها الخ"
+         },
+         "endTime": 62687,
+         "startTime": 56329
+      },
+      {
+         "text": {
+            "en": "Cool! Now we have a row of gems.",
+            "pl": "Fajne! Teraz mamy rząd klejnotów.",
+            "ar": "رائع! الآن لدينا صف من الأحجار الكريمة."
+         },
+         "endTime": 64575,
+         "startTime": 62687
+      },
+      {
+         "text": {
+            "en": "And this kind of reminds me of those those scenes in Indiana Jones or Aladdin",
+            "pl": "I ten rodzaj przypomina mi te sceny w Indianie Jones lub Aladdin",
+            "ar": "وهذا النوع من يذكرني بتلك المشاهد في إنديانا جونز أو علاء الدين"
+         },
+         "endTime": 67997,
+         "startTime": 64575
+      },
+      {
+         "text": {
+            "en": "Where the hero discovers that underground treasure trove of gems",
+            "pl": "Gdzie bohater odkrywa, że podziemny skarb klejnotów",
+            "ar": "حيث يكتشف البطل أن الكنز تحت الأرض من الأحجار الكريمة"
+         },
+         "endTime": 71306,
+         "startTime": 67997
+      },
+      {
+         "text": {
+            "en": "but they usually find way more gems than this.",
+            "pl": "ale zwykle znajdują więcej klejnotów niż to.",
+            "ar": "لكنهم عادة ما يجدون الكثير من الأحجار الكريمة من هذا"
+         },
+         "endTime": 73732,
+         "startTime": 71306
+      },
+      {
+         "text": {
+            "en": "Not just a row of gems, but a pile of gems!",
+            "pl": "Nie tylko rząd klejnotów, ale kupa klejnotów!",
+            "ar": "ليس مجرد صف من الأحجار الكريمة، ولكن كومة من الأحجار الكريمة!"
+         },
+         "endTime": 77306,
+         "startTime": 73732
+      },
+      {
+         "text": {
+            "en": "so how could we actually make gems going",
+            "pl": "więc jak możemy rzeczywiście zrobić klejnoty",
+            "ar": "فكيف يمكننا فعلا جعل الأحجار الكريمة الذهاب"
+         },
+         "endTime": 81609,
+         "startTime": 77306
+      },
+      {
+         "text": {
+            "en": "all the way down the screen too?",
+            "pl": "Przez cały ekran też?",
+            "ar": "على طول الطريق أسفل الشاشة أيضا؟"
+         },
+         "endTime": 84806,
+         "startTime": 81609
+      },
+      {
+         "text": {
+            "en": "Well, we could start by just repeating the for loop and copy pasting it",
+            "pl": "Cóż, możemy zacząć od powtórzenia pętli for i skopiowania wklejenia go",
+            "ar": "حسنا، يمكننا أن نبدأ فقط بتكرار حلقة ونسخ لصقها"
+         },
+         "endTime": 90639,
+         "startTime": 84806
+      },
+      {
+         "text": {
+            "en": "and then changing this y each time. And, so",
+            "pl": "a następnie zmieniając to y za każdym razem. I, więc",
+            "ar": "ثم تغيير هذا y في كل مرة. و, لذلك"
+         },
+         "endTime": 94565,
+         "startTime": 90639
+      },
+      {
+         "text": {
+            "en": "we'll change it to 60 and then 90.",
+            "pl": "zmienimy go na 60, a potem 90.",
+            "ar": "سنقوم بتغييره إلى 60 ثم 90"
+         },
+         "endTime": 97688,
+         "startTime": 94565
+      },
+      {
+         "text": {
+            "en": "So now we have three rows of gems and that's cool.",
+            "pl": "Więc teraz mamy trzy rzędy klejnotów i to jest fajne.",
+            "ar": "حتى الآن لدينا ثلاثة صفوف من الأحجار الكريمة وهذا بارد."
+         },
+         "endTime": 102308,
+         "startTime": 97688
+      },
+      {
+         "text": {
+            "en": "Umm... but this is also getting really boring because all I'm doing is",
+            "pl": "Umm... ale to też robi się nudne, bo wszystko co robię to",
+            "ar": "لكن هذا أيضاً أصبح مملاً لأن كل ما أفعله"
+         },
+         "endTime": 105495,
+         "startTime": 102308
+      },
+      {
+         "text": {
+            "en": "copying and pasting and changing this one little thing.",
+            "pl": "kopiowanie i wklejanie i zmienianie tej małej rzeczy.",
+            "ar": "نسخ ولصق وتغيير هذا الشيء الصغير."
+         },
+         "endTime": 109193,
+         "startTime": 105495
+      },
+      {
+         "text": {
+            "en": "And normally in the past when we found ourselves writing repetitive code like that",
+            "pl": "I normalnie w przeszłości, kiedy znaleźliśmy się pisząc powtarzalny kod w ten sposób",
+            "ar": "وعادة في الماضي عندما وجدنا أنفسنا كتابة التعليمات البرمجية المتكررة من هذا القبيل"
+         },
+         "endTime": 112859,
+         "startTime": 109193
+      },
+      {
+         "text": {
+            "en": "We would be like, \"Oh, maybe we should just use a loop instead\"",
+            "pl": "Chcielibyśmy powiedzieć: „Och, może powinniśmy użyć pętli zamiast”",
+            "ar": "سنكون مثل، «أوه، ربما يجب علينا فقط استخدام حلقة بدلا من ذلك»"
+         },
+         "endTime": 117025,
+         "startTime": 112859
+      },
+      {
+         "text": {
+            "en": "But we are already using a loop.",
+            "pl": "Ale już używamy pętli.",
+            "ar": "لكننا نستخدم بالفعل حلقة."
+         },
+         "endTime": 118607,
+         "startTime": 117025
+      },
+      {
+         "text": {
+            "en": "so what's the solution to avoid writing this, you know, doing this repetitive copy-paste?",
+            "pl": "Więc jakie jest rozwiązanie, aby uniknąć pisania tego, wiesz, robienia tego powtarzającego się kopiowania i wklejania?",
+            "ar": "فما هو الحل لتجنب كتابة هذا، كما تعلمون، القيام بهذا النسخ المتكرر لصق؟"
+         },
+         "endTime": 123854,
+         "startTime": 118607
+      },
+      {
+         "text": {
+            "en": "Well it is something we call \"nested for loops\" - A loop within a loop.",
+            "pl": "Cóż, to jest coś, co nazywamy „zagnieżdżone dla pętli” - Pętla w pętli.",
+            "ar": "حسنا هو شيء نسميه «متداخلة للحلقات» - حلقة داخل حلقة."
+         },
+         "endTime": 129518,
+         "startTime": 123854
+      },
+      {
+         "text": {
+            "en": "So what we are going to do is make an outer loop",
+            "pl": "Więc co mamy zamiar zrobić, to zrobić zewnętrzną pętlę",
+            "ar": "لذلك ما نحن ذاهبون للقيام به هو جعل حلقة الخارجي"
+         },
+         "endTime": 132132,
+         "startTime": 129518
+      },
+      {
+         "text": {
+            "en": "And that's what's going to take care of going down the screen",
+            "pl": "I to właśnie zajmie się zejściem na dół ekranu",
+            "ar": "وهذا ما سوف تأخذ الرعاية من النزول على الشاشة"
+         },
+         "endTime": 134851,
+         "startTime": 132132
+      },
+      {
+         "text": {
+            "en": "and then our inner loop is going to keep taking care of what it's doing now",
+            "pl": "i wtedy nasza wewnętrzna pętla będzie dbać o to, co robi teraz",
+            "ar": "ومن ثم لدينا حلقة الداخلية هو الذهاب الى الحفاظ على رعاية ما تفعله الآن"
+         },
+         "endTime": 139234,
+         "startTime": 134851
+      },
+      {
+         "text": {
+            "en": "which is going from left to right.",
+            "pl": "który idzie od lewej do prawej.",
+            "ar": "الذي يذهب من اليسار إلى اليمين."
+         },
+         "endTime": 141977,
+         "startTime": 139234
+      },
+      {
+         "text": {
+            "en": "Let me show you what I mean.",
+            "pl": "Pokażę ci, co mam na myśli.",
+            "ar": "دعني أريك ما أعنيه"
+         },
+         "endTime": 144006,
+         "startTime": 141977
+      },
+      {
+         "text": {
+            "en": "So for - and we use a different variable this time, called j, since we're already using i",
+            "pl": "Więc dla - i używamy innej zmiennej tym razem, zwanej j, ponieważ jesteśmy już za pomocą i",
+            "ar": "لذلك - ونحن نستخدم متغير مختلف هذه المرة، ودعا ي، لأننا بالفعل باستخدام ط"
+         },
+         "endTime": 149851,
+         "startTime": 144006
+      },
+      {
+         "text": {
+            "en": "so for(var j equals 0; j less than 13; j plus plus)",
+            "pl": "tak dla (var j równa się 0; j mniej niż 13; j plus)",
+            "ar": "لذلك ل (فار ي يساوي 0؛ ي أقل من 13؛ ي زائد زائد)"
+         },
+         "endTime": 157274,
+         "startTime": 149851
+      },
+      {
+         "text": {
+            "en": "Okay, so that is going to be our outer loop, in charge of going top to bottom.",
+            "pl": "Ok, więc to będzie nasza zewnętrzna pętla, odpowiedzialna za pójście od góry do dołu.",
+            "ar": "حسنا، لذلك سيكون لدينا حلقة الخارجي، المسؤول عن الذهاب من أعلى إلى أسفل."
+         },
+         "endTime": 161999,
+         "startTime": 157274
+      },
+      {
+         "text": {
+            "en": "and then we're just going to take one of our previous for loops and put it inside there",
+            "pl": "a potem po prostu weźmiemy jedną z naszych poprzednich pętli i umieścimy ją tam",
+            "ar": "وبعد ذلك نحن ذاهبون فقط لاتخاذ واحدة من سابقتنا للحلقات ووضعها في الداخل هناك"
+         },
+         "endTime": 168237,
+         "startTime": 161999
+      },
+      {
+         "text": {
+            "en": "and fix the indenting, and we'll delete these old ones. Okay.",
+            "pl": "i napraw wcięcia, a my usuniemy te stare. Okej.",
+            "ar": "وإصلاح المسافة البادئة، وسنقوم بحذف هذه القديمة. حسناً"
+         },
+         "endTime": 173274,
+         "startTime": 168237
+      },
+      {
+         "text": {
+            "en": "So now what we have is we've got them all piled on top on the same row.",
+            "pl": "Więc teraz mamy je wszystkie ułożone na wierzchu w tym samym rzędzie.",
+            "ar": "حتى الآن ما لدينا هو أننا قد حصلت على كل منهم مكدسة على رأس على نفس الصف."
+         },
+         "endTime": 179109,
+         "startTime": 173274
+      },
+      {
+         "text": {
+            "en": "So the thing is that we want to change the y, right?",
+            "pl": "Chodzi o to, że chcemy zmienić y, prawda?",
+            "ar": "لذلك الشيء هو أننا نريد تغيير y، أليس كذلك؟"
+         },
+         "endTime": 181969,
+         "startTime": 179109
+      },
+      {
+         "text": {
+            "en": "That's what we were changing before when we were copying pasting and",
+            "pl": "To właśnie zmienialiśmy się wcześniej, kiedy kopiowaliśmy wklejanie i",
+            "ar": "هذا ما كنا نغييره من قبل عندما كنا نسخ اللصق و"
+         },
+         "endTime": 184309,
+         "startTime": 181969
+      },
+      {
+         "text": {
+            "en": "right now, the Y is always 90",
+            "pl": "W tej chwili, Y jest zawsze 90",
+            "ar": "في الوقت الحالي، ال Y هو دائما 90"
+         },
+         "endTime": 186108,
+         "startTime": 184309
+      },
+      {
+         "text": {
+            "en": "We want to y to change for each row.",
+            "pl": "Chcemy y, aby zmienić dla każdego wiersza.",
+            "ar": "نحن نريد أن ذ لتغيير لكل صف."
+         },
+         "endTime": 189440,
+         "startTime": 186108
+      },
+      {
+         "text": {
+            "en": "So just the way x is dependent on i, we want the y to be dependent on j.",
+            "pl": "Więc po prostu sposób x jest zależny od I, chcemy Y być zależne od j.",
+            "ar": "حتى مجرد طريقة x تعتمد على ط، ونحن نريد ذ أن تعتمد على ي."
+         },
+         "endTime": 196188,
+         "startTime": 189440
+      },
+      {
+         "text": {
+            "en": "So we can go ahead and change this to something like, maybe, j times 30.",
+            "pl": "Więc możemy iść dalej i zmienić to na coś jak, może, j razy 30.",
+            "ar": "حتى نتمكن من المضي قدما وتغيير هذا إلى شيء من هذا القبيل، ربما، ي مرة 30."
+         },
+         "endTime": 204663,
+         "startTime": 196188
+      },
+      {
+         "text": {
+            "en": "Tada! Yeahh! So many gems! Allright!",
+            "pl": "Tada! Yeahh! Tyle klejnotów! W porządku!",
+            "ar": "(تادا)! نعم! الكثير من الأحجار الكريمة! حسنا!"
+         },
+         "endTime": 209934,
+         "startTime": 204663
+      },
+      {
+         "text": {
+            "en": "Lets walk through what this does again.",
+            "pl": "Przejrzyjmy to, co to robi ponownie.",
+            "ar": "دعونا المشي من خلال ما يفعله هذا مرة أخرى."
+         },
+         "endTime": 211776,
+         "startTime": 209934
+      },
+      {
+         "text": {
+            "en": "The outer loop creates this variable j and increments it upto 13. And,",
+            "pl": "Zewnętrzna pętla tworzy tę zmienną j i zwiększa ją do 13. I,",
+            "ar": "الحلقة الخارجية يخلق هذا المتغير j ويزداد ما يصل إلى 13. و,"
+         },
+         "endTime": 218340,
+         "startTime": 211776
+      },
+      {
+         "text": {
+            "en": "In each execution of that outer loop, it runs this inner loop.",
+            "pl": "W każdym wykonaniu tej zewnętrznej pętli, to uruchamia tę wewnętrzną pętlę.",
+            "ar": "في كل تنفيذ من تلك الحلقة الخارجية، فإنه يعمل هذه الحلقة الداخلية."
+         },
+         "endTime": 224340,
+         "startTime": 218340
+      },
+      {
+         "text": {
+            "en": "The inner loop creates the variable \"i\" which goes upto 12.",
+            "pl": "Wewnętrzna pętla tworzy zmienną „i”, która idzie do 12.",
+            "ar": "الحلقة الداخلية يخلق المتغير «i» الذي يصل إلى 12."
+         },
+         "endTime": 228673,
+         "startTime": 224340
+      },
+      {
+         "text": {
+            "en": "And for each execution of the inner loop, it draws an image on the x and y which are based off of \"i\" and \"j\".",
+            "pl": "I dla każdego wykonania pętli wewnętrznej, rysuje obraz na x i y, które są oparte na „i” i „j”.",
+            "ar": "ولكل تنفيذ للحلقة الداخلية، فإنه يرسم صورة على x و y التي تقوم على الخروج من «أنا» و «ي»."
+         },
+         "endTime": 235358,
+         "startTime": 228673
+      },
+      {
+         "text": {
+            "en": "And this \"i\" changes a lot more frequently than the \"j\" because of that.",
+            "pl": "I to „i” zmienia się znacznie częściej niż „j” z tego powodu.",
+            "ar": "وهذا «أنا» يتغير كثيرا أكثر من «ي» بسبب ذلك."
+         },
+         "endTime": 239607,
+         "startTime": 235358
+      },
+      {
+         "text": {
+            "en": "To try and understand this even better, lets try and actually visualize the \"i\" and \"j\" values.",
+            "pl": "Aby spróbować zrozumieć to jeszcze lepiej, pozwala spróbować i rzeczywiście wizualizować wartości „i” i „j”.",
+            "ar": "لمحاولة فهم هذا بشكل أفضل، دعونا نحاول تصور الواقع «أنا» و «ي» القيم."
+         },
+         "endTime": 245238,
+         "startTime": 239607
+      },
+      {
+         "text": {
+            "en": "So what I will do is comment out image",
+            "pl": "Więc co zrobię, to skomentować obraz",
+            "ar": "فما سأفعله هو التعليق على الصورة"
+         },
+         "endTime": 249277,
+         "startTime": 245238
+      },
+      {
+         "text": {
+            "en": "and then set a fill color",
+            "pl": ", a następnie ustaw kolor wypełnienia",
+            "ar": "ثم قم بتعيين لون التعبئة"
+         },
+         "endTime": 252027,
+         "startTime": 249277
+      },
+      {
+         "text": {
+            "en": "and I'm going to use a text command to show the value of \"j\" - so text \"j\"",
+            "pl": "i zamierzam użyć polecenia tekstowego, aby pokazać wartość „j” - więc tekst „j”",
+            "ar": "وانا ذاهب الى استخدام أمر نصي لإظهار قيمة «j» - حتى النص «j»"
+         },
+         "endTime": 256796,
+         "startTime": 252027
+      },
+      {
+         "text": {
+            "en": "and then I will put it at the appropriate spot here. Okay.",
+            "pl": "a potem umieszczę go w odpowiednim miejscu tutaj. Okej.",
+            "ar": "وبعد ذلك سوف أضعه في المكان المناسب هنا. حسناً"
+         },
+         "endTime": 262024,
+         "startTime": 256796
+      },
+      {
+         "text": {
+            "en": "Now we can see \"j\" going from 0 to 12.",
+            "pl": "Teraz możemy zobaczyć „j” idąc od 0 do 12.",
+            "ar": "الآن يمكننا أن نرى «ي» الانتقال من 0 إلى 12."
+         },
+         "endTime": 266009,
+         "startTime": 262024
+      },
+      {
+         "text": {
+            "en": "This is basically where our rows of gems were positioned as well.",
+            "pl": "To jest w zasadzie, gdzie nasze rzędy klejnotów również zostały umieszczone.",
+            "ar": "هذا هو الأساس حيث تم وضع صفوف لدينا من الأحجار الكريمة كذلك."
+         },
+         "endTime": 272019,
+         "startTime": 266009
+      },
+      {
+         "text": {
+            "en": "And now we will visualize \"i\" and see how that changes",
+            "pl": "A teraz będziemy wizualizować „i” i zobaczyć, jak to się zmienia",
+            "ar": "والآن سوف نتصور «أنا» ونرى كيف يتغير ذلك"
+         },
+         "endTime": 275684,
+         "startTime": 272019
+      },
+      {
+         "text": {
+            "en": "So for \"i\", let's make it a different color.",
+            "pl": "Więc dla „i”, zróbmy to inny kolor.",
+            "ar": "لذا بالنسبة لـ «i»، دعنا نجعلها لونًا مختلفًا."
+         },
+         "endTime": 283066,
+         "startTime": 275684
+      },
+      {
+         "text": {
+            "en": "Then we will go put the \"i\" somewhere.",
+            "pl": "Następnie pójdziemy gdzieś umieścić „i”.",
+            "ar": "ثم سنذهب لوضع «أنا» في مكان ما."
+         },
+         "endTime": 286475,
+         "startTime": 283066
+      },
+      {
+         "text": {
+            "en": "And we will change it's x so that it goes across the screen.",
+            "pl": "I zmienimy to x tak, że przechodzi przez ekran.",
+            "ar": "وسوف نقوم بتغيير انها x بحيث يذهب عبر الشاشة."
+         },
+         "endTime": 290271,
+         "startTime": 286475
+      },
+      {
+         "text": {
+            "en": "We will do the same thing for the y.",
+            "pl": "Zrobimy to samo dla Y.",
+            "ar": "سنفعل الشيء نفسه ل y."
+         },
+         "endTime": 294688,
+         "startTime": 290271
+      },
+      {
+         "text": {
+            "en": "Now we can see that the \"i\" is going from 0 to 11.",
+            "pl": "Teraz widzimy, że „i” będzie od 0 do 11.",
+            "ar": "الآن يمكننا أن نرى أن «أنا» هو الذهاب من 0 إلى 11."
+         },
+         "endTime": 299561,
+         "startTime": 294688
+      },
+      {
+         "text": {
+            "en": "And the \"i\", as I was saying, changes a lot more frequently",
+            "pl": "A „i”, jak już mówiłem, zmienia się znacznie częściej",
+            "ar": "و «أنا»، كما كنت أقول، يتغير كثيرا كثيرا"
+         },
+         "endTime": 304686,
+         "startTime": 299561
+      },
+      {
+         "text": {
+            "en": "And this line of code gets executed a lot more times than this line of code",
+            "pl": "I ta linia kodu zostanie wykonana dużo więcej razy niż ta linia kodu",
+            "ar": "ويتم تنفيذ هذا السطر من التعليمات البرمجية مرات أكثر بكثير من هذا السطر من التعليمات البرمجية"
+         },
+         "endTime": 308778,
+         "startTime": 304686
+      },
+      {
+         "text": {
+            "en": "Because this line of code is executed for every execution of this inner for loop",
+            "pl": "Ponieważ ta linia kodu jest wykonywana dla każdego wykonania tej wewnętrznej pętli",
+            "ar": "لأنه يتم تنفيذ هذا السطر من التعليمات البرمجية لكل تنفيذ هذا الداخلية للحلقة"
+         },
+         "endTime": 313855,
+         "startTime": 308778
+      },
+      {
+         "text": {
+            "en": "Whereas this line of code gets executed only for every execution of the outer loop.",
+            "pl": "Natomiast ta linia kodu zostanie wykonana tylko dla każdego wykonania pętli zewnętrznej.",
+            "ar": "في حين يتم تنفيذ هذا السطر من التعليمات البرمجية فقط لكل تنفيذ للحلقة الخارجية."
+         },
+         "endTime": 319527,
+         "startTime": 313855
+      },
+      {
+         "text": {
+            "en": "So this visualizing of the \"i\" and \"j\"",
+            "pl": "Więc to wizualizacja „i” i „j”",
+            "ar": "لذلك هذا التصور من «أنا» و «ي»"
+         },
+         "endTime": 322140,
+         "startTime": 319527
+      },
+      {
+         "text": {
+            "en": "hopefully helps you understand what's going on with these nested for loops better.",
+            "pl": "mam nadzieję, że pomoże Ci zrozumieć, co się dzieje z tych zagnieżdżonych pętli lepiej.",
+            "ar": "نأمل أن يساعدك على فهم ما يحدث مع هذه المتداخلة للحلقات بشكل أفضل."
+         },
+         "endTime": 326973,
+         "startTime": 322140
+      },
+      {
+         "text": {
+            "en": "Now let's bring back our gems, because they are kind of cooler!",
+            "pl": "Przywróćmy teraz nasze klejnoty, ponieważ są one trochę chłodniejsze!",
+            "ar": "الآن دعونا نعيد الأحجار الكريمة لدينا، لأنها نوع من برودة!"
+         },
+         "endTime": 330475,
+         "startTime": 326973
+      },
+      {
+         "text": {
+            "en": "So there's a lot you can do with nested for loops",
+            "pl": "Więc jest wiele, co można zrobić z zagnieżdżonych pętli",
+            "ar": "لذلك هناك الكثير يمكنك القيام به مع متداخلة للحلقات"
+         },
+         "endTime": 334066,
+         "startTime": 330475
+      },
+      {
+         "text": {
+            "en": "If you just think about everything in the world that",
+            "pl": "Jeśli po prostu myśleć o wszystkim na świecie, że",
+            "ar": "إذا كنت مجرد التفكير في كل شيء في العالم أن"
+         },
+         "endTime": 337232,
+         "startTime": 334066
+      },
+      {
+         "text": {
+            "en": "looks like a two-dimensional grid, like a chess board, a quilt,",
+            "pl": "wygląda jak dwuwymiarowa siatka, jak szachownica, kołdra,",
+            "ar": "يبدو وكأنه شبكة ثنائية الأبعاد، مثل لوحة الشطرنج، لحاف،"
+         },
+         "endTime": 339599,
+         "startTime": 337232
+      },
+      {
+         "text": {
+            "en": "the stars on the US flag, cool patterns and wallpapers",
+            "pl": "gwiazdy na flagi USA, fajne wzory i tapety",
+            "ar": "النجوم على علم الولايات المتحدة، وأنماط باردة وخلفيات"
+         },
+         "endTime": 344564,
+         "startTime": 339599
+      },
+      {
+         "text": {
+            "en": "To start off your imagination, just play around with this code",
+            "pl": "Aby rozpocząć swoją wyobraźnię, po prostu pobaw się tym kodem",
+            "ar": "لبدء خيالك، ما عليك سوى اللعب مع هذا الرمز"
+         },
+         "endTime": 347462,
+         "startTime": 344564
+      },
+      {
+         "text": {
+            "en": "like by changing the image.",
+            "pl": "jak poprzez zmianę obrazu.",
+            "ar": "مثل عن طريق تغيير الصورة."
+         },
+         "endTime": 349806,
+         "startTime": 347462
+      },
+      {
+         "text": {
+            "en": "I will start off by changing it to a heart!",
+            "pl": "Zacznę od zmiany go na serce!",
+            "ar": "سأبدأ بتغييره إلى قلب!"
+         },
+         "endTime": 353796,
+         "startTime": 349806
+      },
+      {
+         "text": {
+            "en": "To show you how much I love nested for loops! Aww!",
+            "pl": "Aby pokazać, jak bardzo kocham zagnieżdżone na pętle! Aww!",
+            "ar": "لتظهر لك كم أحب متداخلة للحلقات! أوو!"
+         },
+         "endTime": 357796,
+         "startTime": 353796
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/s6iWlNW9NGE/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759754933",
+   "title": "Nested For Loops | Looping | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

@@ -1,0 +1,915 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Voiceover: Ok so you've made a few programs,",
+            "pl": "Ok, więc stworzyłeś kilka programów,",
+            "ar": "Voiceover: حسنا لذلك قمت بعمل بعض البرامج،"
+         },
+         "startTime": 777,
+         "endTime": 2905
+      },
+      {
+         "text": {
+            "en": "you might be wondering how on earth am I supposed to remember all of these commands",
+            "pl": "Może zastanawiasz się, jak mam zapamiętać te wszystkie polecenia.",
+            "ar": "قد تتساءل كيف على الأرض أنا من المفترض أن أتذكر كل هذه الأوامر"
+         },
+         "startTime": 2905,
+         "endTime": 7279
+      },
+      {
+         "text": {
+            "en": "is it oval or circle or ellipse? Is it width and height, or is it height and width?",
+            "pl": "Czy to owalny, okrągły lub elipsa? Czy jest to szerokość i wysokość, czy wysokość i szerokość?",
+            "ar": "هل هو بيضاوي أو دائرة أو القطع الناقص؟ هل العرض والارتفاع، أم أنه الارتفاع والعرض؟"
+         },
+         "startTime": 7279,
+         "endTime": 13028
+      },
+      {
+         "text": {
+            "en": "Do I have to memorize all of this? Thankfully, no!",
+            "pl": "Czy muszę zapamiętać to wszystko? Na szczęście, nie!",
+            "ar": "هل يجب أن أحفظ كل هذا؟ الحمد لله، لا!"
+         },
+         "startTime": 13028,
+         "endTime": 16671
+      },
+      {
+         "text": {
+            "en": "That's what the computer is for. The thing is, we always have a computer with us",
+            "pl": "Po to jest komputer. Chodzi o to, że zawsze mamy przy sobie komputer.",
+            "ar": "هذا ما هو الكمبيوتر ل. الشيء هو، لدينا دائما جهاز كمبيوتر معنا"
+         },
+         "startTime": 16671,
+         "endTime": 20945
+      },
+      {
+         "text": {
+            "en": "when we are programming, and a computer is really good at remembering things,",
+            "pl": "kiedy programujemy, a komputer jest naprawdę dobry w zapamiętywaniu rzeczy,",
+            "ar": "عندما نقوم بالبرمجة، والكمبيوتر جيد حقا في تذكر الأشياء،"
+         },
+         "startTime": 20945,
+         "endTime": 23903
+      },
+      {
+         "text": {
+            "en": "better than we are. So what if we just had the computer remember all the details for us,",
+            "pl": "Lepiej niż my. Co z tego, że komputer zapamiętał wszystkie szczegóły dla nas,",
+            "ar": "أفضل مما نحن عليه. ماذا لو كان لدينا الكمبيوتر فقط تذكر كل التفاصيل بالنسبة لنا،"
+         },
+         "startTime": 23903,
+         "endTime": 27438
+      },
+      {
+         "text": {
+            "en": "and we can just use it like a dictionary for programming.",
+            "pl": "i możemy po prostu użyć go jak słownika do programowania.",
+            "ar": "ويمكننا فقط استخدامه مثل قاموس للبرمجة."
+         },
+         "startTime": 27438,
+         "endTime": 30238
+      },
+      {
+         "text": {
+            "en": "Then we can focus on making cool programs,",
+            "pl": "Wtedy możemy skupić się na tworzeniu fajnych programów,",
+            "ar": "ثم يمكننا التركيز على جعل برامج باردة،"
+         },
+         "startTime": 30238,
+         "endTime": 32444
+      },
+      {
+         "text": {
+            "en": "not memorizing a bunch of boring details.",
+            "pl": "nie zapamiętywania kilka nudnych szczegółów.",
+            "ar": "لا يحفظ حفنة من التفاصيل المملة."
+         },
+         "startTime": 32444,
+         "endTime": 35112
+      },
+      {
+         "text": {
+            "en": "That's what we call documentation, a document that explains",
+            "pl": "To nazywamy dokumentacją, dokumentem, który wyjaśnia",
+            "ar": "هذا ما نسميه الوثائق، وثيقة تشرح"
+         },
+         "startTime": 35112,
+         "endTime": 37835
+      },
+      {
+         "text": {
+            "en": "how to program in a particular language and environment,",
+            "pl": "jak programować w określonym języku i środowisku,",
+            "ar": "كيفية البرمجة بلغة معينة وبيئة معينة،"
+         },
+         "startTime": 37835,
+         "endTime": 40362
+      },
+      {
+         "text": {
+            "en": "with examples and gotchas, so if we can't remember the exact details,",
+            "pl": "z przykładami i gotchas, więc jeśli nie pamiętamy dokładnych szczegółów,",
+            "ar": "مع أمثلة و gotchas، لذلك إذا كنا لا يمكن أن نتذكر التفاصيل الدقيقة،"
+         },
+         "startTime": 40362,
+         "endTime": 43970
+      },
+      {
+         "text": {
+            "en": "no worries - we can just look them up!",
+            "pl": "bez obaw - możemy po prostu je sprawdzić!",
+            "ar": "لا تقلق - يمكننا فقط البحث عنها!"
+         },
+         "startTime": 43970,
+         "endTime": 47528
+      },
+      {
+         "text": {
+            "en": "You might think it's boring to read documentation,",
+            "pl": "Może myślisz, że nudne jest czytać dokumentację,",
+            "ar": "قد تعتقد أنه من الممل قراءة الوثائق"
+         },
+         "startTime": 47528,
+         "endTime": 49767
+      },
+      {
+         "text": {
+            "en": "and you are right - it is kind of boring, it's a lot more fun to write code.",
+            "pl": "i masz rację - to trochę nudne, o wiele fajniej jest pisać kod.",
+            "ar": "وأنت على حق - هو نوع من مملة، انها أكثر متعة لكتابة التعليمات البرمجية."
+         },
+         "startTime": 49767,
+         "endTime": 52368
+      },
+      {
+         "text": {
+            "en": "But unless you want to memorize absolutely everything (ugh!),",
+            "pl": "Ale chyba, że chcesz zapamiętać absolutnie wszystko (ugh!) ,",
+            "ar": "ولكن ما لم تكن ترغب في حفظ كل شيء على الإطلاق (ugh!) ,"
+         },
+         "startTime": 52368,
+         "endTime": 55119
+      },
+      {
+         "text": {
+            "en": "you need to learn how to use documentation or be able to code your ideas.",
+            "pl": "musisz nauczyć się korzystać z dokumentacji lub być w stanie kodować swoje pomysły.",
+            "ar": "تحتاج إلى معرفة كيفية استخدام الوثائق أو أن تكون قادرة على رمز أفكارك."
+         },
+         "startTime": 55119,
+         "endTime": 58670
+      },
+      {
+         "text": {
+            "en": "Even great programmers don't try to memorize everything.",
+            "pl": "Nawet wielcy programiści nie próbują wszystkiego zapamiętać.",
+            "ar": "حتى المبرمجين العظماء لا يحاولون حفظ كل شيء."
+         },
+         "startTime": 58670,
+         "endTime": 61368
+      },
+      {
+         "text": {
+            "en": "In fact, great programmers are usually some of the best at reading documentation.",
+            "pl": "W rzeczywistości, wielcy programiści są zwykle jednymi z najlepszych w czytaniu dokumentacji.",
+            "ar": "في الواقع، المبرمجين كبيرة عادة ما تكون بعض من أفضل في قراءة الوثائق."
+         },
+         "startTime": 61368,
+         "endTime": 65951
+      },
+      {
+         "text": {
+            "en": "For example, I'm drawing this smiley face,",
+            "pl": "Na przykład, rysuję tę uśmiechniętą buźkę,",
+            "ar": "على سبيل المثال، أنا أرسم هذا الوجه المبتسم،"
+         },
+         "startTime": 65951,
+         "endTime": 68700
+      },
+      {
+         "text": {
+            "en": "and I've already drawn the face and the eyes using ellipse,",
+            "pl": "I już narysowałem twarz i oczy za pomocą elipsy,",
+            "ar": "ولقد قمت بالفعل برسم الوجه والعينين باستخدام القطع الناقص،"
+         },
+         "startTime": 68700,
+         "endTime": 71832
+      },
+      {
+         "text": {
+            "en": "a function I know pretty well. But I have more work to.",
+            "pl": "funkcja, którą znam całkiem dobrze. Ale mam jeszcze coś do roboty.",
+            "ar": "وظيفة أعرف جيدا. ولكن لدي المزيد من العمل ل."
+         },
+         "startTime": 71832,
+         "endTime": 75114
+      },
+      {
+         "text": {
+            "en": "First, I want to draw the face with thick outlines, like a sticker.",
+            "pl": "Po pierwsze, chcę narysować twarz grubymi konturami, jak naklejka.",
+            "ar": "أولا، أريد أن أرسم الوجه مع الخطوط العريضة سميكة، مثل ملصقا."
+         },
+         "startTime": 75114,
+         "endTime": 79197
+      },
+      {
+         "text": {
+            "en": "I remember that has something to do with stroke,",
+            "pl": "Pamiętam, że ma to coś wspólnego z udarem,",
+            "ar": "أتذكر أن له علاقة بالسكتة الدماغية"
+         },
+         "startTime": 79197,
+         "endTime": 82365
+      },
+      {
+         "text": {
+            "en": "but I don't remember exactly the name,",
+            "pl": "ale nie pamiętam dokładnie imienia.",
+            "ar": "لكنني لا أتذكر الاسم بالضبط"
+         },
+         "startTime": 82365,
+         "endTime": 85449
+      },
+      {
+         "text": {
+            "en": "so instead of sitting here and trying to invent it,",
+            "pl": "więc zamiast siedzieć tutaj i próbować go wynaleźć,",
+            "ar": "لذلك بدلا من الجلوس هنا ومحاولة ابتكار ذلك،"
+         },
+         "startTime": 85449,
+         "endTime": 87899
+      },
+      {
+         "text": {
+            "en": "which could take hours (or infinity), I'll just go to the documentation tab",
+            "pl": "co może potrwać wiele godzin (lub nieskończoność), po prostu przejdę do zakładki dokumentacji",
+            "ar": "والتي يمكن أن تستغرق ساعات (أو اللانهاية)، سأذهب فقط إلى علامة التبويب الوثائق"
+         },
+         "startTime": 87899,
+         "endTime": 93066
+      },
+      {
+         "text": {
+            "en": "and look around and try and find what I'm looking for.",
+            "pl": "Rozejrzyj się i spróbuj znaleźć to, czego szukam.",
+            "ar": "وننظر حولنا ومحاولة العثور على ما أبحث عنه."
+         },
+         "startTime": 93066,
+         "endTime": 96164
+      },
+      {
+         "text": {
+            "en": "Umm, and I'll look under this coloring category, cause that seems likely,",
+            "pl": "Umm, a ja zajrzę w tej kategorii kolorystyka, bo wydaje się prawdopodobne,",
+            "ar": "أم، وأنا سوف ننظر تحت هذه الفئة التلوين، والسبب الذي يبدو على الأرجح،"
+         },
+         "startTime": 96164,
+         "endTime": 99280
+      },
+      {
+         "text": {
+            "en": "and look at all the functions here,",
+            "pl": "i spójrz na wszystkie funkcje tutaj,",
+            "ar": "وإلقاء نظرة على جميع الوظائف هنا،"
+         },
+         "startTime": 99280,
+         "endTime": 101230
+      },
+      {
+         "text": {
+            "en": "and then finally at the very end, I find stroke weight",
+            "pl": "a następnie w końcu na samym końcu, znajdę ciężar udaru",
+            "ar": "ثم أخيرا في النهاية، أجد وزن السكتة الدماغية"
+         },
+         "startTime": 101230,
+         "endTime": 103992
+      },
+      {
+         "text": {
+            "en": "to change the thickness of lines and outlines.",
+            "pl": ", aby zmienić grubość linii i konturów.",
+            "ar": "لتغيير سمك الخطوط والخطوط العريضة."
+         },
+         "startTime": 103992,
+         "endTime": 106797
+      },
+      {
+         "text": {
+            "en": "So here we see the function name and the parameters -",
+            "pl": "Więc tutaj widzimy nazwę funkcji i parametry -",
+            "ar": "حتى هنا نرى اسم الوظيفة والمعلمات -"
+         },
+         "startTime": 106797,
+         "endTime": 109992
+      },
+      {
+         "text": {
+            "en": "just one in this case. So what I usually do is start off",
+            "pl": "tylko jeden w tym przypadku. Więc to co zwykle robię, to zaczynam",
+            "ar": "واحد فقط في هذه الحالة. لذلك ما أفعله عادة هو البدء"
+         },
+         "startTime": 109992,
+         "endTime": 113530
+      },
+      {
+         "text": {
+            "en": "by just copying that code and pasting it into my code.",
+            "pl": "kopiując ten kod i wklejając go do mojego kodu.",
+            "ar": "فقط عن طريق نسخ هذا الرمز ولصقه في التعليمات البرمجية الخاصة بي."
+         },
+         "startTime": 113530,
+         "endTime": 118264
+      },
+      {
+         "text": {
+            "en": "But I immediately get an error: \"thickness is not defined\".",
+            "pl": "Ale od razu pojawia się błąd: „grubość nie jest zdefiniowana”.",
+            "ar": "لكنني على الفور الحصول على خطأ: «لم يتم تعريف سمك»."
+         },
+         "startTime": 118264,
+         "endTime": 121825
+      },
+      {
+         "text": {
+            "en": "That's because thickness is a placeholder parameter.",
+            "pl": "To dlatego, że grubość jest parametrem zastępczym.",
+            "ar": "وذلك لأن سمك هو معلمة نائب."
+         },
+         "startTime": 121825,
+         "endTime": 124599
+      },
+      {
+         "text": {
+            "en": "It's not a real value, I am meant to replace that",
+            "pl": "To nie jest prawdziwa wartość, mam to zastąpić",
+            "ar": "انها ليست قيمة حقيقية، أنا من المفترض أن تحل محل ذلك"
+         },
+         "startTime": 124599,
+         "endTime": 127632
+      },
+      {
+         "text": {
+            "en": "with what I actually want it to be, right, so that could be with a number",
+            "pl": "z tym, co właściwie chcę, aby to było, tak, że może być z numerem",
+            "ar": "مع ما أريد فعلا أن يكون، الحق، بحيث يمكن أن يكون مع عدد"
+         },
+         "startTime": 127632,
+         "endTime": 132064
+      },
+      {
+         "text": {
+            "en": "or a variable that refers to a number, so in this case I'll just put a number in.",
+            "pl": "lub zmienną, która odnosi się do liczby, więc w tym przypadku będę po prostu umieścić numer w.",
+            "ar": "أو متغير يشير إلى عدد، لذلك في هذه الحالة أنا مجرد وضع رقم في."
+         },
+         "startTime": 132064,
+         "endTime": 136350
+      },
+      {
+         "text": {
+            "en": "Say, ah, ok, perfect, 10's nice, but we know we can fiddle with that",
+            "pl": "Powiedzmy, ah, ok, idealnie, 10 to miłe, ale wiemy, że możemy się tym bawić.",
+            "ar": "قل، آه، حسنا، الكمال، 10 لطيفة، ولكن نحن نعرف أننا يمكن أن كمان مع ذلك"
+         },
+         "startTime": 136350,
+         "endTime": 139997
+      },
+      {
+         "text": {
+            "en": "and see. oh that's a little extreme (laughs). that's too small.",
+            "pl": "i zobaczyć. oh to trochę ekstremalne (śmiech). To za małe.",
+            "ar": "ونرى. أوه هذا هو قليلا المتطرفة (يضحك). هذا صغير جدا."
+         },
+         "startTime": 139997,
+         "endTime": 143598
+      },
+      {
+         "text": {
+            "en": "All right, so go back - 12. Cool!",
+            "pl": "W porządku, więc wracaj - 12. Fajne!",
+            "ar": "حسنا، لذلك عد إلى 12. رائع!"
+         },
+         "startTime": 143598,
+         "endTime": 148183
+      },
+      {
+         "text": {
+            "en": "Now there is something really obvious missing in my smily face: the smile.",
+            "pl": "Teraz czegoś naprawdę oczywistego brakuje w mojej uśmiechniętej twarzy: uśmiechu.",
+            "ar": "الآن هناك شيء واضح حقا مفقود في وجهي مبتسم: الابتسامة."
+         },
+         "startTime": 148183,
+         "endTime": 153515
+      },
+      {
+         "text": {
+            "en": "So I basically just want something like this, right...",
+            "pl": "Więc po prostu chcę czegoś takiego, prawda...",
+            "ar": "لذلك أنا في الأساس فقط أريد شيئا من هذا القبيل، أليس كذلك..."
+         },
+         "startTime": 153515,
+         "endTime": 157965
+      },
+      {
+         "text": {
+            "en": "And I can look at that smile and think, well,",
+            "pl": "I mogę spojrzeć na ten uśmiech i pomyśleć,",
+            "ar": "ويمكنني النظر إلى تلك الابتسامة والتفكير، حسنا،"
+         },
+         "startTime": 157965,
+         "endTime": 160764
+      },
+      {
+         "text": {
+            "en": "doesn't look I'd draw by using an ellipse, or line, or rect,",
+            "pl": "nie wygląda, że narysowałbym używając elipsy, linii, lub rektu,",
+            "ar": "لا تبدو أود أن أرسم باستخدام القطع الناقص، أو خط، أو مستقيم،"
+         },
+         "startTime": 160764,
+         "endTime": 165015
+      },
+      {
+         "text": {
+            "en": "cause it's got this curve to it, but it doesn't have any inside.",
+            "pl": "Bo ma taką krzywą, ale nie ma w sobie żadnego środka.",
+            "ar": "لأنها حصلت على هذا المنحنى، ولكن ليس لديها أي داخل."
+         },
+         "startTime": 165015,
+         "endTime": 170099
+      },
+      {
+         "text": {
+            "en": "So I think, well, I should check the docs and see",
+            "pl": "Więc myślę, że powinienem sprawdzić dokumenty i zobaczyć",
+            "ar": "لذلك أعتقد، حسنا، يجب أن تحقق من المستندات ونرى"
+         },
+         "startTime": 170099,
+         "endTime": 172431
+      },
+      {
+         "text": {
+            "en": "if there is some other way to draw a curve like this.",
+            "pl": "jeśli istnieje inny sposób, aby narysować taką krzywą.",
+            "ar": "إذا كان هناك طريقة أخرى لرسم منحنى مثل هذا."
+         },
+         "startTime": 172431,
+         "endTime": 175631
+      },
+      {
+         "text": {
+            "en": "So, to the docs machine we go!",
+            "pl": "Tak więc, do maszyny Docs idziemy!",
+            "ar": "لذلك، إلى آلة المستندات نذهب!"
+         },
+         "startTime": 175631,
+         "endTime": 178183
+      },
+      {
+         "text": {
+            "en": "Scrolling down, scrolling down, and looking around.",
+            "pl": "Przewijanie w dół, przewijanie w dół i rozglądanie się.",
+            "ar": "التمرير لأسفل، التمرير لأسفل، والنظر حولنا."
+         },
+         "startTime": 178183,
+         "endTime": 181965
+      },
+      {
+         "text": {
+            "en": "So I'll check out the shapes category...",
+            "pl": "Więc sprawdzę kategorię kształtów...",
+            "ar": "لذلك أنا سوف تحقق من فئة الأشكال..."
+         },
+         "startTime": 181965,
+         "endTime": 184465
+      },
+      {
+         "text": {
+            "en": "Aha! The very first entry in shapes is arc,",
+            "pl": "Aha! Pierwszym wpisem w kształtach jest łuk,",
+            "ar": "آها! أول دخول في الأشكال هو القوس،"
+         },
+         "startTime": 184465,
+         "endTime": 188464
+      },
+      {
+         "text": {
+            "en": "which is used for drawing an arc, which sounds kind of perfect,",
+            "pl": "który jest używany do rysowania łuku, który brzmi jakby perfekcyjnie,",
+            "ar": "والذي يستخدم لرسم قوس، والذي يبدو نوعا من الكمال،"
+         },
+         "startTime": 188464,
+         "endTime": 192464
+      },
+      {
+         "text": {
+            "en": "because that's what the smile is.",
+            "pl": "Bo tym właśnie jest ten uśmiech.",
+            "ar": "لأن هذه هي الإبتسامة"
+         },
+         "startTime": 192464,
+         "endTime": 194924
+      },
+      {
+         "text": {
+            "en": "So this one has a lot more parameters in it.",
+            "pl": "Więc ten ma w sobie dużo więcej parametrów.",
+            "ar": "لذلك هذا واحد لديه الكثير من المعلمات في ذلك."
+         },
+         "startTime": 194924,
+         "endTime": 198128
+      },
+      {
+         "text": {
+            "en": "I'll start off by pasting this in here...",
+            "pl": "Zacznę od wklejenia tego tutaj...",
+            "ar": "سأبدأ من خلال لصق هذا هنا..."
+         },
+         "startTime": 198128,
+         "endTime": 201696
+      },
+      {
+         "text": {
+            "en": "And remember these are placeholder parameters so we need to replace them",
+            "pl": "I pamiętaj, że są to parametry zastępcze, więc musimy je wymienić",
+            "ar": "وتذكر هذه هي المعلمات نائب لذلك نحن بحاجة إلى استبدالها"
+         },
+         "startTime": 201696,
+         "endTime": 206198
+      },
+      {
+         "text": {
+            "en": "with what we think they should be...",
+            "pl": "z tym, co uważamy, że powinny być...",
+            "ar": "مع ما نعتقد أنها يجب أن تكون..."
+         },
+         "startTime": 206198,
+         "endTime": 208698
+      },
+      {
+         "text": {
+            "en": "All right, so x and y, so maybe x and y is where i want it to begin,",
+            "pl": "Dobra, więc X i Y, więc może X i Y to miejsce, gdzie chcę to zacząć,",
+            "ar": "كل الحق، لذلك x و y، لذلك ربما x و y هو المكان الذي أريد أن تبدأ،"
+         },
+         "startTime": 208698,
+         "endTime": 213011
+      },
+      {
+         "text": {
+            "en": "so we'll say, so our middle is 100 so maybe it will start at 150,",
+            "pl": "więc powiemy, więc nasz środek to 100, więc może zacznie się od 150,",
+            "ar": "لذلك سنقول، لذلك لدينا الوسط هو 100 لذلك ربما سوف تبدأ في 150،"
+         },
+         "startTime": 213011,
+         "endTime": 220248
+      },
+      {
+         "text": {
+            "en": "and then y is maybe 250, and then width -",
+            "pl": "a następnie y to może 250, a następnie szerokość -",
+            "ar": "ثم y هو ربما 250، ومن ثم العرض -"
+         },
+         "startTime": 220248,
+         "endTime": 225064
+      },
+      {
+         "text": {
+            "en": "width sounds like, you know, the width of the arc,",
+            "pl": "szerokość brzmi jak, wiesz, szerokość łuku,",
+            "ar": "يبدو العرض مثل، كما تعلمون، عرض القوس،"
+         },
+         "startTime": 225064,
+         "endTime": 227832
+      },
+      {
+         "text": {
+            "en": "so probably a bit less than width of the actual face.",
+            "pl": "więc prawdopodobnie nieco mniej niż szerokość rzeczywistej twarzy.",
+            "ar": "لذلك ربما أقل قليلا من عرض الوجه الفعلي."
+         },
+         "startTime": 227832,
+         "endTime": 230731
+      },
+      {
+         "text": {
+            "en": "So maybe it's 200, and then the height...",
+            "pl": "Więc może jest 200, a potem wysokość...",
+            "ar": "لذا ربما يكون 200، ثم الارتفاع..."
+         },
+         "startTime": 230731,
+         "endTime": 233748
+      },
+      {
+         "text": {
+            "en": "maybe that's the height from the top of the arc to the bottom,",
+            "pl": "Może to wysokość od góry łuku do dołu,",
+            "ar": "ربما هذا هو الارتفاع من أعلى القوس إلى الأسفل،"
+         },
+         "startTime": 233748,
+         "endTime": 238197
+      },
+      {
+         "text": {
+            "en": "so go, maybe that's 50. Start and stop...",
+            "pl": "Więc idź, może to 50. Zacznij i zatrzymaj...",
+            "ar": "لذلك يذهب، ربما هذا هو 50. ابدأ ووقف..."
+         },
+         "startTime": 238197,
+         "endTime": 240998
+      },
+      {
+         "text": {
+            "en": "Hmm, I don't actually know what those are...",
+            "pl": "Hmm, właściwie nie wiem, co to jest...",
+            "ar": "في الحقيقة لا أعرف ما هي"
+         },
+         "startTime": 240998,
+         "endTime": 248659
+      },
+      {
+         "text": {
+            "en": "Ok, now I'm stuck, because I'm looking at this function and trying to use it,",
+            "pl": "Ok, teraz utknąłem, bo patrzę na tę funkcję i próbuję jej użyć,",
+            "ar": "حسنا، الآن أنا عالقة، لأنني أبحث في هذه الوظيفة ومحاولة استخدامها،"
+         },
+         "startTime": 248659,
+         "endTime": 253897
+      },
+      {
+         "text": {
+            "en": "but I don't really understand these parameters.",
+            "pl": "ale nie rozumiem tych parametrów.",
+            "ar": "ولكن أنا لا أفهم حقا هذه المعلمات."
+         },
+         "startTime": 253897,
+         "endTime": 256770
+      },
+      {
+         "text": {
+            "en": "Well, luckily, what you can do is just go back down to the docs",
+            "pl": "Cóż, na szczęście, to co możesz zrobić, to wrócić na dół do dokumentów",
+            "ar": "حسنا، لحسن الحظ، ما يمكنك القيام به هو مجرد العودة إلى المستندات"
+         },
+         "startTime": 256770,
+         "endTime": 261436
+      },
+      {
+         "text": {
+            "en": "and actually click on the function that you are interested in,",
+            "pl": "i faktycznie kliknij na funkcję, którą jesteś zainteresowany,",
+            "ar": "وفعلا انقر على الوظيفة التي كنت مهتما في،"
+         },
+         "startTime": 261436,
+         "endTime": 266021
+      },
+      {
+         "text": {
+            "en": "and it will bring up a program that shows you how to use it,",
+            "pl": "i wyniesie program, który pokazuje, jak go używać,",
+            "ar": "وسوف يعرض البرنامج الذي يظهر لك كيفية استخدامه،"
+         },
+         "startTime": 266021,
+         "endTime": 271433
+      },
+      {
+         "text": {
+            "en": "and actually explains the parameters in a lot more detail.",
+            "pl": "i faktycznie wyjaśnia parametry o wiele bardziej szczegółowo.",
+            "ar": "ويشرح في الواقع المعلمات في الكثير من التفاصيل."
+         },
+         "startTime": 271433,
+         "endTime": 274230
+      },
+      {
+         "text": {
+            "en": "So by looking at this, it says, ok, x is the x-coordinate",
+            "pl": "Więc patrząc na to, jest napisane, ok, x jest współrzędną X",
+            "ar": "لذلك من خلال النظر في هذا، كما يقول، حسنا، س هو س تنسيق"
+         },
+         "startTime": 274230,
+         "endTime": 278498
+      },
+      {
+         "text": {
+            "en": "of the center of the ellipse derived from the ark.",
+            "pl": "środka elipsy wywodzącej się z arki.",
+            "ar": "من مركز القطع الناقص المشتق من التابوت."
+         },
+         "startTime": 278498,
+         "endTime": 280911
+      },
+      {
+         "text": {
+            "en": "Okay, so basically it seems like to draw an arc you kinda have to pretend",
+            "pl": "Ok, więc w zasadzie wydaje się, że narysować łuk, który musisz udawać",
+            "ar": "حسنا، لذلك في الأساس يبدو وكأنه رسم قوس كنت نوعا ما يجب أن تتظاهر"
+         },
+         "startTime": 280911,
+         "endTime": 283744
+      },
+      {
+         "text": {
+            "en": "you're drawing an ellipse, but only part of it,",
+            "pl": "rysujesz elipsę, ale tylko jej część,",
+            "ar": "كنت رسم القطع الناقص، ولكن فقط جزء منه،"
+         },
+         "startTime": 283744,
+         "endTime": 286864
+      },
+      {
+         "text": {
+            "en": "and calculate everything based on that.",
+            "pl": "i obliczyć wszystko na podstawie tego.",
+            "ar": "وحساب كل شيء على أساس ذلك."
+         },
+         "startTime": 286864,
+         "endTime": 289532
+      },
+      {
+         "text": {
+            "en": "So the x and y zap to the center of that pretend ellipse we're making,",
+            "pl": "Więc x i y zap do środka tej udawanej elipsy, którą robimy,",
+            "ar": "لذا فإن x و y انطلق إلى مركز ذلك القطع الناقص التظاهر الذي نقوم به،"
+         },
+         "startTime": 289532,
+         "endTime": 293597
+      },
+      {
+         "text": {
+            "en": "the width and the height are the width and height of that pretend ellipse,",
+            "pl": "szerokość i wysokość są szerokością i wysokością tej elipsy,",
+            "ar": "العرض والارتفاع هما عرض وارتفاع هذا القطع الناقص التظاهر،"
+         },
+         "startTime": 293597,
+         "endTime": 297096
+      },
+      {
+         "text": {
+            "en": "and start and stop - those are the ones I didn't know.",
+            "pl": "i zaczynaj i przestań - to są te, których nie znałem.",
+            "ar": "والبدء والتوقف - تلك هي التي لم أكن أعرف."
+         },
+         "startTime": 297096,
+         "endTime": 299558
+      },
+      {
+         "text": {
+            "en": "Start and stop is the angle... ah! Ok, the start angle to start the arc at, in degrees,",
+            "pl": "Start i stop to kąt... ah! Ok, kąt początkowy, aby rozpocząć łuk, w stopniach,",
+            "ar": "البدء والتوقف هو زاوية... آه! حسنا، زاوية البداية لبدء القوس في، بالدرجات،"
+         },
+         "startTime": 299558,
+         "endTime": 305280
+      },
+      {
+         "text": {
+            "en": "and stop is where to stop it at, right.",
+            "pl": "i zatrzymaj się, gdzie go zatrzymać, w prawo.",
+            "ar": "والتوقف هو المكان الذي يمكن إيقافه عند، صحيح."
+         },
+         "startTime": 305280,
+         "endTime": 307564
+      },
+      {
+         "text": {
+            "en": "And we can actually look at the examples they've done here,",
+            "pl": "Możemy przyjrzeć się przykładom, które tu zrobili.",
+            "ar": "ويمكننا أن ننظر في الواقع إلى الأمثلة التي فعلوها هنا،"
+         },
+         "startTime": 307564,
+         "endTime": 309798
+      },
+      {
+         "text": {
+            "en": "so drawing the arc from 1 to 270, that's probably this guy over here, right,",
+            "pl": "Więc rysowanie łuku od 1 do 270, to pewnie ten facet tutaj, prawda,",
+            "ar": "لذا رسم القوس من 1 إلى 270، هذا على الأرجح هذا الرجل هنا، صحيح،"
+         },
+         "startTime": 309798,
+         "endTime": 314865
+      },
+      {
+         "text": {
+            "en": "because 1 degree to 270 degrees, that's what that would look like.",
+            "pl": "ponieważ 1 stopień do 270 stopni, tak by to wyglądało.",
+            "ar": "لأن 1 درجة إلى 270 درجة، وهذا ما من شأنه أن تبدو."
+         },
+         "startTime": 314865,
+         "endTime": 319327
+      },
+      {
+         "text": {
+            "en": "Let's try and change it. There we go, that makes sense, right, because 1 to 180,",
+            "pl": "Spróbujmy to zmienić. Idziemy, to ma sens, prawda, bo od 1 do 180,",
+            "ar": "دعونا نحاول تغييره. ها نحن ذا، هذا منطقي، صحيح، لأن من 1 إلى 180،"
+         },
+         "startTime": 319327,
+         "endTime": 323744
+      },
+      {
+         "text": {
+            "en": "that's kind of what we want, right, because we want our half arc...",
+            "pl": "Tego właśnie chcemy, prawda, bo chcemy naszego pół łuku...",
+            "ar": "هذا نوع من ما نريده، صحيح، لأننا نريد نصف قوس لدينا..."
+         },
+         "startTime": 323744,
+         "endTime": 326742
+      },
+      {
+         "text": {
+            "en": "Ok, so now I think I understand arc well enough to use it,",
+            "pl": "Ok, więc teraz myślę, że rozumiem łuk wystarczająco dobrze, aby go użyć.",
+            "ar": "حسنا، حتى الآن أعتقد أنني أفهم قوس جيدا بما فيه الكفاية لاستخدامها،"
+         },
+         "startTime": 326742,
+         "endTime": 330798
+      },
+      {
+         "text": {
+            "en": "and let's go back to my smiley...",
+            "pl": "i wróćmy do mojej buźki...",
+            "ar": "ودعونا نعود إلى مبتسم بلدي..."
+         },
+         "startTime": 330798,
+         "endTime": 332365
+      },
+      {
+         "text": {
+            "en": "All right, so we're going from 0 to 180, and...",
+            "pl": "Dobra, więc idziemy od 0 do 180 i...",
+            "ar": "كل الحق، لذلك نحن ذاهبون من 0 إلى 180، و..."
+         },
+         "startTime": 332365,
+         "endTime": 340797
+      },
+      {
+         "text": {
+            "en": "we've almost got it. My x amount is off because I didn't realize",
+            "pl": "Prawie go mamy. Moja kwota x jest wyłączona, ponieważ nie zdawałem sobie sprawy",
+            "ar": "لقد حصلنا عليه تقريباً بلدي x المبلغ هو خارج لأنني لم أدرك"
+         },
+         "startTime": 340797,
+         "endTime": 343330
+      },
+      {
+         "text": {
+            "en": "that x is actually the middle of the ellipse,",
+            "pl": "że x jest faktycznie środkiem elipsy,",
+            "ar": "أن x هو في الواقع منتصف القطع الناقص،"
+         },
+         "startTime": 343330,
+         "endTime": 347376
+      },
+      {
+         "text": {
+            "en": "and is a little bit wide, so let's go make that smaller!",
+            "pl": "i jest trochę szeroka, więc zróbmy to mniej!",
+            "ar": "وهو واسع قليلا، لذلك دعونا نذهب جعل ذلك أصغر!"
+         },
+         "startTime": 347376,
+         "endTime": 352210
+      },
+      {
+         "text": {
+            "en": "Haha! I now have a real smiley face!",
+            "pl": "Haha! Teraz mam prawdziwą uśmiechniętą buźkę!",
+            "ar": "هاها! لدي الآن وجه مبتسم حقيقي!"
+         },
+         "startTime": 352210,
+         "endTime": 357282
+      },
+      {
+         "text": {
+            "en": "Thanks to using the docs I was able to do what I wanted much faster.",
+            "pl": "Dzięki korzystaniu z dokumentów udało mi się zrobić to, co chciałem znacznie szybciej.",
+            "ar": "بفضل استخدام المستندات تمكنت من القيام بما أردت أسرع بكثير."
+         },
+         "startTime": 357282,
+         "endTime": 361530
+      },
+      {
+         "text": {
+            "en": "And that's a goal of programming - turn our ideas into reality faster.",
+            "pl": "I to jest cel programowania - przekształć nasze pomysły w rzeczywistość szybciej.",
+            "ar": "وهذا هو هدف البرمجة - تحويل أفكارنا إلى واقع أسرع."
+         },
+         "startTime": 361530,
+         "endTime": 366732
+      },
+      {
+         "text": {
+            "en": "Remember - use the power of the docs!",
+            "pl": "Pamiętaj - użyj mocy dokumentów!",
+            "ar": "تذكر - استخدام قوة المستندات!"
+         },
+         "startTime": 366732,
+         "endTime": 369700
+      }
+   ],
+   "url": "https://www.youtube-nocookie.com/api/timedtext?v=If3KlMxbtcc&asr_langs=de%2Cen%2Ces%2Cfr%2Cit%2Cja%2Cko%2Cnl%2Cpt%2Cru&caps=asr&exp=xftt&xorp=true&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1615784776&sparams=ip%2Cipbits%2Cexpire%2Cv%2Casr_langs%2Ccaps%2Cexp%2Cxorp%2Cxoaf&signature=BE591D078418FFB4BCA9D2358781D29046973F2F.671AD40A491D663300570C18E9E990624973075A&key=yt8&lang=en&fmt=json3&xorb=2&xobt=3&xovt=3",
+   "title": "The Power of the Docs (video) | Coloring | Khan Academy"
+}

@@ -1,0 +1,735 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- [Voiceover] Do you remember the steps",
+            "pl": "- [Voiceover] Pamiętasz kroki",
+            "ar": "- [Voiceover] هل تذكر الخطوات"
+         },
+         "endTime": 2000,
+         "startTime": 710
+      },
+      {
+         "text": {
+            "en": "of making an animation?",
+            "pl": "tworzenia animacji?",
+            "ar": "من صنع الرسوم المتحركة؟"
+         },
+         "endTime": 3967,
+         "startTime": 2000
+      },
+      {
+         "text": {
+            "en": "Let's review them to see how this ball animation works.",
+            "pl": "Przejrzyjmy je, aby zobaczyć, jak działa ta animacja piłki.",
+            "ar": "دعونا مراجعتها لنرى كيف تعمل هذه الكرة الرسوم المتحركة."
+         },
+         "endTime": 7530,
+         "startTime": 3967
+      },
+      {
+         "text": {
+            "en": "So, first, outside of our draw function",
+            "pl": "Tak więc, po pierwsze, poza naszą funkcją rysowania",
+            "ar": "لذلك، أولا، خارج وظيفة الرسم لدينا"
+         },
+         "endTime": 12180,
+         "startTime": 8800
+      },
+      {
+         "text": {
+            "en": "we declare variables,",
+            "pl": "deklarujemy zmienne,",
+            "ar": "نعلن المتغيرات،"
+         },
+         "endTime": 13730,
+         "startTime": 12180
+      },
+      {
+         "text": {
+            "en": "whatever variables we wanna use in the animation.",
+            "pl": "niezależnie od zmiennych chcemy użyć w animacji.",
+            "ar": "مهما كانت المتغيرات التي نريد استخدامها في الرسوم المتحركة."
+         },
+         "endTime": 16656,
+         "startTime": 13730
+      },
+      {
+         "text": {
+            "en": "In this program, we declare four variables:",
+            "pl": "W tym programie zadeklarujemy cztery zmienne:",
+            "ar": "في هذا البرنامج، نعلن أربعة متغيرات:"
+         },
+         "endTime": 19240,
+         "startTime": 16656
+      },
+      {
+         "text": {
+            "en": "x, y, ballWidth, and ballHeight.",
+            "pl": "x, y, ballWidth i ballHeight.",
+            "ar": "س، ذ، بالويدث، و بالارتفاع."
+         },
+         "endTime": 22150,
+         "startTime": 19240
+      },
+      {
+         "text": {
+            "en": "Then inside our draw function",
+            "pl": "Następnie wewnątrz naszej funkcji rysowania",
+            "ar": "ثم داخل وظيفة الرسم لدينا"
+         },
+         "endTime": 25030,
+         "startTime": 23100
+      },
+      {
+         "text": {
+            "en": "we use those variables and change them in some way.",
+            "pl": "używamy tych zmiennych i zmieniamy je w jakiś sposób.",
+            "ar": "نحن نستخدم تلك المتغيرات وتغييرها بطريقة ما."
+         },
+         "endTime": 29032,
+         "startTime": 25030
+      },
+      {
+         "text": {
+            "en": "In this program, we use the variables to draw an ellipse,",
+            "pl": "W tym programie używamy zmiennych, aby narysować elipsę,",
+            "ar": "في هذا البرنامج، نستخدم المتغيرات لرسم القطع الناقص،"
+         },
+         "endTime": 33540,
+         "startTime": 29032
+      },
+      {
+         "text": {
+            "en": "passing a variable for every parameter.",
+            "pl": "przekazując zmienną dla każdego parametru.",
+            "ar": "تمرير متغير لكل معلمة."
+         },
+         "endTime": 37093,
+         "startTime": 33540
+      },
+      {
+         "text": {
+            "en": "And since we are passing a variable for every parameter,",
+            "pl": "A ponieważ mijamy zmienną dla każdego parametru,",
+            "ar": "وبما أننا نمر متغير لكل معلمة،"
+         },
+         "endTime": 40117,
+         "startTime": 37093
+      },
+      {
+         "text": {
+            "en": "that means, actually, that we can animate every aspect",
+            "pl": "Oznacza to, że możemy animować każdy aspekt",
+            "ar": "وهذا يعني، في الواقع، أنه يمكننا تحريك كل جانب"
+         },
+         "endTime": 43810,
+         "startTime": 40117
+      },
+      {
+         "text": {
+            "en": "of this ellipse.",
+            "pl": "tej elipsy.",
+            "ar": "من هذا القطع الناقص."
+         },
+         "endTime": 45269,
+         "startTime": 43810
+      },
+      {
+         "text": {
+            "en": "And that's just what we're doing, look at that!",
+            "pl": "I to właśnie robimy, spójrz na to!",
+            "ar": "وهذا ما نفعله، انظر إلى ذلك!"
+         },
+         "endTime": 47300,
+         "startTime": 45269
+      },
+      {
+         "text": {
+            "en": "So, how are we changing those numbers?",
+            "pl": "Więc, jak zmieniamy te liczby?",
+            "ar": "إذاً، كيف نغير تلك الأرقام؟"
+         },
+         "endTime": 50985,
+         "startTime": 48180
+      },
+      {
+         "text": {
+            "en": "That's what we're doing with these lines of code here.",
+            "pl": "To właśnie robimy z tymi linijkami kodu tutaj.",
+            "ar": "هذا ما نقوم به مع هذه الأسطر من التعليمات البرمجية هنا."
+         },
+         "endTime": 54307,
+         "startTime": 50985
+      },
+      {
+         "text": {
+            "en": "On this line we add one to x,",
+            "pl": "Na tej linii dodajemy jeden do x,",
+            "ar": "على هذا الخط نضيف واحد إلى x،"
+         },
+         "endTime": 57470,
+         "startTime": 54307
+      },
+      {
+         "text": {
+            "en": "which means that the ball moves one pixel to the right",
+            "pl": "co oznacza, że piłka przesuwa się o jeden piksel w prawo",
+            "ar": "وهو ما يعني أن الكرة تتحرك بكسل واحد إلى اليمين"
+         },
+         "endTime": 60250,
+         "startTime": 57470
+      },
+      {
+         "text": {
+            "en": "in every frame.",
+            "pl": "w każdej ramce.",
+            "ar": "في كل إطار."
+         },
+         "endTime": 61718,
+         "startTime": 60250
+      },
+      {
+         "text": {
+            "en": "On this line we subtract two from y,",
+            "pl": "Na tej linii odejmujemy dwa od y,",
+            "ar": "على هذا الخط نطرح اثنين من y،"
+         },
+         "endTime": 65174,
+         "startTime": 61718
+      },
+      {
+         "text": {
+            "en": "which means that our ball moves two pixels up",
+            "pl": "co oznacza, że nasza piłka przesuwa dwa piksele w górę",
+            "ar": "مما يعني أن كرتنا تتحرك اثنين بكسل لأعلى"
+         },
+         "endTime": 67970,
+         "startTime": 65174
+      },
+      {
+         "text": {
+            "en": "in every frame.",
+            "pl": "w każdej ramce.",
+            "ar": "في كل إطار."
+         },
+         "endTime": 69090,
+         "startTime": 67970
+      },
+      {
+         "text": {
+            "en": "See that?",
+            "pl": "Widzisz to?",
+            "ar": "أترى ذلك؟"
+         },
+         "endTime": 70060,
+         "startTime": 69090
+      },
+      {
+         "text": {
+            "en": "Now, on these lines we're using some math operators",
+            "pl": "Teraz, na tych liniach używamy kilku operatorów matematycznych",
+            "ar": "الآن، على هذه السطور نحن نستخدم بعض مشغلي الرياضيات"
+         },
+         "endTime": 74800,
+         "startTime": 71730
+      },
+      {
+         "text": {
+            "en": "that you may not have seen before.",
+            "pl": "których nie widzieliście wcześniej.",
+            "ar": "التي ربما لم تراها من قبل"
+         },
+         "endTime": 76802,
+         "startTime": 74800
+      },
+      {
+         "text": {
+            "en": "This star operator is how we multiply in JavaScript.",
+            "pl": "Ten operator gwiazda jest jak mnożyć w JavaScript.",
+            "ar": "هذا المشغل النجم هو كيف نضاعف في جافا سكريبت."
+         },
+         "endTime": 81548,
+         "startTime": 76802
+      },
+      {
+         "text": {
+            "en": "And the slash operator is how we divide.",
+            "pl": "A operator slash jest jak dzielimy.",
+            "ar": "والمشغل المائل هو كيف نقسم."
+         },
+         "endTime": 84626,
+         "startTime": 81548
+      },
+      {
+         "text": {
+            "en": "So this expression here is taking the variable ballWidth",
+            "pl": "Więc to wyrażenie tutaj bierze zmienną ballWidth",
+            "ar": "لذلك هذا التعبير هنا هو أخذ متغير BallWidth"
+         },
+         "endTime": 89380,
+         "startTime": 84626
+      },
+      {
+         "text": {
+            "en": "and multiplying it by the fraction 99 over 100.",
+            "pl": "i pomnożenie przez ułamek 99 na 100.",
+            "ar": "و ضربها في الكسر 99 على 100."
+         },
+         "endTime": 93680,
+         "startTime": 89380
+      },
+      {
+         "text": {
+            "en": "Basically, it's making the width be 99%",
+            "pl": "Zasadniczo, to sprawia, że szerokość wynosi 99%",
+            "ar": "في الأساس، انها تجعل العرض يكون 99٪"
+         },
+         "endTime": 97560,
+         "startTime": 94450
+      },
+      {
+         "text": {
+            "en": "of what it was before.",
+            "pl": "tego, co było wcześniej.",
+            "ar": "لما كان عليه من قبل"
+         },
+         "endTime": 99064,
+         "startTime": 97560
+      },
+      {
+         "text": {
+            "en": "See?",
+            "pl": "Widzisz?",
+            "ar": "أترى؟"
+         },
+         "endTime": 100440,
+         "startTime": 99064
+      },
+      {
+         "text": {
+            "en": "And we're doing the same thing on the next line,",
+            "pl": "I robimy to samo w następnej linii,",
+            "ar": "ونحن نفعل نفس الشيء في السطر التالي،"
+         },
+         "endTime": 102440,
+         "startTime": 100440
+      },
+      {
+         "text": {
+            "en": "but with ballHeight.",
+            "pl": "ale z BallHeight.",
+            "ar": "ولكن مع بالارتفاع."
+         },
+         "endTime": 103700,
+         "startTime": 102440
+      },
+      {
+         "text": {
+            "en": "So, each time ballHeight becomes 99% of what is was before.",
+            "pl": "Tak więc, za każdym razem BallHeight staje się 99% tego, co było wcześniej.",
+            "ar": "لذلك، في كل مرة BallHeight يصبح 99٪ مما كان عليه من قبل."
+         },
+         "endTime": 108170,
+         "startTime": 103700
+      },
+      {
+         "text": {
+            "en": "That means, you know, just to show you the math,",
+            "pl": "To znaczy, wiesz, żeby pokazać ci matematykę,",
+            "ar": "هذا يعني، كما تعلمون، فقط لتريك الرياضيات،"
+         },
+         "endTime": 111300,
+         "startTime": 109080
+      },
+      {
+         "text": {
+            "en": "if ballHeight starts off at 200,",
+            "pl": "jeśli ballHeight zaczyna się od 200,",
+            "ar": "إذا بدأ بالارتفاع في 200،"
+         },
+         "endTime": 114576,
+         "startTime": 111300
+      },
+      {
+         "text": {
+            "en": "then on the second frame it'll be 198",
+            "pl": "następnie na drugiej ramie będzie 198",
+            "ar": "ثم على الإطار الثاني سيكون 198"
+         },
+         "endTime": 117867,
+         "startTime": 114576
+      },
+      {
+         "text": {
+            "en": "because that's 99% of 200.",
+            "pl": "Bo to 99% z 200.",
+            "ar": "لأن هذا 99% من 200"
+         },
+         "endTime": 120514,
+         "startTime": 117867
+      },
+      {
+         "text": {
+            "en": "See?",
+            "pl": "Widzisz?",
+            "ar": "أترى؟"
+         },
+         "endTime": 121640,
+         "startTime": 120514
+      },
+      {
+         "text": {
+            "en": "All right.",
+            "pl": "W porządku.",
+            "ar": "حسناً"
+         },
+         "endTime": 123200,
+         "startTime": 122530
+      },
+      {
+         "text": {
+            "en": "So, we can see that this is the actual effect",
+            "pl": "Widzimy więc, że jest to rzeczywisty efekt",
+            "ar": "لذلك، يمكننا أن نرى أن هذا هو التأثير الفعلي"
+         },
+         "endTime": 125780,
+         "startTime": 123200
+      },
+      {
+         "text": {
+            "en": "of our animation.",
+            "pl": "naszej animacji.",
+            "ar": "من الرسوم المتحركة لدينا."
+         },
+         "endTime": 127270,
+         "startTime": 125780
+      },
+      {
+         "text": {
+            "en": "Now, if you look at these four lines of code,",
+            "pl": "Teraz, jeśli spojrzysz na te cztery linie kodu,",
+            "ar": "الآن، إذا نظرتم إلى هذه الأسطر الأربعة من التعليمات البرمجية،"
+         },
+         "endTime": 131961,
+         "startTime": 127990
+      },
+      {
+         "text": {
+            "en": "you'll notice they all follow a similar pattern.",
+            "pl": "Zauważysz, że wszystkie podążają za podobnym wzorcem.",
+            "ar": "ستلاحظ أنهم جميعًا يتبعون نمطًا مشابهًا."
+         },
+         "endTime": 134830,
+         "startTime": 131961
+      },
+      {
+         "text": {
+            "en": "We have a variable, then an equal sign,",
+            "pl": "Mamy zmienną, a następnie znak równości,",
+            "ar": "لدينا متغير، ثم علامة متساوية،"
+         },
+         "endTime": 138830,
+         "startTime": 135540
+      },
+      {
+         "text": {
+            "en": "then that same variable again,",
+            "pl": "następnie ta sama zmienna ponownie,",
+            "ar": "ثم نفس المتغير مرة أخرى،"
+         },
+         "endTime": 140899,
+         "startTime": 138830
+      },
+      {
+         "text": {
+            "en": "then some math operator, and then some number.",
+            "pl": "potem jakiś operator matematyki, a następnie jakiś numer.",
+            "ar": "ثم بعض مشغلي الرياضيات، ومن ثم بعض الأرقام."
+         },
+         "endTime": 144970,
+         "startTime": 140899
+      },
+      {
+         "text": {
+            "en": "And you can see that in all four lines of code.",
+            "pl": "Widać to we wszystkich czterech liniach kodu.",
+            "ar": "ويمكنك أن ترى ذلك في جميع الأسطر الأربعة من التعليمات البرمجية."
+         },
+         "endTime": 150157,
+         "startTime": 146120
+      },
+      {
+         "text": {
+            "en": "This pattern is common in programming",
+            "pl": "Ten wzór jest powszechny w programowaniu",
+            "ar": "هذا النمط شائع في البرمجة"
+         },
+         "endTime": 152980,
+         "startTime": 150157
+      },
+      {
+         "text": {
+            "en": "because we often take a variable",
+            "pl": "ponieważ często przyjmujemy zmienną",
+            "ar": "لأننا في كثير من الأحيان تأخذ متغير"
+         },
+         "endTime": 155040,
+         "startTime": 152980
+      },
+      {
+         "text": {
+            "en": "and do some math operation to it",
+            "pl": "i zrobić jakąś operację matematyki do niego",
+            "ar": "والقيام ببعض العمليات الحسابية لذلك"
+         },
+         "endTime": 157660,
+         "startTime": 155040
+      },
+      {
+         "text": {
+            "en": "and store the result in the same variable.",
+            "pl": "i zapisać wynik w tej samej zmiennej.",
+            "ar": "وتخزين النتيجة في نفس المتغير."
+         },
+         "endTime": 159950,
+         "startTime": 157660
+      },
+      {
+         "text": {
+            "en": "Now, programmers, we don't like to do",
+            "pl": "Programiści, nie lubimy tego robić",
+            "ar": "الآن، المبرمجين، نحن لا نحب أن نفعل"
+         },
+         "endTime": 163440,
+         "startTime": 160680
+      },
+      {
+         "text": {
+            "en": "more work than necessary,",
+            "pl": "więcej pracy niż jest to konieczne,",
+            "ar": "المزيد من العمل مما هو ضروري،"
+         },
+         "endTime": 164930,
+         "startTime": 163440
+      },
+      {
+         "text": {
+            "en": "so, you know, a long time ago programmers decided,",
+            "pl": "Więc, wiesz, dawno temu programiści zdecydowali,",
+            "ar": "لذلك، كما تعلمون، منذ وقت طويل قرر المبرمجون،"
+         },
+         "endTime": 167957,
+         "startTime": 164930
+      },
+      {
+         "text": {
+            "en": "hey, since we use this pattern so much,",
+            "pl": "Hej, skoro tak bardzo używamy tego wzoru,",
+            "ar": "مهلا، بما أننا نستخدم هذا النمط كثيرا،"
+         },
+         "endTime": 170600,
+         "startTime": 167957
+      },
+      {
+         "text": {
+            "en": "shouldn't there be an easier way to type it?",
+            "pl": "Nie powinien być łatwiejszy sposób, aby go wpisać?",
+            "ar": "ألا ينبغي أن يكون هناك طريقة أسهل لكتابة ذلك؟"
+         },
+         "endTime": 173889,
+         "startTime": 170600
+      },
+      {
+         "text": {
+            "en": "So, they invented shortcuts.",
+            "pl": "Więc wynaleźli skróty.",
+            "ar": "لذلك، اخترعوا اختصارات."
+         },
+         "endTime": 176980,
+         "startTime": 173889
+      },
+      {
+         "text": {
+            "en": "I'll show you.",
+            "pl": "Pokażę ci.",
+            "ar": "سأريك"
+         },
+         "endTime": 178325,
+         "startTime": 176980
+      },
+      {
+         "text": {
+            "en": "Instead of writing x equals x plus one,",
+            "pl": "Zamiast pisać x równa się x plus jeden,",
+            "ar": "بدلاً من كتابة x يساوي x زائد واحد،"
+         },
+         "endTime": 181821,
+         "startTime": 178325
+      },
+      {
+         "text": {
+            "en": "we can write x plus equals one",
+            "pl": "możemy napisać x plus równa się jeden",
+            "ar": "يمكننا كتابة x زائد يساوي واحد"
+         },
+         "endTime": 185294,
+         "startTime": 181821
+      },
+      {
+         "text": {
+            "en": "and it'll do the same thing.",
+            "pl": "i zrobi to samo.",
+            "ar": "وسوف تفعل الشيء نفسه."
+         },
+         "endTime": 187774,
+         "startTime": 185294
+      },
+      {
+         "text": {
+            "en": "Instead of this, y equals y minus two,",
+            "pl": "Zamiast tego, y równa się y minus dwa,",
+            "ar": "بدلا من هذا، ص يساوي ص ناقص اثنين،"
+         },
+         "endTime": 190600,
+         "startTime": 187774
+      },
+      {
+         "text": {
+            "en": "we can write y minus equals two.",
+            "pl": "możemy napisać y minus równa się dwóm.",
+            "ar": "يمكننا كتابة ذ ناقص يساوي اثنين."
+         },
+         "endTime": 193517,
+         "startTime": 190600
+      },
+      {
+         "text": {
+            "en": "Same thing.",
+            "pl": "To samo.",
+            "ar": "نفس الشيء"
+         },
+         "endTime": 195301,
+         "startTime": 193517
+      },
+      {
+         "text": {
+            "en": "Here, we can replace this with times equal.",
+            "pl": "Tutaj możemy zastąpić to czasy równe.",
+            "ar": "هنا، يمكننا استبدال هذا مع أوقات متساوية."
+         },
+         "endTime": 199189,
+         "startTime": 195301
+      },
+      {
+         "text": {
+            "en": "And the same thing on the next line.",
+            "pl": "I to samo w następnej linii.",
+            "ar": "ونفس الشيء على السطر التالي."
+         },
+         "endTime": 201496,
+         "startTime": 199189
+      },
+      {
+         "text": {
+            "en": "And when we restart, we can see our animation",
+            "pl": "A po ponownym uruchomieniu możemy zobaczyć naszą animację",
+            "ar": "وعندما نعيد تشغيل، يمكننا أن نرى الرسوم المتحركة لدينا"
+         },
+         "endTime": 204160,
+         "startTime": 201496
+      },
+      {
+         "text": {
+            "en": "is precisely the same.",
+            "pl": "jest dokładnie taka sama.",
+            "ar": "هو نفسه على وجه التحديد."
+         },
+         "endTime": 205860,
+         "startTime": 204160
+      },
+      {
+         "text": {
+            "en": "All we've done is use the shortcut",
+            "pl": "Wszystko, co zrobiliśmy, to użyć skrótu",
+            "ar": "كل ما فعلناه هو استخدام الاختصار"
+         },
+         "endTime": 208591,
+         "startTime": 205860
+      },
+      {
+         "text": {
+            "en": "to write the same expression in less code.",
+            "pl": "napisać to samo wyrażenie w mniejszym kodzie.",
+            "ar": "لكتابة نفس التعبير في أقل رمز."
+         },
+         "endTime": 211750,
+         "startTime": 208591
+      },
+      {
+         "text": {
+            "en": "There's also a divide equals shortcut",
+            "pl": "Istnieje również podział równa skrót",
+            "ar": "هناك أيضا تقسيم يساوي اختصار"
+         },
+         "endTime": 215774,
+         "startTime": 212720
+      },
+      {
+         "text": {
+            "en": "if you want to divide instead.",
+            "pl": ", jeśli chcesz podzielić zamiast tego.",
+            "ar": "إذا كنت تريد تقسيم بدلا من ذلك."
+         },
+         "endTime": 217430,
+         "startTime": 215774
+      },
+      {
+         "text": {
+            "en": "Hoo hoo, look at that!",
+            "pl": "Hoo hoo, spójrz na to!",
+            "ar": "هوو هوو، انظر إلى ذلك!"
+         },
+         "endTime": 219080,
+         "startTime": 217430
+      },
+      {
+         "text": {
+            "en": "That's weird!",
+            "pl": "To dziwne!",
+            "ar": "هذا غريب"
+         },
+         "endTime": 220751,
+         "startTime": 219080
+      },
+      {
+         "text": {
+            "en": "All right, so now that you know the shortcuts,",
+            "pl": "W porządku, więc teraz, kiedy znasz skróty,",
+            "ar": "حسناً, الآن بما أنك تعرف الاختصارات"
+         },
+         "endTime": 222740,
+         "startTime": 220751
+      },
+      {
+         "text": {
+            "en": "you can write less code for the same beautiful result.",
+            "pl": "możesz napisać mniej kodu dla tego samego pięknego wyniku.",
+            "ar": "يمكنك كتابة رمز أقل لنفس النتيجة الجميلة."
+         },
+         "endTime": 225892,
+         "startTime": 222740
+      },
+      {
+         "text": {
+            "en": "And that is what we programmers love.",
+            "pl": "I to właśnie kochamy programistów.",
+            "ar": "وهذا ما نحبه المبرمجون."
+         },
+         "endTime": 228810,
+         "startTime": 225892
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/2N8qQyAHmAo/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759622123",
+   "title": "Incrementing shortcuts | Animation basics | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

@@ -1,0 +1,690 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "We're back with our program that uses a function",
+            "pl": "Wróciliśmy do naszego programu, który korzysta z funkcji",
+            "ar": "عدنا مع برنامجنا الذي يستخدم وظيفة"
+         },
+         "endTime": 3728,
+         "startTime": 981
+      },
+      {
+         "text": {
+            "en": "to draw Winston four times.",
+            "pl": "narysować Winstona cztery razy.",
+            "ar": "لرسم وينستون أربع مرات."
+         },
+         "endTime": 5575,
+         "startTime": 3728
+      },
+      {
+         "text": {
+            "en": "And I've changed it to actually show what age he is",
+            "pl": "Zmieniłem to, żeby pokazać jaki jest wiek.",
+            "ar": "ولقد قمت بتغييره لأظهر في الواقع أي عمر هو"
+         },
+         "endTime": 8156,
+         "startTime": 5575
+      },
+      {
+         "text": {
+            "en": "at each point of life, and you'll see why soon.",
+            "pl": "w każdym punkcie życia, a zobaczysz, dlaczego wkrótce.",
+            "ar": "في كل نقطة من الحياة، وسترى لماذا قريبا."
+         },
+         "endTime": 10587,
+         "startTime": 8156
+      },
+      {
+         "text": {
+            "en": "But first I need to tell you something about Winston:",
+            "pl": "Ale najpierw muszę ci coś powiedzieć o Winstonie:",
+            "ar": "ولكن أولا أريد أن أقول لك شيئا عن وينستون:"
+         },
+         "endTime": 13549,
+         "startTime": 11377
+      },
+      {
+         "text": {
+            "en": "Winston has an addiction to donuts.",
+            "pl": "Winston uzależnia się od pączków.",
+            "ar": "وينستون لديه إدمان على الكعك."
+         },
+         "endTime": 15901,
+         "startTime": 13549
+      },
+      {
+         "text": {
+            "en": "He eats three of them a day.",
+            "pl": "Zjada trzy dziennie.",
+            "ar": "يأكل ثلاثة منهم في اليوم."
+         },
+         "endTime": 18437,
+         "startTime": 15901
+      },
+      {
+         "text": {
+            "en": "It's probably why his face is so big and yellow.",
+            "pl": "Pewnie dlatego jego twarz jest taka duża i żółta.",
+            "ar": "ربما هذا هو السبب في أن وجهه كبير جدا وأصفر."
+         },
+         "endTime": 21333,
+         "startTime": 18437
+      },
+      {
+         "text": {
+            "en": "So to warn Winston about how bad donuts are for him,",
+            "pl": "Więc ostrzec Winstona o tym, jak złe pączki są dla niego,",
+            "ar": "لذا لتحذير وينستون عن مدى سوء الكعك بالنسبة له"
+         },
+         "endTime": 25311,
+         "startTime": 21703
+      },
+      {
+         "text": {
+            "en": "I wanna modify this program to show how many donuts",
+            "pl": "Chcę zmodyfikować ten program, aby pokazać ile pączków",
+            "ar": "أريد تعديل هذا البرنامج لإظهار عدد الكعك"
+         },
+         "endTime": 28263,
+         "startTime": 25311
+      },
+      {
+         "text": {
+            "en": "he's eaten total at each point in his life.",
+            "pl": "Jadł w sumie w każdym punkcie swojego życia.",
+            "ar": "لقد أكل كلياً في كل نقطة في حياته"
+         },
+         "endTime": 31755,
+         "startTime": 28263
+      },
+      {
+         "text": {
+            "en": "For example, when he's two years old,",
+            "pl": "Na przykład, gdy ma dwa lata,",
+            "ar": "على سبيل المثال، عندما يبلغ من العمر سنتين"
+         },
+         "endTime": 35783,
+         "startTime": 32095
+      },
+      {
+         "text": {
+            "en": "that means he's eaten 3 times 365 times 2,",
+            "pl": "To znaczy, że zjadł 3 razy 365 razy 2,",
+            "ar": "وهذا يعني أنه أكل 3 مرات 365 مرة 2،"
+         },
+         "endTime": 41598,
+         "startTime": 35873
+      },
+      {
+         "text": {
+            "en": "so three in a day, times 365 days, times 2 years.",
+            "pl": "więc trzy w ciągu dnia, razy 365 dni, razy 2 lata.",
+            "ar": "حتى ثلاثة في اليوم، مرات 365 يوما، مرات 2 سنوات."
+         },
+         "endTime": 45873,
+         "startTime": 41598
+      },
+      {
+         "text": {
+            "en": "And we'll just display that underneath that header, so wow!",
+            "pl": "I pokażemy to pod nagłówkiem, więc wow!",
+            "ar": "ونحن سوف مجرد عرض أن تحت هذا الرأس، لذلك نجاح باهر!"
+         },
+         "endTime": 50330,
+         "startTime": 45873
+      },
+      {
+         "text": {
+            "en": "Two thousand donuts, that is a lot of donuts for a two-year-old.",
+            "pl": "Dwa tysiące pączków, to dużo pączków jak na dwulatka.",
+            "ar": "ألفي دونات، وهذا هو الكثير من الكعك لطفل يبلغ من العمر عامين."
+         },
+         "endTime": 53945,
+         "startTime": 50330
+      },
+      {
+         "text": {
+            "en": "Now when he's 14 years old, let's see, he's had 3 times 365 times 14",
+            "pl": "Teraz, gdy ma 14 lat, zobaczmy, miał 3 razy 365 razy 14.",
+            "ar": "الآن عندما يبلغ من العمر 14 عاما، دعونا نرى، كان لديه 3 مرات 365 مرة 14"
+         },
+         "endTime": 62452,
+         "startTime": 53945
+      },
+      {
+         "text": {
+            "en": "And that is 15,000 donuts. All right.",
+            "pl": "A to jest 15,000 pączków. W porządku.",
+            "ar": "وهذا هو 15،000 دونات. حسناً"
+         },
+         "endTime": 68446,
+         "startTime": 64032
+      },
+      {
+         "text": {
+            "en": "So I could keep doing this math, but I'm beginning to notice a pattern.",
+            "pl": "Żebym mógł robić tę matematykę, ale zaczynam dostrzegać wzorzec.",
+            "ar": "حتى أتمكن من الاستمرار في القيام بهذه الرياضيات، ولكن أنا بدأت لاحظت نمط."
+         },
+         "endTime": 72620,
+         "startTime": 68446
+      },
+      {
+         "text": {
+            "en": "I'm repeating my calculation here,",
+            "pl": "Powtarzam moje obliczenia tutaj,",
+            "ar": "أنا أكرر حسابي هنا"
+         },
+         "endTime": 76718,
+         "startTime": 73150
+      },
+      {
+         "text": {
+            "en": "and I'm just changing one thing about it: the number of years.",
+            "pl": "i zmieniam w tym jedną rzecz: liczbę lat.",
+            "ar": "وأنا أقوم بتغيير شيء واحد حول هذا الموضوع: عدد السنوات."
+         },
+         "endTime": 80416,
+         "startTime": 76718
+      },
+      {
+         "text": {
+            "en": "Whenever I see repeated code like this,",
+            "pl": "Ilekroć widzę powtarzający się kod jak ten,",
+            "ar": "كلما رأيت التعليمات البرمجية المتكررة مثل هذا،"
+         },
+         "endTime": 82872,
+         "startTime": 80416
+      },
+      {
+         "text": {
+            "en": "I think to myself, \"Hmm, can I make that into a function?\"",
+            "pl": "Myślę sobie: „Hmm, czy mogę to zrobić w funkcję?”",
+            "ar": "أعتقد لنفسي، «همم، هل يمكنني جعل ذلك إلى وظيفة؟»"
+         },
+         "endTime": 88348,
+         "startTime": 82872
+      },
+      {
+         "text": {
+            "en": "Yeah, definitely, we can. So let's do that now.",
+            "pl": "Tak, zdecydowanie możemy. Więc zróbmy to teraz.",
+            "ar": "نعم، بالتأكيد، يمكننا. لذلك دعونا نفعل ذلك الآن."
+         },
+         "endTime": 91835,
+         "startTime": 88348
+      },
+      {
+         "text": {
+            "en": "I'll define my function up here",
+            "pl": "Zdefiniuję tutaj moją funkcję",
+            "ar": "سأقوم بتعريف وظيفتي هنا"
+         },
+         "endTime": 94416,
+         "startTime": 92795
+      },
+      {
+         "text": {
+            "en": "and call it calcTotalDonuts = function",
+            "pl": "i nazwać to calcTotalDonuts = funkcja",
+            "ar": "ويطلق عليه CalctotalDonuts = وظيفة"
+         },
+         "endTime": 100377,
+         "startTime": 94416
+      },
+      {
+         "text": {
+            "en": "And it's going to take one parameter, the number of years,",
+            "pl": "I to zajmie jeden parametr, liczba lat,",
+            "ar": "وانها سوف تأخذ معلمة واحدة، وعدد السنوات،"
+         },
+         "endTime": 104228,
+         "startTime": 100917
+      },
+      {
+         "text": {
+            "en": "because that's the only thing that we're changing",
+            "pl": "bo to jedyna rzecz, którą zmieniamy",
+            "ar": "لأن هذا هو الشيء الوحيد الذي نقوم بتغييره"
+         },
+         "endTime": 106022,
+         "startTime": 104228
+      },
+      {
+         "text": {
+            "en": "each time we do this calculation.",
+            "pl": "za każdym razem, gdy robimy to obliczenia.",
+            "ar": "في كل مرة نقوم بهذا الحساب."
+         },
+         "endTime": 108566,
+         "startTime": 106022
+      },
+      {
+         "text": {
+            "en": "And then inside, we'll do the calculation,",
+            "pl": "A potem w środku, zrobimy obliczenia,",
+            "ar": "ثم في الداخل، سنفعل الحساب،"
+         },
+         "endTime": 112878,
+         "startTime": 109316
+      },
+      {
+         "text": {
+            "en": "and save it into a variable, so it'll be 3 times 365 times numYears.",
+            "pl": "i zapisz ją w zmiennej, więc będzie to 3 razy 365 razy NuMyEars.",
+            "ar": "وحفظه في متغير، لذلك سوف يكون 3 مرات 365 مرات Numyears."
+         },
+         "endTime": 119600,
+         "startTime": 112878
+      },
+      {
+         "text": {
+            "en": "All right, so now that we have that function,",
+            "pl": "Dobra, więc teraz, gdy mamy tę funkcję,",
+            "ar": "كل الحق، وحتى الآن أن لدينا هذه الوظيفة،"
+         },
+         "endTime": 123099,
+         "startTime": 120680
+      },
+      {
+         "text": {
+            "en": "I'm going to replace this expression here with calcTotalDonuts,",
+            "pl": "Zamierzam zastąpić to wyrażenie tutaj CalcTotalDonuts,",
+            "ar": "انا ذاهب لاستبدال هذا التعبير هنا مع كالكتوتالدونتس،"
+         },
+         "endTime": 128598,
+         "startTime": 123099
+      },
+      {
+         "text": {
+            "en": "the call to the function, and passing in \"2\".",
+            "pl": "wywołanie funkcji i przechodząc w „2\".",
+            "ar": "الدعوة إلى وظيفة، ويمر في «2\"."
+         },
+         "endTime": 131568,
+         "startTime": 128598
+      },
+      {
+         "text": {
+            "en": "Okay, um, well now we don't see any total at all.",
+            "pl": "Okej, um, cóż, teraz w ogóle nie widzimy.",
+            "ar": "حسنا، حسنا الآن نحن لا نرى أي مجموع على الإطلاق."
+         },
+         "endTime": 136877,
+         "startTime": 132738
+      },
+      {
+         "text": {
+            "en": "Hmm, okay, what happened?",
+            "pl": "Hmm, ok, co się stało?",
+            "ar": "حسناً، ماذا حدث؟"
+         },
+         "endTime": 139092,
+         "startTime": 137227
+      },
+      {
+         "text": {
+            "en": "Well, our function did calculate the total, here,",
+            "pl": "Cóż, nasza funkcja obliczyła sumę, tutaj,",
+            "ar": "حسنا، وظيفتنا لم حساب المجموع، هنا،"
+         },
+         "endTime": 142616,
+         "startTime": 139092
+      },
+      {
+         "text": {
+            "en": "but it didn't tell anybody about that total.",
+            "pl": "Ale to nikomu o tym nie mówiło.",
+            "ar": "لكنها لم تخبر أحدا عن هذا المجموع."
+         },
+         "endTime": 145640,
+         "startTime": 143096
+      },
+      {
+         "text": {
+            "en": "It's like if a teacher calls on you in class to answer a question",
+            "pl": "To tak, jakby nauczyciel wzywał cię na zajęciach, by odpowiedzieć na pytanie.",
+            "ar": "انها مثل إذا كان المعلم يدعوك في الصف للإجابة على سؤال"
+         },
+         "endTime": 150367,
+         "startTime": 146050
+      },
+      {
+         "text": {
+            "en": "and you answer it in your head",
+            "pl": "i odpowiadasz na to w swojej głowie",
+            "ar": "وأنت تجيب عليه في رأسك"
+         },
+         "endTime": 151744,
+         "startTime": 150367
+      },
+      {
+         "text": {
+            "en": "but you're too shy to say the answer.",
+            "pl": "Ale jesteś zbyt nieśmiały, by powiedzieć odpowiedź.",
+            "ar": "لكنك خجولة جدا من قول الجواب"
+         },
+         "endTime": 153652,
+         "startTime": 151744
+      },
+      {
+         "text": {
+            "en": "You've done the work, but your teacher's never gonna know about it.",
+            "pl": "Wykonałeś robotę, ale twój nauczyciel nigdy się o tym nie dowie.",
+            "ar": "لقد قمتِ بالعمل، لكن معلمك لن يعرف عنه أبداً"
+         },
+         "endTime": 156998,
+         "startTime": 153652
+      },
+      {
+         "text": {
+            "en": "If we want the function to communicate a value",
+            "pl": "Jeśli chcemy, aby funkcja przekazywać wartość",
+            "ar": "إذا أردنا أن تقوم الوظيفة بتوصيل قيمة"
+         },
+         "endTime": 159679,
+         "startTime": 157348
+      },
+      {
+         "text": {
+            "en": "to whoever called it, the function has to explicitly return the value.",
+            "pl": "do tego, kto go nazwał, funkcja musi jawnie zwrócić wartość.",
+            "ar": "إلى كل من يطلق عليه، يجب على الدالة إرجاع القيمة بشكل صريح."
+         },
+         "endTime": 165170,
+         "startTime": 159679
+      },
+      {
+         "text": {
+            "en": "So for a function to return a value, we need to type return,",
+            "pl": "Więc dla funkcji, aby powrócić wartość, musimy wpisać powrót,",
+            "ar": "حتى لوظيفة لإرجاع قيمة، نحن بحاجة إلى كتابة العودة،"
+         },
+         "endTime": 169319,
+         "startTime": 165710
+      },
+      {
+         "text": {
+            "en": "and then whatever it wants to return.",
+            "pl": "a potem cokolwiek chce zwrócić.",
+            "ar": "ومن ثم كل ما يريد العودة."
+         },
+         "endTime": 171568,
+         "startTime": 169599
+      },
+      {
+         "text": {
+            "en": "Maybe it's a variable or a value or an expression,",
+            "pl": "Może jest to zmienna, wartość lub wyrażenie,",
+            "ar": "ربما يكون متغير أو قيمة أو تعبير،"
+         },
+         "endTime": 175138,
+         "startTime": 171568
+      },
+      {
+         "text": {
+            "en": "so here we'll say return totalDonuts, okay?",
+            "pl": "Więc tutaj powiemy „Zwrot totalDonuts „, dobrze?",
+            "ar": "حتى هنا سوف نقول العودة توتالدونتس، حسنا؟"
+         },
+         "endTime": 177749,
+         "startTime": 175138
+      },
+      {
+         "text": {
+            "en": "So whoever's calling that function's going to get this response.",
+            "pl": "Więc ktokolwiek dzwoni do tej funkcji, dostanie tę odpowiedź.",
+            "ar": "حتى كل من يدعو هذه الوظيفة سوف تحصل على هذه الاستجابة."
+         },
+         "endTime": 181540,
+         "startTime": 177749
+      },
+      {
+         "text": {
+            "en": "And now our value displays, yay!",
+            "pl": "A teraz nasza wartość wyświetla, yay!",
+            "ar": "والآن يعرض قيمتنا، ياي!"
+         },
+         "endTime": 184421,
+         "startTime": 181880
+      },
+      {
+         "text": {
+            "en": "And actually we can shorten our function,",
+            "pl": "I rzeczywiście możemy skrócić naszą funkcję,",
+            "ar": "وفي الواقع يمكننا تقصير وظيفتنا،"
+         },
+         "endTime": 186651,
+         "startTime": 184771
+      },
+      {
+         "text": {
+            "en": "we don't even have to store it into a variable,",
+            "pl": "nie musimy nawet przechowywać go w zmiennej,",
+            "ar": "ليس لدينا حتى لتخزينه في متغير،"
+         },
+         "endTime": 188341,
+         "startTime": 186651
+      },
+      {
+         "text": {
+            "en": "we can just take this whole expression here",
+            "pl": "możemy po prostu wziąć to całe wyrażenie tutaj",
+            "ar": "يمكننا فقط أن نأخذ هذا التعبير كله هنا"
+         },
+         "endTime": 190051,
+         "startTime": 188341
+      },
+      {
+         "text": {
+            "en": "put it in the return, and then it's just a one-liner. Nice.",
+            "pl": "umieścić go w powrocie, a potem jest to tylko jedna wkładka. Ładne.",
+            "ar": "وضعها في العودة، وبعد ذلك انها مجرد بطانة واحدة. جميل"
+         },
+         "endTime": 194268,
+         "startTime": 190051
+      },
+      {
+         "text": {
+            "en": "All right, so now we can go through",
+            "pl": "Dobra, więc teraz możemy przejść",
+            "ar": "حسنا، حتى الآن يمكننا أن نمر"
+         },
+         "endTime": 197166,
+         "startTime": 195068
+      },
+      {
+         "text": {
+            "en": "and calculate the total donuts at each point in life",
+            "pl": "i obliczyć całkowitą pączki w każdym punkcie życia",
+            "ar": "وحساب مجموع الكعك في كل نقطة في الحياة"
+         },
+         "endTime": 200444,
+         "startTime": 197166
+      },
+      {
+         "text": {
+            "en": "by just calling this function and passing in the number of years.",
+            "pl": "po prostu wywołując tę funkcję i mijając w liczbie lat.",
+            "ar": "فقط عن طريق استدعاء هذه الوظيفة وتمرير في عدد السنوات."
+         },
+         "endTime": 203452,
+         "startTime": 200444
+      },
+      {
+         "text": {
+            "en": "Um, let's see, it's calcTotalDonuts(25),",
+            "pl": "Um, zobaczmy, to CalcTotalDonuts (25),",
+            "ar": "أم، دعونا نرى، انها كالكتوتالدونتس (25)،"
+         },
+         "endTime": 208704,
+         "startTime": 204212
+      },
+      {
+         "text": {
+            "en": "position is correctly, calcTotalDonuts(65)",
+            "pl": "pozycja jest poprawnie, CalcTotalDonuts (65)",
+            "ar": "الموقف بشكل صحيح، كالكتوتالدوناتس (65)"
+         },
+         "endTime": 214056,
+         "startTime": 208704
+      },
+      {
+         "text": {
+            "en": "Okay! Wow, so if he makes it to 65,",
+            "pl": "Okej! Wow, więc jeśli dojedzie do 65,",
+            "ar": "حسنا! نجاح باهر، لذلك إذا كان قد جعله إلى 65،"
+         },
+         "endTime": 220241,
+         "startTime": 216366
+      },
+      {
+         "text": {
+            "en": "he will eat 70,000 donuts. That is a lot of donuts.",
+            "pl": "zje 70.000 pączków. To dużo pączków.",
+            "ar": "وقال انه سوف يأكل 70،000 الكعك. هذا هو الكثير من الكعك."
+         },
+         "endTime": 224406,
+         "startTime": 220241
+      },
+      {
+         "text": {
+            "en": "I don't think Winston's gonna make it. (laugh)",
+            "pl": "Nie sądzę, żeby Winston przechodzil. (śmiech)",
+            "ar": "لا أعتقد أن (وينستون) سينجح (تضحك)"
+         },
+         "endTime": 228051,
+         "startTime": 225136
+      },
+      {
+         "text": {
+            "en": "But now that we've made it into a function,",
+            "pl": "Ale teraz, kiedy przekształciliśmy go w funkcję,",
+            "ar": "ولكن الآن بعد أن وصلنا إلى وظيفة،"
+         },
+         "endTime": 230331,
+         "startTime": 228051
+      },
+      {
+         "text": {
+            "en": "it's really easy for us to change parts of it.",
+            "pl": "Łatwo jest nam zmienić jego części.",
+            "ar": "فإنه من السهل حقا بالنسبة لنا لتغيير أجزاء منه."
+         },
+         "endTime": 232891,
+         "startTime": 230331
+      },
+      {
+         "text": {
+            "en": "Like if Winston sees this and says,",
+            "pl": "Jak gdyby Winston to zobaczył i powiedział:",
+            "ar": "كما لو رأى (وينستون) هذا ويقول"
+         },
+         "endTime": 235138,
+         "startTime": 233181
+      },
+      {
+         "text": {
+            "en": "\"Whoa, whoa, that's a lot. What if I just ate one a day?\"",
+            "pl": "„Whoa, whoa, to dużo. Co jeśli zjadłem jeden dziennie?”",
+            "ar": "«قف، قف، هذا الكثير. ماذا لو أكلت واحدة في اليوم؟"
+         },
+         "endTime": 238865,
+         "startTime": 235138
+      },
+      {
+         "text": {
+            "en": "Okay, well we can just go here, change this one number,",
+            "pl": "Dobra, możemy po prostu iść tutaj, zmienić ten jeden numer,",
+            "ar": "حسناً، يمكننا الذهاب إلى هنا ونغير هذا الرقم"
+         },
+         "endTime": 242242,
+         "startTime": 238865
+      },
+      {
+         "text": {
+            "en": "and see everything change.",
+            "pl": "i zobaczyć, jak wszystko się zmienia.",
+            "ar": "ونرى كل شيء يتغير."
+         },
+         "endTime": 244329,
+         "startTime": 242732
+      },
+      {
+         "text": {
+            "en": "So that's 23,000. Still a lot. So maybe Winston's like,",
+            "pl": "Więc to 23,000. Wciąż dużo. Więc może Winston mówi:",
+            "ar": "لذلك هذا هو 23،000. لا يزال الكثير. لذا ربما (وينستون) مثل"
+         },
+         "endTime": 247971,
+         "startTime": 244329
+      },
+      {
+         "text": {
+            "en": "\"All right, all right, what if I just had one a week?\"",
+            "pl": "„Dobra, dobra, a co, gdybym miał jedną tygodniowo?”",
+            "ar": "«حسنا، كل الحق، ماذا لو كان لدي واحد فقط في الأسبوع؟»"
+         },
+         "endTime": 250773,
+         "startTime": 247971
+      },
+      {
+         "text": {
+            "en": "Yeah, that's reasonable, okay.",
+            "pl": "Tak, to rozsądne, okej.",
+            "ar": "نعم، هذا معقول، حسنا"
+         },
+         "endTime": 252477,
+         "startTime": 250773
+      },
+      {
+         "text": {
+            "en": "So then we could just change 365 to 50,",
+            "pl": "Więc moglibyśmy zmienić 365 na 50,",
+            "ar": "حتى ذلك الحين يمكننا فقط تغيير 365 إلى 50،"
+         },
+         "endTime": 255025,
+         "startTime": 252477
+      },
+      {
+         "text": {
+            "en": "because there's like 50 weeks in a year, right?",
+            "pl": "Bo w roku jest jakieś 50 tygodni, prawda?",
+            "ar": "لأن هناك حوالي 50 أسبوعا في السنة، أليس كذلك؟"
+         },
+         "endTime": 257153,
+         "startTime": 255025
+      },
+      {
+         "text": {
+            "en": "Okay, that's a lot better, right? 3,000 donuts, that seems reasonable.",
+            "pl": "Okay, to o wiele lepiej, prawda? 3000 pączków, to wydaje się rozsądne.",
+            "ar": "حسناً، هذا أفضل بكثير، صحيح؟ 3,000 دونات، هذا يبدو معقولا."
+         },
+         "endTime": 262802,
+         "startTime": 258103
+      },
+      {
+         "text": {
+            "en": "All right, so if you see, with functions and return values,",
+            "pl": "W porządku, więc jeśli widzisz, z funkcjami i wartościami zwracanymi,",
+            "ar": "كل الحق، حتى إذا كنت ترى، مع وظائف وقيم العودة،"
+         },
+         "endTime": 266751,
+         "startTime": 262802
+      },
+      {
+         "text": {
+            "en": "we can save code <i>and</i> save lives.",
+            "pl": "możemy zapisać kod <i> a </i> ratować życie.",
+            "ar": "يمكننا حفظ رمز <i> و </i> تنقذ الأرواح"
+         },
+         "endTime": 270631,
+         "startTime": 266751
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/6Dg9sR4i4Qk/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759690164",
+   "title": "Function Return Values | Functions | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

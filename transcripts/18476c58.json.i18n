@@ -1,0 +1,879 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Now that you've mastered the basics of functions,",
+            "pl": "Teraz, gdy opanowałeś podstawy funkcji,",
+            "ar": "الآن بعد أن أتقنت أساسيات الوظائف،"
+         },
+         "endTime": 3070,
+         "startTime": 764
+      },
+      {
+         "text": {
+            "en": "I want to talk about a topic that can get a little tricky:",
+            "pl": "Chcę porozmawiać o temacie, który może być trochę trudny:",
+            "ar": "أريد أن أتحدث عن موضوع يمكن أن يكون صعبا بعض الشيء:"
+         },
+         "endTime": 7396,
+         "startTime": 3070
+      },
+      {
+         "text": {
+            "en": "the difference between local and global variables.",
+            "pl": "różnica między zmiennymi lokalnymi i globalnymi.",
+            "ar": "الفرق بين المتغيرات المحلية والعالمية."
+         },
+         "endTime": 10984,
+         "startTime": 7396
+      },
+      {
+         "text": {
+            "en": "These terms may not mean anything to you now.",
+            "pl": "Te warunki mogą nic dla ciebie nie znaczyć.",
+            "ar": "قد لا تعني هذه المصطلحات أي شيء لك الآن."
+         },
+         "endTime": 14179,
+         "startTime": 11374
+      },
+      {
+         "text": {
+            "en": "So let's start with an example.",
+            "pl": "Zacznijmy więc od przykładu.",
+            "ar": "لذلك دعونا نبدأ مع مثال."
+         },
+         "endTime": 16364,
+         "startTime": 14179
+      },
+      {
+         "text": {
+            "en": "I made this program here to show you",
+            "pl": "Stworzyłem ten program, żeby ci pokazać",
+            "ar": "لقد صنعت هذا البرنامج هنا لأريك"
+         },
+         "endTime": 18110,
+         "startTime": 16364
+      },
+      {
+         "text": {
+            "en": "how many inches I grew in my childhood.",
+            "pl": "ile centymetrów urosłem w dzieciństwie.",
+            "ar": "كم بوصة نمت في طفولتي."
+         },
+         "endTime": 20346,
+         "startTime": 18110
+      },
+      {
+         "text": {
+            "en": "Since humans grow at different rates,",
+            "pl": "Ponieważ ludzie rosną w różnym tempie,",
+            "ar": "بما أن البشر ينمون بمعدلات مختلفة"
+         },
+         "endTime": 22087,
+         "startTime": 20506
+      },
+      {
+         "text": {
+            "en": "I came up with this function, calcInches,",
+            "pl": "Wymyśliłem tę funkcję, CalcInches,",
+            "ar": "جئت مع هذه الوظيفة، Calcinches،"
+         },
+         "endTime": 24458,
+         "startTime": 22087
+      },
+      {
+         "text": {
+            "en": "where I can pass in a startAge and an endAge,",
+            "pl": "gdzie mogę przejść w StartAge i EndAge,",
+            "ar": "حيث يمكنني تمرير في Startage و Endage،"
+         },
+         "endTime": 27264,
+         "startTime": 24458
+      },
+      {
+         "text": {
+            "en": "and an inchesPerYear,",
+            "pl": "i InchesPerYear,",
+            "ar": "و إنتشيسبيرسنة,"
+         },
+         "endTime": 29160,
+         "startTime": 27264
+      },
+      {
+         "text": {
+            "en": "and then it would calculate how many inches total",
+            "pl": "a następnie byłoby obliczyć, ile cali całkowity",
+            "ar": "ومن ثم فإنه سيتم حساب كم بوصة المجموع"
+         },
+         "endTime": 32406,
+         "startTime": 29700
+      },
+      {
+         "text": {
+            "en": "were grown during that time.",
+            "pl": "były uprawiane w tym czasie.",
+            "ar": "نمت خلال ذلك الوقت."
+         },
+         "endTime": 34294,
+         "startTime": 32406
+      },
+      {
+         "text": {
+            "en": ". . . and return it back to whoever called it.",
+            "pl": "i zwróć go temu, kto to nazwał.",
+            "ar": "و إعادته إلى من دعاها"
+         },
+         "endTime": 36932,
+         "startTime": 34874
+      },
+      {
+         "text": {
+            "en": "So you can see here from 0 to 8 years",
+            "pl": "Więc można zobaczyć tutaj od 0 do 8 lat",
+            "ar": "حتى تتمكن من رؤية هنا من 0 إلى 8 سنوات"
+         },
+         "endTime": 40093,
+         "startTime": 37362
+      },
+      {
+         "text": {
+            "en": "I call calcInches and I pass 0, 8, and 2.5,",
+            "pl": "Dzwonię do CalcInches i przechodzę 0, 8 i 2.5,",
+            "ar": "أدعو Calcinches وأنا تمرير 0، 8، و 2.5،"
+         },
+         "endTime": 44354,
+         "startTime": 40093
+      },
+      {
+         "text": {
+            "en": "because I grew about 2.5 inches per year.",
+            "pl": "bo rosłem około 2,5 cala rocznie.",
+            "ar": "لأنني نمت حوالي 2.5 بوصة في السنة."
+         },
+         "endTime": 47717,
+         "startTime": 44354
+      },
+      {
+         "text": {
+            "en": "And so it does a calculation, and you can see it spits out 20.",
+            "pl": "I tak robi obliczenia, i widać, że wypluwa 20.",
+            "ar": "وهكذا فإنه لا حساب، ويمكنك أن ترى أنه يبصق 20."
+         },
+         "endTime": 51904,
+         "startTime": 48297
+      },
+      {
+         "text": {
+            "en": "Then from 8 to 16, I call it from, and I pass it 8 and 16 and then 2",
+            "pl": "Potem od 8 do 16, nazywam go z, i mijam 8 i 16, a następnie 2",
+            "ar": "ثم من 8 إلى 16، أسميها من، وأمررها 8 و 16 ثم 2"
+         },
+         "endTime": 57939,
+         "startTime": 52171
+      },
+      {
+         "text": {
+            "en": "because I didn't quite grow as much, and you can see it spits out 16.",
+            "pl": "Bo nie urosłem tak bardzo, i widać, że wypluwa 16.",
+            "ar": "لأنني لم أكن تنمو بقدر كبير، ويمكنك أن ترى أنه يبصق 16."
+         },
+         "endTime": 61133,
+         "startTime": 57939
+      },
+      {
+         "text": {
+            "en": "So this is neat, but now I want to actually display",
+            "pl": "Więc to jest schludne, ale teraz chcę rzeczywiście wyświetlić",
+            "ar": "لذلك هذا هو أنيق، ولكن الآن أريد أن عرض في الواقع"
+         },
+         "endTime": 65312,
+         "startTime": 61913
+      },
+      {
+         "text": {
+            "en": "how many inches I grew, total, in my whole childhood.",
+            "pl": "ile centymetrów urosłem, w sumie, w całym moim dzieciństwie.",
+            "ar": "كم بوصة نمت، المجموع، في طفولتي كلها."
+         },
+         "endTime": 68071,
+         "startTime": 65312
+      },
+      {
+         "text": {
+            "en": "So how do I do that? Well, I might start by looking at my code",
+            "pl": "Więc jak mam to zrobić? Cóż, mogę zacząć od spojrzenia na mój kod",
+            "ar": "فكيف أفعل ذلك؟ حسنا، أنا قد تبدأ من خلال النظر في بلدي التعليمات البرمجية"
+         },
+         "endTime": 73599,
+         "startTime": 68771
+      },
+      {
+         "text": {
+            "en": "and thinking, \"Hmm, what values do I have here?\"",
+            "pl": "i myśląc: „Hmm, jakie wartości tu mam?”",
+            "ar": "والتفكير، «هم، ما القيم لدي هنا؟»"
+         },
+         "endTime": 76697,
+         "startTime": 73599
+      },
+      {
+         "text": {
+            "en": "Do I have anything that looks like it represents total inches?",
+            "pl": "Czy mam coś, co wygląda na to, że reprezentuje całkowitą liczbę cali?",
+            "ar": "هل لدي أي شيء يبدو أنه يمثل إجمالي بوصة؟"
+         },
+         "endTime": 79922,
+         "startTime": 77045
+      },
+      {
+         "text": {
+            "en": "Well, I do have this totalInches variable inside my calcInches function,",
+            "pl": "Cóż, mam tę zmienną TotalInches wewnątrz mojej funkcji CalcInches,",
+            "ar": "حسنا، لدي هذا المتغير totalInches داخل بلدي وظيفة Calcinches،"
+         },
+         "endTime": 86038,
+         "startTime": 80582
+      },
+      {
+         "text": {
+            "en": "so I could just output that, see what it says; start there.",
+            "pl": "więc mogę po prostu to wyprowadzić, zobaczyć, co mówi; zacząć tam.",
+            "ar": "حتى أتمكن من إخراج ذلك فقط، انظر ما تقول؛ ابدأ من هناك."
+         },
+         "endTime": 90560,
+         "startTime": 86038
+      },
+      {
+         "text": {
+            "en": "So let's say text(totalInches, 10, 200), and put it down at the bottom.",
+            "pl": "Powiedzmy więc tekst (TotalCali, 10, 200) i odłóż go na dole.",
+            "ar": "لذلك دعونا نقول النص (المجموعبوصة، 10، 200)، ووضعها في الأسفل."
+         },
+         "endTime": 96440,
+         "startTime": 90560
+      },
+      {
+         "text": {
+            "en": "All right, let's see, what have we got?",
+            "pl": "Dobra, zobaczmy, co mamy?",
+            "ar": "حسناً، لنرى ماذا لدينا؟"
+         },
+         "endTime": 98455,
+         "startTime": 96440
+      },
+      {
+         "text": {
+            "en": "Oh, o-oh, we've got the 'Oh noes!' guy.",
+            "pl": "Oh, o-oh, mamy 'Oh noes! ' Facet.",
+            "ar": "أوه، أوه، أوه، لقد حصلنا على 'أوه نوز! الرجل."
+         },
+         "endTime": 100942,
+         "startTime": 98455
+      },
+      {
+         "text": {
+            "en": "And he says there's a problem.",
+            "pl": "I mówi, że jest problem.",
+            "ar": "ويقول أن هناك مشكلة"
+         },
+         "endTime": 102939,
+         "startTime": 100942
+      },
+      {
+         "text": {
+            "en": "totalInches is not defined.",
+            "pl": "TotalInale nie jest zdefiniowana.",
+            "ar": "لم يتم تعريف توتالينش."
+         },
+         "endTime": 105556,
+         "startTime": 102939
+      },
+      {
+         "text": {
+            "en": "Well, that's weird, because we",
+            "pl": "Cóż, to dziwne, bo my",
+            "ar": "حسنا، هذا غريب، لأننا"
+         },
+         "endTime": 107624,
+         "startTime": 105556
+      },
+      {
+         "text": {
+            "en": "defined totalInches right here, right? var totalInches =.",
+            "pl": "zdefiniowane TotalInali tutaj, prawda? var TotalInches =.",
+            "ar": "تعريف توتالينش هنا، أليس كذلك؟ فار توتالنش =."
+         },
+         "endTime": 111622,
+         "startTime": 107624
+      },
+      {
+         "text": {
+            "en": "Well, the problem is that we declared",
+            "pl": "Problem w tym, że zadeklarowaliśmy",
+            "ar": "المشكلة هي أننا أعلنا"
+         },
+         "endTime": 114423,
+         "startTime": 111622
+      },
+      {
+         "text": {
+            "en": "totalInches inside a function. On this line here.",
+            "pl": "TotalInches wewnątrz funkcji. Na tej linii tutaj.",
+            "ar": "مجموع بوصة داخل وظيفة. على هذا الخط هنا"
+         },
+         "endTime": 119114,
+         "startTime": 114423
+      },
+      {
+         "text": {
+            "en": "And when we declare a variable inside a function,",
+            "pl": "A kiedy zadeklarować zmienną wewnątrz funkcji,",
+            "ar": "وعندما نعلن متغير داخل وظيفة،"
+         },
+         "endTime": 121854,
+         "startTime": 119114
+      },
+      {
+         "text": {
+            "en": "it's considered a local variable.",
+            "pl": "jest uważana za zmienną lokalną.",
+            "ar": "إنه يعتبر متغيرًا محليًا."
+         },
+         "endTime": 124314,
+         "startTime": 121854
+      },
+      {
+         "text": {
+            "en": "It lives only inside this function here (calcInches).",
+            "pl": "Żyje tylko wewnątrz tej funkcji tutaj (CalcInches).",
+            "ar": "يعيش فقط داخل هذه الوظيفة هنا (CalcInches)."
+         },
+         "endTime": 129076,
+         "startTime": 125234
+      },
+      {
+         "text": {
+            "en": "And the code outside the function, all of this, it doesn't see",
+            "pl": "A kod spoza funkcji, to wszystko, nie widzi",
+            "ar": "ورمز خارج وظيفة، كل هذا، فإنه لا يرى"
+         },
+         "endTime": 132945,
+         "startTime": 129076
+      },
+      {
+         "text": {
+            "en": "local variables inside functions.",
+            "pl": "zmienne lokalne wewnątrz funkcji.",
+            "ar": "المتغيرات المحلية داخل الوظائف."
+         },
+         "endTime": 135794,
+         "startTime": 132945
+      },
+      {
+         "text": {
+            "en": "It only sees whatever gets returned.",
+            "pl": "Widzi tylko to, co zostanie zwrócone.",
+            "ar": "إنها ترى فقط كل ما يتم إرجاعه"
+         },
+         "endTime": 138194,
+         "startTime": 135794
+      },
+      {
+         "text": {
+            "en": "It only sees that value, not that variable.",
+            "pl": "Widzi tylko tę wartość, a nie tę zmienną.",
+            "ar": "ترى فقط هذه القيمة، وليس هذا المتغير."
+         },
+         "endTime": 141224,
+         "startTime": 138194
+      },
+      {
+         "text": {
+            "en": "So when we try to use totalInches outside the function,",
+            "pl": "Więc kiedy staramy się użyć TotalInches poza funkcją,",
+            "ar": "لذلك عندما نحاول استخدام totalInches خارج الوظيفة،"
+         },
+         "endTime": 144767,
+         "startTime": 141224
+      },
+      {
+         "text": {
+            "en": "it doesn't know what it is,",
+            "pl": "Nie wie, co to jest.",
+            "ar": "لا يعرف ما هو،"
+         },
+         "endTime": 146250,
+         "startTime": 144767
+      },
+      {
+         "text": {
+            "en": "and it says 'Hey, I've never seen this variable before.",
+            "pl": "i jest napisane: „Hej, nigdy wcześniej nie widziałem tej zmiennej.",
+            "ar": "وتقول «مهلا، لم أر هذا المتغير من قبل."
+         },
+         "endTime": 148596,
+         "startTime": 146250
+      },
+      {
+         "text": {
+            "en": "It's not defined. I can't display it.'",
+            "pl": "To nie jest zdefiniowane. Nie mogę go wyświetlić.",
+            "ar": "لم يتم تعريفه لا أستطيع عرضه"
+         },
+         "endTime": 151072,
+         "startTime": 148596
+      },
+      {
+         "text": {
+            "en": "So there is a way that we can make it",
+            "pl": "Więc jest sposób, że możemy to zrobić",
+            "ar": "لذلك هناك طريقة يمكننا أن نجعلها"
+         },
+         "endTime": 154610,
+         "startTime": 152202
+      },
+      {
+         "text": {
+            "en": "so that the outside code can see this variable.",
+            "pl": "tak, że kod zewnętrzny może zobaczyć tę zmienną.",
+            "ar": "بحيث يمكن للرمز الخارجي رؤية هذا المتغير."
+         },
+         "endTime": 157198,
+         "startTime": 154610
+      },
+      {
+         "text": {
+            "en": "And that's if we turn it from a local variable into a global variable.",
+            "pl": "I to jest, jeśli zamienimy go ze zmiennej lokalnej w zmienną globalną.",
+            "ar": "وهذا إذا كنا تحويله من متغير محلي إلى متغير عالمي."
+         },
+         "endTime": 162487,
+         "startTime": 157398
+      },
+      {
+         "text": {
+            "en": "We can do that by moving the definition outside of the function,",
+            "pl": "Możemy to zrobić, przesuwając definicję poza funkcją,",
+            "ar": "يمكننا أن نفعل ذلك عن طريق نقل التعريف خارج الوظيفة،"
+         },
+         "endTime": 166879,
+         "startTime": 162736
+      },
+      {
+         "text": {
+            "en": "into what's called the global scope.",
+            "pl": "do tego, co nazywa się globalnym zakresem.",
+            "ar": "إلى ما يسمى النطاق العالمي."
+         },
+         "endTime": 170042,
+         "startTime": 167539
+      },
+      {
+         "text": {
+            "en": "And now, inside the function, all we're doing",
+            "pl": "A teraz, wewnątrz funkcji, wszystko co robimy",
+            "ar": "والآن، داخل وظيفة، كل ما نقوم به"
+         },
+         "endTime": 174322,
+         "startTime": 171252
+      },
+      {
+         "text": {
+            "en": "is changing the value of it each time, not defining and declaring it.",
+            "pl": "zmienia wartość tego za każdym razem, nie definiując i deklarując go.",
+            "ar": "هو تغيير قيمة ذلك في كل مرة، وليس تعريفه وإعلانه."
+         },
+         "endTime": 178342,
+         "startTime": 174322
+      },
+      {
+         "text": {
+            "en": "So you can see that it says 'Total grown over life: 16'",
+            "pl": "Widać więc, że jest napisane „Razem uprawiane przez życie: 16”",
+            "ar": "لذلك يمكنك أن ترى أنه يقول «مجموع نمت على مدى الحياة: 16'"
+         },
+         "endTime": 182484,
+         "startTime": 178632
+      },
+      {
+         "text": {
+            "en": "So it found the variable because we made it into a global variable.",
+            "pl": "Więc znalazł zmienną, ponieważ uczyniliśmy go w zmiennej globalnej.",
+            "ar": "لذلك وجدت المتغير لأننا جعلناه في متغير عالمي."
+         },
+         "endTime": 186158,
+         "startTime": 182756
+      },
+      {
+         "text": {
+            "en": "But it's not actually the value that we're looking for.",
+            "pl": "Ale to nie jest wartość, której szukamy.",
+            "ar": "ولكنها ليست في الواقع القيمة التي نبحث عنها."
+         },
+         "endTime": 189515,
+         "startTime": 186648
+      },
+      {
+         "text": {
+            "en": "That's just the most recent value.",
+            "pl": "To tylko najnowsza wartość.",
+            "ar": "هذه فقط أحدث قيمة."
+         },
+         "endTime": 191552,
+         "startTime": 189625
+      },
+      {
+         "text": {
+            "en": "And that's because every time we call this function,",
+            "pl": "A to dlatego, że za każdym razem, gdy nazywamy tę funkcję,",
+            "ar": "وذلك لأن في كل مرة نسمي هذه الوظيفة،"
+         },
+         "endTime": 193938,
+         "startTime": 191552
+      },
+      {
+         "text": {
+            "en": "it's setting totalInches to whatever it's calculating that time. Right?",
+            "pl": "ustawienie TotalCali na cokolwiek to oblicza ten czas. Prawda?",
+            "ar": "انها وضع توتالينش إلى كل ما هو حساب ذلك الوقت. صحيح؟"
+         },
+         "endTime": 197794,
+         "startTime": 193938
+      },
+      {
+         "text": {
+            "en": "So what we really want to do is, we want a new variable",
+            "pl": "Więc to, co naprawdę chcemy zrobić, to chcemy nową zmienną",
+            "ar": "لذلك ما نريد حقا القيام به هو، نريد متغير جديد"
+         },
+         "endTime": 201930,
+         "startTime": 198714
+      },
+      {
+         "text": {
+            "en": "that we use only for storing the overall total",
+            "pl": "że używamy tylko do przechowywania całkowitej",
+            "ar": "التي نستخدمها فقط لتخزين المجموع الكلي"
+         },
+         "endTime": 204662,
+         "startTime": 201930
+      },
+      {
+         "text": {
+            "en": "that we add to every time we calculate, you know, the total for a range,",
+            "pl": "że dodajemy do każdego czasu obliczamy, wiesz, suma dla zakresu,",
+            "ar": "التي نضيفها في كل مرة نحسب فيها، كما تعلمون، إجمالي النطاق،"
+         },
+         "endTime": 208464,
+         "startTime": 204662
+      },
+      {
+         "text": {
+            "en": "So let's change this back to being a local variable,",
+            "pl": "Więc zmieńmy to z powrotem na zmienną lokalną,",
+            "ar": "لذلك دعونا تغيير هذا مرة أخرى لكونه متغير محلي،"
+         },
+         "endTime": 212563,
+         "startTime": 209228
+      },
+      {
+         "text": {
+            "en": "and let's make a new global variable called lifeInches,",
+            "pl": "i zróbmy nową zmienną globalną o nazwie LifeInale,",
+            "ar": "ودعونا نجعل متغير عالمي جديد يسمى LifeInches،"
+         },
+         "endTime": 217628,
+         "startTime": 213663
+      },
+      {
+         "text": {
+            "en": "and we'll start it at zero.",
+            "pl": "i zaczniemy od zera.",
+            "ar": "ونحن سوف تبدأ في الصفر."
+         },
+         "endTime": 220034,
+         "startTime": 218168
+      },
+      {
+         "text": {
+            "en": "And then inside the function, we'll add to this global variable",
+            "pl": "A następnie wewnątrz funkcji, dodamy do tej zmiennej globalnej",
+            "ar": "ثم داخل وظيفة، ونحن سوف تضيف إلى هذا المتغير العالمي"
+         },
+         "endTime": 225381,
+         "startTime": 220634
+      },
+      {
+         "text": {
+            "en": "by saying lifeInches += totalInches.",
+            "pl": "mówiąc LifeCali += TotalCali.",
+            "ar": "بقوله ليفيينش += توتالينش."
+         },
+         "endTime": 229478,
+         "startTime": 225381
+      },
+      {
+         "text": {
+            "en": "So we're going to add however much we calculate",
+            "pl": "Więc mamy zamiar dodać, jak wiele obliczyć",
+            "ar": "لذلك نحن ذاهبون لإضافة ولكن الكثير نحسب"
+         },
+         "endTime": 231586,
+         "startTime": 229478
+      },
+      {
+         "text": {
+            "en": "each time we call this function,",
+            "pl": "za każdym razem, gdy nazywamy tę funkcję,",
+            "ar": "في كل مرة نسمي هذه الوظيفة،"
+         },
+         "endTime": 232954,
+         "startTime": 231586
+      },
+      {
+         "text": {
+            "en": "we're going to add it to the lifeInches global variable.",
+            "pl": "mamy zamiar dodać go do zmiennej globalnej LifeInches.",
+            "ar": "ونحن في طريقنا لإضافته إلى المتغير العالمي LifeInches."
+         },
+         "endTime": 236403,
+         "startTime": 232954
+      },
+      {
+         "text": {
+            "en": "And then at the bottom,",
+            "pl": "A potem na dole,",
+            "ar": "وبعد ذلك في الجزء السفلي،"
+         },
+         "endTime": 238121,
+         "startTime": 236403
+      },
+      {
+         "text": {
+            "en": "we'll display lifeInches: text(lifeInches, 10, 200).",
+            "pl": "wyświetlimy LifeCali: tekst (LifeCali, 10, 200).",
+            "ar": "سنقوم عرض ليفيينش: النص (ليفيينش، 10، 200)."
+         },
+         "endTime": 240459,
+         "startTime": 238121
+      },
+      {
+         "text": {
+            "en": "Tada! our total growth over life.",
+            "pl": "Tada! nasz całkowity wzrost w ciągu życia.",
+            "ar": "(تادا)! نمونا الكلي على مدى الحياة."
+         },
+         "endTime": 242998,
+         "startTime": 240459
+      },
+      {
+         "text": {
+            "en": "Now that's not actually how tall I am. I'm taller than that.",
+            "pl": "Nie tak naprawdę jestem wysoki. Jestem wyższy niż to.",
+            "ar": "الآن هذا ليس كم أنا طويل القامة أنا أطول من ذلك"
+         },
+         "endTime": 246431,
+         "startTime": 243538
+      },
+      {
+         "text": {
+            "en": "But that's because you know,",
+            "pl": "Ale to dlatego, że wiesz,",
+            "ar": "ولكن هذا لأنك تعرف"
+         },
+         "endTime": 247595,
+         "startTime": 246431
+      },
+      {
+         "text": {
+            "en": "we start off born with more than 0 length.",
+            "pl": "zaczynamy od urodzonych z więcej niż 0 długości.",
+            "ar": "نبدأ ولدت مع أكثر من 0 طول."
+         },
+         "endTime": 250839,
+         "startTime": 247595
+      },
+      {
+         "text": {
+            "en": "So if I want total, maybe I could start at 20.",
+            "pl": "Więc jeśli chcę mieć sumę, może zacznę od 20.",
+            "ar": "حتى إذا كنت أريد المجموع، ربما يمكن أن تبدأ في 20."
+         },
+         "endTime": 253984,
+         "startTime": 250839
+      },
+      {
+         "text": {
+            "en": "And there you go, that's how tall I am.",
+            "pl": "I oto idziesz, taki jestem wysoki.",
+            "ar": "وها أنت ذا، هذا كم أنا طويل"
+         },
+         "endTime": 257265,
+         "startTime": 254284
+      },
+      {
+         "text": {
+            "en": "All right. So let's review, totalInches",
+            "pl": "W porządku. Więc przejrzyjmy, TotalInali",
+            "ar": "حسناً لذلك دعونا نراجع، توتالينش"
+         },
+         "endTime": 260036,
+         "startTime": 257265
+      },
+      {
+         "text": {
+            "en": "is what we call a local variable.",
+            "pl": "jest to, co nazywamy zmienną lokalną.",
+            "ar": "هو ما نسميه متغير محلي."
+         },
+         "endTime": 262157,
+         "startTime": 260036
+      },
+      {
+         "text": {
+            "en": "And we know that because we see the declaration of it",
+            "pl": "I wiemy to, ponieważ widzimy deklarację",
+            "ar": "ونحن نعلم ذلك لأننا نرى الإعلان عنه"
+         },
+         "endTime": 264454,
+         "startTime": 262157
+      },
+      {
+         "text": {
+            "en": "inside this function and not outside the function.",
+            "pl": "wewnątrz tej funkcji, a nie poza funkcją.",
+            "ar": "داخل هذه الوظيفة وليس خارج الوظيفة."
+         },
+         "endTime": 267491,
+         "startTime": 264454
+      },
+      {
+         "text": {
+            "en": "And so that means that this outside code here",
+            "pl": "A więc to oznacza, że ten kod zewnętrzny tutaj",
+            "ar": "وهذا يعني أن هذا الرمز الخارجي هنا"
+         },
+         "endTime": 270822,
+         "startTime": 268521
+      },
+      {
+         "text": {
+            "en": "doesn't know about this variable called totalInches.",
+            "pl": "nie wie o tej zmiennej o nazwie totalInches.",
+            "ar": "لا يعرف عن هذا المتغير يسمى TotalInches."
+         },
+         "endTime": 274373,
+         "startTime": 270822
+      },
+      {
+         "text": {
+            "en": "Now lifeInches is what we call a global variable.",
+            "pl": "Teraz LifeInale jest to, co nazywamy zmienną globalną.",
+            "ar": "الآن LifeInches هو ما نسميه متغير عالمي."
+         },
+         "endTime": 277656,
+         "startTime": 274813
+      },
+      {
+         "text": {
+            "en": "And we know that because we see its declaration",
+            "pl": "I wiemy to, ponieważ widzimy jego deklarację",
+            "ar": "ونحن نعلم ذلك لأننا نرى إعلانها"
+         },
+         "endTime": 279501,
+         "startTime": 277656
+      },
+      {
+         "text": {
+            "en": "outside of any function in our global scope.",
+            "pl": "poza jakąkolwiek funkcją w naszym globalnym zakresie.",
+            "ar": "خارج أي و ظيفة في نطاقنا العالمي."
+         },
+         "endTime": 282726,
+         "startTime": 279501
+      },
+      {
+         "text": {
+            "en": "So try to keep this in mind when",
+            "pl": "Więc staraj się o tym pamiętać, kiedy",
+            "ar": "وذلك في محاولة للحفاظ على هذا في الاعتبار عندما"
+         },
+         "endTime": 285070,
+         "startTime": 283586
+      },
+      {
+         "text": {
+            "en": "you're writing your functions and your variables.",
+            "pl": "piszesz swoje funkcje i zmienne.",
+            "ar": "كنت تكتب وظائفك والمتغيرات الخاصة بك."
+         },
+         "endTime": 287158,
+         "startTime": 285070
+      },
+      {
+         "text": {
+            "en": "And think to yourself whether you want",
+            "pl": "I pomyśl sobie, czy chcesz",
+            "ar": "والتفكير لنفسك ما إذا كنت تريد"
+         },
+         "endTime": 288834,
+         "startTime": 287158
+      },
+      {
+         "text": {
+            "en": "a local variable for just your function to use,",
+            "pl": "zmienną lokalną dla tylko funkcji do użycia,",
+            "ar": "متغير محلي لمجرد استخدام وظيفتك،"
+         },
+         "endTime": 291310,
+         "startTime": 288834
+      },
+      {
+         "text": {
+            "en": "or a global variable for your whole program to use.",
+            "pl": "lub zmienną globalną dla całego programu.",
+            "ar": "أو متغير عالمي لبرنامجك بأكمله لاستخدامه."
+         },
+         "endTime": 294646,
+         "startTime": 291310
+      },
+      {
+         "text": {
+            "en": "And don't worry if this is hard to wrap your head around.",
+            "pl": "I nie martw się, jeśli trudno jest to owinąć głowę.",
+            "ar": "ولا تقلق إذا كان من الصعب التفاف رأسك حولها."
+         },
+         "endTime": 297354,
+         "startTime": 294646
+      },
+      {
+         "text": {
+            "en": "It's one of the trickiest concepts in programming,",
+            "pl": "To jedna z najtrudniejszych pojęć w programowaniu,",
+            "ar": "انها واحدة من أصعب المفاهيم في البرمجة،"
+         },
+         "endTime": 299927,
+         "startTime": 297354
+      },
+      {
+         "text": {
+            "en": "and in JavaScript in particular.",
+            "pl": "i w JavaScript w szczególności.",
+            "ar": "وفي جافا سكريبت على وجه الخصوص."
+         },
+         "endTime": 301730,
+         "startTime": 299927
+      },
+      {
+         "text": {
+            "en": "And it's something you'll get better at as you keep practicing.",
+            "pl": "I to jest coś, w czym będziesz lepiej ćwiczyć.",
+            "ar": "وهو شيء سوف تحصل على أفضل في كما يمكنك الاستمرار في ممارسة."
+         },
+         "endTime": 304734,
+         "startTime": 301730
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/5Blb_zQb5BY/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759693576",
+   "title": "Local and Global Variables | Functions | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

@@ -1,0 +1,564 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "Now let's talk about more complex conditions you can check with your programs",
+            "pl": "Porozmawiajmy teraz o bardziej złożonych warunkach, które możesz sprawdzić za pomocą swoich programów",
+            "ar": "الآن دعونا نتحدث عن ظروف أكثر تعقيدا يمكنك التحقق مع البرامج الخاصة بك"
+         },
+         "endTime": 5071,
+         "startTime": 1004
+      },
+      {
+         "text": {
+            "en": "To demonstrate, i've set up the canvas to look kind like an old game i used to play",
+            "pl": "Aby zademonstrować, ustawiłem płótno tak, by wyglądało jak stara gra, w którą grałem",
+            "ar": "لإثبات، لقد قمت بإعداد قماش لتبدو لطيفة مثل لعبة قديمة اعتدت أن ألعبها"
+         },
+         "endTime": 8061,
+         "startTime": 5071
+      },
+      {
+         "text": {
+            "en": "Foursquare.",
+            "pl": "Foursquare.",
+            "ar": "قصص الابطال الخارقين"
+         },
+         "endTime": 9348,
+         "startTime": 8061
+      },
+      {
+         "text": {
+            "en": "There is four squares (it´s got a good name), and you stand in one and bounce your ball to the other squares.",
+            "pl": "Są cztery kwadraty (ma dobre imię), a ty stoisz w jednym i odbijasz piłkę do innych kwadratów.",
+            "ar": "هناك أربعة مربعات (انها حصلت على اسم جيد)، وكنت تقف في واحدة وترتد الكرة إلى الساحات الأخرى."
+         },
+         "endTime": 14851,
+         "startTime": 9348
+      },
+      {
+         "text": {
+            "en": "So right now I'll draw an ellipse wherever my mouse is, so that's like our ball",
+            "pl": "Więc teraz narysuję elipsę gdziekolwiek jest moja mysz, więc to jest jak nasza piłka",
+            "ar": "لذا الآن سأرسم القطع الناقص أينما كان فأر، لذلك هذا مثل كرتنا"
+         },
+         "endTime": 18657,
+         "startTime": 14851
+      },
+      {
+         "text": {
+            "en": "What I wanna do is highlight the square that the ball is in, by drawing an white rectangle on top of it.",
+            "pl": "Chcę podkreślić kwadrat, w którym jest piłka, rysując biały prostokąt na wierzchu.",
+            "ar": "ما أريد القيام به هو تسليط الضوء على المربع الذي الكرة فيه، من خلال رسم مستطيل أبيض فوقها."
+         },
+         "endTime": 23490,
+         "startTime": 18657
+      },
+      {
+         "text": {
+            "en": "I know I need an <i>IF</i> statement to do that, because I only want to do it to one at a time, only when I am over that rectangle",
+            "pl": "Wiem, że potrzebuję <i> JEŻELI </i> oświadczenie, aby to zrobić, bo chcę to zrobić tylko do jednego na raz, tylko wtedy, gdy jestem nad tym prostokątem",
+            "ar": "وأنا أعلم أنني بحاجة إلى <i> لو </i> بيان للقيام بذلك، لأنني أريد فقط أن أفعل ذلك إلى واحد في وقت واحد، فقط عندما أكون أكثر من هذا المستطيل"
+         },
+         "endTime": 29682,
+         "startTime": 23490
+      },
+      {
+         "text": {
+            "en": "Okay, so let's start by drawing that rectangle.",
+            "pl": "Zacznijmy od narysowania tego prostokąta.",
+            "ar": "حسنا، لذلك دعونا نبدأ برسم هذا المستطيل."
+         },
+         "endTime": 34392,
+         "startTime": 29682
+      },
+      {
+         "text": {
+            "en": "So I'll just copy the rect from there, but give it a different fill, a white fill",
+            "pl": "Więc po prostu skopiuję rektę stamtąd, ale nadaj mu inne wypełnienie, białe wypełnienie",
+            "ar": "لذلك أنا مجرد نسخ المستقيم من هناك، ولكن إعطائها ملء مختلف، وملء أبيض"
+         },
+         "endTime": 39903,
+         "startTime": 34392
+      },
+      {
+         "text": {
+            "en": "Good. Now let's wrap it with an <i>IF</i>",
+            "pl": "Dobre. Teraz zapakujmy go <i> JEŻELI </i>",
+            "ar": "جيد الآن دعونا التفاف عليه مع <i> لو </i>"
+         },
+         "endTime": 43655,
+         "startTime": 39903
+      },
+      {
+         "text": {
+            "en": "You see it auto-completes the curly braces for me, so I got to move it inside.",
+            "pl": "Widzicie, że automatycznie uzupełnia szelki, więc muszę przenieść je do środka.",
+            "ar": "ترى أن السيارات يكمل الأقواس المتعرجة بالنسبة لي، لذلك حصلت على نقلها إلى الداخل."
+         },
+         "endTime": 50501,
+         "startTime": 45055
+      },
+      {
+         "text": {
+            "en": "Ok. So when do I want to show that rectangle?",
+            "pl": "Okej. Więc kiedy chcę pokazać ten prostokąt?",
+            "ar": "حسنا. لذلك متى أريد أن تظهر هذا المستطيل؟"
+         },
+         "endTime": 53964,
+         "startTime": 50501
+      },
+      {
+         "text": {
+            "en": "Well, I know I wanna do it when mouse x is less than 200 <i>(mouseX < 200)</i>",
+            "pl": "Wiem, że chcę to zrobić, gdy mysz X jest mniejsza niż 200. <i> (MouseX < 200) </i>",
+            "ar": "حسنا، أعرف أنني أريد أن أفعل ذلك عندما الماوس س أقل من 200 <i> (موسكس <200) </i>"
+         },
+         "endTime": 60891,
+         "startTime": 54027
+      },
+      {
+         "text": {
+            "en": "So that works, but then if I go down here, it is still showing.",
+            "pl": "To działa, ale jeśli zejdę tutaj, to wciąż się pokazuje.",
+            "ar": "بحيث يعمل، ولكن بعد ذلك إذا ذهبت إلى هنا، فإنه لا يزال يظهر."
+         },
+         "endTime": 67072,
+         "startTime": 60891
+      },
+      {
+         "text": {
+            "en": "So I also need to check <i>mouseY</i>",
+            "pl": "Więc muszę też sprawdzić <i> MouseY </i>",
+            "ar": "لذلك أنا أيضا بحاجة للتحقق <i> موسي </i>"
+         },
+         "endTime": 70348,
+         "startTime": 67072
+      },
+      {
+         "text": {
+            "en": "Well, how do I check <i>Both</i> of those things?",
+            "pl": "Cóż, jak mogę sprawdzić <i> Oba </i> tych rzeczy?",
+            "ar": "حسنا، كيف يمكنني التحقق <i> كلاهما </i> من تلك الأشياء؟"
+         },
+         "endTime": 73269,
+         "startTime": 70348
+      },
+      {
+         "text": {
+            "en": "Thats why we have the \"AND\" operator",
+            "pl": "Dlatego mamy operatora „AND”",
+            "ar": "لهذا السبب لدينا المشغل «و»"
+         },
+         "endTime": 74938,
+         "startTime": 73269
+      },
+      {
+         "text": {
+            "en": "So the And operator we use when we want to check multiple conditions.",
+            "pl": "Więc operator I używamy, gdy chcemy sprawdzić wiele warunków.",
+            "ar": "وبالتالي فإن المشغل الذي نستخدمه عندما نريد التحقق من شروط متعددة."
+         },
+         "endTime": 77848,
+         "startTime": 74938
+      },
+      {
+         "text": {
+            "en": "So we just write <i>&&</i> and then we write our next condition, so \"mouseY < 200\"",
+            "pl": "Więc po prostu piszemy <i> && </i> a następnie piszemy nasz następny warunek, więc „Mousey < 200\"",
+            "ar": "لذلك نحن مجرد كتابة <i> && </i> ثم نكتب حالتنا التالية، لذلك «Mousey <200\""
+         },
+         "endTime": 86190,
+         "startTime": 77848
+      },
+      {
+         "text": {
+            "en": "So it doesn't light over here anymore and it does here! YAYY",
+            "pl": "Więc już tu nie świeci i tu jest! YAYY",
+            "ar": "لذلك لا تضيء هنا بعد الآن وأنها تفعل هنا! ياي"
+         },
+         "endTime": 90324,
+         "startTime": 86190
+      },
+      {
+         "text": {
+            "en": "Lets do the next square, just to prove this works.",
+            "pl": "Zróbmy następny kwadrat, żeby udowodnić, że to działa.",
+            "ar": "دعونا نفعل مربع المقبل، فقط لإثبات هذا يعمل."
+         },
+         "endTime": 96185,
+         "startTime": 90893
+      },
+      {
+         "text": {
+            "en": "Alright, so we just have to change some stuff.",
+            "pl": "Dobra, więc musimy coś zmienić.",
+            "ar": "حسناً، علينا فقط أن نغير بعض الأشياء"
+         },
+         "endTime": 98682,
+         "startTime": 96185
+      },
+      {
+         "text": {
+            "en": "Well take this rectangle instead, and we obviously need to change the conditions so its not so lighting up.",
+            "pl": "Dobrze wziąć ten prostokąt zamiast, i oczywiście musimy zmienić warunki, więc nie tak się rozświetla.",
+            "ar": "حسنا تأخذ هذا المستطيل بدلا من ذلك، ونحن بحاجة بوضوح إلى تغيير الظروف حتى لا تضيء حتى."
+         },
+         "endTime": 105394,
+         "startTime": 98682
+      },
+      {
+         "text": {
+            "en": "So this time, mouseX needs to be greater than 200 and mouseY still less than 200",
+            "pl": "Tym razem MouSex musi być większy niż 200, a Mousey wciąż mniej niż 200",
+            "ar": "حتى هذه المرة، MouSex يحتاج إلى أن يكون أكبر من 200 وماوسي لا يزال أقل من 200"
+         },
+         "endTime": 112962,
+         "startTime": 105394
+      },
+      {
+         "text": {
+            "en": "Beautiful, look at that!",
+            "pl": "Pięknie, spójrz na to!",
+            "ar": "جميلة، انظر إلى ذلك!"
+         },
+         "endTime": 116289,
+         "startTime": 112962
+      },
+      {
+         "text": {
+            "en": "Alright, now, in foursquare, whenever the ball hits the edges, you know, these lines in the middle and corners",
+            "pl": "Dobra, teraz, w czterech kwadrach, kiedy piłka uderza w krawędzie, wiesz, te linie w środku i w rogach",
+            "ar": "حسنا، الآن، في شخصيات قصص الابطال الخارقين، عندما تضرب الكرة الحواف، كما تعلمون، هذه الخطوط في الوسط والزوايا"
+         },
+         "endTime": 122252,
+         "startTime": 116289
+      },
+      {
+         "text": {
+            "en": "we allways yell \"EdgeBall\"",
+            "pl": "Wszyscy krzyczemy „EdgeBall”",
+            "ar": "نحن ألويس يصرخ «إيدجبول»"
+         },
+         "endTime": 124511,
+         "startTime": 122298
+      },
+      {
+         "text": {
+            "en": "So i wanna do that here too. Lets start by writing it \"EDGE BALLL\".",
+            "pl": "Więc ja też chcę to zrobić tutaj. Zacznijmy od napisania go „EDGE BALLL”.",
+            "ar": "لذلك أريد أن أفعل ذلك هنا أيضا. يتيح البدء بكتابته «إدج بالل»."
+         },
+         "endTime": 130392,
+         "startTime": 124819
+      },
+      {
+         "text": {
+            "en": "And lets write in the middle and make it red.",
+            "pl": "I piszmy w środku i uczynimy go czerwonym.",
+            "ar": "ويتيح الكتابة في الوسط وجعلها حمراء."
+         },
+         "endTime": 134822,
+         "startTime": 130392
+      },
+      {
+         "text": {
+            "en": "So I only want it to happen if I'm on the edges.",
+            "pl": "Więc chcę, żeby to się stało tylko wtedy, gdy będę na krawędzi.",
+            "ar": "لذلك أريد أن يحدث فقط إذا كنت على الحواف."
+         },
+         "endTime": 139775,
+         "startTime": 134822
+      },
+      {
+         "text": {
+            "en": "So we are gonna add our if",
+            "pl": "Więc dodamy nasze jeśli",
+            "ar": "لذلك نحن ستعمل إضافة لدينا إذا"
+         },
+         "endTime": 142511,
+         "startTime": 139775
+      },
+      {
+         "text": {
+            "en": "And move this code inside of it",
+            "pl": "I przenieś ten kod do środka",
+            "ar": "ونقل هذا الرمز داخله"
+         },
+         "endTime": 145573,
+         "startTime": 142511
+      },
+      {
+         "text": {
+            "en": "So.. When I want it to happen?",
+            "pl": "Więc.. Kiedy chcę, żeby to się stało?",
+            "ar": "لذا.. عندما أريد أن يحدث ذلك؟"
+         },
+         "endTime": 149600,
+         "startTime": 147173
+      },
+      {
+         "text": {
+            "en": "Well there is edges in the middle, so the middle is when mouseX == 200",
+            "pl": "Cóż, nie ma krawędzi w środku, więc środek jest, gdy MouSex == 200",
+            "ar": "حسنا هناك حواف في الوسط، وبالتالي فإن الوسط هو عندما MouSex == 200"
+         },
+         "endTime": 156936,
+         "startTime": 149615
+      },
+      {
+         "text": {
+            "en": "Alright lets see. Do I get Edge Ball..",
+            "pl": "Dobra, zobaczmy. Czy mogę dostać Edge Ball..",
+            "ar": "حسنا دعونا نرى. هل أحصل على كرة الحافة"
+         },
+         "endTime": 160404,
+         "startTime": 156936
+      },
+      {
+         "text": {
+            "en": "There we go! EDGE BALL",
+            "pl": "Tam idziemy! KRAWĘDŹ",
+            "ar": "ها نحن ذا! حافة الكرة"
+         },
+         "endTime": 163817,
+         "startTime": 160404
+      },
+      {
+         "text": {
+            "en": "Ok. Humm. So that works in this middle line here",
+            "pl": "Okej. Humm. Więc to działa w tej środkowej linii tutaj",
+            "ar": "حسنا. (هومم) بحيث يعمل في هذا الخط الأوسط هنا"
+         },
+         "endTime": 169403,
+         "startTime": 163817
+      },
+      {
+         "text": {
+            "en": "But I also want it to work on this line here.",
+            "pl": "Ale chcę też, żeby to działało na tej linii.",
+            "ar": "ولكن أريد أيضا أن تعمل على هذا الخط هنا."
+         },
+         "endTime": 172130,
+         "startTime": 169403
+      },
+      {
+         "text": {
+            "en": "So, in that case, I want mouseY == 200, because thats what that middle line is.",
+            "pl": "Więc, w takim razie, chcę Mousey == 200, bo to jest ta środkowa linia.",
+            "ar": "لذلك، في هذه الحالة، أريد mousey == 200، لأن هذا ما هو هذا الخط الأوسط."
+         },
+         "endTime": 182820,
+         "startTime": 172130
+      },
+      {
+         "text": {
+            "en": "Ok Lets See, so that's not working. Nothing is working.",
+            "pl": "Ok Zobaczmy, więc to nie działa. Nic nie działa.",
+            "ar": "حسنا دعونا نرى، لذلك هذا لا يعمل. لا شيء يعمل."
+         },
+         "endTime": 188315,
+         "startTime": 182820
+      },
+      {
+         "text": {
+            "en": "Ow, one thing works, just the very center.",
+            "pl": "Jedna rzecz działa, tylko w centrum.",
+            "ar": "شيء واحد يعمل، فقط المركز ذاته."
+         },
+         "endTime": 191150,
+         "startTime": 188315
+      },
+      {
+         "text": {
+            "en": "Well, thats because I used an and, so its only gonna do it if BOTH of these are true, and it will only happen in the center.",
+            "pl": "Cóż, to dlatego, że użyłem i, więc tylko to zrobi, jeśli oba są prawdziwe, i to się stanie tylko w centrum.",
+            "ar": "حسنا، هذا لأنني استخدمت و، لذلك فقط ستعمل تفعل ذلك إذا كان كل من هذه صحيحة، وسوف يحدث فقط في المركز."
+         },
+         "endTime": 199034,
+         "startTime": 191150
+      },
+      {
+         "text": {
+            "en": "So what I actually wanna say is, EITHER one of these are true",
+            "pl": "Więc chcę powiedzieć, że Którekolwiek z nich jest prawdą",
+            "ar": "لذلك ما أريد قوله هو، إما واحدة من هذه الحقيقة"
+         },
+         "endTime": 202104,
+         "startTime": 199034
+      },
+      {
+         "text": {
+            "en": "So we use the OR operator",
+            "pl": "Więc używamy operatora OR",
+            "ar": "لذلك نحن نستخدم المشغل OR"
+         },
+         "endTime": 204697,
+         "startTime": 202104
+      },
+      {
+         "text": {
+            "en": "So the OR operator looks like this: \"||\"",
+            "pl": "Operator OR wygląda następująco: „||”",
+            "ar": "لذلك يبدو المشغل OR كما يلي: «||»"
+         },
+         "endTime": 207640,
+         "startTime": 204697
+      },
+      {
+         "text": {
+            "en": "We call those pipe simbols, and you probably never used them before",
+            "pl": "Nazywamy te fajki, a ty pewnie nigdy wcześniej ich nie używałeś.",
+            "ar": "نحن نسمي تلك الأنابيب simbols، وربما كنت لم تستخدم لهم من قبل"
+         },
+         "endTime": 211628,
+         "startTime": 207640
+      },
+      {
+         "text": {
+            "en": "You have to look it on your keyboard, it is usually on your top-right",
+            "pl": "Musisz spojrzeć na klawiaturze, zwykle znajduje się w prawym górnym rogu",
+            "ar": "عليك أن تنظر على لوحة المفاتيح، وعادة ما يكون على أعلى اليمين الخاص بك"
+         },
+         "endTime": 215763,
+         "startTime": 211628
+      },
+      {
+         "text": {
+            "en": "Hopefully you actually have it on your keyboard",
+            "pl": "Mam nadzieję, że rzeczywiście masz go na klawiaturze",
+            "ar": "نأمل أن يكون لديك فعلا على لوحة المفاتيح"
+         },
+         "endTime": 219625,
+         "startTime": 215763
+      },
+      {
+         "text": {
+            "en": "Alright? cool, so now lets see if it works..",
+            "pl": "W porządku? fajne, więc teraz pozwala zobaczyć, czy to działa..",
+            "ar": "حسناً؟ بارد، لذلك الآن دعونا نرى ما إذا كان يعمل.."
+         },
+         "endTime": 222724,
+         "startTime": 219625
+      },
+      {
+         "text": {
+            "en": "Alriight, so works there, works there and then works there.. beautiful..",
+            "pl": "Alriight, więc pracuje tam, pracuje tam, a potem pracuje tam.. piękny..",
+            "ar": "Alriight، لذلك يعمل هناك، ويعمل هناك ومن ثم يعمل هناك.. جميلة.."
+         },
+         "endTime": 226695,
+         "startTime": 222724
+      },
+      {
+         "text": {
+            "en": "we can keep adding more conditions here",
+            "pl": "możemy dodać więcej warunków tutaj",
+            "ar": "يمكننا الاستمرار في إضافة المزيد من الشروط هنا"
+         },
+         "endTime": 229491,
+         "startTime": 226695
+      },
+      {
+         "text": {
+            "en": "so with both AND and OR, you can have as many of these as you want",
+            "pl": "tak z obu i OR, można mieć tyle z nich, ile chcesz",
+            "ar": "حتى مع كل من و و OR، هل يمكن أن يكون العديد من هذه كما تريد"
+         },
+         "endTime": 232601,
+         "startTime": 229491
+      },
+      {
+         "text": {
+            "en": "If you need to check 60 different conditions you can totally do that, right",
+            "pl": "Jeśli chcesz sprawdzić 60 różnych warunków, możesz to całkowicie zrobić, prawo",
+            "ar": "إذا كنت بحاجة إلى التحقق من 60 ظروف مختلفة يمكنك أن تفعل ذلك تماما، الحق"
+         },
+         "endTime": 235793,
+         "startTime": 232601
+      },
+      {
+         "text": {
+            "en": "Because we havent take care of our edges yet so",
+            "pl": "Ponieważ nie możemy dbać o nasze krawędzie jeszcze tak",
+            "ar": "لأننا لم نعتني حوافنا حتى الآن"
+         },
+         "endTime": 239101,
+         "startTime": 235793
+      },
+      {
+         "text": {
+            "en": "lets say if mouseX is less than 3",
+            "pl": "powiedzmy, czy MouSex jest mniejszy niż 3",
+            "ar": "دعنا نقول إذا كان MouSex أقل من 3"
+         },
+         "endTime": 244650,
+         "startTime": 239101
+      },
+      {
+         "text": {
+            "en": "So that should be... there we go, that little edge there",
+            "pl": "Więc to powinno być... tam idziemy, ta mała krawędź tam",
+            "ar": "لذلك يجب أن يكون... ها نحن ذا، تلك الحافة الصغيرة هناك"
+         },
+         "endTime": 249132,
+         "startTime": 244650
+      },
+      {
+         "text": {
+            "en": "Very good",
+            "pl": "Bardzo dobry",
+            "ar": "جيد جدا"
+         },
+         "endTime": 250736,
+         "startTime": 249132
+      },
+      {
+         "text": {
+            "en": "Or mouseX is greater than 397 <i>(mouseX>397)</i>",
+            "pl": "Lub MouSex jest większy niż 397 <i> (MUSe>397) </i>",
+            "ar": "أو موسكس أكبر من 397 <i> (الماوس> 397) </i>"
+         },
+         "endTime": 254760,
+         "startTime": 250736
+      },
+      {
+         "text": {
+            "en": "There we go.. beautifull!",
+            "pl": "Tam idziemy.. piękny!",
+            "ar": "ها نحن ذا.. جميل"
+         },
+         "endTime": 257767,
+         "startTime": 254760
+      },
+      {
+         "text": {
+            "en": "So we keep doing it for all the edges",
+            "pl": "Więc robimy to dla wszystkich krawędzi",
+            "ar": "لذلك نحن نستمر في القيام بذلك لجميع الحواف"
+         },
+         "endTime": 261534,
+         "startTime": 257767
+      },
+      {
+         "text": {
+            "en": "So.. yeah! There is AND (&&) and OR (||) and now you can see how you can build up much more complex conditions in your programs.",
+            "pl": "Więc... tak! Istnieje AND (&&) i OR (||) i teraz można zobaczyć, jak można budować znacznie bardziej złożone warunki w swoich programach.",
+            "ar": "لذا.. نعم هناك و (&&) و OR (||) والآن يمكنك أن ترى كيف يمكنك بناء ظروف أكثر تعقيدًا في برامجك."
+         },
+         "endTime": 267696,
+         "startTime": 261534
+      },
+      {
+         "text": {
+            "en": "And thats good, because the world is a complex place.",
+            "pl": "I to dobrze, bo świat jest złożonym miejscem.",
+            "ar": "وهذا جيد، لأن العالم مكان معقد."
+         },
+         "endTime": 271696,
+         "startTime": 267696
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/99eEB9M2z2M/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759718027",
+   "title": "Logical Operators | Logic and if Statements | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

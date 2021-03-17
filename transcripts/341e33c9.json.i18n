@@ -1,0 +1,1257 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "- When we write code, we're writing in a language",
+            "pl": "- Kiedy piszemy kod, piszemy w języku",
+            "ar": "- عندما نكتب التعليمات البرمجية، نحن نكتب بلغة"
+         },
+         "endTime": 3095,
+         "startTime": 930
+      },
+      {
+         "text": {
+            "en": "that a computer can understand.",
+            "pl": "że komputer może zrozumieć.",
+            "ar": "أن الكمبيوتر يمكن أن يفهم."
+         },
+         "endTime": 4917,
+         "startTime": 3095
+      },
+      {
+         "text": {
+            "en": "Now fellow programmers can also understand that language",
+            "pl": "Teraz koledzy programiści mogą również zrozumieć ten język",
+            "ar": "الآن يمكن للزملاء المبرمجين أيضا فهم تلك اللغة"
+         },
+         "endTime": 8098,
+         "startTime": 4917
+      },
+      {
+         "text": {
+            "en": "but it's not our native language",
+            "pl": "ale to nie nasz ojczysty język",
+            "ar": "لكنها ليست لغتنا الأم"
+         },
+         "endTime": 10351,
+         "startTime": 8098
+      },
+      {
+         "text": {
+            "en": "and honestly, some code just looks weird.",
+            "pl": "I szczerze mówiąc, jakiś kod wygląda dziwnie.",
+            "ar": "وبصراحة، بعض التعليمات البرمجية تبدو غريبة."
+         },
+         "endTime": 13219,
+         "startTime": 10351
+      },
+      {
+         "text": {
+            "en": "And sometimes you'll look at code",
+            "pl": "A czasem spojrzysz na kod",
+            "ar": "وأحيانا سوف ننظر في التعليمات البرمجية"
+         },
+         "endTime": 14798,
+         "startTime": 13219
+      },
+      {
+         "text": {
+            "en": "and you'll think, what?",
+            "pl": "i pomyślisz, co?",
+            "ar": "وستفكّر، ماذا؟"
+         },
+         "endTime": 16937,
+         "startTime": 14798
+      },
+      {
+         "text": {
+            "en": "And you wish that you had the original code creator",
+            "pl": "I żałujesz, że masz oryginalnego kreatora kodu",
+            "ar": "وكنت أتمنى لو كان لديك الخالق رمز الأصلي"
+         },
+         "endTime": 19050,
+         "startTime": 16937
+      },
+      {
+         "text": {
+            "en": "there to explain it to you.",
+            "pl": "tam, aby ci to wyjaśnić.",
+            "ar": "هناك لشرح ذلك لك."
+         },
+         "endTime": 20896,
+         "startTime": 19050
+      },
+      {
+         "text": {
+            "en": "Well luckily, that's where comments come in.",
+            "pl": "Cóż, na szczęście, to tam pojawiają się komentarze.",
+            "ar": "لحسن الحظ، هذا هو المكان الذي تأتي فيه التعليقات."
+         },
+         "endTime": 24333,
+         "startTime": 20896
+      },
+      {
+         "text": {
+            "en": "A comment is just a bit of text in our program",
+            "pl": "Komentarz to tylko trochę tekstu w naszym programie",
+            "ar": "التعليق هو مجرد القليل من النص في برنامجنا"
+         },
+         "endTime": 27712,
+         "startTime": 24333
+      },
+      {
+         "text": {
+            "en": "that the computer completely ignores",
+            "pl": "że komputer całkowicie ignoruje",
+            "ar": "أن الكمبيوتر يتجاهل تماما"
+         },
+         "endTime": 29894,
+         "startTime": 27712
+      },
+      {
+         "text": {
+            "en": "and is just there for other humans to look at,",
+            "pl": "i jest tam tylko dla innych ludzi, aby spojrzeć na",
+            "ar": "وهناك فقط للبشر الآخرين للنظر في،"
+         },
+         "endTime": 33215,
+         "startTime": 29894
+      },
+      {
+         "text": {
+            "en": "like you and me?",
+            "pl": "Jak ty i ja?",
+            "ar": "مثلي ومثلك؟"
+         },
+         "endTime": 34742,
+         "startTime": 33215
+      },
+      {
+         "text": {
+            "en": "You are human, right?",
+            "pl": "Jesteś człowiekiem, prawda?",
+            "ar": "أنت إنسان، أليس كذلك؟"
+         },
+         "endTime": 36750,
+         "startTime": 34742
+      },
+      {
+         "text": {
+            "en": "In JavaScript, we write a single line comment",
+            "pl": "W JavaScript, piszemy komentarz pojedynczej linii",
+            "ar": "في جافا سكريبت، نكتب تعليق سطر واحد"
+         },
+         "endTime": 39826,
+         "startTime": 36750
+      },
+      {
+         "text": {
+            "en": "by starting the line with two slashes",
+            "pl": "rozpoczynając linię dwoma ukośnikami",
+            "ar": "من خلال بدء الخط مع اثنين مائلة"
+         },
+         "endTime": 41869,
+         "startTime": 39826
+      },
+      {
+         "text": {
+            "en": "and everything comes after we consider a comment",
+            "pl": "i wszystko przychodzi po tym, jak rozważymy komentarz",
+            "ar": "وكل شيء يأتي بعد أن نعتبر تعليق"
+         },
+         "endTime": 44285,
+         "startTime": 41869
+      },
+      {
+         "text": {
+            "en": "until there's a new line, right?",
+            "pl": "Dopóki nie pojawi się nowa linia, prawda?",
+            "ar": "حتى يكون هناك خط جديد، أليس كذلك؟"
+         },
+         "endTime": 46026,
+         "startTime": 44285
+      },
+      {
+         "text": {
+            "en": "And we can write anything",
+            "pl": "I możemy napisać wszystko",
+            "ar": "ويمكننا كتابة أي شيء"
+         },
+         "endTime": 48434,
+         "startTime": 46026
+      },
+      {
+         "text": {
+            "en": "in whatever language we want.",
+            "pl": "w jakimkolwiek języku chcemy.",
+            "ar": "بأي لغة نريدها."
+         },
+         "endTime": 52045,
+         "startTime": 48434
+      },
+      {
+         "text": {
+            "en": "And we can have a little comment part here, right?",
+            "pl": "I możemy mieć mały komentarz tutaj, prawda?",
+            "ar": "ونحن يمكن أن يكون قليلا تعليق جزء هنا، أليس كذلك؟"
+         },
+         "endTime": 56324,
+         "startTime": 53335
+      },
+      {
+         "text": {
+            "en": "Keep going, going, going, going.",
+            "pl": "Nie przestawaj, idę, idę, idę.",
+            "ar": "استمر في الذهاب، الذهاب، الذهاب، الذهاب."
+         },
+         "endTime": 58239,
+         "startTime": 56324
+      },
+      {
+         "text": {
+            "en": "So that's cool but if our comment gets really long,",
+            "pl": "Więc to jest fajne, ale jeśli nasz komentarz robi się naprawdę długo,",
+            "ar": "لذلك هذا رائع ولكن إذا كان تعليقنا يحصل طويلة حقا،"
+         },
+         "endTime": 61489,
+         "startTime": 58239
+      },
+      {
+         "text": {
+            "en": "you might wanna actually do",
+            "pl": "może chcesz naprawdę to zrobić",
+            "ar": "قد ترغب في القيام به في الواقع"
+         },
+         "endTime": 62499,
+         "startTime": 61489
+      },
+      {
+         "text": {
+            "en": "what's called a multi-line comment.",
+            "pl": "to, co nazywa się komentarzem wielowierszowym.",
+            "ar": "ما يسمى تعليق متعدد الخطوط."
+         },
+         "endTime": 64589,
+         "startTime": 62499
+      },
+      {
+         "text": {
+            "en": "So to do that we start off with a slash and a star",
+            "pl": "Aby to zrobić, zaczynamy od ukośnika i gwiazdy",
+            "ar": "لذلك للقيام بذلك نبدأ مع مائل ونجم"
+         },
+         "endTime": 68746,
+         "startTime": 64589
+      },
+      {
+         "text": {
+            "en": "and you know maybe I'll write a poem here.",
+            "pl": "i wiesz, że może napiszę wiersz tutaj.",
+            "ar": "وأنت تعرف ربما سأكتب قصيدة هنا"
+         },
+         "endTime": 70719,
+         "startTime": 68746
+      },
+      {
+         "text": {
+            "en": "So roses are red, next line.",
+            "pl": "Więc róże są czerwone, następna linia.",
+            "ar": "حتى الورود حمراء، السطر التالي."
+         },
+         "endTime": 73181,
+         "startTime": 70719
+      },
+      {
+         "text": {
+            "en": "Violets are blue.",
+            "pl": "Fiołki są niebieskie.",
+            "ar": "البنفسج أزرق."
+         },
+         "endTime": 75026,
+         "startTime": 73181
+      },
+      {
+         "text": {
+            "en": "Comments are cool,",
+            "pl": "Komentarze są fajne,",
+            "ar": "التعليقات باردة،"
+         },
+         "endTime": 77743,
+         "startTime": 75026
+      },
+      {
+         "text": {
+            "en": "and so are you.",
+            "pl": "i ty też.",
+            "ar": "و كذلك أنت"
+         },
+         "endTime": 80308,
+         "startTime": 77743
+      },
+      {
+         "text": {
+            "en": "Very nice.",
+            "pl": "Bardzo ładne.",
+            "ar": "جميل جداً"
+         },
+         "endTime": 81785,
+         "startTime": 80308
+      },
+      {
+         "text": {
+            "en": "Notice how our comments are both colored green.",
+            "pl": "Zauważ, jak nasze komentarze są zarówno w kolorze zielonym.",
+            "ar": "لاحظ كيف تعليقاتنا على حد سواء الخضراء الملونة."
+         },
+         "endTime": 84490,
+         "startTime": 82086
+      },
+      {
+         "text": {
+            "en": "That's good, that's a sign that the program",
+            "pl": "To dobrze, to znak, że program",
+            "ar": "هذا جيد، وهذا هو علامة على أن البرنامج"
+         },
+         "endTime": 86378,
+         "startTime": 84490
+      },
+      {
+         "text": {
+            "en": "knows it's a comment, it colors it green.",
+            "pl": "wie, że to komentarz, kolor zielony.",
+            "ar": "يعلم أنه تعليق، إنه يلونها باللون الأخضر."
+         },
+         "endTime": 88699,
+         "startTime": 86378
+      },
+      {
+         "text": {
+            "en": "But notice how everything else is green too.",
+            "pl": "Ale zauważ, jak wszystko inne jest zielone.",
+            "ar": "لكن لاحظ كيف أن كل شيء آخر أخضر أيضًا."
+         },
+         "endTime": 92263,
+         "startTime": 88699
+      },
+      {
+         "text": {
+            "en": "That means that we've managed to turn",
+            "pl": "Oznacza to, że udało nam się zmienić",
+            "ar": "هذا يعني أننا تمكنا من التحول"
+         },
+         "endTime": 93725,
+         "startTime": 92263
+      },
+      {
+         "text": {
+            "en": "our entire program into a comment",
+            "pl": "cały nasz program w komentarzu",
+            "ar": "برنامجنا بأكمله إلى تعليق"
+         },
+         "endTime": 96443,
+         "startTime": 93725
+      },
+      {
+         "text": {
+            "en": "which is bad because we want our program to be code.",
+            "pl": "co jest złe, ponieważ chcemy, aby nasz program był kodem.",
+            "ar": "وهو أمر سيء لأننا نريد أن يكون برنامجنا رمزًا."
+         },
+         "endTime": 100321,
+         "startTime": 96443
+      },
+      {
+         "text": {
+            "en": "And we also get an error here that says unclosed comment.",
+            "pl": "I mamy również błąd tutaj, który mówi niezamknięty komentarz.",
+            "ar": "ونحن أيضا الحصول على خطأ هنا أن يقول تعليق غير مغلق."
+         },
+         "endTime": 103018,
+         "startTime": 100321
+      },
+      {
+         "text": {
+            "en": "So all these signs mean that uh-oh,",
+            "pl": "Więc wszystkie te znaki oznaczają, że uh-oh,",
+            "ar": "لذلك كل هذه العلامات تعني أن آه أوه،"
+         },
+         "endTime": 104817,
+         "startTime": 103018
+      },
+      {
+         "text": {
+            "en": "I started multi-line comment and I didn't finish it.",
+            "pl": "Zacząłem komentarz wielowierszowy i nie skończyłem go.",
+            "ar": "لقد بدأت تعليق متعدد الأسطر ولم أنهيه."
+         },
+         "endTime": 107940,
+         "startTime": 104817
+      },
+      {
+         "text": {
+            "en": "No problem, just do a star and a slash.",
+            "pl": "Nie ma problemu, po prostu zrób gwiazdę i ukośnik.",
+            "ar": "لا مشكلة، مجرد القيام نجمة وشرطة مائلة."
+         },
+         "endTime": 111575,
+         "startTime": 107940
+      },
+      {
+         "text": {
+            "en": "That'll finish the comment",
+            "pl": "To zakończy komentarz",
+            "ar": "التي سوف تنتهي من التعليق"
+         },
+         "endTime": 112991,
+         "startTime": 111575
+      },
+      {
+         "text": {
+            "en": "and everything will be beautiful again.",
+            "pl": "i wszystko znów będzie piękne.",
+            "ar": "وكل شيء سيكون جميلا مرة أخرى."
+         },
+         "endTime": 115800,
+         "startTime": 112991
+      },
+      {
+         "text": {
+            "en": "Alright so back to the point.",
+            "pl": "Dobra, wracamy do sedna.",
+            "ar": "حسنا العودة إلى هذه النقطة."
+         },
+         "endTime": 118134,
+         "startTime": 115800
+      },
+      {
+         "text": {
+            "en": "Comments are not just for me to write",
+            "pl": "Komentarze są nie tylko dla mnie do napisania",
+            "ar": "التعليقات ليست فقط بالنسبة لي لكتابة"
+         },
+         "endTime": 119969,
+         "startTime": 118134
+      },
+      {
+         "text": {
+            "en": "ridiculous things or amazing poetry.",
+            "pl": "śmieszne rzeczy lub niesamowita poezja.",
+            "ar": "أشياء سخيفة أو شعر مدهش."
+         },
+         "endTime": 122930,
+         "startTime": 119969
+      },
+      {
+         "text": {
+            "en": "They're a way for us to describe our code to other humans",
+            "pl": "Są sposobem na opisanie naszego kodu innym ludziom",
+            "ar": "إنها طريقة لنا لوصف شفرتنا للبشر الآخرين"
+         },
+         "endTime": 126215,
+         "startTime": 122930
+      },
+      {
+         "text": {
+            "en": "because we want them to understand it as well as we did.",
+            "pl": "ponieważ chcemy, aby zrozumieli to tak dobrze, jak my.",
+            "ar": "لأننا نريدهم أن يفهموها كما فعلنا."
+         },
+         "endTime": 129476,
+         "startTime": 126215
+      },
+      {
+         "text": {
+            "en": "So for example, let's look at a cool program.",
+            "pl": "Na przykład spójrzmy na fajny program.",
+            "ar": "لذلك على سبيل المثال، دعونا ننظر إلى برنامج بارد."
+         },
+         "endTime": 134019,
+         "startTime": 129476
+      },
+      {
+         "text": {
+            "en": "This is a bouncing ball program, right?",
+            "pl": "To jest program do odbijania piłki, prawda?",
+            "ar": "هذا هو برنامج كرة كذاب، أليس كذلك؟"
+         },
+         "endTime": 137371,
+         "startTime": 134658
+      },
+      {
+         "text": {
+            "en": "And it's a pretty cool program and it's the kind of program",
+            "pl": "I to jest całkiem fajny program i to jest rodzaj programu",
+            "ar": "وانها برنامج رائع جدا وانها نوع من البرنامج"
+         },
+         "endTime": 140678,
+         "startTime": 138069
+      },
+      {
+         "text": {
+            "en": "that I'd really like to modify and spin off",
+            "pl": "że naprawdę chciałbym zmodyfikować i odkręcić",
+            "ar": "أنني أود حقا أن تعديل وتدور قبالة"
+         },
+         "endTime": 143535,
+         "startTime": 140678
+      },
+      {
+         "text": {
+            "en": "and do my own thing with because there's a lot of things",
+            "pl": "i robić swoje, bo jest wiele rzeczy",
+            "ar": "وفعل شيء بلدي مع لأن هناك الكثير من الأشياء"
+         },
+         "endTime": 145380,
+         "startTime": 143535
+      },
+      {
+         "text": {
+            "en": "I can imagine doing with this bouncing ball.",
+            "pl": "Wyobrażam sobie to z tą odbijającą się piłką.",
+            "ar": "أستطيع أن أتخيل القيام بهذه الكرة المرتدة"
+         },
+         "endTime": 147434,
+         "startTime": 145380
+      },
+      {
+         "text": {
+            "en": "Right, maybe turning into a bouncing penguin.",
+            "pl": "Racja, może zamieniając się w podskakujący pingwina.",
+            "ar": "صحيح، ربما تتحول إلى بطريق كذاب"
+         },
+         "endTime": 149596,
+         "startTime": 147434
+      },
+      {
+         "text": {
+            "en": "But when I look at the code I don't quite understand it.",
+            "pl": "Ale kiedy patrzę na kod, nie do końca go rozumiem.",
+            "ar": "ولكن عندما أنظر إلى الشفرة، لا أفهمها تمامًا."
+         },
+         "endTime": 152477,
+         "startTime": 150146
+      },
+      {
+         "text": {
+            "en": "There's a lot of math going on and I'm not sure",
+            "pl": "Dużo matematyki się dzieje i nie jestem pewien",
+            "ar": "هناك الكثير من الرياضيات يحدث وأنا لست متأكدا"
+         },
+         "endTime": 155020,
+         "startTime": 152477
+      },
+      {
+         "text": {
+            "en": "what it's calculating and where it's getting",
+            "pl": "co oblicza i skąd się bierze",
+            "ar": "ما يتم حسابه وأين يتم الحصول عليه"
+         },
+         "endTime": 156692,
+         "startTime": 155020
+      },
+      {
+         "text": {
+            "en": "these formulas from.",
+            "pl": "te formuły z.",
+            "ar": "هذه الصيغ من."
+         },
+         "endTime": 158457,
+         "startTime": 156692
+      },
+      {
+         "text": {
+            "en": "So if I wanted to understand it,",
+            "pl": "Więc jeśli chcę to zrozumieć,",
+            "ar": "لذا إن أردت فهمه"
+         },
+         "endTime": 159978,
+         "startTime": 158457
+      },
+      {
+         "text": {
+            "en": "I'd have to go through line by line",
+            "pl": "Musiałbym przechodzić przez linię po linii",
+            "ar": "يجب أن أذهب من خلال سطرًا سطرًا"
+         },
+         "endTime": 161638,
+         "startTime": 159978
+      },
+      {
+         "text": {
+            "en": "and tinker things and try and figure it out.",
+            "pl": "i majstrować rzeczy i spróbować to rozgryźć.",
+            "ar": "وتلاعب الأشياء ومحاولة معرفة ذلك."
+         },
+         "endTime": 165759,
+         "startTime": 161638
+      },
+      {
+         "text": {
+            "en": "Now what would happen if it was written with comments?",
+            "pl": "Co by się stało, gdyby napisano to z komentarzami?",
+            "ar": "الآن ماذا سيحدث إذا تم كتابته مع تعليقات؟"
+         },
+         "endTime": 168951,
+         "startTime": 165759
+      },
+      {
+         "text": {
+            "en": "Ta-da, magic.",
+            "pl": "Ta-da, magia.",
+            "ar": "تا-دا، سحر."
+         },
+         "endTime": 173277,
+         "startTime": 171335
+      },
+      {
+         "text": {
+            "en": "So now we have the same program with comments.",
+            "pl": "Więc teraz mamy ten sam program z komentarzami.",
+            "ar": "حتى الآن لدينا نفس البرنامج مع التعليقات."
+         },
+         "endTime": 175621,
+         "startTime": 173277
+      },
+      {
+         "text": {
+            "en": "So you can see how the program starts off with this",
+            "pl": "Więc można zobaczyć, jak program zaczyna się od tego",
+            "ar": "حتى تتمكن من معرفة كيف يبدأ البرنامج مع هذا"
+         },
+         "endTime": 178654,
+         "startTime": 175621
+      },
+      {
+         "text": {
+            "en": "general comment at the top that describes the purpose",
+            "pl": "ogólny komentarz na górze, który opisuje cel",
+            "ar": "تعليق عام في الجزء العلوي يصف الغرض"
+         },
+         "endTime": 181478,
+         "startTime": 178654
+      },
+      {
+         "text": {
+            "en": "of the program and then throughout the program",
+            "pl": "programu, a następnie w całym programie",
+            "ar": "من البرنامج ومن ثم في جميع أنحاء البرنامج"
+         },
+         "endTime": 184439,
+         "startTime": 181478
+      },
+      {
+         "text": {
+            "en": "there's these single line comments that describe things",
+            "pl": "są komentarze jednej linii, które opisują rzeczy",
+            "ar": "هناك تعليقات سطر واحد تصف الأشياء"
+         },
+         "endTime": 186621,
+         "startTime": 184439
+      },
+      {
+         "text": {
+            "en": "like what these variables are,",
+            "pl": "jak te zmienne są,",
+            "ar": "مثل ما هي هذه المتغيرات،"
+         },
+         "endTime": 189077,
+         "startTime": 186621
+      },
+      {
+         "text": {
+            "en": "like the initial variables are the time and the height.",
+            "pl": "jak zmienne początkowe są czas i wysokość.",
+            "ar": "مثل المتغيرات الأولية هي الوقت والارتفاع."
+         },
+         "endTime": 191948,
+         "startTime": 189077
+      },
+      {
+         "text": {
+            "en": "And then we got three lines of comments about",
+            "pl": "A potem mamy trzy linie komentarzy na temat",
+            "ar": "ثم حصلنا على ثلاثة أسطر من التعليقات حول"
+         },
+         "endTime": 194815,
+         "startTime": 191948
+      },
+      {
+         "text": {
+            "en": "this formula here because it's really important",
+            "pl": "ta formuła tutaj, bo to naprawdę ważne",
+            "ar": "هذه الصيغة هنا لأنه من المهم حقا"
+         },
+         "endTime": 196488,
+         "startTime": 194815
+      },
+      {
+         "text": {
+            "en": "because this is what determines the y position of the ball.",
+            "pl": "ponieważ to jest to, co decyduje o pozycji y piłki.",
+            "ar": "لأن هذا هو ما يحدد موقف y من الكرة."
+         },
+         "endTime": 199170,
+         "startTime": 196488
+      },
+      {
+         "text": {
+            "en": "And here we can see it's actually calculating",
+            "pl": "I tutaj widzimy, że to faktycznie oblicza",
+            "ar": "وهنا يمكننا أن نرى انها في الواقع حساب"
+         },
+         "endTime": 200829,
+         "startTime": 199170
+      },
+      {
+         "text": {
+            "en": "this parabola based on velocity and acceleration.",
+            "pl": "to parabola w oparciu o prędkość i przyspieszenie.",
+            "ar": "هذا القطع المكافئ على أساس السرعة والتسارع."
+         },
+         "endTime": 203453,
+         "startTime": 200829
+      },
+      {
+         "text": {
+            "en": "So now that I see this comment, it's actually really easy",
+            "pl": "Więc teraz, gdy widzę ten komentarz, to naprawdę naprawdę proste",
+            "ar": "حتى الآن أن أرى هذا التعليق، انها في الواقع من السهل حقا"
+         },
+         "endTime": 206410,
+         "startTime": 203453
+      },
+      {
+         "text": {
+            "en": "for me to change this code here and say, oh okay,",
+            "pl": "dla mnie, aby zmienić ten kod tutaj i powiedzieć, oh okay,",
+            "ar": "بالنسبة لي لتغيير هذا الرمز هنا ويقول، أوه حسنا،"
+         },
+         "endTime": 208764,
+         "startTime": 206410
+      },
+      {
+         "text": {
+            "en": "well what happens if we gave the ball",
+            "pl": "co się stanie, jeśli damy piłkę",
+            "ar": "حسنا ماذا يحدث إذا أعطينا الكرة"
+         },
+         "endTime": 211085,
+         "startTime": 208764
+      },
+      {
+         "text": {
+            "en": "higher initial velocity?",
+            "pl": "Większa prędkość początkowa?",
+            "ar": "سرعة أولية أعلى؟"
+         },
+         "endTime": 212271,
+         "startTime": 211085
+      },
+      {
+         "text": {
+            "en": "Huh huh, well it's gonna go a lot higher, awesome.",
+            "pl": "Huh, cóż, to pójdzie o wiele wyżej, zajebiście.",
+            "ar": "هاه، حسنا انها ستعمل يذهب أعلى بكثير، رهيبة."
+         },
+         "endTime": 215358,
+         "startTime": 212271
+      },
+      {
+         "text": {
+            "en": "So you can see that as soon as I saw comments in the code,",
+            "pl": "Widać, że jak tylko zobaczyłem komentarze w kodzie,",
+            "ar": "لذلك يمكنك أن ترى أنه بمجرد أن رأيت تعليقات في التعليمات البرمجية،"
+         },
+         "endTime": 219288,
+         "startTime": 215358
+      },
+      {
+         "text": {
+            "en": "I was able to understand the program much faster",
+            "pl": "Byłem w stanie zrozumieć program znacznie szybciej",
+            "ar": "كنت قادرا على فهم البرنامج أسرع بكثير"
+         },
+         "endTime": 222576,
+         "startTime": 219691
+      },
+      {
+         "text": {
+            "en": "and modify it much more easily.",
+            "pl": "i modyfikuj go znacznie łatwiej.",
+            "ar": "وتعديله بسهولة أكبر بكثير."
+         },
+         "endTime": 224915,
+         "startTime": 222576
+      },
+      {
+         "text": {
+            "en": "So they're cool, right?",
+            "pl": "Więc są fajne, prawda?",
+            "ar": "لذا هم رائعون، أليس كذلك؟"
+         },
+         "endTime": 227511,
+         "startTime": 225261
+      },
+      {
+         "text": {
+            "en": "Now let's just go over what the nice parts",
+            "pl": "Teraz po prostu przejdźmy do tego, co ładne części",
+            "ar": "الآن دعونا نذهب أكثر ما أجزاء لطيفة"
+         },
+         "endTime": 230621,
+         "startTime": 227511
+      },
+      {
+         "text": {
+            "en": "about comments are and why you should be",
+            "pl": "o komentarzach są i dlaczego powinieneś być",
+            "ar": "حول التعليقات ولماذا يجب أن تكون"
+         },
+         "endTime": 232246,
+         "startTime": 230621
+      },
+      {
+         "text": {
+            "en": "doing them in your code.",
+            "pl": "robi je w kodzie.",
+            "ar": "القيام بها في التعليمات البرمجية الخاصة بك."
+         },
+         "endTime": 233605,
+         "startTime": 232246
+      },
+      {
+         "text": {
+            "en": "Alright, so first of all, if you put comments in your code,",
+            "pl": "W porządku, więc po pierwsze, jeśli umieścisz komentarze w kodzie,",
+            "ar": "حسنا، أولا وقبل كل شيء، إذا وضعت تعليقات في التعليمات البرمجية الخاصة بك،"
+         },
+         "endTime": 236762,
+         "startTime": 233605
+      },
+      {
+         "text": {
+            "en": "you'll help other people learn from your code",
+            "pl": "pomożesz innym ludziom uczyć się z Twojego kodu",
+            "ar": "سوف تساعد الآخرين على التعلم من التعليمات البرمجية الخاصة بك"
+         },
+         "endTime": 239664,
+         "startTime": 236762
+      },
+      {
+         "text": {
+            "en": "and that's something that we're really into",
+            "pl": "i to jest coś, co naprawdę się wpakowaliśmy.",
+            "ar": "وهذا شيء نحن حقا في"
+         },
+         "endTime": 241221,
+         "startTime": 239664
+      },
+      {
+         "text": {
+            "en": "here at Khan Academy, right?",
+            "pl": "w Khan Academy, prawda?",
+            "ar": "هنا في أكاديمية خان، أليس كذلك؟"
+         },
+         "endTime": 243322,
+         "startTime": 241221
+      },
+      {
+         "text": {
+            "en": "Second of all, if you put comments in your code,",
+            "pl": "Po drugie, jeśli umieścisz komentarze w kodzie,",
+            "ar": "ثانيا، إذا وضعت تعليقات في التعليمات البرمجية الخاصة بك،"
+         },
+         "endTime": 245761,
+         "startTime": 243322
+      },
+      {
+         "text": {
+            "en": "you make it easier for other people to fix bugs",
+            "pl": "ułatwiasz innym ludziom naprawianie błędów",
+            "ar": "كنت تجعل من الأسهل على الآخرين لإصلاح الخلل"
+         },
+         "endTime": 248000,
+         "startTime": 245761
+      },
+      {
+         "text": {
+            "en": "in your code or add new features.",
+            "pl": "w kodzie lub dodaj nowe funkcje.",
+            "ar": "في التعليمات البرمجية الخاصة بك أو إضافة ميزات جديدة."
+         },
+         "endTime": 249882,
+         "startTime": 248000
+      },
+      {
+         "text": {
+            "en": "And that's something you probably want too, right?",
+            "pl": "Ty pewnie też tego chcesz, prawda?",
+            "ar": "وهذا شيء ربما كنت تريد أيضا، أليس كذلك؟"
+         },
+         "endTime": 251856,
+         "startTime": 249882
+      },
+      {
+         "text": {
+            "en": "If somebody sees something in your program and they think,",
+            "pl": "Jeśli ktoś zobaczy coś w twoim programie i pomyśli,",
+            "ar": "إذا رأى شخص ما شيئا في برنامجك وفكر"
+         },
+         "endTime": 253547,
+         "startTime": 251856
+      },
+      {
+         "text": {
+            "en": "\"Oh it would be really cool if it did this\",",
+            "pl": "„Och, byłoby naprawdę fajnie, gdyby to zrobiło”,",
+            "ar": "«أوه سيكون رائعا حقا إذا فعلت هذا»،"
+         },
+         "endTime": 255167,
+         "startTime": 253547
+      },
+      {
+         "text": {
+            "en": "and if they actually understood your program,",
+            "pl": "i jeśli rzeczywiście rozumieją twój program,",
+            "ar": "وإذا فهموا برنامجك بالفعل"
+         },
+         "endTime": 256745,
+         "startTime": 255167
+      },
+      {
+         "text": {
+            "en": "they can actually add that and say like,",
+            "pl": "mogą to dodać i powiedzieć,",
+            "ar": "يمكنهم في الواقع إضافة ذلك ويقولون مثل"
+         },
+         "endTime": 258940,
+         "startTime": 256745
+      },
+      {
+         "text": {
+            "en": "\"Hey I took your program and I added it\"",
+            "pl": "„Hej, wziąłem twój program i dodałem go”",
+            "ar": "«يا أخذت برنامجك وأنا أضفته»"
+         },
+         "endTime": 260562,
+         "startTime": 258940
+      },
+      {
+         "text": {
+            "en": "and then you can, you know, have a better program",
+            "pl": "i wtedy możesz, no wiesz, mieć lepszy program",
+            "ar": "وبعد ذلك يمكنك، تعلمون، لديك برنامج أفضل"
+         },
+         "endTime": 262989,
+         "startTime": 260562
+      },
+      {
+         "text": {
+            "en": "because of that, so that's really cool.",
+            "pl": "z tego powodu, więc to naprawdę fajne.",
+            "ar": "بسبب ذلك، لذلك هذا رائع حقا."
+         },
+         "endTime": 265114,
+         "startTime": 262989
+      },
+      {
+         "text": {
+            "en": "But you don't just have to have comments",
+            "pl": "Ale nie musisz tylko mieć komentarzy",
+            "ar": "ولكن ليس عليك فقط أن يكون لديك تعليقات"
+         },
+         "endTime": 268179,
+         "startTime": 266094
+      },
+      {
+         "text": {
+            "en": "when you're working with other people.",
+            "pl": "kiedy pracujesz z innymi ludźmi.",
+            "ar": "عندما كنت تعمل مع أشخاص آخرين."
+         },
+         "endTime": 269795,
+         "startTime": 268179
+      },
+      {
+         "text": {
+            "en": "Even when you're working with yourself",
+            "pl": "Nawet gdy pracujesz ze sobą",
+            "ar": "حتى عندما كنت تعمل مع نفسك"
+         },
+         "endTime": 271351,
+         "startTime": 269795
+      },
+      {
+         "text": {
+            "en": "because you're a human too.",
+            "pl": "Bo ty też jesteś człowiekiem.",
+            "ar": "لأنك إنسان أيضاً"
+         },
+         "endTime": 273150,
+         "startTime": 271351
+      },
+      {
+         "text": {
+            "en": "So if you write comments in your code, you'll make it",
+            "pl": "Więc jeśli piszesz komentarze w kodzie, zrobisz to",
+            "ar": "لذلك إذا قمت بكتابة تعليقات في التعليمات البرمجية الخاصة بك، عليك أن تجعل من"
+         },
+         "endTime": 274973,
+         "startTime": 273150
+      },
+      {
+         "text": {
+            "en": "much easier for yourself to understand your own code.",
+            "pl": "o wiele łatwiej dla siebie zrozumieć swój własny kod.",
+            "ar": "أسهل بكثير لنفسك لفهم التعليمات البرمجية الخاصة بك."
+         },
+         "endTime": 277388,
+         "startTime": 274973
+      },
+      {
+         "text": {
+            "en": "And you might think to yourself right now that",
+            "pl": "I możesz myśleć sobie teraz, że",
+            "ar": "وكنت قد تعتقد لنفسك في الوقت الراهن أن"
+         },
+         "endTime": 279025,
+         "startTime": 277388
+      },
+      {
+         "text": {
+            "en": "oh, you understand your code perfectly,",
+            "pl": "Och, doskonale rozumiesz swój kod,",
+            "ar": "أوه، أنت تفهم الرمز الخاص بك تماما،"
+         },
+         "endTime": 281289,
+         "startTime": 279025
+      },
+      {
+         "text": {
+            "en": "but trust me, just wait a month,",
+            "pl": "ale uwierz mi, poczekaj miesiąc,",
+            "ar": "ولكن ثق بي, فقط انتظر شهر,"
+         },
+         "endTime": 283564,
+         "startTime": 281289
+      },
+      {
+         "text": {
+            "en": "wait a year, wait 15 years.",
+            "pl": "poczekaj rok, poczekaj 15 lat.",
+            "ar": "انتظر سنة، انتظر 15 عاما."
+         },
+         "endTime": 285631,
+         "startTime": 283564
+      },
+      {
+         "text": {
+            "en": "You're gonna look at your code and you're gonna think,",
+            "pl": "Przyjrzysz się kodeksom i pomyślisz,",
+            "ar": "سوف تنظر إلى شفرتك وستفكر"
+         },
+         "endTime": 288254,
+         "startTime": 285631
+      },
+      {
+         "text": {
+            "en": "what, what did I do?",
+            "pl": "Co, co ja zrobiłem?",
+            "ar": "ماذا، ماذا فعلت؟"
+         },
+         "endTime": 290251,
+         "startTime": 288254
+      },
+      {
+         "text": {
+            "en": "And you're gonna wish that you wrote comments in your code.",
+            "pl": "I będziesz żałował, że napisałeś komentarze w swoim kodzie.",
+            "ar": "وستتمنى لو أنك كتبت تعليقاتك في شفرتك"
+         },
+         "endTime": 293292,
+         "startTime": 290251
+      },
+      {
+         "text": {
+            "en": "So just comment your code now",
+            "pl": "Więc po prostu skomentuj swój kod teraz",
+            "ar": "حتى مجرد تعليق التعليمات البرمجية الخاصة بك الآن"
+         },
+         "endTime": 294883,
+         "startTime": 293292
+      },
+      {
+         "text": {
+            "en": "and it'll help you and it'll help everybody else.",
+            "pl": "i to ci pomoże i pomoże wszystkim innym.",
+            "ar": "وسوف تساعدك وسوف تساعد الجميع."
+         },
+         "endTime": 297872,
+         "startTime": 294883
+      },
+      {
+         "text": {
+            "en": "So hopefully that's convinced you to comment",
+            "pl": "Więc miejmy nadzieję, że jest przekonany do komentarza",
+            "ar": "لذلك نأمل أن يقنعك بالتعليق"
+         },
+         "endTime": 300304,
+         "startTime": 298440
+      },
+      {
+         "text": {
+            "en": "and now you might be asking like okay,",
+            "pl": "A teraz możesz pytać jak w porządku,",
+            "ar": "والآن قد تسأل مثل بخير،"
+         },
+         "endTime": 301987,
+         "startTime": 300304
+      },
+      {
+         "text": {
+            "en": "when should I comment?",
+            "pl": "Kiedy powinienem skomentować?",
+            "ar": "متى يجب أن أعلق؟"
+         },
+         "endTime": 303494,
+         "startTime": 301987
+      },
+      {
+         "text": {
+            "en": "You know, where should I put comments in my code?",
+            "pl": "Wiesz, gdzie mam umieścić komentarze w kodzie?",
+            "ar": "تعرف، أين يجب أن أضع التعليقات في شفرتي؟"
+         },
+         "endTime": 306116,
+         "startTime": 303494
+      },
+      {
+         "text": {
+            "en": "What line should I comment?",
+            "pl": "Jaką linię powinienem skomentować?",
+            "ar": "ما الخط الذي يجب أن أعلق عليه؟"
+         },
+         "endTime": 307943,
+         "startTime": 306116
+      },
+      {
+         "text": {
+            "en": "So that's a really good question",
+            "pl": "Więc to naprawdę dobre pytanie.",
+            "ar": "لذلك هذا سؤال جيد حقا"
+         },
+         "endTime": 309879,
+         "startTime": 307943
+      },
+      {
+         "text": {
+            "en": "and there's no right or wrong answer.",
+            "pl": "i nie ma dobrej czy złej odpowiedzi.",
+            "ar": "وليس هناك إجابة صحيحة أو خاطئة."
+         },
+         "endTime": 313235,
+         "startTime": 310478
+      },
+      {
+         "text": {
+            "en": "What I would do is start off at the beginning of the program",
+            "pl": "Co chciałbym zrobić, to zacząć od początku programu",
+            "ar": "ما سأفعله هو البدء في بداية البرنامج"
+         },
+         "endTime": 316278,
+         "startTime": 313235
+      },
+      {
+         "text": {
+            "en": "and do this general description of the program here, right?",
+            "pl": "i zrobić ten ogólny opis programu tutaj, prawda?",
+            "ar": "والقيام بهذا الوصف العام للبرنامج هنا، أليس كذلك؟"
+         },
+         "endTime": 319333,
+         "startTime": 316278
+      },
+      {
+         "text": {
+            "en": "And then I would go through the program and pretend",
+            "pl": "A potem przechodziłem przez program i udawałem",
+            "ar": "وبعد ذلك سوف أذهب من خلال البرنامج وأتظاهر"
+         },
+         "endTime": 321817,
+         "startTime": 319333
+      },
+      {
+         "text": {
+            "en": "that I was explaining it to someone, and if I got to a line",
+            "pl": "że tłumaczyłem to komuś, a jeśli doszedłem do linii",
+            "ar": "أنني كنت أشرح ذلك لشخص ما، وإذا وصلت إلى خط"
+         },
+         "endTime": 324951,
+         "startTime": 321817
+      },
+      {
+         "text": {
+            "en": "that wasn't obvious, I might add a comment there",
+            "pl": "to nie było oczywiste, mogę dodać komentarz",
+            "ar": "هذا لم يكن واضحا، قد أضيف تعليق هناك"
+         },
+         "endTime": 327970,
+         "startTime": 324951
+      },
+      {
+         "text": {
+            "en": "to try and explain it more.",
+            "pl": ", aby spróbować wyjaśnić to więcej.",
+            "ar": "لمحاولة شرح ذلك أكثر."
+         },
+         "endTime": 329977,
+         "startTime": 327970
+      },
+      {
+         "text": {
+            "en": "So you don't have to comment every line in this program.",
+            "pl": "Więc nie musisz komentować każdej linii w tym programie.",
+            "ar": "لذلك لم يكن لديك للتعليق على كل سطر في هذا البرنامج."
+         },
+         "endTime": 332923,
+         "startTime": 329977
+      },
+      {
+         "text": {
+            "en": "You just comment the things that you think",
+            "pl": "Po prostu komentuj rzeczy, które myślisz",
+            "ar": "كنت مجرد التعليق على الأشياء التي كنت تعتقد"
+         },
+         "endTime": 334548,
+         "startTime": 332923
+      },
+      {
+         "text": {
+            "en": "might not be obvious, right?",
+            "pl": "To może nie być oczywiste, prawda?",
+            "ar": "قد لا يكون واضحا، أليس كذلك؟"
+         },
+         "endTime": 337081,
+         "startTime": 334548
+      },
+      {
+         "text": {
+            "en": "And everyone will be a lot happier because of that.",
+            "pl": "I wszyscy będą szczęśliwsi z tego powodu.",
+            "ar": "والجميع سيكون أكثر سعادة بسبب ذلك."
+         },
+         "endTime": 340882,
+         "startTime": 337481
+      },
+      {
+         "text": {
+            "en": "So go forth, comment!",
+            "pl": "Więc idź naprzód, komentarz!",
+            "ar": "حتى يذهب إلى الأمام، والتعليق!"
+         },
+         "endTime": 344351,
+         "startTime": 340882
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/dW_88A5HBFU/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759765912",
+   "title": "Clarifying with Comments | Writing clean code | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

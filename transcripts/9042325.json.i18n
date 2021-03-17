@@ -1,0 +1,1113 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "We're back with our program that creates winstons",
+            "pl": "Wróciliśmy do naszego programu, który tworzy winstons",
+            "ar": "عدنا مع برنامجنا الذي يخلق winstons"
+         },
+         "endTime": 3173,
+         "startTime": 1187
+      },
+      {
+         "text": {
+            "en": "but I've added a new object type Hopper because Hopper was feeling a little",
+            "pl": "ale dodałem nowy typ obiektu Hopper ponieważ Hopper czuł się trochę",
+            "ar": "ولكن لقد أضفت نوع كائن جديد هوبر لأن هوبر كان يشعر قليلا"
+         },
+         "endTime": 7589,
+         "startTime": 3173
+      },
+      {
+         "text": {
+            "en": "left out now I define Hopper the same way that I define Winston, you know",
+            "pl": "pominięty teraz definiuję Hoppera tak samo jak ja definiuję Winstona, wiesz",
+            "ar": "تركت الآن أنا تعريف هوبر بنفس الطريقة التي أعرفها وينستون، كما تعلمون"
+         },
+         "endTime": 11924,
+         "startTime": 7589
+      },
+      {
+         "text": {
+            "en": "starting out with the constructive function and taking the same properties and then draw",
+            "pl": "zaczynając z funkcji konstruktywnej i biorąc te same właściwości, a następnie wyciągnąć",
+            "ar": "بدءا من وظيفة بناءة واتخاذ نفس الخصائص ومن ثم رسم"
+         },
+         "endTime": 15843,
+         "startTime": 11924
+      },
+      {
+         "text": {
+            "en": "and then talk and then I also added another method called",
+            "pl": "a potem mówić, a potem dodałem inną metodę o nazwie",
+            "ar": "ثم التحدث ثم أضفت أيضا طريقة أخرى تسمى"
+         },
+         "endTime": 20498,
+         "startTime": 15843
+      },
+      {
+         "text": {
+            "en": "Horray because Hoppers really like to celebrate and Winstons don't",
+            "pl": "Horray, bo Hoppers naprawdę lubią świętować, a Winstons nie",
+            "ar": "Horray لأن النطاط أحب حقا للاحتفال و وينستونز لا"
+         },
+         "endTime": 23808,
+         "startTime": 20498
+      },
+      {
+         "text": {
+            "en": "really at all. Now at the bottom of the function I've created",
+            "pl": "Naprawdę w ogóle. Teraz na dole funkcji, którą stworzyłem",
+            "ar": "حقا على الإطلاق. الآن في الجزء السفلي من وظيفة لقد خلقت"
+         },
+         "endTime": 27924,
+         "startTime": 23808
+      },
+      {
+         "text": {
+            "en": "two new Hopper objects: Little Hopper and big Hopper",
+            "pl": "dwa nowe obiekty Hopper: Mały Hopper i duży Hopper",
+            "ar": "اثنين من الكائنات هوبر جديدة: هوبر قليلا واثب كبير"
+         },
+         "endTime": 31174,
+         "startTime": 27924
+      },
+      {
+         "text": {
+            "en": "and drawn them and called talk on one and Horray on the other",
+            "pl": "i narysował je i zadzwonił do rozmowy na jednym i Horray na drugim",
+            "ar": "و رسمها و دعوا كلام على واحد و هوري على الآخر"
+         },
+         "endTime": 35347,
+         "startTime": 31174
+      },
+      {
+         "text": {
+            "en": "So that's pretty neat",
+            "pl": "Więc to całkiem zgrabne",
+            "ar": "لذلك هذا أنيق جدا"
+         },
+         "endTime": 37508,
+         "startTime": 35347
+      },
+      {
+         "text": {
+            "en": "Now, if we look at this code up here",
+            "pl": "Teraz, jeśli spojrzymy na ten kod tutaj",
+            "ar": "الآن، إذا نظرنا إلى هذا الرمز هنا"
+         },
+         "endTime": 39928,
+         "startTime": 37508
+      },
+      {
+         "text": {
+            "en": "you might notice something interesting. Is that",
+            "pl": "Można zauważyć coś ciekawego. Czy to",
+            "ar": "قد تلاحظ شيئا مثيرا للاهتمام. هل هذا"
+         },
+         "endTime": 41823,
+         "startTime": 39928
+      },
+      {
+         "text": {
+            "en": "the code for hopper is very similar to the code for winston. Particularly look at it's constructor. I don't know if you remember but that's basically that is exactly the same code as our Winston constructor",
+            "pl": "kod zasobnika jest bardzo podobny do kodu dla winston. Szczególnie spójrz na to konstruktor. Nie wiem, czy pamiętasz, ale to w zasadzie jest dokładnie taki sam kod jak nasz konstruktor Winston",
+            "ar": "رمز النطاط يشبه إلى حد بعيد رمز وينستون. ننظر بشكل خاص في انها منشئ. أنا لا أعرف ما إذا كنت تتذكر ولكن هذا في الأساس هذا هو بالضبط نفس رمز منشئ وينستون لدينا"
+         },
+         "endTime": 52324,
+         "startTime": 41973
+      },
+      {
+         "text": {
+            "en": "And then this talk function is also exactly the same code as our Winston talk function",
+            "pl": "A potem ta funkcja rozmowy jest również dokładnie taki sam kod jak nasza funkcja rozmowy Winston",
+            "ar": "ثم هذه وظيفة الحديث هو أيضا بالضبط نفس رمز لدينا وظيفة نقاش ونستون"
+         },
+         "endTime": 60748,
+         "startTime": 52324
+      },
+      {
+         "text": {
+            "en": "and they also both have draw functions",
+            "pl": "i oba mają funkcje rysowania",
+            "ar": "وكلاهما أيضا لديهم وظائف رسم"
+         },
+         "endTime": 63897,
+         "startTime": 60763
+      },
+      {
+         "text": {
+            "en": "so there's a lot of things in common about these two object types",
+            "pl": "więc jest wiele wspólnych rzeczy w tych dwóch typach obiektów",
+            "ar": "لذلك هناك الكثير من الأشياء المشتركة حول هذين النوعين من الكائنات"
+         },
+         "endTime": 67922,
+         "startTime": 63897
+      },
+      {
+         "text": {
+            "en": "and that makes because you know Hopper and Winston they're two very similar object types",
+            "pl": "A to sprawia, że ponieważ znasz Hoppera i Winstona są dwa bardzo podobne typy obiektów",
+            "ar": "وهذا يجعل لأنك تعرف هوبر و وينستون انهم نوعان من الكائنات متشابهة جدا"
+         },
+         "endTime": 71341,
+         "startTime": 67922
+      },
+      {
+         "text": {
+            "en": "in our world. If you think about, you know, the real world",
+            "pl": "w naszym świecie. Jeśli myślisz o, wiesz, prawdziwym świecie",
+            "ar": "في عالمنا. إذا كنت تفكر، كما تعلمون، العالم الحقيقي"
+         },
+         "endTime": 75299,
+         "startTime": 71341
+      },
+      {
+         "text": {
+            "en": "outside the computer most object types shares some similarities",
+            "pl": "poza komputerem większość typów obiektów dzieli pewne podobieństwa",
+            "ar": "خارج الكمبيوتر معظم أنواع الكائنات تشترك في بعض أوجه التشابه"
+         },
+         "endTime": 80009,
+         "startTime": 75299
+      },
+      {
+         "text": {
+            "en": "with other object types.",
+            "pl": "z innymi typami obiektów.",
+            "ar": "مع أنواع الكائنات الأخرى."
+         },
+         "endTime": 81423,
+         "startTime": 80009
+      },
+      {
+         "text": {
+            "en": "Like in the animal kingdom. All animals",
+            "pl": "Jak w królestwie zwierząt. Wszystkie zwierzęta",
+            "ar": "كما هو الحال في مملكة الحيوانات جميع الحيوانات"
+         },
+         "endTime": 83643,
+         "startTime": 81423
+      },
+      {
+         "text": {
+            "en": "are similar in some ways. And then we have different types of animals",
+            "pl": "są podobne pod pewnymi względami. A potem mamy różne rodzaje zwierząt",
+            "ar": "متشابهة في بعض النواحي. وبعد ذلك لدينا أنواع مختلفة من الحيوانات"
+         },
+         "endTime": 86812,
+         "startTime": 83643
+      },
+      {
+         "text": {
+            "en": "like humans. And humans share those similarities",
+            "pl": "jak ludzie. I ludzie dzielą te podobieństwa",
+            "ar": "مثل البشر والبشر يتقاسمون هذه التشابه"
+         },
+         "endTime": 91588,
+         "startTime": 86812
+      },
+      {
+         "text": {
+            "en": "but also have their own unique similarities.",
+            "pl": "ale także mają swoje unikalne podobieństwa.",
+            "ar": "بل لديها أيضا أوجه تشابه فريدة من نوعها."
+         },
+         "endTime": 94331,
+         "startTime": 91588
+      },
+      {
+         "text": {
+            "en": "So we could say that",
+            "pl": "Więc możemy powiedzieć, że",
+            "ar": "حتى نتمكن من القول"
+         },
+         "endTime": 95820,
+         "startTime": 94331
+      },
+      {
+         "text": {
+            "en": "animal is an object type that human object type inherit functionality from.",
+            "pl": "zwierzę jest typem obiektu, który typ obiektu ludzkiego dziedziczy funkcjonalność.",
+            "ar": "الحيوان هو نوع الكائن الذي يرث نوع الكائن البشري وظيفة من."
+         },
+         "endTime": 98967,
+         "startTime": 96205
+      },
+      {
+         "text": {
+            "en": "We don't completely start from scratch we add on top of the functionality that we get from being an animal.",
+            "pl": "Nie zaczynamy całkowicie od zera dodajemy do funkcjonalności, które otrzymujemy od bycia zwierzęciem.",
+            "ar": "نحن لا نبدأ تماما من الصفر نضيف على رأس الوظائف التي نحصل عليها من كونها حيوان."
+         },
+         "endTime": 106864,
+         "startTime": 98967
+      },
+      {
+         "text": {
+            "en": "Like all animals make noises",
+            "pl": "Jak wszystkie zwierzęta wydają odgłosy",
+            "ar": "مثل كل الحيوانات تصنع أصواتا"
+         },
+         "endTime": 109196,
+         "startTime": 106864
+      },
+      {
+         "text": {
+            "en": "But humans also make language",
+            "pl": "Ale ludzie też tworzą język",
+            "ar": "ولكن البشر أيضا جعل اللغة"
+         },
+         "endTime": 111407,
+         "startTime": 109196
+      },
+      {
+         "text": {
+            "en": "So this concept of object inheritance",
+            "pl": "Więc ta koncepcja dziedziczenia obiektu",
+            "ar": "لذلك هذا المفهوم من الميراث الكائن"
+         },
+         "endTime": 114673,
+         "startTime": 111407
+      },
+      {
+         "text": {
+            "en": "is really useful in programming too.",
+            "pl": "jest bardzo przydatne w programowaniu też.",
+            "ar": "مفيد حقا في البرمجة أيضا."
+         },
+         "endTime": 116695,
+         "startTime": 114673
+      },
+      {
+         "text": {
+            "en": "And we can create a chain of object inheritance in our Javascript.",
+            "pl": "I możemy stworzyć łańcuch dziedziczenia obiektów w naszym Javascript.",
+            "ar": "ويمكننا إنشاء سلسلة من الميراث الكائن في جافا سكريبت لدينا."
+         },
+         "endTime": 119865,
+         "startTime": 116695
+      },
+      {
+         "text": {
+            "en": "So to do this when you think about",
+            "pl": "Więc to zrobić, gdy myślisz o",
+            "ar": "لذلك للقيام بذلك عندما تفكر"
+         },
+         "endTime": 122529,
+         "startTime": 119865
+      },
+      {
+         "text": {
+            "en": "what's shared about our object types.",
+            "pl": "co jest udostępniane na temat naszych typów obiektów.",
+            "ar": "ما يتم مشاركته حول أنواع الكائنات لدينا."
+         },
+         "endTime": 124425,
+         "startTime": 122529
+      },
+      {
+         "text": {
+            "en": "And come up with a name for that",
+            "pl": "I wymyślić nazwę na to",
+            "ar": "والخروج مع اسم لذلك"
+         },
+         "endTime": 126633,
+         "startTime": 124425
+      },
+      {
+         "text": {
+            "en": "'Cause we're going create a new object type",
+            "pl": "Bo mamy zamiar stworzyć nowy typ obiektu",
+            "ar": "لأننا ذاهبون إلى إنشاء نوع كائن جديد"
+         },
+         "endTime": 128675,
+         "startTime": 126633
+      },
+      {
+         "text": {
+            "en": "that represents the base object",
+            "pl": "reprezentujący obiekt bazowy",
+            "ar": "الذي يمثل الكائن الأساسي"
+         },
+         "endTime": 130576,
+         "startTime": 128675
+      },
+      {
+         "text": {
+            "en": "so let's call them creature's.",
+            "pl": "Nazwijmy je stworzeniem.",
+            "ar": "لذلك دعونا ندعو لهم مخلوق."
+         },
+         "endTime": 132094,
+         "startTime": 130576
+      },
+      {
+         "text": {
+            "en": "They're both creatures.",
+            "pl": "Obie są stworzeniami.",
+            "ar": "كلاهما مخلوقات"
+         },
+         "endTime": 133873,
+         "startTime": 132094
+      },
+      {
+         "text": {
+            "en": "So we say var creature equals. And now we need our constructer function",
+            "pl": "Więc mówimy var istota równa. A teraz potrzebujemy naszej funkcji konstruktora",
+            "ar": "لذلك نقول فار مخلوق يساوي. والآن نحن بحاجة إلى وظيفة منشئ لدينا"
+         },
+         "endTime": 137831,
+         "startTime": 133873
+      },
+      {
+         "text": {
+            "en": "So let's go and just steal Hopper's as that the same thing that Winston has.",
+            "pl": "Więc chodźmy i ukradniemy Hoppera, to samo co Winston.",
+            "ar": "لذلك دعونا نذهب ونسرق هوبر كما أن نفس الشيء الذي لديه وينستون."
+         },
+         "endTime": 142342,
+         "startTime": 137831
+      },
+      {
+         "text": {
+            "en": "Alright.",
+            "pl": "W porządku.",
+            "ar": "حسناً"
+         },
+         "endTime": 143762,
+         "startTime": 142342
+      },
+      {
+         "text": {
+            "en": "And then... let's see.",
+            "pl": "A potem... zobaczmy.",
+            "ar": "وبعد ذلك... دعونا نرى."
+         },
+         "endTime": 147172,
+         "startTime": 143762
+      },
+      {
+         "text": {
+            "en": "Now we want to...",
+            "pl": "Teraz chcemy...",
+            "ar": "الآن نحن نريد أن..."
+         },
+         "endTime": 148135,
+         "startTime": 147172
+      },
+      {
+         "text": {
+            "en": "What do we want to next?",
+            "pl": "Co chcemy dalej?",
+            "ar": "ماذا نريد بعد ذلك؟"
+         },
+         "endTime": 149506,
+         "startTime": 148135
+      },
+      {
+         "text": {
+            "en": "Maybe we want to add the \"talk\" function on it.",
+            "pl": "Może chcemy dodać na nim funkcję „talk”.",
+            "ar": "ربما نريد إضافة وظيفة «الحديث» على ذلك."
+         },
+         "endTime": 151966,
+         "startTime": 149506
+      },
+      {
+         "text": {
+            "en": "So, for the \"talk\" function, we just steal Hoppper's. But of course we need to have it on the creature's prototype instead.",
+            "pl": "Tak więc, dla funkcji „talk”, po prostu kradniemy Hopppper's. Ale oczywiście musimy mieć to na prototypie stwora.",
+            "ar": "لذلك، من أجل وظيفة «الكلام»، نحن فقط نسرق هوبر. لكن بالطبع يجب أن نضعه على النموذج الأولي للمخلوق بدلاً من ذلك"
+         },
+         "endTime": 159303,
+         "startTime": 151966
+      },
+      {
+         "text": {
+            "en": "Okay, cool.",
+            "pl": "Okej, spoko.",
+            "ar": "حسناً، رائع"
+         },
+         "endTime": 161683,
+         "startTime": 159303
+      },
+      {
+         "text": {
+            "en": "So now we have this creature object type.",
+            "pl": "Więc teraz mamy ten typ obiektu istoty.",
+            "ar": "حتى الآن لدينا هذا النوع كائن مخلوق."
+         },
+         "endTime": 165300,
+         "startTime": 161683
+      },
+      {
+         "text": {
+            "en": "But we need to actually tell Hopper that Hopper should actually be",
+            "pl": "Ale musimy powiedzieć Hopperowi, że Hopper powinien być",
+            "ar": "لكن علينا أن نخبر (هوبر) أن (هوبر) يجب أن يكون"
+         },
+         "endTime": 167810,
+         "startTime": 165300
+      },
+      {
+         "text": {
+            "en": "base it's functionality off of creature.",
+            "pl": "bazą jest funkcjonalność poza stworzeniem.",
+            "ar": "قاعدة انها وظيفة الخروج من مخلوق."
+         },
+         "endTime": 171141,
+         "startTime": 167810
+      },
+      {
+         "text": {
+            "en": "So we can do that by writing this line here.",
+            "pl": "Więc możemy to zrobić, pisząc tę linię tutaj.",
+            "ar": "حتى نتمكن من القيام بذلك عن طريق كتابة هذا الخط هنا."
+         },
+         "endTime": 171249,
+         "startTime": 171248
+      },
+      {
+         "text": {
+            "en": "We'll say Hopper.prototype",
+            "pl": "Powiemy Hopper.prototype",
+            "ar": "سنقول هوبر. النموذج"
+         },
+         "endTime": 178595,
+         "startTime": 173816
+      },
+      {
+         "text": {
+            "en": "equals object.create",
+            "pl": "równa object.create",
+            "ar": "يساوي كائن. إنشاء"
+         },
+         "endTime": 181967,
+         "startTime": 178595
+      },
+      {
+         "text": {
+            "en": "creature.prototype",
+            "pl": "creature.prototype",
+            "ar": "مخلوق. النموذج"
+         },
+         "endTime": 184977,
+         "startTime": 181967
+      },
+      {
+         "text": {
+            "en": "So what this line does is tells Javascript to base Hopper's prototype so base all of Hopper functionality off of the creature's prototype.",
+            "pl": "Więc ta linia mówi Javascript, aby bazować prototyp Hoppera, więc oprzeć całą funkcjonalność Hoppera z prototypu stworzenia.",
+            "ar": "لذلك ما يفعله هذا الخط هو يقول جافا سكريبت لقاعدة النموذج هوبر لذلك قاعدة جميع وظائف هوبر الخروج من النموذج الأولي للمخلوق."
+         },
+         "endTime": 194197,
+         "startTime": 184977
+      },
+      {
+         "text": {
+            "en": "And then that means that every time it looks for a function on a Hopper it will at Hopper's prototype",
+            "pl": "A potem oznacza to, że za każdym razem, gdy szuka funkcji na Hopper będzie na prototypie Hoppera",
+            "ar": "وهذا يعني أنه في كل مرة يبحث عن وظيفة على هوبر فإنه في النموذج الأولي لهوبر"
+         },
+         "endTime": 202342,
+         "startTime": 194197
+      },
+      {
+         "text": {
+            "en": "first, but then if it doesn't find that it will look and see if it is on the creature's prototype.",
+            "pl": "najpierw, ale jeśli nie okaże się, że będzie wyglądać i zobaczyć, czy jest na prototypie stwora.",
+            "ar": "أولا، ولكن بعد ذلك إذا لم تجد أنها سوف ننظر ومعرفة ما إذا كان على النموذج الأولي للمخلوق."
+         },
+         "endTime": 206429,
+         "startTime": 202342
+      },
+      {
+         "text": {
+            "en": "And this is what we call the prototype chain.",
+            "pl": "I to jest to, co nazywamy łańcuchem prototypów.",
+            "ar": "وهذا ما نسميه سلسلة النموذج الأولي."
+         },
+         "endTime": 209196,
+         "startTime": 206429
+      },
+      {
+         "text": {
+            "en": "Now, once we've done this we should actually be able to delete the talk function.",
+            "pl": "Teraz, gdy już to zrobimy, powinniśmy być w stanie usunąć funkcję rozmowy.",
+            "ar": "الآن، مرة واحدة ونحن قد فعلت هذا يجب أن تكون في الواقع قادرة على حذف وظيفة الحديث."
+         },
+         "endTime": 214032,
+         "startTime": 209196
+      },
+      {
+         "text": {
+            "en": "on Hopper.",
+            "pl": "na Hopper.",
+            "ar": "على هوبر."
+         },
+         "endTime": 215634,
+         "startTime": 214032
+      },
+      {
+         "text": {
+            "en": "Because it already exists on creature.",
+            "pl": "Bo już istnieje na stworzeniu.",
+            "ar": "لأنه موجود بالفعل على المخلوق."
+         },
+         "endTime": 218302,
+         "startTime": 215634
+      },
+      {
+         "text": {
+            "en": "Which is up the prototype chain.",
+            "pl": "Co jest w łańcuchu prototypów.",
+            "ar": "وهو ما يصل سلسلة النموذج الأولي."
+         },
+         "endTime": 220231,
+         "startTime": 218302
+      },
+      {
+         "text": {
+            "en": "Ready? Da dun da....",
+            "pl": "Gotowy? Da dun da...",
+            "ar": "هل أنت مستعد؟ دا دون دا..."
+         },
+         "endTime": 222541,
+         "startTime": 220231
+      },
+      {
+         "text": {
+            "en": "It worked!",
+            "pl": "To zadziałało!",
+            "ar": "لقد نجحت!"
+         },
+         "endTime": 223924,
+         "startTime": 222541
+      },
+      {
+         "text": {
+            "en": "And it works because it finds it on creature prototype instead.",
+            "pl": "I działa, bo zamiast tego znajduje go na prototypie stworzeń.",
+            "ar": "وهو يعمل لأنه يجدها على النموذج الأولي للمخلوق بدلاً من ذلك."
+         },
+         "endTime": 226804,
+         "startTime": 223924
+      },
+      {
+         "text": {
+            "en": "Um.. So let's try deleting on Winston too.",
+            "pl": "Um.. Spróbujmy więc usunąć na Winston też.",
+            "ar": "أم.. لذلك دعونا نحاول حذف على وينستون أيضا."
+         },
+         "endTime": 231234,
+         "startTime": 226804
+      },
+      {
+         "text": {
+            "en": "Okay. It didn't work it says object has no method talk.",
+            "pl": "Okej. To nie zadziałało. Mówi, że obiekt nie ma metody rozmowy.",
+            "ar": "حسناً لم يعمل يقول الكائن لا يوجد لديه طريقة الحديث."
+         },
+         "endTime": 237680,
+         "startTime": 231234
+      },
+      {
+         "text": {
+            "en": "And why is that? And why is that? Well we have our Winston constructer",
+            "pl": "I dlaczego tak jest? I dlaczego tak jest? Cóż, mamy naszego konstruktora Winstona",
+            "ar": "ولماذا هذا؟ ولماذا هذا؟ حسنا لدينا منشئ وينستون"
+         },
+         "endTime": 241263,
+         "startTime": 237680
+      },
+      {
+         "text": {
+            "en": "and draw and we took away the talk.",
+            "pl": "i rysować i zabraliśmy rozmowę.",
+            "ar": "ورسم وأخذنا الحديث."
+         },
+         "endTime": 243517,
+         "startTime": 241263
+      },
+      {
+         "text": {
+            "en": "Well, you notice we forgot to actually tell Winson's prototype to be based off",
+            "pl": "Zauważyłeś, że zapomniałyśmy powiedzieć prototypowi Winsona, żeby opierał się na",
+            "ar": "حسناً، لاحظت أننا نسينا أن نخبر النموذج الأولي لـ (وينسون)"
+         },
+         "endTime": 247924,
+         "startTime": 243517
+      },
+      {
+         "text": {
+            "en": "the creature's prototype.",
+            "pl": "Prototyp stworzenia.",
+            "ar": "النموذج الأولي للمخلوق"
+         },
+         "endTime": 249409,
+         "startTime": 247924
+      },
+      {
+         "text": {
+            "en": "So we need that very important line.",
+            "pl": "Potrzebujemy więc tej bardzo ważnej linii.",
+            "ar": "لذلك نحن بحاجة إلى هذا الخط المهم جدا."
+         },
+         "endTime": 250711,
+         "startTime": 249409
+      },
+      {
+         "text": {
+            "en": "Winston.prototype=object.create",
+            "pl": "winston.prototype=Object.create",
+            "ar": "Winston.prototype = أوبجكت.إنشاء"
+         },
+         "endTime": 253043,
+         "startTime": 250711
+      },
+      {
+         "text": {
+            "en": "creature.portotype.",
+            "pl": "kreatura.portotype.",
+            "ar": "creature.portotype."
+         },
+         "endTime": 255194,
+         "startTime": 253043
+      },
+      {
+         "text": {
+            "en": "Ta Da!",
+            "pl": "Ta Da!",
+            "ar": "تا دا!"
+         },
+         "endTime": 259290,
+         "startTime": 255194
+      },
+      {
+         "text": {
+            "en": "And notice something important.",
+            "pl": "I zauważ coś ważnego.",
+            "ar": "ولاحظ شيئا مهما."
+         },
+         "endTime": 260426,
+         "startTime": 259290
+      },
+      {
+         "text": {
+            "en": "I have this line after the constructor function but before I add anything else to the",
+            "pl": "Mam tę linię po funkcji konstruktora, ale zanim dodam coś innego do",
+            "ar": "لدي هذا الخط بعد وظيفة منشئ ولكن قبل أن أضيف أي شيء آخر إلى"
+         },
+         "endTime": 266097,
+         "startTime": 260426
+      },
+      {
+         "text": {
+            "en": "construction prototype.",
+            "pl": "prototyp konstrukcji.",
+            "ar": "نموذج البناء."
+         },
+         "endTime": 268638,
+         "startTime": 266097
+      },
+      {
+         "text": {
+            "en": "So that's usually what you want to do.",
+            "pl": "Więc to zwykle jest to, co chcesz robić.",
+            "ar": "لذلك هذا هو عادة ما تريد القيام به."
+         },
+         "endTime": 269334,
+         "startTime": 268638
+      },
+      {
+         "text": {
+            "en": "You want to tell it just as",
+            "pl": "Chcesz to powiedzieć tak jak",
+            "ar": "كنت تريد أن أقول ذلك تماما كما"
+         },
+         "endTime": 271230,
+         "startTime": 269334
+      },
+      {
+         "text": {
+            "en": "just as your starting off immediately this is what you initial prototype will be based on",
+            "pl": "tak jak twój początek natychmiast to jest to, co początkowy prototyp będzie oparty na",
+            "ar": "تماما كما الانطلاق الخاص بك على الفور هذا هو ما سوف يستند النموذج الأولي على"
+         },
+         "endTime": 273860,
+         "startTime": 271230
+      },
+      {
+         "text": {
+            "en": "But then we keep adding more stuff to it's prototype",
+            "pl": "Ale potem dodajemy więcej rzeczy do prototypu",
+            "ar": "ولكن بعد ذلك نستمر في إضافة المزيد من الأشياء إلى النموذج الأولي"
+         },
+         "endTime": 276804,
+         "startTime": 273860
+      },
+      {
+         "text": {
+            "en": "Because there could be something that are unique to Winstons or unique to Hoppers",
+            "pl": "Ponieważ nie może być coś, co jest unikalne dla Winstons lub unikalne dla Hoppers",
+            "ar": "لأنه يمكن أن يكون هناك شيء فريد من نوعه إلى Winstons أو فريدة من نوعها إلى النطاط"
+         },
+         "endTime": 281673,
+         "startTime": 276804
+      },
+      {
+         "text": {
+            "en": "that aren't on creatures.",
+            "pl": "które nie są na stworzeniach.",
+            "ar": "التي ليست على المخلوقات"
+         },
+         "endTime": 283909,
+         "startTime": 281673
+      },
+      {
+         "text": {
+            "en": "And that's totally cool that you can define those.",
+            "pl": "I to jest całkiem fajne, że możesz je zdefiniować.",
+            "ar": "وهذا هو بارد تماما أنه يمكنك تحديد تلك."
+         },
+         "endTime": 285405,
+         "startTime": 283909
+      },
+      {
+         "text": {
+            "en": "Alright. Now, if we look at this we still have some repeated code.",
+            "pl": "W porządku. Teraz, jeśli spojrzymy na to, mamy jeszcze jakiś powtarzany kod.",
+            "ar": "حسناً الآن، إذا نظرنا إلى هذا لا يزال لدينا بعض التعليمات البرمجية المتكررة."
+         },
+         "endTime": 290256,
+         "startTime": 285405
+      },
+      {
+         "text": {
+            "en": "The constructor code.",
+            "pl": "Kod konstruktora.",
+            "ar": "رمز المنشئ."
+         },
+         "endTime": 291524,
+         "startTime": 290256
+      },
+      {
+         "text": {
+            "en": "Right? We have this all three times.",
+            "pl": "Prawda? Mamy to trzy razy.",
+            "ar": "صحيح؟ لدينا كل هذا ثلاث مرات."
+         },
+         "endTime": 293366,
+         "startTime": 291524
+      },
+      {
+         "text": {
+            "en": "So could we just delete it?",
+            "pl": "Więc możemy to po prostu skasować?",
+            "ar": "لذا هل يمكننا حذفها؟"
+         },
+         "endTime": 296638,
+         "startTime": 293366
+      },
+      {
+         "text": {
+            "en": "Let's try it.",
+            "pl": "Spróbujmy.",
+            "ar": "دعونا نحاول ذلك."
+         },
+         "endTime": 297840,
+         "startTime": 296638
+      },
+      {
+         "text": {
+            "en": "Okay. Mmm... Doesn't seem like that worked",
+            "pl": "Okej. Mmm... Wygląda na to, że to nie zadziałało",
+            "ar": "حسناً مممم... لا يبدو أن ذلك نجح"
+         },
+         "endTime": 303509,
+         "startTime": 297840
+      },
+      {
+         "text": {
+            "en": "Because our Hopper showed up in the upper left corner, kind of forgot everything about itself.",
+            "pl": "Ponieważ nasz Hopper pojawił się w lewym górnym rogu, zapomniał o sobie wszystkiego.",
+            "ar": "لأن النطاط ظهر في الزاوية اليسرى العليا، نسي كل شيء عن نفسه."
+         },
+         "endTime": 307340,
+         "startTime": 303509
+      },
+      {
+         "text": {
+            "en": "And this is because Javascript does not assume you want the same constructor even if you want to base the prototype off of it.",
+            "pl": "A to dlatego, że Javascript nie zakłada, że chcesz tego samego konstruktora, nawet jeśli chcesz oprzeć prototyp z niego.",
+            "ar": "وذلك لأن Javascript لا تفترض أنك تريد نفس المنشئ حتى إذا كنت ترغب في إنشاء النموذج الأولي منه."
+         },
+         "endTime": 315264,
+         "startTime": 307340
+      },
+      {
+         "text": {
+            "en": "You know, it let's you define your own constructor for these objects.",
+            "pl": "Wiesz, to pozwoli ci zdefiniować własny konstruktor dla tych obiektów.",
+            "ar": "كما تعلمون، دعونا لك تحديد منشئ الخاصة بك لهذه الكائنات."
+         },
+         "endTime": 319359,
+         "startTime": 315264
+      },
+      {
+         "text": {
+            "en": "But it also does give you an easy way to call a constructor from an object",
+            "pl": "Ale to również daje łatwy sposób na wywołanie konstruktora z obiektu",
+            "ar": "ولكنه يمنحك أيضًا طريقة سهلة لاستدعاء منشئ من كائن"
+         },
+         "endTime": 323978,
+         "startTime": 319359
+      },
+      {
+         "text": {
+            "en": "Do the way we will do this is",
+            "pl": "Zrobimy tak, jak to zrobimy",
+            "ar": "هل الطريقة التي سنفعل هذا هي"
+         },
+         "endTime": 328926,
+         "startTime": 323978
+      },
+      {
+         "text": {
+            "en": "we will write creature.callthis,nickname,age,x,y",
+            "pl": "napiszemy creature.callthis, pseudonim, wiek, x, y",
+            "ar": "سوف نكتب creature.callthis، اللقب، العمر، س، ص"
+         },
+         "endTime": 335470,
+         "startTime": 328926
+      },
+      {
+         "text": {
+            "en": "Now what this does (Notice, it worked. Yeah) And what it did is",
+            "pl": "Teraz, co to robi (Zauważ, to działało. Tak) I to, co zrobiło to",
+            "ar": "الآن ما يفعله هذا (لاحظ، عملت. نعم) وما فعلته هو"
+         },
+         "endTime": 340598,
+         "startTime": 335470
+      },
+      {
+         "text": {
+            "en": "actually it's calling the creature function, the construction function.",
+            "pl": "Właściwie to nazywa funkcję stworzenia, funkcję konstrukcyjną.",
+            "ar": "في الواقع انها تدعو وظيفة المخلوق، وظيفة البناء."
+         },
+         "endTime": 343679,
+         "startTime": 340598
+      },
+      {
+         "text": {
+            "en": "It's calling that function but it's passing and it's saying okay you should call this constructor function as if",
+            "pl": "To wywołanie tej funkcji, ale to mija i mówi w porządku należy wywołać tę funkcję konstruktora jakby",
+            "ar": "انها تدعو هذه الوظيفة ولكن انها تمر وانها تقول حسنا يجب استدعاء هذه الوظيفة منشئ كما لو"
+         },
+         "endTime": 350339,
+         "startTime": 343679
+      },
+      {
+         "text": {
+            "en": "it was being called from this Hopper object",
+            "pl": "to było wywoływane z tego obiektu Hoppera",
+            "ar": "كان يطلق عليه من هذا الكائن هوبر"
+         },
+         "endTime": 353764,
+         "startTime": 350339
+      },
+      {
+         "text": {
+            "en": "and as if it's being called with these arguments.",
+            "pl": "i jakby to było wywoływane z tymi argumentami.",
+            "ar": "وكما لو أنه يتم استدعاؤه مع هذه الحجج."
+         },
+         "endTime": 356968,
+         "startTime": 353764
+      },
+      {
+         "text": {
+            "en": "These are arguments that the Hopper got called with.",
+            "pl": "To są argumenty, z którymi Hopper został wezwany.",
+            "ar": "هذه هي الحجج التي تم استدعاؤها مع هوبر."
+         },
+         "endTime": 359427,
+         "startTime": 356968
+      },
+      {
+         "text": {
+            "en": "And that will end up just executing this code as if it was right here.",
+            "pl": "I to skończy się po prostu wykonując ten kod tak, jakby był właśnie tutaj.",
+            "ar": "والتي سوف ينتهي فقط تنفيذ هذا الرمز كما لو كان هنا."
+         },
+         "endTime": 363589,
+         "startTime": 359427
+      },
+      {
+         "text": {
+            "en": "And that's exactly what we want. And it worked.",
+            "pl": "I to jest dokładnie to, czego chcemy. I zadziałało.",
+            "ar": "وهذا بالضبط ما نريده وعملت."
+         },
+         "endTime": 365397,
+         "startTime": 363589
+      },
+      {
+         "text": {
+            "en": "And we can go ahead and do",
+            "pl": "I możemy iść do przodu i zrobić",
+            "ar": "ويمكننا أن نمضي قدماً ونفعل"
+         },
+         "endTime": 369709,
+         "startTime": 365397
+      },
+      {
+         "text": {
+            "en": "copy this line into the Winston",
+            "pl": "skopiuj tę linię do Winstona",
+            "ar": "نسخ هذا الخط في ونستون"
+         },
+         "endTime": 371515,
+         "startTime": 369709
+      },
+      {
+         "text": {
+            "en": "constructor too.",
+            "pl": "konstruktora też.",
+            "ar": "منشئ أيضا."
+         },
+         "endTime": 373757,
+         "startTime": 371515
+      },
+      {
+         "text": {
+            "en": "And it works. Yay!",
+            "pl": "I to działa. Hura!",
+            "ar": "وهو يعمل. ياي!"
+         },
+         "endTime": 376531,
+         "startTime": 373757
+      },
+      {
+         "text": {
+            "en": "Alright. So check this out. We've encapsulated all our shared properties and functionalities in this single base object type, creature",
+            "pl": "W porządku. Więc obczaj to. Mamy hermetyzowany wszystkie nasze wspólne właściwości i funkcjonalności w tym pojedynczym typie obiektu bazowego, istota",
+            "ar": "حسناً لذلك تحقق من هذا. لقد قمنا بتغليف جميع الخصائص والوظائف المشتركة في هذا النوع الكائن الأساسي الوحيد، المخلوق"
+         },
+         "endTime": 384901,
+         "startTime": 376531
+      },
+      {
+         "text": {
+            "en": "And we've made two object type that extend from this base object.",
+            "pl": "I zrobiliśmy dwa typy obiektów, które rozciągają się od tego obiektu bazowego.",
+            "ar": "ولقد قدمنا اثنين من نوع الكائن التي تمتد من هذا الكائن الأساسي."
+         },
+         "endTime": 388207,
+         "startTime": 384901
+      },
+      {
+         "text": {
+            "en": "They inherit some functionality but they add their own too.",
+            "pl": "Oni dziedziczą pewne funkcjonalności, ale dodają własne też.",
+            "ar": "أنها ترث بعض الوظائف لكنها تضيف الخاصة بهم أيضا."
+         },
+         "endTime": 390981,
+         "startTime": 388207
+      },
+      {
+         "text": {
+            "en": "And the cool thing about this is that we can change the shared functionality in a single place.",
+            "pl": "A fajne w tym jest to, że możemy zmienić wspólną funkcjonalność w jednym miejscu.",
+            "ar": "والشيء الرائع حول هذا هو أنه يمكننا تغيير الوظائف المشتركة في مكان واحد."
+         },
+         "endTime": 396339,
+         "startTime": 390981
+      },
+      {
+         "text": {
+            "en": "Like if we wanted to change age again we could say plus years old.",
+            "pl": "Jakbyśmy chcieli ponownie zmienić wiek, moglibyśmy powiedzieć plus lat.",
+            "ar": "مثل إذا أردنا تغيير العمر مرة أخرى يمكننا أن نقول زائد سنوات من العمر."
+         },
+         "endTime": 400302,
+         "startTime": 396339
+      },
+      {
+         "text": {
+            "en": "Now everybody has \"years old\" at the end of it.",
+            "pl": "Teraz każdy ma „lata” na końcu.",
+            "ar": "الآن كل شخص لديه «سنوات» في نهايته."
+         },
+         "endTime": 403908,
+         "startTime": 400302
+      },
+      {
+         "text": {
+            "en": "Or we could change the \"talk\" functions and be like \"woo\". And now both Winstons and Hoppers are saying \"sup\"",
+            "pl": "Albo możemy zmienić funkcje „talk” i być jak „woo”. A teraz zarówno Winstons, jak i Hoppers mówią „sup”",
+            "ar": "أو يمكننا تغيير وظائف «الحديث» وتكون مثل «وو». والآن كل من وينستونز و النطاط يقولون «سوب»"
+         },
+         "endTime": 409871,
+         "startTime": 403908
+      },
+      {
+         "text": {
+            "en": "So now that you've seen how to create object types and inherit from object types",
+            "pl": "Więc teraz, że widzieliście, jak tworzyć typy obiektów i dziedziczyć z typów obiektów",
+            "ar": "حتى الآن بعد أن رأيت كيفية إنشاء أنواع الكائنات وترث من أنواع الكائنات"
+         },
+         "endTime": 417174,
+         "startTime": 409871
+      },
+      {
+         "text": {
+            "en": "you can start thinking about how this might be useful in your drawings and animations and stimulations and games.",
+            "pl": "możesz zacząć myśleć o tym, jak może to być przydatne w rysunkach i animacji oraz stymulacjach i grach.",
+            "ar": "يمكنك البدء في التفكير في كيفية هذا قد يكون مفيدا في الرسومات والرسوم المتحركة والتحفيز والألعاب."
+         },
+         "endTime": 421348,
+         "startTime": 417174
+      },
+      {
+         "text": {
+            "en": "For example, maybe you have a game and you have many type of characters in it",
+            "pl": "Na przykład, może masz grę i masz wiele rodzajów znaków w nim",
+            "ar": "على سبيل المثال، ربما يكون لديك لعبة ولديك العديد من أنواع الأحرف فيها"
+         },
+         "endTime": 425257,
+         "startTime": 421348
+      },
+      {
+         "text": {
+            "en": "and all of them can run but only some of them can jump.",
+            "pl": "i wszystkie z nich mogą biegać, ale tylko niektóre z nich mogą skakać.",
+            "ar": "ويمكن تشغيل كل منهم ولكن البعض منهم فقط يمكن القفز."
+         },
+         "endTime": 427683,
+         "startTime": 425257
+      },
+      {
+         "text": {
+            "en": "That's a perfect place from some object types and some inheritance.",
+            "pl": "To idealne miejsce od niektórych typów obiektów i dziedziczenia.",
+            "ar": "هذا هو المكان المثالي من بعض أنواع الكائنات وبعض الميراث."
+         },
+         "endTime": 431970,
+         "startTime": 427683
+      },
+      {
+         "text": {
+            "en": "But I bet you can think of tons of more ways as well.",
+            "pl": "Ale założę się, że możesz pomyśleć o wielu innych sposobach.",
+            "ar": "ولكن أراهن أنك يمكن أن تفكر في طن من المزيد من الطرق كذلك."
+         },
+         "endTime": 435970,
+         "startTime": 431970
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/UAk8Xr89hkI/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759816664",
+   "title": "Object Inheritance | Object-Oriented Design | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}

@@ -1,0 +1,492 @@
+{
+   "data": [
+      {
+         "text": {
+            "en": "You've already learned how  to make your own variables and use them.",
+            "pl": "Nauczyłeś się już tworzyć własne zmienne i używać ich.",
+            "ar": "لقد تعلمت بالفعل كيفية جعل المتغيرات الخاصة بك واستخدامها."
+         },
+         "endTime": 3797,
+         "startTime": 289
+      },
+      {
+         "text": {
+            "en": "Now we're going to learn  about two special variables:",
+            "pl": "Teraz dowiemy się o dwóch specjalnych zmiennych:",
+            "ar": "الآن نحن في طريقنا لمعرفة المزيد عن اثنين من المتغيرات الخاصة:"
+         },
+         "endTime": 6657,
+         "startTime": 3797
+      },
+      {
+         "text": {
+            "en": "<i>mouseX</i> and <i>mouseY</i>.",
+            "pl": "<i> MouSex </i> i <i> MouseY </i> .",
+            "ar": "<i> موسكس </i> و <i> موسي </i> ."
+         },
+         "endTime": 9353,
+         "startTime": 6657
+      },
+      {
+         "text": {
+            "en": "You never have to make  these variables yourself,",
+            "pl": "Nigdy nie musisz tworzyć tych zmiennych samodzielnie,",
+            "ar": "لا يجب عليك أن تصنع هذه المتغيرات بنفسك"
+         },
+         "endTime": 12671,
+         "startTime": 10222
+      },
+      {
+         "text": {
+            "en": "and in fact you shouldn't, because they already exist.",
+            "pl": "A właściwie nie powinieneś, bo one już istnieją.",
+            "ar": "وفي الواقع لا يجب عليك، لأنها موجودة بالفعل."
+         },
+         "endTime": 15980,
+         "startTime": 12671
+      },
+      {
+         "text": {
+            "en": "You see, the program sets the values  of these variables behind the scenes,",
+            "pl": "Widzisz, program ustawia wartości tych zmiennych za kulisami,",
+            "ar": "كما ترون، البرنامج يحدد قيم هذه المتغيرات وراء الكواليس،"
+         },
+         "endTime": 19599,
+         "startTime": 15980
+      },
+      {
+         "text": {
+            "en": "making sure that the value of mouseX is always the <i>x</i> position of your mouse,",
+            "pl": "upewniając się, że wartość MouseX jest zawsze <i> x </i> położenie myszy,",
+            "ar": "التأكد من أن قيمة MouSex هي دائما <i> س </i> موقف الماوس الخاص بك،"
+         },
+         "endTime": 23758,
+         "startTime": 19599
+      },
+      {
+         "text": {
+            "en": "and the value of mouseY  is always the <i>y</i> position of your mouse.",
+            "pl": ", a wartość MouseY jest zawsze <i> y </i> pozycji myszy.",
+            "ar": "وقيمة Mousey هو دائما <i> ذ </i> موقف الماوس الخاص بك."
+         },
+         "endTime": 27548,
+         "startTime": 23758
+      },
+      {
+         "text": {
+            "en": "This makes it really easy to do cool, interactive things",
+            "pl": "To sprawia, że naprawdę łatwo robić fajne, interaktywne rzeczy",
+            "ar": "هذا يجعل من السهل حقا القيام بأشياء باردة وتفاعلية"
+         },
+         "endTime": 30864,
+         "startTime": 27548
+      },
+      {
+         "text": {
+            "en": "based on the user's mouse position.",
+            "pl": "w oparciu o pozycję myszy użytkownika.",
+            "ar": "استنادا إلى موقف الماوس المستخدم."
+         },
+         "endTime": 32558,
+         "startTime": 30864
+      },
+      {
+         "text": {
+            "en": "Let's look at this ellipse that I'm drawing here.",
+            "pl": "Spójrzmy na tę elipsę, którą tu rysuję.",
+            "ar": "دعونا ننظر إلى هذا القطع الناقص الذي أرسمه هنا."
+         },
+         "endTime": 35868,
+         "startTime": 33430
+      },
+      {
+         "text": {
+            "en": "So, right now,  I'm always drawing it at 200, 200.",
+            "pl": "Więc teraz, zawsze rysuję ją na 200, 200.",
+            "ar": "لذا، الآن، أنا دائما أرسمه على 200، 200."
+         },
+         "endTime": 39366,
+         "startTime": 35868
+      },
+      {
+         "text": {
+            "en": "If I use mouseX and mouseY,  these special variables,",
+            "pl": "Jeśli użyję MouseX i MouseY, tych specjalnych zmiennych,",
+            "ar": "إذا كنت تستخدم موسكس و موسي، هذه المتغيرات الخاصة،"
+         },
+         "endTime": 43827,
+         "startTime": 40612
+      },
+      {
+         "text": {
+            "en": "then I can actually draw it at mouseX and mouseY.",
+            "pl": "wtedy mogę narysować to w MouseX i MouseY.",
+            "ar": "ثم يمكنني فعلا رسم عليه في موسكس وموسي."
+         },
+         "endTime": 48286,
+         "startTime": 44439
+      },
+      {
+         "text": {
+            "en": "Now, if I move my mouse  over the canvas, you can see",
+            "pl": "Teraz, jeśli przesuwam mysz nad płótnem, widać",
+            "ar": "الآن، إذا حركت الماوس فوق اللوحة، يمكنك أن ترى"
+         },
+         "endTime": 52359,
+         "startTime": 49337
+      },
+      {
+         "text": {
+            "en": "the ellipse is always being drawn where my mouse is --",
+            "pl": "Elipsa jest zawsze rysowana tam, gdzie jest moja mysz...",
+            "ar": "يتم رسم القطع الناقص دائمًا حيث يكون فأر بلدي —"
+         },
+         "endTime": 55291,
+         "startTime": 52359
+      },
+      {
+         "text": {
+            "en": "so it follows my mouse around.",
+            "pl": "więc podąża za moją myszką wokół.",
+            "ar": "لذلك يتبع الماوس بلدي حولها."
+         },
+         "endTime": 57193,
+         "startTime": 55291
+      },
+      {
+         "text": {
+            "en": "That's pretty cool; can you tell what I'm drawing? Whee!",
+            "pl": "To całkiem fajne. Możesz powiedzieć, co rysuję? Whee!",
+            "ar": "هذا رائع، أيمكنك معرفة ما أرسمه؟ (وي)!"
+         },
+         "endTime": 60000,
+         "startTime": 57193
+      },
+      {
+         "text": {
+            "en": "If you're going to use mouseX and mouseY, you've got to make sure",
+            "pl": "Jeśli zamierzasz używać MouseX i MouseY, musisz się upewnić",
+            "ar": "إذا كنت ستستخدم MouSex و Mousey، فيجب عليك التأكد"
+         },
+         "endTime": 64125,
+         "startTime": 60468
+      },
+      {
+         "text": {
+            "en": "that you use them inside the <i>draw = function ()</i>",
+            "pl": ", że używasz ich wewnątrz <i> draw = function () </i>",
+            "ar": "أن كنت تستخدم لهم داخل <i> رسم = وظيفة () </i>"
+         },
+         "endTime": 66365,
+         "startTime": 64125
+      },
+      {
+         "text": {
+            "en": "because look what happens",
+            "pl": "bo spójrz, co się dzieje",
+            "ar": "لانو انظروا ماذا يحدث"
+         },
+         "endTime": 68135,
+         "startTime": 66365
+      },
+      {
+         "text": {
+            "en": "if we move these two lines of code outside the <i>draw = function ()</i>.",
+            "pl": "jeśli przeniesiemy te dwa wiersze kodu poza <i> draw = function () </i> .",
+            "ar": "إذا قمنا بنقل هذين الخطين من التعليمات البرمجية خارج <i> رسم = وظيفة () </i> ."
+         },
+         "endTime": 72700,
+         "startTime": 69575
+      },
+      {
+         "text": {
+            "en": "You see?",
+            "pl": "Widzisz?",
+            "ar": "هل ترى؟"
+         },
+         "endTime": 74436,
+         "startTime": 73289
+      },
+      {
+         "text": {
+            "en": "Now this code here only gets run once,",
+            "pl": "Teraz ten kod tutaj zostanie uruchomiony tylko raz,",
+            "ar": "الآن هذا الرمز هنا يحصل فقط تشغيل مرة واحدة،"
+         },
+         "endTime": 79206,
+         "startTime": 74871
+      },
+      {
+         "text": {
+            "en": "so this ellipse is only drawn once,",
+            "pl": "więc ta elipsa jest rysowana tylko raz,",
+            "ar": "لذلك يتم رسم هذا القطع الناقص مرة واحدة فقط،"
+         },
+         "endTime": 81811,
+         "startTime": 79206
+      },
+      {
+         "text": {
+            "en": "and it's drawn wherever my mouse happened to be",
+            "pl": "i jest rysowany wszędzie tam, gdzie moja mysz była",
+            "ar": "وهو مرسومة أينما حدث فأر"
+         },
+         "endTime": 84036,
+         "startTime": 81811
+      },
+      {
+         "text": {
+            "en": "at the very, very beginning of the program.",
+            "pl": "na samym, samym początku programu.",
+            "ar": "في بداية البرنامج."
+         },
+         "endTime": 86140,
+         "startTime": 84036
+      },
+      {
+         "text": {
+            "en": "That's why we <i>need</i> to have it inside the <i>draw = function ()</i>,",
+            "pl": "Dlatego <i> Potrzeba </i> , aby mieć go wewnątrz <i> draw = function () </i> ,",
+            "ar": "لهذا السبب نحن <i> ضرورة </i> أن يكون ذلك داخل <i> رسم = وظيفة () </i> ,"
+         },
+         "endTime": 90337,
+         "startTime": 86725
+      },
+      {
+         "text": {
+            "en": "because the <i>draw = function ()</i> is this function",
+            "pl": "ponieważ <i> draw = function () </i> jest ta funkcja",
+            "ar": "لأن <i> رسم = وظيفة () </i> هل هذه الوظيفة"
+         },
+         "endTime": 92459,
+         "startTime": 90337
+      },
+      {
+         "text": {
+            "en": "that's called repeatedly over and over while our program is running.",
+            "pl": ", który jest nazywany wielokrotnie w kółko, podczas gdy nasz program jest uruchomiony.",
+            "ar": "وهذا ما يسمى مرارا وتكرارا أثناء تشغيل برنامجنا."
+         },
+         "endTime": 95784,
+         "startTime": 92459
+      },
+      {
+         "text": {
+            "en": "So we want that when it gets called, it looks at what the current value",
+            "pl": "Więc chcemy, aby kiedy to się nazywa, to wygląda na to, co aktualna wartość",
+            "ar": "لذلك نحن نريد أنه عندما يحصل يسمى، فإنه ينظر إلى ما القيمة الحالية"
+         },
+         "endTime": 99149,
+         "startTime": 95784
+      },
+      {
+         "text": {
+            "en": "of mouseX and mouseY is, and then it draws the ellipse at that position.",
+            "pl": "z MouseX i MouseY jest, a następnie rysuje elipsę w tej pozycji.",
+            "ar": "من MouSex و Mousey هو، ومن ثم يرسم القطع الناقص في هذا الموقف."
+         },
+         "endTime": 103246,
+         "startTime": 99149
+      },
+      {
+         "text": {
+            "en": "If you think about it, it's  actually very similar to an animation --",
+            "pl": "Jeśli się nad tym zastanowić, to jest bardzo podobne do animacji.",
+            "ar": "إذا كنت تفكر في ذلك، انها في الواقع مشابهة جدا للرسوم المتحركة —"
+         },
+         "endTime": 106063,
+         "startTime": 103246
+      },
+      {
+         "text": {
+            "en": "it's changing over time,  just in a different way.",
+            "pl": "zmienia się z czasem, po prostu w inny sposób.",
+            "ar": "انها تتغير مع مرور الوقت، فقط بطريقة مختلفة."
+         },
+         "endTime": 108561,
+         "startTime": 106063
+      },
+      {
+         "text": {
+            "en": "Okay, now we can do  all sorts of fun things.",
+            "pl": "Okej, teraz możemy robić różne zabawne rzeczy.",
+            "ar": "حسنا، الآن يمكننا أن نفعل كل أنواع الأشياء الممتعة."
+         },
+         "endTime": 112065,
+         "startTime": 109191
+      },
+      {
+         "text": {
+            "en": "What if, instead of drawing it  at mouseX and mouseY,",
+            "pl": "Co jeśli zamiast rysować na MouseX i MouseY,",
+            "ar": "ماذا لو، بدلاً من رسمه في (موسكس) و (موسي)"
+         },
+         "endTime": 115724,
+         "startTime": 112567
+      },
+      {
+         "text": {
+            "en": "I drew it at mouseX still but I fixed mouseY at something like 300?",
+            "pl": "Narysowałem go w Mousex, ale naprawiłem Myszkę na jakieś 300?",
+            "ar": "رسمته في MouSex لا يزال ولكن أنا إصلاح Mousey في شيء من هذا القبيل 300؟"
+         },
+         "endTime": 122591,
+         "startTime": 116353
+      },
+      {
+         "text": {
+            "en": "Now you can see that the ellipse  only follows my x coordinate,",
+            "pl": "Teraz widać, że elipsa podąża tylko za moją współrzędną x,",
+            "ar": "الآن يمكنك أن ترى أن القطع الناقص يتبع فقط تنسيق x الخاص بي،"
+         },
+         "endTime": 127369,
+         "startTime": 123231
+      },
+      {
+         "text": {
+            "en": "ignoring whatever I do in the y.",
+            "pl": "ignorując to, co robię w y.",
+            "ar": "تجاهل كل ما أفعله في y."
+         },
+         "endTime": 129204,
+         "startTime": 127369
+      },
+      {
+         "text": {
+            "en": "Then, what if I now draw it at mouseX and mouseY, bringing that back,",
+            "pl": "A co jeśli teraz narysuję to na MouseX i Mousey, przynosząc to z powrotem,",
+            "ar": "إذن، ماذا لو رسمتُ الآن على (موسكس) و (موزي)،"
+         },
+         "endTime": 136873,
+         "startTime": 130991
+      },
+      {
+         "text": {
+            "en": "but I get rid of the background, just commenting that out?",
+            "pl": "ale pozbywam się tła, tylko komentując to?",
+            "ar": "ولكن أنا التخلص من الخلفية، مجرد التعليق على ذلك؟"
+         },
+         "endTime": 139756,
+         "startTime": 136873
+      },
+      {
+         "text": {
+            "en": "<i>Woo</i>! Now look, I've got  this funky paintbrush thing.",
+            "pl": "<i> Woo </i> ! Słuchaj, mam ten zabawny pędzel.",
+            "ar": "<i> وو </i> ! الآن انظر، لقد حصلت على هذا الشيء غير تقليدي فرشاة الطلاء."
+         },
+         "endTime": 145234,
+         "startTime": 140547
+      },
+      {
+         "text": {
+            "en": "That's pretty awesome.",
+            "pl": "To całkiem zajebiste.",
+            "ar": "هذا رائع جداً"
+         },
+         "endTime": 147031,
+         "startTime": 145234
+      },
+      {
+         "text": {
+            "en": "Or, or, I could even switch these variables.",
+            "pl": "Albo, albo, mógłbym nawet zmienić te zmienne.",
+            "ar": "أو، أو، يمكنني حتى تبديل هذه المتغيرات."
+         },
+         "endTime": 150470,
+         "startTime": 147031
+      },
+      {
+         "text": {
+            "en": "Let me bring back our background.",
+            "pl": "Pozwól, że przywrócę nasze przeszłość.",
+            "ar": "اسمحوا لي أن أعيد خلفيتنا."
+         },
+         "endTime": 152894,
+         "startTime": 151029
+      },
+      {
+         "text": {
+            "en": "I'll switch these variables here,  mouseY and mouseX,",
+            "pl": "Przełączę te zmienne tutaj, Mousey i MouseX,",
+            "ar": "سأقوم بتبديل هذه المتغيرات هنا، Mousey و MouSex،"
+         },
+         "endTime": 157703,
+         "startTime": 152894
+      },
+      {
+         "text": {
+            "en": "and then see what happens.",
+            "pl": "i zobaczymy, co się stanie.",
+            "ar": "ثم نرى ما يحدث."
+         },
+         "endTime": 159202,
+         "startTime": 157703
+      },
+      {
+         "text": {
+            "en": "Now it just feels really, really weird.",
+            "pl": "Teraz czuję się naprawdę, naprawdę dziwnie.",
+            "ar": "الآن هو فقط يشعر حقا، حقا غريب."
+         },
+         "endTime": 161232,
+         "startTime": 159202
+      },
+      {
+         "text": {
+            "en": "I've got these mouse controls  that are doing opposite",
+            "pl": "Mam te przyciski myszy, które robią odwrotnie",
+            "ar": "لقد حصلت على هذه الضوابط الماوس التي تفعل العكس"
+         },
+         "endTime": 163853,
+         "startTime": 161232
+      },
+      {
+         "text": {
+            "en": "of what I would expect them to.",
+            "pl": "tego, czego bym się spodziewał.",
+            "ar": "لما أتوقعه منهم"
+         },
+         "endTime": 165576,
+         "startTime": 163854
+      },
+      {
+         "text": {
+            "en": "But that's cool, you could imagine  making a whole game",
+            "pl": "Ale to fajne, możesz sobie wyobrazić, że cała gra",
+            "ar": "ولكن هذا رائع، يمكنك أن تتخيل صنع لعبة كاملة"
+         },
+         "endTime": 168321,
+         "startTime": 165576
+      },
+      {
+         "text": {
+            "en": "which is about trying to draw something or do something",
+            "pl": "który jest o próbie narysowania czegoś lub zrobić coś",
+            "ar": "الذي هو حول محاولة رسم شيء أو القيام بشيء"
+         },
+         "endTime": 170950,
+         "startTime": 168321
+      },
+      {
+         "text": {
+            "en": "while using inverted mouse controls.",
+            "pl": "podczas korzystania z odwróconych elementów sterujących myszą.",
+            "ar": "أثناء استخدام عناصر تحكم الماوس المقلوبة."
+         },
+         "endTime": 172940,
+         "startTime": 170950
+      },
+      {
+         "text": {
+            "en": "That's it for mouseX and mouseY -- really, pretty fun. Enjoy!",
+            "pl": "To wszystko dla MouseX i Mouseya. Naprawdę, całkiem fajnie. Ciesz się!",
+            "ar": "هذا كل شيء ل MouSex و Mousey — حقا، متعة جدا. استمتع!"
+         },
+         "endTime": 178908,
+         "startTime": 173040
+      }
+   ],
+   "url": "https://www.khanacademy.org/api/internal/videos/RELJjY9VmhE/transcript?casing=camel&lang=en&_=210312-1427-4159b0b508d1_1615759639123",
+   "title": "Mouse Interaction | Interactive programs | Intro to JS: Drawing & Animation | Computer programming | Computing | Khan Academy"
+}
